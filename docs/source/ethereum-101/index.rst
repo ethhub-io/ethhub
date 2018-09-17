@@ -1,5 +1,0 @@
-.. toctree::
-   :maxdepth: 2
-
-   geth.rst
-   parity.rst
