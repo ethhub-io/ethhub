@@ -5,10 +5,11 @@
 
 EthHub
 ==================================
+Welcome to EthHub, the one stop shop for all essential Ethereum information.
+
 
 .. toctree::
-   :maxdepth: 2
-   :caption: Contents:
+   :maxdepth: 4
    
    Ethereum-101/index.rst
    about.rst
