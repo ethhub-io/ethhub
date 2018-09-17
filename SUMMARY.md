@@ -13,6 +13,7 @@
 ## Getting Started
 
 * [Running a Node](getting-started/running-a-node.md)
+	* [Geth](getting-started/running-a-node/geth.md)
 * [Wallets](getting-started/wallets.md)
 * [Interacting with Web3](getting-started/interacting-with-web3.md)
 * [Transactions](getting-started/transacting.md)
