@@ -22,9 +22,6 @@ Ethereum 101
         Ethereums governance process
         Advantages/disadvantages of on-chain governance
 Getting Started
-    -Running a Node
-        https://medium.com/mercuryprotocol/how-to-run-an-ethereum-node-on-aws-a8774ed3acf6
-        https://dappnode.io/
     -Wallets
         MyCrypto
         MyEtherWallet
@@ -35,6 +32,9 @@ Getting Started
         https://balance.io/
     -Interacting with Web3
         Same as wallets?
+    -Running a Node
+        https://medium.com/mercuryprotocol/how-to-run-an-ethereum-node-on-aws-a8774ed3acf6
+        https://dappnode.io/
     -Transactions (block explorers?)
         https://etherscan.io/
         https://ethplorer.io/
@@ -48,16 +48,24 @@ Getting Started
 Proof of Stake
     -Benefits of PoS
     -Transition from PoW
+        Beacon chain
     -Casper
+        History of FFG and CBC?
     -Staking
+        Overview
+        Minimum stake
+        Hardware and software requirements
+        Slashing conditions
 Scaling Solutions
     -General
         https://docs.google.com/spreadsheets/d/1BQ0bK_LhSQvxtvXryVoIcmxeKMuVJCq6oD0aS5_hpC8/htmlview#gid=0
         https://medium.com/l4-media/making-sense-of-ethereums-layer-2-scaling-solutions-state-channels-plasma-and-truebit-22cb40dcc2f4
     -Blockchain Scalability Trilemma
+        https://github.com/ethereum/wiki/wiki/Sharding-FAQs#this-sounds-like-theres-some-kind-of-scalability-trilemma-at-play-what-is-this-trilemma-and-can-we-break-through-it
     -Sharding
         http://notes.ethereum.org/s/BJc_eGVFM
         https://medium.com/prysmatic-labs/how-to-scale-ethereum-sharding-explained-ba2e283b7fce
+        https://github.com/ethereum/wiki/wiki/Sharding-FAQs
     -Plasma
         https://medium.com/crypto-economics/what-is-plasma-plasma-cash-6fbbef784a
         https://medium.com/chain-cloud-company-blog/plasma-in-10-minutes-c856da94e339
@@ -71,12 +79,17 @@ Ethereum Narratives
     -Ether as Money
     -Store of Value
         https://old.reddit.com/r/ethtrader/comments/7mwbbc/will_proof_of_stake_turn_eth_into_the_best_store/
-Token Standards
+Tokens
     -What is ERC?
     -ERC Standard Breakdown
         ERC20 and successor
         ERC721 (and composables)
         Identitiy
+    -TCRs
+        https://medium.com/@maxbronstein/introduction-to-token-curated-registries-e2699f2270cd
+    -NFTs
+        https://decentraland.org/blog/technology/what-are-nfts
+    
 Misc
     http://www.flippening.watch/
     https://gallery.cryptogoods.com/
