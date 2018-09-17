@@ -3,18 +3,27 @@ Ethereum 101
         https://www.upfolio.com/ultimate-ethereum-guide 
     -Key Concepts
         Smart Contracts
+        Gas (https://media.consensys.net/a-guide-to-gas-12b40d03605d)
+        Solidity/Viper
         Sharding
         Proof of Stake/Shasper
         Plasma
         State Channels
         Raiden?
-        ERC Standards
+        Tokens
+        ERC20 Standards
+        ENS (https://medium.com/@jgm.orinoco/ethdns-an-ethereum-backend-for-the-domain-name-system-d52dabd904b3)
     -History
         https://www.etherchain.org/hardForks
+        DDos Attacks
+        The DAO and Ethereum Classic
+        CryptoKitties?
     -Roadmap
+        https://ethresear.ch/
         Shasper (Casper and Sharding)
+        State Channels
         Plasma
-        Privacy
+        Privacy/ZK-SNARKS
     -Monetary Policy
         EIP1234
         Inflation under Shasper
@@ -23,13 +32,22 @@ Ethereum 101
         Advantages/disadvantages of on-chain governance
 Getting Started
     -Wallets
-        MyCrypto
-        MyEtherWallet
-        MetaMask
-        Coinbase Wallet
-        Trust Wallet
-        imToken
-        https://balance.io/
+        -Software Wallets
+            MyCrypto
+            MyEtherWallet
+            MetaMask
+            Coinbase Wallet
+            Trust Wallet
+            imToken
+            Liquidity Wallet
+            Enjin Wallet
+            Coinomi
+            https://balance.io/
+        -Hardware Wallets
+            Ledger
+            Trezor
+        -Custody Services
+            Coinbase Custody
     -Interacting with Web3
         Same as wallets?
     -Running a Node
@@ -89,7 +107,17 @@ Tokens
         https://medium.com/@maxbronstein/introduction-to-token-curated-registries-e2699f2270cd
     -NFTs
         https://decentraland.org/blog/technology/what-are-nfts
-    
+Ethereum Myths
+    Is Ethereum more expensive to use when the Ether price is higher?
+    I heard that Ethereum will never scale so how will it support all these dapps?
+    Is Ethereum centralized?
+    If Ethereum is not free to use how will it ever compete with blockchains that provide free transactions?
+    Is Ethereum Classic is the original Ethereum?
+    Did Ethereum reverse a transaction and perform a bailout?
+    Is Ethereum a Store of Value?
+    If Ether has an infinite supply how can we expect Ether to ever hold value?
+    Is Ethereum a security?
+    Is Ethereum only good for scam ICOs?
 Misc
     http://www.flippening.watch/
     https://gallery.cryptogoods.com/
