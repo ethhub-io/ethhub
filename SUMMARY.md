@@ -14,7 +14,8 @@
 
 * [Running a Node](getting-started/running-a-node.md)
 * [Wallets](getting-started/wallets.md)
-* [Transacting](getting-started/transacting.md)
+* [Transactions](getting-started/transacting.md)
+* [Interacting with Web3](getting-started/interacting-with-web3.md)
 * [Essential Tools](getting-started/essential-tools.md)
 
 ## Ethereum Narratives
