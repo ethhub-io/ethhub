@@ -1,2 +1,0 @@
-# Ether as Money
-

@@ -32,12 +32,6 @@
 * [Plasma](scaling-solutions/layer-2-scaling.md)
 * [State Channels](scaling-solutions/state-channels.md)
 
-## Ethereum Narratives
-
-* [Open Finance](ethereum-narratives/open-finance.md)
-* [Ether as Money](ethereum-narratives/ether-as-money.md)
-* [Store of Value](ethereum-narratives/store-of-value.md)
-
 ## Token Standards
 
 * [What is ERC?](token-standards/what-is-erc.md)
