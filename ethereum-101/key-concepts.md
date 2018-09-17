@@ -4,7 +4,9 @@
 * Block
 * Contract
 * Ether
-* Gas 
+* ERC Standards
+* ENS (https://medium.com/@jgm.orinoco/ethdns-an-ethereum-backend-for-the-domain-name-system-d52dabd904b3)
+* Gas (https://media.consensys.net/a-guide-to-gas-12b40d03605d)
 * Gas Limit
 * Gas Price
 * Gwei
@@ -14,5 +16,11 @@
 * Multi-Sig
 * Node
 * Price
+* Proof of Stake/Shasper
+* Plasma
 * Soft Fork
-
+* Smart Contracts
+* Solidity/Viper
+* Sharding
+* State Channels
+* Tokens
