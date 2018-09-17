@@ -5,6 +5,7 @@
 ## Ethereum 101
 
 * [What is Ethereum?](ethereum-101/what-is-ethereum.md)
+* [Key Concepts](ethereum-101/key-concepts.md)
 * [History](ethereum-101/history.md)
 * [Roadmap](ethereum-101/roadmap.md)
 * [Issuance](ethereum-101/issuance.md)
@@ -12,8 +13,14 @@
 ## Getting Started
 
 * [Running a Node](getting-started/running-a-node.md)
+* [Wallets](getting-started/wallets.md)
 * [Transacting](getting-started/transacting.md)
 * [Essential Tools](getting-started/essential-tools.md)
+
+## Ethereum Narratives
+
+* [Open Finance](ethereum-narratives/open-finance.md)
+* [Ether as Money](ethereum-narratives/ether-as-money.md)
 
 ## Scaling Solutions
 
