@@ -1,8 +1,0 @@
-site_name: EthHub
-nav:
-    - Home: index.md
-    - Ethereum 101: ethereum101.md
-    - Roadmap: roadmap.md
-    - Scaling: scaling.md
-    - About: about.md
-theme: material
