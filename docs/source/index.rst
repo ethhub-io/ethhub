@@ -11,12 +11,3 @@ EthHub
    :caption: Contents:
    
    Ethereum-101
-
-
-
-Index
-==================
-
-* :ref:`genindex`
-* :ref:`modindex`
-* :ref:`search`
