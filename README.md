@@ -1,1 +1,2 @@
-# ethhub
+# Ethereum 101
+
