@@ -7,7 +7,8 @@ EthHub
 ==================================
 Welcome to EthHub, the one stop shop for all essential Ethereum information.
 
-
+Contents
+==================================
 .. toctree::
    :maxdepth: 2
    
