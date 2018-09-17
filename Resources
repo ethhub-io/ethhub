@@ -1,7 +1,6 @@
 Ethereum 101
     -What is Ethereum?
-        https://www.upfolio.com/ultimate-ethereum-guide
-        
+        https://www.upfolio.com/ultimate-ethereum-guide 
     -Key Concepts
         Smart Contracts
         Sharding
@@ -13,10 +12,15 @@ Ethereum 101
     -History
         https://www.etherchain.org/hardForks
     -Roadmap
-        Shasper
-    -Issuance
+        Shasper (Casper and Sharding)
+        Plasma
+        Privacy
+    -Monetary Policy
         EIP1234
         Inflation under Shasper
+    -Governance
+        Ethereums governance process
+        Advantages/disadvantages of on-chain governance
 Getting Started
     -Running a Node
         https://medium.com/mercuryprotocol/how-to-run-an-ethereum-node-on-aws-a8774ed3acf6
@@ -27,6 +31,8 @@ Getting Started
         MetaMask
         Coinbase Wallet
         Trust Wallet
+        imToken
+        https://balance.io/
     -Interacting with Web3
         Same as wallets?
     -Transactions (block explorers?)
@@ -71,3 +77,12 @@ Token Standards
         ERC20 and successor
         ERC721 (and composables)
         Identitiy
+Misc
+    http://www.flippening.watch/
+    https://gallery.cryptogoods.com/
+    https://dappradar.com/
+    https://dapptrack.com/localethereum
+    https://dappstore.link/
+    https://www.dapp.com/
+    https://app.co/
+    https://github.com/jragosa/EthereumObituaries/blob/master/README.md
