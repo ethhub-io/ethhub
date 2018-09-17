@@ -1,2 +1,2 @@
-# Initial page
+# Ethereum 101
 
