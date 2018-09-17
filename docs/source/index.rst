@@ -10,4 +10,5 @@ EthHub
    :maxdepth: 2
    :caption: Contents:
    
-   Ethereum-101
+   Ethereum-101/index.rst
+   about.rst
