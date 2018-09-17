@@ -9,14 +9,6 @@ EthHub
 .. toctree::
    :maxdepth: 2
    :caption: Contents:
-   
-   Ethereum-101
 
-
-
-Index
-==================
-
-* :ref:`genindex`
-* :ref:`modindex`
-* :ref:`search`
+   geth.rst
+   parity.rst
