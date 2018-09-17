@@ -1,24 +1,73 @@
--Ethereum 101
-    -What is it
-    -Intro videos?
--Node clients
-    -full node clients and different settings
-    -light node clients
-    -mobile clients
--Roadmap
--Historical roadmap (past forks, etc)
--Future use cases of Ethereum
+Ethereum 101
+    -What is Ethereum?
+        https://www.upfolio.com/ultimate-ethereum-guide
+        
+    -Key Concepts
+        Smart Contracts
+        Sharding
+        Proof of Stake/Shasper
+        Plasma
+        State Channels
+        Raiden?
+        ERC Standards
+    -History
+        https://www.etherchain.org/hardForks
+    -Roadmap
+        Shasper
+    -Issuance
+        EIP1234
+        Inflation under Shasper
+Getting Started
+    -Running a Node
+        https://medium.com/mercuryprotocol/how-to-run-an-ethereum-node-on-aws-a8774ed3acf6
+        https://dappnode.io/
+    -Wallets
+        MyCrypto
+        MyEtherWallet
+        MetaMask
+        Coinbase Wallet
+        Trust Wallet
+    -Interacting with Web3
+        Same as wallets?
+    -Transactions (block explorers?)
+        https://etherscan.io/
+        https://ethplorer.io/
+        https://trivial.co/
+    -Essential Tools
+        https://loanscan.io/
+        https://ethgasstation.info/
+        https://ethstats.net/
+        https://www.stateofthedapps.com/
+        https://gitcoin.co/gas/history?breakdown=weekly
+Proof of Stake
+    -Benefits of PoS
+    -Transition from PoW
+    -Casper
+    -Staking
+Scaling Solutions
+    -General
+        https://docs.google.com/spreadsheets/d/1BQ0bK_LhSQvxtvXryVoIcmxeKMuVJCq6oD0aS5_hpC8/htmlview#gid=0
+        https://medium.com/l4-media/making-sense-of-ethereums-layer-2-scaling-solutions-state-channels-plasma-and-truebit-22cb40dcc2f4
+    -Blockchain Scalability Trilemma
+    -Sharding
+        http://notes.ethereum.org/s/BJc_eGVFM
+        https://medium.com/prysmatic-labs/how-to-scale-ethereum-sharding-explained-ba2e283b7fce
+    -Plasma
+        https://medium.com/crypto-economics/what-is-plasma-plasma-cash-6fbbef784a
+        https://medium.com/chain-cloud-company-blog/plasma-in-10-minutes-c856da94e339
+    -State Channels
+        https://www.youtube.com/watch?v=kZH_ty82jKY&feature=youtu.be
+        https://medium.com/statechannels/state-channel-applications-1f170e7d542e
+Ethereum Narratives
     -Open Finance
--Proof of Stake
--ERC Token Standards
--Inflation/Issuance deep dive
--Governance/EIP process
--Different core dev teams and what everyone is working on
--Tools
-    -block explorers
-    -wallets
--Exchanges/trading primer
--How to get started coding on Ethereum
--EEA and what they are working on
--dapp list
--Upcoming events/livestreams
+        Ethereum is a country
+        Ether is the currency
+    -Ether as Money
+    -Store of Value
+        https://old.reddit.com/r/ethtrader/comments/7mwbbc/will_proof_of_stake_turn_eth_into_the_best_store/
+Token Standards
+    -What is ERC?
+    -ERC Standard Breakdown
+        ERC20 and successor
+        ERC721 (and composables)
+        Identitiy
