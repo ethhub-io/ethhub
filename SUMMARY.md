@@ -1,7 +1,5 @@
 # Table of contents
 
-* [What is EthHub?](README.md)
-
 ## Ethereum 101
 
 * [What is Ethereum?](ethereum-101/what-is-ethereum.md)
@@ -42,7 +40,6 @@
 * [Layer 2](scaling-solutions/layer-2-scaling.md)
 	* [Plasma](scaling-solutions/layer-2-scaling/plasma.md)
 	* [State Channels](scaling-solutions/layer-2-scaling/state-channels.md)
-* [State Channels](scaling-solutions/state-channels.md)
 
 ## Token Standards
 
