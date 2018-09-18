@@ -1,4 +1,4 @@
-# State Channels
+# Transition from PoW
 
 
 

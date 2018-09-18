@@ -1,4 +1,4 @@
-# Layer 2
+# Proof of Stake
 
 
 

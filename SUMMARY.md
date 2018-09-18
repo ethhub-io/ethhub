@@ -25,11 +25,18 @@
 
 ## Roadmap
 
-* [Layer 1](roadmap/layer-1-scaling/README.md)
-  * [Sharding](roadmap/layer-1-scaling/sharding.md)
-* [Layer 2](roadmap/layer-2-scaling/README.md)
-  * [Plasma](roadmap/layer-2-scaling/plasma.md)
-  * [State Channels](roadmap/layer-2-scaling/state-channels.md)
+* [Timeline](roadmap/timeline.md)
+* [Scaling](roadmap/layer-1-scaling/README.md)
+  * [Layer 1](roadmap/layer-1-scaling/sharding/README.md)
+    * [Sharding](roadmap/layer-1-scaling/sharding/sharding.md)
+  * [Layer 2](roadmap/layer-1-scaling/layer-2/README.md)
+    * [Plasma](roadmap/layer-1-scaling/layer-2/plasma.md)
+    * [State Channels](roadmap/layer-1-scaling/layer-2/state-channels.md)
+* [Proof of Stake](roadmap/layer-2-scaling/README.md)
+  * [Benefits of PoS](roadmap/layer-2-scaling/plasma.md)
+  * [Transition from PoW](roadmap/layer-2-scaling/state-channels.md)
+  * [Staking](roadmap/layer-2-scaling/staking.md)
+* [Privacy](roadmap/privacy.md)
 
 ## Using Ethereum
 
