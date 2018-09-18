@@ -20,14 +20,16 @@
   * [Hard Forks](ethereum-101/history/hard-forks.md)
   * [The DAO and Ethereum Classic](ethereum-101/history/the-dao-and-ethereum-classic.md)
   * [DDOS Attacks](ethereum-101/history/ddos-attacks.md)
-* [Roadmap](ethereum-101/roadmap/README.md)
-  * [Proof of Stake](ethereum-101/roadmap/sharding/README.md)
-    * [Benefits over Proof of Work](ethereum-101/roadmap/sharding/benefits-over-proof-of-work.md)
-    * [Staking](ethereum-101/roadmap/sharding/staking.md)
-  * [Sharding](ethereum-101/roadmap/casper.md)
-  * [Privacy](ethereum-101/roadmap/privacy.md)
 * [Monetary Policy](ethereum-101/issuance.md)
 * [Governance](ethereum-101/governance.md)
+
+## Roadmap
+
+* [Layer 1](roadmap/layer-1-scaling/README.md)
+  * [Sharding](roadmap/layer-1-scaling/sharding.md)
+* [Layer 2](roadmap/layer-2-scaling/README.md)
+  * [Plasma](roadmap/layer-2-scaling/plasma.md)
+  * [State Channels](roadmap/layer-2-scaling/state-channels.md)
 
 ## Using Ethereum
 
@@ -41,15 +43,6 @@
 * [Interacting with Web3](getting-started/interacting-with-web3.md)
 * [Transactions](getting-started/transacting.md)
 * [Essential Tools](getting-started/essential-tools.md)
-
-## Scaling Solutions
-
-* [Blockchain Scalability Trilemma](scaling-solutions/blockchain-scalability-trilemma.md)
-* [Layer 1](scaling-solutions/layer-1-scaling/README.md)
-  * [Sharding](scaling-solutions/layer-1-scaling/sharding.md)
-* [Layer 2](scaling-solutions/layer-2-scaling/README.md)
-  * [Plasma](scaling-solutions/layer-2-scaling/plasma.md)
-  * [State Channels](scaling-solutions/layer-2-scaling/state-channels.md)
 
 ## Token Standards
 

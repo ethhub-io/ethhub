@@ -1,4 +1,0 @@
-# Blockchain Scalability Trilemma
-
-
-
