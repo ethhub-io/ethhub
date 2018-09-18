@@ -1,4 +1,4 @@
-# History
+# Hard Forks
 
 ## Hard Fork History
 
@@ -39,6 +39,4 @@ Describe Spurious Dragon fork
 ### Byzantium
 
 Describe Byzantium Fork
-
-
 

@@ -9,12 +9,14 @@
   * [Open Finance](ethereum-101/ethereum-use-cases/open-finance.md)
   * [Ether as Money](ethereum-101/ethereum-use-cases/ether-as-money.md)
   * [Store of Value](ethereum-101/ethereum-use-cases/store-of-value.md)
-* [Key Concepts](ethereum-101/key-concepts.md)
-	* [Smart Contracts](ethereum-101/key-concepts/smart-contracts.md)
-* [History](ethereum-101/history.md)
-	* [Hard Forks](ethereum-101/history/hard-forks.md)
+* [Key Concepts](ethereum-101/key-concepts/README.md)
+  * [Smart Contracts](ethereum-101/key-concepts/smart-contracts.md)
+* [History](ethereum-101/history/README.md)
+  * [Pre-Mainnet](ethereum-101/history/pre-mainnet.md)
+  * [Hard Forks](ethereum-101/history/hard-forks.md)
+  * [The DAO and Ethereum Classic](ethereum-101/history/the-dao-and-ethereum-classic.md)
+  * [DDOS Attacks](ethereum-101/history/ddos-attacks.md)
 * [Roadmap](ethereum-101/roadmap.md)
-	* [Sharding](ethereum-101/roadmap/sharding.md)
 * [Issuance](ethereum-101/issuance.md)
 
 ## Getting Started
@@ -29,13 +31,6 @@
 * [Interacting with Web3](getting-started/interacting-with-web3.md)
 * [Transactions](getting-started/transacting.md)
 * [Essential Tools](getting-started/essential-tools.md)
-
-## Proof of Stake
-
-* [Benefits of PoS](proof-of-stake/benefits-of-pos.md)
-* [Transition from PoW](proof-of-stake/transition-from-pow.md)
-* [Casper](proof-of-stake/casper.md)
-* [Staking](proof-of-stake/staking.md)
 
 ## Scaling Solutions
 
