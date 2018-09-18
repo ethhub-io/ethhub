@@ -11,6 +11,10 @@
   * [Store of Value](ethereum-101/ethereum-use-cases/store-of-value.md)
 * [Key Concepts](ethereum-101/key-concepts/README.md)
   * [Smart Contracts](ethereum-101/key-concepts/smart-contracts.md)
+  * [Gas](ethereum-101/key-concepts/gas.md)
+  * [Solidity](ethereum-101/key-concepts/solidity.md)
+  * [ENS](ethereum-101/key-concepts/ens.md)
+  * [Tokens](ethereum-101/key-concepts/tokens.md)
 * [History](ethereum-101/history/README.md)
   * [Pre-Mainnet](ethereum-101/history/pre-mainnet.md)
   * [Hard Forks](ethereum-101/history/hard-forks.md)
@@ -18,7 +22,10 @@
   * [DDOS Attacks](ethereum-101/history/ddos-attacks.md)
 * [Roadmap](ethereum-101/roadmap/README.md)
   * [Sharding](ethereum-101/roadmap/sharding.md)
-* [Issuance](ethereum-101/issuance.md)
+  * [Casper](ethereum-101/roadmap/casper.md)
+  * [Privacy](ethereum-101/roadmap/privacy.md)
+* [Monetary Policy](ethereum-101/issuance.md)
+* [Governance](ethereum-101/governance.md)
 
 ## Getting Started
 
@@ -53,4 +60,9 @@
 
 * [ERC20](token-standards/erc20.md)
 * [ERC721](token-standards/erc721.md)
+
+## Ethereum Myths
+
+* [Centralization Myth](ethereum-myths/centralization-myth.md)
+* [Cost Myth](ethereum-myths/cost-myth.md)
 
