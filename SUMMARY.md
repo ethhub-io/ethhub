@@ -97,7 +97,7 @@
   * [God's Unchained](built-on-ethereum/games/gods-unchained.md)
   * [Zombie Battlegrounds](built-on-ethereum/games/zombie-battlegrounds.md)
   * [CryptoKitties](built-on-ethereum/games/cryptokitties.md)
-* [Collectables](built-on-ethereum/collectables/README.md)
+* [Collectibles](built-on-ethereum/collectables/README.md)
   * [CryptoPunks](built-on-ethereum/collectables/cryptopunks.md)
   * [MLB Crypto Baseball](built-on-ethereum/collectables/mlb-crypto-baseball.md)
 * [Prediction Markets](built-on-ethereum/prediction-markets/README.md)

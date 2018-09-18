@@ -1,2 +1,2 @@
-# Collectables
+# Collectibles
 
