@@ -86,6 +86,7 @@
     * [GUSD](built-on-ethereum/open-finance/stablecoins/gusd.md)
   * [Lending](built-on-ethereum/open-finance/lending/README.md)
     * [dYdX](built-on-ethereum/open-finance/lending/dydx.md)
+      * [expo](built-on-ethereum/open-finance/lending/expo.md)
     * [Dharma](built-on-ethereum/open-finance/lending/dharma.md)
     * [Compound](built-on-ethereum/open-finance/lending/compound.md)
   * [Set Protocol](built-on-ethereum/open-finance/set-protocol.md)
