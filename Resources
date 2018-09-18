@@ -91,6 +91,7 @@ Scaling Solutions
     -State Channels
         https://www.youtube.com/watch?v=kZH_ty82jKY&feature=youtu.be
         https://medium.com/statechannels/state-channel-applications-1f170e7d542e
+    -Connext Network(?)
 Ethereum Narratives
     -Open Finance
         Ethereum is a country
@@ -128,3 +129,44 @@ Misc
     https://www.dapp.com/
     https://app.co/
     https://github.com/jragosa/EthereumObituaries/blob/master/README.md
+Financial Projects on Ethereum
+    -Decentralized Exchanges
+        AirSwap
+        Kyber Network
+        IDEX
+        Totle
+        Republic Protocol
+        -0x Relayers
+            Paradex
+            Radar Relay
+            Ocean
+            DDEX
+            Ethfinex    
+    -Open Financial Platforms
+        -Stablecoins (https://stablecoinindex.com/)
+            Fiat-collateralized: IOU “Centralized” stablecoins / backed by fiat currencies, collateral-backed
+            Crypto-collateralized: IOU “Decentralized” stablecoins / backed by crypto and/or multiple assets, collateral-backed
+            Non-collateralized: Seigniorage Shares / Decentralized Bank / Algorithmic stabilization mechanisms
+            https://media.consensys.net/the-state-of-stablecoins-2018-79ccb9988e63
+        -Lending
+            dYdX
+            Dharma Protocol
+            Compound
+        -Tokenization
+            {Set} Protocol       
+    -Marketplaces
+        OpenSea
+        Rarebits
+dApps
+    -Games (LOOM Network, CryptoKitties, Fuel Games etc)
+        LOOM Network
+        CryptoKitties
+        Fuel Games
+        Horizon Games
+    -Collectibles
+        Gods Unchained
+        Zombie Battleground
+        MLB        
+Developer Tools
+    https://github.com/ConsenSys/ethereum-developer-tools-list
+       
