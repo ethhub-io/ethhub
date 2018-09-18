@@ -1,4 +1,0 @@
-# What is ERC?
-
-
-

@@ -43,10 +43,3 @@
 	* [Plasma](scaling-solutions/layer-2-scaling/plasma.md)
 	* [State Channels](scaling-solutions/layer-2-scaling/state-channels.md)
 
-## Token Standards
-
-* [What is ERC?](token-standards/what-is-erc.md)
-* [ERC Standard Breakdown](token-standards/erc-standard-breakdown.md)
-	*[ERC20](token-standards/erc-standard-breakdown/erc20.md)
-	*[ERC721](token-standards/erc-standard-breakdown/erc721.md)
-
