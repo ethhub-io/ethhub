@@ -51,11 +51,11 @@
 * [Transactions](getting-started/transacting.md)
 * [Essential Tools](getting-started/essential-tools.md)
 
-## Token Standards
+## Tokens
 
-* [What is ERC?](token-standards/what-is-erc.md)
-* [ERC20](token-standards/erc20.md)
-* [ERC721](token-standards/erc721.md)
+* [ERC Token Standards](token-standards/what-is-erc/README.md)
+  * [ERC20](token-standards/what-is-erc/erc20.md)
+  * [ERC721](token-standards/what-is-erc/erc721.md)
 
 ## Ethereum Myths
 
