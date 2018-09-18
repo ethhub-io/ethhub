@@ -1,4 +1,4 @@
-# What is EthHub?
+# Welcome to EthHub
 
-Welcome to the EthHub. The essential Ethereum information hub.
+The goal of this site is to provide a one stop shop for essential Ethereum information.
 

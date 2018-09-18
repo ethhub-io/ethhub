@@ -1,6 +1,6 @@
 # Table of contents
 
-* [What is EthHub?](README.md)
+* [Welcome to EthHub](README.md)
 
 ## Ethereum 101
 
