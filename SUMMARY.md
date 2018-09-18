@@ -21,9 +21,10 @@
   * [The DAO and Ethereum Classic](ethereum-101/history/the-dao-and-ethereum-classic.md)
   * [DDOS Attacks](ethereum-101/history/ddos-attacks.md)
 * [Roadmap](ethereum-101/roadmap/README.md)
-  * [Transition from PoW](ethereum-101/roadmap/sharding.md)
+  * [Proof of Stake](ethereum-101/roadmap/sharding/README.md)
+    * [Benefits over Proof of Work](ethereum-101/roadmap/sharding/benefits-over-proof-of-work.md)
+    * [Staking](ethereum-101/roadmap/sharding/staking.md)
   * [Sharding](ethereum-101/roadmap/casper.md)
-  * [Staking](ethereum-101/roadmap/staking.md)
   * [Privacy](ethereum-101/roadmap/privacy.md)
 * [Monetary Policy](ethereum-101/issuance.md)
 * [Governance](ethereum-101/governance.md)
@@ -34,9 +35,9 @@
   * [Geth](getting-started/running-a-node/geth.md)
   * [Parity](getting-started/running-a-node/parity.md)
 * [Wallets](getting-started/wallets/README.md)
-  * [Desktop](getting-started/wallets/desktop.md)
-  * [Mobile](getting-started/wallets/mobile.md)
-  * [Hardware](getting-started/wallets/hardware.md)
+  * [Software](getting-started/wallets/desktop.md)
+  * [Hardware](getting-started/wallets/mobile.md)
+  * [Custody](getting-started/wallets/hardware.md)
 * [Interacting with Web3](getting-started/interacting-with-web3.md)
 * [Transactions](getting-started/transacting.md)
 * [Essential Tools](getting-started/essential-tools.md)
@@ -52,6 +53,7 @@
 
 ## Token Standards
 
+* [What is ERC?](token-standards/what-is-erc.md)
 * [ERC20](token-standards/erc20.md)
 * [ERC721](token-standards/erc721.md)
 

@@ -1,4 +1,0 @@
-# Transition from PoW
-
-
-
