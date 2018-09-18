@@ -10,11 +10,9 @@
   * [Ether as Money](ethereum-101/ethereum-use-cases/ether-as-money.md)
   * [Store of Value](ethereum-101/ethereum-use-cases/store-of-value.md)
 * [Key Concepts](ethereum-101/key-concepts/README.md)
-  * [Smart Contracts](ethereum-101/key-concepts/smart-contracts.md)
   * [Gas](ethereum-101/key-concepts/gas.md)
+  * [Smart Contracts](ethereum-101/key-concepts/smart-contracts.md)
   * [Solidity](ethereum-101/key-concepts/solidity.md)
-  * [ENS](ethereum-101/key-concepts/ens.md)
-  * [Tokens](ethereum-101/key-concepts/tokens.md)
 * [History](ethereum-101/history/README.md)
   * [Pre-Mainnet](ethereum-101/history/pre-mainnet.md)
   * [Hard Forks](ethereum-101/history/hard-forks.md)
@@ -74,6 +72,7 @@
 
 ## Built on Ethereum
 
+* [\*\*TEMPLATE FOR DAPPS\*\*](built-on-ethereum/template-for-dapps.md)
 * [Decentralized Exchanges](built-on-ethereum/decentralized-exchanges/README.md)
   * [0x Protocol](built-on-ethereum/decentralized-exchanges/0x-protocol/README.md)
     * [0x Relayers](built-on-ethereum/decentralized-exchanges/0x-protocol/0x-relayers.md)
