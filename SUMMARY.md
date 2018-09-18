@@ -14,6 +14,7 @@
 * [History](ethereum-101/history.md)
 	* [Hard Forks](ethereum-101/history/hard-forks.md)
 * [Roadmap](ethereum-101/roadmap.md)
+	* [Sharding](ethereum-101/roadmap/sharding.md)
 * [Issuance](ethereum-101/issuance.md)
 
 ## Getting Started
