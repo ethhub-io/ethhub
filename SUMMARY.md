@@ -1,5 +1,7 @@
 # Table of contents
 
+* [What is EthHub?](README.md)
+
 ## Ethereum 101
 
 * [What is Ethereum?](ethereum-101/what-is-ethereum.md)
@@ -45,4 +47,6 @@
 
 * [What is ERC?](token-standards/what-is-erc.md)
 * [ERC Standard Breakdown](token-standards/erc-standard-breakdown.md)
+	*[ERC20](token-standards/erc-standard-breakdown/erc20.md)
+	*[ERC721](token-standards/erc-standard-breakdown/erc721.md)
 
