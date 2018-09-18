@@ -12,6 +12,7 @@
 * [Key Concepts](ethereum-101/key-concepts.md)
 	* [Smart Contracts](ethereum-101/key-concepts/smart-contracts.md)
 * [History](ethereum-101/history.md)
+	* [Hard Forks](ethereum-101/history/hard-forks.md)
 * [Roadmap](ethereum-101/roadmap.md)
 * [Issuance](ethereum-101/issuance.md)
 
