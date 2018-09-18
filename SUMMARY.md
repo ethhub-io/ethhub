@@ -5,10 +5,10 @@
 ## Ethereum 101
 
 * [What is Ethereum?](ethereum-101/what-is-ethereum.md)
-* [Ethereum Use Cases] (ethereum-101/ethereum-use-cases.md)
-	* [Open Finance] (ethereum-101/ethereum-use-cases/open-finance.md)
-	* [Ether as Money] (ethereum-101/ethereum-use-cases/ether-as-money.md)
-	* [Store of Value] (ethereum-101/ethereum-use-cases/store-of-value.md)
+* [Ethereum Use Cases](ethereum-101/ethereum-use-cases.md)
+	* [Open Finance](ethereum-101/ethereum-use-cases/open-finance.md)
+	* [Ether as Money](ethereum-101/ethereum-use-cases/ether-as-money.md)
+	* [Store of Value](ethereum-101/ethereum-use-cases/store-of-value.md)
 * [Key Concepts](ethereum-101/key-concepts.md)
 * [History](ethereum-101/history.md)
 * [Roadmap](ethereum-101/roadmap.md)
