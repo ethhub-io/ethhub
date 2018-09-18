@@ -16,7 +16,8 @@
   * [Hard Forks](ethereum-101/history/hard-forks.md)
   * [The DAO and Ethereum Classic](ethereum-101/history/the-dao-and-ethereum-classic.md)
   * [DDOS Attacks](ethereum-101/history/ddos-attacks.md)
-* [Roadmap](ethereum-101/roadmap.md)
+* [Roadmap](ethereum-101/roadmap/README.md)
+  * [Sharding](ethereum-101/roadmap/sharding.md)
 * [Issuance](ethereum-101/issuance.md)
 
 ## Getting Started
@@ -31,6 +32,13 @@
 * [Interacting with Web3](getting-started/interacting-with-web3.md)
 * [Transactions](getting-started/transacting.md)
 * [Essential Tools](getting-started/essential-tools.md)
+
+## Proof of Stake
+
+* [Benefits of PoS](proof-of-stake/benefits-of-pos.md)
+* [Transition from PoW](proof-of-stake/transition-from-pow.md)
+* [Casper](proof-of-stake/casper.md)
+* [Staking](proof-of-stake/staking.md)
 
 ## Scaling Solutions
 
