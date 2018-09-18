@@ -1,2 +1,2 @@
-# Is Ethereum Classic is the original Ethereum?
+# Is Ethereum Classic the original Ethereum?
 

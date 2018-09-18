@@ -1,2 +1,2 @@
-# If Ethereum is not free to use how will it ever compete with blockchains that provide free trans
+# If it cost money to send a transaction on Ethereum, how will it compete with free blockchains?
 
