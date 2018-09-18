@@ -56,9 +56,33 @@
 * [ERC Token Standards](token-standards/what-is-erc/README.md)
   * [ERC20](token-standards/what-is-erc/erc20.md)
   * [ERC721](token-standards/what-is-erc/erc721.md)
+* [TCRs](token-standards/tcrs.md)
+* [NFTs](token-standards/nfts.md)
 
 ## Ethereum Myths
 
-* [Centralization Myth](ethereum-myths/centralization-myth.md)
-* [Cost Myth](ethereum-myths/cost-myth.md)
+* [Is Ethereum centralized?](ethereum-myths/is-ethereum-centralized.md)
+* [Is Ethereum more expensive to use when the Ether price is higher?](ethereum-myths/centralization-myth.md)
+* [I heard that Ethereum will never scale so how will it support all these dapps?](ethereum-myths/cost-myth.md)
+* [If Ethereum is not free to use how will it ever compete with blockchains that provide free trans](ethereum-myths/if-ethereum-is-not-free-to-use-how-will-it-ever-compete-with-blockchains-that-provide-free-trans.md)
+* [Is Ethereum Classic is the original Ethereum?](ethereum-myths/is-ethereum-classic-is-the-original-ethereum.md)
+* [Is Ethereum a Store of Value?](ethereum-myths/is-ethereum-a-store-of-value.md)
+* [If Ether has an infinite supply how can we expect Ether to ever hold value?](ethereum-myths/if-ether-has-an-infinite-supply-how-can-we-expect-ether-to-ever-hold-value.md)
+* [Is Ethereum a security?](ethereum-myths/is-ethereum-a-security.md)
+* [Is Ethereum only good for scam ICOs?](ethereum-myths/is-ethereum-only-good-for-scam-icos.md)
+* [Is Ethereum Immutable?](ethereum-myths/is-ethereum-immutable.md)
+
+## Built on Ethereum
+
+* [Decentralized Exchanges](built-on-ethereum/decentralized-exchanges.md)
+* [Open Finance](built-on-ethereum/open-finance/README.md)
+  * [Stablecoins](built-on-ethereum/open-finance/stablecoins.md)
+  * [Lending](built-on-ethereum/open-finance/lending.md)
+  * [Tokenization](built-on-ethereum/open-finance/tokenization.md)
+* [Marketplaces](built-on-ethereum/marketplaces.md)
+* [Games](built-on-ethereum/games.md)
+* [Collectables](built-on-ethereum/collectables.md)
+* [Prediction Markets](built-on-ethereum/prediction-markets.md)
+* [Identity](built-on-ethereum/identity.md)
+* [Governance](built-on-ethereum/governance.md)
 
