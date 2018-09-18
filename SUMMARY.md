@@ -59,6 +59,7 @@
 
 ## Ethereum Myths
 
+* [\*\*TEMPLATE FOR MYTHS\*\*](ethereum-myths/template.md)
 * [Is Ethereum centralized?](ethereum-myths/is-ethereum-centralized.md)
 * [Is Ethereum more expensive to use when the Ether price is higher?](ethereum-myths/centralization-myth.md)
 * [I heard that Ethereum will never scale so how will it support all these dapps?](ethereum-myths/cost-myth.md)
@@ -69,7 +70,6 @@
 * [Is Ethereum a security?](ethereum-myths/is-ethereum-a-security.md)
 * [Is Ethereum only good for scam ICOs?](ethereum-myths/is-ethereum-only-good-for-scam-icos.md)
 * [Is Ethereum Immutable?](ethereum-myths/is-ethereum-immutable.md)
-* [\*\*TEMPLATE FOR MYTHS\*\*](ethereum-myths/template.md)
 
 ## Built on Ethereum
 
