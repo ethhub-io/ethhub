@@ -59,7 +59,7 @@
 
 ## Ethereum Myths
 
-* [\*\*TEMPLATE\*\*](ethereum-myths/template.md)
+* [\*\*TEMPLATE FOR MYTHS\*\*](ethereum-myths/template.md)
 * [Is Ethereum centralized?](ethereum-myths/is-ethereum-centralized.md)
 * [Is Ethereum more expensive to use when the Ether price is higher?](ethereum-myths/centralization-myth.md)
 * [I heard that Ethereum will never scale so how will it support all these dapps?](ethereum-myths/cost-myth.md)
