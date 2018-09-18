@@ -20,14 +20,18 @@
   * [Hard Forks](ethereum-101/history/hard-forks.md)
   * [The DAO and Ethereum Classic](ethereum-101/history/the-dao-and-ethereum-classic.md)
   * [DDOS Attacks](ethereum-101/history/ddos-attacks.md)
-* [Roadmap](ethereum-101/roadmap/README.md)
-  * [Sharding](ethereum-101/roadmap/sharding.md)
-  * [Casper](ethereum-101/roadmap/casper.md)
-  * [Privacy](ethereum-101/roadmap/privacy.md)
 * [Monetary Policy](ethereum-101/issuance.md)
 * [Governance](ethereum-101/governance.md)
 
-## Getting Started
+## Roadmap
+
+* [Proof of Stake](roadmap/roadmap/README.md)
+  * [Transition from PoW](roadmap/roadmap/sharding.md)
+  * [Staking](roadmap/roadmap/staking.md)
+* [Sharding](roadmap/casper.md)
+* [Privacy](roadmap/privacy.md)
+
+## Using Ethereum
 
 * [Running a Node](getting-started/running-a-node/README.md)
   * [Geth](getting-started/running-a-node/geth.md)
@@ -39,13 +43,6 @@
 * [Interacting with Web3](getting-started/interacting-with-web3.md)
 * [Transactions](getting-started/transacting.md)
 * [Essential Tools](getting-started/essential-tools.md)
-
-## Proof of Stake
-
-* [Benefits of PoS](proof-of-stake/benefits-of-pos.md)
-* [Transition from PoW](proof-of-stake/transition-from-pow.md)
-* [Casper](proof-of-stake/casper.md)
-* [Staking](proof-of-stake/staking.md)
 
 ## Scaling Solutions
 
