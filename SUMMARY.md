@@ -10,6 +10,7 @@
 	* [Ether as Money](ethereum-101/ethereum-use-cases/ether-as-money.md)
 	* [Store of Value](ethereum-101/ethereum-use-cases/store-of-value.md)
 * [Key Concepts](ethereum-101/key-concepts.md)
+	* [Smart Contracts](ethereum-101/key-concepts/smart-contracts.md)
 * [History](ethereum-101/history.md)
 * [Roadmap](ethereum-101/roadmap.md)
 * [Issuance](ethereum-101/issuance.md)
