@@ -20,16 +20,13 @@
   * [Hard Forks](ethereum-101/history/hard-forks.md)
   * [The DAO and Ethereum Classic](ethereum-101/history/the-dao-and-ethereum-classic.md)
   * [DDOS Attacks](ethereum-101/history/ddos-attacks.md)
+* [Roadmap](ethereum-101/roadmap/README.md)
+  * [Transition from PoW](ethereum-101/roadmap/sharding.md)
+  * [Sharding](ethereum-101/roadmap/casper.md)
+  * [Staking](ethereum-101/roadmap/staking.md)
+  * [Privacy](ethereum-101/roadmap/privacy.md)
 * [Monetary Policy](ethereum-101/issuance.md)
 * [Governance](ethereum-101/governance.md)
-
-## Roadmap
-
-* [Proof of Stake](roadmap/roadmap/README.md)
-  * [Transition from PoW](roadmap/roadmap/sharding.md)
-  * [Staking](roadmap/roadmap/staking.md)
-* [Sharding](roadmap/casper.md)
-* [Privacy](roadmap/privacy.md)
 
 ## Using Ethereum
 
