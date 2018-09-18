@@ -1,4 +1,1 @@
-# Running a Node
-
-
-
+# Geth

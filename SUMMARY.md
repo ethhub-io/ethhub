@@ -5,6 +5,10 @@
 ## Ethereum 101
 
 * [What is Ethereum?](ethereum-101/what-is-ethereum.md)
+* [Ethereum Use Cases] (ethereum-101/ethereum-use-cases.md)
+	* [Open Finance] (ethereum-101/ethereum-use-cases/open-finance.md)
+	* [Ether as Money] (ethereum-101/ethereum-use-cases/ether-as-money.md)
+	* [Store of Value] (ethereum-101/ethereum-use-cases/store-of-value.md)
 * [Key Concepts](ethereum-101/key-concepts.md)
 * [History](ethereum-101/history.md)
 * [Roadmap](ethereum-101/roadmap.md)
@@ -14,7 +18,11 @@
 
 * [Running a Node](getting-started/running-a-node.md)
 	* [Geth](getting-started/running-a-node/geth.md)
+	* [Parity](getting-started/running-a-node/parity.md)
 * [Wallets](getting-started/wallets.md)
+	* [Desktop](getting-started/wallets/desktop.md)
+	* [Mobile](getting-started/wallets/mobile.md)
+	* [Hardware](getting-started/wallets/hardware.md)
 * [Interacting with Web3](getting-started/interacting-with-web3.md)
 * [Transactions](getting-started/transacting.md)
 * [Essential Tools](getting-started/essential-tools.md)
@@ -29,8 +37,11 @@
 ## Scaling Solutions
 
 * [Blockchain Scalability Trilemma](scaling-solutions/blockchain-scalability-trilemma.md)
-* [Sharding](scaling-solutions/layer-1-scaling.md)
-* [Plasma](scaling-solutions/layer-2-scaling.md)
+* [Layer 1](scaling-solutions/layer-1-scaling.md)
+	* [Sharding](scaling-solutions/layer-1-scaling/sharding.md)
+* [Layer 2](scaling-solutions/layer-2-scaling.md)
+	* [Plasma](scaling-solutions/layer-2-scaling/plasma.md)
+	* [State Channels](scaling-solutions/layer-2-scaling/state-channels.md)
 * [State Channels](scaling-solutions/state-channels.md)
 
 ## Token Standards
