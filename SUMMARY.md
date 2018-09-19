@@ -15,6 +15,7 @@
   * [Gas](ethereum-101/key-concepts/gas.md)
   * [Fee Market](ethereum-101/key-concepts/fee-market.md)
   * [Smart Contracts](ethereum-101/key-concepts/smart-contracts.md)
+  * [Uncle Block](ethereum-101/key-concepts/uncle-block.md)
   * [Solidity](ethereum-101/key-concepts/solidity.md)
 * [History](ethereum-101/history/README.md)
   * [Pre-Mainnet](ethereum-101/history/pre-mainnet.md)
