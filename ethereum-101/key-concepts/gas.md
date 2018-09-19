@@ -4,7 +4,7 @@ Understanding gas is fundamental to understand how the Ethereum network function
   
 Every transaction on the Ethereum network requires computation power to execute. The measurement of how much computation power is required is called gas. Computational resources aren't free, therefore users requesting a transaction to be executed must pay for it.   
   
-There is a limit to how much gas can be computed in any single block. This creates a fee market using gas price, where users decide how much they are willing to pay for each unit of gas. Due to the gas block limit, the fee market determines what order transactions are mined in.  
+There is a limit to how much gas can be computed in any single block. This creates a fee market using gas price, where users decide how much they are willing to pay for each unit of gas. Due to the gas block limit, the [fee market](fee-market.md) determines what order transactions are mined in.  
   
 There are many key components to a transaction that are important to understand:
 
