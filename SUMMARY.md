@@ -11,6 +11,7 @@
   * [Store of Value](ethereum-101/ethereum-use-cases/store-of-value.md)
 * [Key Concepts](ethereum-101/key-concepts/README.md)
   * [Gas](ethereum-101/key-concepts/gas.md)
+  * [Fee Market](ethereum-101/key-concepts/fee-market.md)
   * [Smart Contracts](ethereum-101/key-concepts/smart-contracts.md)
   * [Solidity](ethereum-101/key-concepts/solidity.md)
 * [History](ethereum-101/history/README.md)
