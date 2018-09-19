@@ -2,7 +2,9 @@
 
 #### Description
 
-The 0x protocol facilitates the exchange of a growing number of Ethereum-based tokens including currencies, game items, and many more digital assets.
+The 0x protocol facilitates the exchange of a growing number of Ethereum-based tokens including currencies, game items, and many more digital assets.  
+  
+0x features many [relayers](0x-relayers.md) that act as exchanges for the protocol.
 
 #### Interface
 

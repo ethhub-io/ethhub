@@ -84,7 +84,7 @@
       * [0x Relayers](built-on-ethereum/decentralized-exchanges/off-chain-orderbook-on-chain-settlement/0x-protocol/0x-relayers.md)
     * [IDEX](built-on-ethereum/decentralized-exchanges/off-chain-orderbook-on-chain-settlement/idex.md)
   * [On-Chain Peer to Peer](built-on-ethereum/decentralized-exchanges/on-chain-peer-to-peer/README.md)
-    * [Kyber](built-on-ethereum/decentralized-exchanges/on-chain-peer-to-peer/kyber.md)
+    * [KyberSwap](built-on-ethereum/decentralized-exchanges/on-chain-peer-to-peer/kyber.md)
   * [Off-Chain Peer to Peer](built-on-ethereum/decentralized-exchanges/off-chain-peer-to-peer/README.md)
     * [AirSwap](built-on-ethereum/decentralized-exchanges/off-chain-peer-to-peer/airswap.md)
   * [Plasma Chain Orderbook](built-on-ethereum/decentralized-exchanges/plasma-chain-orderbook/README.md)
