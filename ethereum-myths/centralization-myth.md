@@ -1,4 +1,4 @@
-# Is Ethereum more expensive to use when the Ether price is higher?
+# Is Ethereum more expensive to use when Ether price is higher?
 
 
 

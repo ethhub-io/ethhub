@@ -8,3 +8,5 @@ Decentralized Exchanges allow for the trading of crypto assets without the need 
 * On-chain order book & settlement \(EtherDelta, ForkDelta\) 
 * Plasma-chain order book \(OmiseGo\)
 
+
+

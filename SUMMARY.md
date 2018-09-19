@@ -61,15 +61,15 @@
 
 ## Ethereum Myths
 
-* [\*\*TEMPLATE FOR MYTHS\*\*](ethereum-myths/template.md)
 * [Is Ethereum centralized?](ethereum-myths/is-ethereum-centralized.md)
-* [Is Ethereum more expensive to use when the Ether price is higher?](ethereum-myths/centralization-myth.md)
+* [Is Ethereum more expensive to use when Ether price is higher?](ethereum-myths/centralization-myth.md)
 * [I heard that Ethereum will never scale so how will it support all these dapps?](ethereum-myths/cost-myth.md)
 * [If it cost money to send a transaction on Ethereum, how will it compete with free blockchains?](ethereum-myths/if-ethereum-is-not-free-to-use-how-will-it-ever-compete-with-blockchains-that-provide-free-trans.md)
 * [Is Ethereum Classic the original Ethereum?](ethereum-myths/is-ethereum-classic-is-the-original-ethereum.md)
-* [Is Ethereum a Store of Value?](ethereum-myths/is-ethereum-a-store-of-value.md)
 * [If Ether has an infinite supply how can we expect Ether to ever hold value?](ethereum-myths/if-ether-has-an-infinite-supply-how-can-we-expect-ether-to-ever-hold-value.md)
 * [Is Ethereum a security?](ethereum-myths/is-ethereum-a-security.md)
+* [Is Ethereum a Store of Value?](ethereum-myths/is-ethereum-a-store-of-value.md)
+* [\*\*TEMPLATE FOR MYTHS\*\*](ethereum-myths/template.md)
 * [Is Ethereum only good for scam ICOs?](ethereum-myths/is-ethereum-only-good-for-scam-icos.md)
 * [Is Ethereum Immutable?](ethereum-myths/is-ethereum-immutable.md)
 
