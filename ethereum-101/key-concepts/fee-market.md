@@ -4,8 +4,8 @@ As described on the Gas page, the Ethereum gas block limit means that there is a
 
 | Term | Description |
 | :--- | :--- |
-| Gas Price |  |
-| Safe Low |  |
-| Standard Gas Price |  |
-| Fast Gas Price |  |
+| Gas Price | How much a user is willing to pay per gas for work \(in gwei\) |
+| Safe Low | A price that will be mined in a reasonable time \(&lt;50 blocks\) |
+| Standard Gas Price | The average gas price being paid by the network |
+| Fast Gas Price | A price that will be mined within the next few blocks |
 
