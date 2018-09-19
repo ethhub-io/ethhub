@@ -19,7 +19,7 @@
   * [Hard Forks](ethereum-101/history/hard-forks.md)
   * [The DAO and Ethereum Classic](ethereum-101/history/the-dao-and-ethereum-classic.md)
   * [DDOS Attacks](ethereum-101/history/ddos-attacks.md)
-* [Monetary Policy](ethereum-101/monetary-policy/issuance.md)
+* [Monetary Policy](ethereum-101/monetary-policy/README.md)
   * [Economic Abstraction](ethereum-101/monetary-policy/economic-abstraction.md)
 * [Governance](ethereum-101/governance.md)
 
