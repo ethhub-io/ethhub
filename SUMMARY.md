@@ -55,7 +55,9 @@
 
 * [ERC Token Standards](tokens/what-is-erc/README.md)
   * [ERC20](tokens/what-is-erc/erc20.md)
+  * [ERC621](tokens/what-is-erc/erc621.md)
   * [ERC721](tokens/what-is-erc/erc721.md)
+  * [ERC777](tokens/what-is-erc/erc777.md)
 * [TCRs](tokens/tcrs.md)
 * [NFTs](tokens/nfts.md)
 
