@@ -121,4 +121,4 @@
   * [Gnosis](built-on-ethereum/prediction-markets/gnosis.md)
 * [Identity](built-on-ethereum/identity.md)
 * [Governance](built-on-ethereum/governance.md)
-
+* [IPFS](built-on-ethereum/ipfs.md)
