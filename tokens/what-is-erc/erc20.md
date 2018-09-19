@@ -19,3 +19,4 @@ functionalities and authorize some other Ethereum address to utilise your tokens
 smart contract designed to handle tokens or just another account.
 
 Source: [https://medium.com/coinmonks/anatomy-of-an-erc-an-exhaustive-survey-8bc1a323b541](https://medium.com/coinmonks/anatomy-of-an-erc-an-exhaustive-survey-8bc1a323b541)
+Reference: [https://github.com/ethereum/EIPs/issues/20](https://github.com/ethereum/EIPs/issues/20)
