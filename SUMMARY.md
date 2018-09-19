@@ -127,8 +127,3 @@
 * [Identity](built-on-ethereum/identity.md)
 * [Governance](built-on-ethereum/governance.md)
 * [IPFS](built-on-ethereum/ipfs.md)
-
-## Table of contents
-
-* [Glossary](GLOSSARY.md)
-
