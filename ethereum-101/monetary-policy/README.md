@@ -2,7 +2,7 @@
 
 #### Genesis Block
 
-As part of the Ethereum [genesis block](../key-concepts/genesis-block.md), contributors to the Ethereum [pre-sale](../history/pre-mainnet.md#presale) were allocated 60,000,000 Ether. Another 12,000,000 Ether was given to the development fund which was distributed among early contributors and the [Ethereum Foundation](../key-concepts/ethereum-foundation.md).
+As part of the Ethereum [genesis block](../key-concepts/genesis-block.md), contributors to the Ethereum [pre-sale]() were allocated 60,000,000 Ether. Another 12,000,000 Ether was given to the development fund which was distributed among early contributors and the [Ethereum Foundation](../key-concepts/ethereum-foundation.md).
 
 #### Block Rewards
 
