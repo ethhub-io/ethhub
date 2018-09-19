@@ -2,16 +2,16 @@
 
 For "On-Chain Orderbook, On-Chain Settlement" decentralized exchanges every order or change to an order occurs on chain. This was the style of many early generation decentralized exchanges built on Ethereum.
 
-#### Exchanges
+### Exchanges
 
 * [EtherDelta](etherdelta.md)
 
-#### Pros
+### Pros
 
 * Fully decentralized
 * Maintains full user privacy
 
-#### Cons
+### Cons
 
 * Orders are slow to place, execute, and change
 * Transaction fees can add up to become costly

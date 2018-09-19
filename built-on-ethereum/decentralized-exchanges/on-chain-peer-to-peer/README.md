@@ -2,15 +2,15 @@
 
 For "On-Chain Peer to Peer" decentralized exchanges, users are matched with one another on-chain for instant token swaps. Swaps are settled on-chain
 
-#### Exchanges
+### Exchanges
 
 * [KyberSwap](kyber.md)
 
-#### Pros
+### Pros
 
 * Convenient and fast swap of tokens
 
-#### Cons
+### Cons
 
 * No order system
 
