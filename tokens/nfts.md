@@ -1,4 +1,4 @@
-# NFTs
+# Non-fungible Tokens \(NFTs\)
 
 
 

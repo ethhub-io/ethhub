@@ -60,8 +60,8 @@
   * [ERC721x](tokens/what-is-erc/erc721x.md)
   * [ERC777](tokens/what-is-erc/erc777.md)
   * [ERC884](tokens/what-is-erc/erc884.md)
-* [Token Curated Registries (TCRs)](tokens/tcrs.md)
-* [Non-fungible Tokens (NFTs)](tokens/nfts.md)
+* [Token Curated Registries \(TCRs\)](tokens/tcrs.md)
+* [Non-fungible Tokens \(NFTs\)](tokens/nfts.md)
 
 ## Ethereum Myths
 
@@ -122,3 +122,4 @@
 * [Identity](built-on-ethereum/identity.md)
 * [Governance](built-on-ethereum/governance.md)
 * [IPFS](built-on-ethereum/ipfs.md)
+
