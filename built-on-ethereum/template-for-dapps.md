@@ -1,7 +1,3 @@
----
-description: 1. Description 2. Interface 3. Important info (link and smart contract)
----
-
 # \*\*TEMPLATE FOR DAPPS\*\*
 
 #### Description

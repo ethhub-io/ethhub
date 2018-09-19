@@ -38,24 +38,24 @@
 
 ## Using Ethereum
 
-* [Running a Node](getting-started/running-a-node/README.md)
-  * [Geth](getting-started/running-a-node/geth.md)
-  * [Parity](getting-started/running-a-node/parity.md)
-* [Wallets](getting-started/wallets/README.md)
-  * [Software](getting-started/wallets/desktop.md)
-  * [Hardware](getting-started/wallets/mobile.md)
-  * [Custody](getting-started/wallets/hardware.md)
-* [Interacting with Web3](getting-started/interacting-with-web3.md)
-* [Transactions](getting-started/transacting.md)
-* [Essential Tools](getting-started/essential-tools.md)
+* [Running a Node](using-ethereum/running-a-node/README.md)
+  * [Geth](using-ethereum/running-a-node/geth.md)
+  * [Parity](using-ethereum/running-a-node/parity.md)
+* [Wallets](using-ethereum/wallets/README.md)
+  * [Software](using-ethereum/wallets/desktop.md)
+  * [Hardware](using-ethereum/wallets/mobile.md)
+  * [Custody](using-ethereum/wallets/hardware.md)
+* [Interacting with Web3](using-ethereum/interacting-with-web3.md)
+* [Transactions](using-ethereum/transacting.md)
+* [Essential Tools](using-ethereum/essential-tools.md)
 
 ## Tokens
 
-* [ERC Token Standards](token-standards/what-is-erc/README.md)
-  * [ERC20](token-standards/what-is-erc/erc20.md)
-  * [ERC721](token-standards/what-is-erc/erc721.md)
-* [TCRs](token-standards/tcrs.md)
-* [NFTs](token-standards/nfts.md)
+* [ERC Token Standards](tokens/what-is-erc/README.md)
+  * [ERC20](tokens/what-is-erc/erc20.md)
+  * [ERC721](tokens/what-is-erc/erc721.md)
+* [TCRs](tokens/tcrs.md)
+* [NFTs](tokens/nfts.md)
 
 ## Ethereum Myths
 
@@ -85,8 +85,8 @@
     * [Dai](built-on-ethereum/open-finance/stablecoins/dai.md)
     * [GUSD](built-on-ethereum/open-finance/stablecoins/gusd.md)
   * [Lending](built-on-ethereum/open-finance/lending/README.md)
-    * [dYdX](built-on-ethereum/open-finance/lending/dydx.md)
-      * [expo](built-on-ethereum/open-finance/lending/expo.md)
+    * [dYdX](built-on-ethereum/open-finance/lending/dydx/README.md)
+      * [expo](built-on-ethereum/open-finance/lending/dydx/expo.md)
     * [Dharma](built-on-ethereum/open-finance/lending/dharma.md)
     * [Compound](built-on-ethereum/open-finance/lending/compound.md)
   * [Set Protocol](built-on-ethereum/open-finance/set-protocol.md)
