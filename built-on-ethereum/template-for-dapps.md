@@ -12,5 +12,5 @@ Augur is a decentralized prediction market that let's you predict events and be 
 
 Site: [https://www.augur.net/](https://www.augur.net/)  
 Twitter: [https://twitter.com/AugurProject](https://twitter.com/AugurProject)  
-Smart Contracts: [https://etherscan.io/address/0x24e2b1d415e6e0d04042eaa45dc2a08fc33ca6cd](https://etherscan.io/address/0x24e2b1d415e6e0d04042eaa45dc2a08fc33ca6cd)
+Github: [https://github.com/AugurProject](https://github.com/AugurProject)
 
