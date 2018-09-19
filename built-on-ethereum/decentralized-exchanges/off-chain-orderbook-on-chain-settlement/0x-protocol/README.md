@@ -6,7 +6,7 @@ The 0x protocol facilitates the exchange of a growing number of Ethereum-based t
 
 #### Interface
 
-![0x Dashboard](../../../.gitbook/assets/0x_interface.png)
+![0x Dashboard](../../../../.gitbook/assets/0x_interface.png)
 
 #### Important Links
 
