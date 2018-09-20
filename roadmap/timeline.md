@@ -7,7 +7,7 @@ Starting with the Constantinople hard fork, Ethereum will be targeting a hard fo
 | Fork | Date |
 | :--- | :--- |
 | Constantinopole | ~12/1/2018 |
-| Late 2019 Hard Fork | ~7/1/2019 |
+| Istanbul | ~7/1/2019 |
 | Early 2020 Hard Fork | ~3/1/2020 |
 | Late 2020 Hard Fork | ~11/1/2020 |
 
@@ -25,7 +25,7 @@ The Constantinople fork consists of 5 EIPS:
 
 Progress can be tracked here: [https://github.com/ethereum/pm/issues/53\#issue-345905457](https://github.com/ethereum/pm/issues/53#issue-345905457)
 
-### Late 2019 Hard Fork
+### Istanbul
 
 This fork...
 
