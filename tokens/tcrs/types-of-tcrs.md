@@ -3,11 +3,6 @@
 ## Unordered TCR
 ![](../../.gitbook/assets/unordered-tcr.png)
 
-#### Summary
-* Actions: in/out
-* Applications: an axiomatic basis for most TCR applications
-* Feasibility: several are in development
-
 ## Ordered TCR
 ![](../../.gitbook/assets/ordered-tcr.png)
 
