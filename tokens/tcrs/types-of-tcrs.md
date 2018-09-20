@@ -3,6 +3,11 @@
 ## Unordered TCR
 ![](../../.gitbook/assets/unordered-tcr.png)
 
+#### Summary
+* Actions: in/out
+* Applications: an axiomatic basis for most TCR applications
+* Feasibility: several are in development
+
 ## Ordered TCR
 ![](../../.gitbook/assets/ordered-tcr.png)
 
@@ -17,3 +22,5 @@
 
 ## Combinatorial TCR
 ![](../../.gitbook/assets/combinatorial-tcr.png)
+
+Source: [https://hackernoon.com/token-curated-registry-tcr-design-patterns-4de6d18efa15](https://hackernoon.com/token-curated-registry-tcr-design-patterns-4de6d18efa15)
