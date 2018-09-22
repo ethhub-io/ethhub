@@ -60,12 +60,7 @@
   * [ERC777](tokens/what-is-erc/erc777.md)
   * [ERC884](tokens/what-is-erc/erc884.md)
 * [Token Curated Registries \(TCRs\)](tokens/tcrs/README.md)
-  * [Unordered TCR](tokens/tcrs/unordered-tcr.md)
-  * [Ordered TCR](tokens/tcrs/ordered-tcr.md)
-  * [Graded TCR](tokens/tcrs/graded-tcr.md)
-  * [Layered TCR](tokens/tcrs/layered-tcr.md)
-  * [Nested TCR](tokens/tcrs/nested-tcr.md)
-  * [Combinatorial TCR](tokens/tcrs/combinatorial-tcr.md)
+  * [Types of TCRs](tokens/tcrs/types-of-tcrs.md)
 * [Non-fungible Tokens \(NFTs\)](tokens/nfts.md)
 
 ## Ethereum Myths
