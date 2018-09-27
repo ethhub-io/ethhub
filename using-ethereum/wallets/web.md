@@ -15,6 +15,7 @@ Web wallets are wallets hosted on a website, they may be custodial or act as an 
 * Rely on each provider to provide good security and to respect your privacy.
 
 ### Wallets
+* [Metamask](https://metamask.io/) - Chrome extension Ether wallet with ERC tokens support
 * [MyEtherWallet](https://github.com/MyEtherWallet) - Open-source [tool](https://www.myetherwallet.com/) for interacting with the blockchains easily & securely
 * [MyCrypto](https://github.com/MyCryptoHQ) - Open-source, client-side [tool](https://mycrypto.com/account) for generating ether wallets, handling ERC-20 tokens, and interacting with the blockchain more easily
 * [Portis](https://portis.io/) - Web-based wallet for easy user on-boarding to your DApp
