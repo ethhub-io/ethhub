@@ -1,7 +1,7 @@
 # Totle
 
 ### Description
-Totle is working towards creating an intuitive non-custodial platform for managing digital assets.  Totle's interface allows users to view asset performance and allocation as well as trade directly from the platform.  A unique characteristic of Totle is the aggregation of decentralized exchange orderbooks, allowing for enhanced decentralized trading liquidity.  
+Totle is creating an intuitive non-custodial platform for managing digital assets.  Totle's interface allows users to view asset performance and allocation as well as trade directly from the platform.  A unique characteristic of Totle is the aggregation of decentralized exchange orderbooks, allowing for enhanced decentralized trading liquidity.  
 
 ### Important Links
 * Website: [https://www.totle.com](https://www.totle.com)
