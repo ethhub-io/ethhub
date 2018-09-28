@@ -44,6 +44,7 @@ Getting Started
             Enjin Wallet
             Coinomi
             https://balance.io/
+            https://qwallet.io/
         -Hardware Wallets
             Ledger
             Trezor
@@ -54,6 +55,7 @@ Getting Started
     -Running a Node
         https://medium.com/mercuryprotocol/how-to-run-an-ethereum-node-on-aws-a8774ed3acf6
         https://dappnode.io/
+        https://quiknode.io/
     -Transactions (block explorers?)
         https://etherscan.io/
         https://ethplorer.io/
