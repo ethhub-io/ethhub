@@ -14,3 +14,4 @@ A block must specify a parent, and it must specify 0 or more uncles
 This limited version of GHOST, with uncles includable only up to 7 generations, was used for two reasons. First, unlimited GHOST would include too many complications into the calculation of which uncles for a given block are valid. Second, unlimited GHOST with compensation as used in Ethereum removes the incentive for a miner to mine on the main chain and not the chain of a public attacker.
 
 
+source: https://github.com/ethereum/wiki/wiki/White-Paper
