@@ -1,5 +1,7 @@
 # Ethereum Foundation
 
+The Ethereum Foundation is a non-profit Swiss “Stiftung” (Foundation) registered in Switzerland as “Stiftung Ethereum” (Foundation Ethereum). 
+
 #### Mission
 
 The Ethereum Foundation’s mission is to promote and support Ethereum platform and base layer research, development and education to bring decentralized protocols and tools to the world that empower developers to produce next generation decentralized applications (dapps), and together build a more globally accessible, more free and more trustworthy Internet.
