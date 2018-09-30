@@ -11,7 +11,7 @@ The Ethereum presale took place from Tuesday, 22 July 2014 to Tuesday, 2 Septemb
 
 60 Million ether was created for the presale of which 80% was available for purchase with 20% (or 12 Million) being retained by the Ethereum Foundations 'development fund' which consisted of early contributors to the project and developers.
 
-The initial supply schedule was 3 ethers created every block (roughly 15 seconds) that was rewarded to the miner of the block and 0.625-2.625 ethers were sometimes sent to another miner if they were also able to find a solution but their block wasn't included (called uncle/aunt reward). Please refer to the [Monetary Policy](../monetary-policy/README.md) page for the current supply schedule.
+The initial supply schedule was 3 ethers created every block (roughly 15 seconds) that was rewarded to the miner of the block and 0.625-2.625 ethers were sometimes sent to another miner if they were also able to find a solution but their block wasn't included (called uncle/aunt reward). Please refer to the [Monetary Policy](monetary-policy/README.md) page for the current supply schedule.
 
 The presale ended with ~31,000 BTC (equivalent to ~$18.3 million) being raised by the Ethereum Foundation over the 42 days.
 
