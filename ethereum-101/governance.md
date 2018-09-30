@@ -6,7 +6,7 @@ Blockchains are distributed systems. They are essentially consensus protocols, w
 
 “Core developers” of a blockchain are software developers who work on the software that implement that protocol. Developers have processes that are supposed to assure the quality of the software they release, and are generally very interested in maintaining the legitimacy of their software repositories because they want to see people using their software (as opposed to someone else’s).
 
-#### Critical Components of Governance
+### Critical Components of Governance
 **1. Incentives**
 
 Each group in the system has their own incentives. Those incentives are not always 100% aligned with all other groups in the system. Groups will propose changes over time which are advantageous for them. Organisms are biased towards their own survival. This commonly manifests in changes to the reward structure, monetary policy, or balances of power.
