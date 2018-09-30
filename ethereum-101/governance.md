@@ -1,4 +1,4 @@
-# Governance
+# Blockchain Governance
 
 Blockchains are distributed systems. They are essentially consensus protocols, which means that different nodes in the network (e.g. computers on the internet) have to be running compatible software.
 
