@@ -11,5 +11,6 @@ The Ethereum Foundation’s mission is to promote and support Ethereum platform 
 #### Current members:
 * [Vitalik Buterin](https://twitter.com/VitalikButerin) - Founder and Chief Researcher
 * [Vlad Zamfir](https://twitter.com/VladZamfir) - Researcher
+* [Hudson Jameson](https://twitter.com/hudsonjameson) - Community Lead
 * [Aya Miyaguchi](https://twitter.com/mi_ayako) - Executive Director
 * [Justin Drake](https://twitter.com/drakefjustin) - Ethereum Sharding Research
