@@ -30,6 +30,7 @@ Ether was not usable or transferable until the launch of the genesis block which
 | Byzantium | 4370000 |
 
 Sources:
+
 [https://en.m.wikipedia.org/wiki/List_of_highest_funded_crowdfunding_projects](https://en.m.wikipedia.org/wiki/List_of_highest_funded_crowdfunding_projects)
 
 [https://blog.ethereum.org/2014/07/22/launching-the-ether-sale/](https://blog.ethereum.org/2014/07/22/launching-the-ether-sale/)
