@@ -8,7 +8,7 @@ How is all this possible?
 
 A big reason the financial services industry is as bloated as it is today is because financial transactions in the digital realm are not secure. We have no method of trusting our online counterparties so we pay fees to financial institutions who enforce that trust. 
 
-Ethereum leverages the same principles that create 'digital trust' within Bitcoin, and applies to them to smart contracts, self-executing pieces of code that execute business logic after some predefined conditions are met. Smart contracts look a lot like financial contracts in that they escrow funds and trasnfer them around in response to certain events. This system is superior because the encoded business logic can't be manipulated by a central party once its deployed to the Ethereum mainnet. 
+Ethereum leverages the same principles that create 'digital trust' within Bitcoin, and applies to them to smart contracts, self-executing pieces of code that execute business logic after some predefined conditions are met. Smart contracts look a lot like financial contracts in that they escrow funds and transfer them around in response to certain events. This system is superior because the encoded business logic can't be manipulated by a central party once its deployed to the Ethereum mainnet. 
 
 Blockchain based financial services are superior to their centralized counterparts across five primary features:
 
