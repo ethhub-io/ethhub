@@ -14,3 +14,4 @@ The Ethereum Foundation’s mission is to promote and support Ethereum platform 
 * [Hudson Jameson](https://twitter.com/hudsonjameson) - Community Lead
 * [Aya Miyaguchi](https://twitter.com/mi_ayako) - Executive Director
 * [Justin Drake](https://twitter.com/drakefjustin) - Ethereum Sharding Researcher
+* [Martin Holst Swende](https://github.com/holiman) - Security Lead
