@@ -2,9 +2,13 @@
 
 Understanding gas is fundamental to understand how the Ethereum network functions.   
   
-Every transaction on the Ethereum network requires computation power to execute. The measurement of how much computation power is required is called gas. Computational resources aren't free, therefore users requesting a transaction to be executed must pay for it.   
-  
-There is a limit to how much gas can be computed in any single block. This creates a fee market using gas price where users decide how much they are willing to pay for each unit of gas. Due to the gas block limit, the [fee market](fee-market.md) almost always determines what order transactions are mined in because miners looking to profit will select the transactions with the highest fees.  
+The EVM - the Ethereum Virtual Machine running on each Ethereum node - is a mini-computer contained in a box. Somewhat like a VirtualBox contains a whole computer inside another computer. And, similarly to a VirtualBox, any operation in the EVM actually consumes CPU cycles, disk access, memory,... of the hosting machine.
+
+In order to prevent "overload" of the host, each operation on the EVM carries a cost - consumes a certain amount of gas. To access memory is cheap. To write to disk is more expensive,... Each EVM operator sets an upper limit to the gas consumed during execution of a contract. So, if a malicious operator crafted a smart contract that went into an infinite loop, each loop would consume some gas and eventually run into the limit, at which point the EVM would abort the execution of this contract.
+
+Essentially the larger and the more complex the contract and the more operation it performs, the more expensive it is to run it. Note that expensive is literally that - you need to pay Ether for execution.
+
+This creates a fee market using gas price where users decide how much they are willing to pay for each unit of gas. Due to the gas block limit, the [fee market](fee-market.md) almost always determines what order transactions are mined in because miners looking to profit will select the transactions with the highest fees.  
   
 There are many key components to a transaction that are important to understand:
 
