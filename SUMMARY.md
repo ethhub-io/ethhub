@@ -106,6 +106,8 @@
     * [Compound](built-on-ethereum/open-finance/lending/compound.md)
   * [Set Protocol](built-on-ethereum/open-finance/set-protocol.md)
   * [Digix](built-on-ethereum/open-finance/digix.md)
+* [Developer Tools](built-on-ethereum/developer-tools/README.md)
+  * [Gitcoin](built-on-ethereum/developer-tools/gitcoin.md)
 * [Marketplaces](built-on-ethereum/marketplaces/README.md)
   * [OpenSea](built-on-ethereum/marketplaces/opensea.md)
   * [RareBits](built-on-ethereum/marketplaces/rarebits.md)
