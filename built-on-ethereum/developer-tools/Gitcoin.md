@@ -4,22 +4,26 @@
 
 Gitcoin's mission is to Grow Open Source Software.  Their core products are 
 
+Main products:
 * [Bounties](https://gitcoin.co)
-* [Gitcoin Gas Station](https://gitcoin.co/gas)
+* [Tips](https://gitcoin.co/tips)
 * [CodeFund](https://codefund.io)
+
+Secondary products:
+* [Gitcoin Gas Station](https://gitcoin.co/gas)
+* [Easy ENS subdomains](https://gitcoin.co/ens/)
 
 
 ### Pros
 
-* CEasy 
-* Single, global liquidity pool
-* No fee system, Ethereum gas cost paid by taker
-* AirSwap never holds user funds
-* Swap Protocol provides protection against frontrunning and race conditions
+* Easy to recruit software engineers
+* 10k developers will see your bountied work 
+* Fast: Median issue on the platform will be turned around in 7 days.
 
 ### Cons
 
 * You must have Ether/gas to use the platform
+* You must know how to scope software develoment bounties
 
 
 ### Important Links
