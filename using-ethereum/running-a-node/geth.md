@@ -9,12 +9,10 @@ You can find the Github repository [here](https://github.com/ethereum/go-ethereu
 
 Minimum:
 
- - CPU with 2+ cores.
- - At least 80GB free storage space.
- - 4GB RAM minimum with a SSD, 8GB+ if you have an HDD.
- - 8 MBit/sec download Internet service.
-
-For light nodes, the requirements are much lower, as you will only be storing block headers and receive small state updates.
+ - CPU with 2+ cores
+ - At least 80GB free storage space
+ - 4GB RAM minimum with a SSD, 8GB+ if you have an HDD
+ - 8 MBit/sec download Internet service
 
 Recommended:
 
@@ -22,6 +20,8 @@ Recommended:
  - 16GB+ RAM.
  - Fast SSD with at least 500GB free space.
  - 25+ MBit/sec download Internet service.
+
+For light nodes, the requirements are much lower, as you will only be storing block headers and receive small state updates.
 
 ## Setup
  - [Download Geth from the official page](https://ethereum.github.io/go-ethereum/downloads/)
