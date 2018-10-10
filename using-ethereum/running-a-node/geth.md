@@ -55,5 +55,7 @@ A fast sync node can operate in light mode.
 In the folder extracted from the downloaded archive, the geth program can be run with the desired sync mode and other options.
 
 ```sh
-./geth --syncmode "fast"
+./geth --syncmode "option"
 ```
+
+When using a light client, beware that it can take up to 10 minutes after the node's initialization before it starts receiving updates from the network. From then on, it is actively subscribed to updates by the full nodes.
