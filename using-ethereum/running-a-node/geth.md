@@ -43,7 +43,7 @@ When using "fast" synchronization, the node will initially download blocks until
 
 When using "full" synchronization, the node validates every transaction from downloaded blocks until it reaches the tip of the Blockchain. This is not advised, as it doesn't provide any benefits and can result in the node taking multiple days, or even weeks, to synchronize completely. Once the node is in sync, it will continue full validation of new transactions.
 
-When using "light" synchronization, the node begins downloading block headers for a few million blocks prior to the current block height, making it a very quick sync. The drawback to this method is that the node is unable to perform validation, as it doesn't have complete records of the Blockchain.
+When using "light" synchronization, the node only downloads a few recent block headers, making it a very quick sync. The drawback to this method is that the node is unable to perform reliable validation, as it doesn't have complete records of the Blockchain.
 
 If running on a device with low bandwidth or memory, the light node can be advantageous. The light node gets updated by full nodes once in a while with information on changes pertaining to relevant parts of the Blockchain.
 
@@ -59,3 +59,14 @@ In the folder extracted from the downloaded archive, the geth program can be run
 ```
 
 When using a light client, beware that it can take up to 10 minutes after the node's initialization before it starts receiving updates from the network. From then on, it is actively subscribed to updates by the full nodes.
+
+You can expect it to take anywhere from 3 to 12 hours to fast sync your Ethereum node depending on your hardware and whether your connection to the Internet is a bottleneck.
+
+A few interesting commands which will enhance your geth experience:
+ - **./geth account new**: create an account, yields the address and location of the keystore file
+ - **./geth account list**: list all accounts located in the keystore folder
+ - **./geth --cache VALUE**: increase the amount of memory allocated to geth, default 1024 (MB)
+ - **./geth --maxpeers VALUE**: set maximum number of full node peers, default 25
+ - **./geth --lightpeers VALUE**:  set maximum number of light node peers, default 100
+ - **./geth export FILEPATH**: export a copy of the Blockchain data to FILEPATH
+ - **./geth import FILEPATH**: import Blockchain data from FILEPATH
