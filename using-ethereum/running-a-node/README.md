@@ -18,4 +18,23 @@ The parity default settings are the best for full nodes.
 
 #### Table of node settings
 
+Parity
+
+Client / Mode                     | Block Number   | Disk Space | CLI flags                |
+==================================|================|============|==========================|
+parity light                      | 5_600_000      |  89M       | --light                  |
+parity warp pruning fast -ancient | 5_600_000      |  20G       | --no-ancient-blocks      |
+parity warp pruning fast          | 5_600_000      |  82G       |                          |
+parity pruning fast               | 5_600_000      |  78G       | --no-warp                |
+parity pruning fast fatdb trace   | 5_600_000      | 108G       | --fat-db on --tracing on |
+parity pruning archive            | 5_600_000      | 1.1T       | --pruning archive        |
+
+Geth
+
+Client / Mode                     | Block Number   | Disk Space  | CLI flags                          |
+==================================|================|=============|====================================|
+geth light                        | 5_600_000      |  1G         | --syncmode "light"                 |
+geth fast                         | 5_600_000      |  200G       |                                    |
+geth archive full                 | 5_600_000      |  850G       | --gcmode=archive --syncmode "full" |
+
 #### Node Benchmarks
