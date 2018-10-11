@@ -34,7 +34,7 @@ Geth
 Client / Mode                     | Block Number   | Disk Space  | CLI flags                          |
 ==================================|================|=============|====================================|
 geth light                        | 5_600_000      |  1G         | --syncmode "light"                 |
-geth fast                         | 5_600_000      |  200G       |                                    |
+geth fast                         | 5_600_000      |  100G       |                                    |
 geth archive full                 | 5_600_000      |  850G       | --gcmode=archive --syncmode "full" |
 
 #### Node Benchmarks
