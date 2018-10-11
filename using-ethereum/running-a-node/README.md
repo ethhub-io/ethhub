@@ -39,5 +39,6 @@ geth archive full                 | 5_600_000      |  850G       | --gcmode=arch
 
 #### Node Benchmarks
 Light mode:
- - Parity begins syncing from a hardcoded value (block #6219777) almost immediately, at a rate of approximately 23 500 blocks per minute. With a height at 6 500 000, this takes 15 minutes.
+ - Parity begins syncing from a hardcoded value (block #6219777) almost immediately, at a rate of approximately 23 500 blocks per minute. With a height at 6 500 000, this takes 15 minutes. Once 
+synced, it receives blocks as they get mined and validated by full nodes.
  - Geth waits for around 200 seconds before beginning to sync from 2 300 blocks in the past, then periodically receives small bundles of 1 to 10 blocks. The initial sync takes very little time.
