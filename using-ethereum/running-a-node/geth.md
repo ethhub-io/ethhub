@@ -47,7 +47,7 @@ When using "light" synchronization, the node only downloads a few recent block h
 
 If running on a device with low bandwidth or memory, the light node can be advantageous. The light node gets updated by full nodes once in a while with information on changes pertaining to relevant parts of the Blockchain.
 
-When offering services to users which might require complete records, the fast sync options is the best.
+When offering services to users which might require complete records, the fast sync options are the best to use.
 
 A fast sync node can operate in light mode.
 
