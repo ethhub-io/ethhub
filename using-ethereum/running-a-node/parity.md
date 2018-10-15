@@ -26,7 +26,7 @@ Light node:
 For running a compiled binary downloaded from the official Github releases page, no system dependencies are required.
 
 ## Running
-By default, the parity client syncs the Ethereum Blockchain completely from a snapshot downloaded from peers and includes features such as auto-updating.
+By default, the Parity client syncs the Ethereum Blockchain completely from a snapshot downloaded from peers and includes features such as auto-updating.
 
 To disable downloading a snapshot from peers, use `--no-warp`; this saves a few GB of storage but takes longer to sync.
 
@@ -34,7 +34,7 @@ If you wish to run a light node, simply specify the command line option `--light
 
 Syncing can be faster by disregarding ancient blocks with `--no-ancient-blocks`; costing only 20GB.
 
-The default sync with warp enabled occupies 82GB of storage when completed.
+The default sync with warp enabled occupies ~82GB of storage when completed (as of 15/10/2018).
 
 For a complete pruning archive, with complete state saved, run parity with `--pruning archive` (over 1TB disk space will be used).
 
