@@ -1,4 +1,5 @@
 # Geth
+
 Geth is the Golang implementation of the Ethereum protocol.
 
 It is fast, open source software that is actively maintained.
@@ -9,33 +10,36 @@ You can find the Github repository [here](https://github.com/ethereum/go-ethereu
 
 Minimum:
 
- - CPU with 2+ cores
- - At least 80GB free storage space
- - 4GB RAM minimum with a SSD, 8GB+ if you have an HDD
- - 8 MBit/sec download Internet service
+* CPU with 2+ cores
+* At least 80GB free storage space
+* 4GB RAM minimum with a SSD, 8GB+ if you have an HDD
+* 8 MBit/sec download Internet service
 
 Recommended:
 
- - Fast CPU with 4+ cores.
- - 16GB+ RAM.
- - Fast SSD with at least 500GB free space.
- - 25+ MBit/sec download Internet service.
+* Fast CPU with 4+ cores.
+* 16GB+ RAM.
+* Fast SSD with at least 500GB free space.
+* 25+ MBit/sec download Internet service.
 
 For light nodes, the requirements are much lower, as you will only be storing block headers and receive small state updates.
 
 ## Setup
- - [Download Geth from the official page](https://ethereum.github.io/go-ethereum/downloads/)
- - Extract the compressed archive with your tool of choice
+
+* [Download Geth from the official page](https://ethereum.github.io/go-ethereum/downloads/)
+* Extract the compressed archive with your tool of choice
 
 There are no system dependencies if using an officially released geth binary, which ships for most architectures and operating systems.
 
 ## Running
+
 The first step in running an Ethereum node is synchronizing the Blockchian.
 
 There are a few options you can use to specify the sync mode of the geth client:
- - --syncmode "fast"
- - --syncmode "full"
- - --syncmode "light"
+
+* --syncmode "fast"
+* --syncmode "full"
+* --syncmode "light"
 
 By default, geth will run in --syncmode "fast", this is the recommended option for running a complete Ethereum node.
 
@@ -52,9 +56,10 @@ When offering services to users which might require complete records, the fast s
 A fast sync node can operate in light mode.
 
 ## Using
+
 In the folder extracted from the downloaded archive, the geth program can be run with the desired sync mode and other options.
 
-```sh
+```bash
 ./geth --syncmode "option"
 ```
 
@@ -63,10 +68,12 @@ When using a light client, beware that it can take up to 10 minutes after the no
 You can expect it to take anywhere from 3 to 12 hours to fast sync your Ethereum node depending on your hardware and whether your connection to the Internet is a bottleneck.
 
 A few interesting commands which will enhance your geth experience:
- - **./geth account new**: create an account, yields the address and location of the keystore file
- - **./geth account list**: list all accounts located in the keystore folder
- - **./geth --cache VALUE**: increase the amount of memory allocated to geth, default 1024 (MB)
- - **./geth --maxpeers VALUE**: set maximum number of full node peers, default 25
- - **./geth --lightpeers VALUE**:  set maximum number of light node peers, default 100
- - **./geth export FILEPATH**: export a copy of the Blockchain data to FILEPATH
- - **./geth import FILEPATH**: import Blockchain data from FILEPATH
+
+* **./geth account new**: create an account, yields the address and location of the keystore file
+* **./geth account list**: list all accounts located in the keystore folder
+* **./geth --cache VALUE**: increase the amount of memory allocated to geth, default 1024 \(MB\)
+* **./geth --maxpeers VALUE**: set maximum number of full node peers, default 25
+* **./geth --lightpeers VALUE**:  set maximum number of light node peers, default 100
+* **./geth export FILEPATH**: export a copy of the Blockchain data to FILEPATH
+* **./geth import FILEPATH**: import Blockchain data from FILEPATH
+

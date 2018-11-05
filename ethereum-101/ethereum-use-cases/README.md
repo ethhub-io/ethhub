@@ -1,4 +1,4 @@
-# Ethereum Use Cases
+# Ether Use Cases
 
 
 

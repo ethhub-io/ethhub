@@ -5,7 +5,9 @@
 ## Ethereum 101
 
 * [What is Ethereum?](ethereum-101/what-is-ethereum.md)
-* [Ethereum Use Cases](ethereum-101/ethereum-use-cases/README.md)
+* [Ether Use Cases](ethereum-101/ethereum-use-cases/README.md)
+  * [Network Usage](ethereum-101/ethereum-use-cases/network-usage.md)
+  * [Proof of Stake](ethereum-101/ethereum-use-cases/proof-of-stake.md)
   * [Open Finance](ethereum-101/ethereum-use-cases/open-finance.md)
   * [Ether as Money](ethereum-101/ethereum-use-cases/ether-as-money.md)
   * [Store of Value](ethereum-101/ethereum-use-cases/store-of-value.md)
@@ -20,7 +22,7 @@
 * [History](ethereum-101/history.md)
 * [Monetary Policy](ethereum-101/monetary-policy/README.md)
   * [Economic Abstraction](ethereum-101/monetary-policy/economic-abstraction.md)
-* [Governance](ethereum-101/governance.md)
+* [Governance](built-on-ethereum/governance.md)
 
 ## Roadmap
 
