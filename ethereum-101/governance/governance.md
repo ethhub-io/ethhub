@@ -17,8 +17,3 @@ Each group in the system has their own incentives. Those incentives are not alwa
 Since it’s unlikely all groups have 100% incentive alignment at all times, the ability for each group to coordinate around their common incentives is critical for them to affect change. If one group can coordinate better than another, it creates power imbalances in their favor.
 
 In practice, a major factor is how much coordination can be done on-chain vs. off-chain, where on-chain coordination makes coordinating easier. In some new blockchains (such as Tezos or Polkadot), on-chain coordination allows the rules or even the ledger history itself to be changed.
-
-#### On-chain Governance
-
-#### Off-chain Governance
-

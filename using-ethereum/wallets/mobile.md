@@ -1,20 +1,20 @@
-# Mobile Wallets
+# Hardware
 
-### What are they?
+## What are they?
 
 Phone and other mobile device-based wallets are mobile alternatives to dev wallets.
 
-### Pros and Cons
+## Pros and Cons
 
-###### Pros
+### Pros
 
 * Most mobile method of accessing your funds.
 
-###### Cons
+### Cons
 
 * Rely on the security of your mobile device.
 
-### Wallets
+## Wallets
 
 * [Jaxx](https://jaxx.io) - Both a mobile and a desktop wallet. Has integrated Shapeshift support
 * [WallETH](https://walleth.org) - Native Android Ethereum Wallet
@@ -23,7 +23,9 @@ Phone and other mobile device-based wallets are mobile alternatives to dev walle
 * [Cypher](https://www.cipherbrowser.com/) - Mobile Dapp explorer
 * [Trust](https://github.com/TrustWallet/trust-wallet-ios) - Mobile [wallet](https://trustwalletapp.com/) for ERC tokens
 * [Status](https://github.com/status-im/status-react) - A free open-source, mobile OS for Ethereum
-+ [eth-wallet-light](https://github.com/NoahHydro/eth-wallet-light) - Lightweight JS Wallet optimized for mobile
+* [eth-wallet-light](https://github.com/NoahHydro/eth-wallet-light) - Lightweight JS Wallet optimized for mobile
 
-### References:
+## References:
+
 * [Consensys's ethereum-developer-tools-list](https://github.com/ConsenSys/ethereum-developer-tools-list/blob/master/EcosystemResources.md)
+
