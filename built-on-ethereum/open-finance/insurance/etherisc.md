@@ -10,8 +10,8 @@ DIP tokens give users access to the Decentralized Insurance Platform. By staking
 
 ## Existing projects
 
-    * [Flight Delay Insurance](https://fdd.etherisc.com/) is in production on Ethereum—fully licensed, sold worldwide for ETH, USD, EUR. A developer earns 5% of revenue (set by the developer) and 100% of underwriting profit.
-    * [HurricaneGuard.io](https://hurricaneguard.io/) is deployed on the Ethereum testnet.
+    * Flight Delay Insurance: https://fdd.etherisc.com/ is in production on Ethereum—fully licensed, sold worldwide for ETH, USD, EUR. A developer earns 5% of revenue (set by the developer) and 100% of underwriting profit.
+    * HurricaneGuard.io: https://hurricaneguard.io/ is deployed on the Ethereum testnet.
 
 
 
