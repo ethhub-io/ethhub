@@ -1,4 +1,4 @@
-# 0xProtocol
+# 0x Protocol
 
 0x is an open protocol that facilitates peer-to-peer exchange of digital assets on the Ethereum blockchain. 0x is open source, free to use, and provides a drop-in exchange solution for developers to build on top of. Developers use 0x protocol to build decentralized exchanges (DEXs), marketplaces for digital collectibles, and to integrate exchange functionality into wallets.
 
@@ -6,7 +6,7 @@ https://blog.0xproject.com/welcome-to-the-0x-community-9d99dfe0a52b
 
 ### 0x protocol overview
 
-In 0x protocol, orders are transported off-chain over any arbitrary medium, massively reducing gas costs and reducing blockchain bloat. Relayers help broadcast orders and collect a fee each time they facilitate a trade. Anyone can build a relayer.
+In 0x Protocol, orders are transported off-chain over any arbitrary medium, massively reducing gas costs and reducing blockchain bloat. Relayers help broadcast orders and collect a fee each time they facilitate a trade. Anyone can build a relayer.
 
 The simplest example of a Relayer is a website allowing users to create, discover and fill orders. The Relayer must build out a UI and host a backend database to provide this functionality.
 
