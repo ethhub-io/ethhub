@@ -1,4 +1,4 @@
-#0xProtocol
+# 0xProtocol
 
 0x is an open protocol that facilitates peer-to-peer exchange of digital assets on the Ethereum blockchain. 0x is open source, free to use, and provides a drop-in exchange solution for developers to build on top of. Developers use 0x protocol to build decentralized exchanges (DEXs), marketplaces for digital collectibles, and to integrate exchange functionality into wallets.
 
