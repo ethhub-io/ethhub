@@ -5,6 +5,7 @@ For "Off-Chain Orderbook, On-Chain Settlement" decentralized exchanges, final tr
 ### Exchanges
 
 * [0x Protocol](0x-protocol/)
+* [Loopring](loopring.md)
 * [IDEX](idex.md)
 
 ### Pros
