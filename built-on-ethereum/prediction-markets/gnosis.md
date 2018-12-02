@@ -4,7 +4,7 @@
 
 Gnosis creates a global forecasting and information discovery tool by building a prediction market platform on Ethereum. This platform strives to gather liquidity of expert information.
 
-Gnosis starts with a Core layer, which is a set of smart contracts. Value-added paid services built by the team will form the Gnosis Service layer. Gnosis also plans to make end-user applications along with third-party developers at the Application layer.
+Gnosis starts with a core layer, which is a set of smart contracts. Value-added paid services built by the team will form the Gnosis Service layer. Gnosis also plans to make end-user applications along with third-party developers at the spplication layer.
 
 ## Token
 
