@@ -28,7 +28,7 @@
 * SPV - Simple Payment Verification
 * UTXO - Unspent Transaction Output
 * LN - Lightning Network
-* RSK - Risk SC Platform
+* RSK - RootStock SC Platform
 * MW - MimbleWimble
 * RBF - Replace By Fee
 * UA(H/S)F - User Activated Hard/Soft Fork
