@@ -6,6 +6,7 @@
 * PoS - Proof of Stake
 * PoA - Proof of Authority
 * DPoS - Delegated Proof of Stake
+* LPoS - Liquid Proof of Stake
 * BFT - Byzantine Fault Tolerance
 * p/dBFT - Practical/Delegated Byzantine Fault Tolerance
 * DAG - Directed Acyclic Graph
