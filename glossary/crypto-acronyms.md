@@ -8,7 +8,8 @@
 * DPoS - Delegated Proof of Stake
 * LPoS - Liquid Proof of Stake
 * BFT - Byzantine Fault Tolerance
-* p/dBFT - Practical/Delegated Byzantine Fault Tolerance
+* dBFT - Delegated Byzantine Fault Tolerance
+* pBFT - Practical Byzantine Fault Tolerance
 * DAG - Directed Acyclic Graph
 
 #### Ethereum-related
@@ -32,7 +33,8 @@
 * RSK - RootStock SC Platform
 * MW - MimbleWimble
 * RBF - Replace By Fee
-* UA(H/S)F - User Activated Hard/Soft Fork
+* UAHF - User Activated Hard Fork
+* UASF - User Activated Soft Fork
 
 #### Money-related
 
@@ -55,7 +57,8 @@
 * STO - Security Token Offering
 * ROI - Return on Investment
 * SATS - Satoshis
-* ATH/L - All Time High/Low
+* ATH/L - All Time High
+* ATL - All Time Low
 * MCAP - Market Capilization
 * BB - Bollinger Bands
 * MACD - Moving Average Convergence Divergence
@@ -97,7 +100,8 @@
 * ZK - Zero Knowledge
 * P2P - Peer to Peer
 * ALT - Alternative Cryptocurrency
-* HF/SF - Hard Fork/Soft Fork
+* HF - Hard Fork
+* SF - Soft Fork
 * WP - Whitepaper
 * 2FA - Two Factor Authentication
 * DDoS - Distributed Denial of Service
