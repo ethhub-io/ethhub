@@ -10,7 +10,6 @@
 * BFT - Byzantine Fault Tolerance
 * dBFT - Delegated Byzantine Fault Tolerance
 * pBFT - Practical Byzantine Fault Tolerance
-* DAG - Directed Acyclic Graph
 
 #### Ethereum-related
 
@@ -121,6 +120,7 @@
 * EEA - Enterprise Ethereum Alliance
 * HTLC - Hashed Timelock Contract
 * VRF - Verfiable Random Function
+* DAG - Directed Acyclic Graph
 
 #### Security and Privacy
 * SNARKs - Succinct Non-Interactive ARguments of Knowledge
