@@ -120,6 +120,7 @@
 * CDP - Collateralized Debt Position
 * EEA - Enterprise Ethereum Alliance
 * HTLC - Hashed Timelock Contract
+* VRF - Verfiable Random Function
 
 #### Security and Privacy
 * SNARKs - Succinct Non-Interactive ARguments of Knowledge
