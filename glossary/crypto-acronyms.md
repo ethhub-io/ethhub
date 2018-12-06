@@ -23,6 +23,7 @@
 * WASM - Web Assembly
 * VDF - Verifiable Delay Function
 * SC - Smart Contract
+* NFT - Non-Fungible Token
 
 #### Bitcoin-related
 
@@ -56,6 +57,7 @@
 * PnD - Pump and Dump
 * ICO - Initial Coin Offering
 * STO - Security Token Offering
+* SAFT - Simple Agreement for Future Tokens 
 * ROI - Return on Investment
 * SATS - Satoshis
 * ATH/L - All Time High
@@ -81,6 +83,7 @@
 * BTFD - Buy The Fucking Dip
 * DYOR - Do Your Own Research
 * FUD - Fear, Uncertainty and Doubt
+* SFYL - Sorry For Your Loss
 
 #### U.S Regulatory-related
 
@@ -114,3 +117,4 @@
 * MCD - Multi-collateral Dai
 * CDP - Collateralized Debt Position
 * EEA - Enterprise Ethereum Alliance
+* HTLC - Hashed Timelock Contract
