@@ -1,6 +1,6 @@
-# civic
+# Civic
 
-Civic allows people to control the use of their identity information. Civic use blockchain identity verification technology to secure and protect personal information transfer.
+Civic allows people to control the use of their identity information. Civic uses blockchain identity verification technology to secure and protect personal information transfer.
 
 ## Products
 
@@ -9,6 +9,3 @@ Civic’s Secure Identity Platform (SIP) uses a verified identity for multi-fact
 
 ### Civic Reusable KYC
 Add blockchain-enabled KYC to businesses and services that require user identification. Decentralized, reusable KYC improves security, on-boarding and every day use.
-
-
-
