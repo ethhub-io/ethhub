@@ -100,6 +100,7 @@
 
 #### Misc
 
+* BP - Block Producer
 * TXID - Transaction ID
 * TPS - Transactions Per Second
 * ZK - Zero Knowledge
@@ -119,3 +120,8 @@
 * CDP - Collateralized Debt Position
 * EEA - Enterprise Ethereum Alliance
 * HTLC - Hashed Timelock Contract
+
+#### Security and Privacy
+* SNARKs - Succinct Non-Interactive ARguments of Knowledge
+* STARKs - Scalable Transparent ARguments of Knowledge
+* MPC - Multi-Party Computation
