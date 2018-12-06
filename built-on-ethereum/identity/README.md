@@ -4,4 +4,6 @@ Decentralized Identity allows users, groups, objects, and machines to have full 
 
 * [ERC725 Ethereum Identity Standard](ERC725.md)
 * [uPort](uport.md)
-* [civic](civic.md)
+* [Civic](civic.md)
+* [SelfKey](selfkey.md)
+* [JoloCom](jolocom.md)
