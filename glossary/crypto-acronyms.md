@@ -74,6 +74,7 @@
 * CPU - Central Processing Unit
 * GPU - Graphics Processing Unit
 * ASIC - Application-Specific Integrated Circuit
+* FPGA - Field Programmable Gate Array
 * HPS - Hashes Per Second
 
 #### Memes
