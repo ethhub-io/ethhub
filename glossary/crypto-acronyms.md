@@ -14,6 +14,7 @@
 
 #### Ethereum-related
 
+* DeFi - Decentralized Finance
 * DAPP - Decentralized Application
 * ERC - Ethereum Request for Comments
 * EIP - Ethereum Improvement Proposal
