@@ -15,12 +15,12 @@ NOTE: Some of these are taken from [https://github.com/ethereum/eth2.0-specs/blo
 * **Validator** - a participant in the Casper/sharding consensus system. You can become one by depositing 32 ETH into the Casper mechanism.
 * **Committee** - a \(pseudo-\) randomly sampled subset of active validators. When a committee is referred to collectively, as in "this committee attests to X", this is assumed to mean "some subset of that committee that contains enough validators that the protocol recognizes it as representing the committee".
 * **Withdrawal period** - the number of slots between a validator exit and the validator balance being withdrawable.
-* **Inflation** - The rate at which ETH supply grows year over year.
+* **Inflation** - The annualized rate at which ETH supply grows.
 * **Interest** - The annualized rate at which validators are rewarded \(in ETH\).
 
 ### Validator Economic Incentive
 
-There are many things that a user will consider when wanting to become a validator. In the base case, some users may believe in the Ethereum network so much that they would stake a loss if need be. A good example of this is the 12,000 Ethereum nodes running today. However, in the simplest case we can break down the thought process as follows:  
+There are many things that a user will consider when wanting to become a validator. In the base case, some users may believe in the Ethereum network so much that they would stake at a loss if need be. A good example of this is the 12,000 Ethereum nodes running today. However, in the simplest case we can break down the thought process as follows:  
   
 Total Incentive to Stake = Validator Rewards + Network Fees - Cost to run a Validator   
   
@@ -28,7 +28,7 @@ Total Incentive to Stake = Validator Rewards + Network Fees - Cost to run a Vali
 
 ### Staking Rewards
 
-In order to incentivize those that have ETH to stake in the network, there must be some type of incentive. It's unlikely that anyone would stake their ETH for no reward. Serenity accomplishes this by paying validators a reward for every block they successfully propose. In the [latest spec](https://github.com/ethereum/eth2.0-specs/blob/master/specs/core/0_beacon-chain.md) this is a sliding scale based on total network stake. So if total ETH stake is low, the interest rate goes up and as stake rises, it starts to fall.   
+In order to incentivize those that have ETH to stake in the network, there must be some type of reward. It's unlikely that many people would stake their ETH for no reward. Serenity accomplishes this by paying validators a reward for every block they successfully propose. In the [latest spec](https://github.com/ethereum/eth2.0-specs/blob/master/specs/core/0_beacon-chain.md) this is a sliding scale based on total network stake. So if total ETH stake is low, the interest rate goes up and as stake rises, it starts to fall.   
   
 We can calculate this scale using the spec. There are a lot of variables in doing this. First up are the **constants**:
 
@@ -69,11 +69,11 @@ So here we can see that with 10,000,000 total network stake, validators are gain
 
 ### Fees
 
-One thing the above does not consider is staking fees. Validators will also be taking in a cut of the total fees that users are paying to use the network. This is one area that needs more research but currently, the Ethereum network is paying about 600 ETH a day in fees. At current rate that's 219,000 ETH a year. How this will scale up as we add shards and throughput to the network will be important because it goes into the reward calculation for validators. 
+One thing the above does not consider is staking fees. Validators will also be taking in a cut of the total fees that people are paying to use the network. This is one area that needs more research but currently, the Ethereum network is paying about 600 ETH a day in fees. At current rate that's 219,000 ETH a year. How this will scale up as we add shards and throughput to the network will be important because it goes into the reward calculation for validators. 
 
 ### Staking Costs and Risks
 
-Validating and earning rewards is not a free lunch. There are many things to consider for one to become a validator. These considerations will be considered by every validator when considering if the staking rewards are "worth it". They are:
+Validating and earning rewards is not a free lunch. There are many things to consider for one to become a validator. These factors will be considered by every validator when contemplating if the staking rewards are "worth it". They are:
 
 * Computing cost
   * Users will need to run validators clients at a minimum and likely a beacon node as well. This requires computing resources. The specifics around how much as far as HDD, bandwidth and more are still being figured out.
@@ -83,7 +83,7 @@ Validating and earning rewards is not a free lunch. There are many things to con
   * The user must have acquiring their ETH capital by some means of work.
   * The user must lock up their capital for a set amount of time \(withdrawal period\). This brings volatility risk and lost opportunity cost elsewhere.
 * Code Risk
-  * With any smart contract on Ethereum, the user must trust that the contract cannot be compromised. Early on this will be a bigger concern for some.
+  * With any smart contract on Ethereum, the user must trust or know that the contract cannot be compromised. This concern will likely be high early on and fade over time.
 * General uptime and maintenance cost
   * Users need to make sure their validator doesn't have downtown or they risk a quadratic leak on their stake.
   * If a user has multiple validators, maintenance cost and worry of the infrastructure comes into play.
@@ -92,5 +92,5 @@ Validating and earning rewards is not a free lunch. There are many things to con
 
 A very important factor in determining if staking ETH is worth it is comparing the net reward versus competition. In the case of ETH, the best competition to compare to are decentralized finance applications such as Compound Finance, Dharma, Maker, and many others.  
   
-Just like staking, these applications offer ways for users to lock up ETH and gain a reward \(interest\).
+Just like staking, these applications offer ways for users to lock up ETH and gain a reward \(interest\). Trying to understand what these offerings are or will be is something that should be considered.
 
