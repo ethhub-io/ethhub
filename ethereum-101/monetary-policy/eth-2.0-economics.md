@@ -1,7 +1,3 @@
----
-description: A reference for the discussion on Eth 2.0 staking economics.
----
-
 # Eth 2.0 Economics
 
 ### Introduction
