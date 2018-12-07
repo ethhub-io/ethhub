@@ -55,7 +55,17 @@ From here we can start to calculate the **outputs** using a single **assumption*
 
 So here we can see that with 10,000,000 total network stake, validators are gaining 2.54% a year and the network is inflating at 0.24% a year. We can now take these formulas and generate the sliding scale:
 
-![](../../.gitbook/assets/screen-shot-2018-12-06-at-8.09.12-am.png)
+| Total Network Stake | Validator Interest | Network Inflation |
+| :--- | :--- | :--- |
+| 1,000,000 | 8.02% | 0.08% |
+| 2,000,000 | 5.67% | 0.11% |
+| 3,000,000 | 4.63% | 0.13% |
+| 5,000,000 | 3.59% | 0.17% |
+| 10,000,000 | 2.54% | 0.24% |
+| 20,000,000 | 1.79% | 0.34% |
+| 30,000,000 | 1.46% | 0.42% |
+| 50,000,000 | 1.13% | 0.55% |
+| 100,000,000 | 0.80% | 0.77% |
 
 ### Fees
 
