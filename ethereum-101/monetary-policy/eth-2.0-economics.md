@@ -50,7 +50,7 @@ From here we can start to calculate the **outputs** using a single **assumption*
 | Reward Quotient | 2048\*INT\(SQRT\(10000000\)\) = 6475776 |
 | Reward/epoch | 10000000/6475776\*2 = 3088 |
 | Generated ETH/Year | 82125\*3088 = 253638 |
-| Validator Interest/Year | 253638/100000000 = 2.54% |
+| Validator Interest/Year | 253638/10000000 = 2.54% |
 | Inflation/Year | 253638/104000000 = 0.24% |
 
 So here we can see that with 10,000,000 total network stake, validators are gaining 2.54% a year and the network is inflating at 0.24% a year. We can now take these formulas and generate the sliding scale:
