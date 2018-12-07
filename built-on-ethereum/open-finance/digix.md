@@ -8,4 +8,5 @@ An amount of gold that is equal to the total market cap of DGX tokens is stored 
 
 ## Important links
 
-* Website: https://digix.global/
+* Website: [https://digix.global/](https://digix.global/)
+

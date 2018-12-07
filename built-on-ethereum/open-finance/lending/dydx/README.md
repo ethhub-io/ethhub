@@ -10,5 +10,6 @@ dYdX also plans to support options trading. Options give a right to its owner to
 
 ## Important links
 
-* Website: https://dydx.exchange
-* Expo exchange: https://www.expotrading.com/
+* Website: [https://dydx.exchange](https://dydx.exchange)
+* Expo exchange: [https://www.expotrading.com/](https://www.expotrading.com/)
+

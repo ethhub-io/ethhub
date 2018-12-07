@@ -2,7 +2,7 @@
 
 ### Description
 
-Dai is an asset-backed stable currency created by the Maker Decentralized Autonomous Organization (MakerDAO). The Dai Stablecoin System maintains the stable value of Dai by ensuring that each Dai is always backed by an collateralized asset of more value. MakerDAO is known as one of the earliest projects in the Ethereum ecosystem.
+Dai is an asset-backed stable currency created by the Maker Decentralized Autonomous Organization \(MakerDAO\). The Dai Stablecoin System maintains the stable value of Dai by ensuring that each Dai is always backed by an collateralized asset of more value. MakerDAO is known as one of the earliest projects in the Ethereum ecosystem.
 
 ### Importance
 
@@ -14,7 +14,7 @@ The Dai Stablecoin System has been operating in Beta mode since December 2017. T
 
 ### Next
 
-Multi-Collateral Dai is the next and full version of the Dai Stablecoin System. In this system, all ERC-20 tokens are capable of being used as collateral for the Dai. MakerDAO token (MKR) holders will be responsible for voting in and setting risk parameters for each collateral type. The scope of collateral types are as wide as tokens issued on the Ethereum platform. Dai issuance
+Multi-Collateral Dai is the next and full version of the Dai Stablecoin System. In this system, all ERC-20 tokens are capable of being used as collateral for the Dai. MakerDAO token \(MKR\) holders will be responsible for voting in and setting risk parameters for each collateral type. The scope of collateral types are as wide as tokens issued on the Ethereum platform. Dai issuance
 
 ## Important Links
 
