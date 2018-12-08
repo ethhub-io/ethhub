@@ -6,7 +6,9 @@ The Ethereum Serenity upgrade will bring with it a switch from Proof of Work to 
   
 If the incentive to stake is too low, the network will not get the minimum amount of validators needed to keep many shards going. If the incentive is too high, the network is overpaying for security and inflating at a rate that is detrimental to the economics of the network as a whole.
 
-Currently, the latest spec is targeting 1024 shards. Ideally, each shard would have a committee size of 256. This means the network needs 262,144 validators. That equates to 8,388,608 total ETH at stake on the network. 
+There are a few considerations when it comes to how many validators the network "needs". According to the latest spec, the recommended minimum validators per committee is 111. At 1024 shards that would be 113,664 validators and 3,637,248 total ETH staked.
+
+To achieve crosslinks on all shards within 1 epoch, the committee size would be 256. That equates to 8,388,608 total ETH at stake on the network. Having less is fine it just means crosslinks become rarer.
 
 ### Terms 
 
@@ -14,8 +16,7 @@ NOTE: Some of these are taken from [https://github.com/ethereum/eth2.0-specs/blo
 
 * **Validator** - a participant in the Casper/sharding consensus system. You can become one by depositing 32 ETH into the Casper mechanism.
 * **Committee** - a \(pseudo-\) randomly sampled subset of active validators. When a committee is referred to collectively, as in "this committee attests to X", this is assumed to mean "some subset of that committee that contains enough validators that the protocol recognizes it as representing the committee".
-* **Withdrawal period** - the number of slots between a validator exit and the validator balance being withdrawable.
-* **Inflation** - The annualized rate at which ETH supply grows.
+* **Issuance Rate** - The annualized rate at which ETH supply grows.
 * **Interest** - The annualized rate at which validators are rewarded \(in ETH\).
 
 ### Validator Economic Incentive
@@ -51,11 +52,11 @@ From here we can start to calculate the **outputs** using a single **assumption*
 | Reward/epoch | 10000000/6475776\*2 = 3088 |
 | Generated ETH/Year | 82125\*3088 = 253638 |
 | Validator Interest/Year | 253638/10000000 = 2.54% |
-| Inflation/Year | 253638/104000000 = 0.24% |
+| Issuance Rate/Year | 253638/104000000 = 0.24% |
 
 So here we can see that with 10,000,000 total network stake, validators are gaining 2.54% a year and the network is inflating at 0.24% a year. We can now take these formulas and generate the sliding scale:
 
-| Total Network Stake | Validator Interest | Network Inflation |
+| Total Network Stake | Validator Interest | Network Issuance |
 | :--- | :--- | :--- |
 | 1,000,000 | 8.02% | 0.08% |
 | 2,000,000 | 5.67% | 0.11% |
@@ -81,9 +82,9 @@ Validating and earning rewards is not a free lunch. There are many things to con
     * Validator client: lightweight and need one per 32 ETH stake
 * Capital acquisition and lockup
   * The user must have acquiring their ETH capital by some means of work.
-  * The user must lock up their capital for a set amount of time \(withdrawal period\). This brings volatility risk and lost opportunity cost elsewhere.
+  * If the user wants to withdraw funds, there is a set amount of time they must wait to get their ETH back. However, this time has come down considerably in the latest versions of the spec. The minimum withdraw queue wait is 18 hours. This could go up if a lot of people are exiting at the same time but 18 hours will likely be the norm.
 * Code Risk
-  * With any smart contract on Ethereum, the user must trust or know that the contract cannot be compromised. This concern will likely be high early on and fade over time.
+  * There is some code risk involved in staking that users will take into account. This will be more of a concern early on and likelyl disapate over time. It's important to distinguish between client side code risk and consensus code risk. If the network runs into a consensus code break, the network will hard fork and fix it, so that's less of a concern. However, client side code risk is more serious because it'll be hard to distringuish that from a maliciuous fault.
 * General uptime and maintenance cost
   * Users need to make sure their validator doesn't have downtown or they risk a quadratic leak on their stake.
   * If a user has multiple validators, maintenance cost and worry of the infrastructure comes into play.
