@@ -12,6 +12,6 @@ Settle is a web-native operating system for decentralized finance. Settle attemp
 
 #### Important Links
 
-Site: [https://www.augur.net/](https://www.augur.net/)  
-Twitter: [https://twitter.com/AugurProject](https://twitter.com/AugurProject)  
-Github: [https://github.com/AugurProject](https://github.com/AugurProject)
+Site: [https://settle.finance](https://settle.finance)  
+App:  [https://settle.finance/os](https://settle.finance/os)    
+Twitter: [https://twitter.com/settlefinance](https://twitter.com/settlefinance)
