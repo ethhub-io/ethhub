@@ -91,8 +91,8 @@ Validating and earning rewards is not a free lunch. There are many things to con
 
 ### Competition
 
-A very important factor in determining if staking ETH is worth it is comparing the net reward versus competition.
+A very important factor in determining if staking ETH is worth it is comparing the net reward versus competition. Motivated by profit, miners and stakers do not necessarily care about improving or securing the ETH ecosystem.
 
-Decentralized finance applications such as Compound Finance, Dharma and Maker. These applications offer ways for users to lock up ETH and gain a reward \(interest\). Trying to understand what these offerings are or will be is something that should be considered.
+Decentralized finance applications such as [Compound Finance](https://compound.finance/), [Dharma](https://dharma.io/) and [Maker](https://makerdao.com/). These applications offer ways for users to lock up ETH and gain a reward \(interest\). Trying to understand what these offerings are or will be is something that should be considered.
 
 There is over [500 alternative PoS coins](https://masternodes.online/), with a reward structure. Why stake ETH, when one can earn more, with potentially less infrastructure and risk, on another coin?
