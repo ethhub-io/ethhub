@@ -22,7 +22,8 @@
 * [History](ethereum-101/history.md)
 * [Monetary Policy](ethereum-101/monetary-policy/README.md)
   * [Economic Abstraction](ethereum-101/monetary-policy/economic-abstraction.md)
-* [Governance](built-on-ethereum/governance.md)
+  * [Eth 2.0 Economics](ethereum-101/monetary-policy/eth-2.0-economics.md)
+* [Governance](ethereum-101/governance.md)
 
 ## Roadmap
 
@@ -65,20 +66,6 @@
   * [Types of TCRs](tokens/tcrs/types-of-tcrs.md)
 * [Non-fungible Tokens \(NFTs\)](tokens/nfts.md)
 
-## Ethereum Myths
-
-* [\*\*TEMPLATE FOR MYTHS\*\*](ethereum-myths/template.md)
-* [Is Ethereum centralized?](ethereum-myths/is-ethereum-centralized.md)
-* [Is Ethereum more expensive to use when Ether price is higher?](ethereum-myths/centralization-myth.md)
-* [I heard that Ethereum will never scale so how will it support all these dapps?](ethereum-myths/cost-myth.md)
-* [If it cost money to send a transaction on Ethereum, how will it compete with free blockchains?](ethereum-myths/if-ethereum-is-not-free-to-use-how-will-it-ever-compete-with-blockchains-that-provide-free-trans.md)
-* [Is Ethereum Classic the original Ethereum?](ethereum-myths/is-ethereum-classic-is-the-original-ethereum.md)
-* [If Ether has an infinite supply how can we expect Ether to ever hold value?](ethereum-myths/if-ether-has-an-infinite-supply-how-can-we-expect-ether-to-ever-hold-value.md)
-* [Is Ethereum a security?](ethereum-myths/is-ethereum-a-security.md)
-* [Is Ethereum a Store of Value?](ethereum-myths/is-ethereum-a-store-of-value.md)
-* [Is Ethereum only good for scam ICOs?](ethereum-myths/is-ethereum-only-good-for-scam-icos.md)
-* [Is Ethereum Immutable?](ethereum-myths/is-ethereum-immutable.md)
-
 ## Built on Ethereum
 
 * [\*\*TEMPLATE FOR DAPPS\*\*](built-on-ethereum/template-for-dapps.md)
@@ -107,6 +94,7 @@
     * [Dharma](built-on-ethereum/open-finance/lending/dharma.md)
     * [Compound](built-on-ethereum/open-finance/lending/compound.md)
   * [Set Protocol](built-on-ethereum/open-finance/set-protocol.md)
+  * [Settle](built-on-ethereum/open-finance/settle.md)
   * [Digix](built-on-ethereum/open-finance/digix.md)
 * [Developer Tools](built-on-ethereum/developer-tools/README.md)
   * [Gitcoin](built-on-ethereum/developer-tools/gitcoin.md)
@@ -126,4 +114,16 @@
 * [Identity](built-on-ethereum/identity.md)
 * [Governance](built-on-ethereum/governance.md)
 * [IPFS](built-on-ethereum/ipfs.md)
+
+## Ethereum Questions
+
+* [\*\*TEMPLATE FOR QUESTION\*\*](ethereum-myths/template.md)
+* [Is Ethereum centralized?](ethereum-myths/is-ethereum-centralized.md)
+* [Is Ethereum more expensive to use when Ether price is higher?](ethereum-myths/centralization-myth.md)
+* [I heard that Ethereum will never scale so how will it support all these dapps?](ethereum-myths/cost-myth.md)
+* [If it cost money to send a transaction on Ethereum, how will it compete with free blockchains?](ethereum-myths/if-ethereum-is-not-free-to-use-how-will-it-ever-compete-with-blockchains-that-provide-free-trans.md)
+* [If Ether has an infinite supply how can we expect Ether to ever hold value?](ethereum-myths/if-ether-has-an-infinite-supply-how-can-we-expect-ether-to-ever-hold-value.md)
+* [Is Ethereum a security?](ethereum-myths/is-ethereum-a-security.md)
+* [Is Ethereum a Store of Value?](ethereum-myths/is-ethereum-a-store-of-value.md)
+* [Is Ethereum Immutable?](ethereum-myths/is-ethereum-immutable.md)
 

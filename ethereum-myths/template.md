@@ -1,4 +1,4 @@
-# \*\*TEMPLATE FOR MYTHS\*\*
+# \*\*TEMPLATE FOR QUESTION\*\*
 
 #### Myth
 

@@ -8,4 +8,5 @@ An interest rate of each lending and borrowing is defined by the size of the liq
 
 ## Important links
 
-* Website: https://compound.finance
+* Website: [https://compound.finance](https://compound.finance)
+
