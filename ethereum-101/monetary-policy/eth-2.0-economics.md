@@ -84,14 +84,15 @@ Validating and earning rewards is not a free lunch. There are many things to con
   * The user must have acquiring their ETH capital by some means of work.
   * If the user wants to withdraw funds, there is a set amount of time they must wait to get their ETH back. However, this time has come down considerably in the latest versions of the spec. The minimum withdraw queue wait is 18 hours. This could go up if a lot of people are exiting at the same time but 18 hours will likely be the norm.
 * Code Risk
-  * There is some code risk involved in staking that users will take into account. This will be more of a concern early on and likelyl disapate over time. It's important to distinguish between client side code risk and consensus code risk. If the network runs into a consensus code break, the network will hard fork and fix it, so that's less of a concern. However, client side code risk is more serious because it'll be hard to distringuish that from a maliciuous fault.
+  * There is some code risk involved in staking that users will take into account. This will be more of a concern early on and likelyl disapate over time. It's important to distinguish between client side code risk and consensus code risk. If the network runs into a consensus code break, the network will hard fork and fix it, so that's less of a concern. However, client side code risk is more serious because it'll be hard to distringuish that from a malicious fault.
 * General uptime and maintenance cost
   * Users need to make sure their validator doesn't have downtown or they risk a quadratic leak on their stake.
   * If a user has multiple validators, maintenance cost and worry of the infrastructure comes into play.
 
 ### Competition
 
-A very important factor in determining if staking ETH is worth it is comparing the net reward versus competition. In the case of ETH, the best competition to compare to are decentralized finance applications such as Compound Finance, Dharma, Maker, and many others.  
-  
-Just like staking, these applications offer ways for users to lock up ETH and gain a reward \(interest\). Trying to understand what these offerings are or will be is something that should be considered.
+A very important factor in determining if staking ETH is worth it is comparing the net reward versus competition.
 
+Decentralized finance applications such as Compound Finance, Dharma and Maker. These applications offer ways for users to lock up ETH and gain a reward \(interest\). Trying to understand what these offerings are or will be is something that should be considered.
+
+There is over [500 alternative PoS coins](https://masternodes.online/), with a reward structure. Why stake ETH, when one can earn more, with potentially less infrastructure and risk, on another coin?
