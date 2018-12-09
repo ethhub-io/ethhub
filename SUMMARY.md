@@ -94,6 +94,7 @@
     * [Dharma](built-on-ethereum/open-finance/lending/dharma.md)
     * [Compound](built-on-ethereum/open-finance/lending/compound.md)
   * [Set Protocol](built-on-ethereum/open-finance/set-protocol.md)
+  * [Settle](built-on-ethereum/open-finance/settle.md)
   * [Digix](built-on-ethereum/open-finance/digix.md)
 * [Developer Tools](built-on-ethereum/developer-tools/README.md)
   * [Gitcoin](built-on-ethereum/developer-tools/gitcoin.md)
