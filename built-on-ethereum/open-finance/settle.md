@@ -8,7 +8,7 @@ Settle is a web-native operating system for decentralized finance. Settle attemp
  
 #### Interface
 
-![](../.gitbook/assets/product_image_augur_bf73d2b2ec4a6d57f7c706f419557e78f8eceeba5e7212a493513da831b24e9a_opti.jpg)
+![](../.gitbook/assets/Settle-Interface.png)
 
 #### Important Links
 
