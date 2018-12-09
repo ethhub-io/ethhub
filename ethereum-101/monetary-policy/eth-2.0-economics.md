@@ -70,7 +70,7 @@ So here we can see that with 10,000,000 total network stake, validators are gain
 
 ### Fees
 
-One thing the above does not consider is staking fees. Validators will also be taking in a cut of the total fees that people are paying to use the network. This is one area that needs more research but currently, the Ethereum network is paying about 600 ETH a day in fees. At current rate that's 219,000 ETH a year. How this will scale up as we add shards and throughput to the network will be important because it goes into the reward calculation for validators. 
+Validators earn a cut of the transaction fees that people pay to use the network. This is one area that needs more research but currently, the Ethereum network is paying about 600 ETH a day in fees. At current rate that's 219,000 ETH a year. How this will scale up as we add shards and throughput to the network will be important because it goes into the reward calculation.
 
 ### Staking Costs and Risks
 
