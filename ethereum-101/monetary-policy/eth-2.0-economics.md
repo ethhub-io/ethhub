@@ -3,7 +3,7 @@
 ### Introduction
 
 The Ethereum Serenity upgrade will bring with it a switch from Proof of Work to Proof of Stake. This means that rather than pay miners to secure the network, we will be paying validators to secure the network. It's vitally important to get the economics of staking right so that the network stays healthy and secure.   
-  
+
 If the incentive to stake is too low, the network will not get the minimum amount of validators needed to keep many shards going. If the incentive is too high, the network is overpaying for security and inflating at a rate that is detrimental to the economics of the network as a whole.
 
 There are a few considerations when it comes to how many validators the network "needs". According to the latest spec, the recommended minimum validators per committee is 111. At 1024 shards that would be 113,664 validators and 3,637,248 total ETH staked.
@@ -22,15 +22,15 @@ NOTE: Some of these are taken from [https://github.com/ethereum/eth2.0-specs/blo
 ### Validator Economic Incentive
 
 There are many things that a user will consider when wanting to become a validator. In the base case, some users may believe in the Ethereum network so much that they would stake at a loss if need be. A good example of this is the 12,000 Ethereum nodes running today. However, in the simplest case we can break down the thought process as follows:  
-  
+
 Total Incentive to Stake = Validator Rewards + Network Fees - Cost to run a Validator   
-  
+
 \*One factor discussed later that validators will consider as well is competition.
 
 ### Staking Rewards
 
 In order to incentivize those that have ETH to stake in the network, there must be some type of reward. It's unlikely that many people would stake their ETH for no reward. Serenity accomplishes this by paying validators a reward for every block they successfully propose. In the [latest spec](https://github.com/ethereum/eth2.0-specs/blob/master/specs/core/0_beacon-chain.md) this is a sliding scale based on total network stake. So if total ETH stake is low, the interest rate goes up and as stake rises, it starts to fall.   
-  
+
 We can calculate this scale using the spec. There are a lot of variables in doing this. First up are the **constants**:
 
 | **Constant** | Value |
@@ -91,8 +91,13 @@ Validating and earning rewards is not a free lunch. There are many things to con
 
 ### Competition
 
-A very important factor in determining if staking ETH is worth it is comparing the net reward versus competition. Motivated by profit, miners and stakers do not necessarily care about improving or securing the ETH ecosystem.
+A very important factor in determining if staking ETH is worth it is comparing the net reward versus competition. We should assume that stakers do not necessarily care about securing the Ethereum network but rather they are motivated by profit. There are many different categories of competition to consider:
 
+**<u>Decentralized Finance</u>**
 Decentralized finance applications such as [Compound Finance](https://compound.finance/), [Dharma](https://dharma.io/) and [Maker](https://makerdao.com/). These applications offer ways for users to lock up ETH and gain a reward \(interest\). Trying to understand what these offerings are or will be is something that should be considered.
 
+**<u>Other Investment Vehicles</u>**
+More traditional investment alternatives such as bonds, certificates of deposit, savings account, etc. can be considered competition to staking as well. While not as directly influencial to the decent as DeFi apps, they need to be considered.
+
+**<u>Alternative Staking Coins</u>**
 There is over [500 alternative PoS coins](https://masternodes.online/), with a reward structure. Why stake ETH, when one can earn more, with potentially less infrastructure and risk, on another coin?
