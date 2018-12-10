@@ -117,13 +117,13 @@
 
 ## Ethereum Questions
 
-* [\*\*TEMPLATE FOR QUESTION\*\*](ethereum-myths/template.md)
-* [Is Ethereum centralized?](ethereum-myths/is-ethereum-centralized.md)
-* [Is Ethereum more expensive to use when Ether price is higher?](ethereum-myths/centralization-myth.md)
-* [I heard that Ethereum will never scale so how will it support all these dapps?](ethereum-myths/cost-myth.md)
-* [If it cost money to send a transaction on Ethereum, how will it compete with free blockchains?](ethereum-myths/if-ethereum-is-not-free-to-use-how-will-it-ever-compete-with-blockchains-that-provide-free-trans.md)
-* [If Ether has an infinite supply how can we expect Ether to ever hold value?](ethereum-myths/if-ether-has-an-infinite-supply-how-can-we-expect-ether-to-ever-hold-value.md)
-* [Is Ethereum a security?](ethereum-myths/is-ethereum-a-security.md)
-* [Is Ethereum a Store of Value?](ethereum-myths/is-ethereum-a-store-of-value.md)
-* [Is Ethereum Immutable?](ethereum-myths/is-ethereum-immutable.md)
+* [\*\*TEMPLATE FOR QUESTION\*\*](ethereum-questions/template.md)
+* [Is Ethereum centralized?](ethereum-questions/is-ethereum-centralized.md)
+* [Is Ethereum more expensive to use when Ether price is higher?](ethereum-questions/centralization-myth.md)
+* [I heard that Ethereum will never scale so how will it support all these dapps?](ethereum-questions/cost-myth.md)
+* [If it cost money to send a transaction on Ethereum, how will it compete with free blockchains?](ethereum-questions/if-ethereum-is-not-free-to-use-how-will-it-ever-compete-with-blockchains-that-provide-free-trans.md)
+* [If Ether has an infinite supply how can we expect Ether to ever hold value?](ethereum-questions/if-ether-has-an-infinite-supply-how-can-we-expect-ether-to-ever-hold-value.md)
+* [Is Ethereum a security?](ethereum-questions/is-ethereum-a-security.md)
+* [Is Ethereum a Store of Value?](ethereum-questions/is-ethereum-a-store-of-value.md)
+* [Is Ethereum Immutable?](ethereum-questions/is-ethereum-immutable.md)
 
