@@ -27,7 +27,8 @@
 
 ## Roadmap
 
-* [Timeline](roadmap/timeline.md)
+* [Timeline](roadmap/timeline/README.md)
+  * [Serenity Phases](roadmap/timeline/serenity-phases.md)
 * [Scaling](roadmap/layer-1-scaling/README.md)
   * [Layer 1](roadmap/layer-1-scaling/sharding/README.md)
     * [Sharding](roadmap/layer-1-scaling/sharding/sharding.md)

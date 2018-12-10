@@ -11,7 +11,7 @@ Starting with the Constantinople hard fork, Ethereum will be targeting a hard fo
 | Early 2020 Hard Fork | ~3/1/2020 |
 | Late 2020 Hard Fork | ~11/1/2020 |
 
-_Previous hard fork information can be found_ [_here_](../ethereum-101/history.md#hard-fork-history)_._
+_Previous hard fork information can be found_ [_here_](../../ethereum-101/history.md#hard-fork-history)_._
 
 ### Constantinople Fork
 
