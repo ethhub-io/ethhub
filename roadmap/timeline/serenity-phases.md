@@ -47,7 +47,7 @@ The Eth 1.0 and 2.0 chains will still operate in parallel after Phase 1. Using B
 
 #### What is included?
 
-Phase 2 is where the functionality will start to come together. At this point, the beacon chain and shards chains are live, but they are somewhat useless from an end user perspective until smart contracts and transactions can be executed.
+Phase 2 is where the functionality will start to come together. At this point, the beacon chain and shards chains are live, but they are somewhat useless from an end user perspective until smart contracts and transactions can be executed. This will be added in Phase 2.
 
 #### What will the network look like?
 
@@ -55,7 +55,7 @@ Near the end of Phase 2, the current state of the Eth 1.0 PoW chain will be copi
 
 #### Important Considerations
 
-* Phase 2 will bring this state execution to the Eth 2.0 chain. This phase may also see the replacement of the EVM with eWASM.
+* This phase may also see the replacement of the EVM with eWASM.
 * This phase will only support full nodes
 
 ### Phase 3 - Light client state protocol
