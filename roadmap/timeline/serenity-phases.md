@@ -2,7 +2,7 @@
 
 _This page is a WIP._ 
 
-### Introduction
+## Introduction
 
 Ethereum’s Serenity upgrade will bring Sharding, Proof of Stake, a new virtual machine \(eWASM\) and more. It’s important to understand that this upgrade will not take place at a single point in time. Instead, it will be rolled out in phases. This document attempts to be a reference point for these phases and what each includes.  
   
@@ -10,7 +10,7 @@ To start, here is a [nice visual](https://docs.google.com/presentation/d/1G5UZdE
 
 ![](../../.gitbook/assets/screen-shot-2018-12-10-at-2.01.26-pm.png)
 
-### Phase 0 - Beacon Chain \(~Late 2019\)
+## Phase 0 - Beacon Chain \(~Late 2019\)
 
 #### **What is included?**
 
@@ -29,7 +29,7 @@ Once Phase 0 is complete, there will be two active Ethereum chains. For the sake
 * During Phase 0, all Ethereum transactions and smart contract computations will still occur on the Eth 1.0 chain.
 * Once the beacon chain is advancing, Eth 1.0 clients can refer to the beacon chain for finalized beacon blocks and use that as the finality checkpoint for the Eth 1.0 PoW chain.
 
-### Phase 1 - Shard Chains
+## Phase 1 - Shard Chains
 
 #### What is included?
 
@@ -43,7 +43,7 @@ The Eth 1.0 and 2.0 chains will still operate in parallel after Phase 1. Using B
 
 * In Phase 0 and Phase 1, the main PoW chain will remain live while testing and transitioning is happening on the Eth 2.0 chain. This means that rewards will be paid to both Phase 0/1 validators as well as the normal PoW block rewards. Therefore, the combined inflation of the 2 chains may spike a bit initially but then start to trend towards the 0-1% range as Phase 2 is implemented.
 
-### Phase 2 - State Execution
+## Phase 2 - State Execution
 
 #### What is included?
 
@@ -60,15 +60,14 @@ Near the end of Phase 2, the current state of the Eth 1.0 PoW chain will be copi
 
 _Phases 3-6 are longer term visions and still need more detail but for now phase titles have been taken from_ [_here_](https://github.com/ethereum/wiki/wiki/Sharding-roadmap#strongphase-3strong-light-client-state-protocol)_._ 
 
-### Phase 3 - Light client state protocol
+## Other Phases
 
-### Phase 4 - Cross-shard transactions
+* Phase 3 - Light client state protocol
+* Phase 4 - Cross-shard transactions
+* Phase 5 - Tight coupling with main chain security
+* Phase 6 - Super-quadratic sharding
 
-### Phase 5 - Tight coupling with main chain security
-
-### Phase 6 - Super-quadratic sharding
-
-### Resources
+## Resources
 
 * [Sharding Roadmap](https://github.com/ethereum/wiki/wiki/Sharding-roadmap#strongphase-3strong-light-client-state-protocol)
 * [State of Ethereum Protocol](https://media.consensys.net/state-of-ethereum-protocol-2-the-beacon-chain-c6b6a9a69129)
