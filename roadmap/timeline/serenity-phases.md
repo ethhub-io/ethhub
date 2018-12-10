@@ -58,9 +58,9 @@ Near the end of Phase 2, the current state of the Eth 1.0 PoW chain will be copi
 * This phase may also see the replacement of the EVM with eWASM.
 * This phase will only support full nodes
 
-_Phases 3-6 are longer term visions and still need more detail but for now phase titles have been taken from_ [_here_](https://github.com/ethereum/wiki/wiki/Sharding-roadmap#strongphase-3strong-light-client-state-protocol)_._ 
-
 ## Other Phases
+
+_Phases 3-6 are longer term visions and still need more detail on this page but for now phase titles have been taken from_ [_here_](https://github.com/ethereum/wiki/wiki/Sharding-roadmap#strongphase-3strong-light-client-state-protocol)_._ 
 
 * Phase 3 - Light client state protocol
 * Phase 4 - Cross-shard transactions
