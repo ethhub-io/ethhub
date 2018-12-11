@@ -32,8 +32,8 @@ According to the current [Eth 2.0 spec](https://notes.ethereum.org/s/Syj3QZSxm),
 There are three majors upcoming factors when it comes to Ethereum's issuance rate and supply curve. They are:
 
 * Constantinopole Hard Fork: block rewards drop from 3 to 2.
-* Serenity Phase 0: Slight bump in issuance due to Beacon Chain launch.
-* Serenity Phase 2: Strong drop in issuance due to the PoW chain fading away.
+* [Serenity Phase 0](https://github.com/ethhub-io/ethhub/blob/master/roadmap/timeline/serenity-phases.md): Slight bump in issuance due to Beacon Chain launch.
+* [Serenity Phase 2](https://github.com/ethhub-io/ethhub/blob/master/roadmap/timeline/serenity-phases.md): Strong drop in issuance due to the PoW chain fading away.
 
 ![](../../.gitbook/assets/screen-shot-2018-12-11-at-7.51.08-am.png)
 
