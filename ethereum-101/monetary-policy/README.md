@@ -2,7 +2,7 @@
 
 ### Genesis Block
 
-As part of the Ethereum [genesis block](../key-concepts/genesis-block.md), contributors to the Ethereum [pre-sale]() were allocated 60,000,000 Ether. Another 12,000,000 Ether was given to the development fund which was distributed among early contributors and the [Ethereum Foundation](../key-concepts/ethereum-foundation.md).
+As part of the Ethereum [genesis block](../key-concepts/genesis-block.md), initial contributors to Ethereum sale were allocated 60,000,000 Ether. Another 12,000,000 Ether was given to the development fund which was distributed among early contributors and the [Ethereum Foundation](../key-concepts/ethereum-foundation.md).
 
 ### Block Rewards
 
@@ -12,20 +12,24 @@ Every block produced on the Ethereum network has an associated block reward whic
 * Block 4,370,000 to current: 3 Ether \(changed via [EIP-649](https://github.com/ethereum/EIPs/blob/master/EIPS/eip-649.md)\)
 
 {% hint style="info" %}
-It is currently planned that in the Constantinople hard fork, targeted for the end of 2018, block rewards will drop to 2 Ether per block via [EIP-1234](https://github.com/ethereum/EIPs/blob/master/EIPS/eip-1234.md).
+The Constantinople hard fork, targeted for the beginning of 2019, will cut block rewards to 2 Ether per block via [EIP-1234](https://github.com/ethereum/EIPs/blob/master/EIPS/eip-1234.md).
 {% endhint %}
 
 ### Proof of Stake Impact
 
-According to the current [Shading+Casper spec](https://notes.ethereum.org/s/Syj3QZSxm), block rewards will be greatly reduced as a part of Proof of Stake. There will be a sliding scale between total amount of Ether at stake and annual interest earned by stakers. The current spec would produce the following annual interest and inflation numbers:
+According to the current [Eth 2.0 spec](https://notes.ethereum.org/s/Syj3QZSxm), issuance rate will be greatly reduced as a part of Proof of Stake. There will be a [sliding scale](eth-2.0-economics.md#staking-rewards) between total amount of Ether at stake and annual interest earned by stakers. The current spec would produce the following annual interest and inflation numbers based on total network stake:
 
-![](../../.gitbook/assets/shasper_issuance.png)
+![](../../.gitbook/assets/screen-shot-2018-12-10-at-6.55.04-pm.png)
 
-### Supply Forecast
+### Current Supply Forecast
 
-_This following supply forecast assumes EIP-1234 is implement on 12/1/2018 and_ [_Proof of Stake_](../../roadmap/layer-2-scaling/) _is implemented on 1/1/2020 with an average of 10,000,000 ETH staked._
+There are three majors upcoming factors when it comes to Ethereum's issuance rate and supply curve. They are:
 
-![](../../.gitbook/assets/eth_supply.png)
+* Constantinopole Hard Fork: block rewards drop from 3 to 2.
+* Serenity Phase 0: Slight bump in issuance due to Beacon Chain launch.
+* Serenity Phase 2: Strong drop in issuance due to the PoW chain fading away.
+
+![This graph is using approximate date assumptions for future changes](../../.gitbook/assets/screen-shot-2018-12-10-at-6.18.13-pm.png)
 
 
 
