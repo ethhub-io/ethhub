@@ -1,4 +1,4 @@
-# Scaling
+# Layer 1 Scaling
 
 Scaling is one of the most important concepts when it comes to the future of blockchains. Currently, Ethereum can process a limited amount of transactions a day due to the gas block limit. All blockchains deal with the scalability trilemma, first described by Vitalik Buterin. The trilemma states that blockchains can only have two of the three following properties: 
 

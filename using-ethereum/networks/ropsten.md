@@ -1,3 +1,6 @@
-# Rinkeby Testnet
+# Ropsten
+
 ## About
+
 ## Important Links
+

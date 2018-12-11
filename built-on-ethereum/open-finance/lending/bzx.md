@@ -8,4 +8,5 @@ To provide fair pricing of assets, bZx uses oracle providers to send price data 
 
 ## Important links
 
-* Website: https://bzx.network
+* Website: [https://bzx.network](https://bzx.network)
+

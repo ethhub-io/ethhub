@@ -1,20 +1,21 @@
-# Web Wallets
+# Web
 
-### What are they?
+## What are they?
 
 Web wallets are wallets hosted on a website, they may be custodial or act as an interface for users to generate and interact with their accounts.
 
-### Pros and Cons
+## Pros and Cons
 
-###### Pros
+### Pros
 
 * Highly Available and Accessible.
 
-###### Cons
+### Cons
 
 * Rely on each provider to provide good security and to respect your privacy.
 
-### Wallets
+## Wallets
+
 * [Metamask](https://metamask.io/) - Chrome extension Ether wallet with ERC tokens support
 * [MyEtherWallet](https://github.com/MyEtherWallet) - Open-source [tool](https://www.myetherwallet.com/) for interacting with the blockchains easily & securely
 * [MyCrypto](https://github.com/MyCryptoHQ) - Open-source, client-side [tool](https://mycrypto.com/account) for generating ether wallets, handling ERC-20 tokens, and interacting with the blockchain more easily
@@ -23,5 +24,7 @@ Web wallets are wallets hosted on a website, they may be custodial or act as an 
 * [SpankCard](https://github.com/SpankChain/SpankCard) - An in-browser Ethereum wallet with support for payment channels
 * [Mnemonic generator](https://iancoleman.io/bip39/) - generate word mnemonic and associated public/private key pairs. Select "Ethereum" as coin to generate Ethereum addresses. Useful for truffle-hd-wallet.
 
-### References:
+## References:
+
 * [Consensys's ethereum-developer-tools-list](https://github.com/ConsenSys/ethereum-developer-tools-list/blob/master/EcosystemResources.md)
+

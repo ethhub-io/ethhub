@@ -1,3 +1,6 @@
-# Morden Testnet
+# Kovan
+
 ## About
+
 ## Important Links
+

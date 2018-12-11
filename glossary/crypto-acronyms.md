@@ -1,6 +1,6 @@
 # Crypto Acronyms
 
-#### Consensus/Sybil-control
+## Consensus/Sybil-control
 
 * PoW - Proof of Work
 * PoS - Proof of Stake
@@ -11,7 +11,7 @@
 * dBFT - Delegated Byzantine Fault Tolerance
 * pBFT - Practical Byzantine Fault Tolerance
 
-#### Ethereum-related
+## Ethereum-related
 
 * DeFi - Decentralized Finance
 * DAPP - Decentralized Application
@@ -24,7 +24,7 @@
 * SC - Smart Contract
 * NFT - Non-Fungible Token
 
-#### Bitcoin-related
+## Bitcoin-related
 
 * BIP - Bitcoin Improvement Proposal
 * SegWit - Segregated Witness
@@ -37,14 +37,14 @@
 * UAHF - User Activated Hard Fork
 * UASF - User Activated Soft Fork
 
-#### Money-related
+## Money-related
 
 * SoV - Store of Value
 * MoE - Medium of Exchange
 * UoA - Unit of Account
 * FIAT - Government-issued currency
 
-#### Trading
+## Trading
 
 * ETF - Exchange Traded Fund
 * TA - Technical Analysis
@@ -68,7 +68,7 @@
 * SMA - Simply Moving Average
 * EMA - Exponential Moving Average
 
-#### Mining
+## Mining
 
 * CPU - Central Processing Unit
 * GPU - Graphics Processing Unit
@@ -76,7 +76,7 @@
 * FPGA - Field Programmable Gate Array
 * HPS - Hashes Per Second
 
-#### Memes
+## Memes
 
 * HODL - A spelling error
 * FOMO - Fear of Missing Out
@@ -85,7 +85,7 @@
 * FUD - Fear, Uncertainty and Doubt
 * SFYL - Sorry For Your Loss
 
-#### U.S Regulatory-related
+## U.S Regulatory-related
 
 * SEC - Securities & Exchange Commission
 * FTC - Federal Trade Commision
@@ -97,7 +97,7 @@
 * KYC - Know Your Customer
 * AML - Anti-money Laundering
 
-#### Misc
+## Misc
 
 * BP - Block Producer
 * TXID - Transaction ID
@@ -122,7 +122,9 @@
 * VRF - Verfiable Random Function
 * DAG - Directed Acyclic Graph
 
-#### Security and Privacy
+## Security and Privacy
+
 * SNARKs - Succinct Non-Interactive ARguments of Knowledge
 * STARKs - Scalable Transparent ARguments of Knowledge
 * MPC - Multi-Party Computation
+
