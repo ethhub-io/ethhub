@@ -82,11 +82,11 @@ Ethereums Proof of Stake mechanism (codenamed Casper FFG and Casper CBC) is fund
 
 #### 10. Relative to a proof of work consensus mechanism does proof of stake have particular vulnerabilities, challenges, or features that make it prone to manipulation? In responding consider, for example, that under a proof of stake consensus mechanism, the chance of validating a block may be proportional to staked wealth.
 
-Answer: 
+Ethereum Proof of Stake will function on the basis of validators, each of which will stake 32 Ether. Users are able to run multiple validators but their computing cost will increase as well. A validator will be randomly chosen to propose a block and then a committee of users (at least 111) will vote to say if that validator acted properly. If so, the block will be validated and the validator rewards. If not, the validator's deposit will be slashed and be lost. If an attacker gained 51% of all Ether they could attempt to attack the network but mechanisms in place make it likely that they will still be slashed. At current Ether price, this attacker would be risking $4,300,000,000 to do so and if caught could lose it all. The cost to aquire 51% of the Bitcoin has rate is much less.
 
 #### 11. There are reports of disagreements within the Ether community over the proposed transition to a proof of stake consensus model. Could this transition from a proof of work to a proof of stake verification process result in a fragmented or diminished Ether market if the disagreements are not resolved?
 
-Answer: 
+The roadmap and community consensus is very clear when it comes to wanting to switch to proof of stake. There are active conversations occuring about the logistics and mechanisms of the proof of stake transition but wanting to stay on proof of work is not something actively discussed. At any point, a user can attempt to fork or stay on the current proof of work chain but the incentive will be very little once proof of stake is live because the users of the network gain many benefits from Eth 2.0 chain which will include proof of stake. These include: scalability, lower issuance rate, ETH holders being able to stake and earn rewards and all development power focused on the new chain.
 
 #### 12. What capability does the Ethereum Network have to support the continued development and increasing use of smart contracts?
 
