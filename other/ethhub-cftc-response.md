@@ -14,13 +14,16 @@ Ether is the fundamental cryptocurrency used on the Ethereum network. It is used
 
 ### 2. What are the current functionalities and capabilities of Ether and the Ethereum Network as compared to the functionalities and capabilities of Bitcoin?
 
-Bitcoin and Ethereum are currently both secured by a Proof of Work blockchain. However, the core difference is that Ethereum has smart contract functionality that allows for the development and deployment of decentralized applications.
+Bitcoin and Ethereum are currently both secured by a Proof of Work blockchain. However, the core difference is that Ethereum has smart contract functionality that allows for the development and deployment of decentralized applications. The Ethereum network wants to move away from the Proof of Work to a Proof of Stake which is more energy efficient and sustainable in theory. 
 
-The functionality of the underlying asset Ether is actually very similar to Bitcoin.
+The functionality of the underlying asset Ether is actually very similar to Bitcoin. The difference is the transaction is modified based on the values of the code within the smart contract.  
 
 ### 3. How is the developer community currently utilizing the Ethereum Network? More specifically, what are prominent use cases or examples that demonstrate the functionalities and capabilities of the Ethereum Network?
 
 The simplest use case of the Ethereum network is value transfer by sending Ether \(which has an attached value\) from one person to another. However, the amount of applications being built on top of the program is growing at a rapid pace. Currently, the most active applications are those related to "Decentralized Finance". As of 12/11/18, there is currently $120,000,000 worth of Ether being used in Decentralized Finance applications.
+
+In today's world, the statistics speak for themselves that we cannot trust centralized authorities like Uber to keep our information safe. Data breaches are on the rise with a staggering 257% increase since 2013 at 1,579 recorded breaches. Credit card fraud is at a staggering high with 14.2 million credit card numbers leaked and 140 million social security numbers for a total of $905 million stolen in 2017(source: https://www.experian.com/blogs/ask-experian/identity-theft-statistics/). If we had our current model of electronic transaction on a system like Ethereum, our data would be secured by the laws of cryptography and would not be trusted among a centralized source. We have just begun to understand the power of these large corporations harvesting all of our electronic data and raises a number of concerns on homeland security, corporate fraud, and creating ill natured public propganda. 
+
 
 ### 4. Are there any existing or developing commercial enterprises that are using Ether to power economic transactions? If so, how is Ether recorded for accounting purposes in a comprehensive set of financial statements?
 
