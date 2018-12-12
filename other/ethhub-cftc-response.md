@@ -35,11 +35,19 @@ Answer:
 
 #### 7. How is the technology underlying Ethereum similar to and different from the technology underlying Bitcoin?
 
-Answer: 
+From a high level, Ethereum is similar to Bitcoin in that it uses a 'blockchain' and uses 'Proof of Work' to achieve consensus and secure the network. Both blockchains have a native digital asset - Ether for Ethereum and bitcoin for Bitcoin.
+
+The Ethereum network is a turing-complete blockchain. This means that it is capable of executing arbitrary code - known as smart contracts. The ability to run code on the Ethereum blockchain means that developers can build applications on top of it. One such application, MakerDAO, allows users to take use their ETH as collateral to take out a loan. These applications are interoperable within the confines of the Ethereum network.
+
+Ethereum 2.0 (Serenity) is a substantial upgrade for the Ethereum network being deployed in multiple phases. The main features in this upgrade include a move to Proof of Stake (for securing the network, sharding (for scaling the network) and eWASM (a new virtual machine for the network).
 
 #### 8. Does the Ethereum Network face scalability challenges? If so, please describe such challenges and any potential solutions. What analyses or data sources could be used to assess concerns regarding the scalability of the underlying Ethereum Network, and in particular, concerns about the network’s ability to support the growth and adoption of additional smart contracts?
 
-Answer: 
+The Ethereum Network suffers from the same scalability challenges as Bitcoin. 
+
+The main Ethereum blockchain is considered 'layer 1'. 
+
+ 
 
 #### 9. Has a proof of stake consensus mechanism been tested or validated at scale? If so, what lessons or insights can be learned from the experience?
 
@@ -95,23 +103,37 @@ Answer:
 
 #### 21. What other factors could impact the Commission’s ability to properly oversee or monitor trading in derivative contracts on Ether as well as the underlying Ether cash markets?
 
-Answer: 
+Privacy is one of the core features being worked on by multiple teams. The technology is expected to have profound effects on both the privacy of Ethereum and the scalability of the network.
+
+Privacy technology on Ethereum already has working implementations being deployed to the Ethereum main network (https://medium.com/aztec-protocol/confidential-transactions-have-arrived-a-dive-into-the-aztec-protocol-a1794c00c009).
+
+This privacy technology may impede the Commission's ability to monitor, audit or oversee trading activity in the future. 
 
 #### 22. Are there any emerging best practices for monitoring the Ethereum Network and public blockchains more broadly?
 
-Answer: 
+Due to the transparency of blockchains, there are multiple services that provide monitoring, visualization and analytical
+tools for Ethereum and related applications that are built on top.
+
+* https://aleth.io/
+* https://etherscan.io/
+* https://www.kaggle.com/bigquery/ethereum-blockchain
+* https://observeth.net/main
+* https://www.ethtective.com/
+* https://mkr.tools
 
 ## Cyber Security and Custody
 
 #### 23. Are there security issues peculiar to the Ethereum Network or Ethereum- supported smart contracts that need to be addressed?
 
-Answer: 
+Smart contracts, like any piece of code, suffer from the possibility of having vulnerabilities or bugs. The security of smart contracts is paramount because they tend to interact with different financial apps and handle value transfer (such as the transfer of ETH or tokens)
+
+Indepdenent auditing and smart contract security firms exist such as Zeppelin or Trail of Bits.
 
 #### 24. Are there any best practices for the construction and security of Ethereum wallets, including, but not limited to, the number of keys required to sign a transaction and how access to the keys should be segregated?
 
-Answer: 
+Best practices exist in the ecosystem for building wallets.
+
+https://consensys.github.io/smart-contract-best-practices/
 
 #### 25. Are there any best practices for conducting an independent audit of Ether deposits?
-
-Answer: 
 
