@@ -9,23 +9,23 @@ _**From the CFTC: In providing your responses, please be as specific as possible
 
 #### 1. What was the impetus for developing Ether and the Ethereum Network, especially relative to Bitcoin?
 
-Answer: It's first vitally important to disguinsh between Ether and Ethereum. Ethereum is an open-source, blockchain-based computing system. Leveraging smart contract (scripting) technology, anyone is able to build and deploy decentralized applications on top of Ethereum. This is very attractive for development because you are able to create programs that run exactly as programmed, trustlessly and with no down time.
+It's first vitally important to disguinsh between Ether and Ethereum. Ethereum is an open-source, blockchain-based computing system. Leveraging smart contract (scripting) technology, anyone is able to build and deploy decentralized applications on top of Ethereum. This is very attractive for development because you are able to create programs that run exactly as programmed, trustlessly and with no down time.
 
 Ether is the fundamental cryptocurrency used on the Ethereum network. It is used to compensate miners for performing transactions on the network. Ether also has many other developing use cases such as money, store of value, and value transfer.
 
 #### 2. What are the current functionalities and capabilities of Ether and the Ethereum Network as compared to the functionalities and capabilities of Bitcoin?
 
-Answer: Bitcoin and Ethereum are currently both secured by a Proof of Work blockchain. However, the core difference is that Ethereum has smart contract functionality that allows for the development and deployment of decentralized applications. 
+Bitcoin and Ethereum are currently both secured by a Proof of Work blockchain. However, the core difference is that Ethereum has smart contract functionality that allows for the development and deployment of decentralized applications. 
 
 The functionality of the underlying asset Ether is actually very similar to Bitcoin.  
 
 #### 3. How is the developer community currently utilizing the Ethereum Network? More specifically, what are prominent use cases or examples that demonstrate the functionalities and capabilities of the Ethereum Network?
 
-Answer: The simplest use case of the Ethereum network is value transfer by sending Ether (which has an attached value) from one person to another. However, the amount of applications being built on top of the program is growing at a rapid pace. Currently, the most active applications are those related to "Decentralized Finance". As of 12/11/18, there is currently $120,000,000 worth of Ether being used in Decentralized Finance applications.
+The simplest use case of the Ethereum network is value transfer by sending Ether (which has an attached value) from one person to another. However, the amount of applications being built on top of the program is growing at a rapid pace. Currently, the most active applications are those related to "Decentralized Finance". As of 12/11/18, there is currently $120,000,000 worth of Ether being used in Decentralized Finance applications.
 
 #### 4. Are there any existing or developing commercial enterprises that are using Ether to power economic transactions? If so, how is Ether recorded for accounting purposes in a comprehensive set of financial statements?
 
-Answer: The Enterprise Ethereum Alliance is a large group of commercial enterprises decidated to building out standards for Enterprise Ethereum. 
+The Enterprise Ethereum Alliance is a large group of commercial enterprises decidated to building out standards for Enterprise Ethereum. 
 
 #### 5. What data sources, analyses, calculations, variables, or other factors could be used to determine Ether’s market size, liquidity, trade volume, types of traders, ownership concentration, and/or principal ways in which the Ethereum Network is currently being used by market participants?
 
@@ -47,7 +47,11 @@ Ethereum 2.0 (Serenity) is a substantial upgrade for the Ethereum network being 
 
 #### 8. Does the Ethereum Network face scalability challenges? If so, please describe such challenges and any potential solutions. What analyses or data sources could be used to assess concerns regarding the scalability of the underlying Ethereum Network, and in particular, concerns about the network’s ability to support the growth and adoption of additional smart contracts?
 
-The Ethereum Network suffers from the same scalability challenges as Bitcoin. 
+The Ethereum Network suffers from scalability challenges similar to Bitcoin. 
+
+It's important to understand the basics of how the Ethereum blockchain operates before diving into scaling. Every transaction cost a certain amount of "gas' which is the cost in computational power to execute a transaction. Every block processed on the network has a cap on the amount of gas it can hold. This is because if blocks get too large, there are issues with storage and network latency. Currently, the Ethereum network sits at max capacity in terms of gas used every day.
+
+This is how Ethereum plans to tackle the scalability issue:
 
 'Layer 1' refers to the main Ethereum network/blockchain.
 'Layer 2' refers to technologies built on top (or above) of the main Ethereum network/blockchain.
