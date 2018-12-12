@@ -77,7 +77,7 @@ Validators earn a cut of the transaction fees that people pay to use the network
 Validating and earning rewards is not a free lunch. There are many things to consider for one to become a validator. These factors will be considered by every validator when contemplating if the staking rewards are "worth it". They are:
 
 * Computing cost
-  * Users will need to run validators clients at a minimum and likely a beacon node as well. This requires computing resources. The specifics around how much as far as HDD, bandwidth and more are still being figured out.
+  * Users will need to run validators clients at a minimum and likely a beacon node as well. This requires computing resources. The specifics around how much as far as HDD, [bandwidth and more are still being figured out](https://github.com/ethereum/eth2.0-specs/issues/251#issuecomment-445438093).
     * Beacon Node: similar to running geth/parity today
     * Validator client: lightweight and need one per 32 ETH stake
 * Capital acquisition and lockup
