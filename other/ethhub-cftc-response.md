@@ -132,7 +132,9 @@ Answer:
 
 ### 19. Please list any potential impacts on Ether and the Ethereum Network that may arise from the listing or trading of derivative contracts on Ether.
 
-Answer:
+Options contracts present the largest impact to the speculatory price of Ether on the main Ethereum network. Cryptocurrency markets generally move at a faster pace than their "mainstream" counterparts (ie: blue chip stocks), the markets for cryptocurrency are also open 24/7 all year long. This allows anyone to access the market at anytime, but also opens the market up to a high degree of speculation. For example, one can claim with enough anecdotal evidence that there could be a flaw in the network and or a smart contract and cause brief market panic that when paired with timed options contracts can result in a flash crash or period of severe volititaliy. Thankfully, because the market is open 24/7 these claims can be debated and disproven fairly quickly but it can still be seen that with the "perfect storm" an individual and or group could cause swings that benefit their options contracts.
+
+Another potential problem for this area is that a number of cryptocurrencies are heavily influenced by the price of Bitcoin. This is because Bitcoin is one of the oldest cryptocurrencies and usually the initial trading pair for the vast majority of cryptocurrencies that followed after its launch. This means that things like an Exchange Traded Fund (ETF) or Mutual Fund which are usually used to mitigate risk across an industry or basket of securities is at risk due to the high leverage Bitcoin has on most cryptocurrencies. Historically, Ether prices have followed Bitcoin and while each network is separate and performs differently, there is a consistent price correlation.
 
 ### 20. Are there any types of trader or intermediary conduct that has occurred in the international Ether derivative markets that raise market risks or challenges and should be monitored closely by trading venues or regulators?
 
