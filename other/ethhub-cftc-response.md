@@ -35,9 +35,9 @@ Answer:
 
 #### 7. How is the technology underlying Ethereum similar to and different from the technology underlying Bitcoin?
 
-From a high level, Ethereum is similar to Bitcoin in that it uses a 'blockchain' and uses 'Proof of Work' to achieve consensus and secure the network. Both blockchains have a native digital asset - Ether for Ethereum and bitcoin for Bitcoin.
+From a high level, Ethereum is similar to Bitcoin in that it uses a 'blockchain' and uses 'Proof of Work' to achieve consensus and secure the network. Both blockchains have a native digital asset - ETH for Ethereum and BTC for Bitcoin.
 
-The Ethereum network is a turing-complete blockchain. This means that it is capable of executing arbitrary code - known as smart contracts. The ability to run code on the Ethereum blockchain means that developers can build applications on top of it. One such application, MakerDAO, allows users to take use their ETH as collateral to take out a loan. These applications are interoperable within the confines of the Ethereum network.
+The Ethereum network is a turing-complete blockchain. This means that it is capable of executing arbitrary code - known as smart contracts. The ability to run code on the Ethereum blockchain means that developers can build applications on top of it. One such application, MakerDAO, allows users to use their ETH as collateral to take out a loan in a USD-pegged stablecoin (known as DAI). Applications are all interoperable within the confines of the Ethereum network.
 
 Ethereum 2.0 (Serenity) is a substantial upgrade for the Ethereum network being deployed in multiple phases. The main features in this upgrade include a move to Proof of Stake (for securing the network, sharding (for scaling the network) and eWASM (a new virtual machine for the network).
 
@@ -45,13 +45,27 @@ Ethereum 2.0 (Serenity) is a substantial upgrade for the Ethereum network being 
 
 The Ethereum Network suffers from the same scalability challenges as Bitcoin. 
 
-The main Ethereum blockchain is considered 'layer 1'. 
+'Layer 1' refers to the main Ethereum network/blockchain.
+'Layer 2' refers to technologies built on top (or above) of the main Ethereum network/blockchain.
+'Interoperability' refers to the use of other blockchains.
 
- 
+Ethereum is tackling layer 1 scalability challenges by introducing a mechanism borrowed from traditional databases -
+'sharding'. Sharding takes the blockchain and splits it up into multiple blockchains (that can communicate with eachother)
+so that transactions and computations can be processed in parallel.
+
+Ethereum is tackling layer 2 scalability challenges through the use of multiple different technologies. These technologies
+include sidechains (such as Plasma), state channels, and interoperability.
 
 #### 9. Has a proof of stake consensus mechanism been tested or validated at scale? If so, what lessons or insights can be learned from the experience?
 
-Answer: 
+There are different types of Proof of Stake (PoS).
+
+DPoS - Distributed Proof of Stake
+LPoS - Liquid Proof of Stake
+
+There are currently multiple projects that employ the Proof of Stake consensus mechanism.
+
+Ethereums Proof of Stake mechanism (codenamed Casper FFG and Casper CBC) is fundamentally different and intends to maximalise decentralization.
 
 #### 10. Relative to a proof of work consensus mechanism does proof of stake have particular vulnerabilities, challenges, or features that make it prone to manipulation? In responding consider, for example, that under a proof of stake consensus mechanism, the chance of validating a block may be proportional to staked wealth.
 
