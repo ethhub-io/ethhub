@@ -1,4 +1,4 @@
-# Key Concepts
+# Key Ethereum Concepts
 
 There are many concepts that are essential to grasp when first learning about Ethereum. This section will dive in depth to each concept.
 
