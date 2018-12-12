@@ -22,7 +22,13 @@ The functionality of the underlying asset Ether is actually very similar to Bitc
 
 ### 3. How is the developer community currently utilizing the Ethereum Network? More specifically, what are prominent use cases or examples that demonstrate the functionalities and capabilities of the Ethereum Network?
 
-The simplest use case of the Ethereum network is value transfer by sending Ether \(which has an attached value\) from one person to another. However, the amount of applications being built on top of the program is growing at a rapid pace. Currently, the most active applications are those related to "Decentralized Finance". As of 12/11/18, there is currently $120,000,000 worth of Ether being used in Decentralized Finance applications.
+The simplest use case of the Ethereum network is value transfer by sending Ether \(which has an attached value\) from one person to another, or by and programming those value transfers through more complex tools. The amount of applications being built on top of the Ethereum blockchain is growing at a rapid pace:
+
+1- Decentralized Finance: Currently, the most active applications are those related to "Decentralized Finance". As of 12/11/18, there is currently $120,000,000 worth of Ether being used in decentralized finance applications like Stable coins such as [DAI](https://dai.makerdao.com/), tokenized debt such as [Dharma](https://dharma.io/), margin trading and derivatives [dYdX](https://dydx.exchange/) and decentralised exchanges like the [0x Protocol] (https://0xproject.com/).
+
+2- Games: Smart-contracts can be programmed in a way to reflect not only units of account, but also digital representation of game items, such as collectibles like [Cryptokitties](https://www.cryptokitties.co/), cards like in [Zombie Battle ground](https://zombiebattleground.io/) or even Digital (VR) real estate such as [Decentraland](https://decentraland.org/). The fact that items exist on the Ethereum blockchain, and not on the siloed databases of each individual games, makes them more exchangeable, and guarantees the right of ownership of such items regardless of the existence of the actual game/project developpers.
+
+Noting that the above are just examples of many others, and were just listed here for illustrative purposes.
 
 ### 4. Are there any existing or developing commercial enterprises that are using Ether to power economic transactions? If so, how is Ether recorded for accounting purposes in a comprehensive set of financial statements?
 
