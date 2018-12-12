@@ -11,7 +11,7 @@ _**From the CFTC: In providing your responses, please be as specific as possible
 
 It's first vitally important to distinguish between Ether and Ethereum. Ethereum is an open-source, blockchain-based computing system. Leveraging smart contract (scripting) technology, anyone is able to build and deploy decentralized applications on top of Ethereum. This is very attractive for development because you are able to create programs that run exactly as programmed, trustlessly and with no down time.
 
-Ether is the fundamental cryptocurrency used on the Ethereum network. It is used to compensate miners for performing transactions on the network. Ether also has many other developing use cases such as money, store of value, and value transfer.
+Ether is the fundamental cryptocurrency used on the Ethereum network. It is used to compensate miners for performing transactions on the network. Ether also has many other use cases such as money, store of value and value transfer.
 
 #### 2. What are the current functionalities and capabilities of Ether and the Ethereum Network as compared to the functionalities and capabilities of Bitcoin?
 
@@ -33,7 +33,7 @@ Answer:
 
 #### 6. How many confirmations on the Ethereum blockchain are sufficient to wait to ensure that the transaction will not end up on an invalid block?
 
-Answer: 
+A user must only wait 1 block confirmation for their transaction to be valid. There is a risk of hash power related attacks to the network and this risk goes down every confirmation that occurs. Some merchants may wait a pre-selected amount of confirmations (such as 6) in order to avoid this risk. 
 
 ## Technology
 
@@ -43,13 +43,13 @@ From a high level, Ethereum is similar to Bitcoin in that it uses a 'blockchain'
 
 The Ethereum network is a turing-complete blockchain. This means that it is capable of executing arbitrary code - known as smart contracts. The ability to run code on the Ethereum blockchain means that developers can build applications on top of it. One such application, MakerDAO, allows users to use their ETH as collateral to take out a loan in a USD-pegged stablecoin (known as DAI). Applications are all interoperable within the confines of the Ethereum network.
 
-Ethereum 2.0 (Serenity) is a substantial upgrade for the Ethereum network being deployed in multiple phases. The main features in this upgrade include a move to Proof of Stake (for securing the network, sharding (for scaling the network) and eWASM (a new virtual machine for the network).
+Ethereum 2.0 (Serenity) is a substantial upgrade for the Ethereum network being deployed in multiple phases. The main features in this upgrade include a move to Proof of Stake (for securing the network), sharding (for scaling the network) and eWASM (a new virtual machine for the network).
 
 #### 8. Does the Ethereum Network face scalability challenges? If so, please describe such challenges and any potential solutions. What analyses or data sources could be used to assess concerns regarding the scalability of the underlying Ethereum Network, and in particular, concerns about the network’s ability to support the growth and adoption of additional smart contracts?
 
-The Ethereum Network suffers from scalability challenges similar to Bitcoin. 
+The Ethereum Network faces scalability problems similar to Bitcoin and other blockchains. 
 
-It's important to understand the basics of how the Ethereum blockchain operates before diving into scaling. Every transaction cost a certain amount of "gas' which is the cost in computational power to execute a transaction. Every block processed on the network has a cap on the amount of gas it can hold. This is because if blocks get too large, there are issues with storage and network latency. Currently, the Ethereum network sits at max capacity in terms of gas used every day.
+It's important to understand the basics of how the Ethereum blockchain functions before diving into scaling. Every transaction cost a certain amount of "gas" which is the cost, in computational power, to execute a transaction. Every block processed on the network has a cap on the amount of gas it can hold. This is because if blocks get too large, there are issues with storage and network latency. Currently, the Ethereum network sits at max capacity in terms of gas used every day.
 
 This is how Ethereum plans to tackle the scalability issue:
 
