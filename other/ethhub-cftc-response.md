@@ -22,12 +22,15 @@ The functionality of the underlying asset Ether is actually very similar to Bitc
 
 ### 3. How is the developer community currently utilizing the Ethereum Network? More specifically, what are prominent use cases or examples that demonstrate the functionalities and capabilities of the Ethereum Network?
 
-The simplest use case of the Ethereum network is value transfer by sending Ether \(which has an attached value\) from one person to another. However, the amount of applications being built on top of the program is growing at a rapid pace. Currently, the most active applications are those related to "Decentralized Finance". As of 12/12/18, there is currently ~$200,000,000 worth of Ether being used in Decentralized Finance applications.
+The simplest use case of the Ethereum network is value transfer by sending Ether \(which has an attached value\) from one person to another. However, the amount of applications being built on top of the program is growing at a rapid pace. Currently, the most popular applications seem to be those related to "Decentralized Finance". As of 12/12/18, there is currently ~$200,000,000 worth of Ether being used in Decentralized Finance applications.
 
-Additional applications that have been launched and are useable as of 12/12/18:
+Applications that have been launched and are useable as of 12/12/18:
 1) Predictions markets.
 2) Algorithmic, efficient Money Markets.
 3) Asset tokenization with cryptographically-verifiable ownership.
+4) Marketplace for computating power.
+5) Loans using scarce crypto-assets or tokenized assets as collateral.
+6) Ether-backed collateralized debt positions.
 
 ### 4. Are there any existing or developing commercial enterprises that are using Ether to power economic transactions? If so, how is Ether recorded for accounting purposes in a comprehensive set of financial statements?
 
@@ -145,9 +148,7 @@ The off-shore exchange BitMex, incorporated in the Seychelles, has engaged in ma
 
 ### 21. What other factors could impact the Commission’s ability to properly oversee or monitor trading in derivative contracts on Ether as well as the underlying Ether cash markets?
 
-The Ethereum Community views privacy as a fundamental human right and as a guarantor of individual human dignity.
-
-As such, privacy is one of the core features being worked on by multiple teams. The technology is expected to have profound effects on both the privacy of Ethereum and the scalability of the network.
+The Ethereum Community views privacy as a fundamental human right and as a guarantor of individual human dignity. As such, privacy is one of the core features being worked on by multiple teams. The technology is expected to have profound effects on both the privacy of Ethereum and the scalability of the network.
 
 Privacy technology on Ethereum already has working implementations being deployed to the Ethereum main network \([https://medium.com/aztec-protocol/confidential-transactions-have-arrived-a-dive-into-the-aztec-protocol-a1794c00c009](https://medium.com/aztec-protocol/confidential-transactions-have-arrived-a-dive-into-the-aztec-protocol-a1794c00c009)\).
 
