@@ -66,14 +66,19 @@ include sidechains (such as Plasma), state channels, and interoperability.
 
 #### 9. Has a proof of stake consensus mechanism been tested or validated at scale? If so, what lessons or insights can be learned from the experience?
 
+Proof of Stake (and Proof of Work) aren’t consensus mechanisms - they are sybil-control mechanisms. They need to be coupled with a protocol such as BFT (byzantine fault tolerance) to achieve consensus.
+
 There are different types of Proof of Stake (PoS).
 
-DPoS - Distributed Proof of Stake
+DPoS - Delegated Proof of Stake
 LPoS - Liquid Proof of Stake
+Casper FFG (friendly finality gadget)
+
+DPoS has inherent flaws as it tends to centralize the system over time (what is commonly referred to as “cartels”). One such example of this happening is with the EOS blockchain. The EOS system employs the use of DPoS and selects 21 ‘block producers’ to secure the network. These block producers are voted in and out by EOS token holders. The goal of the system is to have a sort of ‘democratic’ process in which people can use their EOS tokens to vote in “good actors” and vote out “bad actors”. Unfortunately, DPoS is a honeypot for cartel formation (and we’ve already seen reports about EOS block producers colluding with each other).
 
 There are currently multiple projects that employ the Proof of Stake consensus mechanism.
 
-Ethereums Proof of Stake mechanism (codenamed Casper FFG and Casper CBC) is fundamentally different and intends to maximalise decentralization.
+Ethereums Proof of Stake mechanism (codenamed Casper FFG and Casper CBC) is fundamentally different and intends to maximize decentralization by requiring 100’s of thousands of validators to secure the network. 
 
 #### 10. Relative to a proof of work consensus mechanism does proof of stake have particular vulnerabilities, challenges, or features that make it prone to manipulation? In responding consider, for example, that under a proof of stake consensus mechanism, the chance of validating a block may be proportional to staked wealth.
 
@@ -147,13 +152,15 @@ tools for Ethereum and related applications that are built on top.
 
 #### 23. Are there security issues peculiar to the Ethereum Network or Ethereum- supported smart contracts that need to be addressed?
 
-Smart contracts, like any piece of code, suffer from the possibility of having vulnerabilities or bugs. The security of smart contracts is paramount because they tend to interact with different financial apps and handle value transfer (such as the transfer of ETH or tokens)
+Smart contracts, like any piece of code, suffer from the possibility of having vulnerabilities or bugs. The security of
+smart contracts is paramount because they tend to interact with different financial apps and handle value transfer (such as
+the transfer of ETH or tokens)
 
-Indepdenent auditing and smart contract security firms exist such as Zeppelin or Trail of Bits.
+Independent auditing and smart contract security firms exist such as Zeppelin or Trail of Bits.
 
 #### 24. Are there any best practices for the construction and security of Ethereum wallets, including, but not limited to, the number of keys required to sign a transaction and how access to the keys should be segregated?
 
-Best practices exist in the ecosystem for building wallets.
+Best practices exist in the ecosystem for building wallets and writing smart contracts.
 
 https://consensys.github.io/smart-contract-best-practices/
 
