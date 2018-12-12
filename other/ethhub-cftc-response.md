@@ -1,6 +1,6 @@
 # EthHub CFTC Response
 
-On December 11th, 2018 the CFTC [submitted a public "Request for Input"](https://www.cftc.gov/sites/default/files/2018-12/federalregister121118.pdf) which asks for clarity and answers around Ethereum. The following is a list of all questions asked in the RFI. The following answers were developed on EthHub, an open source, community run information hub for the Ethereum community.
+On December 11th, 2018 the CFTC [submitted a public "Requst for Input"](https://www.cftc.gov/sites/default/files/2018-12/federalregister121118.pdf) which asks for clarity and answers around Ethereum. The following is a list of all questions asked in the RFI. The following answers were developed on EthHub, an open source, community run information hub for the Ethereum community.
 
 _**From the CFTC: In providing your responses, please be as specific as possible, and offer concrete examples where appropriate. Please provide any relevant data to support your answers where appropriate. The Commission encourages all relevant comments on related items or issues; commenters need not address every question.**_  
 
@@ -11,17 +11,21 @@ _**From the CFTC: In providing your responses, please be as specific as possible
 
 It's first vitally important to distinguish between Ether and Ethereum. Ethereum is an open-source, blockchain-based computing system. Leveraging smart contract (scripting) technology, anyone is able to build and deploy decentralized applications on top of Ethereum. This is very attractive for development because you are able to create programs that run exactly as programmed, trustlessly and with no down time.
 
-Ether is the fundamental cryptocurrency used on the Ethereum network. It is used to compensate miners for performing transactions on the network. Ether also has many other use cases such as money, store of value and value transfer.
+Ether is the fundamental cryptocurrency used on the Ethereum network. It is used to compensate miners for performing transactions on the network. Ether also has many other developing use cases such as money, store of value, and value transfer.
 
 #### 2. What are the current functionalities and capabilities of Ether and the Ethereum Network as compared to the functionalities and capabilities of Bitcoin?
 
-Bitcoin and Ethereum are currently both secured by a Proof of Work blockchain. However, the core difference is that Ethereum has smart contract functionality that allows for the development and deployment of decentralized applications. 
+Bitcoin and Ethereum are currently both secured by a Proof of Work blockchain. However, the core difference is that Ethereum has smart contract functionality that allows for the development and deployment of decentralized applications. The Ethereum network wants to move away from the 
 
-The functionality of the underlying asset Ether is actually very similar to Bitcoin.  
+The functionality of the underlying asset Ether is actually very similar to Bitcoin.  The difference is the transaction is modified based on the values of the code within the smart contract.  
 
 #### 3. How is the developer community currently utilizing the Ethereum Network? More specifically, what are prominent use cases or examples that demonstrate the functionalities and capabilities of the Ethereum Network?
 
 The simplest use case of the Ethereum network is value transfer by sending Ether (which has an attached value) from one person to another. However, the amount of applications being built on top of the program is growing at a rapid pace. Currently, the most active applications are those related to "Decentralized Finance". As of 12/11/18, there is currently $120,000,000 worth of Ether being used in Decentralized Finance applications.
+
+These decentralized applications are still in early stages of development, but the idea of having trustless, verifiable, and non-corruptable value of transactions that are permanently stored on the blockchain are astonishing. One use case currently in development is ridesharing applications (akin to Uber). In our current system, there are multiple points of failure from privacy concerns to fraud. Uber, the Uber credit card processor, the issuing bank for that credit card, the credit reporting agency on the user, the user's phone data mining the entire transaction can (and has been) hacked to leak sensitive information.
+
+In today's world, the statistics speak for themselves that we cannot trust centralized authorities like Uber to keep our information safe. Data breaches are on the rise with a staggering 257% increase since 2013 at 1,579 recorded breaches. Credit card fraud is at a staggering high with 14.2 million credit card numbers leaked and 140 million social security numbers for a total of $905 million stolen in 2017(source: https://www.experian.com/blogs/ask-experian/identity-theft-statistics/). If we had our current model of electronic transaction on a system like Ethereum, our data would be secured by the laws of cryptography and would not be trusted among a centralized source. We have just begun to understand the power of these large corporations harvesting all of our electronic data and raises a number of concerns on homeland security, corporate fraud, and creating ill natured public propganda. 
 
 #### 4. Are there any existing or developing commercial enterprises that are using Ether to power economic transactions? If so, how is Ether recorded for accounting purposes in a comprehensive set of financial statements?
 
@@ -33,7 +37,7 @@ Answer:
 
 #### 6. How many confirmations on the Ethereum blockchain are sufficient to wait to ensure that the transaction will not end up on an invalid block?
 
-A user must only wait 1 block confirmation for their transaction to be valid. There is a risk of hash power related attacks to the network and this risk goes down every confirmation that occurs. Some merchants may wait a pre-selected amount of confirmations (such as 6) in order to avoid this risk. 
+Answer: 
 
 ## Technology
 
@@ -43,13 +47,13 @@ From a high level, Ethereum is similar to Bitcoin in that it uses a 'blockchain'
 
 The Ethereum network is a turing-complete blockchain. This means that it is capable of executing arbitrary code - known as smart contracts. The ability to run code on the Ethereum blockchain means that developers can build applications on top of it. One such application, MakerDAO, allows users to use their ETH as collateral to take out a loan in a USD-pegged stablecoin (known as DAI). Applications are all interoperable within the confines of the Ethereum network.
 
-Ethereum 2.0 (Serenity) is a substantial upgrade for the Ethereum network being deployed in multiple phases. The main features in this upgrade include a move to Proof of Stake (for securing the network), sharding (for scaling the network) and eWASM (a new virtual machine for the network).
+Ethereum 2.0 (Serenity) is a substantial upgrade for the Ethereum network being deployed in multiple phases. The main features in this upgrade include a move to Proof of Stake (for securing the network, sharding (for scaling the network) and eWASM (a new virtual machine for the network).
 
 #### 8. Does the Ethereum Network face scalability challenges? If so, please describe such challenges and any potential solutions. What analyses or data sources could be used to assess concerns regarding the scalability of the underlying Ethereum Network, and in particular, concerns about the network’s ability to support the growth and adoption of additional smart contracts?
 
-The Ethereum Network faces scalability problems similar to Bitcoin and other blockchains. 
+The Ethereum Network suffers from scalability challenges similar to Bitcoin. 
 
-It's important to understand the basics of how the Ethereum blockchain functions before diving into scaling. Every transaction cost a certain amount of "gas" which is the cost, in computational power, to execute a transaction. Every block processed on the network has a cap on the amount of gas it can hold. This is because if blocks get too large, there are issues with storage and network latency. Currently, the Ethereum network sits at max capacity in terms of gas used every day.
+It's important to understand the basics of how the Ethereum blockchain operates before diving into scaling. Every transaction cost a certain amount of "gas' which is the cost in computational power to execute a transaction. Every block processed on the network has a cap on the amount of gas it can hold. This is because if blocks get too large, there are issues with storage and network latency. Currently, the Ethereum network sits at max capacity in terms of gas used every day.
 
 This is how Ethereum plans to tackle the scalability issue:
 
@@ -82,11 +86,11 @@ Ethereums Proof of Stake mechanism (codenamed Casper FFG and Casper CBC) is fund
 
 #### 10. Relative to a proof of work consensus mechanism does proof of stake have particular vulnerabilities, challenges, or features that make it prone to manipulation? In responding consider, for example, that under a proof of stake consensus mechanism, the chance of validating a block may be proportional to staked wealth.
 
-Ethereum Proof of Stake will function on the basis of validators, each of which will stake 32 Ether. Users are able to run multiple validators but their computing cost will increase as well. A validator will be randomly chosen to propose a block and then a committee of users (at least 111) will vote to say if that validator acted properly. If so, the block will be validated and the validator rewards. If not, the validator's deposit will be slashed and be lost. If an attacker gained 51% of all Ether they could attempt to attack the network but mechanisms in place make it likely that they will still be slashed. At current Ether price, this attacker would be risking $4,300,000,000 to do so and if caught could lose it all. The cost to aquire 51% of the Bitcoin has rate is much less.
+Answer: 
 
 #### 11. There are reports of disagreements within the Ether community over the proposed transition to a proof of stake consensus model. Could this transition from a proof of work to a proof of stake verification process result in a fragmented or diminished Ether market if the disagreements are not resolved?
 
-The roadmap and community consensus is very clear when it comes to wanting to switch to proof of stake. There are active conversations occuring about the logistics and mechanisms of the proof of stake transition but wanting to stay on proof of work is not something actively discussed. At any point, a user can attempt to fork or stay on the current proof of work chain but the incentive will be very little once proof of stake is live because the users of the network gain many benefits from Eth 2.0 chain which will include proof of stake. These include: scalability, lower issuance rate, ETH holders being able to stake and earn rewards and all development power focused on the new chain.
+Answer: 
 
 #### 12. What capability does the Ethereum Network have to support the continued development and increasing use of smart contracts?
 
