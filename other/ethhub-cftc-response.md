@@ -14,7 +14,7 @@ Ether is the fundamental cryptocurrency used on the Ethereum network. It is used
 
 ### 2. What are the current functionalities and capabilities of Ether and the Ethereum Network as compared to the functionalities and capabilities of Bitcoin?
 
-Bitcoin and Ethereum are currently both secured by a Proof of Work blockchain. However, the core difference is that Ethereum has smart contract functionality that allows for the development and deployment of decentralized applications. The Ethereum network wants to move away from the Proof of Work to a Proof of Stake which is more energy efficient and sustainable in theory. 
+Bitcoin and Ethereum are currently both secured by a Proof of Work blockchain. However, the core difference is that Ethereum has smart contract functionality that allows for the development and deployment of decentralized applications.  
 
 The functionality of the underlying asset Ether is actually very similar to Bitcoin. The difference is the transaction is modified based on the values of the code within the smart contract.  
 
