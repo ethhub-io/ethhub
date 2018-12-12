@@ -24,7 +24,7 @@
 * [Monetary Policy](ethereum-101/monetary-policy/README.md)
   * [Economic Abstraction](ethereum-101/monetary-policy/economic-abstraction.md)
   * [Eth 2.0 Economics](ethereum-101/monetary-policy/eth-2.0-economics.md)
-* [Governance](built-on-ethereum/governance.md)
+* [Governance](ethereum-101/governance.md)
 
 ## Roadmap
 
@@ -163,4 +163,8 @@
 ## Glossary
 
 * [Crypto Acronyms](glossary/crypto-acronyms.md)
+
+## Other
+
+* [EthHub CFTC Response](other/ethhub-cftc-response.md)
 
