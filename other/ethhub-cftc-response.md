@@ -22,7 +22,12 @@ The functionality of the underlying asset Ether is actually very similar to Bitc
 
 ### 3. How is the developer community currently utilizing the Ethereum Network? More specifically, what are prominent use cases or examples that demonstrate the functionalities and capabilities of the Ethereum Network?
 
-The simplest use case of the Ethereum network is value transfer by sending Ether \(which has an attached value\) from one person to another. However, the amount of applications being built on top of the program is growing at a rapid pace. Currently, the most active applications are those related to "Decentralized Finance". As of 12/12/18, there is currently ~$200,000,000 worth of Ether being used in Decentralized Finance applications. 
+The simplest use case of the Ethereum network is value transfer by sending Ether \(which has an attached value\) from one person to another. However, the amount of applications being built on top of the program is growing at a rapid pace. Currently, the most active applications are those related to "Decentralized Finance". As of 12/12/18, there is currently ~$200,000,000 worth of Ether being used in Decentralized Finance applications.
+
+Additional applications that have been launched and are useable as of 12/12/18:
+1) Predictions markets.
+2) Algorithmic, efficient Money Markets.
+3) Asset tokenization with cryptographically-verifiable ownership.
 
 ### 4. Are there any existing or developing commercial enterprises that are using Ether to power economic transactions? If so, how is Ether recorded for accounting purposes in a comprehensive set of financial statements?
 
@@ -52,7 +57,7 @@ Ethereum 2.0 \(Serenity\) is a substantial upgrade for the Ethereum network bein
 
 ### 8. Does the Ethereum Network face scalability challenges? If so, please describe such challenges and any potential solutions. What analyses or data sources could be used to assess concerns regarding the scalability of the underlying Ethereum Network, and in particular, concerns about the network’s ability to support the growth and adoption of additional smart contracts?
 
-The Ethereum Network faces scalability problems similar to Bitcoin and other decentralized blockchains. Where other blockchains have traded off decentralization, trust minimization, and security in favor of throughput (transactions per second) both Ethereum and Bitcoin were created on the principle of maximum decentralization and security above all. It is a trade-off as identified in Vitalik Buterins trilemma for blockchain scalability \(https://bitcoinist.com/breaking-down-the-scalability-trilemma/\)
+The Ethereum Network faces scalability problems similar to Bitcoin and other decentralized blockchains. Where some other blockchains have traded off decentralization, trust minimization, and security in favor of throughput (transactions per second) both Ethereum and Bitcoin were created on the principle of maximum decentralization and security above all. It is a trade-off as identified in Vitalik Buterins trilemma for blockchain scalability \(https://bitcoinist.com/breaking-down-the-scalability-trilemma/\)
 
 It's important to understand the basics of how the Ethereum blockchain functions before diving into scaling. Every transaction cost a certain amount of "gas" which is the cost, in computational power, to execute a transaction \(denominated in Ether\). Every block processed on the network has a cap on the amount of gas it can hold \(the "gas limit"\). This is because if blocks get too large, there are issues with the way they propogate across the network which increases the likelihood of an incidental fork \(chain split\) as well as storage and initial syncronization issues. Currently, the Ethereum network sits at max capacity in terms of gas used every day, though recent optimizations in the most widely used client, Parity Ethereum, now enables the gas limit to be increased safely if the mining nodes so agree.
 
@@ -86,7 +91,7 @@ Ethereum's Casper Proof of Stake will function on the basis of validators, each 
 
 As noted previously Casper Proof of Stake addresses the "nothing at stake" problem suffered by previous Proof of Stake based blockchains by enforcing a set of pre-defined conditions and rules that if violated by a malicious party will result in the "slashing" of their staked Ether as a penalty.
 
-Additionally, Ethereum enjoyed the benefit of initial Proof of Work based distribution versus other Proof of Stake Based Chains. This provides greater guarantees for wealth distribution and preventing a single entity from amassing a disproportionate ammount of Ether which could grant them a supermajority of the stake weight and thus the block validity vote.
+Additionally, Ethereum enjoyed the benefit of initial Proof of Work based distribution versus other Proof of Stake-based chains. This provides greater guarantees for wealth distribution and preventing a single entity from amassing a disproportionate ammount of Ether which could grant them a supermajority of the stake weight and thus the block validity vote.
 
 ### 11. There are reports of disagreements within the Ether community over the proposed transition to a proof of stake consensus model. Could this transition from a proof of work to a proof of stake verification process result in a fragmented or diminished Ether market if the disagreements are not resolved?
 
@@ -146,7 +151,7 @@ As such, privacy is one of the core features being worked on by multiple teams. 
 
 Privacy technology on Ethereum already has working implementations being deployed to the Ethereum main network \([https://medium.com/aztec-protocol/confidential-transactions-have-arrived-a-dive-into-the-aztec-protocol-a1794c00c009](https://medium.com/aztec-protocol/confidential-transactions-have-arrived-a-dive-into-the-aztec-protocol-a1794c00c009)\).
 
-This privacy technology may impede the Commission's ability to monitor, audit or oversee trading activity in the future. Still, we believe it necessary to the preservation of individual freedoms, and we will be in unapologetic in our approach to developing and implementing privacy-preserving tools.
+This privacy technology may impede the Commission's ability to monitor, audit or oversee trading activity in the future. Still, we believe it necessary to the preservation of individual freedoms, and we will be in unapologetic in our approach to developing and implementing privacy-preserving tools. Requiring derivative contract operators to conduct their operations transparently \(i.e. Not privately\) is a possible way to allow oversight.
 
 ### 22. Are there any emerging best practices for monitoring the Ethereum Network and public blockchains more broadly?
 
