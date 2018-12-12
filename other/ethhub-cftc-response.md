@@ -196,4 +196,4 @@ Additional standards and best practices, inclding token standards such as ERC-20
 
 ### 25. Are there any best practices for conducting an independent audit of Ether deposits?
 
-Many firms conducting audits utilize tools or forensics services such as Chainalysis to audit and provide track and trace for transactions from deposit/source to destination. Transactions may be independently audited by any party with a simple block explorer synced to the Ethereum main net, such as https://etherscan.io. Additionally, private sector CPA firms including PwC, Deloitte, EY, and Accenture now provide full service forensics for cryptocurencies and blockchains.
+Many firms conducting audits utilize tools or forensics services such as Chainalysis, Elliptic or Elementus to audit and provide track and trace for transactions from deposit/source to destination. Transactions may be independently audited by any party with a simple block explorer synced to the Ethereum main net, such as https://etherscan.io. Additionally, private sector CPA firms including PwC, Deloitte, EY, and Accenture now provide full service forensics for cryptocurencies and blockchains.
