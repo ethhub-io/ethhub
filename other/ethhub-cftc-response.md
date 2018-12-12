@@ -22,7 +22,7 @@ The functionality of the underlying asset Ether is actually very similar to Bitc
 
 ### 3. How is the developer community currently utilizing the Ethereum Network? More specifically, what are prominent use cases or examples that demonstrate the functionalities and capabilities of the Ethereum Network?
 
-The simplest use case of the Ethereum network is value transfer by sending Ether \(which has an attached value\) from one person to another, or by and programming those value transfers through more complex tools. The amount of applications being built on top of the Ethereum blockchain is growing at a rapid pace:
+The simplest use case of the Ethereum network is value transfer by sending Ether \(which has an attached value\) from one person to the other, or by programming value transfers through more complex tools and applications. The amount of decentralised applications being built on top of the Ethereum blockchain is growing at a rapid pace, and the most notable usecases for now are:
 
 1- Decentralized Finance: Currently, the most active applications are those related to "Decentralized Finance". As of 12/11/18, there is currently $120,000,000 worth of Ether being used in decentralized finance applications like Stable coins such as [DAI](https://dai.makerdao.com/), tokenized debt such as [Dharma](https://dharma.io/), margin trading and derivatives [dYdX](https://dydx.exchange/) and decentralised exchanges like the [0x Protocol] (https://0xproject.com/).
 
