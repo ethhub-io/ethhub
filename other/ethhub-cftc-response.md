@@ -64,9 +64,9 @@ Proof of Stake \(and Proof of Work\) aren’t consensus mechanisms - they are sy
 
 There are different types of Proof of Stake \(PoS\).
 
-DPoS - Delegated Proof of Stake LPoS - Liquid Proof of Stake Casper FFG \(friendly finality gadget\)
+DPoS - Delegated Proof of Stake LPoS - Liquid Proof of Stake Casper FFG \(friendly finality gadget\). DPOS is widely varied when used by different projects, the largest example of DPOS is used in the EOS blockchain, but active community members have voiced their concern over its decentralization factor. 
 
-DPoS has inherent flaws as it tends to centralize the system over time \(what is commonly referred to as “cartels”\). One such example of this happening is with the EOS blockchain. The EOS system employs the use of DPoS and selects 21 ‘block producers’ to secure the network. These block producers are voted in and out by EOS token holders. The goal of the system is to have a sort of ‘democratic’ process in which people can use their EOS tokens to vote in “good actors” and vote out “bad actors”. Unfortunately, DPoS is a honeypot for cartel formation \(and we’ve already seen reports about EOS block producers colluding with each other\).
+DPoS has inherent flaws as it tends to centralize the system over time \(what is commonly referred to as “cartels”\). 
 
 There are currently multiple projects that employ the Proof of Stake consensus mechanism.
 
@@ -80,19 +80,23 @@ Ethereum Proof of Stake will function on the basis of validators, each of which 
 
 The roadmap and community consensus is very clear when it comes to wanting to switch to proof of stake. There are active conversations occuring about the logistics and mechanisms of the proof of stake transition but wanting to stay on proof of work is not something actively discussed. At any point, a user can attempt to fork or stay on the current proof of work chain but the incentive will be very little once proof of stake is live because the users of the network gain many benefits from Eth 2.0 chain which will include proof of stake. These include: scalability, lower issuance rate, ETH holders being able to stake and earn rewards and all development power focused on the new chain.
 
+Anyone can choose to fork the Ethereum network during the upgrade, but the chance of a competing blockchain that have removed the newest PoS upgrade, is very slim. As the upgrade is a massive improve on scaliblity, the forked chain would be subpar and therefore not have much market traction. 
+
 ### 12. What capability does the Ethereum Network have to support the continued development and increasing use of smart contracts?
 
-Answer:
+Answer: The Ethereum foundation and the multiple of projects working to support and improve the Ethereum ecosystem provides a global support network of developers and cash flow. The Ethereum foundation has multiple years of runway according to Joesph Lubin, CEO of Consensys. 
+
+This question is similar to asking - What capability does Microsoft have to support the continued development of applications on the Windows Operating System. 
 
 ## Governance
 
 ### 13. How is the governance of the Ethereum Network similar to and different from the governance of the Bitcoin network?
 
-Answer:
+
 
 ### 14. In light of Ether’s origins as an outgrowth from the Ethereum Classic blockchain, are there potential issues that could make Ether’s underlying blockchain vulnerable to future hard forks or splintering?
 
-Answer:
+
 
 ## Markets, Oversight and Regulation
 
