@@ -8,11 +8,16 @@ _**From the CFTC: In providing your responses, please be as specific as possible
 
 ### 1. What was the impetus for developing Ether and the Ethereum Network, especially relative to Bitcoin?
 
-It's first vitally important to distinguish between Ether and Ethereum. Ethereum is an open-source, blockchain-based computing system. Leveraging smart contract \(scripting\) technology, anyone is able to build and deploy decentralized applications on top of Ethereum. This is very attractive for development because you are able to create programs that run exactly as programmed, trustlessly and with no down time.
+The underlying impetus to develop Ethereum was to utilize aspects of the technology initially developed as part of the Bitcoin blockchain and combine it with the capabilities of a Turing complete supporting environment.
 
-Ether is the fundamental cryptocurrency used on the Ethereum network. It is used to compensate miners \(and potentially staked validators upon completion of a planned transition to a novel Proof of Stake mechanism known as Casper\) for performing transactions on the network. Ether also has many other use cases such as money, store of value and value transfer.
+The idea was that this change would lead to a platform that could sustain not only a medium of exchange and imperative non-turing complete programmability, but also to add conditional branching (Turing completeness) to the programmability existing on bitcoin. 
 
-The underlying impetus to develop Ethereum and consequently Ether, was to utilize aspects of the technology initially developed as part of the Bitcoin blockchain and combine it with the capabilities of smart contract technology. The idea was that this marriage would lead to a platform that could sustain not only the money or medium of exchange use case, but also to add programability to money, introducing conditional logic to the equation that would open up a world of possibilities with regards to decentralized financial applications and products, and additional decentralized applications. This is contrary to the singular purpose vision for Bitcoin as a simple store of value \(pivoting more recently from the original peer-to-peer electronic cash vision championed by Satoshi Nakomoto\), and ultimately made necessary by a lack of flexibility in the Bitcoin protocol's scripting language, and the aversion to adding new features by the core maintainers of the Bitcoin protocol, such as those required to enable Ethereum-like functionality on Bitcoin.
+Introducing conditional branching to the equation would open up a wide range of possibilities with regards to decentralized financial applications and products, more decentralized applications are possible with these new attribute.
+
+Turing completeness:
+https://medium.com/@evinsellin/what-exactly-is-turing-completeness-a08cc36b26e2
+Conditional branching:
+https://www.pcmag.com/encyclopedia/term/40224/conditional-branch
 
 ### 2. What are the current functionalities and capabilities of Ether and the Ethereum Network as compared to the functionalities and capabilities of Bitcoin?
 
