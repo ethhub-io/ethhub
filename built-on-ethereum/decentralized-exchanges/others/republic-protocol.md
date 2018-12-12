@@ -10,5 +10,6 @@ Nodes are controlled by dark pool operators. They stake tokens to be eligible to
 
 ## Important links
 
-* Website: https://republicprotocol.com
-* RenEx: https://ren.exchange
+* Website: [https://republicprotocol.com](https://republicprotocol.com)
+* RenEx: [https://ren.exchange](https://ren.exchange)
+

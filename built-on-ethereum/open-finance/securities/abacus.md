@@ -10,4 +10,5 @@ Service providers can be used for identity, compliance, and appraisal. They can 
 
 ## Important links
 
-* Website: https://abacusprotocol.com
+* Website: [https://abacusprotocol.com](https://abacusprotocol.com)
+
