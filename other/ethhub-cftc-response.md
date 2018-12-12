@@ -134,7 +134,9 @@ Currently, off-ramps to legal tender from Ether are mostly supported by centrali
 
 ### 17. How would the introduction of derivative contracts on Ether potentially change or modify the incentive structures that underlie a proof of stake consensus model?
 
-Answer:
+In the most commonly used derivative markets, contracts are settled in Bitcoin. If another derivatives market were to be introduced that settled contracts in USD or Ether, the price of each Ether would be less affected by the price of Bitcoin. 
+
+In relation to the Proof of Stake sybil-control mechanism, stakers may be less incentivized to stake their Ether and use it to trade on derivatives markets instead. This would be both good and bad as it would possibly reduce the number of stakers, but may also weed out those who are uninterested in propogating the Ethereum network's future. 
 
 ### 18. Given the evolving nature of the Ether cash markets underlying potential Ether derivative contracts, what are the commercial risk management needs for a derivative contract on Ether?
 
