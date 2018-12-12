@@ -80,7 +80,7 @@ Ethereum Proof of Stake will function on the basis of validators, each of which 
 
 The roadmap and community consensus is very clear when it comes to wanting to switch to proof of stake. There are active conversations occuring about the logistics and mechanisms of the proof of stake transition but wanting to stay on proof of work is not something actively discussed. At any point, a user can attempt to fork or stay on the current proof of work chain but the incentive will be very little once proof of stake is live because the users of the network gain many benefits from Eth 2.0 chain which will include proof of stake. These include: scalability, lower issuance rate, ETH holders being able to stake and earn rewards and all development power focused on the new chain.
 
-Anyone can choose to fork the Ethereum network during the upgrade, but the chance of a competing blockchain that have removed the newest PoS upgrade, is very slim. As the upgrade is a massive improve on scaliblity, the forked chain would be subpar and therefore not have much market traction. 
+Anyone can choose to fork the Ethereum network during the upgrade, but the chance of a competing blockchain that has removed the newest PoS upgrade, is very slim. As the upgrade is a massive improve on scaliblity, the forked chain would be subpar and therefore not have much market traction. 
 
 ### 12. What capability does the Ethereum Network have to support the continued development and increasing use of smart contracts?
 
@@ -106,7 +106,8 @@ Answer:
 
 ### 16. What impediments or risks exist to the reliable conversion of Ether to legal tender? How do these impediments or risks impact regulatory considerations for Commission registrants with respect to participating in any transactions in Ether, including the ability to obtain or demonstrate possession or control or otherwise hold Ether as collateral or on behalf of customers?
 
-Answer:
+Answer: (needs review) Potential risk of spam attacks that prevent the timely sending or recieving of Ether. 
+See paper: Paavolainen, S., Elo, T., & Nikander, P. (Accepted/In press). Risks from Spam Attacks on Blockchains for Internet-of-Things Devices. In 2018 IEEE 9th Annual Information Technology, Electronics and Mobile Communication Conference (IEMCON) International: IEEE.
 
 ### 17. How would the introduction of derivative contracts on Ether potentially change or modify the incentive structures that underlie a proof of stake consensus model?
 
@@ -158,4 +159,8 @@ Best practices exist in the ecosystem for building wallets and writing smart con
 [https://consensys.github.io/smart-contract-best-practices/](https://consensys.github.io/smart-contract-best-practices/)
 
 ### 25. Are there any best practices for conducting an independent audit of Ether deposits?
+
+Ether deposits are upheld by the security of the Proof of Work system within the Ethereum blockchain. Where very similarily to how the bitcoin blockchain works - the underlaying functionality of the Ethereum blockchain is simply transferring balances from one account to the next. As such, whenever a user sends/deposits ether from one wallet into another, the PoW blockchain is what secures that this balance has been securely transferred and accounted for within the ledger. 
+
+Everytime a block is confirmed, the statisitcal chance of that transaction being invalid are reduced exponentally. Refer to answer #6.
 
