@@ -89,7 +89,7 @@
   * [Off-Chain Orderbook, On-Chain Settlement](built-on-ethereum/decentralized-exchanges/off-chain-orderbook-on-chain-settlement/README.md)
     * [0x Protocol](built-on-ethereum/decentralized-exchanges/off-chain-orderbook-on-chain-settlement/0x-protocol/README.md)
       * [0x Relayers](built-on-ethereum/decentralized-exchanges/off-chain-orderbook-on-chain-settlement/0x-protocol/0x-relayers.md)
-      * [0x Instant](built-on-ethereum/decentralized-exchanges/off-chain-orderbook-on-chain-settlement/0x-protocol/0x-instant.md)
+      * [0x Instant](built-on-ethereum/decentralized-exchanges/off-chain-orderbook-on-chain-settlement/0x-protocol/0x-Instant.md)
     * [IDEX](built-on-ethereum/decentralized-exchanges/off-chain-orderbook-on-chain-settlement/idex.md)
     * [Loopring](built-on-ethereum/decentralized-exchanges/off-chain-orderbook-on-chain-settlement/loopring.md)
   * [On-Chain Peer to Peer](built-on-ethereum/decentralized-exchanges/on-chain-peer-to-peer/README.md)
