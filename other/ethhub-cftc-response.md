@@ -176,18 +176,13 @@ This privacy technology may impede the Commission's ability to monitor, audit or
 
 Due to the transparency of blockchains, there are multiple services that provide monitoring, visualization and analytical tools for Ethereum and related applications that are built on top.
 
-* [https://aleth.io/](https://aleth.io/)
-* [https://amberdata.io/](https://amberdata.io/)
-* [https://blockchain.com/explorer?currency=ETH](https://blockchain.com/explorer?currency=ETH)
-* [https://blockchair.com/ethereum](https://blockchair.com/ethereum)
-* [https://blockscout.com/](https://blockscout.com/)
-* [https://etherchain.org/](https://etherchain.org/)
-* [https://etherscan.io/](https://etherscan.io/)
-* [https://ethplorer.io/](https://ethplorer.io/)
-* [https://ethtective.com/](https://ethtective.com/)
-* [https://kaggle.com/bigquery/ethereum-blockchain](https://kaggle.com/bigquery/ethereum-blockchain)
-* [https://mkr.tools](https://mkr.tools)
-* [https://observeth.net/main](https://observeth.net/main)
+The first group of tools is so-called block explorers — applications that allow users to view past transactions and state of the network. Some Ethereum block explorers are [Etherscan](https://etherscan.io), [BlockScout](https://blockscout.com/eth/mainnet), and [EthStats](https://ethereum.ethstats.io).
+
+There are various datasets available to download and analyze Ethereum data, collected by multiple organizations. Different datasets have different content and format, and other tools might be required to get meaningful insights from the data. Google [released dataset](https://www.kaggle.com/bigquery/ethereum-blockchain) from its BigQuery Public Data and Alethio is working on the [Ethereum Linked Data](https://linkeddata.aleth.io).
+
+As each transaction by definition involves two or more parties, the Ethereum network can be seen as a giant graph of financial interactions. Several projects allow viewing parts of this graph by choosing account or contract of interest. [Observeth](https://observeth.net) displays ether and token transfers in a given period of time. [Ethtective](https://www.ethtective.com) focuses on showing accumulated graph of interactions for a given Ethereum account.
+
+Finally, there are application-specific visualization and analytic tools. Most of these tools are focused on financial protocols. For example, [MKR Tools](https://mkr.tools) provides an overview of the debt positions made via Maker DAO. [0x Tracker](https://0xtracker.com) displays all token exchanges that go through the 0x Protocol. [Loanscan](https://0xtracker.co) gives insights into the lending activity facilitated by Dharma and other protocols.
 
 ## Cyber Security and Custody
 
@@ -199,12 +194,18 @@ Independent auditing and smart contract security firms exist such as Zeppelin, T
 
 ### 24. Are there any best practices for the construction and security of Ethereum wallets, including, but not limited to, the number of keys required to sign a transaction and how access to the keys should be segregated?
 
-Best practices exist in the ecosystem for building wallets and writing smart contracts.
+There is a wide range of solutions tackling the problem of storing and managing Ethereum assets a.k.a. creating and using an Ethereum wallet. Solutions vary in the security, usability, and dependence on third-parties. All wallet products can be divided into two groups depending on who owns and controls the private key. First, there are centralized solutions that own the private keys and therefore the underlying assets. They can potentially censor user's actions and are vulnerable to hacks as they become honeypots, but can offer features like account recovery, shorter passphrases, and overall better user experience. Second, there are self-custody solutions where a user is in control of her private key, which is more secure and reliable, but at the same time, a user carries a risk of permanently losing her funds if she'll ever lose the private key. It's worth to mention that there're projects like [Gnosis Safe](https://safe.gnosis.io) aiming to deliver secure yet convenient and reliable wallet software where a user can be sure that funds will be safe even in the event of losing the private key without relying on a single service provider.
 
-[https://consensys.github.io/smart-contract-best-practices/](https://consensys.github.io/smart-contract-best-practices/)
+Speaking about self-custody Ethereum wallets, there are implementations of multisignature wallets that are audited and battle-tested. Probably the biggest one in terms of adoption is [MultiSigWallet](https://github.com/Gnosis/MultiSigWallet). Another solution is [Simple Multisig](https://github.com/christianlundkvist/simple-multisig). To get some insight about what is the industry average in terms of the number of required keys to sign a transaction, one can look at the existing deployments of MultiSigWallet used by various Ethereum projects. For example, [Aragon's multisig](https://etherscan.io/address/0xcafe1a77e84698c83ca8931f54a755176ef75f2c) is 2-of-3, [Bancor's wallet](https://etherscan.io/address/0x5894110995b8c8401bd38262ba0c8ee41d4e4658) is 2-of-4, and [Golem's contract](https://etherscan.io/address/0x7da82c7ab4771ff031b66538d2fb9b0b047f6cf9#code) is a 3-of-N multisig.
 
-Additional standards and best practices, inclding token standards such as ERC-20 or ERC-721 are located within the Ethereum Github Repository located at https://github.com/ethereum/EIPs
+In terms of creating new smart contracts for safe custody and management of assets, one can look for the best practices in the ecosystem. Consensys [Ethereum Smart Contract Best Practices](https://consensys.github.io/smart-contract-best-practices) provide advice on what direction to follow when writing a contract, as well as highlight various caveats. [ETHSecurity](https://www.ethsecurity.org) serves as a curated list of everything related to writing secure contracts including blogs, lectures, and tooling.
+
+Finally, there are tools designed to find potential vulnerabilities and bugs in the smart contract source code. To name a few, there are [Mythril](https://github.com/ConsenSys/mythril-classic), [Manticore](https://github.com/trailofbits/manticore), and [Echidna](https://github.com/trailofbits/echidna).
 
 ### 25. Are there any best practices for conducting an independent audit of Ether deposits?
 
-Many firms conducting audits utilize tools or forensics services such as Chainalysis to audit and provide track and trace for transactions from deposit/source to destination. Transactions may be independently audited by any party with a simple block explorer synced to the Ethereum main net, such as https://etherscan.io. Additionally, private sector CPA firms including PwC, Deloitte, EY, and Accenture now provide full service forensics for cryptocurencies and blockchains.
+The current design of Ethereum blockchain means that network state, as well as all transactions, are public. Anyone connected to the blockchain can verify balances of any account or smart contract without the need to ask permission of its owner. Alternatively, one can use a block explorer like [Etherscan](https://etherscan.io) or [Blockscout](https://blockscout.com), which involves some trust in the honesty of the service provider but doesn't require from the user to run a node.
+
+There's a lot of research ([Aztec](https://www.aztecprotocol.com), [Enigma](https://enigma.co)) directed towards general-purpose cryptographic schemes that will enable private transactions on Ethereum. With the introduction of such protocols, some (or all) information of the accounts that decided to preserve privacy will be kept in secret. In most cases, to audit the balance of a private account or smart contract, one would need to cooperate with the owner of such account in some way. The exact way of collaboration will largely depend on the privacy solution that will be used. One example might involve sharing "view keys" with the auditor, which will allow viewing the balance of the wallet, but not to move the funds. Another solution is to use zero-knowledge proofs that can reveal some properties of the underlying wallet (say, there are more than 10,000 ETH in that wallet) without revealing the exact amount of funds.
+
+Many firms conducting audits utilize tools or forensics services such as Chainalysis to audit and provide track and trace for transactions from deposit/source to destination. Additionally, private sector CPA firms including PwC, Deloitte, EY, and Accenture now provide full-service forensics for cryptocurrencies and blockchains.
