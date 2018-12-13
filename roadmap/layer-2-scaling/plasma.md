@@ -1,4 +1,4 @@
-# Benefits of PoS
+# Plasma
 
 
 

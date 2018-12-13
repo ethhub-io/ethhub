@@ -1,4 +1,4 @@
-# Proof of Stake
+# Layer 2 Scaling
 
 
 

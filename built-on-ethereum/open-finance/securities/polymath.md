@@ -10,4 +10,5 @@ Investors can purchase tokenized securities from issuers as long as they fit the
 
 ## Important links
 
-* Website: https://polymath.network
+* Website: [https://polymath.network](https://polymath.network)
+

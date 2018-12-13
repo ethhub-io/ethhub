@@ -1,4 +1,4 @@
-# CDx
+# cdx
 
 ## Description
 
@@ -10,4 +10,5 @@ Swaps can be traded on the secondary market just like any other token. In the ev
 
 ## Important links
 
-* Website: https://cdxproject.com
+* Website: [https://cdxproject.com](https://cdxproject.com)
+

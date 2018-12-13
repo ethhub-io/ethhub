@@ -1,16 +1,16 @@
 # Eth 2.0 Economics
 
-### Introduction
+## Introduction
 
-The Ethereum Serenity upgrade will bring with it a switch from Proof of Work to Proof of Stake. This means that rather than pay miners to secure the network, we will be paying validators to secure the network. It's vitally important to get the economics of staking right so that the network stays healthy and secure.   
-  
+The Ethereum Serenity upgrade will bring with it a switch from Proof of Work to Proof of Stake. This means that rather than pay miners to secure the network, we will be paying validators to secure the network. It's vitally important to get the economics of staking right so that the network stays healthy and secure.
+
 If the incentive to stake is too low, the network will not get the minimum amount of validators needed to keep many shards going. If the incentive is too high, the network is overpaying for security and inflating at a rate that is detrimental to the economics of the network as a whole.
 
 There are a few considerations when it comes to how many validators the network "needs". According to the latest spec, the recommended minimum validators per committee is 111. At 1024 shards that would be 113,664 validators and 3,637,248 total ETH staked.
 
 To achieve crosslinks on all shards within 1 epoch, the committee size would be 256. That equates to 8,388,608 total ETH at stake on the network. Having less is fine it just means crosslinks become rarer.
 
-### Terms 
+## Terms
 
 NOTE: Some of these are taken from [https://github.com/ethereum/eth2.0-specs/blob/master/specs/core/0\_beacon-chain.md](https://github.com/ethereum/eth2.0-specs/blob/master/specs/core/0_beacon-chain.md)
 
@@ -19,18 +19,18 @@ NOTE: Some of these are taken from [https://github.com/ethereum/eth2.0-specs/blo
 * **Issuance Rate** - The annualized rate at which ETH supply grows.
 * **Interest** - The annualized rate at which validators are rewarded \(in ETH\).
 
-### Validator Economic Incentive
+## Validator Economic Incentive
 
-There are many things that a user will consider when wanting to become a validator. In the base case, some users may believe in the Ethereum network so much that they would stake at a loss if need be. A good example of this is the 12,000 Ethereum nodes running today. However, in the simplest case we can break down the thought process as follows:  
-  
-Total Incentive to Stake = Validator Rewards + Network Fees - Cost to run a Validator   
-  
+There are many things that a user will consider when wanting to become a validator. In the base case, some users may believe in the Ethereum network so much that they would stake at a loss if need be. A good example of this is the 12,000 Ethereum nodes running today. However, in the simplest case we can break down the thought process as follows:
+
+Total Incentive to Stake = Validator Rewards + Network Fees - Cost to run a Validator
+
 \*One factor discussed later that validators will consider as well is competition.
 
-### Staking Rewards
+## Staking Rewards
 
-In order to incentivize those that have ETH to stake in the network, there must be some type of reward. It's unlikely that many people would stake their ETH for no reward. Serenity accomplishes this by paying validators a reward for every block they successfully propose. In the [latest spec](https://github.com/ethereum/eth2.0-specs/blob/master/specs/core/0_beacon-chain.md) this is a sliding scale based on total network stake. So if total ETH stake is low, the interest rate goes up and as stake rises, it starts to fall.   
-  
+In order to incentivize those that have ETH to stake in the network, there must be some type of reward. It's unlikely that many people would stake their ETH for no reward. Serenity accomplishes this by paying validators a reward for every block they successfully propose. In the [latest spec](https://github.com/ethereum/eth2.0-specs/blob/master/specs/core/0_beacon-chain.md) this is a sliding scale based on total network stake. So if total ETH stake is low, the interest rate goes up and as stake rises, it starts to fall.
+
 We can calculate this scale using the spec. There are a lot of variables in doing this. First up are the **constants**:
 
 | **Constant** | Value |
@@ -47,9 +47,9 @@ From here we can start to calculate the **outputs** using a single **assumption*
 | :--- | :--- |
 | Network Validators | 10000000/32 = 312,500 |
 | Validators/Shard | 10000000/\(32\*1024\) = 305 |
-| Blocks/epoch | 31536000/\(6\*64\) = 82125 |
+| Epoch/year | 31536000/\(6\*64\) = 82125 |
 | Reward Quotient | 2048\*INT\(SQRT\(10000000\)\) = 6475776 |
-| Reward/epoch | 10000000/6475776\*2 = 3088 |
+| Reward/epoch | 10000000/6475776\*2 = 3.088 |
 | Generated ETH/Year | 82125\*3088 = 253638 |
 | Validator Interest/Year | 253638/10000000 = 2.54% |
 | Issuance Rate/Year | 253638/104000000 = 0.24% |
@@ -68,16 +68,16 @@ So here we can see that with 10,000,000 total network stake, validators are gain
 | 50,000,000 | 1.13% | 0.55% |
 | 100,000,000 | 0.80% | 0.77% |
 
-### Fees
+## Fees
 
 Validators earn a cut of the transaction fees that people pay to use the network. This is one area that needs more research but currently, the Ethereum network is paying about 600 ETH a day in fees. At current rate that's 219,000 ETH a year. How this will scale up as we add shards and throughput to the network will be important because it goes into the reward calculation.
 
-### Staking Costs and Risks
+## Staking Costs and Risks
 
 Validating and earning rewards is not a free lunch. There are many things to consider for one to become a validator. These factors will be considered by every validator when contemplating if the staking rewards are "worth it". They are:
 
 * Computing cost
-  * Users will need to run validators clients at a minimum and likely a beacon node as well. This requires computing resources. The specifics around how much as far as HDD, bandwidth and more are still being figured out.
+  * Users will need to run validators clients at a minimum and likely a beacon node as well. This requires computing resources. The specifics around how much as far as HDD, [bandwidth and more are still being figured out](https://github.com/ethereum/eth2.0-specs/issues/251#issuecomment-445438093).
     * Beacon Node: similar to running geth/parity today
     * Validator client: lightweight and need one per 32 ETH stake
 * Capital acquisition and lockup
@@ -89,10 +89,16 @@ Validating and earning rewards is not a free lunch. There are many things to con
   * Users need to make sure their validator doesn't have downtown or they risk a quadratic leak on their stake.
   * If a user has multiple validators, maintenance cost and worry of the infrastructure comes into play.
 
-### Competition
+## Competition
 
-A very important factor in determining if staking ETH is worth it is comparing the net reward versus competition. Motivated by profit, miners and stakers do not necessarily care about improving or securing the ETH ecosystem.
+A very important factor in determining if staking ETH is worth it is comparing the net reward versus competition. We should assume that stakers do not necessarily care about securing the Ethereum network but rather they are motivated by profit. There are many different categories of competition to consider:
 
+**Decentralized Finance**   
 Decentralized finance applications such as [Compound Finance](https://compound.finance/), [Dharma](https://dharma.io/) and [Maker](https://makerdao.com/). These applications offer ways for users to lock up ETH and gain a reward \(interest\). Trying to understand what these offerings are or will be is something that should be considered.
 
+**Other Investment Vehicles**   
+More traditional investment alternatives such as bonds, certificates of deposit, savings account, etc. can be considered competition to staking as well. While not as directly influencial to the decent as DeFi apps, they need to be considered.
+
+**Alternative Staking Coins**   
 There is over [500 alternative PoS coins](https://masternodes.online/), with a reward structure. Why stake ETH, when one can earn more, with potentially less infrastructure and risk, on another coin?
+

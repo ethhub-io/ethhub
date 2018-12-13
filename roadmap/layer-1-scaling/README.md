@@ -1,4 +1,4 @@
-# Scaling
+# Layer 1 Scaling
 
 Scaling is one of the most important concepts when it comes to the future of blockchains. Currently, Ethereum can process a limited amount of transactions a day due to the gas block limit. All blockchains deal with the scalability trilemma, first described by Vitalik Buterin. The trilemma states that blockchains can only have two of the three following properties: 
 
@@ -10,8 +10,8 @@ Ethereum prioritizes decentralization and security over scalability. However, ma
 
 Ethereum's scaling solutions have been broken into two main components:
 
-* [Layer 1](sharding/): scaling solutions implemented on the base-level protocol
-* [Layer 2](layer-2/): scaling solutions built on top of the base-level protocol.
+* [Layer 1](sharding.md): scaling solutions implemented on the base-level protocol
+* [Layer 2](../layer-2/): scaling solutions built on top of the base-level protocol.
 
 Source: [https://github.com/ethereum/wiki/wiki/Sharding-FAQs](https://github.com/ethereum/wiki/wiki/Sharding-FAQs)
 
