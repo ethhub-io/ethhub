@@ -176,12 +176,13 @@ This privacy technology may impede the Commission's ability to monitor, audit or
 
 Due to the transparency of blockchains, there are multiple services that provide monitoring, visualization and analytical tools for Ethereum and related applications that are built on top.
 
-* [https://aleth.io/](https://aleth.io/)
-* [https://etherscan.io/](https://etherscan.io/)
-* [https://www.kaggle.com/bigquery/ethereum-blockchain](https://www.kaggle.com/bigquery/ethereum-blockchain)
-* [https://observeth.net/main](https://observeth.net/main)
-* [https://www.ethtective.com/](https://www.ethtective.com/)
-* [https://mkr.tools](https://mkr.tools)
+The first group of tools is so-called block explorers — applications that allow users to view past transactions and state of the network. Some Ethereum block explorers are [Etherscan](https://etherscan.io), [BlockScout](https://blockscout.com/eth/mainnet), and [EthStats](https://ethereum.ethstats.io).
+
+There are various datasets available to download and analyze Ethereum data, collected by multiple organizations. Different datasets have different content and format, and other tools might be required to get meaningful insights from the data. Google [released dataset](https://www.kaggle.com/bigquery/ethereum-blockchain) from its BigQuery Public Data and Alethio is working on the [Ethereum Linked Data](https://linkeddata.aleth.io).
+
+As each transaction by definition involves two or more parties, the Ethereum network can be seen as a giant graph of financial interactions. Several projects allow viewing parts of this graph by choosing account or contract of interest. [Observeth](https://observeth.net) displays ether and token transfers in a given period of time. [Ethtective](https://www.ethtective.com) focuses on showing accumulated graph of interactions for a given Ethereum account.
+
+Finally, there are application-specific visualization and analytic tools. Most of these tools are focused on financial protocols. For example, [MKR Tools](https://mkr.tools) provides an overview of the debt positions made via Maker DAO. [0x Tracker](https://0xtracker.com) displays all token exchanges that go through the 0x Protocol. [Loanscan](https://0xtracker.co) gives insights into the lending activity facilitated by Dharma and other protocols.
 
 ## Cyber Security and Custody
 
