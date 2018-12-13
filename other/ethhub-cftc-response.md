@@ -177,11 +177,17 @@ This privacy technology may impede the Commission's ability to monitor, audit or
 Due to the transparency of blockchains, there are multiple services that provide monitoring, visualization and analytical tools for Ethereum and related applications that are built on top.
 
 * [https://aleth.io/](https://aleth.io/)
+* [https://amberdata.io/](https://amberdata.io/)
+* [https://blockchain.com/explorer?currency=ETH](https://blockchain.com/explorer?currency=ETH)
+* [https://blockchair.com/ethereum](https://blockchair.com/ethereum)
+* [https://blockscout.com/](https://blockscout.com/)
+* [https://etherchain.org/](https://etherchain.org/)
 * [https://etherscan.io/](https://etherscan.io/)
-* [https://www.kaggle.com/bigquery/ethereum-blockchain](https://www.kaggle.com/bigquery/ethereum-blockchain)
-* [https://observeth.net/main](https://observeth.net/main)
-* [https://www.ethtective.com/](https://www.ethtective.com/)
+* [https://ethplorer.io/](https://ethplorer.io/)
+* [https://ethtective.com/](https://ethtective.com/)
+* [https://kaggle.com/bigquery/ethereum-blockchain](https://kaggle.com/bigquery/ethereum-blockchain)
 * [https://mkr.tools](https://mkr.tools)
+* [https://observeth.net/main](https://observeth.net/main)
 
 ## Cyber Security and Custody
 
