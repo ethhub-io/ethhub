@@ -31,7 +31,7 @@ Some types of use cases that are live on Ethereum as of 12/12/18 include:
 2) Algorithmic, efficient Money Markets.
 3) Digital game assets with cryptographically-verifiable ownership.
 4) Tokenized real-world assets with trackable provenance.
-5) Marketplaces for distributed computating.
+5) Marketplaces for distributed computing.
 6) Automatic loans using scarce crypto-assets or tokenized assets as collateral.
 7) Ether-backed collateralized debt positions.
 8) Identity and access management systems.
