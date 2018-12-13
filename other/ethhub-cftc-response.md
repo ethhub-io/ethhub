@@ -4,7 +4,7 @@ On December 11th, 2018 the CFTC [submitted a public "Request for Input"](https:/
 
 _**From the CFTC: In providing your responses, please be as specific as possible, and offer concrete examples where appropriate. Please provide any relevant data to support your answers where appropriate. The Commission encourages all relevant comments on related items or issues; commenters need not address every question.**_
 
-DEADLINE: February 9, 2020
+DEADLINE: February 9, 2019
 
 ## Purpose and Functionality
 
