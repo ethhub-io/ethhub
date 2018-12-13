@@ -134,9 +134,9 @@ Currently, off-ramps to legal tender from Ether are mostly supported by centrali
 
 ### 17. How would the introduction of derivative contracts on Ether potentially change or modify the incentive structures that underlie a proof of stake consensus model?
 
-In the most commonly used derivative markets, contracts are settled in Bitcoin. If another derivatives market were to be introduced that settled contracts in USD or Ether, the price of each Ether would be less affected by the price of Bitcoin. 
+Introducing derivatives on Ether, we first have to examine the ROI model the incentivizes a user to stake their Ethereum. The more Ether that is staked, the lower the ROI for each user. How this may affect the Proof of Stake sybil-control mechanism, stakers may be less incentivized to stake their Ether and increase their risk appetite on derivatives markets. This would be both good and bad as it would possibly reduce the number of stakers, but may also weed out those who are uninterested in propogating Ethereum network's future. Proof  of Stake ROI will be a number community driven by the number of stakers. 
 
-In relation to the Proof of Stake sybil-control mechanism, stakers may be less incentivized to stake their Ether and use it to trade on derivatives markets instead. This would be both good and bad as it would possibly reduce the number of stakers, but may also weed out those who are uninterested in propogating the Ethereum network's future. 
+In the most commonly used derivative markets within the cryptocurrency space (Bitmex, see question 20), contracts are settled in Bitcoin. If another derivatives market were to be introduced that settled contracts in USD or Ether, the price of each Ether would be less affected by the price of Bitcoin. 
 
 ### 18. Given the evolving nature of the Ether cash markets underlying potential Ether derivative contracts, what are the commercial risk management needs for a derivative contract on Ether?
 
@@ -144,7 +144,7 @@ Answer:
 
 ### 19. Please list any potential impacts on Ether and the Ethereum Network that may arise from the listing or trading of derivative contracts on Ether.
 
-Answer:
+One potential impact on the network that may arise from derivatives markets is the need for KYC/AML on Ethereum accounts. This is especially true for OTC trades that are P2P. Any account holder could claim to be the seller or a HNW individual with a legitimate source of funds, but there would be no way of knowing as all acounts are annonymous. There would need to be a safeguard on these types of transactions to whitelist these accounts as legitimately owned. 
 
 ### 20. Are there any types of trader or intermediary conduct that has occurred in the international Ether derivative markets that raise market risks or challenges and should be monitored closely by trading venues or regulators?
 
