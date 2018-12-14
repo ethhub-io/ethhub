@@ -171,10 +171,12 @@ While the jury is still out on whether the introduction of derivatives increases
 
 ### 18. Given the evolving nature of the Ether cash markets underlying potential Ether derivative contracts, what are the commercial risk management needs for a derivative contract on Ether?
 
+One potential risk in a commercial application for Ether derivative contracts are if the contract is settled in Ether, the commercial client would have to ensure they are storing their assets securely. Mt. Gox was a disaster in the cryptocurrency space with over $450 million stolen out of their unsecured "hot wallet". It took many years for people to regain trust of crypto has a whole due to one excahnge's gross negligence. 
+ Another potential risk is the inaccuracy of price feeds the derivative contract is fed. The cryptocurrency space is ripe with flash crashes that are instantly bought back up and random buy spikes that are quickly sold into. These are often exclusive on one excahnge and caused by a big buy/sell order causing a domino effect on trader's stop limit orders. Liquidation events are commonplace on these flash crashes and could easily happen even if the price quickly recovers
+
 
 ### 19. Please list any potential impacts on Ether and the Ethereum Network that may arise from the listing or trading of derivative contracts on Ether.
 
-One potential impact on the network that may arise from derivatives markets is there is currently no KYC/AML on Ethereum accounts. This is both the beauty of the network as all accounts are treated equally regardless of the balance. However, in the case of a derivative OTC trade that's P2P, any account holder could claim to be the seller or a HNW individual with a legitimate source of funds. There would be no way of knowing as all acounts are annonymous. There would have to be a way to "whitelist" these specific accounts for these types of transactions. 
 
 ### 20. Are there any types of trader or intermediary conduct that has occurred in the international Ether derivative markets that raise market risks or challenges and should be monitored closely by trading venues or regulators?
 
