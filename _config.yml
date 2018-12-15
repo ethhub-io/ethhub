@@ -1,4 +1,1 @@
-plugins:
-  - jekyll-remote-theme
-
-remote_theme: chromatical/jekyll-materialdocs
+remote_theme: pmarsceill/just-the-docs
