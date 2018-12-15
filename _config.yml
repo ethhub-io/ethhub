@@ -1,1 +1,4 @@
-theme: jekyll-theme-architect
+plugins:
+  - jekyll-remote-theme
+
+remote_theme: chromatical/jekyll-materialdocs
