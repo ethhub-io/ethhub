@@ -18,7 +18,7 @@ The underlying impetus to develop Ethereum and consequently Ether, was to utiliz
 
 ### 2. What are the current functionalities and capabilities of Ether and the Ethereum Network as compared to the functionalities and capabilities of Bitcoin?
 
-The Bitcoin and Ethereum blockchains are currently both secured by a Proof of Work transaction ordering, sybil-control mechanisms and byzantine fault tolerance (BFT) consensus. However, the core difference is that Ethereum offers smart contract functionality enabled by its flexible scripting languages and the Ethereum Virtual Machine \(EVM\), which is a quasi-Turing Complete virtual machine that compiles smart contract code and enables execution of that code. These smart contracts allow the incorporation of logic based programs that can create unique conditions to the transfer and settlement of Ether transactions amongst counterparties. Because of its ability to support smart contracts, Ethereum enables the development and deployment of decentralized products and services that can incorporate any computational logic.
+The Bitcoin and Ethereum blockchains are currently both secured by a Proof of Work transaction ordering, sybil-control mechanisms and byzantine fault tolerance (BFT) consensus. However, the core difference is that Ethereum offers smart contract functionality enabled by its flexible scripting languages and the Ethereum Virtual Machine \(EVM\), which is a quasi-Turing Complete virtual machine that compiles smart contract code and enables execution of that code. These smart contracts allow the incorporation of logic based programs that can create unique conditions to the transfer and settlement of Ether transactions amongst counterparties. Because of its ability to support smart contracts, Ethereum enables the development and deployment of digital decentralized products and services that can incorporate complex computational logic.
 
 The functionality of the native asset Ether is actually very similar to Bitcoin. It is used to 1: incentivize security for the network as a block reward to miners peforming computationally intensive work to provide secure transaction ordering and block creation and to prevent a wide array of failures \(e.g. double spending, transaction censorship\); 2: serves as a sybil resistance mechanism in the form of network transaction fees that prevent forged identity based attacks, provides spam and denial of service attack protection while also creating a fee market that aids in preventing network congestion; and, 3: a vehicle for interacting with smart contracts deployed on the Ethereum blockchain.
 
@@ -152,9 +152,31 @@ Currently, off-ramps to legal tender from Ether are mostly supported by centrali
 
 Answer:
 
+A liquid and well-regulated derivative contracts market has the potential to improve the robustness of proof-of-stake incentive structures by removing unwanted risk from staking Ether.
+
+To understand the impact of making more hedging options available for Ether holders, it helps to first understand how staking works. Holders of Ether can choose to lock up their Ether in a smart contract, which gives their node the ability to propose blocks of transactions and collect awards from those transactions. The locked up Ether acts as a "stake" which can get taken away ("slashed") in the event that their node proposes invalid blocks or withholds information. Staked Ether comprises a critical part of the Proof-of-Stake consensus model, meaning that the network must pay holders of Ether enough to merit a minimum amount staked and keep the network operational. 
+
+While network rewards holders for performing a critical function, it also must compensate stakers for the market risks associated with holding a volatile asset. Given that the price of Ether can change significantly from day to day, it's reasonable that the average Ether holder values the ability to sell their holdings at will. This is not possible if they stake their Ether. Not only must the staked Ether stay within the contract for the duration that it's staked, the holder also must abide by a holding period upon deciding to withdraw. The inability to hedge these risks would reduce the number of entities/people willing to stake their Ether and penalize the network by requiring higher rewards for stakers.   
+
+Well-regulated derivative contracts on Ether would give Ether holders cheaper ways to hedge the risks of staking Ether. Currently, the only method to hedge these risks is to short-sell Ether on an exchange. Short-selling has limited utility because it relies on the availability of loaned Ether and the continued desire from the loaner to keep the Ether on loan. Derivatives such as futures and options have no such issues beyond the liquidity of the contract. Derivatives also provide new ways to hedge risks. Beyond selling futures instead of short-selling, they can also engage in more sophisticated strategies such as covered call writing or protective collars. Finally and perhaps most importantly, derivatives require less capital lock-up than short-selling for hedging due to their implied leverage. 
+
+As such, the introduction of derivative contracts on Ether would decrease the risks of holding Ether for a given length of time, thereby increasing willingness in holders to stake Ether and decreasing the costs on the network to pay stakers. 
+
+Of course, introducing a derivatives market has certain risks as well. The biggest risk is encouraging undue speculation. Speculation makes hedging cheaper, but it also can cause the spot price of Ether to deviate from the fundamental growth rate of the ecosystem. This potential is a definite concern to the network given that the price of Ether determines the cost of attacking the network and factors into how transaction fees are priced. A price that’s too low may make the network easier to attack from an economic perspective. A price that’s too high may make useful transactions too expensive to conduct. 
+
+While the jury is still out on whether the introduction of derivatives increases volatility and deviations from fundamental valuations on underlying assets, some measures could be implemented to control speculation, which are discussed in the following answer. Even so, given the practical needs for hedging the holding risk of Ether due to staking, the introduction of a well-regulated derivatives market would still augment the incentive structures in Proof-of-Stake despite the risks. 
+
+
 ### 18. Given the evolving nature of the Ether cash markets underlying potential Ether derivative contracts, what are the commercial risk management needs for a derivative contract on Ether?
 
-Answer:
+Answer: 
+
+Existing risk management practices governing commodity derivative markets provides a useful framework for Ether derivatives. In particular, stringent monitoring of position limits would be warranted. If an individual or entity can trade contracts with notional amounts that exceed the amount of staked Ether, they can theoretically profit from a 51% attack on the network, which the Proof-of-Stake consensus model is supposed to prevent. One recommendation is to tie position limits to a fraction of staked Ether. Such measures would mitigate the risk that parties could collude to successfully attack the network. 
+
+Another potential concern is the physical settlement of contracts with Ether. Given the developing nature of cash markets for Ether, there is a risk that the overreliance on physical settlement will cause artificial irregularities in the price of Ether. As explain in answer #17, the security of Ethereum does hinge on the price of Ether, so artificial irregularities in price can increase the risk of opening an attack vector on the network. As such, another recommendation is to keep settlements of Ether in cash. 
+
+Otherwise, existing measures to control risk for commodity contracts should prove sufficient for Ether derivative contracts. While Ether operates as a currency-like asset, its volatility and risk factors better reflect a commodity at current valuations. Exchanges would be prudent to apply similar limits to leverage and open interest accordingly.
+
 
 ### 19. Please list any potential impacts on Ether and the Ethereum Network that may arise from the listing or trading of derivative contracts on Ether.
 
