@@ -1,4 +1,0 @@
-# Can Ethereum Scale?
-
-
-

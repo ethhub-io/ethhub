@@ -1,6 +1,0 @@
-# Ropsten
-
-## About
-
-## Important Links
-

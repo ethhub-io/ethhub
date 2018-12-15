@@ -1,4 +1,0 @@
-# MLB Crypto Baseball
-
-
-
