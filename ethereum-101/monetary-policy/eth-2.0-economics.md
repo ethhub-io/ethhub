@@ -50,7 +50,7 @@ From here we can start to calculate the **outputs** using a single **assumption*
 | Epoch/year | 31536000/\(6\*64\) = 82125 |
 | Reward Quotient | 2048\*INT\(SQRT\(10000000\)\) = 6475776 |
 | Reward/epoch | 10000000/6475776\*2 = 3.088 |
-| Generated ETH/Year | 82125\*3088 = 253638 |
+| Generated ETH/Year | 82125\*3.088 = 253638 |
 | Validator Interest/Year | 253638/10000000 = 2.54% |
 | Issuance Rate/Year | 253638/104000000 = 0.24% |
 
