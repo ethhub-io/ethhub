@@ -11,7 +11,7 @@ Ethereum prioritizes decentralization and security over scalability. However, ma
 Ethereum's scaling solutions have been broken into two main components:
 
 * [Layer 1](sharding.md): scaling solutions implemented on the base-level protocol
-* [Layer 2](../layer-2/): scaling solutions built on top of the base-level protocol.
+* [Layer 2](): scaling solutions built on top of the base-level protocol.
 
 Source: [https://github.com/ethereum/wiki/wiki/Sharding-FAQs](https://github.com/ethereum/wiki/wiki/Sharding-FAQs)
 

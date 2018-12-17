@@ -10,4 +10,5 @@ Kauri is starting as a place for the technical documentation for various blockch
 
 ## Important links
 
-* Website: https://kauri.io
+* Website: [https://kauri.io](https://kauri.io)
+
