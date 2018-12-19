@@ -34,6 +34,6 @@ We still need to work on who can own each part of the process:
 
 * Creation and ownership of the website
 * Selection of the teams up for receiving funds
-* Creation of the smart contract
+* Creation of the smart contract (@hex_capital has offered to lead this charge)
 * Auditing of the smart contract
 * Publicity and marketing
