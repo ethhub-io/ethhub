@@ -10,10 +10,10 @@ ETH holders have an incentive to fund these teams as it contributes to the long 
 
 ### Format
 
-This type of idea could be accomplished in an entirely decentralized way through a DAO but it's important to remove complexity given the immediate need for funding (due to the active Eth 2.0 research). We suggest the following format for the fundraising to occur:
+This type of idea could be accomplished in an entirely decentralized way through a DAO but it's important to remove complexity given the immediate need for funding (due to the active Eth 1.x and 2.0 research). We suggest the following format for the fundraising to occur:
 
 * Website is created for the event under a name such as "EthScalingFunding.com".
-* Ethereum Foundation selects 5 projects they see as the most important for the success of Eth 2.0. This will give assurance to donators that every project in the fundraiser is credible.
+* Ethereum Foundation selects 5 projects they see as the most important for the success of Eth 1.x and 2.0. This will give assurance to donators that every project in the fundraiser is credible.
   * NOTE: This could be done through EthHub or a panel of community members but it may potentially add unnecessary complexity.
 * Every project selected is put on the website with a "kickstarter style" pitch for their raise goal and what the funds will be used for.
 * The event runs for 30 days. If entire funding goal is not reached, funds are returned to those that donated.
