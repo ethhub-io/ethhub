@@ -2,7 +2,7 @@
 
 ### Description
 
-Dai is an asset-backed stable currency created by the Maker Decentralized Autonomous Organization \(MakerDAO\). The Dai Stablecoin System maintains the stable value of Dai by ensuring that each Dai is always backed by a collateralized asset of more value. Single collateral Dai requires that each Dai is backed by at least 150% Ether. If at anytime, the amount of collateral backing Dai falls below 150%, "watchers" (community run bots) will call functions within the MakerDAO smart contracts that trigger liquidation of enough collateral to payback the debt.
+Dai is an asset-backed stable currency created by the Maker Decentralized Autonomous Organization \(MakerDAO\). The Dai Stablecoin system maintains the stable value of Dai by ensuring that each Dai is always backed by a collateralized asset of more value. Single collateral Dai requires that each Dai is backed by at least 150% Ether. If at anytime, the amount of collateral backing Dai falls below 150%, "watchers" (community run bots) will call functions within the MakerDAO smart contracts that trigger liquidation of enough collateral to payback the debt.
 
 MakerDAO is one of the earliest projects in the Ethereum ecosystem.
 
@@ -12,11 +12,11 @@ Crypto assets are known for their high volatity which renders them unsuitable fo
 
 ### Accomplishments
 
-The Dai Stablecoin System has been operating in Beta mode since December 2017. The Beta mode allows for a single collateral type, Ether. During the period of Dececember 2017 - December 2018, the price of Ether fell over 93% while the Dai remained stable and over-collateralized throughout.
+The Dai Stablecoin System has been operating in Beta mode since December 2017. The Beta mode allows for a single collateral type, Ether. During the period of Dececember 2017 - December 2018, the price of Ether fell over 93% while Dai remained stable and over-collateralized throughout.
 
 ### Next
 
-Multi-Collateral Dai is the next and full version of the Dai Stablecoin System. In this system, all ERC-20 tokens are capable of being used as collateral for the Dai. MakerDAO token \(MKR\) holders will be responsible for voting in and setting risk parameters for each collateral type. The scope of collateral types are as wide as tokens issued on the Ethereum platform. Dai issuance
+Multi-Collateral Dai is the next and full version of the Dai Stablecoin System. In this system, all ERC-20 tokens are capable of being used as collateral for Dai. MakerDAO token \(MKR\) holders will be responsible for voting in and setting risk parameters for each collateral type. The scope of collateral types are as wide as tokens issued on the Ethereum platform.
 
 ## Important Links
 
