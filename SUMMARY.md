@@ -177,4 +177,5 @@
 ## Other
 
 * [EthHub CFTC Response](other/ethhub-cftc-response.md)
+* [Ethereum Fundraising Event](other/ethereum-fundraising-event.md)
 
