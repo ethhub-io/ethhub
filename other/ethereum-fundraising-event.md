@@ -1,5 +1,7 @@
 # Ethereum Scaling Fundraising Event
 
+NOTE: This is a working draft!
+
 ### Motivation
 
 A recent [discussion](https://twitter.com/preston_vanloon/status/1075174335554469888) on Twitter highlighted the fact that teams working on Ethereum scaling solutions aren't able to dedicate their full time to their projects because of funding issues. The Ethereum Foundation gives out grants to many of these teams. Unfortunately, this funding is not sufficient to pay full time salaries over a long period of time and it shouldn't be expected that the Ethereum Foundation fully fund every development team.
