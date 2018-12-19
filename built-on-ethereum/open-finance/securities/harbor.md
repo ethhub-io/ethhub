@@ -12,4 +12,5 @@ A 'Regulator Service' is an approved entity that verifies security token transfe
 
 ## Important links
 
-* Website: https://harbor.com
+* Website: [https://harbor.com](https://harbor.com)
+

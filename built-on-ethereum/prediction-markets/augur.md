@@ -12,7 +12,7 @@ Augur has a native token called Reputation \(REP\). REP is needed by market crea
 
 * Website: [https://www.augur.net/](https://www.augur.net/)
 * Whitepaper: [https://github.com/AugurProject/whitepaper](https://github.com/AugurProject/whitepaper)
-* Prediction market explorer: https://predictions.global/
+* Prediction market explorer: [https://predictions.global/](https://predictions.global/)
 
 ## Podcasts
 
