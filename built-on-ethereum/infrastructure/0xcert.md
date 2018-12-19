@@ -10,4 +10,5 @@ There are many different protocols, applications, and companies trying to bring 
 
 ## Important links
 
-* Website: https://0xcert.org
+* Website: [https://0xcert.org](https://0xcert.org)
+
