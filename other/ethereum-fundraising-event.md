@@ -1,6 +1,6 @@
 # Ethereum Fundraising Event
 
-NOTE: This is a working draft!
+### NOTE: This is a working draft! All ideas presented below are just that - ideas. We want to encourage anyone and everyone to submit their own ideas and start discussions around what should happen with regards to funding within Ethereum. Don't be shy! 
 
 ## Motivation
 
