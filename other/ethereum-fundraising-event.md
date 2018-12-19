@@ -1,4 +1,4 @@
-# Ethereum Fundraising Event
+# Ethereum Scaling Fundraising Event
 
 ### Motivation
 
