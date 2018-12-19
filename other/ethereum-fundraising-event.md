@@ -26,3 +26,13 @@ The entire funding initiative is run via smart contract. This contracts core fun
 * Ability to return funds to donators if funding goal is not reached within 30 days.
 * Ability to unlock funds for project if funding goal is reached within 30 days.
 
+### Logistics
+
+Still need to work on who can own each part of the process:
+
+* Creation and ownership of the website
+* Selection of the teams up for receiving funds
+* Creation of the smart contract
+* Auditing of the smart contract
+* Publicity and marketing
+
