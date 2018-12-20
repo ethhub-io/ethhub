@@ -1,6 +1,6 @@
 # Funds
 
-List of all the Ethereum funds.
+List of all the Ethereum ventures / startup funds.
 
 * [The Ethereum Community Fund (ECF)](ecf.md)
 * [Status Incubate](status-incubate.md) by Status.im
