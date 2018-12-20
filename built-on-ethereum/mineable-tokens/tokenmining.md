@@ -52,7 +52,7 @@ ____________________________
 
 _________________________________________
 
-#Links
+## Links
 
 
 [**EIP-918 Mineable Token Standard**](https://eips.ethereum.org/EIPS/eip-918)
