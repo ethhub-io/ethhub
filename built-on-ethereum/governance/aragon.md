@@ -7,9 +7,10 @@ Aragon lets you freely organize and collaborate without borders or intermediarie
 
 ## How it works
 
-Aragon is most powerful and modular way to build and run DAOs. Use aragonOS, AragonJS and AragonUI
+Aragon is most powerful and modular way to build and run DAOs. Use aragonOS, AragonJS and AragonUI.
 
 ## Used by 
+
 1. District0x
 2. Request Network
 3. Spice VC
@@ -20,6 +21,7 @@ Aragon is most powerful and modular way to build and run DAOs. Use aragonOS, Ara
 8. Althea
 
 ## Important Links
+
 * Website: https://aragon.org
-* Github: https://github.com/JoinColony
+* Github: https://github.com/aragon
 * Mainnet: https://mainnet.aragon.org/
