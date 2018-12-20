@@ -5,4 +5,5 @@ Decentralized Governace allows users, groups, communities, organizations and mac
 * [Aragon](aragon.md)
 * [Colony](colony.md)
 * [GovBlocks](govblocks.md)
+* [Democracy Earth](democracy-earth.md)
 
