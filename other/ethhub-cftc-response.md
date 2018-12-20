@@ -194,7 +194,7 @@ Otherwise, existing measures to control risk for commodity contracts should prov
 
 ### 19. Please list any potential impacts on Ether and the Ethereum Network that may arise from the listing or trading of derivative contracts on Ether.
 
-Answer:
+Answer:  Market activity, including the trading of derivative contracts, that facilitate price discovery, hedging of risks, and increase liquidity are beneficial for Ether and the Ethereum Network. In both proof-of-work and proof-of-stake models, network security is improved when free markets provide accurate price signals to miners and coin holders and enable them to trade and hedge risks appropriately.  As described above in questions 17 and 18, derivative markets should take measures that limit the potential for large actors to unduly manipulate market prices as, similar to bitcoin, market crashes can impact mining security incentives. 
 
 ### 20. Are there any types of trader or intermediary conduct that has occurred in the international Ether derivative markets that raise market risks or challenges and should be monitored closely by trading venues or regulators?
 
