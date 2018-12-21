@@ -54,6 +54,7 @@ _________________________________________
 
 ## Links
 
+[**Source on GitHub**](https://github.com/0xbitcoin)
 
 [**EIP-918 Mineable Token Standard**](https://eips.ethereum.org/EIPS/eip-918)
 
@@ -62,11 +63,9 @@ _________________________________________
 [**Discord Server**](https://discordapp.com/invite/xAPwaDC)<br>
 *where most dev discussion takes place*
 
-[**Official 0xBTC forums**](http://forum.0xbtc.io/c/general-discussion)
+[**0xBTC Website**](https://www.0xbitcoin.org)
 
-[**0xBitcoin Website**](https://www.0xbitcoin.org)
-
-[**0xBTC Foundation Medium Publication**](https://medium.com/@0xBitcoinFoundation)
+[**0xBTC Foundation Medium Publication**](https://medium.com/0xBitcoinFoundation)
 
 [**MineableToken.world**](https://mineabletoken.world)<br>
 *ERC-918 Mineable Token information portal*
