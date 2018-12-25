@@ -8,4 +8,5 @@ Other projects can use the protocol to build marketplaces for specific kind of t
 
 ## Important links
 
-* Website: https://bounties.network
+* Website: [https://bounties.network](https://bounties.network)
+

@@ -12,4 +12,5 @@ The world will be accessible via a VR browser on multiple platforms.
 
 ## Important links
 
-* Website: https://decentraland.org
+* Website: [https://decentraland.org](https://decentraland.org)
+

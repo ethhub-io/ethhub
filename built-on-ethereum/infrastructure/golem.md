@@ -12,4 +12,5 @@ The Application Registry is a user-curated list of secure and malicious software
 
 ## Important links
 
-* Website: https://golem.network
+* Website: [https://golem.network](https://golem.network)
+
