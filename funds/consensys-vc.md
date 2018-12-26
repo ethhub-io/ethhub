@@ -12,4 +12,4 @@ Sector and geography agnostic, ConsenSys Ventures is  building a portfolio of co
 ## Important Links
 
 * Website: https://consensys.vc/
-* Info: https://blog.aragon.org/introducing-aragon-nest-1aa8c91c0566/
+
