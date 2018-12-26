@@ -1,9 +1,9 @@
 # Aragon Nest
 
-A grants program to support the development of the ecosystems by aragon and placeholder.vc
+A grants program to support the development of the ecosystems by aragon and placeholder.vc.
 
 
-## Goan 
+## Goal
 
 The goal of the program is to attract talent to research and build the necessary tooling for developing solutions around Aragon and Ethereum.
 
@@ -11,11 +11,11 @@ The goal of the program is to attract talent to research and build the necessary
 
 ## What we look for
 
-1. Tools for making the ecosystem sustainable, such as open source repositories run by governance tokens using Aragon
-2. Developer tools for building applications on Aragon
-3. Better communication tools for effective governance, possibly using Whisper and other messaging protocols, by having an app which locks an action in time until there has been significant discussion
-4. Complex governance mechanisms with off-chain components, to achieve scalability
-5. Aragon UI developer tools and implementations in different frameworks
+1. Tools for making the ecosystem sustainable, such as open source repositories run by governance tokens using Aragon.
+2. Developer tools for building applications on Aragon.
+3. Better communication tools for effective governance, possibly using Whisper and other messaging protocols, by having an app which locks an action in time until there has been significant discussion.
+4. Complex governance mechanisms with off-chain components, to achieve scalability.
+5. Aragon UI developer tools and implementations in different frameworks.
 
 ## Grant sizes
 

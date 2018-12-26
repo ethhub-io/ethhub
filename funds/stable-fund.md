@@ -8,10 +8,10 @@ We offer equity free grants (up to $25k) to alpha projects and equity funding up
 
 ## What we look for
 
-1. Companies with a strong technical founder
-2. Companies with just an idea to companies scaling
-3. Companies using Dai or Maker Infrastructure as a core component
-4. Companies that are feasible with current state of blockchain technology
+1. Companies with a strong technical founder.
+2. Companies with just an idea to companies scaling.
+3. Companies using Dai or Maker Infrastructure as a core component.
+4. Companies that are feasible with current state of blockchain technology.
 
 ## Important Links
 
