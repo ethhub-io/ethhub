@@ -7,5 +7,6 @@ List of all the Ethereum ventures / startup funds.
 * [Aragon Nest](aragon-nest.md) by aragon
 * [0x Ecosystem Acceleration Program](0xeap.md) by 0xProject
 * [Stable.fund](stable-fund.md) by L4 and MakerDAO
+* [ConsenSys Ventures](consensys-vc.md) by ConsenSys
 
 
