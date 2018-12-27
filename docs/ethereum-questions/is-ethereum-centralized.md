@@ -1,0 +1,4 @@
+# Is Ethereum centralized?
+
+
+
