@@ -1,6 +1,6 @@
 # Constantinople
 
-The Constantinople fork consists of 5 EIPS:
+The Constantinople hard fork will occur at block 7,080,000 on approximately 1/16/2019. The Constantinople fork consists of 5 EIPS:
 
 * [EIP 145: Bitwise shifting instructions in EVM](https://eips.ethereum.org/EIPS/eip-145)
 * [EIP 1014: Skinny CREATE2](https://eips.ethereum.org/EIPS/eip-1014)

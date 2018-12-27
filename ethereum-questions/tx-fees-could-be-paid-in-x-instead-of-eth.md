@@ -1,4 +1,4 @@
-# Is it true users will pay fees in other tokens and Ether will have no value?
+# Is Ether needed for transaction fees?
 
 This is false as explained by EthHub founder, Eric Conner on Twitter:
 

@@ -1,5 +1,9 @@
 # Running a Node
 
+## Running a node
+
+Anyone is able to run an Ethereum node on their computer. 
+
 ## What is a light node?
 
 A light node listens to full nodes it is connected to and only receives relevant Blockchain data periodically. Light nodes are useful for low capacity devices, such as embeded devices or mobile phones, which can't afford to store multiple dozen Gigabytes of blockchain data.

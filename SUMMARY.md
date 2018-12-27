@@ -9,26 +9,26 @@
 * [Monetary Policy](ethereum-101/monetary-policy.md)
 * [Ether](ethereum-101/ethereum-use-cases/README.md)
   * [Network Usage](ethereum-101/ethereum-use-cases/network-usage.md)
-  * [Ether as Money](ethereum-101/ethereum-use-cases/ether-as-money.md)
-  * [Open Finance](ethereum-101/ethereum-use-cases/open-finance.md)
   * [Store of Value](ethereum-101/ethereum-use-cases/store-of-value.md)
+  * [Medium of Exchange](ethereum-101/ethereum-use-cases/ether-as-money.md)
+  * [Unit of Account](ethereum-101/ethereum-use-cases/open-finance.md)
 * [Governance](ethereum-101/governance.md)
 
 ## Roadmap
 
-* [Constantinople](roadmap/timeline.md)
-* [Istanbul](roadmap/istanbul.md)
+* [Planned Forks](roadmap/planned-forks/README.md)
+  * [Constantinople](roadmap/planned-forks/timeline.md)
+  * [Istanbul](roadmap/planned-forks/istanbul.md)
 * [Serenity \(Eth 2.0\)](roadmap/serenity-phases/README.md)
-  * [Proof of Stake](roadmap/serenity-phases/proof-of-stake.md)
+  * [Proof of Stake](roadmap/serenity-phases/proof-of-stake/README.md)
+    * [Staking Economics](roadmap/serenity-phases/proof-of-stake/eth-2.0-economics.md)
   * [Sharding](roadmap/serenity-phases/sharding.md)
-  * [Eth 2.0 Economics](roadmap/serenity-phases/eth-2.0-economics.md)
 * [Layer 2 Scaling](roadmap/layer-2-scaling/README.md)
   * [ZK-STARKs](roadmap/layer-2-scaling/zk-starks.md)
   * [Plasma](roadmap/layer-2-scaling/plasma.md)
   * [State Channels](roadmap/layer-2-scaling/state-channels.md)
   * [Payment Channels](roadmap/layer-2-scaling/payment-channels.md)
 * [Privacy](roadmap/privacy.md)
-* [Longer Term](roadmap/longer-term-items.md)
 
 ## Using Ethereum
 
@@ -133,16 +133,14 @@
   * [POA Network](built-on-ethereum/infrastructure/poa-network.md)
   * [Streamr](built-on-ethereum/infrastructure/streamr.md)
 
-## Ethereum Questions
+## Common Questions
 
-* [Is Ethereum centralized?](ethereum-questions/is-ethereum-centralized.md)
 * [Is Ethereum more expensive to use when Ether price is higher?](ethereum-questions/centralization-myth.md)
 * [How can Ethereum compete with "free" blockchains?](ethereum-questions/if-ethereum-is-not-free-to-use-how-will-it-ever-compete-with-blockchains-that-provide-free-trans.md)
-* [Does Ether have an infinite supply?](ethereum-questions/if-ether-has-an-infinite-supply-how-can-we-expect-ether-to-ever-hold-value.md)
+* [Is Ethereum centralized?](ethereum-questions/is-ethereum-centralized.md)
 * [Is Ethereum a security?](ethereum-questions/is-ethereum-a-security.md)
-* [Is Ethereum Immutable?](ethereum-questions/is-ethereum-immutable.md)
-* [Is the Ethereum chain size too big?](ethereum-questions/blockchain-is-larger-than-1tb-myth.md)
-* [Is it true users will pay fees in other tokens and Ether will have no value?](ethereum-questions/tx-fees-could-be-paid-in-x-instead-of-eth.md)
+* [Is Ethereum immutable?](ethereum-questions/is-ethereum-immutable.md)
+* [Is Ether needed for transaction fees?](ethereum-questions/tx-fees-could-be-paid-in-x-instead-of-eth.md)
 
 ## Tokens
 

@@ -1,4 +1,4 @@
-# Ether as Money
+# Medium of Exchange
 
 
 
