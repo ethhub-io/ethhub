@@ -2,17 +2,17 @@
 
 * [Welcome to EthHub](README.md)
 
-## Ethereum 101
+## Ethereum Basics
 
-* [What is Ethereum?](ethereum-101/what-is-ethereum/README.md)
-  * [Ether](ethereum-101/what-is-ethereum/ethereum-use-cases/README.md)
-    * [Network Usage](ethereum-101/what-is-ethereum/ethereum-use-cases/network-usage.md)
-    * [Store of Value](ethereum-101/what-is-ethereum/ethereum-use-cases/store-of-value.md)
-    * [Medium of Exchange](ethereum-101/what-is-ethereum/ethereum-use-cases/ether-as-money.md)
-    * [Unit of Account](ethereum-101/what-is-ethereum/ethereum-use-cases/open-finance.md)
-* [History and Forks](ethereum-101/history.md)
-* [Monetary Policy](ethereum-101/monetary-policy.md)
-* [Governance](ethereum-101/governance.md)
+* [What is Ethereum?](ethereum-basics/what-is-ethereum.md)
+* [What is Ether?](ethereum-basics/ethereum-use-cases/README.md)
+  * [Network Usage](ethereum-basics/ethereum-use-cases/network-usage.md)
+  * [Store of Value](ethereum-basics/ethereum-use-cases/store-of-value.md)
+  * [Medium of Exchange](ethereum-basics/ethereum-use-cases/ether-as-money.md)
+  * [Unit of Account](ethereum-basics/ethereum-use-cases/open-finance.md)
+* [History and Forks](ethereum-basics/history.md)
+* [Monetary Policy](ethereum-basics/monetary-policy.md)
+* [Governance](ethereum-basics/governance.md)
 
 ## Roadmap
 
