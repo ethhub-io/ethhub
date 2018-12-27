@@ -50,6 +50,18 @@
   * [Rinkeby](using-ethereum/networks/rinkeby.md)
   * [Ropsten](using-ethereum/networks/ropsten.md)
 
+## Common Questions
+
+* [Is Ethereum most expensive to use as price rises?](ethereum-questions/centralization-myth.md)
+* [Why do you have to pay to use Ethereum?](ethereum-questions/if-ethereum-is-not-free-to-use-how-will-it-ever-compete-with-blockchains-that-provide-free-trans.md)
+* [How is Ethereum different than Bitcoin?](ethereum-questions/how-is-ethereum-different-than-bitcoin.md)
+* [Are smart contracts secure?](ethereum-questions/are-smart-contracts-secure.md)
+* [Is Ethereum centralized?](ethereum-questions/is-ethereum-centralized.md)
+* [Is Ethereum a security?](ethereum-questions/is-ethereum-a-security.md)
+* [Is Ethereum immutable?](ethereum-questions/is-ethereum-immutable.md)
+* [Is Ether needed for transaction fees?](ethereum-questions/tx-fees-could-be-paid-in-x-instead-of-eth.md)
+* [Why doesn't Ethereum use dPoS?](ethereum-questions/why-doesnt-ethereum-use-dpos.md)
+
 ## Built on Ethereum
 
 * [Open Finance](built-on-ethereum/open-finance/README.md)
@@ -132,15 +144,6 @@
   * [0xcert](built-on-ethereum/infrastructure/0xcert.md)
   * [POA Network](built-on-ethereum/infrastructure/poa-network.md)
   * [Streamr](built-on-ethereum/infrastructure/streamr.md)
-
-## Common Questions
-
-* [Is Ethereum more expensive to use when Ether price is higher?](ethereum-questions/centralization-myth.md)
-* [How can Ethereum compete with "free" blockchains?](ethereum-questions/if-ethereum-is-not-free-to-use-how-will-it-ever-compete-with-blockchains-that-provide-free-trans.md)
-* [Is Ethereum centralized?](ethereum-questions/is-ethereum-centralized.md)
-* [Is Ethereum a security?](ethereum-questions/is-ethereum-a-security.md)
-* [Is Ethereum immutable?](ethereum-questions/is-ethereum-immutable.md)
-* [Is Ether needed for transaction fees?](ethereum-questions/tx-fees-could-be-paid-in-x-instead-of-eth.md)
 
 ## Tokens
 
