@@ -1,2 +1,0 @@
-# Are smart contracts secure?
-

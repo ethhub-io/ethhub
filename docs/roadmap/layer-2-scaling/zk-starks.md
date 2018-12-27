@@ -1,2 +1,0 @@
-# ZK-STARKs
-

@@ -1,4 +1,0 @@
-# Medium of Exchange
-
-
-
