@@ -1,4 +1,4 @@
-# Confidential Identification
+# Identity
 
 The Ethereum network hosts many DApps that are building identity systems. These DApps leverage the secure and decentralized nature of the Ethereum network often in collaboration with decentralized storage protocols such as IPFS or SWARM to enable empower and protect consumers' information. Citizens will be able to confidentionally reveal personal information such as Gov. ID, credit score, medical history, banking information, etc. to others in a way that also allows them to revoke future access to such information.
 

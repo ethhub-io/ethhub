@@ -2,12 +2,12 @@
 
 ## Genesis Block
 
-As part of the Ethereum genesis block, initial contributors to Ethereum sale were allocated 60,000,000 Ether. Another 12,000,000 Ether was given to the development fund which was distributed among early contributors and the [Ethereum Foundation](../../glossary/key-concepts/ethereum-foundation.md).
+As part of the Ethereum genesis block, initial contributors to Ethereum sale were allocated 60,000,000 Ether. Another 12,000,000 Ether was given to the development fund which was distributed among early contributors and the [Ethereum Foundation](../glossary/key-concepts/ethereum-foundation.md).
 
 ## Historical Issuance Impacts
 
 **Block Reward Reductions**  
-Every block produced on the Ethereum network has an associated block reward which incentivizes miners to support the network. On top of the base block reward, miners that find an [uncle block](../../glossary/key-concepts/uncle-block.md) receive ~75% of the current block reward. This results in a growing supply of Ether across time. The history of the block reward are as follows:
+Every block produced on the Ethereum network has an associated block reward which incentivizes miners to support the network. On top of the base block reward, miners that find an [uncle block](../glossary/key-concepts/uncle-block.md) receive ~75% of the current block reward. This results in a growing supply of Ether across time. The history of the block reward are as follows:
 
 * Block 0 to Block 4,369,999 : 5 Ether
 * Block 4,370,000 to current: 3 Ether \(changed via [EIP-649](https://github.com/ethereum/EIPs/blob/master/EIPS/eip-649.md)\)
@@ -23,9 +23,9 @@ Issuance rate is also impacted by the speed of blocks. There have been a few oth
 
 ## Proof of Stake Impact
 
-According to the current [Eth 2.0 spec](https://notes.ethereum.org/s/Syj3QZSxm), issuance rate will be greatly reduced as a part of Proof of Stake. There will be a [sliding scale](eth-2.0-economics.md#staking-rewards) between total amount of Ether at stake and annual interest earned by stakers. The current spec would produce the following annual interest and inflation numbers based on total network stake:
+According to the current [Eth 2.0 spec](https://notes.ethereum.org/s/Syj3QZSxm), issuance rate will be greatly reduced as a part of Proof of Stake. There will be a [sliding scale](../roadmap/serenity-phases/eth-2.0-economics.md#staking-rewards) between total amount of Ether at stake and annual interest earned by stakers. The current spec would produce the following annual interest and inflation numbers based on total network stake:
 
-![](../../.gitbook/assets/screen-shot-2018-12-10-at-6.55.04-pm.png)
+![](../.gitbook/assets/screen-shot-2018-12-10-at-6.55.04-pm.png)
 
 ## Historical and Future Supply Forecast
 
@@ -35,5 +35,5 @@ There are three majors upcoming factors when it comes to Ethereum's issuance rat
 * [Serenity Phase 0](https://github.com/ethhub-io/ethhub/blob/master/roadmap/timeline/serenity-phases.md): Slight bump in issuance due to Beacon Chain launch.
 * [Serenity Phase 2](https://github.com/ethhub-io/ethhub/blob/master/roadmap/timeline/serenity-phases.md): Strong drop in issuance due to the PoW chain fading away.
 
-![](../../.gitbook/assets/screen-shot-2018-12-11-at-7.51.08-am.png)
+![](../.gitbook/assets/screen-shot-2018-12-11-at-7.51.08-am.png)
 
