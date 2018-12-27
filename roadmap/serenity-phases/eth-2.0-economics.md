@@ -1,4 +1,4 @@
-# Staking Economics
+# Eth 2.0 Economics
 
 ## Introduction
 

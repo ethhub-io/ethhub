@@ -1,5 +1,7 @@
 # Parity
 
+## Introduction
+
 Parity is an implementation of the Ethereum protocol written in Rust, a systems programming language.
 
 It is developed and actively maintained by a third party.

@@ -23,7 +23,7 @@ Issuance rate is also impacted by the speed of blocks. There have been a few oth
 
 ## Proof of Stake Impact
 
-According to the current [Eth 2.0 spec](https://notes.ethereum.org/s/Syj3QZSxm), issuance rate will be greatly reduced as a part of Proof of Stake. There will be a [sliding scale](../roadmap/serenity-phases/proof-of-stake/eth-2.0-economics.md#staking-rewards) between total amount of Ether at stake and annual interest earned by stakers. The current spec would produce the following annual interest and inflation numbers based on total network stake:
+According to the current [Eth 2.0 spec](https://notes.ethereum.org/s/Syj3QZSxm), issuance rate will be greatly reduced as a part of Proof of Stake. There will be a [sliding scale](../roadmap/serenity-phases/eth-2.0-economics.md#staking-rewards) between total amount of Ether at stake and annual interest earned by stakers. The current spec would produce the following annual interest and inflation numbers based on total network stake:
 
 ![](../.gitbook/assets/screen-shot-2018-12-10-at-6.55.04-pm.png)
 

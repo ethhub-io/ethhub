@@ -2,7 +2,7 @@
 
 ## Running a node
 
-Anyone is able to run an Ethereum node on their computer. 
+Anyone is able to run an Ethereum node on their computer. This means that you can participate in validating the blockchain.
 
 ## What is a light node?
 
