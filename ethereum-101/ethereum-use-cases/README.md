@@ -1,4 +1,4 @@
-# Ether Use Cases
+# Ether
 
 
 

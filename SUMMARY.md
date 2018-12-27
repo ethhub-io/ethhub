@@ -5,30 +5,32 @@
 ## Ethereum 101
 
 * [What is Ethereum?](ethereum-101/what-is-ethereum.md)
-* [Ether Use Cases](ethereum-101/ethereum-use-cases/README.md)
+* [History and Forks](ethereum-101/history.md)
+* [Monetary Policy](ethereum-101/monetary-policy/README.md)
+  * [Eth 2.0 Economics](ethereum-101/monetary-policy/eth-2.0-economics.md)
+* [Ether](ethereum-101/ethereum-use-cases/README.md)
   * [Network Usage](ethereum-101/ethereum-use-cases/network-usage.md)
   * [Ether as Money](ethereum-101/ethereum-use-cases/ether-as-money.md)
   * [Open Finance](ethereum-101/ethereum-use-cases/open-finance.md)
   * [Store of Value](ethereum-101/ethereum-use-cases/store-of-value.md)
   * [Confidential Identification](ethereum-101/ethereum-use-cases/confidential-identification.md)
   * [Proof of Location](ethereum-101/ethereum-use-cases/proof-of-location.md)
-* [Monetary Policy](ethereum-101/monetary-policy/README.md)
-  * [Eth 2.0 Economics](ethereum-101/monetary-policy/eth-2.0-economics.md)
-* [History and Forks](ethereum-101/history.md)
 * [Governance](ethereum-101/governance.md)
 
 ## Roadmap
 
-* [Timeline](roadmap/timeline/README.md)
-  * [Serenity Phases](roadmap/timeline/serenity-phases.md)
-* [Layer 1 Scaling](roadmap/layer-1-scaling/README.md)
-  * [Sharding](roadmap/layer-1-scaling/sharding.md)
+* [Constantinople](roadmap/timeline.md)
+* [Istanbul](roadmap/istanbul.md)
+* [Serenity \(Eth 2.0\)](roadmap/serenity-phases/README.md)
+  * [Proof of Stake](roadmap/serenity-phases/proof-of-stake.md)
+  * [Sharding](roadmap/serenity-phases/sharding.md)
 * [Layer 2 Scaling](roadmap/layer-2-scaling/README.md)
+  * [ZK-STARKs](roadmap/layer-2-scaling/zk-starks.md)
   * [Plasma](roadmap/layer-2-scaling/plasma.md)
   * [State Channels](roadmap/layer-2-scaling/state-channels.md)
   * [Payment Channels](roadmap/layer-2-scaling/payment-channels.md)
 * [Privacy](roadmap/privacy.md)
-* [Longer Term Items](roadmap/longer-term-items.md)
+* [Longer Term](roadmap/longer-term-items.md)
 
 ## Using Ethereum
 

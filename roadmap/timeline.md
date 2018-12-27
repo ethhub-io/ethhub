@@ -1,19 +1,4 @@
-# Timeline
-
-### Schedule
-
-Starting with the Constantinople hard fork, Ethereum will be targeting a hard fork schedule of every 8 months. That puts the current schedule as follows: 
-
-| Fork | Date |
-| :--- | :--- |
-| Constantinopole | ~12/1/2018 |
-| Istanbul | ~7/1/2019 |
-| Early 2020 Hard Fork | ~3/1/2020 |
-| Late 2020 Hard Fork | ~11/1/2020 |
-
-_Previous hard fork information can be found_ [_here_](../../ethereum-101/history.md#hard-fork-history)_._
-
-### Constantinople Fork
+# Constantinople
 
 The Constantinople fork consists of 5 EIPS:
 
@@ -24,8 +9,4 @@ The Constantinople fork consists of 5 EIPS:
 * [EIP 1283: Net gas metering for SSTORE without dirty maps \(replaces 1087\)](https://eips.ethereum.org/EIPS/eip-1283)
 
 Progress can be tracked here: [https://github.com/ethereum/pm/issues/53\#issue-345905457](https://github.com/ethereum/pm/issues/53#issue-345905457)
-
-### Istanbul
-
-This fork...
 
