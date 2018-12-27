@@ -4,14 +4,14 @@
 
 ## Ethereum 101
 
-* [What is Ethereum?](ethereum-101/what-is-ethereum.md)
+* [What is Ethereum?](ethereum-101/what-is-ethereum/README.md)
+  * [Ether](ethereum-101/what-is-ethereum/ethereum-use-cases/README.md)
+    * [Network Usage](ethereum-101/what-is-ethereum/ethereum-use-cases/network-usage.md)
+    * [Store of Value](ethereum-101/what-is-ethereum/ethereum-use-cases/store-of-value.md)
+    * [Medium of Exchange](ethereum-101/what-is-ethereum/ethereum-use-cases/ether-as-money.md)
+    * [Unit of Account](ethereum-101/what-is-ethereum/ethereum-use-cases/open-finance.md)
 * [History and Forks](ethereum-101/history.md)
 * [Monetary Policy](ethereum-101/monetary-policy.md)
-* [Ether](ethereum-101/ethereum-use-cases/README.md)
-  * [Network Usage](ethereum-101/ethereum-use-cases/network-usage.md)
-  * [Store of Value](ethereum-101/ethereum-use-cases/store-of-value.md)
-  * [Medium of Exchange](ethereum-101/ethereum-use-cases/ether-as-money.md)
-  * [Unit of Account](ethereum-101/ethereum-use-cases/open-finance.md)
 * [Governance](ethereum-101/governance.md)
 
 ## Roadmap
