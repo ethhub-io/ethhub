@@ -2,12 +2,12 @@
 
 ## Genesis Block
 
-As part of the Ethereum genesis block, initial contributors to Ethereum sale were allocated 60,000,000 Ether. Another 12,000,000 Ether was given to the development fund which was distributed among early contributors and the [Ethereum Foundation]().
+As part of the Ethereum genesis block, initial contributors to Ethereum sale were allocated 60,000,000 Ether. Another 12,000,000 Ether was given to the development fund which was distributed among early contributors and the Ethereum Foundation
 
 ## Historical Issuance Impacts
 
 **Block Reward Reductions**  
-Every block produced on the Ethereum network has an associated block reward which incentivizes miners to support the network. On top of the base block reward, miners that find an [uncle block]() receive ~75% of the current block reward. This results in a growing supply of Ether across time. The history of the block reward are as follows:
+Every block produced on the Ethereum network has an associated block reward which incentivizes miners to support the network. On top of the base block reward, miners that find an [uncle blocks](../using-ethereum/ethereum-network-basics/mining/uncle-blocks.md) receive ~75% of the current block reward. This results in a growing supply of Ether across time. The history of the block reward are as follows:
 
 * Block 0 to Block 4,369,999 : 5 Ether
 * Block 4,370,000 to current: 3 Ether \(changed via [EIP-649](https://github.com/ethereum/EIPs/blob/master/EIPS/eip-649.md)\)
@@ -31,7 +31,7 @@ According to the current [Eth 2.0 spec](https://notes.ethereum.org/s/Syj3QZSxm),
 
 There are three majors upcoming factors when it comes to Ethereum's issuance rate and supply curve. They are:
 
-* Constantinopole Hard Fork: block rewards drop from 3 to 2.
+* Constantinople Hard Fork: block rewards drop from 3 to 2.
 * [Serenity Phase 0](https://github.com/ethhub-io/ethhub/blob/master/roadmap/timeline/serenity-phases.md): Slight bump in issuance due to Beacon Chain launch.
 * [Serenity Phase 2](https://github.com/ethhub-io/ethhub/blob/master/roadmap/timeline/serenity-phases.md): Strong drop in issuance due to the PoW chain fading away.
 
