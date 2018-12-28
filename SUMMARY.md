@@ -9,7 +9,6 @@
   * [Network Usage](ethereum-basics/ethereum-use-cases/network-usage.md)
   * [Store of Value](ethereum-basics/ethereum-use-cases/store-of-value.md)
   * [Medium of Exchange](ethereum-basics/ethereum-use-cases/ether-as-money.md)
-  * [Unit of Account](ethereum-basics/ethereum-use-cases/unit-of-account.md)
 * [History and Forks](ethereum-basics/history.md)
 * [Monetary Policy](ethereum-basics/monetary-policy.md)
 * [Governance](ethereum-basics/governance.md)
