@@ -23,7 +23,8 @@ In BFT-style proof of stake, validators are randomly assigned the right to propo
 
 * Ability to use economic penalties to make various forms of 51% attacks vastly more expensive to carry out than proof of work - to paraphrase Vlad Zamfir, "it's as though your ASIC farm burned down if you participated in a 51% attack".
 
-What would the equivalent of a 51% attack against Casper look like?
+## What would the equivalent of a 51% attack against Casper look like?
+
 There are four basic types of 51% attack:
 
 * Finality reversion: validators that already finalized block A then finalize some competing block A', thereby breaking the blockchain's finality guarantee.
@@ -38,6 +39,4 @@ In the first case, users can socially coordinate out-of-band to agree which fina
 
 The fourth is most difficult. The fourth can be recovered from via a "minority soft fork", where a minority of honest validators agree the majority is censoring them, and stop building on their chain. Instead, they continue their own chain, and eventually the "leak" mechanism described above ensures that this honest minority becomes a 2/3 supermajority on the new chain. At that point, the market is expected to favor the chain controlled by honest nodes over the chain controlled by dishonest nodes.
 
-
-## Resources: https://github.com/ethereum/wiki/wiki/Proof-of-Stake-FAQs
-
+#### Resources: https://github.com/ethereum/wiki/wiki/Proof-of-Stake-FAQs
