@@ -6,5 +6,5 @@ Every transaction that occurs on the Ethereum network requires computational res
 
 ## Explanation
 
-Many blockchains that boast that they are "free" are simply obfuscating the real cost of the transactions on its network. A "free" blockchain may not charge the user for the transaction fees directly via gas but they do usually require users to pay fees in a variety of indirect ways such as smart contract owners paying the fees and passing them onto the user through the function of the contract, requiring users or DApp owners to lock funds for bandwidth, and/or paying through inflation by overpaying a set of block producers.
+While some blockchains boast that they are "free" they are simply obfuscating the real cost of the transactions on the network. A "free" blockchain may not charge the user for the transaction fees directly via gas but they do usually require users to pay fees in a variety of indirect ways. Examples of this would include smart contract owners paying the fees and passing them onto the user through the function of the contract, requiring users or dapp owners to lock funds for bandwidth or through inflation by paying a set of block producers.
 
