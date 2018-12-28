@@ -6,7 +6,7 @@ Decentralized Exchanges allow for the trading of crypto assets without the need 
 * [On-chain peer-to-peer](on-chain-peer-to-peer/)
 * [Off-chain peer-to-peer](off-chain-peer-to-peer/)
 * [On-chain order book & settlement](on-chain-orderbook-on-chain-settlement/)
-* [Plasma-chain order book](plasma-chain-orderbook/)
+* [Plasma-chain order book]()
 
 
 
