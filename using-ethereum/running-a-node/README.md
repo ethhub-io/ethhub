@@ -33,7 +33,7 @@ The parity default settings are the best for full nodes.
 
 ### Geth
 
-Client / Mode \| Block Number \| Disk Space \| CLI flags \| ==================================\|================\|=============\|====================================\| geth light \| 5\_600\_000 \| 1G \| --syncmode "light" \| geth fast \| 5\_600\_000 \| 120G \| \| geth archive full \| 5\_600\_000 \| 1.1T \| --gcmode=archive --syncmode "full" \|
+![](../../.gitbook/assets/geth-modes.png)
 
 ## Node Benchmarks
 
