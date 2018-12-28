@@ -50,12 +50,12 @@
   * [Mobile](using-ethereum/wallets/mobile.md)
   * [Web](using-ethereum/wallets/web.md)
 * [Test Networks](using-ethereum/networks/README.md)
-  * [Görli](using-ethereum/networks/goerli.md)
+  * [Ropsten](using-ethereum/networks/ropsten.md)
   * [Kovan](using-ethereum/networks/kovan.md)
+  * [Rinkeby](using-ethereum/networks/rinkeby.md)
+  * [Görli](using-ethereum/networks/goerli.md)
   * [Morden](using-ethereum/networks/morden.md)
   * [Olympic](using-ethereum/networks/olympic.md)
-  * [Rinkeby](using-ethereum/networks/rinkeby.md)
-  * [Ropsten](using-ethereum/networks/ropsten.md)
 
 ## Common Questions
 
