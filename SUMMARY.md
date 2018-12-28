@@ -59,7 +59,7 @@
 
 ## Common Questions
 
-* [Is Ethereum most expensive to use as price rises?](common-questions/centralization-myth.md)
+* [Is Ethereum more expensive to use as price rises?](common-questions/centralization-myth.md)
 * [Why do you have to pay to use Ethereum?](common-questions/if-ethereum-is-not-free-to-use-how-will-it-ever-compete-with-blockchains-that-provide-free-trans.md)
 * [How is Ethereum different than Bitcoin?](common-questions/how-is-ethereum-different-than-bitcoin.md)
 * [Are smart contracts secure?](common-questions/are-smart-contracts-secure.md)
