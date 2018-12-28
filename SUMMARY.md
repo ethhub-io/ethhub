@@ -26,8 +26,8 @@
 * [Layer 2 Scaling](roadmap/layer-2-scaling/README.md)
   * [Plasma](roadmap/layer-2-scaling/plasma.md)
   * [State Channels](roadmap/layer-2-scaling/state-channels.md)
-  * [ZK-STARKs](roadmap/layer-2-scaling/zk-starks.md)
   * [Payment Channels](roadmap/layer-2-scaling/payment-channels.md)
+  * [ZK-STARKs](roadmap/layer-2-scaling/zk-starks.md)
 * [Privacy](roadmap/privacy.md)
 
 ## Using Ethereum
