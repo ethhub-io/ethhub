@@ -2,7 +2,7 @@
 
 ## Answer  <a id="answer"></a>
 
-The simple answer is no. The longer answer is, it's complicated.
+No, the Ethereum fee market is independent of fiat prices.
 
 ## Explanation  <a id="explanation"></a>
 
