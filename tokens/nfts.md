@@ -14,7 +14,7 @@ These are obviously fungible, if I have a dollar and you have a dollar, we can t
 
 ### Movie tickets
 
-NFTs are the digital manifestation of items like movie tickets, in that they can contain information in addition to just the owner, lending them all sorts of uses and unforeseen value.
+NFTs are the digital manifestation of items like movie tickets, in that they can contain information in addition to just the owner, lending them all sorts of uses and unforeseen value. Put simply: you could have a movie ticket for Star Wars whereas I could have a movie ticket for Avengers. These tickets are not equal in properties or value which makes them non-fungible.
 
 ## ERC721
 
