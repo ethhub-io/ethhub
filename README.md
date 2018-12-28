@@ -8,9 +8,5 @@ The goal of EthHub is to provide a single source for essential Ethereum informat
 
 The Learn section, where you are now, is the core of EthHub. This documentation is open source and hosted on GitHub which means that anyone has the ability to contribute. The goal is to make sure the information is available, clear, concise, and up to date.
 
-## References
 
-* [Website](https://ethhub.io)
-* [Twitter](https://twitter.com/ethhub_io)
-* [Instagram](https://instagram.com/ethhub_io)
 
