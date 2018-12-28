@@ -12,67 +12,83 @@ All of the following examples are based on [this block](https://etherscan.io/blo
 
 #### Height:
 This number current number of blocks that exist in the Ethereum blockchain 
-Example: 6969122
+
+*Example: 6969122*
 
 #### TimeStamp:
 The UNIX timestamp for when the block was collated
-Example: 29 secs ago (Dec-28-2018 05:01:54 PM +UTC)
+
+*Example: 29 secs ago (Dec-28-2018 05:01:54 PM +UTC)*
 
 #### Transactions:
 The transactions included in the block
-Example: 43 transactions and 91 contract Internal Transactions in this Block
+
+*Example: 43 transactions and 91 contract Internal Transactions in this Block*
 
 #### Hash:
 The hash of the block itself
-Example: 0xa6312ebbcea717972344bc598c415cb08e434c01b94d1c2a9b5415624d2c2b81
+
+*Example: 0xa6312ebbcea717972344bc598c415cb08e434c01b94d1c2a9b5415624d2c2b81*
 
 #### Parent Hash:
 The hash of the block from which this block was generated, also known as its parent block.
-Example: 0xa48e2ad13de011f127b345a81a91933d221f5a60d45852e7d7c2b5a07fda9fe2
+
+*Example: 0xa48e2ad13de011f127b345a81a91933d221f5a60d45852e7d7c2b5a07fda9fe2*
 
 #### Sha3Uncles:
 A SHA3 hash of the uncle block data included the block
-Example: 0x1dcc4de8dec75d7aab85b567b6ccd41ad312451b948a7413f0a142fd40d49347
+
+*Example: 0x1dcc4de8dec75d7aab85b567b6ccd41ad312451b948a7413f0a142fd40d49347*
 
 #### Mined By:
 The address of who mined the block and received the block reward
-Example: 0x5a0b54d5dc17e0aadc383d2db43b0a0d3e029c4c (SparkPool) in 2 secs
+
+*Example: 0x5a0b54d5dc17e0aadc383d2db43b0a0d3e029c4c (SparkPool) in 2 secs*
 
 #### Difficulty:
 A number that represents the difficulty required to mine this block
-Example: 2,511,265,102,818,605
+
+*Example: 2,511,265,102,818,605*
 
 #### Total Difficulty:
 A number that represents the total mining difficulty of the chain up until this block
-Example: 8,470,035,190,867,378,349,872
+
+*Example: 8,470,035,190,867,378,349,872*
 
 #### Size:
 The size of the block file in bytes
-Example: 13160 bytes
+
+*Example: 13160 bytes*
 
 #### Gas Used:
 The total amount of gas used by all the transactions included in this block
-Example: 7,997,769 (99.97%)
+
+*Example: 7,997,769 (99.97%)*
 
 #### Gas Limit:
 The total limit of the amount of gas that could have been used by all transactions included in this block
-Example: 8,000,029
+
+*Example: 8,000,029*
 
 #### Nonce:
 A hash of the generated proof-of-work. This value will be null when a block is pending
-Example: 0x1510f53c063f9669
+
+*Example: 0x1510f53c063f9669*
 
 #### Block Reward:
 The total amount of Ether (ETH) given to the address which mined this block. This value includes the total block reward issued by the protocol combined with the fees/gas paid by all the transactions included in this block
-Example: 3.032755182184797136 Ether (3 + 0.032755182184797136)
+
+*Example: 3.032755182184797136 Ether (3 + 0.032755182184797136)*
 
 #### Uncles Reward:
 The total amount of Ether (ETH) awarded to the uncle blocks included in this block
-Example: 0
+
+*Example: 0*
 
 #### Extra Data:
 This is an optional 32-byte value that can be used for storing information on the blockchain. This field is commonly used by mining pools to "tag" blocks that are mined by their pool.
-Example: sparkpool-eth-cn-hz2 (Hex:0x737061726b706f6f6c2d6574682d636e2d687a32)
+
+*Example: sparkpool-eth-cn-hz2 (Hex:0x737061726b706f6f6c2d6574682d636e2d687a32)*
 
 ## Important Links
 * https://github.com/ethereum/wiki/wiki/Design-Rationale
