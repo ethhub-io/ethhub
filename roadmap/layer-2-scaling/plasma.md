@@ -34,4 +34,8 @@ Once the child-chain is active, the block producers periodically commit a valida
 The main concern related to the current Plasma proposal is what would happen if everyone using a child-chain tried to exit the sidechain at the same time. In the case of a mass withdrawal, there might not be enough capacity on the Ethereum main-chain to process everyone’s transactions within the challenge period, meaning users could lose funds. Fortunately, there are many possible techniques for preventing this, e.g. by extending the challenge period in a way that is responsive to demand for withdrawals.
 
 #### Resources: 
-* https://medium.com/@argongroup/ethereum-plasma-explained-608720d3c60e
+* [Ethereum Plasma Explained] (https://medium.com/@argongroup/ethereum-plasma-explained-608720d3c60e)
+* [Construction of a Plasma Chain] (https://blog.omisego.network/construction-of-a-plasma-chain-0x1-614f6ebd1612)
+* [Plasma Design Comparison] (https://docs.google.com/spreadsheets/d/1Hs1-ddKwLG8xrqIXFrYUJzTEH2SjsATFXhgISG1ypzI/edit#gid=0)
+* [An Introduction to Application-Specific Sidechains] (https://medium.com/loom-network/million-user-dapps-on-ethereum-an-introduction-to-application-specific-sidechains-c0fdc288c5e5)
+* [Scaling Ethereum with Plasma: Georgios Konstantopoulos of Loom (Podcast)] (https://podcast.ethhub.io/scaling-ethereum-with-plasma-georgios-konstantopoulos-of-loom)
