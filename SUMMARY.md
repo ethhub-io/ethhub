@@ -32,6 +32,13 @@
 
 ## Using Ethereum
 
+* [Ethereum Network Basics](using-ethereum/ethereum-network-basics/README.md)
+  * [Transactions](using-ethereum/ethereum-network-basics/transactions/README.md)
+    * [Gas](using-ethereum/ethereum-network-basics/transactions/gas.md)
+    * [Fee Market](using-ethereum/ethereum-network-basics/transactions/fee-market.md)
+  * [Mining](using-ethereum/ethereum-network-basics/mining/README.md)
+    * [Block Generation](using-ethereum/ethereum-network-basics/mining/block-generation.md)
+    * [Uncle Blocks](using-ethereum/ethereum-network-basics/mining/uncle-blocks.md)
 * [Running a Node](using-ethereum/running-a-node/README.md)
   * [Geth](using-ethereum/running-a-node/geth.md)
   * [Parity](using-ethereum/running-a-node/parity.md)
@@ -42,7 +49,7 @@
   * [Hardware](using-ethereum/wallets/hardware.md)
   * [Mobile](using-ethereum/wallets/mobile.md)
   * [Web](using-ethereum/wallets/web.md)
-* [Networks](using-ethereum/networks/README.md)
+* [Test Networks](using-ethereum/networks/README.md)
   * [Görli](using-ethereum/networks/goerli.md)
   * [Kovan](using-ethereum/networks/kovan.md)
   * [Morden](using-ethereum/networks/morden.md)
@@ -52,15 +59,15 @@
 
 ## Common Questions
 
-* [Is Ethereum most expensive to use as price rises?](ethereum-questions/centralization-myth.md)
-* [Why do you have to pay to use Ethereum?](ethereum-questions/if-ethereum-is-not-free-to-use-how-will-it-ever-compete-with-blockchains-that-provide-free-trans.md)
-* [How is Ethereum different than Bitcoin?](ethereum-questions/how-is-ethereum-different-than-bitcoin.md)
-* [Are smart contracts secure?](ethereum-questions/are-smart-contracts-secure.md)
-* [Is Ethereum centralized?](ethereum-questions/is-ethereum-centralized.md)
-* [Is Ethereum a security?](ethereum-questions/is-ethereum-a-security.md)
-* [Is Ethereum immutable?](ethereum-questions/is-ethereum-immutable.md)
-* [Is Ether needed for transaction fees?](ethereum-questions/tx-fees-could-be-paid-in-x-instead-of-eth.md)
-* [Why doesn't Ethereum use dPoS?](ethereum-questions/why-doesnt-ethereum-use-dpos.md)
+* [Is Ethereum most expensive to use as price rises?](common-questions/centralization-myth.md)
+* [Why do you have to pay to use Ethereum?](common-questions/if-ethereum-is-not-free-to-use-how-will-it-ever-compete-with-blockchains-that-provide-free-trans.md)
+* [How is Ethereum different than Bitcoin?](common-questions/how-is-ethereum-different-than-bitcoin.md)
+* [Are smart contracts secure?](common-questions/are-smart-contracts-secure.md)
+* [Is Ethereum centralized?](common-questions/is-ethereum-centralized.md)
+* [Is Ethereum a security?](common-questions/is-ethereum-a-security.md)
+* [Is Ethereum immutable?](common-questions/is-ethereum-immutable.md)
+* [Is Ether needed for transaction fees?](common-questions/tx-fees-could-be-paid-in-x-instead-of-eth.md)
+* [Why doesn't Ethereum use dPoS?](common-questions/why-doesnt-ethereum-use-dpos.md)
 
 ## Built on Ethereum
 
@@ -161,13 +168,6 @@
 ## Glossary
 
 * [Crypto Acronyms](glossary/crypto-acronyms.md)
-* [Key Ethereum Concepts](glossary/key-concepts/README.md)
-  * [Ethereum Foundation](glossary/key-concepts/ethereum-foundation.md)
-  * [Fee Market](glossary/key-concepts/fee-market.md)
-  * [Gas](glossary/key-concepts/gas.md)
-  * [Smart Contracts](glossary/key-concepts/smart-contracts.md)
-  * [Solidity](glossary/key-concepts/solidity.md)
-  * [Uncle Block](glossary/key-concepts/uncle-block.md)
 
 ## Other
 

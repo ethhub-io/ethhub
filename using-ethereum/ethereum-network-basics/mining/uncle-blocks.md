@@ -1,4 +1,4 @@
-# Uncle Block
+# Uncle Blocks
 
 Uncle blocks are stale blocks that are included in the calculation of which chain is the "longest"; that is to say, not just the parent and further ancestors of a block, but also the stale descendants of the block's ancestor \(in Ethereum jargon, "uncles"\) are added to the calculation of which block has the largest total proof of work backing it. Block rewards are given to stales: a stale block receives 87.5% of its base reward, and the nephew that includes the stale block receives the remaining 12.5%. Transaction fees, however, are not awarded to uncles.
 
