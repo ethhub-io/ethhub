@@ -7,7 +7,7 @@ A block consists a header, which includes information identifying the block and 
 ## Block times
 The Ethereum network is designed to produce a block every 12 seconds. Block times will vary based upon how long it takes miners to generate a hash that meets the required mining difficulty at that moment. 12 seconds was chosen as a time that is as fast as possible, but is at the same time substantially longer than network latency. A 2013 paper by Decker and Wattenhofer in Zurich measured Bitcoin network latency and determined that 12.6 seconds is the time it takes for a new block to propagate to 95% of nodes. The goal of the 12 second design is to allow the network to propagate blocks as fast as possible without causing miners to find a significant number of stale blocks.
 
-### Etherscan example explained
+## Etherscan example explained
 All of the following examples are based on [this block](https://etherscan.io/block/6969122).
 
 #### Height:
