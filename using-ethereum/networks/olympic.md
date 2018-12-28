@@ -1,6 +1,0 @@
-# Olympic
-
-## About
-
-## Important Links
-

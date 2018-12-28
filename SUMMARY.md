@@ -54,8 +54,6 @@
   * [Kovan](using-ethereum/networks/kovan.md)
   * [Rinkeby](using-ethereum/networks/rinkeby.md)
   * [Görli](using-ethereum/networks/goerli.md)
-  * [Morden](using-ethereum/networks/morden.md)
-  * [Olympic](using-ethereum/networks/olympic.md)
 
 ## Common Questions
 

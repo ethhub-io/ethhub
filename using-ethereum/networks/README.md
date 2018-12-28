@@ -5,7 +5,5 @@ Ethereum has many test networks where developers can deploy their dapps or the n
 * [Ropsten](ropsten.md) - Proof of Work
 * [Kovan](kovan.md) - Proof of Authority
 * [Rinkeby](rinkeby.md) - Proof of Authority
-* [Görli](goerli.md)
-* [Morden](morden.md)
-* [Olympic](olympic.md)
+* [Görli](goerli.md) - Proof of Authority
 
