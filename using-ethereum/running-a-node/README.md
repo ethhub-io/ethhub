@@ -46,3 +46,4 @@ The parity default settings are the best for full nodes.
 
 * For a full node, Parity takes around 6 to 12 hours for a complete sync without warp mode
 * For a full node, Geth takes around 6 to 12 hours for a complete sync in fast mode
+

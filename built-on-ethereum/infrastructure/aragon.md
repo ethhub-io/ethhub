@@ -11,4 +11,6 @@ The Aragon Network will be the first community governed decentralized organizati
 The Aragon Network Token, ANT, puts the power into the hands of the people participating in the operation of the Network. Every single aspect of the Network will be governed by those willing to make an effort for a better future.
 
 ## Resources:
+
 [https://aragon.org](https://aragon.org)
+

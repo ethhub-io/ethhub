@@ -5,5 +5,7 @@ Pantheon is an open-source Ethereum client developed under the Apache 2.0 licens
 You can use Pantheon to develop enterprise applications requiring secure, high-performance transaction processing in a private network.
 
 ## Resources:
+
 * [https://github.com/PegaSysEng/pantheon](https://github.com/PegaSysEng/pantheon)
 * [https://docs.pantheon.pegasys.tech](https://docs.pantheon.pegasys.tech)
+

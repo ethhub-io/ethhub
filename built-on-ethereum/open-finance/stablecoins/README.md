@@ -6,15 +6,16 @@ A useful currency should be a medium of exchange, a unit of account, and a store
 
 This is where stablecoins come in. Stablecoins are price-stable cryptocurrencies, meaning the market price of a stablecoin is pegged to another stable asset, like the US dollar.
 
-All stablecoins imply a peg. Stablecoins generally peg to the US dollar (so each stablecoin trades at $1), but they sometimes peg to other major currencies or to the consumer price index.
+All stablecoins imply a peg. Stablecoins generally peg to the US dollar \(so each stablecoin trades at $1\), but they sometimes peg to other major currencies or to the consumer price index.
 
 ## Types of Stablecoins
 
 ### Fiat-backed
 
-Fiat-backed stablecoins are pegged to the denomination 
+Fiat-backed stablecoins are pegged to the denomination
 
 Notable fiat-backed stablecoins:
+
 * Gemini Dollar
 * USD Coin
 * Tether
@@ -24,10 +25,13 @@ Notable fiat-backed stablecoins:
 ### Collateral-backed
 
 Notable collateral-backed stablecoins:
+
 * Dai
 * Havven
 
 ### Algorithmic
 
 Notable algorithmic stablecoins:
+
 * Basis
+

@@ -15,4 +15,6 @@ The true strength of Raiden lies in its network protocol. Since opening and clos
 In addition, payment channel transfers, in contrast to on-chain transactions, do not require any fees. Intermediaries within the greater network, however, will want to charge fees on a low percentage basis for providing their own channels to the network, leading to complex routing and a competitive channel fee market. The Raiden protocol aims to facilitate this market by using both protocol-level features and optional auxiliary services.
 
 ## Resources:
+
 * [https://raiden.network/101.html](https://raiden.network/101.html)
+

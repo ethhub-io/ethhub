@@ -4,7 +4,7 @@ Expo is built on the dYdX Protocol, and is the easiest way to buy and sell dYdX 
 
 ## How expo works
 
-Expo integrates with the dYdX Margin Trading Protocol, and allows users to buy, sell, and manage Margin Tokens. The mechanics of the protocol (obtaining a loan, spot trading) are abstracted away from the trader, significantly simplifying the margin trading experience.
+Expo integrates with the dYdX Margin Trading Protocol, and allows users to buy, sell, and manage Margin Tokens. The mechanics of the protocol \(obtaining a loan, spot trading\) are abstracted away from the trader, significantly simplifying the margin trading experience.
 
 Expo automatically:
 
@@ -15,5 +15,6 @@ Expo automatically:
 * All users need to do is decide how much to buy.
 
 ## Resources:
-[https://www.expotrading.com/](https://www.expotrading.com/)
-[https://medium.com/dydxderivatives/introducing-expo-ffe74a328f85](https://medium.com/dydxderivatives/introducing-expo-ffe74a328f85)
+
+[https://www.expotrading.com/](https://www.expotrading.com/) [https://medium.com/dydxderivatives/introducing-expo-ffe74a328f85](https://medium.com/dydxderivatives/introducing-expo-ffe74a328f85)
+
