@@ -26,7 +26,7 @@ Cryptocurrencies backed by currency (fiat) are the most common and were the firs
 * USD Coin
 * Tether
 * TrueUSD
-* Paxos
+* Paxos Standard
 
 ### Collateralized (crypto-backed)
 
@@ -36,8 +36,9 @@ For example, MakerDAO's DAI stablecoin is generated when someone opens a collate
 
 #### Notable collateral-backed stablecoins:
 
-* Dai
-* Havven
+* MakerDAO - DAI
+* Bitshares - BitUSD
+* Havven - NUSD
 
 ### Seigniorage (algorithmic)
 
@@ -45,7 +46,8 @@ Seigniorage (or algorithmic) stablecoins can be linked to a decentralized autono
 
 #### Notable algorithmic stablecoins:
 
-* Basis
+* Basis (project was cancelled)
+* Fragments
 
 ### Tethered (sub-type of algorithmic)
 
