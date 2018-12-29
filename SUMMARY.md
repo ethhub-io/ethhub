@@ -99,6 +99,15 @@
   * [Digix](built-on-ethereum/open-finance/digix.md)
   * [Set Protocol](built-on-ethereum/open-finance/set-protocol.md)
   * [Settle](built-on-ethereum/open-finance/settle.md)
+* [ERC Token Standards](built-on-ethereum/erc-token-standards/README.md)
+  * [ERC20](built-on-ethereum/erc-token-standards/erc20.md)
+  * [ERC621](built-on-ethereum/erc-token-standards/erc621.md)
+  * [ERC721](built-on-ethereum/erc-token-standards/erc721.md)
+  * [ERC721x](built-on-ethereum/erc-token-standards/erc721x.md)
+  * [ERC777](built-on-ethereum/erc-token-standards/erc777.md)
+  * [ERC884](built-on-ethereum/erc-token-standards/erc884.md)
+  * [ERC1155](built-on-ethereum/erc-token-standards/erc1155.md)
+  * [ERC1257](built-on-ethereum/erc-token-standards/erc1275.md)
 * [Decentralized Exchanges](built-on-ethereum/decentralized-exchanges/README.md)
   * [On-Chain Orderbook, On-Chain Settlement](built-on-ethereum/decentralized-exchanges/on-chain-orderbook-on-chain-settlement/README.md)
     * [EtherDelta](built-on-ethereum/decentralized-exchanges/on-chain-orderbook-on-chain-settlement/etherdelta.md)
@@ -158,21 +167,8 @@
   * [0xcert](built-on-ethereum/infrastructure/0xcert.md)
   * [POA Network](built-on-ethereum/infrastructure/poa-network.md)
   * [Streamr](built-on-ethereum/infrastructure/streamr.md)
-
-## Tokens
-
-* [ERC Token Standards](tokens/erc-token-standards/README.md)
-  * [ERC20](tokens/erc-token-standards/erc20.md)
-  * [ERC621](tokens/erc-token-standards/erc621.md)
-  * [ERC721](tokens/erc-token-standards/erc721.md)
-  * [ERC721x](tokens/erc-token-standards/erc721x.md)
-  * [ERC777](tokens/erc-token-standards/erc777.md)
-  * [ERC884](tokens/erc-token-standards/erc884.md)
-  * [ERC1155](tokens/erc-token-standards/erc1155.md)
-  * [ERC1257](tokens/erc-token-standards/erc1275.md)
-* [Non-fungible Tokens \(NFTs\)](tokens/nfts.md)
-* [Token Curated Registries \(TCRs\)](tokens/tcrs/README.md)
-  * [Types of TCRs](tokens/tcrs/types-of-tcrs.md)
+* [Token Curated Registries \(TCRs\)](built-on-ethereum/tcrs/README.md)
+  * [Types of TCRs](built-on-ethereum/tcrs/types-of-tcrs.md)
 
 ## Glossary
 
