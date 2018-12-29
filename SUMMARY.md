@@ -5,11 +5,11 @@
 ## Ethereum Basics
 
 * [What is Ethereum?](ethereum-basics/what-is-ethereum.md)
-* [What is Ether?](ethereum-basics/ethereum-use-cases/README.md)
-  * [Network Usage](ethereum-basics/ethereum-use-cases/network-usage.md)
-  * [Store of Value](ethereum-basics/ethereum-use-cases/store-of-value.md)
-  * [Medium of Exchange](ethereum-basics/ethereum-use-cases/ether-as-money.md)
-* [History and Forks](ethereum-basics/history.md)
+* [What is Ether?](ethereum-basics/what-is-ether/README.md)
+  * [Network Usage](ethereum-basics/what-is-ether/network-usage.md)
+  * [Store of Value](ethereum-basics/what-is-ether/store-of-value.md)
+  * [Medium of Exchange](ethereum-basics/what-is-ether/medium-of-exchange.md)
+* [History and Forks](ethereum-basics/history-and-forks.md)
 * [Monetary Policy](ethereum-basics/monetary-policy.md)
 * [Governance](ethereum-basics/governance.md)
 
