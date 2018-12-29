@@ -21,6 +21,7 @@ Multi-Collateral Dai is the next and full version of the Dai Stablecoin System. 
 ## Important Links
 
 * Website: [https://makerdao.com](https://makerdao.com)
+* CDP Inteface: [https://cdp.makerdao.com/](https://cdp.makerdao.com/)
 * Dai Stablecoin Interface: [https://dai.makerdao.com](https://dai.makerdao.com)
 * Reddit: [https://www.reddit.com/r/MakerDAO/](https://www.reddit.com/r/MakerDAO/)
 * Twitter: [https://twitter.com/MakerDAO](https://twitter.com/MakerDAO)
@@ -29,4 +30,3 @@ Multi-Collateral Dai is the next and full version of the Dai Stablecoin System. 
 ## Podcasts
 
 * Epicenter: [https://epicenter.tv/episode/124/](https://epicenter.tv/episode/124/)
-
