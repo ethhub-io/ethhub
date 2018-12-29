@@ -2,7 +2,7 @@
 
 ## What is Plasma?
 
-Plasma is a layer 2 scaling solution that was originally proposed by Vitalik Buterin and Joseph Poon in the original paper ['Plasma: Scalable Autonomous Smart Contracts'](https://plasma.io/plasma.pdf). Since then, many \[flavours\] \([https://ethresear.ch/t/plasma-world-map-the-hitchhiker-s-guide-to-the-plasma/4333](https://ethresear.ch/t/plasma-world-map-the-hitchhiker-s-guide-to-the-plasma/4333)\) of Plasma have been proposed that come with different sets of trade-offs.
+Plasma is a layer 2 scaling solution that was originally proposed by Vitalik Buterin and Joseph Poon in the original paper ['Plasma: Scalable Autonomous Smart Contracts'](https://plasma.io/plasma.pdf). Since then, many [flavours](https://ethresear.ch/t/plasma-world-map-the-hitchhiker-s-guide-to-the-plasma/4333) of Plasma have been proposed that come with different sets of trade-offs.
 
 Plasma is a technique for conducting off-chain \(layer 2\) operations while relying on the underlying Ethereum blockchain \(layer 1\) to ground its security. You may also see Plasma \(and similar constructs\) referred to as 'child chains'.
 
