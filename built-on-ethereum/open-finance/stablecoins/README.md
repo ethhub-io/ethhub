@@ -57,3 +57,5 @@ Tethered cryptocurrency assets are issued on-chain, by holders of the native cry
 
 ## Resources
 * [https://www.tokendaily.co/blog/a-taxonomy-of-stablecoins](https://www.tokendaily.co/blog/a-taxonomy-of-stablecoins)
+* [http://stablecoinindex.com](http://stablecoinindex.com)
+* [https://en.wikipedia.org/wiki/Stablecoin](https://en.wikipedia.org/wiki/Stablecoin)
