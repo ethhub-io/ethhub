@@ -1,9 +1,12 @@
-# Decentralized Identity (or self-sovereign identity)
+# Identity
 
-Decentralized Identity allows users, groups, objects, and machines to have full control over their Digitial identity, without a need for a trusted central third party. There are many types of identity types and solutions and it's important to understand the difference. 
+The Ethereum network hosts many DApps that are building identity systems. These DApps leverage the secure and decentralized nature of the Ethereum network often in collaboration with decentralized storage protocols such as IPFS or SWARM to enable empower and protect consumers' information. Citizens will be able to confidentionally reveal personal information such as Gov. ID, credit score, medical history, banking information, etc. to others in a way that also allows them to revoke future access to such information.
 
-* [ERC725 Ethereum Identity Standard](ERC725.md)
-* [uPort](uport.md)
-* [Civic](civic.md)
-* [SelfKey](selfkey.md)
-* [JoloCom](jolocom.md)
+## Potential use by Governments
+
+Similar to uPort's identity trials in Zug, Switzerland. We may see a day where soverign countries rely on the Ethereum mainnet to support their own private or public digital identification protocols.
+
+## zero-knowledge proofs
+
+A second layer protocol that utilizes zk-proofs and other privacy technology such as the Aztec Protocol may allow be necessary to build private transactions such as these on Ethereum.
+
