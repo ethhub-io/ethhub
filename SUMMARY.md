@@ -83,6 +83,7 @@
     * [Crypto-backed](built-on-ethereum/open-finance/stablecoins/crypto-backed/README.md)
       * [Dai](built-on-ethereum/open-finance/stablecoins/crypto-backed/dai.md)
     * [Algorithmic](built-on-ethereum/open-finance/stablecoins/algorithmic/README.md)
+      * [Basis](built-on-ethereum/open-finance/stablecoins/algorithmic-backed/basis.md)
   * [Lending](built-on-ethereum/open-finance/lending/README.md)
     * [bZx](built-on-ethereum/open-finance/lending/bzx.md)
     * [Compound](built-on-ethereum/open-finance/lending/compound.md)
