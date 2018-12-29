@@ -6,12 +6,12 @@ A cryptocurrency wallet stores the public and private keys which can be used to 
 
 There are many different types of cryptocurrency wallets, these include:
 
-* [Hardware wallets](../../using-ethereum/wallets/hardware.md)
+* [Hardware wallets](hardware.md)
       
 * Software wallets
-  * [Web](ethhub/using-ethereum/wallets/web.md)
-  * [Mobile](ethhub/using-ethereum/wallets/mobile.md)
-  * [Desktop](ethhub/using-ethereum/wallets/desktop.md)
+  * [Web](web.md)
+  * [Mobile](mobile.md)
+  * [Desktop](desktop.md)
 * Watch-only wallets
 * Multisignature wallets
 * Brain wallets
