@@ -1,4 +1,4 @@
-## Currency-backed
+## Currency-backed Stablecoins
 
 Cryptocurrencies backed by currency (fiat) are the most common and were the first type of stablecoins on the market. Their characteristics are:
 
