@@ -71,7 +71,7 @@
 * [Is Ethereum immutable?](questions-about-ethereum/is-ethereum-immutable.md)
 * [Is Ether needed for transaction fees?](questions-about-ethereum/is-ether-needed-for-transaction-fees.md)
 * [Why doesn't Ethereum use dPoS?](questions-about-ethereum/why-doesnt-ethereum-use-dpos.md)
-* [If Ethereum is open source why can't it be copied??](questions-about-ethereum/if-ethereum-is-open-source-why-cant-it-be-copied.md)
+* [If Ethereum is open source why can't it be copied?](questions-about-ethereum/if-ethereum-is-open-source-why-cant-it-be-copied.md)
 
 ## Built on Ethereum
 
