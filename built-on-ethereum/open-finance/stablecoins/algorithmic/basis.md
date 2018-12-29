@@ -1,6 +1,6 @@
 # Basis
 
-## Important note:
+## Important Note:
 
 The Basis team announced that the Basis stablecoin project was being shutdown on December 13th of 2018. More information can be found here: [https://medium.com/basis-blog/basis-update-ae96e3565b1d](https://medium.com/basis-blog/basis-update-ae96e3565b1d)
 
