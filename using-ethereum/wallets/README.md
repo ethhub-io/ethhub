@@ -8,7 +8,7 @@ There are many different types of cryptocurrency wallets, these include:
 
 * [Hardware wallets](ethhub/using-ethereum/wallets/hardware.md)
       
-* Software wallets (web, mobile and desktop)
+* Software wallets
   * [Web](ethhub/using-ethereum/wallets/web.md)
   * [Mobile](ethhub/using-ethereum/wallets/mobile.md)
   * [Desktop](ethhub/using-ethereum/wallets/desktop.md)
