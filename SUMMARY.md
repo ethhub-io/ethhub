@@ -94,7 +94,7 @@
       * [Paxos Standard](built-on-ethereum/open-finance/stablecoins/currency-backed/paxos.md)
     * [Crypto-backed](built-on-ethereum/open-finance/stablecoins/crypto-backed/README.md)
       * [Dai](built-on-ethereum/open-finance/stablecoins/crypto-backed/dai.md)
-      * [Havven](built-on-ethereum/open-finance/stablecoins/crypto-backed/havven.md)
+      * [Synthetix](built-on-ethereum/open-finance/stablecoins/crypto-backed/synthetix.md)
     * [Algorithmic](built-on-ethereum/open-finance/stablecoins/algorithmic/README.md)
       * [Basis](built-on-ethereum/open-finance/stablecoins/algorithmic-backed/basis.md)
   * [Lending](built-on-ethereum/open-finance/lending/README.md)
