@@ -2,7 +2,7 @@
 
 ## Background
 
-Co-founded by former Ethereum Foundation chief of security officer Jutta Steiner and Ethereum co-founder Gavin Wood, Parity Technologies is a blockchain infrastructure company responsible for maintaining the second most popular ethereum client on the platform today.
+Parity Technologies is a blockchain infrastructure company responsible for maintaining the second most popular Ethereum client, 'Parity Ethereum'.
 
 ## Implementation Details
 
