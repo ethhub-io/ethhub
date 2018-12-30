@@ -1,15 +1,14 @@
-# Sigma Prime
+# Status
 
 ## Background
 
-Founded in 2016, Sigma Prime is an information security and blockchain technology consulting company.
+Status is a company building various blockchain-based applications. Their most popular product is a messaging app called Status - an open source, Ethereum-based app that gives people the power to chat, transact, and access a revolutionary world of DApps from their mobile device.
 
 ## Implementation Details
 
-Sigma Prime is building an Ethereum 2.0 client called Lighthouse written in the programming language Rust.
+Status is building Nimbus - an Ethereum 2.0 client written in the programming language Nim. Nimbus is expected to be Ethereum's first mobile-native client.
 
 ## Resources:
-* [Website](https://sigmaprime.io/)
-* [Github](https://github.com/sigp/lighthouse)
-* [Twitter](https://twitter.com/sigp_io)
-* [Blog](https://blog.sigmaprime.io/)
+* [Website](https://nimbus.status.im/)
+* [Github](https://github.com/status-im/nimbus)
+* [Twitter](https://twitter.com/ethstatus)
