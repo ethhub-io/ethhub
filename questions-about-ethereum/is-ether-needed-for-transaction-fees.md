@@ -1,6 +1,6 @@
 # Is Ether needed for transaction fees?
 
-Yes. The notion that transaction fees on Ethereun can be paid in-protocol by something other than ether (an ERC20 token) is called 'economic abstraction'. Eric Conner explains why the Ethereum protocol is unlikely to integrate economic abstraction below.
+Yes. The notion that transaction fees on Ethereum can be paid in-protocol by something other than ether (such as an ERC20 token) is called 'economic abstraction'. We explain why the Ethereum protocol is unlikely to integrate economic abstraction below.
 
 Why is economic abstraction used to argue Ether will go to 0? The theory is that users could pay their transaction costs to miners in something other than Ether. Therefore, if that becomes rampant, Ether itself would have no value. This argument can be used against ANY PoW blockchain (yes, even Bitcoin).
 
