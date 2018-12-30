@@ -1,6 +1,6 @@
 # Teams Building Ethereum 2.0 (Serenity):
 
-There are currently 8 independent development teams building [Ethereum 2.0](../serenity-phases/README.md):
+There are currently 8 independent development teams building [Ethereum 2.0](/serenity-phases/README.md):
 
 1. [ChainSafe Systems](chainsafe.md)
 2. [PegaSys](pegasys.md)
