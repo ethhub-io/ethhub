@@ -107,6 +107,8 @@
     * [Abacus](built-on-ethereum/open-finance/securities/abacus.md)
     * [Harbor](built-on-ethereum/open-finance/securities/harbor.md)
     * [Polymath](built-on-ethereum/open-finance/securities/polymath.md)
+    * [Securitize](built-on-ethereum/open-finance/securities/securitize.md)
+    * [Templum](built-on-ethereum/open-finance/securities/templum.md)
   * [Insurance](built-on-ethereum/open-finance/insurance/README.md)
     * [Etherisc](built-on-ethereum/open-finance/insurance/etherisc.md)
   * [0x Protocol](built-on-ethereum/open-finance/0x-protocol.md)
