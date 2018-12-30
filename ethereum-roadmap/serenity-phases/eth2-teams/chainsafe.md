@@ -6,7 +6,7 @@ Based in Toronto, ChainSafe Systems is a blockchain research and development sta
 
 ## Implementation Details
 
-The team is currently building an Ethereum 2.0 client written in JavasScript called 'Lodestar'.
+The team is currently building an Ethereum 2.0 client written in JavasScript called Lodestar.
 
 ## Resources:
 * [Website](https://chainsafe.io/)
