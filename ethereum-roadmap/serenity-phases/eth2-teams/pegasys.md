@@ -7,7 +7,7 @@ focused on privacy, permissioning, scalability, and other features to make Ether
 
 ## Implementation Details
 
-The PegaSys team are building out an Ethereum 2.0 client in the Java programming language called Pantheon.
+The PegaSys team are building Pantheon - an enterprise-ready Ethereum 2.0 client written in the Java programming language.
 
 ## Resources:
 * [Website](https://pegasys.tech/)
