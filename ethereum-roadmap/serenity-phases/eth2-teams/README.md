@@ -1,4 +1,4 @@
-# Teams Building Ethereum 2.0
+# Teams Building Ethereum 2.0 (Serenity):
 
 There are currently 8 independent development teams building Ethereum 2.0:
 
