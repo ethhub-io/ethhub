@@ -8,5 +8,6 @@ Decentralized Exchanges allow for the trading of crypto assets without the need 
 * [On-chain order book & settlement](on-chain-orderbook-on-chain-settlement/)
 * [Plasma-chain order book]()
 
-
+## Resources:
+* [https://messari.io/resource/decentralized-exchanges](https://messari.io/resource/decentralized-exchanges)
 
