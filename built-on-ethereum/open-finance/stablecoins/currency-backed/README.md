@@ -10,8 +10,8 @@ Cryptocurrencies backed by currency (fiat) are the most common and were the firs
 
 #### Notable currency-backed stablecoins:
 
-* Gemini Dollar
-* USD Coin
-* Tether
-* TrueUSD
-* Paxos Standard
+* [Gemini Dollar](gusd.md)
+* [USD Coin](usdc.md)
+* [Tether](tether.md)
+* [TrueUSD](trueusd.md)
+* [Paxos Standard](paxos.md)
