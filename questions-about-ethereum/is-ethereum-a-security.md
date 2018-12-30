@@ -7,4 +7,5 @@
 ## Resources:
 
 * [William Hinman, Director of Corporation Finance of the SEC. June 14, 2018](https://www.sec.gov/news/speech/speech-hinman-061418)
+* [SEC Press Release](https://www.sec.gov/news/speech/speech-hinman-061418)
 
