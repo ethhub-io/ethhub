@@ -25,6 +25,7 @@
   * [Constantinople](ethereum-roadmap/planned-forks/timeline.md)
   * [Istanbul](ethereum-roadmap/planned-forks/istanbul.md)
 * [Serenity \(Eth 2.0\)](ethereum-roadmap/serenity-phases/README.md)
+  * [Teams Building Eth 2.0](ethereum-roadmap/serenity-phases/eth2-teams/README.md)
   * [Proof of Stake](ethereum-roadmap/serenity-phases/proof-of-stake.md)
   * [Sharding](ethereum-roadmap/serenity-phases/sharding.md)
   * [Eth 2.0 Economics](ethereum-roadmap/serenity-phases/eth-2.0-economics.md)
