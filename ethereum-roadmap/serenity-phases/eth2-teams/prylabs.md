@@ -2,13 +2,14 @@
 
 ## Background
 
-Co-founded by former Ethereum Foundation chief of security officer Jutta Steiner and Ethereum co-founder Gavin Wood, Parity Technologies is a blockchain infrastructure company responsible for maintaining the second most popular ethereum client on the platform today.
+Prysmatic Labs was founded in January of 2018 with the goal of helping the Ethereum blockchain reach scalability.
 
 ## Implementation Details
 
-Parity Technologies are developing 'Parity Ethereum' - an Ethereum 1.0 and 2.0 client written in the Rust programming language and built for mission-critical use.
+Prysmatic Labs are developing an Prysm - an Ethereum 2.0 client written in the programming language Go. The Prysm client will act as a counterpart to the already popular Go client, Geth.
 
 ## Resources:
-* [Website](https://www.parity.io/)
-* [Github](https://github.com/paritytech/parity-ethereum)
-* [Twitter](https://twitter.com/ParityTech)
+* [Website](https://prysmaticlabs.com/)
+* [Github](https://github.com/prysmaticlabs/prysm)
+* [Twitter](https://twitter.com/prylabs)
+* [Blog](https://medium.com/prysmatic-labs)
