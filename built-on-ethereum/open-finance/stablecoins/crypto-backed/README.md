@@ -6,6 +6,7 @@ For example, MakerDAO's DAI stablecoin is generated when someone opens a collate
 
 #### Notable collateral-backed stablecoins:
 
-* MakerDAO - DAI
+* [MakerDAO - DAI](dai.md)
+* [Synthetix - sUSD](synthetix.md)
 * Bitshares - BitUSD
-* Havven - NUSD
+
