@@ -8,7 +8,7 @@ Securitize is a full stack technology & services platform with powerful features
 
 The Securitize DS Protocol provides the most complete, flexible and adopted compliance solution in the market today. The DS Protocol ensures digital securities issued via the Securitize platform can be traded compliantly across all marketplaces and exchanges.
 
-## Important links
+## Resources:
 
 * [Website](https://www.securitize.io/)
 
