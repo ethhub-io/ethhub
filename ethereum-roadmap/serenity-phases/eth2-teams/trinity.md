@@ -2,13 +2,12 @@
 
 ## Background
 
-Status is a company building various blockchain-based applications. Their most popular product is a messaging app called Status - an open source, Ethereum-based app that gives people the power to chat, transact, and access a revolutionary world of DApps from their mobile device.
+The Trinity team is comprised of six developers all except one of whom are contracted to work by the Ethereum Foundation.
 
 ## Implementation Details
 
-Status is building Nimbus - an Ethereum 2.0 client written in the programming language Nim. Nimbus is expected to be Ethereum's first mobile-native client.
+The team are building Trinity - an Ethereum 1.0 and 2.0 client written in the programming language Python.
 
 ## Resources:
-* [Website](https://nimbus.status.im/)
-* [Github](https://github.com/status-im/nimbus)
-* [Twitter](https://twitter.com/ethstatus)
+* [Website](https://trinity.ethereum.org/)
+* [Github](https://github.com/ethereum/py-evm)
