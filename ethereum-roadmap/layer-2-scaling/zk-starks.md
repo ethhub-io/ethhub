@@ -10,9 +10,9 @@ STARKs improve two of problems of permissionless blockchains: scalability and pr
 STARKs improve scalability by allowing developers to move computations and storage off-chain. Off-chain services will be able to generate STARK proofs that attest the integrity of off-chain computations. These proofs are then placed back on chain for any interested party to validate the computation. Moving the bulk of computational work off-chain using STARKs allows existing blockchain infrastructure to scale exponentially while trustlessly maintaining computational integrity.
 
 ## Differences between ZK-SNARKs and ZK-STARKs
-1. ZK-SNARKs require a trusted setup phase whereas ZK-STARKs use publicly verifiable randomness is used to create the trustlessly verifiable computation system. 
-2. ZK-STARKs are more scalable in terms of computation speed and size when compared to ZK-SNARKs. 
-3. ZK-SNARKs are vulnerable to attacks from quantum computers due to the cryptography it uses. ZK-STARKs are currently quantum-resistant.
+1. ZK-SNARKs require a trusted setup phase whereas ZK-STARKs use publicly verifiable randomness to create trustlessly verifiable computation systems. 
+2. ZK-STARKs are more scalable in terms of computational speed and size when compared to ZK-SNARKs. 
+3. ZK-SNARKs are vulnerable to attacks from quantum computers due to the cryptography they use. ZK-STARKs are currently quantum-resistant.
 
 ## Reference Links
 * [ZK-STARKs Whitepaper](https://eprint.iacr.org/2018/046.pdf)
