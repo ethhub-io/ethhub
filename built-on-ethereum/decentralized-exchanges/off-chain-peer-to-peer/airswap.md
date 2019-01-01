@@ -23,11 +23,12 @@ AirSwap is a decentralized exchange that uses an off chain matching system calle
 
 ![](../../../.gitbook/assets/airswap_interface.png)
 
-## Important Links
+## Resources
 
-Website: [https://www.airswap.io/](https://www.airswap.io/)  
-Twitter: [https://twitter.com/airswap](https://twitter.com/airswap)  
-GitHub: [https://github.com/airswap](https://github.com/airswap) Reddit: [https://www.reddit.com/r/AirSwap](https://www.reddit.com/r/AirSwap)
+* [Website](https://www.airswap.io/)  
+* [Twitter](https://twitter.com/airswap)  
+* [Github](https://github.com/airswap) 
+* [Reddit](https://www.reddit.com/r/AirSwap)
 
 ## Podcasts
 
