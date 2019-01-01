@@ -6,8 +6,6 @@
 
 The goal of [0xBitcoin](https://0xbitcoin.org) is to be looked at as a currency and store of value asset on Ethereum. Its 21 million token hard cap and predictable issuance give it scarcity and transparency in terms of monetary policy, both things that Ether lacks. 0xBitcoin has certain advantages over PoW based currencies, such as compatibility with smart contracts and decentralized exchanges. In addition, 0xBTC cannot be 51% attacked (without attacking Ethereum), is immune from the “death spiral”, and will receive the benefits of scaling and other improvements to the Ethereum network.
 
-________________________________________
-
 # Mining in a Nutshell
 
 0xBitcoin is a Smart Contract on the Ethereum network, and the concept of Token Mining is patterned after Bitcoin's distribution. Rather than solving 'blocks', work is issued by the contract, which also maintains a Difficulty which goes up or down depending on how often a Reward is issued. Miners can put their hardware to work to claim these rewards, in concert with specialized software, working either by themselves or together as a Pool. The total lifetime supply of 0xBitcoin is `21,000,000` tokens and rewards will repeatedly halve over time.
@@ -29,8 +27,6 @@ A Retarget happens every `1024` rewards. In short, the Contract tries to target 
 If the average Reward Time is longer than that, the difficulty will decrease. If it's shorter, it will increase. How much longer or shorter it was affects the magnitude with which the difficulty will rise/drop, to a maximum of 50%.
 * visit the stats page https://0x1d00ffff.github.io/0xBTC-Stats to see recent stats and block times
 
-____________________________
-
 # Mining Hardware
 
 *Presently, 0xBitcoin and "Alt Tokens" can be mined on GPUs, CPUs, IGPs (on-CPU graphics) and certain FPGAs. The most recommended hardware is nVidia graphics cards for their efficiency, ubiquity and relatively low cost. As general rules, the more cores and the higher core frequency (clock) you can get, the more Tokens you will earn!*
@@ -49,22 +45,12 @@ ____________________________
 
     *~Pascal cards (like GTX 10x0) are generally more temperature-sensitive when overclocked. Reducing Core temperature can often stabilize higher overclocks better than adding voltage can. Maxwell-Gen2 cards (like GTX 9xx) can usually be overclocked further at higher temperatures.*
 
-_________________________________________
+## Resources
 
-## Links
-
-[**Source on GitHub**](https://github.com/0xbitcoin)
-
-[**EIP-918 Mineable Token Standard**](https://eips.ethereum.org/EIPS/eip-918)
-
-[**Token Mining Subreddit**](https://www.reddit.com/r/tokenmining/)
-
-[**Discord Server**](https://discordapp.com/invite/xAPwaDC)<br>
-*where most dev discussion takes place*
-
-[**0xBTC Website**](https://www.0xbitcoin.org)
-
-[**0xBTC Foundation Medium Publication**](https://medium.com/0xBitcoinFoundation)
-
-[**MineableToken.world**](https://mineabletoken.world)<br>
-*ERC-918 Mineable Token information portal*
+[Github](https://github.com/0xbitcoin)
+[EIP-918 Mineable Token Standard](https://eips.ethereum.org/EIPS/eip-918)
+[Token Mining Subreddit](https://www.reddit.com/r/tokenmining/)
+[Discord Server](https://discordapp.com/invite/xAPwaDC)
+[0xBTC Website](https://www.0xbitcoin.org)
+[0xBTC Foundation Medium Publication](https://medium.com/0xBitcoinFoundation)
+[MineableToken.world](https://mineabletoken.world) (ERC-918 Mineable Token information portal)
