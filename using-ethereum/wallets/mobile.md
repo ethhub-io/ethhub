@@ -1,6 +1,6 @@
 # Mobile
 
-## What are they?
+## Summary
 
 Phone and other mobile device-based wallets are mobile alternatives to desktop and web wallets.
 
@@ -28,7 +28,7 @@ Phone and other mobile device-based wallets are mobile alternatives to desktop a
 * [Jaxx](https://jaxx.io) - Both a mobile and a desktop wallet. Has integrated Shapeshift support.
 * [eth-wallet-light](https://github.com/NoahHydro/eth-wallet-light) - Lightweight JS Wallet optimized for mobile
 
-## References:
+## Resources
 
 * [Consensys's ethereum-developer-tools-list](https://github.com/ConsenSys/ethereum-developer-tools-list/blob/master/EcosystemResources.md)
 
