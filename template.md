@@ -1,0 +1,24 @@
+# Please use this template as a guide when creating pages for EthHub.
+## Click [here](/built-on-ethereum/open-finance/stablecoins/crypto-backed/dai.md) for an example of what a fully-fledged page looks like.
+------------------------
+# Page Heading
+
+## Summary
+
+*A summary of what the page is about.*
+
+## Features
+
+*Main features.*
+
+### Sub-feature 1
+
+*Content for sub-feature 1.*
+
+### Sub-feature 2
+
+*Content for sub-feature 2.*
+
+## Resources
+
+*Relevant resources like website, github link, blog posts etc go here*
