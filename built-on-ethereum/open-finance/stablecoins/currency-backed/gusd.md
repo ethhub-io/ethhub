@@ -14,5 +14,5 @@ U.S. dollars that correspond to the Gemini dollars issued and in circulation are
 
 ## Resources
 * [Website](https://gemini.com/dollar/) 
-* [Whitepaper](https://gemini.com/wp-content/themes/gemini/assets/img/dollar/gemini-dollar-whitepaper.pdf
+* [Whitepaper](https://gemini.com/wp-content/themes/gemini/assets/img/dollar/gemini-dollar-whitepaper.pdf)
 * [Smart Contract Adddress](https://etherscan.io/token/0x056Fd409E1d7A124BD7017459dFEa2F387b6d5Cd)
