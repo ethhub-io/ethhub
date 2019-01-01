@@ -9,5 +9,6 @@ Decentralized Exchanges (sometimes referred to as 'non-custodial exchanges') all
 * [Side-chain order book]()
 
 ## Resources:
+* [List of all DEXs](https://github.com/distribuyed/index/blob/master/README.md)
 * [Messari DEX Resources](https://messari.io/resource/decentralized-exchanges)
 
