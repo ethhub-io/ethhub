@@ -1,6 +1,6 @@
 # Dharma
 
-## Description
+## Summary
 
 Dharma is a protocol for issuing debt. The goal of this protocol is to create a pool of debtors and creditors. Similar to 0x, Dharma utilizes the concept of relayers and the goal of relayers is to provide the interface to submit and gather orders. These orders are stored off-chain and only settled orders go to the blockchain. It’s up to relayers to decide which orders they accept.
 
@@ -8,10 +8,10 @@ It is possible to take a loan without using cryptocurrency as collateral, or wit
 
 Recently the team introduced [Dharma Lever](https://lever.dharma.io/) — a margin trading platform built on the protocol.
 
-## Important Links
+## Resources
 
-* Website: [Dharma](https://dharma.io/)
-* Bloqboard relayer: [Bloqboard](https://dapp.bloqboard.com/)
-* Quickline relayer: [QuickLine](https://quickline.market/)
-* Loan explorer: [Loanscan](https://loanscan.io/)
+* [Website](https://dharma.io/)
+* [Bloqboard App](https://dapp.bloqboard.com/)
+* [Quickline Realyer](https://quickline.market/)
+* [Loan Explorer](https://loanscan.io/)
 
