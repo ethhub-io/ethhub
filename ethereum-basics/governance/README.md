@@ -1,5 +1,7 @@
 # Blockchain Governance
 
+## Summary
+
 Blockchains are distributed systems. They are essentially consensus protocols, which means that different nodes in the network (e.g. computers on the internet) have to be running compatible software.
 
 **“Node operators”** are the owners and managers of nodes that run the protocol. Most node operators don’t want to write much software, and it’s a technical challenge for anyone to independently write compatible implementations of any consensus protocol even if they have a specification. As a result, node operators rely on software repositories (usually hosted on Microsoft/Github servers) to provide them with the software they choose to run.
