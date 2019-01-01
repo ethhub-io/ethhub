@@ -180,14 +180,6 @@
 * [Paper Wallet Guide](https://blockgeeks.com/guides/paper-wallet-guide/)
  
 # Trading
- 
-## Buy cryptocurrency
-
-* [Buy Bitcoin (ref link)](https://www.coinbase.com/join/5231d9622f28a396560000b2)
-* [Buy Ethereum (ref link)](https://www.coinbase.com/join/5231d9622f28a396560000b2)
-* [Buy Altcoins (ref link)](https://www.binance.com/?ref=10900939)
-* [BittyBot - Crypto Price Aggregator](https://bittybot.co)
-* [Local Ethereum](https://localethereum.com/)
 
 ## Decentralized Exchanges (DEXs)
 
