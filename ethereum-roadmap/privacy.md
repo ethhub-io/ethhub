@@ -1,8 +1,10 @@
 # Privacy
 
+## Summary
+
 Privacy on Ethereum is being actively worked on by a number of different teams. 
 
-There are a few key technologies to know about:
+### There are a couple of key technologies to know about:
 
 * Zero Knowledge-based
   * zk-SNARKs (used in Zcash) 
