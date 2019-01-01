@@ -9,10 +9,6 @@ Settle is a web-native operating system for decentralized finance. Settle attemp
 * Ecosytem of third party apps incentivizeded with 50/50 subscription sharing.
 * Dashboard with a unique design to help traders better see important information.
 
-## Interface
-
-![](https://github.com/ethhub-io/ethhub/tree/72fd31f25d51bffdfad9d7b7bca1999f602894e0/built-on-ethereum/.gitbook/assets/Settle-Interface.png)
-
 ## Resources
 
 * [Website](https://settle.finance)  
