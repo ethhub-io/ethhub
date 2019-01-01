@@ -1,6 +1,6 @@
 # Rinkeby
 
-## About
+## Summary
 
 The Rinkeby test network is a Proof of Authority testnet for Ethereum, originally started by the Geth team. To acquire ETH on Rinkeby, one can request it from a faucet.
 
