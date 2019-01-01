@@ -26,7 +26,7 @@ In Proof of Work systems, miners compete with each other to find a block and thu
 
 It would currently cost an individual or group a large amount of money to successfully attack either the Bitcoin or Ethereum PoW blockchains.
 
-In Proof of Stake systems \(specifically Eth2.0\), users can stake 32 ether per validator and are rewarded for their work with additional ether \(at a sliding scale issuance rate — discussed later in this essay\).
+In Proof of Stake systems \(specifically Eth2.0\), users can stake 32 ether per validator and are rewarded for their work with additional ether at a sliding scale issuance rate.
 
 Under Proof of Stake, the cost of attacking Ethereum will be directly tied to the cost of ether. The more validators participating in securing the network, the more coins an attacker would need to purchase in order to carry out an attack — this would quickly increase the price of ether and thus make it prohibitively more expensive for the attacker.
 
