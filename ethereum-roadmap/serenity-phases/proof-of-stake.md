@@ -33,5 +33,5 @@ In the first case, users can socially coordinate out-of-band to agree which fina
 
 The fourth is most difficult. The fourth can be recovered from via a "minority soft fork", where a minority of honest validators agree the majority is censoring them, and stop building on their chain. Instead, they continue their own chain, and eventually the "leak" mechanism described above ensures that this honest minority becomes a 2/3 supermajority on the new chain. At that point, the market is expected to favor the chain controlled by honest nodes over the chain controlled by dishonest nodes.
 
-### Resources: [https://github.com/ethereum/wiki/wiki/Proof-of-Stake-FAQs](https://github.com/ethereum/wiki/wiki/Proof-of-Stake-FAQs)
-
+## Resources 
+[Proof of Stake FAQ](https://github.com/ethereum/wiki/wiki/Proof-of-Stake-FAQs)
