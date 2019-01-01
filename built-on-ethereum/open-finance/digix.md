@@ -1,6 +1,6 @@
 # Digix
 
-## Description
+## Summary
 
 Digix provides a use case for the tokenisation and documentation of physical assets through its Proof of Provenance (PoP) protocol. The PoA protocol utilises Ethereum and the InterPlanetary Files System (IPFS) to track an asset through its chain of custody. This allows for the open and public verification of an asset’s existence without a centralised database. Digix also offers an API allowing other applications to be built on top of our asset tokenisation service.
 
@@ -10,7 +10,7 @@ Digix Global is a private company behind the creation of the Proof of Provenance
 
 As of Fall 2018, Digix converted approximately $20 Million USD worth of ETH from the 2016 crowdsale in order to ensure creation of the DAO and governance contracts and sustainable opperation of Digix Global for a number of years.
 
-## Important links
+## Resources
 
-* Website: [https://digix.global/](https://digix.global/)
-* Asset Explorer: [https://digix.global/app/#/provenance/assets-explorer/assets-list](https://digix.global/app/#/provenance/assets-explorer/assets-list)
+* [Website](https://digix.global/)
+* [Asset Explorer](https://digix.global/app/#/provenance/assets-explorer/assets-list)
