@@ -20,7 +20,7 @@ STARKs improve scalability by allowing developers to move computations and stora
 * [libSTARK](https://github.com/elibensasson/libSTARK) - a C++ library for ZK-STARK systems
 * [StarkWare Industries site](https://www.starkware.co/) - The leading researchers pioneering ZK-STARKs
 * [StarkWare Industries blog](https://medium.com/@StarkWare)
-* Vitalik's series on ZK-STARKs - [Part 1](https://vitalik.ca/general/2017/11/09/starks_part_1.html) [Part 2](https://vitalik.ca/general/2017/11/22/starks_part_2.html) [Part 3](https://vitalik.ca/general/2018/07/21/starks_part_3.html) 
+* Vitalik's series on ZK-STARKs - [Part 1](https://vitalik.ca/general/2017/11/09/starks_part_1.html), [Part 2](https://vitalik.ca/general/2017/11/22/starks_part_2.html), [Part 3](https://vitalik.ca/general/2018/07/21/starks_part_3.html) 
 * [STARKs presentation at Web3 Summit 2018](https://www.youtube.com/watch?v=1KSwVIZ82hs) - Eli Ben-Sasson and Avihu Levy present Stark vs. Snark & Bulletproofs 
 * [Adam Luciano on ZK-STARKS](https://medium.com/coinmonks/zk-starks-create-verifiable-trust-even-against-quantum-computers-dd9c6a2bb13d) - A simple breakdown of the STARK whitepaper and differences from SNARKs
 * [Zero Knowledge FM](https://www.zeroknowledge.fm/) - a podcast made for developers and people looking to learn about ZK tech 
