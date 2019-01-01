@@ -14,6 +14,7 @@
 
 ## Further Education
 
+* [Awesome Decentralized Finance](https://github.com/ong/awesome-decentralized-finance)
 * [Awesome Zeppelin](https://github.com/ZeppelinSolutions/awesome-zeppelin)
 * [Cryptocurrency Education Portal](https://education.district0x.io/)
 * [Blockchain.com Learning Portal](https://www.blockchain.com/learning-portal/bitcoin-faq)
@@ -58,7 +59,6 @@
 * [Blockchain Curated](https://www.blockchaincurated.com/)
 
 ## Newsletters
-
  
 * [EthHub Weekly Newsletter](https://newsletter.ethhub.io/)
 * [Week In Ethereum](http://www.weekinethereum.com/)
@@ -115,32 +115,39 @@
 # Technical Resources
  
 ## Ethereum Tools
+### Block Explorers
+* [Etherscan](https://etherscan.io/)
+* [Ethplorer](https://ethplorer.io/)
+* [BlockScout](https://blockscout.com/eth/mainnet)
+* [Trivial](https://trivial.co/)
+* [EnjinX](https://enjinx.io/)
 
-* [Run an Ethereum Node](https://medium.com/mercuryprotocol/how-to-run-an-ethereum-node-on-aws-a8774ed3acf6)
-* [Etherscan - Block Explorer](https://etherscan.io/)
-* [Ethplorer - Block Explorer](https://ethplorer.io/)
-* [BlockScout - Block Explorer](https://blockscout.com/eth/mainnet)
-* [Trivial - Block Explorer](https://trivial.co/)
-* [Ethereum Blockchain on Kaggle](https://www.kaggle.com/bigquery/ethereum-blockchain)
-* [Settle - Decentralized Finance OS](https://settle.finance/)
-* [Loanscan - Ethereum Loan Explorer](https://loanscan.io/)
-* [Balance - Ethereum Wallet](https://balance.io/)
+### Wallets
+* [EthHub Wallets Section](../using-ethereum/wallets/README.md)
 * [MyEtherWallet](https://www.myetherwallet.com/)
 * [MyCrypto](https://mycrypto.com/)
-* [Ethereum Gas Station](https://ethgasstation.info/)
-* [Ethereum Network Statistics](https://ethstats.net)
-* [State of the dApps](https://www.stateofthedapps.com/)
 * [MetaMask](https://metamask.io/)
-* [Local Ethereum](https://localethereum.com/)
-* [Flippening Watch](http://www.flippening.watch)
-* [Gas Price History Chart](https://gitcoin.co/gas/history?breakdown=weekly)
+
+### Dapp Explorers
+* [Loanscan - Ethereum Loan Explorer](https://loanscan.io/)
+* [State of the dApps](https://www.stateofthedapps.com/)
+* [Settle - Decentralized Finance OS](https://settle.finance/)
+
+### Ethereum Data Explorers
 * [ObservEth](https://observeth.net/main)
 * [Ethtective](https://www.ethtective.com/)
-* [Awesome Decentralized Finance](https://github.com/ong/awesome-decentralized-finance)
+* [Ethereum Network Statistics](https://ethstats.net)
+* [Gas Price History Chart](https://gitcoin.co/gas/history?breakdown=weekly)
+* [Ethereum Gas Station](https://ethgasstation.info/)
+* [Ethereum Blockchain on Kaggle](https://www.kaggle.com/bigquery/ethereum-blockchain)
+
+### Miscellaneous 
 * [List of Ethereum Public Calls](https://docs.google.com/spreadsheets/d/1Wg_eX-mYopvWT3LeHe4-FEHOtJoG28h8YcHl4PFTX5k/edit#gid=0)
+* [Flippening Watch](http://www.flippening.watch)
 
 ## Run an Ethereum node
 
+* [Run an Ethereum Node](https://medium.com/mercuryprotocol/how-to-run-an-ethereum-node-on-aws-a8774ed3acf6)
 * [DAppNode](https://github.com/dappnode/dappnode)
 * [QuikNode](https://quiknode.io/)
 * [Blockdaemon](https://blockdaemon.com/)
@@ -148,7 +155,6 @@
 
 ## Ethereum Development
 
-* [EthHub](https://www.ethhub.io/)
 * [Ethereum Github Page](https://github.com/ethereum)
 * [Go-Ethereum Gitter](https://gitter.im/ethereum/go-ethereum)
 * [Intro to Smart Contracts](https://solidity.readthedocs.io/en/develop/introduction-to-smart-contracts.html)
@@ -158,14 +164,13 @@
 * [Ethereum Developer Tools List](https://github.com/ConsenSysLabs/ethereum-developer-tools-list)
 * [Ethereum Stack Exchange](https://ethereum.stackexchange.com/)
 * [Ethereum Bounties](https://bounty.ethereum.org/#bounties)
-* [Prysmatic Labs](https://prysmaticlabs.com/)
 * [EthList: The Crowdsourced Ethereum Reading List](https://github.com/Scanate/EthList/blob/master/README.md)
 * [Quickblocks](https://quickblocks.io/)
-* [LearnChannels](https://learnchannels.org/)[](http://vdfresearch.org/)
-* [VDF Research](http://vdfresearch.org/)[](https://github.com/jpantunes/awesome-cryptoeconomics/blob/master/readme.md)
+* [LearnChannels](https://learnchannels.org/)
+* [VDF Research](http://vdfresearch.org/)
 * [Awesome Cryptoeconomics](https://github.com/jpantunes/awesome-cryptoeconomics/blob/master/readme.md)
-* [Token Engineering Wiki](http://tokenengineering.net/)[](https://github.com/w3f/Web3-wiki/wiki)
-* [Web3 Foundation Wiki](https://github.com/w3f/Web3-wiki/wiki)[](https://ethresear.ch/t/zero-knowledge-proofs-starter-pack/4519)
+* [Token Engineering Wiki](http://tokenengineering.net/)
+* [Web3 Foundation Wiki](https://github.com/w3f/Web3-wiki/wiki)
 * [Zero-Knowledge Proofs Starter Pack](https://ethresear.ch/t/zero-knowledge-proofs-starter-pack/4519)
 * [Awesome Ethreum Virtual Machine](https://github.com/ethereum/wiki/wiki/Ethereum-Virtual-Machine-%28EVM%29-Awesome-List)
 
@@ -183,14 +188,15 @@
 * [Buy Ethereum (ref link)](https://www.coinbase.com/join/5231d9622f28a396560000b2)
 * [Buy Altcoins (ref link)](https://www.binance.com/?ref=10900939)
 * [BittyBot - Crypto Price Aggregator](https://bittybot.co)
+* [Local Ethereum](https://localethereum.com/)
 
 ## Decentralized Exchanges (DEXs)
 
+* [EthHub DEX Section](../built-on-ethereum/decentralized-exchanges/README.md)
 * [List of all Decentralized Exchanges](https://github.com/PYMERVAL/decentradexchange/blob/master/README.md)
 * [Uniswap](https://uniswap.io/)
 * [Radar Relay](https://app.radarrelay.com/)
 * [IDEX](https://idex.market)
-* [Totle - DEX Aggregator](https://www.totle.com/)
 * [ForkDelta](https://forkdelta.github.io)
 * [Paradex](https://app.paradex.io/)
 * [DEX Watcher](https://dex.watch/)
@@ -241,8 +247,7 @@
 ## Crypto Accounting Tools
 
 * [Gilded Finance](https://gilded.finance/)
-* [Gilded Finance](https://gilded.finance/)[](http://www.archertaxgroup.com/tax-blog/)
-* [Tax Blog (U.S only)](http://www.archertaxgroup.com/tax-blog/)[](https://tokentax.us/)
+* [Tax Blog (U.S only)](http://www.archertaxgroup.com/tax-blog/)
 * [Token Tax](https://tokentax.us/)
 
 # Dapp Resources
@@ -254,6 +259,7 @@
 * [Emoon (Digital Asset Marketplace)](https://www.emoon.io/)
 * [Atomic Bazaar (Digital Asset Marketplace)](https://www.atomicbazaar.io/)
 * [Nifty Gateway](https://niftygateway.com/#/home)
+* [NIFTYgallery](https://nifty.gallery/)
 * [NFT Reading List](https://paper.dropbox.com/doc/NFT-Reading-List-WIP-8YKK903rKYUBKPFFC8dHU)
 * [NFT Market Cap](https://nftmarketcap.co/)
 * [Nonfungible - Market Discovery and Analysis](https://nonfungible.com/)
@@ -261,30 +267,41 @@
  
 ## Dapp Tools
 
+
+### General
 * [Awesome Crypto Trackers](https://github.com/denisnazarov/awesome-crypto-trackers)
-* [NIFTYgallery](https://nifty.gallery/)
+* [Universal dApp Store](https://app.co/)
+
+### Dapp Trackers
 * [dApp Radar](https://dappradar.com/)
 * [dApp Store](https://dappstore.link/home)
+* [dAppBoard](http://dappboard.com/)
+* [dApp.com](https://www.dapp.com/)
+* [dApp Review](https://dapp.review/)
+* [Chain Activity](https://chainactivity.io/)
+
+### MakerDAO
 * [MakerDAO CDP Portal](https://cdp.makerdao.com/)
 * [Maker Tools](https://mkr.tools/)
 * [MakerScan](https://makerscan.io/)
 * [Awesome MakerDAO](https://github.com/makerdao/awesome-makerdao/blob/master/README.md)[](http://dappboard.com/)
-* [dAppBoard](http://dappboard.com/)
-* [dApp.com](https://www.dapp.com/)
-* [Universal dApp Store](https://app.co/)
-* [dApp Review](https://dapp.review/)
+
+### Augur
+* [Guesser](https://guesser.io/)
 * [Veil - Markets on Everything](https://veil.market/)
 * [Predictions.global - Augur Prediction Markets](https://predictions.global/)
 * [Explore Augur](https://exploreaugur.com/)
+
+### DEX Tools
 * [Uniswap Explorer](https://uniswap.info/)
-* [Are we stable yet?](https://www.arewestableyet.net/)
 * [0x Tracker](https://0xtracker.com/)
+
+### Misc
+* [InstaDApp](https://instadapp.io/)
+* [Are we stable yet?](https://www.arewestableyet.net/)
 * [ETH Locked in DeFi](https://mikemcdonald.github.io/eth-defi/)
 * [Aragon DAO Explorer](https://daolist.io/)
 * [Curious Giraffe - Blockchain Analytics](https://www.curiousgiraffe.io/)
-* [Chain Activity](https://chainactivity.io/)
-* [InstaDApp](https://instadapp.io/)
-* [Guesser](https://guesser.io/)
 
 # Miscellaneous
 
