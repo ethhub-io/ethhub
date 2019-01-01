@@ -10,7 +10,7 @@ The Learn section, where you are now, is the core of EthHub. This documentation 
 
 # Contribution Guidelines
 
-In the interest of keeping the content on EthHub uniform, we have set up a template that you can use when adding your own pages to the github repo. You can find the template [here](template.md).
+In the interest of keeping the content on EthHub looking uniform, we have set up a template that you can use when adding your own pages to the github repo. You can find the template [here](template.md).
 
 There are also some basic guidelines that need to be followed when contributing to EthHub:
 
