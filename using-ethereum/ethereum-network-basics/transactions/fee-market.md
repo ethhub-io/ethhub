@@ -9,5 +9,6 @@ As described on the [Gas page](gas.md), the Ethereum gas block limit means that 
 | Standard Gas Price | The average gas price being paid by the network |
 | Fast Gas Price | A price that will be mined within the next few blocks |
 
-The best resource for the Ethereum fee market is [EthGasStation](https://ethgasstation.info/).
+## Resources
+* [EthGasStation](https://ethgasstation.info/)
 
