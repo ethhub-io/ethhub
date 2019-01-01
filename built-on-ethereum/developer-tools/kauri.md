@@ -8,7 +8,7 @@ The aim of the project is to create a network of writers, editors, and curators 
 
 Kauri is starting as a place for the technical documentation for various blockchain protocols and applications, as well as building for Ethereum in general. The team wants to acquire developers of these projects as moderators and active content creators.
 
-## Important links
+## Resources
 
 * [Website](https://kauri.io)
 
