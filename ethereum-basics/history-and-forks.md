@@ -29,9 +29,8 @@ Ether was not usable or transferable until the launch of the genesis block which
 | [Byzantium](https://blog.ethereum.org/2017/10/12/byzantium-hf-announcement/) | 4370000 | 10/16/2017 |
 | [Constantinople](https://github.com/ethereum/pm/wiki/Constantinople-Progress-Tracker) | 7080000 | ~1/16/2019 |
 
-Sources:
+## Resources
 
-[https://blog.ethereum.org/2014/07/22/launching-the-ether-sale/](https://blog.ethereum.org/2014/07/22/launching-the-ether-sale/)
-
-[https://blog.ethereum.org/2014/08/08/ether-sale-a-statistical-overview/](https://blog.ethereum.org/2014/08/08/ether-sale-a-statistical-overview/)
+* [Launching the Ether Sale](https://blog.ethereum.org/2014/07/22/launching-the-ether-sale/)
+* [A Statistical Overview of the Ether Sale](https://blog.ethereum.org/2014/08/08/ether-sale-a-statistical-overview/)
 
