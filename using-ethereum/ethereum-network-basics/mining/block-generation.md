@@ -108,7 +108,7 @@ This is an optional 32-byte value that can be used for storing information on th
 
 _Example: sparkpool-eth-cn-hz2 \(Hex:0x737061726b706f6f6c2d6574682d636e2d687a32\)_
 
-## Important Links
+## Resources
 
 * [https://github.com/ethereum/wiki/wiki/Design-Rationale](https://github.com/ethereum/wiki/wiki/Design-Rationale)
 * [https://ethereum.stackexchange.com/questions/268/ethereum-block-architecture](https://ethereum.stackexchange.com/questions/268/ethereum-block-architecture)
