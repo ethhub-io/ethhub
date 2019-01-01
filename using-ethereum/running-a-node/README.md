@@ -1,6 +1,6 @@
 # Running a Node
 
-## Running a node
+## Summary
 
 Anyone is able to run an Ethereum node on their computer. This means that you can participate in validating the blockchain.
 
@@ -46,4 +46,3 @@ The parity default settings are the best for full nodes.
 
 * For a full node, Parity takes around 6 to 12 hours for a complete sync without warp mode
 * For a full node, Geth takes around 6 to 12 hours for a complete sync in fast mode
-
