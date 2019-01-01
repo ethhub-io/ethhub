@@ -24,7 +24,7 @@ The district0x Network Token is an Ethereum-based token built using the ERC20 st
 * Spankchain's Red Light District
 * Meme Factory
 
-## Important Links
+## Resources
 
 * [Website](https://district0x.io/)
 * [Github](https://github.com/district0x)
