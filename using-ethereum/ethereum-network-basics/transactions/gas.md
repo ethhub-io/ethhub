@@ -1,5 +1,7 @@
 # Gas
 
+## Summary
+
 Understanding 'gas' is fundamental to understand how the Ethereum network functions.
 
 The EVM - the Ethereum Virtual Machine \(EVM\) running on each Ethereum node - is an emulation of a computer system. One example of a regular, non-blockchain virtual machine is the VirtualBox software, which allows you to emulate computer systems \(guests\) on your physical hardware \(hosts\). Any operation in the EVM consumes CPU cycles, disk access, memory, of the hosting machine \(which carries a cost\). This cost is paid via Ethereum 'gas'.
@@ -17,3 +19,6 @@ There are many key components to a transaction that are important to understand:
 | Tx Cost | Gas used \* Gas Price |
 | Gas Limit | Max gas you’ll pay for a certain tx |
 | Gas Block Limit | Max gas allowed in a block |
+
+## Resources
+* [How does Ethereum work, anyway?](https://medium.com/@preethikasireddy/how-does-ethereum-work-anyway-22d1df506369)
