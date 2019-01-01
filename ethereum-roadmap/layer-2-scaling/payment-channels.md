@@ -1,5 +1,7 @@
 # Payment Channels
 
+## Summary
+
 Payment Channels are one implementation of State Channel technology. Payment channels allow for practically unlimited, bidirectional transfers between two participants, as long as the net sum of their transfers does not exceed the deposited tokens. These transfers can be performed instantaneously and without any involvement of the actual blockchain itself, except for an initial one-time on-chain creation and an eventual closing of the channel.
 
 ## The Raiden Network
