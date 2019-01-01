@@ -21,7 +21,7 @@
 * [Circle Research](https://www.circle.com/en/research)
 * [Cryptoeconomics.study](https://cryptoeconomics.study/)
 
-## Media
+# Media
 
 ## News
 
