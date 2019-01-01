@@ -16,10 +16,6 @@ The simplest example of a Relayer is a website allowing users to create, discove
     <img src="https://s3.eu-west-2.amazonaws.com/0x-wiki-images/relayer_diagram.png" style="padding-bottom: 20px; padding-top: 20px; max-width: 342px;" width="35%" />
 </div>
 
-## Token governance 
-
-https://www.0xproject.com/docs/contracts
-
 ## List of dApps that will be (or are) using the 0x protocol
 
 * [Aragon](https://aragon.one/)
