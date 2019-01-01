@@ -1,6 +1,6 @@
 # Desktop
 
-## What are they?
+## Summary
 
 Desktop wallets are downloadable apps capable of operating on Windows, MacOS, or Linux that allow users to interact with their funds.
 
@@ -21,7 +21,7 @@ Desktop wallets are downloadable apps capable of operating on Windows, MacOS, or
 * [Exodus](https://exodus.io) - Closed-source wallet that allows for multi-currency interaction/transacting \(requires you to be online to generate transactions\).
 * [Mist](https://github.com/ethereum/mist) - Browse and use Dapps on the Ethereum network
 
-## References:
+## Resources
 
-* [Consensys's ethereum-developer-tools-list](https://github.com/ConsenSys/ethereum-developer-tools-list/blob/master/EcosystemResources.md)
+* [Ethereum Developer Tools List](https://github.com/ConsenSys/ethereum-developer-tools-list/blob/master/EcosystemResources.md)
 
