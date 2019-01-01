@@ -6,5 +6,5 @@ Every game of MLB Crypto Baseball is tied to a live MLB game in real time. Your 
 
 ## Resources:
 
-[https://mlbcryptobaseball.com/](https://mlbcryptobaseball.com/)
+* [Website](https://mlbcryptobaseball.com/)
 
