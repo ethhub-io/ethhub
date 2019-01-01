@@ -1,6 +1,6 @@
 # Templum
 
-## Description
+## Summary
 
 Templum is a technology innovator that provides regulated market infrastructure for the digital asset sector, including a blockchain-enabled platform for capital raising and secondary trading.
 
