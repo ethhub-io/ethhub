@@ -8,3 +8,6 @@ Layer 2 scaling solutions are those that are not implemented at the base layer. 
 * [State Channels](state-channels.md)
 * [Payment Channels](payment-channels.md)
 * [ZK-STARKs](zk-starks.md)
+
+## Resources
+* [The State of Scaling Ethereum](https://media.consensys.net/the-state-of-scaling-ethereum-b4d095dbafae)
