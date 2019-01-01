@@ -45,7 +45,7 @@ If the “state” being updated between participants was a digital currency bal
 * Sidechains need a lot of initial investment to start off: To create a sidechain we need to have enough miners so that the network is safe from attackers. Also, we have to make it sure that they are up and running. Whereas there is no blockchain involved in state channels. So, no such requirement is needed.
 * A Federation is needed for sidechains: This adds another layer between the mainchain and the sidechain. This could prove as another weak point for the attackers to attack by bribing or attacking the federation. Whereas in state channel we just need a smart contract to do this for us.
 
-## Resources:
+## Resources
 
 * [https://hackernoon.com/difference-between-sidechains-and-state-channels-2f5dfbd10707](https://hackernoon.com/difference-between-sidechains-and-state-channels-2f5dfbd10707)
 * [https://medium.com/statechannels/state-channel-applications-1f170e7d542e](https://medium.com/statechannels/state-channel-applications-1f170e7d542e)
