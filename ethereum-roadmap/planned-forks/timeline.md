@@ -8,5 +8,7 @@ The Constantinople hard fork will occur at block 7,080,000 on approximately 1/16
 * [EIP 1234: Constantinople Difficulty Bomb Delay and Block Reward Adjustment](https://eips.ethereum.org/EIPS/eip-1234)
 * [EIP 1283: Net gas metering for SSTORE without dirty maps \(replaces 1087\)](https://eips.ethereum.org/EIPS/eip-1283)
 
-Progress can be tracked here: [https://github.com/ethereum/pm/issues/53\#issue-345905457](https://github.com/ethereum/pm/issues/53#issue-345905457)
+## Resources
+
+* [Constantinople Progress Tracker](https://github.com/ethereum/pm/issues/53#issue-345905457)
 
