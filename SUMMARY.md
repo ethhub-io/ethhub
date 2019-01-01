@@ -18,6 +18,7 @@
   * [Patterns](ethereum-basics/development/patterns.md)
   * [Testing](ethereum-basics/development/testing.md)
   * [Tooling](ethereum-basics/development/tooling.md)
+* [Resources](/resources/README.md)
 
 ## Ethereum Roadmap
 
