@@ -1,4 +1,4 @@
-# Please use this template as a guide when creating pages for EthHub. All pages use Markdown (cheat sheet [here](https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet)
+# Please use this template as a guide when creating pages for EthHub. All pages use Markdown (cheat sheet [here](https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet))
 ## Click [here](/built-on-ethereum/open-finance/stablecoins/crypto-backed/dai.md) for an example of what a fully-fledged page looks like.
 ------------------------
 # Page Heading
