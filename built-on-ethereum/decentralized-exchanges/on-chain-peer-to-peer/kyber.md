@@ -16,9 +16,9 @@ Each reserve is a smart contract that is controlled by reserve admin who deploye
 
 ![](../../../.gitbook/assets/kyber_interface.png)
 
-## Important Links
+## Resources
 
-Website: [https://kyber.network/swap](https://kyber.network/swap)  
-Twitter: [https://twitter.com/kybernetwork](https://twitter.com/kybernetwork)  
-GiHub: [https://github.com/kybernetwork](https://github.com/kybernetwork)
+* [Website](https://kyber.network/swap)  
+* [Twitter](https://twitter.com/kybernetwork)  
+* [Github](https://github.com/kybernetwork)
 
