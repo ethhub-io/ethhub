@@ -1,5 +1,6 @@
 # ZK-STARKs (Zero-Knowledge Scalable Transparent ARguments of Knowledge)
-## About
+
+## Summary
 ZK-STARKs (Zero-Knowledge Scalable Transparent ARguments of Knowledge) are a type of cryptographic proof technology that enables users to share validated data or perform computations with a third party without the data or computation being revealed to the third-party, also known as a zero-knowledge proof, in a way that is publicly verifiable. In simpler terms, a zero-knowledge proof can prove something is true without having to reveal what exactly it is proving. For example, ZK-STARKs would allow Alice to verify Bob's banking information using a zero-knowledge cryptographic proof instead of revealing the confidential information to Alice.
 
 Prior to the creation of ZK-STARKs, ZK-SNARKs were used to create ZK proof systems, but required a trusted party or parties to initially setup the ZK proof system which introduced the vulnerability of those trusted parties compromising the privacy of the entire system. ZK-STARKs improve upon this technology by removing the need for a trusted setup.   
@@ -14,7 +15,7 @@ STARKs improve scalability by allowing developers to move computations and stora
 2. ZK-STARKs are more scalable in terms of computational speed and size when compared to ZK-SNARKs. 
 3. ZK-SNARKs are vulnerable to attacks from quantum computers due to the cryptography they use. ZK-STARKs are currently quantum-resistant.
 
-## Reference Links
+## Resources
 * [ZK-STARKs Whitepaper](https://eprint.iacr.org/2018/046.pdf)
 * [libSTARK](https://github.com/elibensasson/libSTARK) - a C++ library for ZK-STARK systems
 * [StarkWare Industries site](https://www.starkware.co/) - The leading researchers pioneering ZK-STARKs
