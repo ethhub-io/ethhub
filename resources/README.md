@@ -112,7 +112,7 @@
 * [Woobull](http://woobull.com/)
 * [Preethi Kasireddy (Blockchain Engineer)](https://medium.com/@preethikasireddy)
 
-## Technical Resources
+# Technical Resources
  
 ## Ethereum Tools
 
@@ -175,7 +175,7 @@
 * [Hardware Wallet Guide](https://blockgeeks.com/guides/cryptocurrency-wallet-guide/)
 * [Paper Wallet Guide](https://blockgeeks.com/guides/paper-wallet-guide/)
  
-## Trading
+# Trading
  
 ## Buy cryptocurrency
 
@@ -226,6 +226,27 @@
 * [Delta](https://getdelta.io/)
 * [Blockfolio](https://www.blockfolio.com/)
 
+## Vizualizations
+
+* [Token Sale History](https://elementus.io/token-sales-history)
+* [Coin 360 (CryptoMaps)](https://coin360.io/)
+* [Bitcoin Mempool](https://dedi.jochen-hoenicke.de/queue/more/#24h)
+* [Sifr Data](http://www.sifrdata.com/)
+* [Real time Ethereum transactions](http://www.ethviewer.live/)
+* [Real time Nano transactions](https://nanowat.ch/graph)
+* [Twitter Sentiment](https://cointrading.ninja/sentiment)
+* [Cointracker Visualizations](https://www.cointracker.io/visualizations/coin_correlations)
+* [Security Tracker Infrastructure](https://research.suicide.ventures/security-tokens-infrastructure/)
+
+## Crypto Accounting Tools
+
+* [Gilded Finance](https://gilded.finance/)
+* [Gilded Finance](https://gilded.finance/)[](http://www.archertaxgroup.com/tax-blog/)
+* [Tax Blog (U.S only)](http://www.archertaxgroup.com/tax-blog/)[](https://tokentax.us/)
+* [Token Tax](https://tokentax.us/)
+
+# Dapp Resources
+
 ## Non-fungible Token (NFT) Resources
 
 * [Rare Bits (Digital Asset Marketplace)](https://rarebits.io/)
@@ -265,26 +286,7 @@
 * [InstaDApp](https://instadapp.io/)
 * [Guesser](https://guesser.io/)
 
-## Vizualizations
-
-* [Token Sale History](https://elementus.io/token-sales-history)
-* [Coin 360 (CryptoMaps)](https://coin360.io/)
-* [Bitcoin Mempool](https://dedi.jochen-hoenicke.de/queue/more/#24h)
-* [Sifr Data](http://www.sifrdata.com/)
-* [Real time Ethereum transactions](http://www.ethviewer.live/)
-* [Real time Nano transactions](https://nanowat.ch/graph)
-* [Twitter Sentiment](https://cointrading.ninja/sentiment)
-* [Cointracker Visualizations](https://www.cointracker.io/visualizations/coin_correlations)
-* [Security Tracker Infrastructure](https://research.suicide.ventures/security-tokens-infrastructure/)
-
-## Crypto Accounting Tools
-
-* [Gilded Finance](https://gilded.finance/)
-* [Gilded Finance](https://gilded.finance/)[](http://www.archertaxgroup.com/tax-blog/)
-* [Tax Blog (U.S only)](http://www.archertaxgroup.com/tax-blog/)[](https://tokentax.us/)
-* [Token Tax](https://tokentax.us/)
-
-## Miscellaneous
+# Miscellaneous
 
 * [Definitive SEC Guide](https://messari.io/resource/definitive-sec-guidance-orders-speeches-actions-announcement-compilation-within-the-crypto-and-digital-asset-space)
 * [Crypto Code Watch](https://cryptocodewatch.com/)
@@ -316,4 +318,3 @@
 * [Plasma Map](https://ethresear.ch/t/plasma-world-map-the-hitchhiker-s-guide-to-the-plasma/4333)
 * [Cost of a 51% Attack](https://www.crypto51.app/)
 * [Crypto Fund Tracker](https://analytics.hypernum.com/fund)
-
