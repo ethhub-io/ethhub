@@ -1,6 +1,6 @@
 # Securitize
 
-## Description
+## Summary
 
 The Securitize platform is a proven, robust, feature-rich platform with multiple successful issuances of digital securities on the blockchain.
 
