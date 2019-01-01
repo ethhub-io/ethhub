@@ -2,12 +2,10 @@
 
 ## Intro to Ethereum
 
-* [Litepaper - Crypto Education](https://litepaper.com/)
-* [Complete Beginners Guide](https://hackernoon.com/a-beginners-guide-to-getting-started-with-cryptocurrencies-76027bebb1b1)
+* [Complete Beginners Guide to Cryptocurrency](https://hackernoon.com/a-beginners-guide-to-getting-started-with-cryptocurrencies-76027bebb1b1)
+* [Litepaper - Ethereum](https://litepaper.com/resources/ethereum)
 * [Ethereum Explained](https://www.upfolio.com/ultimate-ethereum-guide)
 * [Ethereum Syllabus](https://novicedock.com/learn/cryptocurrency/ethereum)
-* [Choose an Ethereum Wallet](https://medium.com/swlh/ico-help-how-to-create-your-ethereum-wallet-4a78c1ef9022)
-* [Get a Hardware Wallet](https://www.ledgerwallet.com/products/ledger-nano-s)
 * [Cryptocurrency Explained](https://www.upfolio.com/ultimate-cryptocurrency-guide)
 * [How A Blockchain Works (6 min video)](https://www.youtube.com/watch?v=SSo_EIwHSd4)
 * [Blockchain for Babies](https://medium.com/connext/blockchains-for-babies-14e3b0bf3c36)
@@ -123,6 +121,7 @@
 * [EnjinX](https://enjinx.io/)
 
 ### Wallets
+* [Choose an Ethereum Wallet](https://medium.com/swlh/ico-help-how-to-create-your-ethereum-wallet-4a78c1ef9022)
 * [EthHub Wallets Section](../using-ethereum/wallets/README.md)
 * [MyEtherWallet](https://www.myetherwallet.com/)
 * [MyCrypto](https://mycrypto.com/)
