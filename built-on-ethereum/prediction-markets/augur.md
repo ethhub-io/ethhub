@@ -16,6 +16,6 @@ Augur has a native token called Reputation \(REP\). REP is needed by market crea
 
 ## Podcasts
 
-* Unchained: [http://unchained.forbes.libsynpro.com/joey-krug-on-how-augur-is-like-any-other-tool-ep79](http://unchained.forbes.libsynpro.com/joey-krug-on-how-augur-is-like-any-other-tool-ep79)
-* Epicenter:[https://epicenter.tv/episode/143/](https://epicenter.tv/episode/143/)
+* [Unchained](http://unchained.forbes.libsynpro.com/joey-krug-on-how-augur-is-like-any-other-tool-ep79)
+* [Epicenter](https://epicenter.tv/episode/143/)
 
