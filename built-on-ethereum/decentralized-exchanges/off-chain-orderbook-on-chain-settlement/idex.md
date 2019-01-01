@@ -11,6 +11,6 @@ IDEX is a decentralized exchange. It processes orders in a centralized order boo
 ## Important Links
 
 * [Website](https://idex.market/)  
-* [Twitter][https://twitter.com/aurora\_dao](https://twitter.com/aurora_dao)  
+* [Twitter](https://twitter.com/aurora_dao)  
 * [Gtihub](https://github.com/AuroraDAO)
 
