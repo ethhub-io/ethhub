@@ -1,5 +1,6 @@
 # Mineable Tokens
 
+## Summary
 
 0xBitcoin is the first mineable ERC20 token on Ethereum. It uses mining for distribution, unlike all previous ERC20 tokens which were assigned to the contract deployer upon creation. 0xBTC is the first implementation of the [EIP:918 mineable token standard](https://eips.ethereum.org/EIPS/eip-918), which opened up the possibility of a whole new class of mineable assets on Ethereum. Without any ICO, airdrop, pre-mine, or founder’s reward, 0xBitcoin is arguably the most decentralized asset in the Ethereum ecosystem, including even Ether (ETH), which had a large ICO.
 
