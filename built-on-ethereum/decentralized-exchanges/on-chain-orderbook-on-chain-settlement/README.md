@@ -2,7 +2,7 @@
 
 For "On-Chain Orderbook, On-Chain Settlement" decentralized exchanges every order or change to an order occurs on chain. This was the style of many early generation decentralized exchanges built on Ethereum.
 
-### Exchanges
+## Exchanges
 
 * [EtherDelta](etherdelta.md)
 
