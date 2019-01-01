@@ -6,5 +6,5 @@ The CryptoPunks are 24x24 pixel art images, generated algorithmically. Most are 
 
 ## Resources:
 
-[https://www.larvalabs.com/cryptopunks](https://www.larvalabs.com/cryptopunks)
+* [Website](https://www.larvalabs.com/cryptopunks)
 
