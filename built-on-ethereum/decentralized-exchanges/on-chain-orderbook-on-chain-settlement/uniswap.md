@@ -10,8 +10,9 @@ The price of tokens is based on the amount of liquidity in the contract. That is
 
 Anyone can send their tokens and ether to the liquidity pool. There is a small fee \(0.3%\) for each trade which is given to liquidity providers to incentivize pooled liquidity.
 
-## Important links
+## Resources
 
-* Website: [https://uniswap.io/](https://uniswap.io/)
-* Exchange: [https://uniswap.exchange/](https://uniswap.exchange/)
+* [Website](https://uniswap.io/)
+* [Exchange](https://uniswap.exchange/)
+* [Uniswap — A Unique Exchange (blog post)](https://medium.com/@cyrus.younessi/uniswap-a-unique-exchange-f4ef44f807bf)
 
