@@ -1,12 +1,8 @@
 # Parity
 
-## Introduction
+## Summary
 
-Parity is an implementation of the Ethereum protocol written in Rust, a systems programming language.
-
-It is developed and actively maintained by a third party.
-
-The Github repository is located [here](https://github.com/paritytech/parity-ethereum)
+Parity is an implementation of the Ethereum protocol written in Rust, a systems programming language. It is developed and actively maintained by Parity Technologies.
 
 ## Requirements
 
@@ -55,3 +51,5 @@ Many commands are available with the parity client.
 * **parity snapshot --at BLOCKNUMBER FILEPATH**: save snapshot at BLOCKNUMBER to FILEPATH
 * **parity restore FILEPATH**: restore Blockchain from snapshot located at FILEPATH
 
+## Resources
+* [Github](https://github.com/paritytech/parity-ethereum)
