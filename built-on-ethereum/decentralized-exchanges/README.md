@@ -6,7 +6,7 @@ Decentralized Exchanges (sometimes referred to as 'non-custodial exchanges') all
 * [On-chain peer-to-peer](on-chain-peer-to-peer/)
 * [Off-chain peer-to-peer](off-chain-peer-to-peer/)
 * [On-chain order book & settlement](on-chain-orderbook-on-chain-settlement/)
-* [Plasma-chain order book]()
+* [Side-chain order book]()
 
 ## Resources:
 * [Messari DEX Resources](https://messari.io/resource/decentralized-exchanges)
