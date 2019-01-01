@@ -31,7 +31,6 @@
   * [/r/EthTrader](https://www.reddit.com/r/EthTrader/)
   * [/r/EtherMining](https://www.reddit.com/r/EtherMining/)
   * [/r/EthDev](https://www.reddit.com/r/ethdev/)
-
 * [The Block](https://www.theblockcrypto.com/)
 * [Token Daily](https://www.tokendaily.co/)
 * [Token Economy](https://tokeneconomy.co/)
