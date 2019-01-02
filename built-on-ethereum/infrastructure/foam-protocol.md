@@ -1,4 +1,4 @@
-# Foam Protocol
+# FOAM Protocol
 
 FOAM is an open protocol for decentralized, geospatial data markets. The protocol is designed to empower users to build a consensus-driven map of the world that can be trusted for every application. As technology evolves and changes, maps need to change too. FOAM secures physical space on the blockchain, harnessing the power of Ethereum with a cryptographic software utility token used to provide computational work and verification to the network.
 

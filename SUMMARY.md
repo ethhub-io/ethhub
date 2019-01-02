@@ -75,13 +75,9 @@
 
 * [Is Ethereum more expensive to use as price rises?](questions-about-ethereum/is-ethereum-more-expensive-to-use-as-price-rises.md)
 * [Why do you have to pay to use Ethereum?](questions-about-ethereum/why-do-you-have-to-pay-to-use-ethereum.md)
-* [How is Ethereum different than Bitcoin?](questions-about-ethereum/how-is-ethereum-different-than-bitcoin.md)
-* [Are smart contracts secure?](questions-about-ethereum/are-smart-contracts-secure.md)
-* [Is Ethereum centralized?](questions-about-ethereum/is-ethereum-centralized.md)
 * [Is Ethereum a security?](questions-about-ethereum/is-ethereum-a-security.md)
 * [Is Ethereum immutable?](questions-about-ethereum/is-ethereum-immutable.md)
 * [Is Ether needed for transaction fees?](questions-about-ethereum/is-ether-needed-for-transaction-fees.md)
-* [Why doesn't Ethereum use dPoS?](questions-about-ethereum/why-doesnt-ethereum-use-dpos.md)
 * [If Ethereum is open source why can't it be copied?](questions-about-ethereum/if-ethereum-is-open-source-why-cant-it-be-copied.md)
 
 ## Built on Ethereum
@@ -183,9 +179,8 @@
   * [Ethereum Alarm Clock](built-on-ethereum/infrastructure/ethereum-alarm-clock.md)
   * [Ethlance](built-on-ethereum/infrastructure/ethlance.md)
   * [Ethereum Name Service \(ENS\)](built-on-ethereum/infrastructure/ethereum-name-service.md)
-  * [Foam Protocol](built-on-ethereum/infrastructure/foam-protocol.md)
+  * [FOAM Protocol](built-on-ethereum/infrastructure/foam-protocol.md)
   * [Golem](built-on-ethereum/infrastructure/golem.md)
-  * [Proof of Location](built-on-ethereum/infrastructure/proof-of-location.md)
   * [0xcert](built-on-ethereum/infrastructure/0xcert.md)
   * [POA Network](built-on-ethereum/infrastructure/poa-network.md)
   * [Streamr](built-on-ethereum/infrastructure/streamr.md)
