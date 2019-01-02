@@ -123,6 +123,7 @@
   * [ERC721x](built-on-ethereum/erc-token-standards/erc721x.md)
   * [ERC777](built-on-ethereum/erc-token-standards/erc777.md)
   * [ERC884](built-on-ethereum/erc-token-standards/erc884.md)
+  * [ERC918](built-on-ethereum/erc-token-standards/erc918.md)
   * [ERC1155](built-on-ethereum/erc-token-standards/erc1155.md)
   * [ERC1257](built-on-ethereum/erc-token-standards/erc1275.md)
 * [Decentralized Exchanges](built-on-ethereum/decentralized-exchanges/README.md)
