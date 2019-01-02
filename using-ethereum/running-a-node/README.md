@@ -21,9 +21,7 @@ Light node:
 
 Full node:
 
-* **geth**: --syncmode "fast"
-
-The parity default settings are the best for full nodes.
+The default settings for Geth and Parity are the best for full nodes.
 
 ## Table of node settings
 
