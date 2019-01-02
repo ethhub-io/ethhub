@@ -59,6 +59,7 @@
   * [Parity](using-ethereum/running-a-node/parity.md)
   * [Pantheon](using-ethereum/running-a-node/pantheon.md)
   * [Py-EVM](using-ethereum/running-a-node/py-evm.md)
+  * [EthereumJ (Harmony)](using-ethereum/running-a-node/ethereumj.md)
 * [Wallets](using-ethereum/wallets/README.md)
   * [Desktop](using-ethereum/wallets/desktop.md)
   * [Hardware](using-ethereum/wallets/hardware.md)
