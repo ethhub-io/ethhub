@@ -17,3 +17,4 @@ There are also some basic guidelines that need to be followed when contributing 
 * All pages should have links to supporting sources/documentation and additional resources
 * No marketing or sponsored posts
 * No promotion of ICOs/token sales
+* No inappropriate content
