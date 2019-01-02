@@ -44,3 +44,6 @@ We still need to work on who can own each part of the process:
 
 * NFT given to donator that is redeemable for some future feature.
 
+## Resources
+
+* [Moloch DAO](https://github.com/MolochVentures/moloch)
