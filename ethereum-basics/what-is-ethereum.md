@@ -1,6 +1,8 @@
 # What is Ethereum?
 
-Ethereum is an open-source, blockchain-based distributed ledger with decentralized control that supports general computing and economic activities. Anyone is able to build and deploy decentralized products and services that run on top of the Ethereum network by creating highly flexible programmable transactions, called 'smart contracts'. This smart contract technology enables anyone to create programs and business logic that run exactly as coded, trustlessly and with no down time.
+Ethereum is an open-source, permissionless blockchain-based distributed ledger with decentralized governance that provides infrastructure for distributed computing and economic activities. It enables developers to build and deploy decentralized applications, products, and services on the Ethereum network and leverage logic-based transaction automation programs called 'smart contracts'. This smart contract technology enables developers to create unique programs and business logic that execute in a trustless environment, while leveraging the high availability of the global Ethereum network.
 
 ## Resources
 * [What is Ethereum](https://blockgeeks.com/guides/ethereum/)
+* [What is Ethereum. Guide for Beginners](https://cointelegraph.com/ethereum-for-beginners/what-is-ethereum)
+* [Ethereum - Wikipedia](https://en.wikipedia.org/wiki/Ethereum)
