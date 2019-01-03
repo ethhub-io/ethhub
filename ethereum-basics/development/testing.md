@@ -28,7 +28,7 @@ estimateGas(YourContract)
 => 286056
 
 # if we run a test blockchain with a gas price of 2 (2 units for 1 gwei)
-ganache-cli --gasLimit 100000000000 --gasPrice 2 
+ganache-cli --gasLimit 100000000000 --gasPrice 2
 
 then the minimum amount to send with the transaction is:
 286056 * 2 = 572,112 gwei
@@ -37,10 +37,22 @@ then the minimum amount to send with the transaction is:
 
 You might be tempted to set `gasLimit` to something like `1000000000000000`. This will break Metamask, as it can't encode that value into 53 bits for BigNumber ([see here](https://github.com/ethereumjs/ethereumjs-vm/issues/114)).
 
+#### Gas Units
+
+| Unit | Amount per ETH |
+|:-:|:-:|
+| ETH | 1 |
+| Finney | 1,000 |
+| Szabo | 1,000,000 |
+| Gwei | 1,000,000,000 |
+| Mwei | 1,000,000,000,000 |
+| Kwei | 1,000,000,000,000,000 |
+| Wei | 1,000,000,000,000,000,000 |
+
 ## Debugging
 Testing is important, but you will never ascertain as much information as to the execution of a contract as by using the official debugger tooling, the Remix IDE ([demo](https://remix.ethereum.org/), [docs](https://remix.readthedocs.io/en/latest/)).
 
-Remix is a big of a hack piece put together, but it works very well once you're using it correctly. It can run Solidity in a JavaScript VM, an injected Web3 provider (e.g. Metamask) or connect to your local Ganache / other setup on `http://localhost:8545`. 
+Remix is a big of a hack piece put together, but it works very well once you're using it correctly. It can run Solidity in a JavaScript VM, an injected Web3 provider (e.g. Metamask) or connect to your local Ganache / other setup on `http://localhost:8545`.
 
 ### Using Remix like a pro
 Remix is a web app, so it doesn't have access to your file system (whether you access it from remix.ethereum.org or as an Electron desktop app). While you can copy-paste code in, it's much better to install `remixd`, which will expose a local folder to Remix.
@@ -61,7 +73,7 @@ Remix is a web app, so it doesn't have access to your file system (whether you a
 
 
 ## Unit testing
-Unit testing is for testing individual functions of your contracts. 
+Unit testing is for testing individual functions of your contracts.
 
 ## Integration testing
 Integration testing generally requires multiple interactions from various users/contracts. Since this requires the use of multiple addresses, it is unsuitable to accomplish in Solidity as above.
@@ -96,7 +108,7 @@ async function txWithReturnValue(method, ...args) {
   return retval;
 }
 
-await txWithReturnValue(Contract.method, 1, "0x123", { from: "0x12312", value: 2 }); 
+await txWithReturnValue(Contract.method, 1, "0x123", { from: "0x12312", value: 2 });
 ```
 
 ### Testing with various 'users'
@@ -118,6 +130,3 @@ contract('MyContract', async (accounts) => {
   })
 })
 ```
-
-
-
