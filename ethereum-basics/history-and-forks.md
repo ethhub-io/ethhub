@@ -20,14 +20,14 @@ Ether was not usable or transferable until the launch of the genesis block which
 
 | Name | Block | Date |
 | :--- | :--- | :--- |
-| [Frontier](https://blog.ethereum.org/2015/07/30/ethereum-launches/) | 1 | 7/30/2015 |
-| [Frontier Thawing](https://blog.ethereum.org/2015/08/04/the-thawing-frontier/) | 200000 | 9/7/2015 |
-| [Homestead](https://blog.ethereum.org/2016/02/29/homestead-release/) | 1150000 | 3/14/2016 |
-| [DAO Fork](https://blog.ethereum.org/2016/07/20/hard-fork-completed/) | 1920000 | 7/20/2016 |
-| [Tangerine Whistle](https://blog.ethereum.org/2016/10/13/announcement-imminent-hard-fork-eip150-gas-cost-changes/) | 2463000 | 10/18/2016 |
-| [Spurious Dragon](https://blog.ethereum.org/2016/11/18/hard-fork-no-4-spurious-dragon/) | 2675000 | 11/22/2016 |
-| [Byzantium](https://blog.ethereum.org/2017/10/12/byzantium-hf-announcement/) | 4370000 | 10/16/2017 |
-| [Constantinople](https://github.com/ethereum/pm/wiki/Constantinople-Progress-Tracker) | 7080000 | ~1/16/2019 |
+| [Frontier](https://blog.ethereum.org/2015/07/30/ethereum-launches/) | 1 | 2015-07-30 |
+| [Frontier Thawing](https://blog.ethereum.org/2015/08/04/the-thawing-frontier/) | 200000 | 2015-09-07 |
+| [Homestead](https://blog.ethereum.org/2016/02/29/homestead-release/) | 1150000 | 2016-03-14 |
+| [DAO Fork](https://blog.ethereum.org/2016/07/20/hard-fork-completed/) | 1920000 | 2016-07-20 |
+| [Tangerine Whistle](https://blog.ethereum.org/2016/10/13/announcement-imminent-hard-fork-eip150-gas-cost-changes/) | 2463000 | 2016-10-18 |
+| [Spurious Dragon](https://blog.ethereum.org/2016/11/18/hard-fork-no-4-spurious-dragon/) | 2675000 | 2016-11-22 |
+| [Byzantium](https://blog.ethereum.org/2017/10/12/byzantium-hf-announcement/) | 4370000 | 2017-10-16 |
+| [Constantinople](https://github.com/ethereum/pm/wiki/Constantinople-Progress-Tracker) | 7080000 | ~2019-01-16 |
 
 ## Resources
 
