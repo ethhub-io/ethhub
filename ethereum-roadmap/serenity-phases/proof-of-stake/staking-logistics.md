@@ -44,6 +44,7 @@ There is a withdraw queue that you must get in when wanting to withdraw ETH from
 
 
 ## Resources 
-[Beacon and Validator explinations](https://twitter.com/terenc3t/status/1070738081337106432)
 
-[Some details around staking from Vitalik](https://www.reddit.com/r/ethereum/comments/a41u9k/_/ebbm03t/?context=1)
+* [Beacon and Validator explanations](https://twitter.com/terenc3t/status/1070738081337106432)
+
+* [Some details around staking from Vitalik](https://www.reddit.com/r/ethereum/comments/a41u9k/_/ebbm03t/?context=1)
