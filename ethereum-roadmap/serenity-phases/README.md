@@ -26,8 +26,7 @@ Once Phase 0 is complete, there will be two active Ethereum chains. For the sake
 
 * There will be a minimum amount of ETH stake needed in order to first bootstrap the beacon chain. This is defined as `CHAIN_START_FULL_DEPOSIT_THRESHOLD` in the spec. Currently, this is set to 16384 validators needed. That would mean 524,288 ETH in total stake is needed. This would pay ~11% interest to stakers.
 * ETH rewards earned by validators won’t be transferable until Phase 2 of the Serenity roll-out as that is when state execution is implemented.
-* During Phase 0, all Ethereum transactions and smart contract computations will still occur on the Eth 1.0 chain.
-* Once the beacon chain is advancing, Eth 1.0 clients can refer to the beacon chain for finalized beacon blocks and use that as the finality checkpoint for the Eth 1.0 PoW chain.
+* During Phase 0, all user transactions and smart contract computations will still occur on the Eth 1.0 chain.
 
 ## Phase 1 - Shard Chains
 
@@ -37,11 +36,11 @@ Phase 1 will bring shard chains to the Eth 2.0 side. Shard chains are the key to
 
 ### What will the network look like?
 
-The Eth 1.0 and 2.0 chains will still operate in parallel after Phase 1. Using Binary Large Objects, the shard chains will submit blocks with no transactions.
+The Eth 1.0 and 2.0 chains will still operate in parallel after Phase 1.
 
 ### Important Considerations
 
-* In Phase 0 and Phase 1, the main PoW chain will remain live while testing and transitioning is happening on the Eth 2.0 chain. This means that rewards will be paid to both Phase 0/1 validators as well as the normal PoW block rewards. Therefore, the combined inflation of the 2 chains may spike a bit initially but then start to trend towards the 0-1% range as Phase 2 is implemented.
+* In Phase 0, 1, and 2 the main PoW chain will remain live while testing and transitioning is happening on the Eth 2.0 chain. This means that rewards will be paid to both Ethereum 2.0 validators as well as the normal PoW block rewards. Therefore, the combined inflation of the 2 chains may spike a bit initially but then start to trend towards the 0-1% range as the PoW chain is gradually deemphasized.
 
 ## Phase 2 - State Execution
 
@@ -55,21 +54,10 @@ Near the end of Phase 2, the current state of the Eth 1.0 PoW chain will be copi
 
 ### Important Considerations
 
-* This phase may also see the replacement of the EVM with eWASM.
-* This phase will only support full nodes
-
-## Other Phases
-
-_Phases 3-6 are longer term visions and still need more detail on this page but for now phase titles have been taken from_ [_here_](https://github.com/ethereum/wiki/wiki/Sharding-roadmap#strongphase-3strong-light-client-state-protocol)_._
-
-* Phase 3 - Light client state protocol
-* Phase 4 - Cross-shard transactions
-* Phase 5 - Tight coupling with main chain security
-* Phase 6 - Super-quadratic sharding
+* This phase will endow shards with eWASM as the EVM.
 
 ## Resources
 
 * [Sharding Roadmap](https://github.com/ethereum/wiki/wiki/Sharding-roadmap#strongphase-3strong-light-client-state-protocol)
 * [State of Ethereum Protocol](https://media.consensys.net/state-of-ethereum-protocol-2-the-beacon-chain-c6b6a9a69129)
 * [Eth 2.0 Specs](https://github.com/ethereum/eth2.0-specs)
-
