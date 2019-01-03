@@ -1,5 +1,7 @@
 # ERC-20 - Token Standard
 
+## Summary
+
 ERC20 allows the implementation of a standard API to ensure the interoperability between tokens. It offers basic functionalities to transfer tokens, obtain account balances, get the total supply of tokens, and allow token approvals.
 
 To define an ERC20 token you need:
