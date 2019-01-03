@@ -51,7 +51,6 @@
 * [Digitally Rare](https://digitallyrare.podbean.com/)
 * [Village Global](https://www.villageglobal.vc/podcast/)
 * [Multicoin Capital](https://itunes.apple.com/us/podcast/the-multicoin-capital-podcast/id1337809097?mt=2)
-* [The Bitcoin Podcast](http://thebitcoinpodcast.com)
 * [The Third Web](https://itunes.apple.com/au/podcast/the-third-web/id899090462?mt=2)
 * [a16z Podcast](https://a16z.com/podcasts/)
 * [Blockchain Curated](https://www.blockchaincurated.com/)
@@ -72,29 +71,18 @@
 * [Tony Sheng](https://www.tonysheng.com/)
 * [Protocol Weekly](https://8xprotocol.com/protocol-weekly)
 * [Global Coin Research](https://globalcoinresearch.com/)
-* [Unbankd](https://unbankd.co/)
 
 ## Social Media
 
 * [Who to Follow on Twitter](https://hive.one/)
-
-## Videos/Youtube Channels
-
-* [Andreas Antonopoulos (Bitcoin Guru)](https://www.youtube.com/channel/UCJWCJCWOxBYSi5DhCieLOLQ)
-* [ConsenSys Media](https://www.youtube.com/channel/UCBeLEwM-yhIKuIxHTx0VzdQ)
-* [Token Summit Official Channel](https://www.youtube.com/channel/UClKay1eOR8D825wY5PBYFUA)
-* [How the Economic Machine Works](https://www.youtube.com/watch?v=PHe0bXAIuk0)
 
 ## Reading
 
 * [Crypto Reading List](https://medium.com/@rchen8/crypto-reading-list-c54da8cab26a)
 * [Beginners Guide Series on Cryptoassets](https://medium.com/@linda.xie/beginners-guide-series-on-cryptoassets-d897535d887)
 * [Master Reading List by a16z](https://a16z.com/2018/02/10/crypto-readings-resources/)
-* [Mastering Bitcoin: Unlocking Digital Cryptocurrencies](https://www.amazon.com/Mastering-Bitcoin-Unlocking-Digital-Cryptocurrencies/dp/1449374042)
-* [Mastering Bitcoin: Programming the Open Blockchain](https://www.amazon.com/Mastering-Bitcoin-Programming-Open-Blockchain/dp/1491954388)
-* [Ethereum by Henning Diedrich](https://www.amazon.com/Ethereum-Blockchains-Decentralized-Autonomous-Organizations/dp/1523930470)
+* [Mastering Ethereum](https://github.com/ethereumbook/ethereumbook)
 * [Cryptoassets: The Innovative Investor's Guide to Bitcoin and Beyond](https://www.amazon.com/Cryptoassets-Innovative-Investors-Bitcoin-Beyond/dp/1260026671)
-* [Bitcoin Whitepaper](https://bitcoin.org/bitcoin.pdf)
 * [Ethereum Whitepaper](https://github.com/ethereum/wiki/wiki/White-Paper)
  
 ## Blogs
@@ -107,7 +95,6 @@
 * [Hacking, Distributed (Emin Gün Sirer)](http://hackingdistributed.com/)
 * [Simon de la Rouviere](https://medium.com/@simondlr)
 * [Tony Sheng](https://www.tonysheng.com/)
-* [Woobull](http://woobull.com/)
 * [Preethi Kasireddy (Blockchain Engineer)](https://medium.com/@preethikasireddy)
 
 # Technical Resources
@@ -194,7 +181,7 @@
 
 ## ICO/Token Resources
 
-* [ICO Treasury Watcher](https://diar.co/ico-treasury-balances/)
+* [ICO Treasury Watcher](https://diar.co/ethereum-ico-treasury-balances/)
 * [What is an Initial Coin Offering (ICO)?](https://kingpassive.com/ico-beginners-guide/)
 * [ConcourseQ - ICO Due Dilligence](https://concourseq.io/)
 * [ICO Calendar/Info](https://icodrops.com/)
@@ -227,19 +214,10 @@
 
 * [Token Sale History](https://elementus.io/token-sales-history)
 * [Coin 360 (CryptoMaps)](https://coin360.io/)
-* [Bitcoin Mempool](https://dedi.jochen-hoenicke.de/queue/more/#24h)
 * [Sifr Data](http://www.sifrdata.com/)
 * [Real time Ethereum transactions](http://www.ethviewer.live/)
-* [Real time Nano transactions](https://nanowat.ch/graph)
-* [Twitter Sentiment](https://cointrading.ninja/sentiment)
 * [Cointracker Visualizations](https://www.cointracker.io/visualizations/coin_correlations)
 * [Security Tracker Infrastructure](https://research.suicide.ventures/security-tokens-infrastructure/)
-
-## Crypto Accounting Tools
-
-* [Gilded Finance](https://gilded.finance/)
-* [Tax Blog (U.S only)](http://www.archertaxgroup.com/tax-blog/)
-* [Token Tax](https://tokentax.us/)
 
 # Dapp Resources
 
@@ -257,7 +235,6 @@
 * [The Creative Crypto Magazine](https://thecreativecrypto.com/)
  
 ## Dapp Tools
-
 
 ### General
 * [Awesome Crypto Trackers](https://github.com/denisnazarov/awesome-crypto-trackers)
@@ -298,16 +275,10 @@
 
 * [Definitive SEC Guide](https://messari.io/resource/definitive-sec-guidance-orders-speeches-actions-announcement-compilation-within-the-crypto-and-digital-asset-space)
 * [Crypto Code Watch](https://cryptocodewatch.com/)
-* [Crypto Countries](https://cryptocountries.io)
 * [Bitcoin on Ethereum](https://www.wbtc.network/)
-* [Namebase](https://namebase.io/)
-* [Bitcoin Obituaries](https://99bitcoins.com/bitcoinobituaries/)
 * [Ethereum Obituaries](https://github.com/jragosa/EthereumObituaries/blob/master/README.md)
 * [Blockchain Graveyard](https://magoo.github.io/Blockchain-Graveyard/)
-* [Are We Decentralized Yet?](https://arewedecentralizedyet.com/)
-* [Altcoins Racing](https://altcoins.racing/)
 * [Coin ATM Radar](https://coinatmradar.com/)
-* [The Floppening](http://www.floppening.gold/)
 * [Crypto Subreddit Tracker](https://cryptosub.live/)
 * [Crypto Periodic Table](https://jes.al/crypto-table/)
 * [KeySheet](https://www.keysheet.io/)
@@ -320,9 +291,7 @@
 * [Rimble Design System](https://rimble.consensys.design/)
 * [Blockchain Security Contacts](https://github.com/trailofbits/blockchain-security-contacts)
 * [The Brooklyn Project](https://thebkp.com/)
-* [Handshake Alliance](https://handshakealliance.org/)
 * [Crypto Grant Programs](https://github.com/fredexed/crypto-funding-ops)
-* [Untether.space](http://www.untether.space/)
 * [Plasma Map](https://ethresear.ch/t/plasma-world-map-the-hitchhiker-s-guide-to-the-plasma/4333)
 * [Cost of a 51% Attack](https://www.crypto51.app/)
 * [Crypto Fund Tracker](https://analytics.hypernum.com/fund)
