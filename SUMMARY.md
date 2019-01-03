@@ -9,7 +9,7 @@
   * [Network Usage](ethereum-basics/what-is-ether/network-usage.md)
   * [Store of Value](ethereum-basics/what-is-ether/store-of-value.md)
   * [Medium of Exchange](ethereum-basics/what-is-ether/medium-of-exchange.md)
-* [History and Forks](ethereum-basics/history-and-forks.md)
+* [History and Network Upgrades](ethereum-basics/history-and-forks.md)
 * [Monetary Policy](ethereum-basics/monetary-policy.md)
 * [Governance](ethereum-basics/governance/README.md)
   * [Off-Chain Governance](ethereum-basics/governance/off-chain-governance.md)
@@ -22,7 +22,7 @@
 
 ## Ethereum Roadmap
 
-* [Planned Forks](ethereum-roadmap/planned-forks/README.md)
+* [Planned Network Upgrades](ethereum-roadmap/planned-forks/README.md)
   * [Constantinople](ethereum-roadmap/planned-forks/constantinople.md)
   * [Istanbul](ethereum-roadmap/planned-forks/istanbul.md)
 * [Serenity \(Eth 2.0\)](ethereum-roadmap/serenity-phases/README.md)
