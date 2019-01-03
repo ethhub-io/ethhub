@@ -1,6 +1,6 @@
 # Planned Network Upgrades
 
-The Ethereum network goes through planned network upgrades via hard forks every 8 months. The names given to future planned network upgrades are:
+The Ethereum network goes through planned network upgrades via hard forks every nine months. The names given to future planned network upgrades are:
 
 * [Constantinople](timeline.md)
 * [Istanbul](istanbul.md)
