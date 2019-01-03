@@ -2,7 +2,7 @@
 
 ## Summary
 
-The Görli test network is a Proof of Authority testnet for Ethereum, originally proposed by Chainsafe and Afri Schoedon. To acquire ETH on Ropsten, one can mine on the network.
+The Görli test network is a Proof of Authority testnet for Ethereum, originally proposed by Chainsafe and Afri Schoedon. To acquire ETH on Görli, one can use the [one-way throttled bridge](https://goerli.com/bridge) from any of the other three test networks.
 
 ## Resources
 
