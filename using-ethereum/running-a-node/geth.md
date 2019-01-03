@@ -1,10 +1,8 @@
 # Geth
 
-Geth is the Golang implementation of the Ethereum protocol.
+## Summary
 
-It is fast, open source software that is actively maintained.
-
-You can find the Github repository [here](https://github.com/ethereum/go-ethereum)
+Geth is the Golang implementation of the Ethereum protocol. It is fast, open source software that is actively maintained.
 
 ## Requirements
 
@@ -77,3 +75,5 @@ A few interesting commands which will enhance your geth experience:
 * **./geth export FILEPATH**: export a copy of the Blockchain data to FILEPATH
 * **./geth import FILEPATH**: import Blockchain data from FILEPATH
 
+## Resources
+* [Github](https://github.com/ethereum/go-ethereum)

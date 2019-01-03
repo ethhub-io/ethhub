@@ -8,8 +8,8 @@ Mintable is a free service that lets you manage all of your ERC-721s in one UI v
 
 * Ledger Integration
 
-## Important Links
+## Resources
 
-* App: [https://mintable.app/](https://mintable.app/)
-* Help: [https://mintable.app/help](https://mintable.app/help)
+* [App](https://mintable.app/)
+* [Help](https://mintable.app/help)
 

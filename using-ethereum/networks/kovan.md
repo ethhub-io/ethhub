@@ -1,6 +1,0 @@
-# Kovan
-
-## About
-
-## Important Links
-

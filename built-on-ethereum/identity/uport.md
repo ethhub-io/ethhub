@@ -16,9 +16,9 @@ uPort is building a shared identity web of trust. Your app can request access to
 
 uPort is modular open-source components, developer tools, and mobile clients help you connect with your users. uPort help make it simple to build on Ethereum.
 
-## Important Links
-* Website: https://www.uport.me/
-* Github: https://github.com/uport-project/
+## Resources
+* [Website](https://www.uport.me/)
+* [Github](https://github.com/uport-project/)
 
 
 

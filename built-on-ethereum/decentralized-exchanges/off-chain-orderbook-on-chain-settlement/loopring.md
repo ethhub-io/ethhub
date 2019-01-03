@@ -10,6 +10,6 @@ Relayers can cooperate by sharing liquidity. Loopring offers a way to do that by
 
 ## Important links
 
-* Website: [https://loopring.org](https://loopring.org)
-* DEX Portal: [https://loopring.io](https://loopring.io)
+* [Website](https://loopring.org)
+* [DEX Portal](https://loopring.io)
 

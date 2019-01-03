@@ -1,6 +1,6 @@
 # Hardware
 
-## What are they?
+## Summary
 
 Hardware wallets are the most-secure method for accessing your funds while online, as they do not expose your private key to the internet when signing transactions.
 
@@ -21,7 +21,7 @@ Hardware wallets are the most-secure method for accessing your funds while onlin
 * [Ledger](https://ledgerwallet.com) - Support for multiple cryptocurrencies and tokens
 * [KeepKey](https://keepkey.com) - The simple hardware wallet
 
-## References:
+## Resources
 
 * [Consensys's ethereum-developer-tools-list](https://github.com/ConsenSys/ethereum-developer-tools-list/blob/master/EcosystemResources.md)
 

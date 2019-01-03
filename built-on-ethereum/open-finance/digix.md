@@ -1,12 +1,16 @@
 # Digix
 
-## Description
+## Summary
 
-The platform allows buying and selling tokens tied to the price of gold - DGX is a gold-pegged token. The price of one DGX is equal to the price of one gram of gold.
+Digix provides a use case for the tokenisation and documentation of physical assets through its Proof of Provenance (PoP) protocol. The PoA protocol utilises Ethereum and the InterPlanetary Files System (IPFS) to track an asset through its chain of custody. This allows for the open and public verification of an asset’s existence without a centralised database. Digix also offers an API allowing other applications to be built on top of our asset tokenisation service.
 
-An amount of gold that is equal to the total market cap of DGX tokens is stored in a vault. For each gold bar in storage, a record will be created in the registry with a link to the signed paper hosted on IPFS. Storage is audited by third parties, and the results of an audit are also published to IPFS and Ethereum.
+The platform initially allows buying and selling of tokens tied to physical gold (DGX) as well as a documentation trail for minting, transfering, destroying, and auditing of DGX. The price of one DGX is equal to the price of one gram of gold.
 
-## Important links
+Digix Global is a private company behind the creation of the Proof of Provenance protocol and Digix smart contracts deployed on Ethereum. In early 2016, they held one of the first Ethereum based ICOs (Initial Coin Offerings) in history in order to create the Digix DAO. The Digix DAO token (DGD) is given to buyers in the ICO based on how much they contributed. Buyers of a high enough amount of DGD were able to also purchase Digix Badge tokens (DGB) under the understanding that badge holders would be able to submit proposals to the DAO once it was live.
 
-* Website: [https://digix.global/](https://digix.global/)
+As of Fall 2018, Digix converted approximately $20 Million USD worth of ETH from the 2016 crowdsale in order to ensure creation of the DAO and governance contracts and sustainable opperation of Digix Global for a number of years.
 
+## Resources
+
+* [Website](https://digix.global/)
+* [Asset Explorer](https://digix.global/app/#/provenance/assets-explorer/assets-list)

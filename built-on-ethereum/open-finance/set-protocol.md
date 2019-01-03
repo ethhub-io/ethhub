@@ -1,6 +1,6 @@
 # Set Protocol
 
-## Description
+## Summary
 
 Set Protocol allows grouping multiple tokens into one asset.
 
@@ -12,8 +12,8 @@ To reduce friction, users can acquire multi-token sets with a single token \(for
 
 Users can opt to a rebalancing set. In a rebalancing set, weights of each token can be realigned to maintain desired properties in a changing market. For example, a rebalancing set can represent equal shares of the top 10 Ethereum tokens. Then, if one of the tokens appreciates in value, the set manager will sell some of it and will buy other tokens in equal amounts to maintain value distribution.
 
-## Important links
+## Resources
 
-* Website: [https://setprotocol.com/](https://setprotocol.com/)
-* Set explorer: [TokenSets](https://www.tokensets.com/)
+* [Website](https://setprotocol.com/)
+* [Set Explorer](https://www.tokensets.com/)
 

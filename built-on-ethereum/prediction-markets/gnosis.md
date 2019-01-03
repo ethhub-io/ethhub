@@ -1,6 +1,6 @@
 # Gnosis
 
-## Description
+## Summary
 
 Gnosis creates a global forecasting and information discovery tool by building a prediction market platform on Ethereum. This platform strives to gather liquidity of expert information.
 
@@ -14,8 +14,8 @@ There are two tokens in Gnosis: GNO and OWL. The main utility of OWL token is to
 
 On November 28th, 2018, the Gnosis Safe smart contract went live on the Ethereum mainnet. The Gnosis Safe allows you to download the Android app \(iOS coming soon\) and deploy a mobile-friendly personal smart contract wallet \(multisig\). You can add a Chrome extension that will hold the second key and will allow you to interact with dApps similar to Metamask \(but then with your phone effectively as a 2FA device\).
 
-## Important links
+## Resources
 
-* Website: [https://gnosis.pm](https://gnosis.pm)
-* Gnosis Safe: [https://safe.gnosis.io](https://safe.gnosis.io)
+* [Website](https://gnosis.pm)
+* [Gnosis Safe](https://safe.gnosis.io)
 

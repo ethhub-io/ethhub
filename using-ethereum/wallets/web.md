@@ -1,6 +1,6 @@
 # Web
 
-## What are they?
+## Summary
 
 Web wallets are wallets hosted on a website, they may be custodial or act as an interface for users to generate and interact with their accounts.
 
@@ -24,7 +24,7 @@ Web wallets are wallets hosted on a website, they may be custodial or act as an 
 * [SpankCard](https://github.com/SpankChain/SpankCard) - An in-browser Ethereum wallet with support for payment channels
 * [Mnemonic generator](https://iancoleman.io/bip39/) - generate word mnemonic and associated public/private key pairs. Select "Ethereum" as coin to generate Ethereum addresses. Useful for truffle-hd-wallet.
 
-## References:
+## Resources
 
 * [Consensys's ethereum-developer-tools-list](https://github.com/ConsenSys/ethereum-developer-tools-list/blob/master/EcosystemResources.md)
 

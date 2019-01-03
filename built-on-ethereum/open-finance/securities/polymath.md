@@ -1,6 +1,6 @@
 # Polymath
 
-## Description
+## Summary
 
 Polymath aims to bring compliant securities to Ethereum in the form of tokens.
 
@@ -8,7 +8,7 @@ Any company can apply to issue tokenized securities using Polymaths platform. Le
 
 Investors can purchase tokenized securities from issuers as long as they fit the compliance criteria. They will need to work with one of the KYC providers to bind their identity with their Ethereum address. Once they are approved, they can trade security tokens on primary and secondary markets.
 
-## Important links
+## Resources
 
-* Website: [https://polymath.network](https://polymath.network)
+* [Website](https://polymath.network)
 

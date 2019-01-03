@@ -7,6 +7,7 @@ For "Off-Chain Orderbook, On-Chain Settlement" decentralized exchanges, final tr
 * [0x Protocol](0x-protocol/)
 * [Loopring](https://github.com/econoar/ethhub/tree/81bd0e6af7d95334c8b24e74b3dbbe52f13bca2b/built-on-ethereum/decentralized-exchanges/off-chain-orderbook-on-chain-settlement/loopring.md)
 * [IDEX](idex.md)
+* [Hydro](hydro.md)
 
 ## Pros
 

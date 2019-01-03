@@ -1,6 +1,0 @@
-# Morden
-
-## About
-
-## Important Links
-

@@ -1,5 +1,7 @@
 # Etherisc
 
+## Summary
+
 Etherisc is a protocol to collectively build insurance products. Common infrastructure, product templates and insurance license-as-a-service make a platform that allows anyone to create their own insurance products.
 
 ## DIP Token
@@ -13,5 +15,6 @@ DIP tokens give users access to the Decentralized Insurance Platform. By staking
 * Flight Delay Insurance: [https://fdd.etherisc.com/](https://fdd.etherisc.com/) is in production on Ethereum—fully licensed, sold worldwide for ETH, USD, EUR. A developer earns 5% of revenue \(set by the developer\) and 100% of underwriting profit.
 * HurricaneGuard.io: [https://hurricaneguard.io/](https://hurricaneguard.io/) is deployed on the Ethereum testnet.
 
-[https://etherisc.com/faq](https://etherisc.com/faq)
+## Resources
+* [Website](https://etherisc.com/)
 
