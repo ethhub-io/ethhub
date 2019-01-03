@@ -20,6 +20,9 @@ A basic breakdown:
 2. Participants update the state amongst themselves by constructing and signing transactions that could be submitted to the blockchain, but instead are merely held onto for now. Each new update “trumps” previous updates.
 3. Finally, participants submit the state back to the blockchain, which closes the state channel and unlocks the state again \(usually in a different configuration than it started with\).
 
+Since all exchanged transactions are equally valid as far as the blockchain is concerned, state channels need a mechanism to ensure that the latest off-chain state (i.e., the latest move in our chess game) is the one that ultimately gets settled on the main chain. Thus, if a party attempts to unilaterally close a channel, other parties in the channel have a period of time — a "dispute window" — in which they have an opportunity to submit a more recent state, thereby proving that fraud was attempted. Once an infraction is proven, the contract handles the resolution process, which typically involves punishing the guilty party by slashing their deposited funds (though one could also simply update to the valid state and proceed accordingly).
+
+
 If the “state” being updated between participants was a digital currency balance, then we would have a payment channel. Steps 1 and 3, which open and close the channel, involve blockchain operations. But in step 2 an unlimited number of updates can be rapidly made without the need to involve the blockchain at all — and this is where the power of state channels comes into play, because only steps 1 and 3 need to be published to the network, pay fees, or wait for confirmations. In fact, with careful planning and design, state channels can remain open almost indefinitely, and be used as part of larger hub and spoke systems to power an entire economy or ecosystem.
 
 ## Difference between State Channels and Sidechains
