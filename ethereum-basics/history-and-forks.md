@@ -1,4 +1,4 @@
-# History and Forks
+# History and Network Upgrades
 
 ## Initial Concept
 
@@ -16,7 +16,7 @@ The presale ended with ~31,000 BTC \(equivalent to ~$18.3 million\) being raised
 
 Ether was not usable or transferable until the launch of the genesis block which occurred on July 30th, 2015.
 
-## Hard Fork History
+## Network Upgrade History
 
 | Name | Block | Date |
 | :--- | :--- | :--- |
