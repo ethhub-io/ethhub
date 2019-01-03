@@ -16,7 +16,7 @@ The above uses are unarguably functions of money. As you can see, ether is used 
 
 Theoretically, yes. Practically, no. The concept of using another asset to secure the Ethereum network is called ‘economic abstraction’ \(a good primer can be found [here](../../questions-about-ethereum/is-ether-needed-for-transaction-fees.md)\).
 
-It is highly unlikely that the Ethereum protocol will ever implement economic abstraction as it lowers the security of the blockchain by comprising the value of ether.
+It is highly unlikely that the Ethereum protocol will ever implement economic abstraction as it lowers the security of the blockchain by compromising the value of ether.
 
 ## Why does Ether need to be valuable?
 
