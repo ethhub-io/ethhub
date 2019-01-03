@@ -237,6 +237,7 @@
 
 ## Crypto Accounting Tools
 
+* [Cryptact](https://www.cryptact.com/?lang=en)
 * [Gilded Finance](https://gilded.finance/)
 * [Tax Blog (U.S only)](http://www.archertaxgroup.com/tax-blog/)
 * [Token Tax](https://tokentax.us/)
