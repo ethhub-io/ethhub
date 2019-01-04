@@ -2,7 +2,7 @@
 
 ## Background
 
-Current governance systems in bitcoin and ethereum are informal. They were designed using a decentralized ethos, first promulgated by Satoshi Nakamoto in his original paper. Improvement proposals to make changes to the blockchain are submitted by developers and a core group, consisting mostly of developers, is responsible for coordinating and achieving consensus between stakeholders. The stakeholders in this case are miners (who operate nodes), developers (who are responsible for core blockchain algorithms) and users (who use and invest in various coins). 
+Current governance systems in Bitcoin and Ethereum are informal. They were designed using a decentralized ethos, first promulgated by Satoshi Nakamoto in his original paper. Improvement proposals to make changes to the blockchain are submitted by developers and a core group, consisting mostly of developers, is responsible for coordinating and achieving consensus between stakeholders. The stakeholders in this case are miners (who operate nodes), developers (who are responsible for core blockchain algorithms) and users (who use and invest in various coins).
 
 ## What is on-chain governance?
 
