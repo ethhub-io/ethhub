@@ -1,10 +1,10 @@
 # Staking Logistics
 
 ## Why would I want to stake my Ether?
-To earn rewards. For staking your ETH and attesting to correct blocks, you will be paid ETH through a network wide interest rate as well as receive a portion of network transaction fees. Details can be found [here](https://docs.ethhub.io/ethereum-roadmap/serenity-phases/eth-2.0-economics).
+For staking your ETH and attesting to correct blocks, you will be rewarded with ETH through a network wide interest rate as well as receive a portion of network transaction fees. Details can be found [here](https://docs.ethhub.io/ethereum-roadmap/serenity-phases/eth-2.0-economics).
 
 ## What are the minimum requirements to stake?
-* 32 ETH
+* A minimum of 32 ETH per validator
 * Computer
 * Internet connection
 
@@ -31,17 +31,16 @@ This means that there are three possible combinations of software to run:
 Still TBD. Ideally we can get minimum requirements for all three setups mentioned above. 
 
 ## What happens if I lose my internet connection while staking?
-The key to being a validator is making sure you are only, voting for blocks and therefore securing the network. Therefore, there a slight penalty if your validator client goes offline at any point. There are two scenarios where this can happen:
+The key to being a validator is making sure you are only voting for blocks and therefore securing the network. Therefore, there a slight penalty if your validator client goes offline at any point. There are two scenarios where this can happen:
 
 1. If blocks are finalizing and you're offline, you can lose x% of your deposit over a year where x=current_interest
 	* For example, if the current interest rate is 5%, you would lose 0.0137% of your deposit every day, but gain that for every day you're online.
 2. If blocks aren't finalizing (>33% of validators are offline) and you're offline, you can lose 60% in 18 days. 
 
-If at any point your deposit drops below 16 ETH, you will be kicked from the validator set.
+If at any point your deposit drops below 16 ETH, you will be removed from the validator set entirely.
 
 ## How long is my Ether locked up if I stake?
-There is a withdraw queue that you must get in when wanting to withdraw ETH from your validator. The minimum withdraw time if there is no queue is 18 hours and adjusts dynamically depending on how many people are withdrawing at that time.
-
+There is a withdraw queue that you are placed into when wanting to withdraw ETH from your validator. If there is no queue, then the minimum withdraw time is 18 hours and adjusts dynamically depending on how many people are withdrawing at that time.
 
 ## Resources 
 
