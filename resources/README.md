@@ -33,8 +33,6 @@
 * [The Block](https://www.theblockcrypto.com/)
 * [Token Daily](https://www.tokendaily.co/)
 * [Token Economy](https://tokeneconomy.co/)
-* [Crypto Panic](https://cryptopanic.com/)
-* [Cryptocurrency Calendar](https://www.coinmarketcal.com/)
 
 ## Podcasts
 
@@ -46,7 +44,7 @@
 * [Zero Knowledge](http://www.zeroknowledge.fm/)
 * [51pct Podcast](https://51pct.io/podcast/)
 * [The Smartest Contract](https://itunes.apple.com/us/podcast/the-smartest-contract/id1377520772?mt=2)
-* [Flippening For Crypto Investors](https://p.nomics.com/podcast)
+* [Flippening for Crypto Investors](https://p.nomics.com/podcast)
 * [Block Zero](http://www.blockzero.show/)
 * [Digitally Rare](https://digitallyrare.podbean.com/)
 * [Village Global](https://www.villageglobal.vc/podcast/)
@@ -82,7 +80,7 @@
 * [Beginners Guide Series on Cryptoassets](https://medium.com/@linda.xie/beginners-guide-series-on-cryptoassets-d897535d887)
 * [Master Reading List by a16z](https://a16z.com/2018/02/10/crypto-readings-resources/)
 * [Mastering Ethereum](https://github.com/ethereumbook/ethereumbook)
-* [Cryptoassets: The Innovative Investor's Guide to Bitcoin and Beyond](https://www.amazon.com/Cryptoassets-Innovative-Investors-Bitcoin-Beyond/dp/1260026671)
+* [Cryptoassets: The Innovative Investor's Guide to Bitcoin and Beyond](https://www.worldcat.org/title/cryptoassets-the-innovative-investors-guide-to-bitcoin-and-beyond/oclc/1002302594)
 * [Ethereum Whitepaper](https://github.com/ethereum/wiki/wiki/White-Paper)
  
 ## Blogs
@@ -108,7 +106,6 @@
 * [EnjinX](https://enjinx.io/)
 
 ### Wallets
-* [Choose an Ethereum Wallet](https://medium.com/swlh/ico-help-how-to-create-your-ethereum-wallet-4a78c1ef9022)
 * [EthHub Wallets Section](../using-ethereum/wallets/README.md)
 * [MyEtherWallet](https://www.myetherwallet.com/)
 * [MyCrypto](https://mycrypto.com/)
@@ -182,11 +179,7 @@
 ## ICO/Token Resources
 
 * [ICO Treasury Watcher](https://diar.co/ethereum-ico-treasury-balances/)
-* [What is an Initial Coin Offering (ICO)?](https://kingpassive.com/ico-beginners-guide/)
 * [ConcourseQ - ICO Due Dilligence](https://concourseq.io/)
-* [ICO Calendar/Info](https://icodrops.com/)
-* [ICO Stats](https://icostats.com/)
-* [Coindesk ICO Tracker](https://www.coindesk.com/ico-tracker/)
 
 ## Market Data
 
@@ -197,8 +190,6 @@
 * [CoinMarketCap](https://coinmarketcap.com/)
 * [BitInfoCharts](https://bitinfocharts.com/)
 * [Woobull Charts](http://charts.woobull.com/)
-* [Coin Codex](https://coincodex.com/)
-* [Coin Gecko](https://www.coingecko.com/en)
 * [Cryptowat.ch](https://cryptowat.ch/)
 * [All-time-high Coin Index](https://athcoinindex.com/)
 * [All-time-high Data](https://athda.com/)
@@ -277,21 +268,15 @@
 * [Crypto Code Watch](https://cryptocodewatch.com/)
 * [Bitcoin on Ethereum](https://www.wbtc.network/)
 * [Ethereum Obituaries](https://github.com/jragosa/EthereumObituaries/blob/master/README.md)
-* [Blockchain Graveyard](https://magoo.github.io/Blockchain-Graveyard/)
-* [Coin ATM Radar](https://coinatmradar.com/)
 * [Crypto Subreddit Tracker](https://cryptosub.live/)
 * [Crypto Periodic Table](https://jes.al/crypto-table/)
 * [KeySheet](https://www.keysheet.io/)
 * [Zero-Knowledge Proofs Starter Pack](https://ethresear.ch/t/zero-knowledge-proofs-starter-pack/4519)
-* [The Crypto Fund Landscape](https://docs.google.com/spreadsheets/d/1Lmu3OyOFPNBHvT-P4oeMTc3Ve-7xxW43DmmYMykBtlM/edit#gid=0)
 * [Securify](https://securify.chainsecurity.com/)
 * [Etherean.org](https://forum.etherean.org/)
 * [Did the Ethereum blockchain reach 1TB yet?](http://didtheethereumblockchainreach1tbyet.5chdn.co/)
 * [What About Archive Nodes?](http://whataboutarchivenodes.5chdn.co/)
-* [Rimble Design System](https://rimble.consensys.design/)
 * [Blockchain Security Contacts](https://github.com/trailofbits/blockchain-security-contacts)
 * [The Brooklyn Project](https://thebkp.com/)
 * [Crypto Grant Programs](https://github.com/fredexed/crypto-funding-ops)
 * [Plasma Map](https://ethresear.ch/t/plasma-world-map-the-hitchhiker-s-guide-to-the-plasma/4333)
-* [Cost of a 51% Attack](https://www.crypto51.app/)
-* [Crypto Fund Tracker](https://analytics.hypernum.com/fund)
