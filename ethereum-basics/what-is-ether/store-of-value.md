@@ -4,7 +4,7 @@
 
 Ether, the native currency of the Ethereum network, derives its value from a myriad of different factors.
 
-Ether is primarily used within the Ethereum network to perform a range of functions. Most notably, ether’s functions include: used to pay ethereum transaction fees \(in the form of ‘gas’\) used to participate in ICOs \(or other crowdfunding mechanisms\) used as collateral for a wide range of open finance applications \(MakerDAO, Compound\) can be lent or borrowed \(Dharma\) used to trade crypto-collectibles and other non-fungible tokens \(NFTs\) earned as a reward for completing bounties \(gitcoin\) accepted as payment at certain retailers
+Ether is primarily used within the Ethereum network to perform a range of functions. Most notably, ether’s functions include: used to pay Ethereum transaction fees \(in the form of ‘gas’\) used to participate in ICOs \(or other crowdfunding mechanisms\) used as collateral for a wide range of open finance applications \(MakerDAO, Compound\) can be lent or borrowed \(Dharma\) used to trade crypto-collectibles and other non-fungible tokens \(NFTs\) earned as a reward for completing bounties \(gitcoin\) accepted as payment at certain retailers.
 
 And soon, in Ethereum 2.0 \(Serenity\), users will be able to participate in securing the network by staking their ether and becoming a validator. The main tangible value add of a Proof of Stake system is that it locks a substantial amount of the supply of the underlying network asset. There are also discussions around introducing a ‘fee-burn’ model where a percentage of ether used to pay gas fees would be ‘burned’ in order to reduce the circulating supply of ether.
 
@@ -26,7 +26,7 @@ In Proof of Work systems, miners compete with each other to find a block and thu
 
 It would currently cost an individual or group a large amount of money to successfully attack either the Bitcoin or Ethereum PoW blockchains.
 
-In Proof of Stake systems \(specifically Eth2.0\), users can stake 32 ether per validator and are rewarded for their work with additional ether at a sliding scale issuance rate.
+In Proof of Stake systems \(specifically Eth 2.0\), users can stake 32 ether per validator and are rewarded for their work with additional ether at a sliding scale issuance rate.
 
 Under Proof of Stake, the cost of attacking Ethereum will be directly tied to the cost of ether. The more validators participating in securing the network, the more coins an attacker would need to purchase in order to carry out an attack — this would quickly increase the price of ether and thus make it prohibitively more expensive for the attacker.
 

@@ -4,7 +4,7 @@
 
 Vitalik Buterin first described the concept of Ethereum through the [White Paper](https://github.com/ethereum/wiki/wiki/White-Paper) and first introduced the concept [publicly](https://www.youtube.com/watch?v=l9dpjN3Mwps&t=1s) at Bitcoin Miami 2014.
 
-The underlying impetus to develop Ethereum and consequently Ether was to utilize aspects of the technology initially developed as part of the Bitcoin blockchain and combine it with the capabilities of smart contract technology. The idea was that this marriage would lead to a platform that could sustain not only the money or medium of exchange use case, but also to add programability to money, introducing conditional logic to the equation that would open up a world of possibilities with regards to decentralized financial applications and products, and additional decentralized applications.
+The underlying impetus to develop Ethereum and consequently Ether was to utilize aspects of the technology initially developed as part of the Bitcoin blockchain and combine it with the capabilities of smart contract technology. The idea was that this marriage would lead to a platform that could sustain not only the money or medium of exchange use case, but also to add programmability to money, introducing conditional logic to the equation that would open up a world of possibilities with regards to decentralized financial applications and products, and additional decentralized applications.
 
 ## Initial ETH Distribution
 
