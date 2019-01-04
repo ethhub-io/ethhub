@@ -222,6 +222,7 @@
 
 * [Delta](https://getdelta.io/)
 * [Blockfolio](https://www.blockfolio.com/)
+* [Cryptact Grid](https://grid.cryptact.com/)
 
 ## Vizualizations
 
