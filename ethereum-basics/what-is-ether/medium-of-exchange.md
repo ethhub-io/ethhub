@@ -2,7 +2,7 @@
 
 Ether is used as a medium of exchange within the Ethereum economy for a wide range of apps, with dapp providers accepting it in exchange for fungible / non-fungible tokens, or other services. It is also used as a unit of account by various parties (including companies that have raised Ether via ICOs). Finally, Ether has historically been used as a store of value, with investors and speculators purchasing Ether to hold for investment purposes, given its relative scarcity, predictable supply growth, and inherent utility.
 
-An object (physical or digital) must typically exhibit five distinct attributes in order to be considered money: fungibility, durability, portability, divisibility and established history (lindy effect).
+An object (physical or digital) must typically exhibit five distinct attributes in order to be considered money: fungibility, durability, portability, divisibility and established history (see the [Lindy effect](https://en.wikipedia.org/wiki/Lindy_effect)).
 Ether is highly portable (because it’s digital), durable (again, because it’s digital), divisible (up to 8 decimal places), but has limited fungibility (ETH tokens are interchangeable with one another, but accounts/addresses can be blacklisted quite easily. Privacy protocols such as zk-SNARKs will eventually improve this property for Ethereum).
 
 While the Ethereum network is only 3 and a half years old, it continues to build a strong established history. The Ethereum network (and Ether) have so far survived The DAO, multiple large hacks of smart contracts, multiple protocol-level exploits, the Shanghai DoS attacks, constant negative remarks from the wider crypto community and multiple bear markets (including a current 94% drop in price).
