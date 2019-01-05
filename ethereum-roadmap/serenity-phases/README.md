@@ -48,13 +48,10 @@ The Eth 1.0 and 2.0 chains will still operate in parallel after Phase 1.
 
 Phase 2 is where the functionality will start to come together. At this point, the beacon chain and shards chains are live, but they are somewhat useless from an end user perspective until smart contracts and transactions can be executed. This will be added in Phase 2.
 
-### What will the network look like?
-
-Near the end of Phase 2, the current state of the Eth 1.0 PoW chain will be copied over into a shard. This means that for regular users who have not transitioned their ETH over in Phase 0 or Phase 1, it’ll be like nothing happened. The main Eth 1.0 PoW chain will fade at this point due to the difficulty bomb which results in slower blocks and thus lower rewards, and users transitioning over to Eth 2.0.
-
 ### Important Considerations
 
 * This phase will endow shards with eWASM as the EVM.
+* It is an open question when and how Ethereum 1.0 accounts and contracts will be migrated to Ethereum 2.0.
 
 ## Resources
 
