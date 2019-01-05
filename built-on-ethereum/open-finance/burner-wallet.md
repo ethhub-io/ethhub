@@ -2,7 +2,7 @@
 
 ## Summary
 
-The Burner Wallet runs on the xDai sidechain from POA. Since it is in DAI, a dApp can simply refer to amounts in USD. Plus, block times take 5 seconds and gas costs are virtually abstracted because they are so cheap and paid in DAI. Finally, the bridge between xDai and DAI/ETH is as simple as sending tokens to a specific address.
+Founded by [Austin Griffith](https://twitter.com/austingriffith), The Burner Wallet runs on the xDai sidechain from POA. Since it is in DAI, a dApp can simply refer to amounts in USD. Plus, block times take 5 seconds and gas costs are virtually abstracted because they are so cheap and paid in DAI. Finally, the bridge between xDai and DAI/ETH is as simple as sending tokens to a specific address.
 
 A burner wallet is automatically generated upon visiting https://xdai.io and your private key is stored in a cookie in your browser so it will be there when you come back. 
 
