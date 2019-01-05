@@ -1,19 +1,23 @@
 # The Stable Fund
 
-The Stable Fund is an investment fund started by L4, in partnership with MakerDAO. We help startups using the Dai Stablecoin System with business development, financing, and strategic introductions.
+The Stable Fund is a small to mid-size granting program run by MakerDAO. It is designed to incentivise the third-party Dai ecosystem by disbursing milestone-based grants to teams wishing to build on our financial primitives. 
 
 ## Investment 
 
-We offer equity free grants (up to $25k) to alpha projects and equity funding up to $200k for projects further ahead. We'll also provide introductions and prepare projects to pitch to the top Silicon Valley and crypto investors for larger amounts.
+We offer equity free grants of up to $50k.
 
 ## What we look for
 
-1. Companies with a strong technical founder.
-2. Companies with just an idea to companies scaling.
-3. Companies using Dai or Maker Infrastructure as a core component.
-4. Companies that are feasible with current state of blockchain technology.
+Projects that:
+* use Dai or MakerDao infrastructure as a core component
+* increase Dai adoption
+* add stability to and/or de-risk existing economies
+* open up new markets
+* provide novel, easy to use, solutions
+* solve _real_ problems
 
 ## Important Links
 
-* Website: https://stable.fund/
-* Apply: https://l4.submittable.com/submit/92847/stable-fund-application
+* Website: https://www.makerdao.com/
+* Apply: rich@makerdao.com
+* Announcement: https://medium.com/makerdao/announcing-the-makerdao-core-community-development-initiative-d388bfba88e3
