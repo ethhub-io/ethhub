@@ -37,8 +37,8 @@ We can calculate this scale using the spec. There are a lot of variables in doin
 | :--- | :--- |
 | ETH stake | 32 |
 | Shards | 1024 |
-| Slot time | 6 |
-| Epoch Length | 64 |
+| Slot time (in seconds) | 6 |
+| Epoch Length (in slots) | 64 |
 | Base Reward Quotient | 2048 |
 
 From here we can start to calculate the **outputs** using a single **assumption** which is **total network stake.** \(Let's assume 10,000,000 in the example\)
