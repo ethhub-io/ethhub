@@ -6,10 +6,9 @@ Decentralized Exchanges (sometimes referred to as 'non-custodial exchanges') all
 
 ### Different types of DEXs:
 
-* [Off-chain order book, on-chain settled](off-chain-orderbook-on-chain-settlement/)
-* [On-chain peer-to-peer](on-chain-peer-to-peer/)
-* [Off-chain peer-to-peer](off-chain-peer-to-peer/)
-* [On-chain order book & settlement](on-chain-orderbook-on-chain-settlement/)
+* [Off-chain order book](off-chain-orderbook/)
+* [Peer-to-peer](peer-to-peer/)
+* [Pool-based](pool-based/)
 * [Side-chain order book]()
 
 ## Resources:

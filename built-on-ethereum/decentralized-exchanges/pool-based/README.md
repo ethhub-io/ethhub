@@ -1,10 +1,12 @@
-# On-Chain Peer to Peer
+# Pool-based
 
-For "On-Chain Peer to Peer" decentralized exchanges, users are matched with one another on-chain for instant token swaps. Swaps are settled on-chain
+For "Pool-based" decentralized exchanges, users are getting liquidity from a single pool. Price discovery is done on-chain by interacting with the protocol's smart contract.
 
 ## Exchanges
 
 * [KyberSwap](kyber.md)
+* [Bancor](bancor.md)
+* [Uniswap](uniswap.md)
 
 ### Pros
 
