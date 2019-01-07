@@ -9,7 +9,7 @@ Decentralized Exchanges (sometimes referred to as 'non-custodial exchanges') all
 * [Off-chain order book](off-chain-orderbook/)
 * [Peer-to-peer](peer-to-peer/)
 * [Pool-based](pool-based/)
-* [Side-chain order book]()
+* Side-chain order book
 
 ## Resources:
 * [List of all DEXs](https://github.com/distribuyed/index/blob/master/README.md)
