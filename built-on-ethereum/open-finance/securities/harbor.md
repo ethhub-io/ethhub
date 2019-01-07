@@ -1,6 +1,6 @@
 # Harbor
 
-## Description
+## Summary
 
 Harbor works on the R-Token - a token standard for regulated trading of tokenized securities.
 
@@ -10,7 +10,7 @@ R-Token is a regulated token that can represent ownership of a security and it i
 
 A 'Regulator Service' is an approved entity that verifies security token transfers based on KYC/AML rules, security regulations, vesting schedules, and participants' identity.
 
-## Important links
+## Resources
 
-* Website: [https://harbor.com](https://harbor.com)
+* [Website](https://harbor.com)
 

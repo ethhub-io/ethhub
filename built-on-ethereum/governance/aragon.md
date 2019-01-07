@@ -20,8 +20,8 @@ Aragon is most powerful and modular way to build and run DAOs. Use aragonOS, Ara
 7. Shasta
 8. Althea
 
-## Important Links
+## Resources
 
-* Website: https://aragon.org
-* Github: https://github.com/aragon
-* Mainnet: https://mainnet.aragon.org/
+* [Website](https://aragon.org)
+* [Github](https://github.com/aragon)
+* [App](https://mainnet.aragon.org/)

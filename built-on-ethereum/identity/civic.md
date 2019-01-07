@@ -9,3 +9,6 @@ Civic’s Secure Identity Platform (SIP) uses a verified identity for multi-fact
 
 ### Civic Reusable KYC
 Add blockchain-enabled KYC to businesses and services that require user identification. Decentralized, reusable KYC improves security, on-boarding and every day use.
+
+## Resources
+* [Website](https://www.civic.com/)

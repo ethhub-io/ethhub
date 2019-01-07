@@ -1,12 +1,12 @@
 # Democracy Earth
 A borderless peer to peer democracy. For everyone, anywhere.
 
-## Why
+## Summary
 
-Democracy for the Internet Era. We are 21st century citizens interacting with 19th century institutions based on 15th century information technology. 
+Democracy Earth is building a sovereign, open source and decentralized democratic governance protocol for any kind of organization.
 
-## Important Links
+## Resources
 
-* Website: https://www.democracy.earth/
-* Github: https://github.com/DemocracyEarth/
-* TestNet: https://votest.democracy.earth/
+* [Website](https://www.democracy.earth/)
+* [Github](https://github.com/DemocracyEarth/)
+* [App](https://votest.democracy.earth/)

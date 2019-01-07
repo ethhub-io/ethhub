@@ -1,6 +1,0 @@
-# Rinkeby
-
-## About
-
-## Important Links
-

@@ -1,16 +1,16 @@
 # EtherDelta
 
-### Description
+## Description
 
 EtherDelta is a decentralized exchange. It processes both orders and trade settlements on chain.
 
-### Interface
+## Interface
 
 ![](../../../.gitbook/assets/etherdelta_interface.png)
 
-### Important Links
+## Resources
 
-Website: [https://etherdelta.com](https://etherdelta.com/)  
-Twitter: [https://twitter.com/etherdelta](https://twitter.com/etherdelta)  
-GitHub: [https://github.com/etherdelta](https://github.com/etherdelta)
+* [Website](https://etherdelta.com/)  
+* [Twitter](https://twitter.com/etherdelta)  
+* [Github](https://github.com/etherdelta)
 

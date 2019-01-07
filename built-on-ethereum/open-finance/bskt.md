@@ -1,6 +1,6 @@
 # Bskt
 
-## Description
+## Summary
 
 Bskt allows creating portfolios of tokens.
 
@@ -12,7 +12,7 @@ In case some of the underlying tokens become untransferable \(e.g. the `transfer
 
 The owner of a Bskt portfolio can also `pause` creation of the new portfolio tokens in case they want to deprecate the portfolio. An owner can’t `pause` redemption of the underlying assets.
 
-## Important links
+## Resources
 
-* Website: [https://cryptofinlabs.github.io](https://cryptofinlabs.github.io)
+* [Website](https://cryptofinlabs.github.io)
 

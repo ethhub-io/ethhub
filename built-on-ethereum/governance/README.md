@@ -1,4 +1,4 @@
-# Decentralized Governace
+# Decentralized Governace Apps
 
 Decentralized Governace allows users, groups, communities, organizations and machines to create and manage DAOs.
 

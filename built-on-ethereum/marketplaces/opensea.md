@@ -1,11 +1,10 @@
 # OpenSea
 
-## Description
+## Summary
 
 OpenSea is a marketplace for crypto collectibles that is backed by Coinbase Ventures.
 
-## Important Links
+## Resources
 
-Website: [https://opensea.io/](https://opensea.io/)  
-Twitter: [https://twitter.com/projectopensea](https://twitter.com/projectopensea)
-
+* [Website](https://opensea.io/)  
+* [Twitter](https://twitter.com/projectopensea)

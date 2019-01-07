@@ -1,6 +1,6 @@
 # dYdX
 
-## Description
+## Summary
 
 dYdX provides a way to trade derivatives on Ethereum.
 
@@ -8,8 +8,8 @@ Users of the protocol can trade with margin, which allows them to short any ERC2
 
 dYdX also plans to support options trading. Options give a right to its owner to buy or sell an asset in the future at the specified price. It can be used as a speculation or a hedge.
 
-## Important links
+## Resources
 
-* Website: [https://dydx.exchange](https://dydx.exchange)
-* Expo exchange: [https://www.expotrading.com/](https://www.expotrading.com/)
+* [Website](https://dydx.exchange)
+* [Expo Exchange](https://www.expotrading.com/)
 
