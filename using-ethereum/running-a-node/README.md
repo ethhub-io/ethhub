@@ -1,4 +1,4 @@
-# Running a Node
+# Running an Ethereum Node
 
 ## Summary
 
