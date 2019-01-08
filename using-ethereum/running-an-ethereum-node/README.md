@@ -31,6 +31,14 @@ Once the snapshot is restored, the client switches to full sync and ancient bloc
 
 Synchronizes a full node starting at genesis verifying all blocks and executing all transactions. This mode is a bit slower than the warp sync mode but comes with increased security.
 
+This to be considered a full Ethereum node because:
+
+* It runs a full blockchain synchronization starting at genesis.
+* It replays all transactions and executes all contracts.
+* It recomputes the state for each block.
+* It keeps all historical blocks on the disk.
+* It keeps the most recent states on the disk and prunes ancient states.
+
 ## Light nodes
 
 A light node: 
@@ -60,6 +68,10 @@ An archive node:
 
 * Stores everything kept in the full node.
 * Also builds an archive of historical states.
+
+Archive nodes are only necessary if you want to check the state of an account at any given block height. For example, if you wanted to know the Ether balance an account had at block #4,000,000, you would need to run and query an archive node.
+
+They are commonly only used for services such as block explorers and infrastructure providers like Infura.
 
 ###Client Settings
 
