@@ -11,7 +11,7 @@ A full node:
 * Stores the full blockchain data available on disk and can serve the network with any data on request. 
 * Receives new transactions and blocks while participating in block validation.
 
-#Client settings
+### Client settings
 
 **geth**
 
@@ -40,7 +40,7 @@ A light node:
 
 Light nodes are useful for low capacity devices, such as embedded devices or mobile phones, which can't afford to store multiple dozen Gigabytes of blockchain data.
 
-#Client settings
+###Client settings
 
 **geth --syncmode light**
 
