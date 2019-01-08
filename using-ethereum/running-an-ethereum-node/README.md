@@ -2,7 +2,7 @@
 
 ## Summary
 
-Anyone is able to run an Ethereum node on their computer. This means that you can participate in validating transactions and blocks on the Ethereum blockchain. The main node providers are [Geth](https://ethereum.github.io/go-ethereum/downloads/) and [Parity](https://github.com/paritytech/parity-ethereum/releases/tag/v2.0.6). Below are the different types of node a user can run, their settings, and what they mean.
+Anyone is able to run an Ethereum node on their computer. This means that you can participate in validating transactions and blocks on the Ethereum blockchain. The main node providers are [Geth](https://ethereum.github.io/go-ethereum/downloads/) and [Parity](https://github.com/paritytech/parity-ethereum/releases/tag/v2.0.6). Below are the different types of nodes a user can run, their settings, and what they mean.
 
 ## Full nodes
 
@@ -31,7 +31,7 @@ Once the snapshot is restored, the client switches to full sync and ancient bloc
 
 Synchronizes a full node starting at genesis verifying all blocks and executing all transactions. This mode is a bit slower than the warp sync mode but comes with increased security.
 
-This to be considered a full Ethereum node because:
+Both geth full and parity no-warp are to be considered a full Ethereum node because:
 
 * It runs a full blockchain synchronization starting at genesis.
 * It replays all transactions and executes all contracts.
