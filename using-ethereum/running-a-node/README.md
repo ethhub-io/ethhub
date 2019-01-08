@@ -61,6 +61,8 @@ An archive node:
 * Stores everything kept in the full node.
 * Also builds an archive of historical states.
 
+###Client Settings
+
 **geth --syncmode full --gcmode archive**
 
 Synchronizes an archive node starting at genesis, thoroughly verifying all blocks, executing all transactions, and writing all intermediate states to disk ("archive").
