@@ -2,7 +2,7 @@
 
 ## Summary
 
-Ethereums Monetary Policy is defined by the rewards that are paid out by the protocol at any given time. At time of writing, Ethereums yearly network inflation is approximately 6.7% with 3 Ether per block and an additional 2.5 Ether per uncle block (plus fees) being rewarded to miners.
+Ethereum's Monetary Policy is defined by the rewards that are paid out by the protocol at any given time. At time of writing, Ethereums yearly network inflation is approximately 6.7% with 3 Ether per block and an additional 2.5 Ether per uncle block (plus fees) being rewarded to miners.
 
 Ethereum does not have an official Monetary Policy. Rather, the policy is decided upon by a wide range of stakeholders within the ecosystem - including:
 
