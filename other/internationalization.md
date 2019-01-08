@@ -23,8 +23,8 @@ There are two ways we can go about translating the materials: recruit and fund e
 #### Place bounties for translating each section
 After the English edition is finalized, a translation branch could be made for each language and a bounty could be placed for each section or page. Gitcoin bounties would be used to place bounties for translating each EthHub page, page section, and/or graphic. Individual contributors could translate each page and claim the bounty. One downside to this method would be that it would still require editors to oversee each bounty and review that the translation is refined.
 
-#### Recruit and fund translation team
-A team of contributors could be selected and funded to oversee the translation of the entire translation process. Milestones or bounties could be created to distribute the funding. This group would also review one another's work.
+#### Recruit and fund translation teams
+Teams of contributors could be selected and funded to oversee the translation of the entire translation process. Milestones or bounties could be created to distribute the funding. The team members would also review one another's work.
 
 
 ## Publication and Distribution
