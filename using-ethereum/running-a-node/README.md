@@ -2,7 +2,7 @@
 
 ## Summary
 
-Anyone is able to run an Ethereum node on their computer. This means that you can participate in validating transactions and blocks on the Ethereum blockchain. The main node providers are [Geth](https://ethereum.github.io/go-ethereum/downloads/) and [Parity]((https://github.com/paritytech/parity-ethereum/releases/tag/v2.0.6)). Below are the different types of node a user can run, their settings, and what they mean.
+Anyone is able to run an Ethereum node on their computer. This means that you can participate in validating transactions and blocks on the Ethereum blockchain. The main node providers are [Geth](https://ethereum.github.io/go-ethereum/downloads/) and [Parity](https://github.com/paritytech/parity-ethereum/releases/tag/v2.0.6). Below are the different types of node a user can run, their settings, and what they mean.
 
 ## Full nodes
 
