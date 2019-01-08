@@ -1,5 +1,20 @@
 # Monetary Policy
 
+## Summary
+
+Ethereums Monetary Policy is defined by the rewards that are paid out by the protocol at any given time. At time of writing, Ethereums yearly network inflation is approximately 6.7% with 3 Ether per block and an additional 2.5 Ether per uncle block (plus fees) being rewarded to miners.
+
+Ethereum does not have an official Monetary Policy. Rather, the policy is decided upon by a wide range of stakeholders within the ecosystem - including:
+
+* Developers
+* Community members
+* Ecosystem spokes/projects
+* Miners and other network participants
+
+As Ethereum is a decentralized network, the Monetary Policy can only be successfully modified if there is overwhelming consensus from the aforementioned stakeholders. Ethereum follows an [off-chain governance](/ethereum-basics/governance/off-chain-governance.md) process meaning that any and all decisions on changes to the network happen extra-protocol.
+
+# Important Events
+
 ## Genesis Block
 
 As part of the Ethereum genesis block, initial contributors to Ethereum sale were allocated 60,000,000 Ether. Another 12,000,000 Ether was given to the development fund which was distributed among early contributors and the Ethereum Foundation.
