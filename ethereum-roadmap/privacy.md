@@ -10,7 +10,7 @@ Privacy on Ethereum is being actively worked on by a number of different teams.
   * zk-SNARKs (used in Zcash) 
   * zk-STARKs
 
-[Aztec Protocol](../built-on-ethereum/infrastructure/aztec-protocol.md) is building an efficient zero-knowledge privacy protocol and decentralised exchange. The protocol is already live on Ethereums mainnet.
+[Aztec Protocol](../built-on-ethereum/infrastructure/aztec-protocol.md) is building an efficient zero-knowledge privacy protocol and decentralised exchange. The protocol is already live on Ethereum's mainnet.
 
 [Starkware Industries](https://www.starkware.co/) is using STARK technology to improve scalability and privacy on Ethereum.
 
