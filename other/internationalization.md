@@ -15,7 +15,7 @@ Funding would be necessary to incentivize and compensate the translators.
 Translating EthHub is going to be no small feat especially when it comes to maintainence. It would be nearly impossible to actively translate every pull request as they are submitted. It makes more sense to create checkpoints or editions for the international versions of EthHub. This would allow us to carefully plan and review the required materials to be included and translated.
 
 ### Formalizing English edition
-The EthHub community will need to go through the entire site and determine what information needs to be written, edited, and reviewed before it is handed over to the translators. By creating editions instead of sister sites, we won't have to aim for a moving target. It may be appropriate to create a branch of the Github repo dedicated to the each edition.
+The EthHub community will need to go through the entire site and determine what information needs to be written, edited, and reviewed before it is handed over to the translators. By creating editions instead of sister sites, we won't have to aim for a moving target. It may be appropriate to create a branch of the Github repo dedicated to each edition.
 
 ### Translating into target languages
 There are two ways we can go about translating the materials: recruit and fund each translation team or place bounties on each page and rely on individual contributions.
