@@ -73,6 +73,7 @@
 * [Is Ethereum more expensive to use as price rises?](questions-about-ethereum/is-ethereum-more-expensive-to-use-as-price-rises.md)
 * [Why do you have to pay to use Ethereum?](questions-about-ethereum/why-do-you-have-to-pay-to-use-ethereum.md)
 * [Is Ethereum a security?](questions-about-ethereum/is-ethereum-a-security.md)
+* [Is Ethereum over 1TB in size?](questions-about-ethereum/is-ethereum-over-1tb-in-size.md)
 * [Is Ethereum immutable?](questions-about-ethereum/is-ethereum-immutable.md)
 * [Is Ether needed for transaction fees?](questions-about-ethereum/is-ether-needed-for-transaction-fees.md)
 * [If Ethereum is open source why can't it be copied?](questions-about-ethereum/if-ethereum-is-open-source-why-cant-it-be-copied.md)
