@@ -70,6 +70,7 @@ Synchronizes an archive node starting at genesis, thoroughly verifying all block
 In Geth, this is called gcmode which refers to the concept of [garbage collection](https://en.wikipedia.org/wiki/Garbage_collection_(computer_science)). Setting it to archive basically turns it off.
 
 **parity --no-warp --pruning archive**
+
 Synchronizes an archive node starting at genesis, thoroughly verifying all blocks, executing all transactions, and writing all intermediate states to disk ("archive").
 
 In Parity, this is called pruning which refers to the concept of [state trie pruning](https://ethereum.stackexchange.com/questions/174/what-is-state-trie-pruning-and-how-does-it-work). Setting it to archive basically turns it off.
@@ -87,4 +88,4 @@ In Parity, this is called pruning which refers to the concept of [state trie pru
 
 
 ##Resources##
-Huge should out and thanks to Afri Schoedon's blog [here](https://dev.to/5chdn/ethereum-node-configuration-modes-cheat-sheet-25l8) which is where most of the information on this page comes from.
+Huge shout out and thanks to Afri Schoedon's blog [here](https://dev.to/5chdn/ethereum-node-configuration-modes-cheat-sheet-25l8) which is where most of the information on this page comes from.
