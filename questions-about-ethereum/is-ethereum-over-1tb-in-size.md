@@ -20,7 +20,7 @@ These are full nodes because they:
 * Keep all historical blocks on disk
 * Keep the most recent state and prunes ancient states
 
-There is often much confusion around if a pruned Ethereum node (above) is a full node and the answer is yes. A lot of confusion comes from the fact that Bitcoin nodes leave no choice and [prune blocks by default](https://bitcoin.stackexchange.com/questions/37496/how-can-i-run-bitcoind-in-pruning-mode/37497#37497), so it's often not recognized that this occurs. The node configuration above is the same as a full Bitcoin node.
+There is often much confusion around if a pruned Ethereum node (above) is a full node and the answer is yes. A lot of confusion comes from the fact that Ethereum nodes never remove old blocks where as Bitcoin nodes in prune mode leave no choice but to [remove old blocks](https://bitcoin.stackexchange.com/questions/37496/how-can-i-run-bitcoind-in-pruning-mode/37497#37497).
 
 Pruning ancient blocks is fine as they are not necessary to most users. If you are looking to run a block explorer or do deep analysis on the blockchain, then you could [run an archive node](https://docs.ethhub.io/using-ethereum/running-an-ethereum-node#archive-nodes) with no pruning to get them. 
 
