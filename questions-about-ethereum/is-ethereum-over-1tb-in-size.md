@@ -3,7 +3,7 @@
 ##Answer
 No. Please check [here](http://didtheethereumblockchainreach1tbyet.5chdn.co/) for the latest size.
 
-##Explination
+##Explanation
 As Afri Schoedon points out in [his article](https://dev.to/5chdn/the-ethereum-blockchain-size-will-not-exceed-1tb-anytime-soon-58a), the Ethereum state is what is bloated, not the chain.
 
 So what sync mode should you run to get a full Ethereum blockchain with all necessary security? Both Parity and Geth offer options which synchronize a full node starting at the genesis block and executing all transactions. The modes are:
