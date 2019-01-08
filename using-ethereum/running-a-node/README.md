@@ -2,26 +2,76 @@
 
 ## Summary
 
-Anyone is able to run an Ethereum node on their computer. This means that you can participate in validating the blockchain.
+Anyone is able to run an Ethereum node on their computer. This means that you can participate in validating transactions and blocks on the Ethereum blockchain. The main node providers are [Geth](https://ethereum.github.io/go-ethereum/downloads/) and [Parity]((https://github.com/paritytech/parity-ethereum/releases/tag/v2.0.6)). Below are the different types of node a user can run, their settings, and what they mean.
 
-## What is a light node?
+## Full nodes
 
-A light node listens to full nodes it is connected to and only receives relevant Blockchain data periodically. Light nodes are useful for low capacity devices, such as embeded devices or mobile phones, which can't afford to store multiple dozen Gigabytes of blockchain data.
+A full node: 
 
-## What is a full node?
+* Stores the full blockchain data available on disk and can serve the network with any data on request. 
+* Receives new transactions and blocks while participating in block validation.
 
-Full nodes are responsible for maintaining the balance of the Blockchain. They receive new transactions and blocks, all while participating in block validation. Considering a full nodes validative responsibilities, they are required to hold more precise records of the Blockchain when compared to light nodes - which are only there to listen to full nodes.
+#Client settings
 
-## What are the simplest commands for running a light node and full node?
+**geth**
 
-Light node:
+The default sync mode. Synchronizes a full node doing a [fast synchronization](https://ethereum.stackexchange.com/questions/1161/what-is-geths-fast-sync-and-why-is-it-faster) by downloading the entire state database, requesting the headers first, and filling in block bodies and receipts afterward. Once the fast sync reached the best block of the Ethereum network, it switches to a full sync mode
 
-* **geth**: --syncmode "light"
-* **parity**: --light
+**geth --syncmode full**
 
-Full node:
+Synchronizes a full node starting at genesis verifying all blocks and executing all transactions. This mode is a bit slower than the fast sync mode but comes with increased security.
 
-The default settings for Geth and Parity are the best for full nodes.
+**parity**
+
+The default sync mode. Synchronizes a full Ethereum node using [warp synchronization](https://ethereum.stackexchange.com/questions/9991/what-is-paritys-warp-sync-and-why-is-it-faster-than-geth-fast) mode by downloading a snapshot of the 30,000 best blocks and the latest state database.
+
+Once the snapshot is restored, the client switches to full sync and ancient blocks are synchronized from the network in background.
+
+**parity --no-warp**
+
+Synchronizes a full node starting at genesis verifying all blocks and executing all transactions. This mode is a bit slower than the warp sync mode but comes with increased security.
+
+## Light nodes
+
+A light node: 
+	
+* Stores the header chain and requests everything else on demand.
+* Can verify the validity of the data against the state roots in the block headers. 
+
+Light nodes are useful for low capacity devices, such as embedded devices or mobile phones, which can't afford to store multiple dozen Gigabytes of blockchain data.
+
+#Client settings
+
+**geth --syncmode light**
+
+Waits for around 200 seconds before beginning to sync from 2,300 blocks in the past, then periodically receives small bundles of 1 to 10 blocks. The initial sync takes very little time.
+
+**parity --light**
+
+Begins syncing from a hardcoded value \(block \#6219777\) almost immediately, at a rate of approximately 23,500 blocks per minute. With a height at 6,500,000, this takes 15 minutes. Once synced, the light node receives blocks as they get mined and validated by full nodes.
+
+**parity --light --no-hardcoded-sync**
+
+Same as --light but syncs from genesis block.
+
+##Archive Nodes
+
+An archive node:
+
+* Stores everything kept in the full node.
+* Also builds an archive of historical states.
+
+**geth --syncmode full --gcmode archive**
+
+Synchronizes an archive node starting at genesis, thoroughly verifying all blocks, executing all transactions, and writing all intermediate states to disk ("archive").
+
+In Geth, this is called gcmode which refers to the concept of [garbage collection](https://en.wikipedia.org/wiki/Garbage_collection_(computer_science)). Setting it to archive basically turns it off.
+
+**parity --no-warp --pruning archive**
+Synchronizes an archive node starting at genesis, thoroughly verifying all blocks, executing all transactions, and writing all intermediate states to disk ("archive").
+
+In Parity, this is called pruning which refers to the concept of [state trie pruning](https://ethereum.stackexchange.com/questions/174/what-is-state-trie-pruning-and-how-does-it-work). Setting it to archive basically turns it off.
+
 
 ## Table of node settings
 
@@ -33,14 +83,6 @@ The default settings for Geth and Parity are the best for full nodes.
 
 ![](../../.gitbook/assets/geth-modes.png)
 
-## Node Benchmarks
 
-### Light mode:
-
-* Parity begins syncing from a hardcoded value \(block \#6219777\) almost immediately, at a rate of approximately 23,500 blocks per minute. With a height at 6,500,000, this takes 15 minutes. Once synced, the light node receives blocks as they get mined and validated by full nodes.
-* Geth waits for around 200 seconds before beginning to sync from 2,300 blocks in the past, then periodically receives small bundles of 1 to 10 blocks. The initial sync takes very little time.
-
-### Fast sync:
-
-* For a full node, Parity takes around 6 to 12 hours for a complete sync without warp mode
-* For a full node, Geth takes around 6 to 12 hours for a complete sync in fast mode
+##Resources##
+Huge should out and thanks to Afri Schoedon's blog [here](https://dev.to/5chdn/ethereum-node-configuration-modes-cheat-sheet-25l8) which is where most of the information on this page comes from.
