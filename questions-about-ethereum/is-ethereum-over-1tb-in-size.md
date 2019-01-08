@@ -24,4 +24,4 @@ There is often much confusion around if a pruned Ethereum node (above) is a full
 
 Pruning ancient blocks is fine as they are not necessary to most users. If you are looking to run a block explorer or do deep analysis on the blockchain, then you could [run an archive node](https://docs.ethhub.io/using-ethereum/running-an-ethereum-node#archive-nodes) with no pruning to get them. 
 
-Also note that you can run both Geth and Parity by default (warp and fast sync enabled) and you'll be able to server the network as a full node after initial sync.
+Also note that you can run both Geth and Parity by default (warp and fast sync enabled) and you'll be able to serve the network as a full node after initial sync.
