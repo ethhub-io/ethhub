@@ -1,7 +1,7 @@
 # Is the Ethereum blockchain over 1TB in size?
 
 ##Answer
-[No](http://didtheethereumblockchainreach1tbyet.5chdn.co/)
+No. Please check [here](http://didtheethereumblockchainreach1tbyet.5chdn.co/) for the latest size.
 
 ##Explination
 As Afri Schoedon points out in [his article](https://dev.to/5chdn/the-ethereum-blockchain-size-will-not-exceed-1tb-anytime-soon-58a), the Ethereum state is what is bloated, not the chain.
