@@ -55,7 +55,7 @@
   * [Mining](using-ethereum/ethereum-network-basics/mining/README.md)
     * [Block Generation](using-ethereum/ethereum-network-basics/mining/block-generation.md)
     * [Uncle Blocks](using-ethereum/ethereum-network-basics/mining/uncle-blocks.md)
-* [Running a Node](using-ethereum/running-a-node/README.md)
+* [Running an Ethereum Node](using-ethereum/running-an-ethereum-node/README.md)
 * [Wallets](using-ethereum/wallets/README.md)
   * [Desktop](using-ethereum/wallets/desktop.md)
   * [Hardware](using-ethereum/wallets/hardware.md)
