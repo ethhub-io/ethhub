@@ -28,5 +28,6 @@ Some of the potential benefits include:
 * [The Crypto-Securities Canon](https://medium.com/harborhq/the-crypto-securities-canon-e0d5eb53ed1d)
 * [Security Tokens Explained](https://www.apollocap.io/blog/2018/11/5/security-tokens-explained)
 * [How Tokenization Is Putting Real-World Assets on Blockchains](https://www.nasdaq.com/article/how-tokenization-is-putting-real-world-assets-on-blockchains-cm767952)
+* [Understanding Security Token Offerings (STO)](https://medium.com/swlh/understanding-security-token-offerings-sto-bc272acd3f27)
 
 
