@@ -48,7 +48,7 @@ A light node:
 
 Light nodes are useful for low capacity devices, such as embedded devices or mobile phones, which can't afford to store multiple dozen Gigabytes of blockchain data.
 
-###Client settings
+### Client settings
 
 **geth --syncmode light**
 
@@ -62,7 +62,7 @@ Begins syncing from a hardcoded value \(block \#6219777\) almost immediately, at
 
 Same as --light but syncs from genesis block.
 
-##Archive Nodes
+## Archive Nodes
 
 An archive node:
 
@@ -73,7 +73,7 @@ Archive nodes are only necessary if you want to check the state of an account at
 
 They are commonly only used for services such as block explorers and infrastructure providers like Infura.
 
-###Client Settings
+### Client Settings
 
 **geth --syncmode full --gcmode archive**
 
