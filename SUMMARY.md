@@ -127,7 +127,7 @@
   * [ERC1257](built-on-ethereum/erc-token-standards/erc1275.md)
 * [Decentralized Exchanges](built-on-ethereum/decentralized-exchanges/README.md)
   * [Off-chain Order Book](built-on-ethereum/decentralized-exchanges/off-chain-orderbook/README.md)
-  * [0x Protocol](built-on-ethereum/decentralized-exchanges/off-chain-orderbook/0x-protocol/README.md)
+    * [0x Protocol](built-on-ethereum/decentralized-exchanges/off-chain-orderbook/0x-protocol/README.md)
       * [0x Instant](built-on-ethereum/decentralized-exchanges/off-chain-orderbook/0x-protocol/0x-instant.md)
       * [0x Relayers](built-on-ethereum/decentralized-exchanges/off-chain-orderbook/0x-protocol/0x-relayers.md)
     * [EtherDelta](built-on-ethereum/decentralized-exchanges/off-chain-orderbook/etherdelta.md)
