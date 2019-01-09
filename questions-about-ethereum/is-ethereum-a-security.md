@@ -1,5 +1,7 @@
 # Is Ethereum a security?
 
+## Answer
+
 In the US, the SEC has not issued a formal ruling, but recent comments suggest that they do not believe Ether is a security. Other jurisdictions have not made this distinction clear. 
 
 ## Explanation
@@ -15,9 +17,9 @@ In the US, the SEC uses the Howey test to determine whether something can be leg
 
 Ether easily fits the first two criteria. People buy Ether with fiat currency, and many do so with the expectation of profit. However, the second two criteria are more difficult to prove. 
 
-First, money used to purchase Ether does not necessarily go toward a common enterprise. In its current form, purchased Ether only permits usage of the network. It does not provide ownership to a part of common enterprise. This condition may change under Proof-of-Stake given that Ether offers people the ability to earn returns while securing the network. Even so, this feature does not fit cleanly into the traditional definition of a common enterprise.
+First, money used to purchase Ether does not necessarily go toward a common enterprise. In its current form, purchased Ether only permits usage of the network, not ownership to an enterprise. This condition may change under Proof-of-Stake given that Ether offers people the ability to earn returns while securing the network. Even so, this feature does not fit cleanly into the traditional definition of a common enterprise.
 
-Second, Ethereum does not generate profit, nor does it rely on the efforts of a promoter or third party. Ethereum is a network, not a corporation, so it does not identifiable profits beyond the value appreciation of Ether. The value of Ether also originates from open source development. While Vitalik Buterin and the Ethereum Foundation contribute to Ethereum's development, so do many unaffiliated entities and individuals. As such, it is difficult to argue that Ether generates a profit based on efforts of a third party.
+Second, Ethereum does not generate profit, nor does it rely on the efforts of a promoter or third party. Ethereum is a network, not a corporation, so it does not produce identifiable profits beyond the value appreciation of Ether. The value of Ether also originates from open source development. While Vitalik Buterin and the Ethereum Foundation contribute to Ethereum's development, so do many unaffiliated entities and individuals. As such, it is difficult to argue that Ether generates a profit based on efforts of a third party.
 
 While the SEC has not formally ruled on the legal status of Ether, comments from regulators in 2018 suggest that they see a compelling case to argue against classifying Ether as a security. 
 
