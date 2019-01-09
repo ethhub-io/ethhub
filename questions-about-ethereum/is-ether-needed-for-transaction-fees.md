@@ -1,8 +1,14 @@
 # Is Ether needed for transaction fees?
 
-Yes. The notion that transaction fees on Ethereum can be paid in-protocol by something other than ether (such as an ERC20 token) is called 'economic abstraction'. We explain why the Ethereum protocol is unlikely to integrate economic abstraction below.
+## Answer
 
-Why is economic abstraction used to argue Ether will go to 0? The theory is that users could pay their transaction costs to miners in something other than Ether. Therefore, if that becomes rampant, Ether itself would have no value. This argument can be used on any Proof-of-Work blockchain, it's an especially popular criticism against Ethereum since it appears easy to create additional ERC20 tokens that can be exchanged for Ether.
+Yes. Ether is necessary for Ethereum network security and operational efficiency for miners.
+
+## Explanation
+
+The notion that transaction fees on Ethereum can be paid in-protocol by something other than ether (such as an ERC20 token) is called 'economic abstraction'. We explain why the Ethereum protocol is unlikely to integrate economic abstraction below.
+
+Economic abstraction is often used to argue that the value of Ether will go to 0. The theory is that users could pay their transaction costs to miners in something other than Ether. Therefore, if that becomes rampant, Ether itself would have no value. This argument can be used on any Proof-of-Work blockchain, it's an especially popular criticism against Ethereum since it appears easy to create additional ERC20 tokens that can be exchanged for Ether.
 
 Quick recap on how transactions work on Ethereum. Each transaction uses a set amount of gas. Users pay miners to include their transaction using a gas price. Gas * Gas Price = transaction cost. The base protocol assumes gas price in ETH and every wallet calculates transaction cost in total ETH to pay.
 
