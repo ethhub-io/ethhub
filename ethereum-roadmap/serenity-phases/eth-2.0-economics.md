@@ -39,7 +39,7 @@ We can calculate this scale using the spec. There are a lot of variables in doin
 | Shards | 1024 |
 | Slot time (in seconds) | 6 |
 | Epoch Length (in slots) | 64 |
-| Base Reward Quotient | 2048 |
+| Base Reward Quotient | 1024 |
 
 From here we can start to calculate the **outputs** using a single **assumption** which is **total network stake.** \(Let's assume 10,000,000 in the example\)
 
@@ -48,8 +48,8 @@ From here we can start to calculate the **outputs** using a single **assumption*
 | Network Validators | 10000000/32 = 312,500 |
 | Validators/Shard | 10000000/\(32\*1024\) = 305 |
 | Epoch/year | 31536000/\(6\*64\) = 82125 |
-| Reward Quotient | 2048\*INT\(SQRT\(10000000\)\) = 6475776 |
-| Reward/epoch | 10000000/6475776\*2 = 3.088 |
+| Reward Quotient | 1024\*INT\(SQRT\(10000000\)\) = 3,237,888 |
+| Reward/epoch | 10000000/3237888 = 3.088 |
 | Generated ETH/Year | 82125\*3.088 = 253638 |
 | Validator Interest/Year | 253638/10000000 = 2.54% |
 | Issuance Rate/Year | 253638/104000000 = 0.24% |
