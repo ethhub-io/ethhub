@@ -109,4 +109,4 @@ There is over [500 alternative PoS coins](https://masternodes.online/), with a r
 ## Spreadsheet Examples
 Click [here](https://docs.google.com/spreadsheets/d/1SZBJsTHBFmRlo6aLZ0ex_bnTO3MqQrsZK9yLWqL4r68/edit?usp=sharing) to see calculations of network and personal staking variables given the latest spec.
 
-Building on the above, this [sheet](https://docs.google.com/spreadsheets/d/1OzZslceHl_EYRQyx6WibZpPKfvf3SVxLANl0aOB23Xc/edit?usp=sharing) analyzes the financial return when utilizing different validator architectures. 
+Building on the above, this [sheet](https://docs.google.com/spreadsheets/d/1rfuWnfg42mBcaHEPr-b0gvXofHfl3fC7ldmKQ8JjfMU/edit?usp=sharing) analyzes the financial return when utilizing different validator architectures. 
