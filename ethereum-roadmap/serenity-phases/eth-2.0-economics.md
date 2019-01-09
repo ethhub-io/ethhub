@@ -107,6 +107,6 @@ More traditional investment alternatives such as bonds, certificates of deposit,
 There is over [500 alternative PoS coins](https://masternodes.online/), with a reward structure. Why stake ETH, when one can earn more, with potentially less infrastructure and risk, on another coin?
 
 ## Spreadsheet Examples
-Click [here](https://docs.google.com/spreadsheets/d/1SZBJsTHBFmRlo6aLZ0ex_bnTO3MqQrsZK9yLWqL4r68/edit?usp=sharing) to see calculations of network and personal staking variables given the latest spec.
+* Basic: Click [here](https://docs.google.com/spreadsheets/d/1SZBJsTHBFmRlo6aLZ0ex_bnTO3MqQrsZK9yLWqL4r68/edit?usp=sharing) to see calculations of network and personal staking variables given the latest spec.
 
-Building on the above, this [sheet](https://docs.google.com/spreadsheets/d/1rfuWnfg42mBcaHEPr-b0gvXofHfl3fC7ldmKQ8JjfMU/edit?usp=sharing) analyzes the financial return when utilizing different validator architectures. 
+* Advanced: Building on the above, this [sheet](https://docs.google.com/spreadsheets/d/1rfuWnfg42mBcaHEPr-b0gvXofHfl3fC7ldmKQ8JjfMU/edit?usp=sharing) analyzes the financial return when utilizing different validator architectures. 
