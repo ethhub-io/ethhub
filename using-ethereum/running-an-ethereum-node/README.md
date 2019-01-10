@@ -27,6 +27,8 @@ The default sync mode. Synchronizes a full Ethereum node using [warp synchroniza
 
 Once the snapshot is restored, the client switches to full sync and ancient blocks are synchronized from the network in background.
 
+A parity default node serves the network as a full node after it has finished synchronizing.
+
 **parity --no-warp**
 
 Synchronizes a full node starting at genesis verifying all blocks and executing all transactions. This mode is a bit slower than the warp sync mode but comes with increased security.
