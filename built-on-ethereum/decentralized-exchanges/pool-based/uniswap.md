@@ -15,4 +15,4 @@ Anyone can send their tokens and ether to the liquidity pool. There is a small f
 * [Website](https://uniswap.io/)
 * [Exchange](https://uniswap.exchange/)
 * [Uniswap — A Unique Exchange (blog post)](https://medium.com/@cyrus.younessi/uniswap-a-unique-exchange-f4ef44f807bf)
-
+* [Uniswap: How to add Liquidity to a pool] (https://settle.finance/blog/uniswap-adding-liquidity/)
