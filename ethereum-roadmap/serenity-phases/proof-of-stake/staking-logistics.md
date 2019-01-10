@@ -31,7 +31,7 @@ This means that there are three possible combinations of software to run:
 Still TBD. Ideally we can get minimum requirements for all three setups mentioned above. 
 
 ## What happens if I lose my internet connection while staking?
-The key to being a validator is making sure you are only voting for blocks and therefore securing the network. Therefore, there a slight penalty if your validator client goes offline at any point. There are two scenarios where this can happen:
+The key to being a validator is making sure you are only voting for blocks and therefore securing the network. Therefore, there is a slight penalty if your validator client goes offline at any point. There are two scenarios where this can happen:
 
 1. If blocks are finalizing and you're offline, you can lose x% of your deposit over a year where x=current_interest
 	* For example, if the current interest rate is 5%, you would lose 0.0137% of your deposit every day, but gain that for every day you're online.
