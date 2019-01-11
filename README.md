@@ -18,3 +18,5 @@ There are also some basic guidelines that need to be followed when contributing 
 * No marketing or sponsored posts
 * No promotion of ICOs/token sales
 * No inappropriate content
+
+Join the discussion on our Discord server: https://discord.gg/VDMBe4c
