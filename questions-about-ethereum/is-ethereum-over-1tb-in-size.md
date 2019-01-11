@@ -20,8 +20,10 @@ These are full nodes because they:
 * Keep all historical blocks on disk
 * Keep the most recent state and prunes ancient states
 
-There is often much confusion around if a pruned Ethereum node (above) is a full node and the answer is yes. A lot of confusion comes from the fact that Ethereum nodes never remove old blocks where as Bitcoin nodes in prune mode leave no choice but to [remove old blocks](https://bitcoin.stackexchange.com/questions/37496/how-can-i-run-bitcoind-in-pruning-mode/37497#37497).
+When running the full node described above, you are able to rebuild any historical information you want using just your node.
 
-Pruning ancient blocks is fine as they are not necessary to most users. If you are looking to run a block explorer or do deep analysis on the blockchain, then you could [run an archive node](https://docs.ethhub.io/using-ethereum/running-an-ethereum-node#archive-nodes) with no pruning to get them. 
+There is often much confusion around if a state pruned Ethereum node (above) is a full node and the answer is yes. 
+
+Pruning ancient state is fine as it is not necessary to most users. If you are looking to run a block explorer or do deep analysis on the blockchain, then you could [run an archive node](https://docs.ethhub.io/using-ethereum/running-an-ethereum-node#archive-nodes) with no pruning so you don't have to always recompute the pruned state. 
 
 Also note that you can run both Geth and Parity by default (warp and fast sync enabled) and you'll be able to serve the network as a full node after initial sync.
