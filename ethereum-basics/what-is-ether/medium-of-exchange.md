@@ -11,3 +11,6 @@ On top of this, Ether has additional properties such as being censorship-resista
 The supply scheme of crypto-assets is hotly debated among various parties (especially those in the Bitcoin community) and there are currently two main approaches: a capped supply (like Bitcoin) or a low, predictable and hard to change issuance rate (like what is planned for Ethereum 2.0).
 
 In Ethereum 2.0 (with Sharding and Proof of Stake implemented), while a low inflation rate will always guarantee the validators are rewarded for securing the network, it suffers from the fact that it may dilute the value of Ether for those that are not validators. Though, this is offset by Ether being taken out of the circulating supply through staking, various open finance applications, fee burning, and people simply losing access to their Ether.
+
+## Resources
+* [Why Ether is Valuable](https://medium.com/ethhub/why-ether-is-valuable-2b4e39e01eb3)
