@@ -6,6 +6,7 @@ The Ropsten test network is a Proof of Work testnet for Ethereum. To acquire ETH
 
 ## Resources
 
-* [Block Explorer](https://ropsten.etherscan.io/)  
+* [Block Explorer](https://ropsten.etherscan.io/)
+* [Ethstats for Ropsten](https://ropsten-stats.parity.io/)
 
 
