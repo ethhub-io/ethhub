@@ -5,5 +5,5 @@ Seigniorage \(or algorithmic\) stablecoins can be linked to a decentralized auto
 ## Notable algorithmic stablecoins:
 
 * Basis \(project was cancelled\)
-* Fragments
+* Ampleforth
 
