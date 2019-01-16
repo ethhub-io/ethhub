@@ -44,7 +44,7 @@ Issuance rate is also impacted by the speed of blocks. There have been a few oth
 
 ### Proof of Stake Impact
 
-According to the current [Eth 2.0 spec](https://notes.ethereum.org/s/Syj3QZSxm), issuance rate will be greatly reduced as a part of Proof of Stake. There will be a [sliding scale](https://github.com/ethhub-io/ethhub/tree/0a7ff4fafc1c12cae51ab257c887afd06e36e6dd/roadmap/serenity-phases/eth-2.0-economics.md#staking-rewards) between total amount of Ether at stake and annual interest earned by stakers. The current spec would produce the following annual interest and inflation numbers based on total network stake:
+According to the current [Eth 2.0 spec](https://github.com/ethereum/eth2.0-specs), issuance rate will be greatly reduced as a part of Proof of Stake. There will be a sliding scale between total amount of Ether at stake and annual interest earned by stakers. The current spec would produce the following annual interest and inflation numbers based on total network stake:
 
 ![](../.gitbook/assets/screen-shot-2018-12-10-at-6.55.04-pm.png)
 
@@ -53,8 +53,8 @@ According to the current [Eth 2.0 spec](https://notes.ethereum.org/s/Syj3QZSxm),
 There are three majors upcoming factors when it comes to Ethereum's issuance rate and supply curve. They are:
 
 * Constantinople Hard Fork: block rewards drop from 3 to 2.
-* [Serenity Phase 0](https://github.com/ethhub-io/ethhub/blob/master/roadmap/timeline/serenity-phases.md): Slight bump in issuance due to Beacon Chain launch.
-* [Serenity Phase 2](https://github.com/ethhub-io/ethhub/blob/master/roadmap/timeline/serenity-phases.md): Strong drop in issuance due to the PoW chain fading away.
+* [Serenity Phase 0](https://github.com/ethhub-io/ethhub/tree/master/ethereum-roadmap/serenity-phases): Slight bump in issuance due to Beacon Chain launch.
+* [Serenity Phase 2](https://github.com/ethhub-io/ethhub/tree/master/ethereum-roadmap/serenity-phases): Strong drop in issuance due to the PoW chain fading away.
 
 ![](../.gitbook/assets/screen-shot-2018-12-11-at-7.51.08-am.png)
 
