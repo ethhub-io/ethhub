@@ -38,7 +38,6 @@
 
 * [Into the Ether](https://podcast.ethhub.io/)
 * [Epicenter](https://epicenter.tv/)
-* [An Ethereum Podcast](https://thebitcoinpodcast.com/category/an-ethereum-podcast/)
 * [Unchained](https://www.forbes.com/podcasts/unchained/#39e6bd005b4f)
 * [Unconfirmed](https://unconfirmed.libsyn.com/)
 * [Zero Knowledge](http://www.zeroknowledge.fm/)
@@ -168,7 +167,7 @@
 ## Decentralized Exchanges (DEXs)
 
 * [EthHub DEX Section](../built-on-ethereum/decentralized-exchanges/README.md)
-* [List of all Decentralized Exchanges](https://github.com/PYMERVAL/decentradexchange/blob/master/README.md)
+* [List of all Decentralized Exchanges](https://github.com/distribuyed/index/blob/master/README.md)
 * [Uniswap](https://uniswap.io/)
 * [Radar Relay](https://app.radarrelay.com/)
 * [IDEX](https://idex.market)
@@ -205,7 +204,6 @@
 
 * [Token Sale History](https://elementus.io/token-sales-history)
 * [Coin 360 (CryptoMaps)](https://coin360.io/)
-* [Sifr Data](http://www.sifrdata.com/)
 * [Real time Ethereum transactions](http://www.ethviewer.live/)
 * [Cointracker Visualizations](https://www.cointracker.io/visualizations/coin_correlations)
 * [Security Tracker Infrastructure](https://research.suicide.ventures/security-tokens-infrastructure/)
@@ -247,7 +245,7 @@
 
 ### Augur
 * [Guesser](https://guesser.io/)
-* [Veil - Markets on Everything](https://veil.market/)
+* [Veil - Markets on Everything](https://veil.co/)
 * [Predictions.global - Augur Prediction Markets](https://predictions.global/)
 * [Explore Augur](https://exploreaugur.com/)
 
@@ -265,7 +263,6 @@
 # Miscellaneous
 
 * [Definitive SEC Guide](https://messari.io/resource/definitive-sec-guidance-orders-speeches-actions-announcement-compilation-within-the-crypto-and-digital-asset-space)
-* [Crypto Code Watch](https://cryptocodewatch.com/)
 * [Bitcoin on Ethereum](https://www.wbtc.network/)
 * [Ethereum Obituaries](https://github.com/jragosa/EthereumObituaries/blob/master/README.md)
 * [Crypto Subreddit Tracker](https://cryptosub.live/)
@@ -275,7 +272,6 @@
 * [Securify](https://securify.chainsecurity.com/)
 * [Etherean.org](https://forum.etherean.org/)
 * [Did the Ethereum blockchain reach 1TB yet?](http://didtheethereumblockchainreach1tbyet.5chdn.co/)
-* [What About Archive Nodes?](http://whataboutarchivenodes.5chdn.co/)
 * [Blockchain Security Contacts](https://github.com/trailofbits/blockchain-security-contacts)
 * [The Brooklyn Project](https://thebkp.com/)
 * [Crypto Grant Programs](https://github.com/fredexed/crypto-funding-ops)
