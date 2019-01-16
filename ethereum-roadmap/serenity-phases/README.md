@@ -1,4 +1,4 @@
-# Serenity Phases
+# Serenity (Eth 2.0) Phases
 
 _This page is a WIP._
 
