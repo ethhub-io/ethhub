@@ -10,4 +10,3 @@ There are currently 9 independent development teams building Ethereum 2.0 client
 6. [Sigma Prime](sigma.md)
 7. [Status](status.md)
 8. [Trinity](trinity.md)
-9. [Dean Eigenmann](swift.md)
