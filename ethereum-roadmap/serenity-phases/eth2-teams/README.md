@@ -10,3 +10,4 @@ There are currently 8 independent development teams building Ethereum 2.0:
 6. [Sigma Prime](sigma.md)
 7. [Status](status.md)
 8. [Trinity](trinity.md)
+9. [Dean Eigenmann](swift.md)
