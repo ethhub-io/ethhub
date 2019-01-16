@@ -32,7 +32,7 @@ Once Phase 0 is complete, there will be two active Ethereum chains. For the sake
 
 ### What is included?
 
-Phase 1 will bring shard chains to the Eth 2.0 side. Shard chains are the key to future scalability as they allow parallel transaction throughput. In Phase 1, the beacon chain will now start to manage multiple shards at once.
+Phase 1 will bring shard chains to the Eth 2.0 side. Shard chains are the key to future scalability as they allow parallel transaction throughput. In Phase 1, the Beacon Chain will now start to manage multiple shards at once.
 
 ### What will the network look like?
 
@@ -46,7 +46,7 @@ The Eth 1.0 and 2.0 chains will still operate in parallel after Phase 1.
 
 ### What is included?
 
-Phase 2 is where the functionality will start to come together. At this point, the beacon chain and shards chains are live, but they are somewhat useless from an end user perspective until smart contracts and transactions can be executed. This will be added in Phase 2.
+Phase 2 is where the functionality will start to come together. At this point, the Beacon Chain and shards chains are live, but they are somewhat useless from an end user perspective until smart contracts and transactions can be executed. This will be added in Phase 2.
 
 ### Important Considerations
 
