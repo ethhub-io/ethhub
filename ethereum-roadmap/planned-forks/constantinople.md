@@ -10,5 +10,5 @@ The Constantinople hard fork will occur at block 7,080,000 on approximately 1/16
 
 ## Resources
 
-* [Constantinople Progress Tracker](https://github.com/ethereum/pm/issues/53#issue-345905457)
+* [Constantinople Progress Tracker](https://github.com/ethereum/pm/wiki/Constantinople-Progress-Tracker)
 
