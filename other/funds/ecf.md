@@ -1,8 +1,9 @@
-# The Ethereum Community Fund (ECF)
+# ECF
 
-The Ethereum Community Fund (ECF) aims to provide both funding and support to builders of decentralized technologies.
+The Ethereum Community Fund \(ECF\) aims to provide both funding and support to builders of decentralized technologies.
 
 ## Founding Members
+
 1. Cosmos
 2. Omisego
 3. Golem
@@ -11,5 +12,4 @@ The Ethereum Community Fund (ECF) aims to provide both funding and support to bu
 6. MakerDAO
 7. Ethereum Foundation 
 8. Status.im
-
 

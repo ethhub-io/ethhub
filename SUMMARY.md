@@ -18,7 +18,7 @@
   * [Patterns](ethereum-basics/development/patterns.md)
   * [Testing](ethereum-basics/development/testing.md)
   * [Tooling](ethereum-basics/development/tooling.md)
-* [Resources](/resources/README.md)
+* [Resources](ethereum-basics/resources.md)
 
 ## Ethereum Roadmap
 
@@ -56,7 +56,7 @@
   * [Mining](using-ethereum/ethereum-network-basics/mining/README.md)
     * [Block Generation](using-ethereum/ethereum-network-basics/mining/block-generation.md)
     * [Uncle Blocks](using-ethereum/ethereum-network-basics/mining/uncle-blocks.md)
-* [Running an Ethereum Node](using-ethereum/running-an-ethereum-node/README.md)
+* [Running an Ethereum Node](using-ethereum/running-an-ethereum-node.md)
 * [Wallets](using-ethereum/wallets/README.md)
   * [Desktop](using-ethereum/wallets/desktop.md)
   * [Hardware](using-ethereum/wallets/hardware.md)
@@ -93,7 +93,7 @@
       * [Dai](built-on-ethereum/open-finance/stablecoins/crypto-backed/dai.md)
       * [Synthetix](built-on-ethereum/open-finance/stablecoins/crypto-backed/synthetix.md)
     * [Algorithmic](built-on-ethereum/open-finance/stablecoins/algorithmic/README.md)
-      * [Basis](built-on-ethereum/open-finance/stablecoins/algorithmic-backed/basis.md)
+      * [Basis](built-on-ethereum/open-finance/stablecoins/algorithmic/basis.md)
   * [Lending](built-on-ethereum/open-finance/lending/README.md)
     * [bZx](built-on-ethereum/open-finance/lending/bzx.md)
     * [Compound](built-on-ethereum/open-finance/lending/compound.md)
@@ -125,7 +125,7 @@
   * [ERC884](built-on-ethereum/erc-token-standards/erc884.md)
   * [ERC918](built-on-ethereum/erc-token-standards/erc918.md)
   * [ERC1155](built-on-ethereum/erc-token-standards/erc1155.md)
-  * [ERC1257](built-on-ethereum/erc-token-standards/erc1275.md)
+  * [ERC1257](built-on-ethereum/erc-token-standards/erc1257.md)
 * [Decentralized Exchanges](built-on-ethereum/decentralized-exchanges/README.md)
   * [Off-chain Order Book](built-on-ethereum/decentralized-exchanges/off-chain-orderbook/README.md)
     * [0x Protocol](built-on-ethereum/decentralized-exchanges/off-chain-orderbook/0x-protocol/README.md)
@@ -138,7 +138,6 @@
   * [Peer to Peer](built-on-ethereum/decentralized-exchanges/peer-to-peer/README.md)
     * [Republic Protocol](built-on-ethereum/decentralized-exchanges/peer-to-peer/republic-protocol.md)
     * [AirSwap](built-on-ethereum/decentralized-exchanges/peer-to-peer/airswap.md)
-    
   * [Pool Based](built-on-ethereum/decentralized-exchanges/pool-based/README.md)
     * [Uniswap](built-on-ethereum/decentralized-exchanges/pool-based/uniswap.md)
     * [Bancor](built-on-ethereum/decentralized-exchanges/pool-based/bancor.md)

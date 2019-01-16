@@ -8,3 +8,4 @@ Prediction markets facilitate the trading of event derivatives. They have been a
 
 * [Wikipedia](https://en.wikipedia.org/wiki/Prediction_market)
 * [Circle Prediction Markets Report](https://www.circle.com/en/research/prediction-markets)
+

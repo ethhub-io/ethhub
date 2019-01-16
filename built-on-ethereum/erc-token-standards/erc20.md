@@ -1,4 +1,4 @@
-# ERC-20 - Token Standard
+# ERC20
 
 ## Summary
 
@@ -17,8 +17,8 @@ However, there are other optional values for additional information such as:
 
 ERC20 defines two types of events, `Transfer()`, triggered when tokens are transferred and `Approve()`, used for every successful call of the `approve()` method. This token may also include functions such as `allowance()`, `approve()`, and `transferFrom()` to offer advanced functionalities and authorize some other Ethereum address to utilise your tokens on your behalf. This other Ethereum address could be a smart contract designed to handle tokens or just another account.
 
-
 ## Resources
+
 * [Github](https://github.com/ethereum/EIPs/issues/20)
 * [Wiki](https://theethereum.wiki/w/index.php/ERC20_Token_Standard)
 

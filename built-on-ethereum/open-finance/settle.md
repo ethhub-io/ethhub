@@ -1,4 +1,4 @@
-# Settle Finance
+# Settle
 
 ## Summary
 
@@ -14,3 +14,4 @@ Settle is a web-native operating system for decentralized finance. Settle attemp
 * [Website](https://settle.finance)  
 * [App](https://settle.finance/os)  
 * [Twitter](https://twitter.com/settlefinance)
+

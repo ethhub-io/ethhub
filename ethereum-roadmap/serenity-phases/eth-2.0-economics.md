@@ -37,8 +37,8 @@ We can calculate this scale using the spec. There are a lot of variables in doin
 | :--- | :--- |
 | ETH stake | 32 |
 | Shards | 1024 |
-| Slot time (in seconds) | 6 |
-| Epoch Length (in slots) | 64 |
+| Slot time \(in seconds\) | 6 |
+| Epoch Length \(in slots\) | 64 |
 | Base Reward Quotient | 1024 |
 
 From here we can start to calculate the **outputs** using a single **assumption** which is **total network stake.** \(Let's assume 10,000,000 in the example\)
@@ -90,7 +90,7 @@ Validating and earning rewards is not a free lunch. There are many things to con
   * Users need to make sure their validator doesn't have downtime or they risk a quadratic leak on their stake.
   * If a user has multiple validators, maintenance cost and worry of the infrastructure comes into play.
 * Security risk
-  * Beyond failures in the client code, stakers are responsible for the security environment of their validator clients (internet connection, operating system, hardware, etc.). If their validator client gets hacked due to a security failure, leading to forced downtime and/or misbehavior, there's currently no way to recover funds.
+  * Beyond failures in the client code, stakers are responsible for the security environment of their validator clients \(internet connection, operating system, hardware, etc.\). If their validator client gets hacked due to a security failure, leading to forced downtime and/or misbehavior, there's currently no way to recover funds.
   * This risk is similar to the risk of getting Ether stolen from a wallet due to a hacked laptop or smartphone. With decentralized autonomy comes responsibility.
 
 ## Competition
@@ -107,6 +107,7 @@ More traditional investment alternatives such as bonds, certificates of deposit,
 There is over [500 alternative PoS coins](https://masternodes.online/), with a reward structure. Why stake ETH, when one can earn more, with potentially less infrastructure and risk, on another coin?
 
 ## Spreadsheet Examples
-* Basic: Click [here](https://docs.google.com/spreadsheets/d/1SZBJsTHBFmRlo6aLZ0ex_bnTO3MqQrsZK9yLWqL4r68/edit?usp=sharing) to see calculations of network and personal staking variables given the latest spec.
 
-* Advanced: Building on the above, this [sheet](https://docs.google.com/spreadsheets/d/1rfuWnfg42mBcaHEPr-b0gvXofHfl3fC7ldmKQ8JjfMU/edit?usp=sharing) analyzes the financial return when utilizing different validator architectures. 
+* Basic: Click [here](https://docs.google.com/spreadsheets/d/1SZBJsTHBFmRlo6aLZ0ex_bnTO3MqQrsZK9yLWqL4r68/edit?usp=sharing) to see calculations of network and personal staking variables given the latest spec.
+* Advanced: Building on the above, this [sheet](https://docs.google.com/spreadsheets/d/1rfuWnfg42mBcaHEPr-b0gvXofHfl3fC7ldmKQ8JjfMU/edit?usp=sharing) analyzes the financial return when utilizing different validator architectures.
+

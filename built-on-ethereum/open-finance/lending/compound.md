@@ -25,3 +25,4 @@ On May. 16, 2018 , Compound announced that it had raised $8.2 million in seed fu
 ## Resources
 
 * [Website](https://compound.finance)
+

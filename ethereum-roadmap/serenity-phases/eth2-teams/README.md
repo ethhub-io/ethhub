@@ -1,4 +1,4 @@
-# Teams Building Ethereum 2.0 (Serenity):
+# Teams Building Eth 2.0
 
 There are currently 9 independent development teams building Ethereum 2.0 clients:
 
@@ -11,3 +11,4 @@ There are currently 9 independent development teams building Ethereum 2.0 client
 7. [Status](status.md)
 8. [Trinity](trinity.md)
 9. [Dean Eigenmann](swift.md)
+

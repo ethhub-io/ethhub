@@ -58,3 +58,4 @@ Phase 2 is where the functionality will start to come together. At this point, t
 * [Sharding Roadmap](https://github.com/ethereum/wiki/wiki/Sharding-roadmap#strongphase-3strong-light-client-state-protocol)
 * [State of Ethereum Protocol](https://media.consensys.net/state-of-ethereum-protocol-2-the-beacon-chain-c6b6a9a69129)
 * [Eth 2.0 Specs](https://github.com/ethereum/eth2.0-specs)
+

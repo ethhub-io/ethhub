@@ -1,8 +1,14 @@
+---
+description: 'Ethereum''s monetary policy past, present and future.'
+---
+
 # Monetary Policy
 
-## Summary
+## Monetary Policy
 
-Ethereum's Monetary Policy is defined by the rewards that are paid out by the protocol at any given time. At time of writing, Ethereum's yearly network inflation is approximately 6.7% with 3 Ether per block and an additional 2.5 Ether per uncle block (plus fees) being rewarded to miners.
+### Summary
+
+Ethereum's Monetary Policy is defined by the rewards that are paid out by the protocol at any given time. At time of writing, Ethereum's yearly network inflation is approximately 6.7% with 3 Ether per block and an additional 2.5 Ether per uncle block \(plus fees\) being rewarded to miners.
 
 Ethereum does not have an official Monetary Policy. Rather, the policy is decided upon by a wide range of stakeholders within the ecosystem - including:
 
@@ -11,15 +17,15 @@ Ethereum does not have an official Monetary Policy. Rather, the policy is decide
 * Ecosystem spokes/projects
 * Miners and other network participants
 
-As Ethereum is a decentralized network, the Monetary Policy can only be successfully modified if there is overwhelming consensus from the aforementioned stakeholders. Ethereum follows an [off-chain governance](/ethereum-basics/governance/off-chain-governance.md) process meaning that any and all decisions on changes to the network happen extra-protocol.
+As Ethereum is a decentralized network, the Monetary Policy can only be successfully modified if there is overwhelming consensus from the aforementioned stakeholders. Ethereum follows an [off-chain governance](governance/off-chain-governance.md) process meaning that any and all decisions on changes to the network happen extra-protocol.
 
-# Important Events
+## Important Events
 
-## Genesis Block
+### Genesis Block
 
 As part of the Ethereum genesis block, initial contributors to Ethereum sale were allocated 60,000,000 Ether. Another 12,000,000 Ether was given to the development fund which was distributed among early contributors and the Ethereum Foundation.
 
-## Historical Issuance Impacts
+### Historical Issuance Impacts
 
 **Block Reward Reductions**  
 Every block produced on the Ethereum network has an associated block reward which incentivizes miners to support the network. On top of the base block reward, miners that find an [uncle blocks](../using-ethereum/ethereum-network-basics/mining/uncle-blocks.md) receive ~75% of the current block reward. This results in a growing supply of Ether across time. The history of the block reward are as follows:
@@ -36,13 +42,13 @@ Issuance rate is also impacted by the speed of blocks. There have been a few oth
 * In mid 2017, a mechanism called the difficulty bomb \(or "Ethereum Ice Age"\) started to kick in. This mean that difficulty of mining a block rose, therefore slowing down blocks. This resulted in a dramatic decrease in issuance rate.
 * In late 2017, Byzantium fork was released which delayed the difficulty bomb and also reduced block rewards from 5 to 3.
 
-## Proof of Stake Impact
+### Proof of Stake Impact
 
-According to the current [Eth 2.0 spec](https://notes.ethereum.org/s/Syj3QZSxm), issuance rate will be greatly reduced as a part of Proof of Stake. There will be a [sliding scale](../roadmap/serenity-phases/eth-2.0-economics.md#staking-rewards) between total amount of Ether at stake and annual interest earned by stakers. The current spec would produce the following annual interest and inflation numbers based on total network stake:
+According to the current [Eth 2.0 spec](https://notes.ethereum.org/s/Syj3QZSxm), issuance rate will be greatly reduced as a part of Proof of Stake. There will be a [sliding scale](https://github.com/ethhub-io/ethhub/tree/0a7ff4fafc1c12cae51ab257c887afd06e36e6dd/roadmap/serenity-phases/eth-2.0-economics.md#staking-rewards) between total amount of Ether at stake and annual interest earned by stakers. The current spec would produce the following annual interest and inflation numbers based on total network stake:
 
 ![](../.gitbook/assets/screen-shot-2018-12-10-at-6.55.04-pm.png)
 
-## Historical and Future Supply Forecast
+### Historical and Future Supply Forecast
 
 There are three majors upcoming factors when it comes to Ethereum's issuance rate and supply curve. They are:
 

@@ -2,12 +2,9 @@
 
 A grants program to support the development of the ecosystems by aragon and placeholder.vc.
 
-
 ## Goal
 
 The goal of the program is to attract talent to research and build the necessary tooling for developing solutions around Aragon and Ethereum.
-
-
 
 ## What we look for
 
@@ -22,9 +19,8 @@ The goal of the program is to attract talent to research and build the necessary
 1. Funding: From $50,000 up to $100,000 in ETH, split into chunks paid out over achieved deliverables.
 2. Success reward: Up to $50,000 in ANT, given out when all deliverables are ready.
 
-
-
 ## Important Links
 
-* Info: https://github.com/aragon/nest
-* Info: https://blog.aragon.org/introducing-aragon-nest-1aa8c91c0566/
+* Info: [https://github.com/aragon/nest](https://github.com/aragon/nest)
+* Info: [https://blog.aragon.org/introducing-aragon-nest-1aa8c91c0566/](https://blog.aragon.org/introducing-aragon-nest-1aa8c91c0566/)
+

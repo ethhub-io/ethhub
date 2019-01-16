@@ -1,4 +1,4 @@
-# Off-chain Governance
+# Off-Chain Governance
 
 ## What is off-chain governance?
 
@@ -6,7 +6,7 @@ Off-chain governance looks and behaves a lot similar to politics in the existing
 
 ## How does it work?
 
-Improvement proposals to make changes to the blockchain are submitted by developers and a core group, consisting mostly of developers, is responsible for coordinating and achieving consensus between stakeholders. The stakeholders in this case are miners (who operate nodes), developers (who are responsible for core blockchain algorithms) and users (who use and invest in various coins).
+Improvement proposals to make changes to the blockchain are submitted by developers and a core group, consisting mostly of developers, is responsible for coordinating and achieving consensus between stakeholders. The stakeholders in this case are miners \(who operate nodes\), developers \(who are responsible for core blockchain algorithms\) and users \(who use and invest in various coins\).
 
 The various stakeholders signal their approval or disapproval for an improvement proposal through private and community discourse. Then, the core developers get a sense for whether or not node operators and miners will agree to upgrade their software. Ideally, all sides agree and the code changes are made smoothly. Everything is announced beforehand and stakeholders have time to update.
 
@@ -15,3 +15,4 @@ In the case of disagreement, stakeholders have two options. First, they can try 
 ## Resources
 
 * [Off-chain governance explained](https://education.district0x.io/general-topics/what-is-governance/off-chain-governance/)
+

@@ -19,3 +19,4 @@ Expo integrates with the dYdX Margin Trading Protocol, and allows users to buy, 
 ## Resources:
 
 * [Website](https://www.expotrading.com/)
+

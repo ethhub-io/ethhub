@@ -1,8 +1,9 @@
-# ConsenSys Labs
+# Consensys Labs
 
 ConsenSys Labs incubates the best teams of Web3 across the globe, providing them capital, mentorship, and access to ConsenSys’s network of top-tier projects and talent.
 
 ## Portfolio
+
 * adchain
 * Airswap
 * Balance
@@ -22,5 +23,5 @@ ConsenSys Labs incubates the best teams of Web3 across the globe, providing them
 
 ## Important Links
 
-* Website: https://consensys.net/labs/
+* Website: [https://consensys.net/labs/](https://consensys.net/labs/)
 

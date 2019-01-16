@@ -11,3 +11,4 @@ The protocol consists of three components: ID, IQ, and Score. BloomID is an iden
 ## Resources
 
 * [Website](https://bloom.co)
+

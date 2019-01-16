@@ -9,4 +9,6 @@ The Ethereum network hosts many DApps that are building identity systems. These 
 Similar to uPort's identity trials in Zug, Switzerland. We may see a day where soverign countries rely on the Ethereum mainnet to support their own private or public digital identification protocols.
 
 ## Resources
-* [The Impact of Digital Identity](https://blockchainatberkeley.blog/the-impact-of-digital-identity-9eed5b0c3016) (blog post)
+
+* [The Impact of Digital Identity](https://blockchainatberkeley.blog/the-impact-of-digital-identity-9eed5b0c3016) \(blog post\)
+
