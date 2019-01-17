@@ -11,5 +11,6 @@ All EAC transactions are processed by TimeNode miners. These miners set up clien
 ## Important links
 
 * Website: [https://www.ethereum-alarm-clock.com](https://www.ethereum-alarm-clock.com)
+* Github: [https://github.com/ethereum-alarm-clock](https://github.com/ethereum-alarm-clock)
 * ChronoLogic: [https://chronologic.network](https://chronologic.network)
 

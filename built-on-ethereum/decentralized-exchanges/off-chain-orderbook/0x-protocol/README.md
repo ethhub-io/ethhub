@@ -12,7 +12,7 @@ The 0x protocol facilitates the exchange of a growing number of Ethereum-based t
 
 ### Important Links
 
-Site: [https://0xproject.com/](https://0xproject.com/)  
+Site: [https://0x.org](https://0x.org)  
 Twitter: [https://twitter.com/0xProject](https://twitter.com/0xProject?lang=en)  
 GitHub: [https://github.com/0xProject](https://github.com/0xProject)
 

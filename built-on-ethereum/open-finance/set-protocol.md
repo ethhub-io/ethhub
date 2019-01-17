@@ -14,6 +14,6 @@ Users can opt to a rebalancing set. In a rebalancing set, weights of each token 
 
 ## Resources
 
-* [Website](https://setprotocol.com/)
+* [Website](https://www.setprotocol.com/)
 * [Set Explorer](https://www.tokensets.com/)
 

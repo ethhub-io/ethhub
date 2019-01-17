@@ -10,5 +10,5 @@ Similar to uPort's identity trials in Zug, Switzerland. We may see a day where s
 
 ## Resources
 
-* [The Impact of Digital Identity](https://blockchainatberkeley.blog/the-impact-of-digital-identity-9eed5b0c3016) \(blog post\)
+* [The Impact of Digital Identity](https://blockchainatberkeley.blog/the-impact-of-digital-identity-9eed5b0c3016)
 
