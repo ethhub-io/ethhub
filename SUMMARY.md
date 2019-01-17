@@ -25,7 +25,7 @@
 * [Planned Network Upgrades](ethereum-roadmap/planned-forks/README.md)
   * [Constantinople](ethereum-roadmap/planned-forks/constantinople.md)
   * [Istanbul](ethereum-roadmap/planned-forks/istanbul.md)
-* [Serenity \(Eth 2.0\)](ethereum-roadmap/serenity-phases/README.md)
+* [Serenity \(Eth 2.0\) Phases](ethereum-roadmap/serenity-phases/README.md)
   * [Proof of Stake](ethereum-roadmap/serenity-phases/proof-of-stake/README.md)
     * [Staking Logistics](ethereum-roadmap/serenity-phases/proof-of-stake/staking-logistics.md)
   * [Sharding](ethereum-roadmap/serenity-phases/sharding.md)
