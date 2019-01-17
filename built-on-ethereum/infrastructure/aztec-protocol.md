@@ -4,8 +4,8 @@ The AZTEC protocol is a second-layer solutions that uses zero-knowledge proofs a
 
 ## Important Links
 
-* Website: [https://www.aztecprotocol.com/](https://www.aztecprotocol.com/)
-* Github: [https://github.com/AztecProtocol/AZTEC/](https://github.com/AztecProtocol/AZTEC/) 
-* Whitepaper: [https://github.com/AztecProtocol/AZTEC/blob/master/AZTEC.pdf/](https://github.com/AztecProtocol/AZTEC/blob/master/AZTEC.pdf/)
+* Website: [https://www.aztecprotocol.com](https://www.aztecprotocol.com)
+* Github: [https://github.com/AztecProtocol](https://github.com/AztecProtocol) 
+* Whitepaper: [https://github.com/AztecProtocol/AZTEC/blob/master/AZTEC.pdf](https://github.com/AztecProtocol/AZTEC/blob/master/AZTEC.pdf)
 * Aztec DAI contract: [https://etherscan.io/address/0x6c8b12c650594a9fdb0b1f52084bbd0d9010aa09](https://etherscan.io/address/0x6c8b12c650594a9fdb0b1f52084bbd0d9010aa09)
 

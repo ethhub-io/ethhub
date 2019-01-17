@@ -33,6 +33,6 @@ zeroExInstant.render(
 
 ## Important Links
 
-* [Website](https://0xproject.com/instant)
-* [Getting Started](https://0xproject.com/wiki#Get-Started-With-Instant)
+* [Website](https://0x.org/instant)
+* [Getting Started](https://0x.org/wiki#Get-Started-With-Instant)
 

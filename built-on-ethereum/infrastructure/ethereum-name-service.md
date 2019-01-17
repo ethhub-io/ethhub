@@ -13,5 +13,6 @@ Domains are purchased via blind auction. During the bidding period, bids are pla
 ## Important links
 
 * Website: [https://ens.domains](https://ens.domains)
+* Github: [https://github.com/ensdomains](https://github.com/ensdomains)
 * MyCrypto ENS Registrar: [https://www.mycrypto.com/ens](https://www.mycrypto.com/ens)
 
