@@ -32,7 +32,7 @@ Every block produced on the Ethereum network has an associated block reward whic
 
 * Block 0 to Block 4,369,999: 5 Ether
 * Block 4,370,000 to current: 3 Ether \(changed via [EIP-649](https://github.com/ethereum/EIPs/blob/master/EIPS/eip-649.md)\)
-* The Constantinople hard fork, targeted for block 7,080,000, will cut block rewards to 2 Ether per block via [EIP-1234](https://github.com/ethereum/EIPs/blob/master/EIPS/eip-1234.md).
+* The Constantinople hard fork, targeted for block 7,280,000, will cut block rewards to 2 Ether per block via [EIP-1234](https://github.com/ethereum/EIPs/blob/master/EIPS/eip-1234.md).
 
 **Other Events**  
 Issuance rate is also impacted by the speed of blocks. There have been a few other events in Ethereum's history which has impacted the issuance rate. Some planned and some not planned.
