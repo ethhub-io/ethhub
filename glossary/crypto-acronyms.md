@@ -10,6 +10,7 @@
 * BFT - Byzantine Fault Tolerance
 * dBFT - Delegated Byzantine Fault Tolerance
 * pBFT - Practical Byzantine Fault Tolerance
+* iBFT - Istanbul Byzantine Fault Tolerance
 
 ## Ethereum-related
 
