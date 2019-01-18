@@ -6,7 +6,7 @@ Parity Technologies is a blockchain infrastructure company responsible for maint
 
 ## Implementation Details
 
-Parity Technologies are developing 'Parity Ethereum' - an Ethereum 1.0 and 2.0 client written in the Rust programming language and built for mission-critical use.
+Parity Technologies are developing 'Parity Ethereum' - an Ethereum 1.0 and 2.0 client written in the Rust programming language and built for mission-critical use. The name for the Eth 2.0 client is Shasper.
 
 ## Resources:
 
