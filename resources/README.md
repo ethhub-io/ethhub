@@ -40,7 +40,7 @@
 * [Epicenter](https://epicenter.tv/)
 * [Unchained](https://www.forbes.com/podcasts/unchained/#39e6bd005b4f)
 * [Unconfirmed](https://unconfirmed.libsyn.com/)
-* [Zero Knowledge](http://www.zeroknowledge.fm/)
+* [Zero Knowledge](https://www.zeroknowledge.fm/)
 * [51pct Podcast](https://51pct.io/podcast/)
 * [The Smartest Contract](https://itunes.apple.com/us/podcast/the-smartest-contract/id1377520772?mt=2)
 * [Flippening for Crypto Investors](https://p.nomics.com/podcast)
@@ -171,8 +171,8 @@
 * [Uniswap](https://uniswap.io/)
 * [Radar Relay](https://app.radarrelay.com/)
 * [IDEX](https://idex.market)
-* [ForkDelta](https://forkdelta.github.io)
-* [Paradex](https://app.paradex.io/)
+* [ForkDelta](https://forkdelta.app)
+* [Paradex](https://paradex.io/)
 * [DEX Watcher](https://dex.watch/)
 
 ## ICO/Token Resources
@@ -203,7 +203,7 @@
 ## Vizualizations
 
 * [Token Sale History](https://elementus.io/token-sales-history)
-* [Coin 360 (CryptoMaps)](https://coin360.io/)
+* [Coin 360 (CryptoMaps)](https://coin360.com/)
 * [Real time Ethereum transactions](http://www.ethviewer.live/)
 * [Cointracker Visualizations](https://www.cointracker.io/visualizations/coin_correlations)
 * [Security Tracker Infrastructure](https://research.suicide.ventures/security-tokens-infrastructure/)
@@ -231,7 +231,7 @@
 
 ### Dapp Trackers
 * [dApp Radar](https://dappradar.com/)
-* [dApp Store](https://dappstore.link/home)
+* [dApp Store](https://dappstore.link)
 * [dAppBoard](http://dappboard.com/)
 * [dApp.com](https://www.dapp.com/)
 * [dApp Review](https://dapp.review/)
