@@ -6,7 +6,7 @@ Dean announced the Swift implementation on [Twitter](https://twitter.com/DeanEig
 
 ## Implementation Details
 
-Dean & Eric Tu is building an Ethereum 2.0 client written in the Swift programming language.
+Dean & Eric Tu are building an Ethereum 2.0 client written in the Swift programming language.
 
 ## Resources:
 
