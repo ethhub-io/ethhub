@@ -8,7 +8,7 @@ There are currently nine independent development teams building Ethereum 2.0 cli
 |[Prysmatic Labs](prylabs.md)|Prysm|Go|
 |[ChainSafe](chainsafe.md)|Lodestar|JavaScript|
 |[PegaSys](pegasys.md)|Artemis|Java|
-|[EtherCamp](harmony.md)|Harmony|Java|
+|[Harmony](harmony.md)|Harmony|Java|
 |[Parity](parity.md)|Shasper|Rust|
 |[Sigma Prime](sigma.md)|Lighthouse|Rust|
 |[Status](status.md)|Nimbus|Nim|
