@@ -12,5 +12,5 @@ There are currently nine independent development teams building Ethereum 2.0 cli
 |[Parity](parity.md)|Shasper|Rust|
 |[Sigma Prime](sigma.md)|Lighthouse|Rust|
 |[Status](status.md)|Nimbus|Nim|
-|[Ethereum Foundation](trinity.md)|Trinity|Pyton|
+|[Ethereum Foundation](trinity.md)|Trinity|Python|
 |[ZK Labs](zk-labs.md)|yeeth|Swift|
