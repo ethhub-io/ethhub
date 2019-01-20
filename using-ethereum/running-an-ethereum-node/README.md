@@ -89,18 +89,6 @@ Synchronizes an archive node starting at genesis, thoroughly verifying all block
 
 In Parity, this is called pruning which refers to the concept of [state trie pruning](https://ethereum.stackexchange.com/questions/174/what-is-state-trie-pruning-and-how-does-it-work). Setting it to archive basically turns it off.
 
-
-## Table of node settings
-
-### Parity
-
-![](../../.gitbook/assets/parity-modes.png)
-
-### Geth
-
-![](../../.gitbook/assets/geth-modes.png)
-
-
 ## Resources
 
 * Huge shout out and thanks to Afri Schoedon's blogs [here](https://dev.to/5chdn/ethereum-node-configuration-modes-cheat-sheet-25l8) and [here](https://dev.to/5chdn/the-ethereum-blockchain-size-will-not-exceed-1tb-anytime-soon-58a) which is where a lot of the information on this page came from.
