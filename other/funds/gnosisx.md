@@ -9,4 +9,4 @@ Throughout the year, we will be announcing different categories for prediction m
 ## Important Links
 
 * Website: [https://gnosis.pm/gnosisx.html](https://gnosis.pm/gnosisx.html)
-
+* Announcement: https://blog.gnosis.pm/are-you-up-for-the-challenge-introducing-gnosis-x-39c812b42993
