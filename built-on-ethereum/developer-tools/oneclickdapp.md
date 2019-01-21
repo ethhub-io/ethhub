@@ -7,5 +7,5 @@ OneClickDapp instantly builds you a dApp with a simple URL to bookmark or share 
 ## Resources
 
 * [Website](https://oneclickdapp.com/)
-* [You Wrote a Smart Contract - Now What? (blog post)](https://medium.com/@pi0neerpat/you-wrote-a-smart-contract-now-what-a9153a5ee91d/)
+* [You Wrote a Smart Contract - Now What? \(blog post\)](https://medium.com/@pi0neerpat/you-wrote-a-smart-contract-now-what-a9153a5ee91d/)
 

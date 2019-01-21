@@ -10,7 +10,7 @@ Gods Unchained is currently in closed beta and is expected to be released to the
 
 ## Resources
 
-* [Website](https://github.com/ethhub-io/ethhub/tree/7908cfb807eb1107f347cce97fb5b6078e0c8e71/built-on-ethereum/games/www.godsunchained.com)
+* [Website](https://www.godsunchained.com)
 * [gu.cards Tools](https://gu.cards)
 * [Twitter](https://twitter.com/godsunchained?lang=en)
 

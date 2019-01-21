@@ -21,4 +21,6 @@ There are many key components to a transaction that are important to understand:
 | Gas Block Limit | Max gas allowed in a block |
 
 ## Resources
+
 * [How does Ethereum work, anyway?](https://medium.com/@preethikasireddy/how-does-ethereum-work-anyway-22d1df506369)
+

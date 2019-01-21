@@ -8,7 +8,7 @@ The component elements of the FOAM protocol are designed to provide spatial prot
 
 ## Resources
 
-* Website: [https://www.foam.space/](https://www.foam.space/)
+* Website: [https://www.foam.space](https://www.foam.space)
 * Github: [https://github.com/f-o-a-m/](https://github.com/f-o-a-m/)
 * Whitepaper: [https://www.foam.space/publicAssets/FOAM\_Whitepaper.pdf](https://www.foam.space/publicAssets/FOAM_Whitepaper.pdf)
 

@@ -9,4 +9,5 @@ Other projects can use the protocol to build marketplaces for specific kind of t
 ## Important links
 
 * Website: [https://bounties.network](https://bounties.network)
+* Github: [https://github.com/Bounties-Network](https://github.com/Bounties-Network)
 

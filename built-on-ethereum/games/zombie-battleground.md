@@ -9,5 +9,5 @@ Since the cards are stored on the Blockchain as non-fungible \(ERC721\) tokens, 
 ## Resources:
 
 * [Website](https://loom.games/)
-* [Introducing Zombie Battleground — A Collectible Card Game that Runs on the Blockchain](https://medium.com/loom-network/introducing-zombie-battleground-a-collectible-card-game-that-runs-on-the-blockchain-1e5b45b7de19) (blog post)
+* [Introducing Zombie Battleground — A Collectible Card Game that Runs on the Blockchain](https://medium.com/loom-network/introducing-zombie-battleground-a-collectible-card-game-that-runs-on-the-blockchain-1e5b45b7de19) \(blog post\)
 

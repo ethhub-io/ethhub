@@ -47,3 +47,4 @@ We still need to work on who can own each part of the process:
 ## Resources
 
 * [Moloch DAO](https://github.com/MolochVentures/moloch)
+

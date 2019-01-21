@@ -1,6 +1,6 @@
 # Synthetix
 
-## What is Synthetix (sUSD)?
+## What is Synthetix \(sUSD\)?
 
 There are two kinds of tokens in the Synthetix Network: SNX, the Synthetix network token; and Synths such as sUSD, the synthetic assets.
 
@@ -9,3 +9,4 @@ SNX holders lock their SNX as collateral to back Synths. Synths are then minted 
 ## Resources
 
 * [Website](https://www.synthetix.io/)
+

@@ -2,9 +2,9 @@
 
 ## Summary
 
-0x is an open protocol that facilitates peer-to-peer exchange of digital assets on the Ethereum blockchain. 0x is open source, free to use, and provides a drop-in exchange solution for developers to build on top of. Developers use 0x protocol to build decentralized exchanges (DEXs), marketplaces for digital collectibles, and to integrate exchange functionality into wallets.
+0x is an open protocol that facilitates peer-to-peer exchange of digital assets on the Ethereum blockchain. 0x is open source, free to use, and provides a drop-in exchange solution for developers to build on top of. Developers use 0x protocol to build decentralized exchanges \(DEXs\), marketplaces for digital collectibles, and to integrate exchange functionality into wallets.
 
-https://blog.0xproject.com/welcome-to-the-0x-community-9d99dfe0a52b
+[https://blog.0xproject.com/welcome-to-the-0x-community-9d99dfe0a52b](https://blog.0xproject.com/welcome-to-the-0x-community-9d99dfe0a52b)
 
 ## 0x protocol overview
 
@@ -12,11 +12,9 @@ In 0x Protocol, orders are transported off-chain over any arbitrary medium, mass
 
 The simplest example of a Relayer is a website allowing users to create, discover and fill orders. The Relayer must build out a UI and host a backend database to provide this functionality.
 
-<div align="center">
-    <img src="https://s3.eu-west-2.amazonaws.com/0x-wiki-images/relayer_diagram.png" style="padding-bottom: 20px; padding-top: 20px; max-width: 342px;" width="35%" />
-</div>
+![](https://s3.eu-west-2.amazonaws.com/0x-wiki-images/relayer_diagram.png)
 
-## List of dApps that will be (or are) using the 0x protocol
+## List of dApps that will be \(or are\) using the 0x protocol
 
 * [Aragon](https://aragon.one/)
 * [Auctus](https://auctus.org/)
@@ -38,7 +36,7 @@ The simplest example of a Relayer is a website allowing users to create, discove
 * [Request Network](https://request.network/)
 * [Set](https://setprotocol.com/)
 
-## List of relayers that will be (or are) using the 0x protocol
+## List of relayers that will be \(or are\) using the 0x protocol
 
 * [Amadeus](http://amadeusrelay.org)
 * [Bamboo Relay](https://www.bamboorelay.com/)
@@ -67,4 +65,6 @@ The simplest example of a Relayer is a website allowing users to create, discove
 * [0x Tracker](http://0xtracker.com)
 
 ## Resources
+
 * [Website](https://0x.org/)
+

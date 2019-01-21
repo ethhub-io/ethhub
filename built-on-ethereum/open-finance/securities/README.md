@@ -1,10 +1,10 @@
-# Security Tokens
+# Tokenized Securities
 
 ## What are tokenised securities?
 
-Security Tokens are digital assets subject to federal security regulations. In layman terms, they are the intersection of digital assets (tokens) with traditional financial products.
+Security Tokens are digital assets subject to federal security regulations. In layman terms, they are the intersection of digital assets \(tokens\) with traditional financial products.
 
-If cryptocurrencies like Bitcoin are considered “programmable money” then you can consider Security Tokens a version of “programmable ownership.” This means that any asset with ownership can and will be tokenized (public & private equities, debt, real estate, etc).
+If cryptocurrencies like Bitcoin are considered “programmable money” then you can consider Security Tokens a version of “programmable ownership.” This means that any asset with ownership can and will be tokenized \(public & private equities, debt, real estate, etc\).
 
 Some of the potential benefits include:
 
@@ -25,8 +25,9 @@ Some of the potential benefits include:
 * [Securitize](securitize.md)
 
 ## Resources
+
 * [The Crypto-Securities Canon](https://medium.com/harborhq/the-crypto-securities-canon-e0d5eb53ed1d)
 * [Security Tokens Explained](https://www.apollocap.io/blog/2018/11/5/security-tokens-explained)
 * [How Tokenization Is Putting Real-World Assets on Blockchains](https://www.nasdaq.com/article/how-tokenization-is-putting-real-world-assets-on-blockchains-cm767952)
-
+* [Understanding Security Token Offerings \(STO\)](https://medium.com/swlh/understanding-security-token-offerings-sto-bc272acd3f27)
 

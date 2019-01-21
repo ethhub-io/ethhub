@@ -12,5 +12,6 @@ The Aragon Network Token, ANT, puts the power into the hands of the people parti
 
 ## Resources:
 
-[https://aragon.org](https://aragon.org)
-
+* Website: [https://aragon.org](https://aragon.org)
+* Github: [https://github.com/aragon](https://github.com/aragon)
+* Whitepaper: [https://github.com/aragon/whitepaper/blob/master/README.md](https://github.com/aragon/whitepaper/blob/master/README.md)

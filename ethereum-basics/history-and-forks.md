@@ -27,7 +27,7 @@ Ether was not usable or transferable until the launch of the genesis block which
 | [Tangerine Whistle](https://blog.ethereum.org/2016/10/13/announcement-imminent-hard-fork-eip150-gas-cost-changes/) | 2463000 | 2016-10-18 |
 | [Spurious Dragon](https://blog.ethereum.org/2016/11/18/hard-fork-no-4-spurious-dragon/) | 2675000 | 2016-11-22 |
 | [Byzantium](https://blog.ethereum.org/2017/10/12/byzantium-hf-announcement/) | 4370000 | 2017-10-16 |
-| [Constantinople](https://github.com/ethereum/pm/wiki/Constantinople-Progress-Tracker) | 7080000 | ~2019-01-16 |
+| [Constantinople](https://github.com/ethereum/pm/wiki/Constantinople-Progress-Tracker) | 7280000 | ~2019-02-27 |
 
 ## Resources
 

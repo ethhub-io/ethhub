@@ -38,10 +38,9 @@
 
 * [Into the Ether](https://podcast.ethhub.io/)
 * [Epicenter](https://epicenter.tv/)
-* [An Ethereum Podcast](https://thebitcoinpodcast.com/category/an-ethereum-podcast/)
 * [Unchained](https://www.forbes.com/podcasts/unchained/#39e6bd005b4f)
 * [Unconfirmed](https://unconfirmed.libsyn.com/)
-* [Zero Knowledge](http://www.zeroknowledge.fm/)
+* [Zero Knowledge](https://www.zeroknowledge.fm/)
 * [51pct Podcast](https://51pct.io/podcast/)
 * [The Smartest Contract](https://itunes.apple.com/us/podcast/the-smartest-contract/id1377520772?mt=2)
 * [Flippening for Crypto Investors](https://p.nomics.com/podcast)
@@ -168,12 +167,12 @@
 ## Decentralized Exchanges (DEXs)
 
 * [EthHub DEX Section](../built-on-ethereum/decentralized-exchanges/README.md)
-* [List of all Decentralized Exchanges](https://github.com/PYMERVAL/decentradexchange/blob/master/README.md)
+* [List of all Decentralized Exchanges](https://github.com/distribuyed/index/blob/master/README.md)
 * [Uniswap](https://uniswap.io/)
 * [Radar Relay](https://app.radarrelay.com/)
 * [IDEX](https://idex.market)
-* [ForkDelta](https://forkdelta.github.io)
-* [Paradex](https://app.paradex.io/)
+* [ForkDelta](https://forkdelta.app)
+* [Paradex](https://paradex.io/)
 * [DEX Watcher](https://dex.watch/)
 
 ## ICO/Token Resources
@@ -204,8 +203,7 @@
 ## Vizualizations
 
 * [Token Sale History](https://elementus.io/token-sales-history)
-* [Coin 360 (CryptoMaps)](https://coin360.io/)
-* [Sifr Data](http://www.sifrdata.com/)
+* [Coin 360 (CryptoMaps)](https://coin360.com/)
 * [Real time Ethereum transactions](http://www.ethviewer.live/)
 * [Cointracker Visualizations](https://www.cointracker.io/visualizations/coin_correlations)
 * [Security Tracker Infrastructure](https://research.suicide.ventures/security-tokens-infrastructure/)
@@ -233,7 +231,7 @@
 
 ### Dapp Trackers
 * [dApp Radar](https://dappradar.com/)
-* [dApp Store](https://dappstore.link/home)
+* [dApp Store](https://dappstore.link)
 * [dAppBoard](http://dappboard.com/)
 * [dApp.com](https://www.dapp.com/)
 * [dApp Review](https://dapp.review/)
@@ -247,7 +245,7 @@
 
 ### Augur
 * [Guesser](https://guesser.io/)
-* [Veil - Markets on Everything](https://veil.market/)
+* [Veil - Markets on Everything](https://veil.co/)
 * [Predictions.global - Augur Prediction Markets](https://predictions.global/)
 * [Explore Augur](https://exploreaugur.com/)
 
@@ -265,7 +263,6 @@
 # Miscellaneous
 
 * [Definitive SEC Guide](https://messari.io/resource/definitive-sec-guidance-orders-speeches-actions-announcement-compilation-within-the-crypto-and-digital-asset-space)
-* [Crypto Code Watch](https://cryptocodewatch.com/)
 * [Bitcoin on Ethereum](https://www.wbtc.network/)
 * [Ethereum Obituaries](https://github.com/jragosa/EthereumObituaries/blob/master/README.md)
 * [Crypto Subreddit Tracker](https://cryptosub.live/)
@@ -275,7 +272,6 @@
 * [Securify](https://securify.chainsecurity.com/)
 * [Etherean.org](https://forum.etherean.org/)
 * [Did the Ethereum blockchain reach 1TB yet?](http://didtheethereumblockchainreach1tbyet.5chdn.co/)
-* [What About Archive Nodes?](http://whataboutarchivenodes.5chdn.co/)
 * [Blockchain Security Contacts](https://github.com/trailofbits/blockchain-security-contacts)
 * [The Brooklyn Project](https://thebkp.com/)
 * [Crypto Grant Programs](https://github.com/fredexed/crypto-funding-ops)

@@ -12,6 +12,6 @@ Recently the team introduced [Dharma Lever](https://lever.dharma.io/) — a marg
 
 * [Website](https://dharma.io/)
 * [Bloqboard App](https://dapp.bloqboard.com/)
-* [Quickline Realyer](https://quickline.market/)
+* [Quickline Relayer](https://quickline.market/)
 * [Loan Explorer](https://loanscan.io/)
 

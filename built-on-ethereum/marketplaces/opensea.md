@@ -8,3 +8,4 @@ OpenSea is a marketplace for crypto collectibles that is backed by Coinbase Vent
 
 * [Website](https://opensea.io/)  
 * [Twitter](https://twitter.com/projectopensea)
+

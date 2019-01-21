@@ -10,4 +10,6 @@ Layer 2 scaling solutions are those that are not implemented at the base layer. 
 * [ZK-STARKs](zk-starks.md)
 
 ## Resources
+
 * [The State of Scaling Ethereum](https://media.consensys.net/the-state-of-scaling-ethereum-b4d095dbafae)
+

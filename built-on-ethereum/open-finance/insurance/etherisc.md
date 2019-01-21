@@ -16,5 +16,6 @@ DIP tokens give users access to the Decentralized Insurance Platform. By staking
 * HurricaneGuard.io: [https://hurricaneguard.io/](https://hurricaneguard.io/) is deployed on the Ethereum testnet.
 
 ## Resources
+
 * [Website](https://etherisc.com/)
 
