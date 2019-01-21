@@ -21,6 +21,6 @@ The goal of the program is to attract talent to research and build the necessary
 
 ## Important Links
 
-* Info: [https://github.com/aragon/nest](https://github.com/aragon/nest)
-* Info: [https://blog.aragon.org/introducing-aragon-nest-1aa8c91c0566/](https://blog.aragon.org/introducing-aragon-nest-1aa8c91c0566/)
+* Website: [https://github.com/aragon/nest](https://github.com/aragon/nest)
+* Announcement: [https://blog.aragon.org/introducing-aragon-nest-1aa8c91c0566/](https://blog.aragon.org/introducing-aragon-nest-1aa8c91c0566/)
 
