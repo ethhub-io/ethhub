@@ -2,7 +2,7 @@
 
 ## Questions and Answers
 
-**Q: When, as in period of time, do you think Ethereum will be able to solve scalabily issues?**
+**Q: When, as in period of time, do you think Ethereum will be able to solve scalability issues?**
 
 A: In phase 1 (about 2020 by my estimate) we will have shard data. Those shards, even without an EVM, can be used as the data availability layer for TrueBit (and other alternative execution engines). Phase 2 (about 2021) is when we will have scalable L1 execution. [Justin Drake]
 
