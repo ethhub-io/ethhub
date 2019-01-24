@@ -212,4 +212,4 @@
   * [Gnosis X](other/funds/gnosisx.md)
   * [Stable Fund](other/funds/stable-fund.md)
   * [Status Incubate](other/funds/status-incubate.md)
-
+* [Ethereum 2.0 Reddit AMA](other/ethereum-2.0-ama.md)
