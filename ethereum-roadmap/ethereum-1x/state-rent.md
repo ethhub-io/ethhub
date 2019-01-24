@@ -1,4 +1,4 @@
-# State Rent group
+# State Rent Group
 ## Proposal framework
 Since State rent is a potentially higher impact change (and therefore more controversial, unpopular) than any other changes within Ethereum 1x, it requires a clear logical framework for designing, evaluating, and comparing proposals. This framework attempts to ensure, as much as possible, that the change plan eventually chosen is likely close to the best available.
 It defines the path of reasoning from “What is the problem (what happens if we do nothing)?” to “How exactly we are doing it”.
