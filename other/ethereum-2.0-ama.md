@@ -690,10 +690,6 @@ A: That will likely be unlocked with abstraction (which includes gas abstraction
 
 A: Rough ballpark figures. 1024 shards * 10 transactions per second per shard ~= 10k transactions per second. [Justin Drake]
 
-**Q:
-
-
-
 ## Resources:
 
 * [Source](https://old.reddit.com/r/ethereum/comments/ajc9ip/ama_we_are_the_eth_20_research_team/)
