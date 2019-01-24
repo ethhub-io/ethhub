@@ -1,6 +1,6 @@
 # eWASM group
 
-Main unresolved questions:
+## Main unresolved questions
 * Gas metering
 * Memory allocation
 * Interaction with the rest of EVM state (e.g. contract storage, balances)
