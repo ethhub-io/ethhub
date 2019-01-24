@@ -1,5 +1,6 @@
-# Storage Pruning group
-The questions to be answered are:
+# Storage Pruning Group
+
+### The questions to be answered are:
 * What do we absolutely have to keep to comply with the Ethereum protocol?
 * Do we always need to keep all the blocks? (maybe not, if we use backward sync, for example)
 * Do we need to keep receipts, or just logs, how much (in Gb), or for how long?
