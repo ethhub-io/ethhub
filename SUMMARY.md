@@ -38,6 +38,7 @@
     * [Staking Logistics](ethereum-roadmap/serenity-phases/proof-of-stake/staking-logistics.md)
   * [Sharding](ethereum-roadmap/serenity-phases/sharding.md)
   * [Eth 2.0 Economics](ethereum-roadmap/serenity-phases/eth-2.0-economics.md)
+  * [Eth 1.0 to 2.0 Migration](ethereum-roadmap/serenity-phases/eth-1.0-to-2.0-migration.md)
   * [Teams Building Eth 2.0](ethereum-roadmap/serenity-phases/eth2-teams/README.md)
     * [Prysmatic Labs](ethereum-roadmap/serenity-phases/eth2-teams/prylabs.md)
     * [Parity](ethereum-roadmap/serenity-phases/eth2-teams/parity.md)
