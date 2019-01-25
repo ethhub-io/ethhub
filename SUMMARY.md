@@ -201,6 +201,7 @@
   * [2FA](/glossary/sideways-dictionary/2FA.md)
   * [Blockchain](/glossary/sideways-dictionary/blockchain.md)
   * [Smart Contract](/glossary/sideways-dictionary/smart-contract.md)
+  * [Uncle Blocks](glossary/sideways-dictionary/uncle-blocks.md)
 
 ## Other
 
