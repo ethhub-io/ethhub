@@ -33,7 +33,7 @@
   * [Simulation and Emulation Group](ethereum-roadmap/ethereum-1x/simulation-emulation.md)
   * [State Rent](ethereum-roadmap/ethereum-1x/state-rent.md)
   * [Storage Pruning](ethereum-roadmap/ethereum-1x/storage-pruning.md)
-* [Eth 2.0 (Serenity)](ethereum-roadmap/serenity-phases/README.md)
+* [Ethereum 2.0 (Serenity)](ethereum-roadmap/serenity-phases/README.md)
   * [Proof of Stake](ethereum-roadmap/serenity-phases/proof-of-stake/README.md)
     * [Staking Logistics](ethereum-roadmap/serenity-phases/proof-of-stake/staking-logistics.md)
   * [Sharding](ethereum-roadmap/serenity-phases/sharding.md)
