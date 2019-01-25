@@ -20,7 +20,7 @@ Desktop wallets are downloadable apps capable of operating on Windows, MacOS, or
 * [MyCrypto](https://github.com/MyCryptoHQ) - Open-source, client-side tool downloadable from [https://download.mycrypto.com](https://download.mycrypto.com) for generating Ethereum wallets, handling ERC-20 tokens, and interacting with the blockchain easily.
 * [Exodus](https://exodus.io) - Closed-source wallet that allows for multi-currency interaction/transacting \(requires you to be online to generate transactions\).
 * [Mist](https://github.com/ethereum/mist) - Browse and use Dapps on the Ethereum network
-* [Fetch](https://hellofetch.co/download) - Desktop (and web) wallet supporting Ethereum and ERC-20 tokens. Integrated with 20 exchanges for real time trading rates and one-click trading.
+* [Fetch](https://hellofetch.co/download) - Desktop \(and web\) wallet supporting Ethereum and ERC-20 tokens. Integrated with 20 exchanges for real time trading rates and one-click trading.
 
 ## Resources
 
