@@ -197,6 +197,10 @@
 ## Glossary
 
 * [Crypto Acronyms](glossary/crypto-acronyms.md)
+* [Sideways Dictionary](/glossary/sideways-dictionary/README.md)
+  * [2FA](/glossary/sideways-dictionary/2FA.md)
+  * [Blockchain](/glossary/sideways-dictionary/blockchain.md)
+  * [Smart Contract](/glossary/sideways-dictionary/smart-contract.md)
 
 ## Other
 
