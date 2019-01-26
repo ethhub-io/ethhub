@@ -38,3 +38,6 @@ Part of the state rent research is to identify main classes of contracts that ar
 * Gaming contracts
 * Gambling contracts
 
+## Resources
+
+* [State Rent Proposal](https://ethereum-magicians.org/t/state-rent-proposal-version-2-rushed/2494)
