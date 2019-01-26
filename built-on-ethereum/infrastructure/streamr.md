@@ -17,6 +17,6 @@ Such a publish/subscribe network has the following properties for application de
 
 * Website: [https://www.streamr.com](https://www.streamr.com)
 * Github: [https://github.com/streamr-dev](https://github.com/streamr-dev)
-* Whitepaper: [https://s3.amazonaws.com/streamr-public/streamr-whitepaper-2017-07-25-v1_0-facelift.pdf](https://s3.amazonaws.com/streamr-public/streamr-whitepaper-2017-07-25-v1_0-facelift.pdf)
+* Whitepaper: [https://s3.amazonaws.com/streamr-public/streamr-whitepaper-2017-07-25-v1\_0-facelift.pdf](https://s3.amazonaws.com/streamr-public/streamr-whitepaper-2017-07-25-v1_0-facelift.pdf)
 * What is Streamr?: [https://medium.com/streamrblog/building-the-missing-protocol-of-todays-internet-stack-a-decentralized-pub-sub-network-for-ad1f5972f3ca](https://medium.com/streamrblog/building-the-missing-protocol-of-todays-internet-stack-a-decentralized-pub-sub-network-for-ad1f5972f3ca)
 

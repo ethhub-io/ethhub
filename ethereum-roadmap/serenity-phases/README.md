@@ -1,4 +1,4 @@
-# Serenity \(Eth 2.0\) Phases
+# Ethereum 2.0 \(Serenity\)
 
 _This page is a WIP._
 

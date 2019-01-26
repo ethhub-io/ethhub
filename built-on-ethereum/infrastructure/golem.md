@@ -15,3 +15,4 @@ The Application Registry is a user-curated list of secure and malicious software
 * Website: [https://golem.network](https://golem.network)
 * Github: [https://github.com/golemfactory](https://github.com/golemfactory)
 * Whitepaper: [https://golem.network/crowdfunding/Golemwhitepaper.pdf](https://golem.network/crowdfunding/Golemwhitepaper.pdf)
+

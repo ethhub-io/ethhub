@@ -13,3 +13,4 @@ There are many different protocols, applications, and companies trying to bring 
 * Website: [https://0xcert.org](https://0xcert.org)
 * Github: [https://github.com/0xcert](https://github.com/0xcert)
 * Whitepaper: [https://0xcert.org/whitepaper.pdf](https://0xcert.org/whitepaper.pdf)
+

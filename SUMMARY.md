@@ -25,11 +25,20 @@
 * [Planned Network Upgrades](ethereum-roadmap/planned-forks/README.md)
   * [Constantinople](ethereum-roadmap/planned-forks/constantinople.md)
   * [Istanbul](ethereum-roadmap/planned-forks/istanbul.md)
-* [Serenity \(Eth 2.0\) Phases](ethereum-roadmap/serenity-phases/README.md)
+* [Ethereum 1.x](ethereum-roadmap/why-did-it-start/README.md)
+  * [Pre-History](ethereum-roadmap/why-did-it-start/short-pre-history.md)
+  * [Main Objectives](ethereum-roadmap/why-did-it-start/main-objectives.md)
+  * [Deliverables](ethereum-roadmap/why-did-it-start/deliverables.md)
+  * [eWASM](ethereum-roadmap/why-did-it-start/ewasm.md)
+  * [Simulation and Emulation Group](ethereum-roadmap/why-did-it-start/simulation-emulation.md)
+  * [State Rent](ethereum-roadmap/why-did-it-start/state-rent.md)
+  * [Storage Pruning](ethereum-roadmap/why-did-it-start/storage-pruning.md)
+* [Ethereum 2.0 \(Serenity\)](ethereum-roadmap/serenity-phases/README.md)
   * [Proof of Stake](ethereum-roadmap/serenity-phases/proof-of-stake/README.md)
     * [Staking Logistics](ethereum-roadmap/serenity-phases/proof-of-stake/staking-logistics.md)
   * [Sharding](ethereum-roadmap/serenity-phases/sharding.md)
   * [Eth 2.0 Economics](ethereum-roadmap/serenity-phases/eth-2.0-economics.md)
+  * [Eth 1.0 to 2.0 Migration](ethereum-roadmap/serenity-phases/eth-1.0-to-2.0-migration.md)
   * [Teams Building Eth 2.0](ethereum-roadmap/serenity-phases/eth2-teams/README.md)
     * [Prysmatic Labs](ethereum-roadmap/serenity-phases/eth2-teams/prylabs.md)
     * [Parity](ethereum-roadmap/serenity-phases/eth2-teams/parity.md)
@@ -39,7 +48,7 @@
     * [PegaSys](ethereum-roadmap/serenity-phases/eth2-teams/pegasys.md)
     * [Sigma](ethereum-roadmap/serenity-phases/eth2-teams/sigma.md)
     * [Trinity](ethereum-roadmap/serenity-phases/eth2-teams/trinity.md)
-    * [Dean Eigenmann](ethereum-roadmap/serenity-phases/eth2-teams/swift.md)
+    * [Dean Eigenmann](ethereum-roadmap/serenity-phases/eth2-teams/dean-eigenmann.md)
 * [Layer 2 Scaling](ethereum-roadmap/layer-2-scaling/README.md)
   * [Plasma](ethereum-roadmap/layer-2-scaling/plasma.md)
   * [State Channels](ethereum-roadmap/layer-2-scaling/state-channels.md)
@@ -188,6 +197,11 @@
 ## Glossary
 
 * [Crypto Acronyms](glossary/crypto-acronyms.md)
+* [Sideways Dictionary](/glossary/sideways-dictionary/README.md)
+  * [2FA](/glossary/sideways-dictionary/2FA.md)
+  * [Blockchain](/glossary/sideways-dictionary/blockchain.md)
+  * [Smart Contract](/glossary/sideways-dictionary/smart-contract.md)
+  * [Uncle Blocks](glossary/sideways-dictionary/uncle-blocks.md)
 
 ## Other
 
@@ -204,4 +218,5 @@
   * [Gnosis X](other/funds/gnosisx.md)
   * [Stable Fund](other/funds/stable-fund.md)
   * [Status Incubate](other/funds/status-incubate.md)
+* [Ethereum 2.0 Reddit AMA](other/ethereum-2.0-ama.md)
 
