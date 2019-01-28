@@ -1,4 +1,4 @@
-# God's Unchained
+# Gods Unchained
 
 ## Summary
 
