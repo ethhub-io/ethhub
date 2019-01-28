@@ -10,6 +10,16 @@ To start, here is a [nice visual](https://docs.google.com/presentation/d/1G5UZdE
 
 ![](../../.gitbook/assets/screen-shot-2018-12-10-at-2.01.26-pm.png)
 
+## Design Goals
+
+Ethereum researcher Danny Ryan has [stipulated](https://github.com/ethereum/eth2.0-specs#design-goals) 5 distinct design goals for Ethereum 2.0:
+
+* **Decentralisation:** to allow for a typical consumer laptop with O(C) resources to process/validate O(1) shards (including any system level validation such as the beacon chain).
+* **Resilience:** to remain live through major network partitions and when very large portions of nodes go offline.
+* **Security:** to utilize crypto and design techniques that allow for a large participation of validators in total and per unit time.
+* **Simplicity:** to minimize complexity, even at the cost of some losses in efficiency.
+* **Longevity:** to select all components such that they are either quantum secure or can be easily swapped out for quantum secure counterparts when available.
+
 ## Phase 0 - Beacon Chain \(~Late 2019\)
 
 ### **What is included?**
@@ -58,4 +68,4 @@ Phase 2 is where the functionality will start to come together. At this point, t
 * [Sharding Roadmap](https://github.com/ethereum/wiki/wiki/Sharding-roadmap#strongphase-3strong-light-client-state-protocol)
 * [State of Ethereum Protocol](https://media.consensys.net/state-of-ethereum-protocol-2-the-beacon-chain-c6b6a9a69129)
 * [Eth 2.0 Specs](https://github.com/ethereum/eth2.0-specs)
-
+* [Ethereum 2.0 Design Goals](https://media.consensys.net/exploring-the-ethereum-2-0-design-goals-fd2d901b4c01)
