@@ -682,6 +682,32 @@ A: That will likely be unlocked with abstraction \(which includes gas abstractio
 
 A: Rough ballpark figures. 1024 shards \* 10 transactions per second per shard ~= 10k transactions per second. \[Justin Drake\]
 
+**Q: What is the most updated timeline for rolling out PoS? Since Vitalik already said 'research is done', what are developers' incentives to push things forward? Are there any specific measures taken to ensure a smooth transition?**
+
+A: I expect the beacon chain (the core PoS chain) to launch late 2019. Ideally the spec should be close to final in Q1, cross-client testnets in Q2, security audits in Q3, mainnet launch in Q4.
+
+As a rule of thumb, launching in December is hard because of the holiday season. So November 2019 and January 2020 would be my two best guesses.
+
+Having the Ethereum 2.0 chain finalise the Ethereum 1.0 chain will take more time. [Justin Drake]
+
+**Q: Will it be possible with sharding to have shards with different rules and/or technology independent from the other shards/beacon chain, but still using the same base tech in terms of transacting and security? For example: private eth network run in a shard connected to main eth network from which it takes just security from validators. Private transaction with ZKsnarks shard(s). Encrypted data shards. Erc20 like coin launched on ETH 2.0, but with it's own rules and maybe own shards somehow controlled by the smart contract of that erc20.**
+
+A: Every shard has the same data availability layer, and the option to use EVM2.0 as an execution engine. That's common base-layer infrastructure. At the application layer contracts can be powered by non-EVM2.0 execution engines (so-called alternative execution engines).
+
+There's also a huge L2 design around state channels, plasma, cross-shard communication, etc. So at the application layer I expect lots of non-homogeneity across shards, as well as a lots of homogeneity thanks to standardisation. [Justin Drake]
+
+**Q: Today, running full nodes isn’t that hard, but the resource requirements are slowly increasing. How much thinking is being devoted to the greater infrastructure requirements of Eth 2.0 and how they will impact node participation and decentralization?**
+
+A: Ethereum 2.0 validation should be sustainable from a resource perspective:
+
+* Bandwidth: fixed cost (thanks for fixes shard block sizes)
+* Storage: if not fixed then sustainable (thanks to ideas such as storage maintenance fees). Note that storing shard blocks since genesis is not required.
+* CPU, memory I/O: similar situation to Ethereum 1.0 (gas limit that can be voted up or down). [Justin Drake]
+
+**Q: How ETH 2.0 differs from ETH, and why POS instead of POW.**
+
+A: PoS enables goodies such as economic finality and sharding. It is also much cheaper (in terms of inflation cost for hodlers, as well as ecologically) than PoW. [Justin Drake]
+
 ## Resources:
 
 * [Source](https://old.reddit.com/r/ethereum/comments/ajc9ip/ama_we_are_the_eth_20_research_team/)
