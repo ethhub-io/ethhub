@@ -5,7 +5,7 @@ For "Peer-to-Peer" decentralized exchanges, users are matched with one another o
 ## Exchanges
 
 * [AirSwap](airswap.md)
-* [Republic Protocol](republic-protocol.md)
+* [Ren](ren.md)
 
 ### Pros
 
