@@ -139,7 +139,7 @@
     * [Loopring](built-on-ethereum/decentralized-exchanges/off-chain-orderbook/loopring.md)
     * [Hydro](built-on-ethereum/decentralized-exchanges/off-chain-orderbook/hydro.md)
   * [Peer to Peer](built-on-ethereum/decentralized-exchanges/peer-to-peer/README.md)
-    * [Republic Protocol](built-on-ethereum/decentralized-exchanges/peer-to-peer/republic-protocol.md)
+    * [Ren](built-on-ethereum/decentralized-exchanges/peer-to-peer/ren.md)
     * [AirSwap](built-on-ethereum/decentralized-exchanges/peer-to-peer/airswap.md)
   * [Pool Based](built-on-ethereum/decentralized-exchanges/pool-based/README.md)
     * [Uniswap](built-on-ethereum/decentralized-exchanges/pool-based/uniswap.md)
