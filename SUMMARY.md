@@ -78,16 +78,6 @@
   * [Rinkeby](using-ethereum/test-networks/rinkeby.md)
   * [Görli](using-ethereum/test-networks/goerli.md)
 
-## Questions about Ethereum
-
-* [Is Ethereum more expensive to use as price rises?](questions-about-ethereum/is-ethereum-more-expensive-to-use-as-price-rises.md)
-* [Why do you have to pay to use Ethereum?](questions-about-ethereum/why-do-you-have-to-pay-to-use-ethereum.md)
-* [Is Ethereum a security?](questions-about-ethereum/is-ethereum-a-security.md)
-* [Is Ethereum over 1TB in size?](questions-about-ethereum/is-ethereum-over-1tb-in-size.md)
-* [Is Ethereum immutable?](questions-about-ethereum/is-ethereum-immutable.md)
-* [Is Ether needed for transaction fees?](questions-about-ethereum/is-ether-needed-for-transaction-fees.md)
-* [If Ethereum is open source why can't it be copied?](questions-about-ethereum/if-ethereum-is-open-source-why-cant-it-be-copied.md)
-
 ## Built on Ethereum
 
 * [Open Finance](built-on-ethereum/open-finance/README.md)
@@ -121,6 +111,7 @@
   * [Insurance](built-on-ethereum/open-finance/insurance/README.md)
     * [Etherisc](built-on-ethereum/open-finance/insurance/etherisc.md)
   * [0x Protocol](built-on-ethereum/open-finance/0x-protocol.md)
+  * [WBTC](built-on-ethereum/open-finance/wbtc.md)
   * [8x](built-on-ethereum/open-finance/8x.md)
   * [Bskt](built-on-ethereum/open-finance/bskt.md)
   * [cdx](built-on-ethereum/open-finance/cdx.md)
@@ -193,6 +184,16 @@
   * [Streamr](built-on-ethereum/infrastructure/streamr.md)
 * [Token Curated Registries \(TCRs\)](built-on-ethereum/tcrs/README.md)
   * [Types of TCRs](built-on-ethereum/tcrs/types-of-tcrs.md)
+
+## Questions about Ethereum
+
+* [Is Ethereum more expensive to use as price rises?](questions-about-ethereum/is-ethereum-more-expensive-to-use-as-price-rises.md)
+* [Why do you have to pay to use Ethereum?](questions-about-ethereum/why-do-you-have-to-pay-to-use-ethereum.md)
+* [Is Ethereum a security?](questions-about-ethereum/is-ethereum-a-security.md)
+* [Is Ethereum over 1TB in size?](questions-about-ethereum/is-ethereum-over-1tb-in-size.md)
+* [Is Ethereum immutable?](questions-about-ethereum/is-ethereum-immutable.md)
+* [Is Ether needed for transaction fees?](questions-about-ethereum/is-ether-needed-for-transaction-fees.md)
+* [If Ethereum is open source why can't it be copied?](questions-about-ethereum/if-ethereum-is-open-source-why-cant-it-be-copied.md)
 
 ## Glossary
 
