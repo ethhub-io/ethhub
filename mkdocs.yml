@@ -1,0 +1,53 @@
+site_name: EthHub
+theme:
+  name: 'material'
+  logo: 'logo.png'
+  favicon: 'assets/images/favicon.ico'
+  feature:
+    tabs: false
+
+//extra_css: [extra.css]
+
+repo_name: 'ethhub-io/ethhub'
+repo_url: 'https://github.com/ethhub-io/ethhub'
+
+extra:
+  social:
+    - type: 'twitter'
+      link: 'https://twitter.com/ethhub_io'
+
+google_analytics:
+  - 'UA-125892125-2'
+  - 'auto'
+
+nav:
+- Home: 'index.md'
+- Ethereum Basics:
+  - 'What is Ethereum?': 'ethereum-basics/what-is-ethereum.md'
+  - 'What is Ether?': 'ethereum-basics/what-is-ether.md'
+  - 'History and Network Upgrades': 'ethereum-basics/history-and-forks.md'
+  - 'Monetary Policy': 'ethereum-basics/monetary-policy.md'
+  - 'Governance': 'ethereum-basics/governance.md'
+  - 'Development': 'ethereum-basics/development.md'
+  - 'Resources': 'ethereum-basics/resources.md'
+- Ethereum Roadmap:
+  - 'Planned Upgrades': 'ethereum-roadmap/planned-upgrades.md'
+  - Ethereum 1.x:
+      - 'Ethereum 1.x': 'ethereum-roadmap/ethereum-1x/eth-1.x.md'
+  - Ethereum 2.0:
+      - 'Sharding': 'ethereum-roadmap/ethereum-2.0/sharding.md'
+      - 'Proof of Stake': 'ethereum-roadmap/ethereum-2.0/proof-of-stake.md'
+      - 'Ethereum 2.0 Phases': 'ethereum-roadmap/ethereum-2.0/eth-2.0-phases.md'
+      - 'Ethereum 2.0 Economics': 'ethereum-roadmap/ethereum-2.0/eth-2.0-economics.md'
+      - 'Ethereum 1.0 to 2.0 Migration': 'ethereum-roadmap/ethereum-2.0/eth-1.0-to-2.0-migration.md'
+      - Ethereum 2.0 Clients:
+        - 'Artemis': 'ethereum-roadmap/ethereum-2.0/eth2.0-clients/artemis.md'
+        - 'Harmony': 'ethereum-roadmap/ethereum-2.0/eth2.0-clients/harmony.md'
+        - 'Lighthouse': 'ethereum-roadmap/ethereum-2.0/eth2.0-clients/lighthouse.md'
+        - 'Lodestar': 'ethereum-roadmap/ethereum-2.0/eth2.0-clients/lodestar.md'
+        - 'Nimbus': 'ethereum-roadmap/ethereum-2.0/eth2.0-clients/nimbus.md'
+        - 'Prysm': 'ethereum-roadmap/ethereum-2.0/eth2.0-clients/prysm.md'
+        - 'Shasper': 'ethereum-roadmap/ethereum-2.0/eth2.0-clients/shasper.md'
+        - 'Trinity': 'ethereum-roadmap/ethereum-2.0/eth2.0-clients/trinity.md'
+        - 'Yeeth': 'ethereum-roadmap/ethereum-2.0/eth2.0-clients/yeeth.md'
+
