@@ -1,6 +1,6 @@
 # Wrapped Bitcoin (WBTC)
 
-## What is WBTC?
+## What is Wrapped Bitcoin (WBTC)?
 
 WBTC brings greater liquidity to the Ethereum ecosystem including decentralized exchanges (DEXs) and financial applications. Today, the majority of trading volume takes place on centralized exchanges with Bitcoin. WBTC changes that, bringing Bitcoin’s liquidity to DEXs and making it possible to use Bitcoin for token trades.
 
