@@ -15,7 +15,7 @@ A full node:
 * Receives new transactions and blocks while participating in block validation.
 * Verifies all blocks and states.
 * Stores recent state only for more efficient initial sync.
-* All state can be derived from a full node
+* All state can be derived from a full node.
 * Once fully synced, stores all state moving forward similar to archive nodes (more below).
 
 ### Client settings
