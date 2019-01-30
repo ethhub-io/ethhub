@@ -20,6 +20,20 @@ Merchants perform key roles for the WBTC community and are sources of token dist
 
 The custodian provides reliable, institutional-grade security for your WBTC. All WBTC issued will be fully backed and verified through on-chain proof of reserves.
 
+## How it works
+
+### Receiving
+
+To receive WBTC, a user requests tokens from a merchant. The merchant then performs the required KYC / AML procedures and verifies the user’s identity. Once this is completed, the user and merchant execute their swap, with Bitcoin from the user transferring to the merchant, and WBTC from the merchant transferring to the user.
+
+### Minting
+
+Minting refers to the process of creating new wrapped tokens. Minting in the wrapped framework is initiated by a merchant and performed by a custodian.
+
+### Burning
+
+Burning is the action of redeeming Bitcoin for WBTC tokens, and only merchant addresses can do this. The amount to be ‘burnt’ is deducted from the merchant’s WBTC balance (on chain) and the supply of WBTC is then reduced.
+
 ## Partners
 
 ![](../../.gitbook/assets/wbtc-partners.png)
