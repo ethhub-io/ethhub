@@ -148,7 +148,7 @@
 * [Games](built-on-ethereum/games/README.md)
   * [CryptoKitties](built-on-ethereum/games/cryptokitties.md)
   * [Etheroll](built-on-ethereum/games/etheroll.md)
-  * [God's Unchained](built-on-ethereum/games/gods-unchained.md)
+  * [Gods Unchained](built-on-ethereum/games/gods-unchained.md)
   * [Zombie Battleground](built-on-ethereum/games/zombie-battleground.md)
 * [Collectibles](built-on-ethereum/collectables/README.md)
   * [CryptoPunks](built-on-ethereum/collectables/cryptopunks.md)
