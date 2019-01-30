@@ -2,7 +2,10 @@
 
 ## Summary
 
-Anyone is able to run an Ethereum node on their computer. This means that you can participate in validating transactions and blocks on the Ethereum blockchain. The main node providers are [Geth](https://ethereum.github.io/go-ethereum/downloads/) and [Parity](https://github.com/paritytech/parity-ethereum/releases/tag/v2.0.6). Below are the different types of nodes a user can run, their settings, and what they mean.
+Anyone is able to run an Ethereum node on their computer. This means that you can participate in validating transactions and blocks on the Ethereum blockchain. The two most common clients for running nodes are [Geth](https://ethereum.github.io/go-ethereum/downloads/) and [Parity](https://github.com/paritytech/parity-ethereum/releases/tag/v2.0.6). Depending on the type of node run and the hardware specifications of the system, the initial syncronization time and storage requirements vary. For information related to the current Full Node chaindata and state storage size check out:
+http://didtheethereumblockchainreach1tbyet.5chdn.co/
+
+Below are the different types of nodes a user can run, their settings, and what they mean.
 
 ## Full nodes
 
@@ -10,6 +13,10 @@ A full node:
 
 * Stores the full blockchain data available on disk and can serve the network with any data on request. 
 * Receives new transactions and blocks while participating in block validation.
+* Verifies all blocks and states.
+* Stores recent state only for more efficient initial sync.
+* All state can be derived from a full node.
+* Once fully synced, stores all state moving forward similar to archive nodes (more below).
 
 ### Client settings
 
@@ -73,7 +80,7 @@ An archive node:
 
 Archive nodes are only necessary if you want to check the state of an account at any given block height. For example, if you wanted to know the Ether balance an account had at block #4,000,000, you would need to run and query an archive node.
 
-They are commonly only used for services such as block explorers and infrastructure providers like Infura.
+They are commonly only used for services such as block explorers and infrastructure providers like Infura. They are use case dependendent and have no impact on the security or trust model of the blockchain.
 
 ### Client Settings
 
