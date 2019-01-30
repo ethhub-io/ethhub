@@ -1,4 +1,4 @@
-# ERC-721x - Multi-fungible Token/Batch Transfer Standard
+# ERC721x
 
 ## Summary
 

@@ -1,4 +1,4 @@
-# Open Finance (Decentralized Finance or DeFi)
+# Open Finance
 
 ## Summary
 
@@ -34,4 +34,6 @@ Ethereum leverages the same principles that create 'digital trust' within Bitcoi
 10. Open Source Banking Applications
 
 ## Resources
+
 * [Awesome Decentralized Finance](https://github.com/ong/awesome-decentralized-finance)
+

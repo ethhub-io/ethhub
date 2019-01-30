@@ -31,6 +31,8 @@ Note that there are now several "levels" of nodes that can exist in such a syste
 * Single-shard node - acts as a top-level node, but also fully downloads and verifies every collation on some specific shard that it cares more about.
 * Light node - downloads and verifies the block headers of main chain blocks only; does not process any collation headers or transactions unless it needs to read some specific entry in the state of some specific shard, in which case it downloads the Merkle branch to the most recent collation header for that shard and from there downloads the Merkle proof of the desired value in the state.
 
-## Resources 
+## Resources
+
 * [Sharding FAQ](https://github.com/ethereum/wiki/wiki/Sharding-FAQs)
 * [Sharding Roadmap](https://github.com/ethereum/wiki/wiki/Sharding-roadmap)
+

@@ -10,6 +10,7 @@
 * BFT - Byzantine Fault Tolerance
 * dBFT - Delegated Byzantine Fault Tolerance
 * pBFT - Practical Byzantine Fault Tolerance
+* iBFT - Istanbul Byzantine Fault Tolerance
 
 ## Ethereum-related
 
@@ -127,4 +128,8 @@
 * SNARKs - Succinct Non-Interactive ARguments of Knowledge
 * STARKs - Scalable Transparent ARguments of Knowledge
 * MPC - Multi-Party Computation
+
+## Resources
+
+* [A Glossary of Common Terms in the Ethereum / Crypto Space](https://support.mycrypto.com/getting-started/ethereum-glossary.html)
 

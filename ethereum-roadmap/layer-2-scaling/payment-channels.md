@@ -18,5 +18,5 @@ In addition, payment channel transfers, in contrast to on-chain transactions, do
 
 ## Resources
 
-* [https://raiden.network/101.html](https://raiden.network/101.html)
+* [Raiden Network](https://raiden.network/101.html)
 

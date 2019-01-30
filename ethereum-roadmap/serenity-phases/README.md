@@ -1,4 +1,4 @@
-# Serenity \(Eth 2.0\)
+# Ethereum 2.0 \(Serenity\)
 
 _This page is a WIP._
 
@@ -9,6 +9,16 @@ Ethereum’s Serenity upgrade will bring Sharding, Proof of Stake, a new virtual
 To start, here is a [nice visual](https://docs.google.com/presentation/d/1G5UZdEL71XAkU5B2v-TC3lmGaRIu2P6QSeF8m3wg6MU/edit#slide=id.g3c326bb661_0_58) from Hsiao-Wei Wang on what the different layers and phases look like.
 
 ![](../../.gitbook/assets/screen-shot-2018-12-10-at-2.01.26-pm.png)
+
+## Design Goals
+
+Ethereum researcher Danny Ryan has [stipulated](https://github.com/ethereum/eth2.0-specs#design-goals) 5 distinct design goals for Ethereum 2.0:
+
+* **Decentralisation:** to allow for a typical consumer laptop with O(C) resources to process/validate O(1) shards (including any system level validation such as the beacon chain).
+* **Resilience:** to remain live through major network partitions and when very large portions of nodes go offline.
+* **Security:** to utilize crypto and design techniques that allow for a large participation of validators in total and per unit time.
+* **Simplicity:** to minimize complexity, even at the cost of some losses in efficiency.
+* **Longevity:** to select all components such that they are either quantum secure or can be easily swapped out for quantum secure counterparts when available.
 
 ## Phase 0 - Beacon Chain \(~Late 2019\)
 
@@ -26,50 +36,36 @@ Once Phase 0 is complete, there will be two active Ethereum chains. For the sake
 
 * There will be a minimum amount of ETH stake needed in order to first bootstrap the beacon chain. This is defined as `CHAIN_START_FULL_DEPOSIT_THRESHOLD` in the spec. Currently, this is set to 16384 validators needed. That would mean 524,288 ETH in total stake is needed. This would pay ~11% interest to stakers.
 * ETH rewards earned by validators won’t be transferable until Phase 2 of the Serenity roll-out as that is when state execution is implemented.
-* During Phase 0, all Ethereum transactions and smart contract computations will still occur on the Eth 1.0 chain.
-* Once the beacon chain is advancing, Eth 1.0 clients can refer to the beacon chain for finalized beacon blocks and use that as the finality checkpoint for the Eth 1.0 PoW chain.
+* During Phase 0, all user transactions and smart contract computations will still occur on the Eth 1.0 chain.
 
 ## Phase 1 - Shard Chains
 
 ### What is included?
 
-Phase 1 will bring shard chains to the Eth 2.0 side. Shard chains are the key to future scalability as they allow parallel transaction throughput. In Phase 1, the beacon chain will now start to manage multiple shards at once.
+Phase 1 will bring shard chains to the Eth 2.0 side. Shard chains are the key to future scalability as they allow parallel transaction throughput. In Phase 1, the Beacon Chain will now start to manage multiple shards at once.
 
 ### What will the network look like?
 
-The Eth 1.0 and 2.0 chains will still operate in parallel after Phase 1. Using Binary Large Objects, the shard chains will submit blocks with no transactions.
+The Eth 1.0 and 2.0 chains will still operate in parallel after Phase 1.
 
 ### Important Considerations
 
-* In Phase 0 and Phase 1, the main PoW chain will remain live while testing and transitioning is happening on the Eth 2.0 chain. This means that rewards will be paid to both Phase 0/1 validators as well as the normal PoW block rewards. Therefore, the combined inflation of the 2 chains may spike a bit initially but then start to trend towards the 0-1% range as Phase 2 is implemented.
+* In Phase 0, 1, and 2 the main PoW chain will remain live while testing and transitioning is happening on the Eth 2.0 chain. This means that rewards will be paid to both Ethereum 2.0 validators as well as the normal PoW block rewards. Therefore, the combined inflation of the 2 chains may spike a bit initially but then start to trend towards the 0-1% range as the PoW chain is gradually deemphasized.
 
 ## Phase 2 - State Execution
 
 ### What is included?
 
-Phase 2 is where the functionality will start to come together. At this point, the beacon chain and shards chains are live, but they are somewhat useless from an end user perspective until smart contracts and transactions can be executed. This will be added in Phase 2.
-
-### What will the network look like?
-
-Near the end of Phase 2, the current state of the Eth 1.0 PoW chain will be copied over into a shard. This means that for regular users who have not transitioned their ETH over in Phase 0 or Phase 1, it’ll be like nothing happened. The main Eth 1.0 PoW chain will fade at this point due to the difficulty bomb which results in slower blocks and thus lower rewards, and users transitioning over to Eth 2.0.
+Phase 2 is where the functionality will start to come together. At this point, the Beacon Chain and shards chains are live, but they are somewhat useless from an end user perspective until smart contracts and transactions can be executed. This will be added in Phase 2.
 
 ### Important Considerations
 
-* This phase may also see the replacement of the EVM with eWASM.
-* This phase will only support full nodes
-
-## Other Phases
-
-_Phases 3-6 are longer term visions and still need more detail on this page but for now phase titles have been taken from_ [_here_](https://github.com/ethereum/wiki/wiki/Sharding-roadmap#strongphase-3strong-light-client-state-protocol)_._
-
-* Phase 3 - Light client state protocol
-* Phase 4 - Cross-shard transactions
-* Phase 5 - Tight coupling with main chain security
-* Phase 6 - Super-quadratic sharding
+* This phase will endow shards with eWASM as the EVM.
+* It is an open question when and how Ethereum 1.0 accounts and contracts will be migrated to Ethereum 2.0.
 
 ## Resources
 
 * [Sharding Roadmap](https://github.com/ethereum/wiki/wiki/Sharding-roadmap#strongphase-3strong-light-client-state-protocol)
 * [State of Ethereum Protocol](https://media.consensys.net/state-of-ethereum-protocol-2-the-beacon-chain-c6b6a9a69129)
 * [Eth 2.0 Specs](https://github.com/ethereum/eth2.0-specs)
-
+* [Ethereum 2.0 Design Goals](https://media.consensys.net/exploring-the-ethereum-2-0-design-goals-fd2d901b4c01)

@@ -11,4 +11,5 @@ Ethlance also supports job sponsorships. If the creator opted into sponsorship d
 ## Important links
 
 * Website: [https://ethlance.com](https://ethlance.com)
+* Github: [https://github.com/district0x/ethlance](https://github.com/district0x/ethlance)
 

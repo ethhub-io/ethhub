@@ -37,5 +37,5 @@ The main concern related to the current Plasma proposal is what would happen if 
 * [Construction of a Plasma Chain](https://blog.omisego.network/construction-of-a-plasma-chain-0x1-614f6ebd1612)
 * [Plasma Design Comparison](https://docs.google.com/spreadsheets/d/1Hs1-ddKwLG8xrqIXFrYUJzTEH2SjsATFXhgISG1ypzI/edit#gid=0)
 * [An Introduction to Application-Specific Sidechains](https://medium.com/loom-network/million-user-dapps-on-ethereum-an-introduction-to-application-specific-sidechains-c0fdc288c5e5)
-* [Scaling Ethereum with Plasma: Georgios Konstantopoulos of Loom (Podcast)](https://podcast.ethhub.io/scaling-ethereum-with-plasma-georgios-konstantopoulos-of-loom)
+* [Scaling Ethereum with Plasma: Georgios Konstantopoulos of Loom \(Podcast\)](https://podcast.ethhub.io/scaling-ethereum-with-plasma-georgios-konstantopoulos-of-loom)
 

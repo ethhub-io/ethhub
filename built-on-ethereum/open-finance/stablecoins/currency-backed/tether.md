@@ -1,4 +1,4 @@
-# Tether (USDT)
+# Tether
 
 ## Summary
 
@@ -15,4 +15,6 @@ A blockchain critic has raised questions about the relationship between Bitfinex
 During the course of a price manipulation investigation by the U.S. Commodity Futures Trading Commission and the United States Department of Justice, Phil Potter, Chief Strategy Officer of Bitfinex and an executive of Tether Limited, departed Bitfinex in 2018. The investigation was continuing on November 20, 2018 and focusing on Tether and Bitfinex, according to Bloomberg.
 
 ## Resources
+
 * [Website](https://tether.to/)
+

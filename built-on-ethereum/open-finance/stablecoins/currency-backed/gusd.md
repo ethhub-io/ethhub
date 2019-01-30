@@ -1,4 +1,4 @@
-# Gemini Dollar (GUSD)
+# Gemini Dollar
 
 ## Summary
 
@@ -13,6 +13,8 @@ To comply with regulations, GUSD uses an ERC20Proxy contract that gives Gemini, 
 U.S. dollars that correspond to the Gemini dollars issued and in circulation are held at State Street Bank and Trust Company. The U.S. dollar deposit balance of Gemini's account is examined monthly by BPM, LLP, a registered public accounting firm, in order to verify the 1:1 peg. All Independent Accountants' Reports are published and available here: [https://gemini.com/dollar/\#reports](https://gemini.com/dollar/#reports)
 
 ## Resources
+
 * [Website](https://gemini.com/dollar/) 
 * [Whitepaper](https://gemini.com/wp-content/themes/gemini/assets/img/dollar/gemini-dollar-whitepaper.pdf)
 * [Smart Contract Adddress](https://etherscan.io/token/0x056Fd409E1d7A124BD7017459dFEa2F387b6d5Cd)
+

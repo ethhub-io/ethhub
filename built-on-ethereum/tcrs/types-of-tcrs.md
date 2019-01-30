@@ -25,5 +25,6 @@
 ![](../../.gitbook/assets/combinatorial-tcr.png)
 
 ## Resources
+
 [TCR Design Patterns](https://hackernoon.com/token-curated-registry-tcr-design-patterns-4de6d18efa15)
 
