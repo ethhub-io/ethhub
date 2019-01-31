@@ -1,0 +1,1577 @@
+
+
+
+
+<!DOCTYPE html>
+<html lang="en" class="no-js">
+  <head>
+    
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width,initial-scale=1">
+      <meta http-equiv="x-ua-compatible" content="ie=edge">
+      
+      
+      
+      
+        <meta name="lang:clipboard.copy" content="Copy to clipboard">
+      
+        <meta name="lang:clipboard.copied" content="Copied to clipboard">
+      
+        <meta name="lang:search.language" content="en">
+      
+        <meta name="lang:search.pipeline.stopwords" content="True">
+      
+        <meta name="lang:search.pipeline.trimmer" content="True">
+      
+        <meta name="lang:search.result.none" content="No matching documents">
+      
+        <meta name="lang:search.result.one" content="1 matching document">
+      
+        <meta name="lang:search.result.other" content="# matching documents">
+      
+        <meta name="lang:search.tokenizer" content="[\s\-]+">
+      
+      <link rel="shortcut icon" href="../../assets/images/favicon.ico">
+      <meta name="generator" content="mkdocs-1.0.4, mkdocs-material-3.0.4">
+    
+    
+      
+        <title>Ethereum 1.x - EthHub</title>
+      
+    
+    
+      <link rel="stylesheet" href="../../assets/stylesheets/application.451f80e5.css">
+      
+      
+    
+    
+      <script src="../../assets/javascripts/modernizr.1aa3b519.js"></script>
+    
+    
+      
+        <link href="https://fonts.gstatic.com" rel="preconnect" crossorigin>
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,400,400i,700|Roboto+Mono">
+        <style>body,input{font-family:"Roboto","Helvetica Neue",Helvetica,Arial,sans-serif}code,kbd,pre{font-family:"Roboto Mono","Courier New",Courier,monospace}</style>
+      
+    
+    <link rel="stylesheet" href="../../assets/fonts/material-icons.css">
+    
+    
+  </head>
+  
+    <body dir="ltr">
+  
+    <svg class="md-svg">
+      <defs>
+        
+        
+          <svg xmlns="http://www.w3.org/2000/svg" width="416" height="448"
+    viewBox="0 0 416 448" id="__github">
+  <path fill="currentColor" d="M160 304q0 10-3.125 20.5t-10.75 19-18.125
+        8.5-18.125-8.5-10.75-19-3.125-20.5 3.125-20.5 10.75-19 18.125-8.5
+        18.125 8.5 10.75 19 3.125 20.5zM320 304q0 10-3.125 20.5t-10.75
+        19-18.125 8.5-18.125-8.5-10.75-19-3.125-20.5 3.125-20.5 10.75-19
+        18.125-8.5 18.125 8.5 10.75 19 3.125 20.5zM360
+        304q0-30-17.25-51t-46.75-21q-10.25 0-48.75 5.25-17.75 2.75-39.25
+        2.75t-39.25-2.75q-38-5.25-48.75-5.25-29.5 0-46.75 21t-17.25 51q0 22 8
+        38.375t20.25 25.75 30.5 15 35 7.375 37.25 1.75h42q20.5 0
+        37.25-1.75t35-7.375 30.5-15 20.25-25.75 8-38.375zM416 260q0 51.75-15.25
+        82.75-9.5 19.25-26.375 33.25t-35.25 21.5-42.5 11.875-42.875 5.5-41.75
+        1.125q-19.5 0-35.5-0.75t-36.875-3.125-38.125-7.5-34.25-12.875-30.25-20.25-21.5-28.75q-15.5-30.75-15.5-82.75
+        0-59.25 34-99-6.75-20.5-6.75-42.5 0-29 12.75-54.5 27 0 47.5 9.875t47.25
+        30.875q36.75-8.75 77.25-8.75 37 0 70 8 26.25-20.5
+        46.75-30.25t47.25-9.75q12.75 25.5 12.75 54.5 0 21.75-6.75 42 34 40 34
+        99.5z" />
+</svg>
+        
+      </defs>
+    </svg>
+    <input class="md-toggle" data-md-toggle="drawer" type="checkbox" id="__drawer" autocomplete="off">
+    <input class="md-toggle" data-md-toggle="search" type="checkbox" id="__search" autocomplete="off">
+    <label class="md-overlay" data-md-component="overlay" for="__drawer"></label>
+    
+      <a href="../../#ethereum-1x" tabindex="1" class="md-skip">
+        Skip to content
+      </a>
+    
+    
+      <header class="md-header" data-md-component="header">
+  <nav class="md-header-nav md-grid">
+    <div class="md-flex">
+      <div class="md-flex__cell md-flex__cell--shrink">
+        <a href="../.." title="EthHub" class="md-header-nav__button md-logo">
+          
+            <img src="../../logo.png" width="24" height="24">
+          
+        </a>
+      </div>
+      <div class="md-flex__cell md-flex__cell--shrink">
+        <label class="md-icon md-icon--menu md-header-nav__button" for="__drawer"></label>
+      </div>
+      <div class="md-flex__cell md-flex__cell--stretch">
+        <div class="md-flex__ellipsis md-header-nav__title" data-md-component="title">
+          
+            
+              <span class="md-header-nav__topic">
+                EthHub
+              </span>
+              <span class="md-header-nav__topic">
+                Ethereum 1.x
+              </span>
+            
+          
+        </div>
+      </div>
+      <div class="md-flex__cell md-flex__cell--shrink">
+        
+          
+            <label class="md-icon md-icon--search md-header-nav__button" for="__search"></label>
+            
+<div class="md-search" data-md-component="search" role="dialog">
+  <label class="md-search__overlay" for="__search"></label>
+  <div class="md-search__inner" role="search">
+    <form class="md-search__form" name="search">
+      <input type="text" class="md-search__input" name="query" placeholder="Search" autocapitalize="off" autocorrect="off" autocomplete="off" spellcheck="false" data-md-component="query" data-md-state="active">
+      <label class="md-icon md-search__icon" for="__search"></label>
+      <button type="reset" class="md-icon md-search__icon" data-md-component="reset" tabindex="-1">
+        &#xE5CD;
+      </button>
+    </form>
+    <div class="md-search__output">
+      <div class="md-search__scrollwrap" data-md-scrollfix>
+        <div class="md-search-result" data-md-component="result">
+          <div class="md-search-result__meta">
+            Type to start searching
+          </div>
+          <ol class="md-search-result__list"></ol>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+          
+        
+      </div>
+      
+        <div class="md-flex__cell md-flex__cell--shrink">
+          <div class="md-header-nav__source">
+            
+
+
+  
+
+
+  <a href="https://github.com/ethhub-io/ethhub/" title="Go to repository" class="md-source" data-md-source="github">
+    
+      <div class="md-source__icon">
+        <svg viewBox="0 0 24 24" width="24" height="24">
+          <use xlink:href="#__github" width="24" height="24"></use>
+        </svg>
+      </div>
+    
+    <div class="md-source__repository">
+      ethhub-io/ethhub
+    </div>
+  </a>
+
+          </div>
+        </div>
+      
+    </div>
+  </nav>
+</header>
+    
+    <div class="md-container">
+      
+        
+      
+      
+      <main class="md-main">
+        <div class="md-main__inner md-grid" data-md-component="container">
+          
+            
+              <div class="md-sidebar md-sidebar--primary" data-md-component="navigation">
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    <nav class="md-nav md-nav--primary" data-md-level="0">
+  <label class="md-nav__title md-nav__title--site" for="__drawer">
+    <a href="../.." title="EthHub" class="md-nav__button md-logo">
+      
+        <img src="../../logo.png" width="48" height="48">
+      
+    </a>
+    EthHub
+  </label>
+  
+    <div class="md-nav__source">
+      
+
+
+  
+
+
+  <a href="https://github.com/ethhub-io/ethhub/" title="Go to repository" class="md-source" data-md-source="github">
+    
+      <div class="md-source__icon">
+        <svg viewBox="0 0 24 24" width="24" height="24">
+          <use xlink:href="#__github" width="24" height="24"></use>
+        </svg>
+      </div>
+    
+    <div class="md-source__repository">
+      ethhub-io/ethhub
+    </div>
+  </a>
+
+    </div>
+  
+  <ul class="md-nav__list" data-md-scrollfix>
+    
+      
+      
+      
+
+
+  <li class="md-nav__item">
+    <a href="../.." title="Home" class="md-nav__link">
+      Home
+    </a>
+  </li>
+
+    
+      
+      
+      
+
+
+  <li class="md-nav__item md-nav__item--nested">
+    
+      <input class="md-toggle md-nav__toggle" data-md-toggle="nav-2" type="checkbox" id="nav-2">
+    
+    <label class="md-nav__link" for="nav-2">
+      Ethereum Basics
+    </label>
+    <nav class="md-nav" data-md-component="collapsible" data-md-level="1">
+      <label class="md-nav__title" for="nav-2">
+        Ethereum Basics
+      </label>
+      <ul class="md-nav__list" data-md-scrollfix>
+        
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../ethereum-basics/what-is-ethereum/" title="What is Ethereum?" class="md-nav__link">
+      What is Ethereum?
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../ethereum-basics/what-is-ether/" title="What is Ether?" class="md-nav__link">
+      What is Ether?
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../ethereum-basics/history-and-forks/" title="History and Network Upgrades" class="md-nav__link">
+      History and Network Upgrades
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../ethereum-basics/monetary-policy/" title="Monetary Policy" class="md-nav__link">
+      Monetary Policy
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../ethereum-basics/governance/" title="Governance" class="md-nav__link">
+      Governance
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../ethereum-basics/development/" title="Development" class="md-nav__link">
+      Development
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../ethereum-basics/resources/" title="Resources" class="md-nav__link">
+      Resources
+    </a>
+  </li>
+
+        
+      </ul>
+    </nav>
+  </li>
+
+    
+      
+      
+      
+
+  
+
+
+  <li class="md-nav__item md-nav__item--active md-nav__item--nested">
+    
+      <input class="md-toggle md-nav__toggle" data-md-toggle="nav-3" type="checkbox" id="nav-3" checked>
+    
+    <label class="md-nav__link" for="nav-3">
+      Ethereum Roadmap
+    </label>
+    <nav class="md-nav" data-md-component="collapsible" data-md-level="1">
+      <label class="md-nav__title" for="nav-3">
+        Ethereum Roadmap
+      </label>
+      <ul class="md-nav__list" data-md-scrollfix>
+        
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../planned-upgrades/" title="Planned Upgrades" class="md-nav__link">
+      Planned Upgrades
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+  
+
+
+  <li class="md-nav__item md-nav__item--active">
+    
+    <input class="md-toggle md-nav__toggle" data-md-toggle="toc" type="checkbox" id="__toc">
+    
+      
+    
+    
+      <label class="md-nav__link md-nav__link--active" for="__toc">
+        Ethereum 1.x
+      </label>
+    
+    <a href="./" title="Ethereum 1.x" class="md-nav__link md-nav__link--active">
+      Ethereum 1.x
+    </a>
+    
+      
+<nav class="md-nav md-nav--secondary">
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">Table of contents</label>
+    <ul class="md-nav__list" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#summary" title="Summary" class="md-nav__link">
+    Summary
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#pre-history" title="Pre-History" class="md-nav__link">
+    Pre-History
+  </a>
+  
+    <nav class="md-nav">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#october-2017-devcon3-in-cancun" title="October 2017, Devcon3 in Cancun" class="md-nav__link">
+    October 2017, Devcon3 in Cancun
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#may-2018-edcon-in-toronto" title="May 2018, EDCON in Toronto" class="md-nav__link">
+    May 2018, EDCON in Toronto
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#june-2018" title="June 2018" class="md-nav__link">
+    June 2018
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#october-november-2018-devcon-iv-in-prague" title="October-November 2018, Devcon IV in Prague" class="md-nav__link">
+    October-November 2018, Devcon IV in Prague
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#main-objectives" title="Main Objectives" class="md-nav__link">
+    Main Objectives
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#working-groups" title="Working groups" class="md-nav__link">
+    Working groups
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#state-rent" title="State Rent" class="md-nav__link">
+    State Rent
+  </a>
+  
+    <nav class="md-nav">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#proposal-framework" title="Proposal framework" class="md-nav__link">
+    Proposal framework
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#reasoning-questions" title="Reasoning questions" class="md-nav__link">
+    Reasoning questions
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#current-proposals" title="Current proposals" class="md-nav__link">
+    Current proposals
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#challenges-inherent-to-most-proposals" title="Challenges inherent to most proposals" class="md-nav__link">
+    Challenges inherent to most proposals
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#classes-of-contracts-and-impacts" title="Classes of contracts and impacts" class="md-nav__link">
+    Classes of contracts and impacts
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#resources" title="Resources" class="md-nav__link">
+    Resources
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#ewasm" title="eWASM" class="md-nav__link">
+    eWASM
+  </a>
+  
+    <nav class="md-nav">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#main-unresolved-questions" title="Main unresolved questions" class="md-nav__link">
+    Main unresolved questions
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#gas-metering" title="Gas metering" class="md-nav__link">
+    Gas metering
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#memory-allocation" title="Memory allocation" class="md-nav__link">
+    Memory allocation
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#interaction-with-the-rest-of-evm-state" title="Interaction with the rest of EVM state" class="md-nav__link">
+    Interaction with the rest of EVM state
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#interpretercompiler-guarantees" title="Interpreter/compiler guarantees" class="md-nav__link">
+    Interpreter/compiler guarantees
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#storage-pruning" title="Storage Pruning" class="md-nav__link">
+    Storage Pruning
+  </a>
+  
+    <nav class="md-nav">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#the-questions-to-be-answered-are" title="The questions to be answered are:" class="md-nav__link">
+    The questions to be answered are:
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#simulation-and-emulation" title="Simulation and Emulation" class="md-nav__link">
+    Simulation and Emulation
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#deliverables" title="Deliverables" class="md-nav__link">
+    Deliverables
+  </a>
+  
+    <nav class="md-nav">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#measures-requiring-hard-forks" title="Measures requiring hard-forks:" class="md-nav__link">
+    Measures requiring hard-forks:
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#measures-likely-not-requiring-hard-forks-but-requiring-client-code-coordination-on-the-network-protocol" title="Measures likely not requiring hard-forks, but requiring client code coordination on the network protocol:" class="md-nav__link">
+    Measures likely not requiring hard-forks, but requiring client code coordination on the network protocol:
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+      
+      
+      
+      
+    </ul>
+  
+</nav>
+    
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item md-nav__item--nested">
+    
+      <input class="md-toggle md-nav__toggle" data-md-toggle="nav-3-3" type="checkbox" id="nav-3-3">
+    
+    <label class="md-nav__link" for="nav-3-3">
+      Ethereum 2.0
+    </label>
+    <nav class="md-nav" data-md-component="collapsible" data-md-level="2">
+      <label class="md-nav__title" for="nav-3-3">
+        Ethereum 2.0
+      </label>
+      <ul class="md-nav__list" data-md-scrollfix>
+        
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../ethereum-2.0/sharding/" title="Sharding" class="md-nav__link">
+      Sharding
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../ethereum-2.0/proof-of-stake/" title="Proof of Stake" class="md-nav__link">
+      Proof of Stake
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../ethereum-2.0/eth-2.0-phases/" title="Ethereum 2.0 Phases" class="md-nav__link">
+      Ethereum 2.0 Phases
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../ethereum-2.0/eth-2.0-economics/" title="Ethereum 2.0 Economics" class="md-nav__link">
+      Ethereum 2.0 Economics
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../ethereum-2.0/eth-1.0-to-2.0-migration/" title="Ethereum 1.0 to 2.0 Migration" class="md-nav__link">
+      Ethereum 1.0 to 2.0 Migration
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item md-nav__item--nested">
+    
+      <input class="md-toggle md-nav__toggle" data-md-toggle="nav-3-3-6" type="checkbox" id="nav-3-3-6">
+    
+    <label class="md-nav__link" for="nav-3-3-6">
+      Ethereum 2.0 Clients
+    </label>
+    <nav class="md-nav" data-md-component="collapsible" data-md-level="3">
+      <label class="md-nav__title" for="nav-3-3-6">
+        Ethereum 2.0 Clients
+      </label>
+      <ul class="md-nav__list" data-md-scrollfix>
+        
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../ethereum-2.0/eth2.0-clients/artemis/" title="Artemis" class="md-nav__link">
+      Artemis
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../ethereum-2.0/eth2.0-clients/harmony/" title="Harmony" class="md-nav__link">
+      Harmony
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../ethereum-2.0/eth2.0-clients/lighthouse/" title="Lighthouse" class="md-nav__link">
+      Lighthouse
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../ethereum-2.0/eth2.0-clients/lodestar/" title="Lodestar" class="md-nav__link">
+      Lodestar
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../ethereum-2.0/eth2.0-clients/nimbus/" title="Nimbus" class="md-nav__link">
+      Nimbus
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../ethereum-2.0/eth2.0-clients/prysm/" title="Prysm" class="md-nav__link">
+      Prysm
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../ethereum-2.0/eth2.0-clients/shasper/" title="Shasper" class="md-nav__link">
+      Shasper
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../ethereum-2.0/eth2.0-clients/trinity/" title="Trinity" class="md-nav__link">
+      Trinity
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../ethereum-2.0/eth2.0-clients/yeeth/" title="Yeeth" class="md-nav__link">
+      Yeeth
+    </a>
+  </li>
+
+        
+      </ul>
+    </nav>
+  </li>
+
+        
+      </ul>
+    </nav>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item md-nav__item--nested">
+    
+      <input class="md-toggle md-nav__toggle" data-md-toggle="nav-3-4" type="checkbox" id="nav-3-4">
+    
+    <label class="md-nav__link" for="nav-3-4">
+      Layer 2 Scaling
+    </label>
+    <nav class="md-nav" data-md-component="collapsible" data-md-level="2">
+      <label class="md-nav__title" for="nav-3-4">
+        Layer 2 Scaling
+      </label>
+      <ul class="md-nav__list" data-md-scrollfix>
+        
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../layer-2-scaling/plasma/" title="Plasma" class="md-nav__link">
+      Plasma
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../layer-2-scaling/state-channels/" title="State Channels" class="md-nav__link">
+      State Channels
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../layer-2-scaling/payment-channels/" title="Payment Channels" class="md-nav__link">
+      Payment Channels
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../layer-2-scaling/zk-starks/" title="ZK-STARKs" class="md-nav__link">
+      ZK-STARKs
+    </a>
+  </li>
+
+        
+      </ul>
+    </nav>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../ethereum-2.0/privacy.md" title="Privacy" class="md-nav__link">
+      Privacy
+    </a>
+  </li>
+
+        
+      </ul>
+    </nav>
+  </li>
+
+    
+      
+      
+      
+
+
+  <li class="md-nav__item md-nav__item--nested">
+    
+      <input class="md-toggle md-nav__toggle" data-md-toggle="nav-4" type="checkbox" id="nav-4">
+    
+    <label class="md-nav__link" for="nav-4">
+      Using Ethereum
+    </label>
+    <nav class="md-nav" data-md-component="collapsible" data-md-level="1">
+      <label class="md-nav__title" for="nav-4">
+        Using Ethereum
+      </label>
+      <ul class="md-nav__list" data-md-scrollfix>
+        
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../using-ethereum/how-to-run-an-ethereum-node/" title="Running an Ethereum Node" class="md-nav__link">
+      Running an Ethereum Node
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../using-ethereum/transactions/" title="Transactions" class="md-nav__link">
+      Transactions
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../using-ethereum/mining/" title="Mining" class="md-nav__link">
+      Mining
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../using-ethereum/test-networks/" title="Test Networks" class="md-nav__link">
+      Test Networks
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item md-nav__item--nested">
+    
+      <input class="md-toggle md-nav__toggle" data-md-toggle="nav-4-5" type="checkbox" id="nav-4-5">
+    
+    <label class="md-nav__link" for="nav-4-5">
+      Wallets
+    </label>
+    <nav class="md-nav" data-md-component="collapsible" data-md-level="2">
+      <label class="md-nav__title" for="nav-4-5">
+        Wallets
+      </label>
+      <ul class="md-nav__list" data-md-scrollfix>
+        
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../using-ethereum/wallets/desktop/" title="Desktop" class="md-nav__link">
+      Desktop
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../using-ethereum/wallets/web.md'" title="Web" class="md-nav__link">
+      Web
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../using-ethereum/wallets/mobile.md'" title="Mobile" class="md-nav__link">
+      Mobile
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../using-ethereum/wallets/hardware/" title="Hardware" class="md-nav__link">
+      Hardware
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../using-ethereum/wallets/multisignature/" title="multsignature" class="md-nav__link">
+      multsignature
+    </a>
+  </li>
+
+        
+      </ul>
+    </nav>
+  </li>
+
+        
+      </ul>
+    </nav>
+  </li>
+
+    
+  </ul>
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+            
+              <div class="md-sidebar md-sidebar--secondary" data-md-component="toc">
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+<nav class="md-nav md-nav--secondary">
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">Table of contents</label>
+    <ul class="md-nav__list" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#summary" title="Summary" class="md-nav__link">
+    Summary
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#pre-history" title="Pre-History" class="md-nav__link">
+    Pre-History
+  </a>
+  
+    <nav class="md-nav">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#october-2017-devcon3-in-cancun" title="October 2017, Devcon3 in Cancun" class="md-nav__link">
+    October 2017, Devcon3 in Cancun
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#may-2018-edcon-in-toronto" title="May 2018, EDCON in Toronto" class="md-nav__link">
+    May 2018, EDCON in Toronto
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#june-2018" title="June 2018" class="md-nav__link">
+    June 2018
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#october-november-2018-devcon-iv-in-prague" title="October-November 2018, Devcon IV in Prague" class="md-nav__link">
+    October-November 2018, Devcon IV in Prague
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#main-objectives" title="Main Objectives" class="md-nav__link">
+    Main Objectives
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#working-groups" title="Working groups" class="md-nav__link">
+    Working groups
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#state-rent" title="State Rent" class="md-nav__link">
+    State Rent
+  </a>
+  
+    <nav class="md-nav">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#proposal-framework" title="Proposal framework" class="md-nav__link">
+    Proposal framework
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#reasoning-questions" title="Reasoning questions" class="md-nav__link">
+    Reasoning questions
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#current-proposals" title="Current proposals" class="md-nav__link">
+    Current proposals
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#challenges-inherent-to-most-proposals" title="Challenges inherent to most proposals" class="md-nav__link">
+    Challenges inherent to most proposals
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#classes-of-contracts-and-impacts" title="Classes of contracts and impacts" class="md-nav__link">
+    Classes of contracts and impacts
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#resources" title="Resources" class="md-nav__link">
+    Resources
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#ewasm" title="eWASM" class="md-nav__link">
+    eWASM
+  </a>
+  
+    <nav class="md-nav">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#main-unresolved-questions" title="Main unresolved questions" class="md-nav__link">
+    Main unresolved questions
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#gas-metering" title="Gas metering" class="md-nav__link">
+    Gas metering
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#memory-allocation" title="Memory allocation" class="md-nav__link">
+    Memory allocation
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#interaction-with-the-rest-of-evm-state" title="Interaction with the rest of EVM state" class="md-nav__link">
+    Interaction with the rest of EVM state
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#interpretercompiler-guarantees" title="Interpreter/compiler guarantees" class="md-nav__link">
+    Interpreter/compiler guarantees
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#storage-pruning" title="Storage Pruning" class="md-nav__link">
+    Storage Pruning
+  </a>
+  
+    <nav class="md-nav">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#the-questions-to-be-answered-are" title="The questions to be answered are:" class="md-nav__link">
+    The questions to be answered are:
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#simulation-and-emulation" title="Simulation and Emulation" class="md-nav__link">
+    Simulation and Emulation
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#deliverables" title="Deliverables" class="md-nav__link">
+    Deliverables
+  </a>
+  
+    <nav class="md-nav">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#measures-requiring-hard-forks" title="Measures requiring hard-forks:" class="md-nav__link">
+    Measures requiring hard-forks:
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#measures-likely-not-requiring-hard-forks-but-requiring-client-code-coordination-on-the-network-protocol" title="Measures likely not requiring hard-forks, but requiring client code coordination on the network protocol:" class="md-nav__link">
+    Measures likely not requiring hard-forks, but requiring client code coordination on the network protocol:
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+      
+      
+      
+      
+    </ul>
+  
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+          
+          <div class="md-content">
+            <article class="md-content__inner md-typeset">
+              
+                
+                  <a href="https://github.com/ethhub-io/ethhub/edit/master/docs/ethereum-roadmap/eth-1.x.md" title="Edit this page" class="md-icon md-content__icon">&#xE3C9;</a>
+                
+                
+                <h1 id="ethereum-1x">Ethereum 1.x</h1>
+<h2 id="summary">Summary</h2>
+<p>A group of Ethereum core developers and friends talked at Devcon IV and realised that they all share similar view - that Ethereum mainnet, if left unchanged, would become very hard or impossible to use due to severe performance degradation, and increased storage requirements.</p>
+<ul>
+<li>Performance degradation mostly due to the large (and increasing) state.</li>
+<li>Increased storage requirements mostly due to keeping blocks, event logs (receipts), and state history (currently prunable in major clients).</li>
+</ul>
+<h2 id="pre-history">Pre-History</h2>
+<h4 id="october-2017-devcon3-in-cancun">October 2017, Devcon3 in Cancun</h4>
+<p>Vitalik Buterin presents <a href="https://www.youtube.com/watch?v=hAhUfCjjkXc">"Modest proposal for Ethereum 2.0"</a>, suggesting that Layer 1 of Ethereum 1.0 should stay “safe and conservative”, and most of the innovation go into Layer 2 and into shards.</p>
+<h4 id="may-2018-edcon-in-toronto">May 2018, EDCON in Toronto</h4>
+<p>Vitalik Buterin gives a talk <a href="https://www.youtube.com/watch?v=VqOlOMAqC08">“So you want to become Casper validator?”</a>, signalling that Casper FFG validators may be running on laptops and rollout is getting close.</p>
+<h4 id="june-2018">June 2018</h4>
+<p>Pivot in Casper research from Casper FFG to full Casper and merging with sharding, due to challenges of implementing Casper FFG as a contract, and due to large overlap with Sharding research, as discussed at the <a href="https://youtu.be/8-AZys80RrU?t=1819">Core Dev Meeting 40</a>.</p>
+<h3 id="october-november-2018-devcon-iv-in-prague">October-November 2018, Devcon IV in Prague</h3>
+<p>It becomes apparent that Serenity (full Casper + Sharding) is not going to functionally supersede Ethereum 1.0 for another 3-5 years.</p>
+<h2 id="main-objectives">Main Objectives</h2>
+<ul>
+<li>Develop, formalise, and implement set of measures, deployable on the Ethereum 1.0 mainnet, within the next 2 years, to ensure that the chain stays viable and usable. That mainly means curbing the state growth or limiting the state size.</li>
+<li>Emphasize focus on these measures and de-emphasize introduction of specific “features”. This is one of the places where eWASM engine comes in. Current computational pre-compiles are seen as features requiring case-by-case work. Introduction of eWASM engine would first enable “pre-compile” factory, where more pre-compiles are introduced faster. Later it would enable any contracts written in eWASM, obviating need in pre-compiles altogether.</li>
+</ul>
+<h2 id="working-groups">Working groups</h2>
+<ul>
+<li><a href="state-rent.md">State rent</a></li>
+<li><a href="ewasm.md">eWASM</a></li>
+<li><a href="storage-pruning.md">Storage pruning</a></li>
+<li><a href="simulation-emulation.md">Simulation and Emulation</a></li>
+</ul>
+<h2 id="state-rent">State Rent</h2>
+<h4 id="proposal-framework">Proposal framework</h4>
+<p>Since State rent is a potentially higher impact change (and therefore more controversial, unpopular) than any other changes within Ethereum 1x, it requires a clear logical framework for designing, evaluating, and comparing proposals. This framework attempts to ensure, as much as possible, that the change plan eventually chosen is likely close to the best available. It defines the path of reasoning from “What is the problem (what happens if we do nothing)?” to “How exactly we are doing it”. <a href="https://github.com/ledgerwatch/eth_state/blob/master/State_size_growth_management.pdf">Current location of the proposal framework document</a> (Work in progress)</p>
+<h4 id="reasoning-questions">Reasoning questions</h4>
+<ul>
+<li>Why is state a valuable resource and to whom? (can this value be replicated)</li>
+<li>Why state size needs to be managed? (effect on system performance + possible partial mitigations)</li>
+<li>How can state size be managed? (feedforward vs feedback control)</li>
+<li>What metrics need to be regulated? (state size, state growth, or both)</li>
+<li>Do metrics need to be in-state or off-state?</li>
+<li>What parameters (control inputs) do we use? (cost of state expansion, charge per size unit per block)</li>
+<li>Can controlled system weaken or evade control? (dark rent, miner rebates)</li>
+</ul>
+<h4 id="current-proposals">Current proposals</h4>
+<ul>
+<li>Introduce rent on all accounts (contracts and non-contracts), existing and newly created ones, with the ability to restore evicted contracts. <a href="https://github.com/ledgerwatch/eth_state/blob/master/State_rent.pdf">Current location</a></li>
+<li>Introduce fund lock-up when state is expanded (creation of accounts, adding store items), which is partially released when the state is cleared. Apply rent only on the pre-existing state. <a href="https://github.com/ledgerwatch/eth_state/blob/master/State_Rent_2.pdf">Current location</a></li>
+<li>Increase the cost of state expansion in “short term”, to enable block gas limit increase before state rent is implemented</li>
+<li>Do nothing</li>
+</ul>
+<h4 id="challenges-inherent-to-most-proposals">Challenges inherent to most proposals</h4>
+<ul>
+<li>How will existing dapps be affected. Will they become too expensive/cumbersome to use? Will they need to be optimised/rewritten completely?</li>
+<li>Denomination of the extra state expansion charge or rent - should it be priced in gas, ETH, and how should be the price be determined (feedback loop on the state size?). Will volatility of ETH price affect those charges too much? Will miners help users evade charges?</li>
+</ul>
+<h4 id="classes-of-contracts-and-impacts">Classes of contracts and impacts</h4>
+<p>Part of the state rent research is to identify main classes of contracts that are likely to be affected by the changes in the protocol, and provide guidelines on what they can do about it. Likely important classes:</p>
+<ul>
+<li>ERC20 token contracts and applications managing them (DAI, Augur)</li>
+<li>On-chain order books (DEXs)</li>
+<li>ENS</li>
+<li>Non-fungible token contracts</li>
+<li>Multi-signature wallets</li>
+<li>Gaming contracts</li>
+<li>Gambling contracts</li>
+</ul>
+<h4 id="resources">Resources</h4>
+<ul>
+<li><a href="https://ethereum-magicians.org/t/state-rent-proposal-version-2-rushed/2494">State Rent Proposal</a></li>
+</ul>
+<h2 id="ewasm">eWASM</h2>
+<h4 id="main-unresolved-questions">Main unresolved questions</h4>
+<ul>
+<li>Gas metering</li>
+<li>Memory allocation</li>
+<li>Interaction with the rest of EVM state (e.g. contract storage, balances)</li>
+<li>Interpreter/compiler guarantees on compilation time and runtime</li>
+</ul>
+<h4 id="gas-metering">Gas metering</h4>
+<p>Two main approaches:</p>
+<ul>
+<li>Injection. Wasm bytecode gets pre-processed. An extra register is added to serve as a gas counter. It gets incremented at certain points (jumps, calls) and out-of-gas check is performed. Pro: generic. Con: performance overhead.</li>
+<li>Automatic upper bound estimation. Static analysis is performed on the bytecode, and, for some subset of codes, upper bound of executed instructions (virtual gas) can be calculated. Pro: no performance overhead. Con: only subset of codes</li>
+</ul>
+<p>Current approach for the 1st phase (pre-compiles) is upper-bound based.</p>
+<h4 id="memory-allocation">Memory allocation</h4>
+<p>Wasm semantics dictates that Wasm execution has a linear memory (only one in the current version of the spec) that can be grown on demand. Will that linear memory be allocated every time the engine is called, and then torn down at the end of the execution? If yes, how more efficient is this compared to the current EVM model (which does this allocation and tearing down at each CALL opcode).</p>
+<h4 id="interaction-with-the-rest-of-evm-state">Interaction with the rest of EVM state</h4>
+<p>Was proposed via external functions, for example (name made up):</p>
+<p><code>function_SLOAD(storage_index: uint256)</code></p>
+<p>Alternative approach is not to have Ewasm code access EVM state, but only exchange input/output when called. This, of course, makes maintaining large persistent data structures difficult.</p>
+<h4 id="interpretercompiler-guarantees">Interpreter/compiler guarantees</h4>
+<p>Initially, this problem has been brought up in the context of JITs (Just In Time) compilers. JIT compilers were one of the reasons why WebAssembly was a big performance improvement over JavaScript.</p>
+<p>JIT compilers might be problematic in an adversarial environment, because it is usually possible to find a program that takes an unusually long time to compile, and algorithms that decide what to compile “just in time” can be targeted too.</p>
+<p>AOT (Ahead of Time) compilers can be used for Core Dev-controlled pre-compiles (Phase 1). For Phase 2, the plan was to initially use very straightforward interpreters, and then develop AOT compilers with necessary guarantees. The idea of first introducing interpreters is to make sure eWASM is there, giving people more motivation to work on the compilers (which is harder than interpreter)</p>
+<h2 id="storage-pruning">Storage Pruning</h2>
+<h4 id="the-questions-to-be-answered-are">The questions to be answered are:</h4>
+<ul>
+<li>What do we absolutely have to keep to comply with the Ethereum protocol?</li>
+<li>Do we always need to keep all the blocks? (maybe not, if we use backward sync, for example)</li>
+<li>Do we need to keep receipts, or just logs, how much (in Gb), or for how long?</li>
+<li>Do we need to always download the entire header chain or can we compress it (with STARK proofs for example)?</li>
+<li>Can we improve snapshot sync procedures (fast sync, warp sync) so that they prevent invalid state transitions (with Validity Proofs, for example)? </li>
+</ul>
+<h2 id="simulation-and-emulation">Simulation and Emulation</h2>
+<p><strong>Simulation</strong> handles models of the software agents (in our case Ethereum client software instances), coarse enough to be performant, and fine enough to capture the important facets of the agents.</p>
+<p><strong>Emulation</strong> handles the actual software agents (in our case the actual implementations of Ethereum like geth and parity), placed into the virtual environments with lots of freedom to change parameters of virtual machines and the network connecting them.</p>
+<p>Potential questions that simulation may be able to answer:</p>
+<ul>
+<li>Will uncle rate become much less of an indicator of the network congestion if most of the Ethereum nodes propagate blocks straight after verifying Proof Of Work (instead of fully processing the block as they used to do)?</li>
+</ul>
+<p>Potential questions that emulations may be able to answer:</p>
+<ul>
+<li>What is the function that describes the relationship between the rate of success for snapshot synchornisations (fast sync, warp sync) and things like prevailing bandwidth and state history pruning threshold?</li>
+</ul>
+<h2 id="deliverables">Deliverables</h2>
+<h4 id="measures-requiring-hard-forks">Measures requiring hard-forks:</h4>
+<ul>
+<li>State rent (or state growth limiting)</li>
+<li>Ewasm</li>
+</ul>
+<h4 id="measures-likely-not-requiring-hard-forks-but-requiring-client-code-coordination-on-the-network-protocol">Measures likely not requiring hard-forks, but requiring client code coordination on the network protocol:</h4>
+<ul>
+<li>Storage pruning</li>
+</ul>
+<p>Simulation and Emulation group produces data for making projections, benchmarks, and parameter calibrations for other groups.</p>
+                
+                  
+                
+              
+              
+                
+
+
+              
+            </article>
+          </div>
+        </div>
+      </main>
+      
+        
+<footer class="md-footer">
+  
+    <div class="md-footer-nav">
+      <nav class="md-footer-nav__inner md-grid">
+        
+          <a href="../planned-upgrades/" title="Planned Upgrades" class="md-flex md-footer-nav__link md-footer-nav__link--prev" rel="prev">
+            <div class="md-flex__cell md-flex__cell--shrink">
+              <i class="md-icon md-icon--arrow-back md-footer-nav__button"></i>
+            </div>
+            <div class="md-flex__cell md-flex__cell--stretch md-footer-nav__title">
+              <span class="md-flex__ellipsis">
+                <span class="md-footer-nav__direction">
+                  Previous
+                </span>
+                Planned Upgrades
+              </span>
+            </div>
+          </a>
+        
+        
+          <a href="../ethereum-2.0/sharding/" title="Sharding" class="md-flex md-footer-nav__link md-footer-nav__link--next" rel="next">
+            <div class="md-flex__cell md-flex__cell--stretch md-footer-nav__title">
+              <span class="md-flex__ellipsis">
+                <span class="md-footer-nav__direction">
+                  Next
+                </span>
+                Sharding
+              </span>
+            </div>
+            <div class="md-flex__cell md-flex__cell--shrink">
+              <i class="md-icon md-icon--arrow-forward md-footer-nav__button"></i>
+            </div>
+          </a>
+        
+      </nav>
+    </div>
+  
+  <div class="md-footer-meta md-typeset">
+    <div class="md-footer-meta__inner md-grid">
+      <div class="md-footer-copyright">
+        
+        powered by
+        <a href="https://www.mkdocs.org">MkDocs</a>
+        and
+        <a href="https://squidfunk.github.io/mkdocs-material/">
+          Material for MkDocs</a>
+      </div>
+      
+        
+  <div class="md-footer-social">
+    <link rel="stylesheet" href="../../assets/fonts/font-awesome.css">
+    
+      <a href="https://twitter.com/ethhub_io" class="md-footer-social__link fa fa-twitter"></a>
+    
+  </div>
+
+      
+    </div>
+  </div>
+</footer>
+      
+    </div>
+    
+      <script src="../../assets/javascripts/application.583bbe55.js"></script>
+      
+      <script>app.initialize({version:"1.0.4",url:{base:"../.."}})</script>
+      
+    
+    
+      
+        <script>!function(e,a,t,n,o,c,i){e.GoogleAnalyticsObject=o,e.ga=e.ga||function(){(e.ga.q=e.ga.q||[]).push(arguments)},e.ga.l=1*new Date,c=a.createElement(t),i=a.getElementsByTagName(t)[0],c.async=1,c.src="https://www.google-analytics.com/analytics.js",i.parentNode.insertBefore(c,i)}(window,document,"script",0,"ga"),ga("create","UA-125892125-2","auto"),ga("set","anonymizeIp",!0),ga("send","pageview");var links=document.getElementsByTagName("a");if(Array.prototype.map.call(links,function(e){e.host!=document.location.host&&e.addEventListener("click",function(){var a=e.getAttribute("data-md-action")||"follow";ga("send","event","outbound",a,e.href)})}),document.forms.search){var query=document.forms.search.query;query.addEventListener("blur",function(){if(this.value){var e=document.location.pathname;ga("send","pageview",e+"?q="+this.value)}})}</script>
+      
+    
+  </body>
+</html>

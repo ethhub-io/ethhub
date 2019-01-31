@@ -32,8 +32,7 @@ nav:
   - 'Resources': 'ethereum-basics/resources.md'
 - Ethereum Roadmap:
   - 'Planned Upgrades': 'ethereum-roadmap/planned-upgrades.md'
-  - Ethereum 1.x:
-      - 'Ethereum 1.x': 'ethereum-roadmap/ethereum-1x/eth-1.x.md'
+  - 'Ethereum 1.x': 'ethereum-roadmap/eth-1.x.md'
   - Ethereum 2.0:
       - 'Sharding': 'ethereum-roadmap/ethereum-2.0/sharding.md'
       - 'Proof of Stake': 'ethereum-roadmap/ethereum-2.0/proof-of-stake.md'
@@ -50,4 +49,23 @@ nav:
         - 'Shasper': 'ethereum-roadmap/ethereum-2.0/eth2.0-clients/shasper.md'
         - 'Trinity': 'ethereum-roadmap/ethereum-2.0/eth2.0-clients/trinity.md'
         - 'Yeeth': 'ethereum-roadmap/ethereum-2.0/eth2.0-clients/yeeth.md'
+  - Layer 2 Scaling:
+      - 'Plasma': 'ethereum-roadmap/layer-2-scaling/plasma.md'
+      - 'State Channels': 'ethereum-roadmap/layer-2-scaling/state-channels.md'
+      - 'Payment Channels': 'ethereum-roadmap/layer-2-scaling/payment-channels.md'
+      - 'ZK-STARKs': 'ethereum-roadmap/layer-2-scaling/zk-starks.md'
+  - 'Privacy': 'ethereum-roadmap/ethereum-2.0/privacy.md'
+- Using Ethereum:
+  - 'Running an Ethereum Node': 'using-ethereum/how-to-run-an-ethereum-node.md'
+  - 'Transactions': 'using-ethereum/transactions.md'
+  - 'Mining': 'using-ethereum/mining.md'
+  - 'Test Networks': 'using-ethereum/test-networks.md'
+  - Wallets:
+    - 'Desktop': 'using-ethereum/wallets/desktop.md'
+    - 'Web': using-ethereum/wallets/web.md'
+    - 'Mobile': using-ethereum/wallets/mobile.md'
+    - 'Hardware': 'using-ethereum/wallets/hardware.md'
+    - 'multsignature': 'using-ethereum/wallets/multisignature.md'
+
+
 
