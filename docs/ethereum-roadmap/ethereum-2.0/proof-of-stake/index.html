@@ -1,0 +1,1046 @@
+
+
+
+
+<!DOCTYPE html>
+<html lang="en" class="no-js">
+  <head>
+    
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width,initial-scale=1">
+      <meta http-equiv="x-ua-compatible" content="ie=edge">
+      
+      
+      
+      
+        <meta name="lang:clipboard.copy" content="Copy to clipboard">
+      
+        <meta name="lang:clipboard.copied" content="Copied to clipboard">
+      
+        <meta name="lang:search.language" content="en">
+      
+        <meta name="lang:search.pipeline.stopwords" content="True">
+      
+        <meta name="lang:search.pipeline.trimmer" content="True">
+      
+        <meta name="lang:search.result.none" content="No matching documents">
+      
+        <meta name="lang:search.result.one" content="1 matching document">
+      
+        <meta name="lang:search.result.other" content="# matching documents">
+      
+        <meta name="lang:search.tokenizer" content="[\s\-]+">
+      
+      <link rel="shortcut icon" href="../../../assets/images/favicon.ico">
+      <meta name="generator" content="mkdocs-1.0.4, mkdocs-material-3.0.4">
+    
+    
+      
+        <title>Proof of Stake - EthHub</title>
+      
+    
+    
+      <link rel="stylesheet" href="../../../assets/stylesheets/application.451f80e5.css">
+      
+      
+    
+    
+      <script src="../../../assets/javascripts/modernizr.1aa3b519.js"></script>
+    
+    
+      
+        <link href="https://fonts.gstatic.com" rel="preconnect" crossorigin>
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,400,400i,700|Roboto+Mono">
+        <style>body,input{font-family:"Roboto","Helvetica Neue",Helvetica,Arial,sans-serif}code,kbd,pre{font-family:"Roboto Mono","Courier New",Courier,monospace}</style>
+      
+    
+    <link rel="stylesheet" href="../../../assets/fonts/material-icons.css">
+    
+    
+  </head>
+  
+    <body dir="ltr">
+  
+    <svg class="md-svg">
+      <defs>
+        
+        
+          <svg xmlns="http://www.w3.org/2000/svg" width="416" height="448"
+    viewBox="0 0 416 448" id="__github">
+  <path fill="currentColor" d="M160 304q0 10-3.125 20.5t-10.75 19-18.125
+        8.5-18.125-8.5-10.75-19-3.125-20.5 3.125-20.5 10.75-19 18.125-8.5
+        18.125 8.5 10.75 19 3.125 20.5zM320 304q0 10-3.125 20.5t-10.75
+        19-18.125 8.5-18.125-8.5-10.75-19-3.125-20.5 3.125-20.5 10.75-19
+        18.125-8.5 18.125 8.5 10.75 19 3.125 20.5zM360
+        304q0-30-17.25-51t-46.75-21q-10.25 0-48.75 5.25-17.75 2.75-39.25
+        2.75t-39.25-2.75q-38-5.25-48.75-5.25-29.5 0-46.75 21t-17.25 51q0 22 8
+        38.375t20.25 25.75 30.5 15 35 7.375 37.25 1.75h42q20.5 0
+        37.25-1.75t35-7.375 30.5-15 20.25-25.75 8-38.375zM416 260q0 51.75-15.25
+        82.75-9.5 19.25-26.375 33.25t-35.25 21.5-42.5 11.875-42.875 5.5-41.75
+        1.125q-19.5 0-35.5-0.75t-36.875-3.125-38.125-7.5-34.25-12.875-30.25-20.25-21.5-28.75q-15.5-30.75-15.5-82.75
+        0-59.25 34-99-6.75-20.5-6.75-42.5 0-29 12.75-54.5 27 0 47.5 9.875t47.25
+        30.875q36.75-8.75 77.25-8.75 37 0 70 8 26.25-20.5
+        46.75-30.25t47.25-9.75q12.75 25.5 12.75 54.5 0 21.75-6.75 42 34 40 34
+        99.5z" />
+</svg>
+        
+      </defs>
+    </svg>
+    <input class="md-toggle" data-md-toggle="drawer" type="checkbox" id="__drawer" autocomplete="off">
+    <input class="md-toggle" data-md-toggle="search" type="checkbox" id="__search" autocomplete="off">
+    <label class="md-overlay" data-md-component="overlay" for="__drawer"></label>
+    
+      <a href="../../../#proof-of-stake" tabindex="1" class="md-skip">
+        Skip to content
+      </a>
+    
+    
+      <header class="md-header" data-md-component="header">
+  <nav class="md-header-nav md-grid">
+    <div class="md-flex">
+      <div class="md-flex__cell md-flex__cell--shrink">
+        <a href="../../.." title="EthHub" class="md-header-nav__button md-logo">
+          
+            <img src="../../../logo.png" width="24" height="24">
+          
+        </a>
+      </div>
+      <div class="md-flex__cell md-flex__cell--shrink">
+        <label class="md-icon md-icon--menu md-header-nav__button" for="__drawer"></label>
+      </div>
+      <div class="md-flex__cell md-flex__cell--stretch">
+        <div class="md-flex__ellipsis md-header-nav__title" data-md-component="title">
+          
+            
+              <span class="md-header-nav__topic">
+                EthHub
+              </span>
+              <span class="md-header-nav__topic">
+                Proof of Stake
+              </span>
+            
+          
+        </div>
+      </div>
+      <div class="md-flex__cell md-flex__cell--shrink">
+        
+          
+            <label class="md-icon md-icon--search md-header-nav__button" for="__search"></label>
+            
+<div class="md-search" data-md-component="search" role="dialog">
+  <label class="md-search__overlay" for="__search"></label>
+  <div class="md-search__inner" role="search">
+    <form class="md-search__form" name="search">
+      <input type="text" class="md-search__input" name="query" placeholder="Search" autocapitalize="off" autocorrect="off" autocomplete="off" spellcheck="false" data-md-component="query" data-md-state="active">
+      <label class="md-icon md-search__icon" for="__search"></label>
+      <button type="reset" class="md-icon md-search__icon" data-md-component="reset" tabindex="-1">
+        &#xE5CD;
+      </button>
+    </form>
+    <div class="md-search__output">
+      <div class="md-search__scrollwrap" data-md-scrollfix>
+        <div class="md-search-result" data-md-component="result">
+          <div class="md-search-result__meta">
+            Type to start searching
+          </div>
+          <ol class="md-search-result__list"></ol>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+          
+        
+      </div>
+      
+        <div class="md-flex__cell md-flex__cell--shrink">
+          <div class="md-header-nav__source">
+            
+
+
+  
+
+
+  <a href="https://github.com/ethhub-io/ethhub/" title="Go to repository" class="md-source" data-md-source="github">
+    
+      <div class="md-source__icon">
+        <svg viewBox="0 0 24 24" width="24" height="24">
+          <use xlink:href="#__github" width="24" height="24"></use>
+        </svg>
+      </div>
+    
+    <div class="md-source__repository">
+      ethhub-io/ethhub
+    </div>
+  </a>
+
+          </div>
+        </div>
+      
+    </div>
+  </nav>
+</header>
+    
+    <div class="md-container">
+      
+        
+      
+      
+      <main class="md-main">
+        <div class="md-main__inner md-grid" data-md-component="container">
+          
+            
+              <div class="md-sidebar md-sidebar--primary" data-md-component="navigation">
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    <nav class="md-nav md-nav--primary" data-md-level="0">
+  <label class="md-nav__title md-nav__title--site" for="__drawer">
+    <a href="../../.." title="EthHub" class="md-nav__button md-logo">
+      
+        <img src="../../../logo.png" width="48" height="48">
+      
+    </a>
+    EthHub
+  </label>
+  
+    <div class="md-nav__source">
+      
+
+
+  
+
+
+  <a href="https://github.com/ethhub-io/ethhub/" title="Go to repository" class="md-source" data-md-source="github">
+    
+      <div class="md-source__icon">
+        <svg viewBox="0 0 24 24" width="24" height="24">
+          <use xlink:href="#__github" width="24" height="24"></use>
+        </svg>
+      </div>
+    
+    <div class="md-source__repository">
+      ethhub-io/ethhub
+    </div>
+  </a>
+
+    </div>
+  
+  <ul class="md-nav__list" data-md-scrollfix>
+    
+      
+      
+      
+
+
+  <li class="md-nav__item">
+    <a href="../../.." title="Home" class="md-nav__link">
+      Home
+    </a>
+  </li>
+
+    
+      
+      
+      
+
+
+  <li class="md-nav__item md-nav__item--nested">
+    
+      <input class="md-toggle md-nav__toggle" data-md-toggle="nav-2" type="checkbox" id="nav-2">
+    
+    <label class="md-nav__link" for="nav-2">
+      Ethereum Basics
+    </label>
+    <nav class="md-nav" data-md-component="collapsible" data-md-level="1">
+      <label class="md-nav__title" for="nav-2">
+        Ethereum Basics
+      </label>
+      <ul class="md-nav__list" data-md-scrollfix>
+        
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../../ethereum-basics/what-is-ethereum/" title="What is Ethereum?" class="md-nav__link">
+      What is Ethereum?
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../../ethereum-basics/what-is-ether/" title="What is Ether?" class="md-nav__link">
+      What is Ether?
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../../ethereum-basics/history-and-forks/" title="History and Network Upgrades" class="md-nav__link">
+      History and Network Upgrades
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../../ethereum-basics/monetary-policy/" title="Monetary Policy" class="md-nav__link">
+      Monetary Policy
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../../ethereum-basics/governance/" title="Governance" class="md-nav__link">
+      Governance
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../../ethereum-basics/development/" title="Development" class="md-nav__link">
+      Development
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../../ethereum-basics/resources/" title="Resources" class="md-nav__link">
+      Resources
+    </a>
+  </li>
+
+        
+      </ul>
+    </nav>
+  </li>
+
+    
+      
+      
+      
+
+  
+
+
+  <li class="md-nav__item md-nav__item--active md-nav__item--nested">
+    
+      <input class="md-toggle md-nav__toggle" data-md-toggle="nav-3" type="checkbox" id="nav-3" checked>
+    
+    <label class="md-nav__link" for="nav-3">
+      Ethereum Roadmap
+    </label>
+    <nav class="md-nav" data-md-component="collapsible" data-md-level="1">
+      <label class="md-nav__title" for="nav-3">
+        Ethereum Roadmap
+      </label>
+      <ul class="md-nav__list" data-md-scrollfix>
+        
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../planned-upgrades/" title="Planned Upgrades" class="md-nav__link">
+      Planned Upgrades
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item md-nav__item--nested">
+    
+      <input class="md-toggle md-nav__toggle" data-md-toggle="nav-3-2" type="checkbox" id="nav-3-2">
+    
+    <label class="md-nav__link" for="nav-3-2">
+      Ethereum 1.x
+    </label>
+    <nav class="md-nav" data-md-component="collapsible" data-md-level="2">
+      <label class="md-nav__title" for="nav-3-2">
+        Ethereum 1.x
+      </label>
+      <ul class="md-nav__list" data-md-scrollfix>
+        
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../ethereum-1x/eth-1.x/" title="Ethereum 1.x" class="md-nav__link">
+      Ethereum 1.x
+    </a>
+  </li>
+
+        
+      </ul>
+    </nav>
+  </li>
+
+        
+          
+          
+          
+
+  
+
+
+  <li class="md-nav__item md-nav__item--active md-nav__item--nested">
+    
+      <input class="md-toggle md-nav__toggle" data-md-toggle="nav-3-3" type="checkbox" id="nav-3-3" checked>
+    
+    <label class="md-nav__link" for="nav-3-3">
+      Ethereum 2.0
+    </label>
+    <nav class="md-nav" data-md-component="collapsible" data-md-level="2">
+      <label class="md-nav__title" for="nav-3-3">
+        Ethereum 2.0
+      </label>
+      <ul class="md-nav__list" data-md-scrollfix>
+        
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../sharding/" title="Sharding" class="md-nav__link">
+      Sharding
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+  
+
+
+  <li class="md-nav__item md-nav__item--active">
+    
+    <input class="md-toggle md-nav__toggle" data-md-toggle="toc" type="checkbox" id="__toc">
+    
+      
+    
+    
+      <label class="md-nav__link md-nav__link--active" for="__toc">
+        Proof of Stake
+      </label>
+    
+    <a href="./" title="Proof of Stake" class="md-nav__link md-nav__link--active">
+      Proof of Stake
+    </a>
+    
+      
+<nav class="md-nav md-nav--secondary">
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">Table of contents</label>
+    <ul class="md-nav__list" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#what-is-proof-of-stake" title="What is Proof of Stake" class="md-nav__link">
+    What is Proof of Stake
+  </a>
+  
+    <nav class="md-nav">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#what-are-the-benefits-of-proof-of-stake-as-opposed-to-proof-of-work" title="What are the benefits of proof of stake as opposed to proof of work?" class="md-nav__link">
+    What are the benefits of proof of stake as opposed to proof of work?
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#what-would-the-equivalent-of-a-51-attack-against-casper-look-like" title="What would the equivalent of a 51% attack against Casper look like?" class="md-nav__link">
+    What would the equivalent of a 51% attack against Casper look like?
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#staking-logistics" title="Staking Logistics" class="md-nav__link">
+    Staking Logistics
+  </a>
+  
+    <nav class="md-nav">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#why-would-i-want-to-stake-my-ether" title="Why would I want to stake my Ether?" class="md-nav__link">
+    Why would I want to stake my Ether?
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#what-are-the-minimum-requirements-to-stake" title="What are the minimum requirements to stake?" class="md-nav__link">
+    What are the minimum requirements to stake?
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#what-software-do-i-need-to-run-to-stake" title="What software do I need to run to stake?" class="md-nav__link">
+    What software do I need to run to stake?
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#what-are-the-hardware-requirements-to-run-this-software" title="What are the hardware requirements to run this software?" class="md-nav__link">
+    What are the hardware requirements to run this software?
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#what-happens-if-i-lose-my-internet-connection-while-staking" title="What happens if I lose my internet connection while staking?" class="md-nav__link">
+    What happens if I lose my internet connection while staking?
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#how-long-is-my-ether-locked-up-if-i-stake" title="How long is my Ether locked up if I stake?" class="md-nav__link">
+    How long is my Ether locked up if I stake?
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#resources" title="Resources" class="md-nav__link">
+    Resources
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+      
+      
+      
+      
+    </ul>
+  
+</nav>
+    
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../eth-2.0-phases/" title="Ethereum 2.0 Phases" class="md-nav__link">
+      Ethereum 2.0 Phases
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../eth-2.0-economics/" title="Ethereum 2.0 Economics" class="md-nav__link">
+      Ethereum 2.0 Economics
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../eth-1.0-to-2.0-migration/" title="Ethereum 1.0 to 2.0 Migration" class="md-nav__link">
+      Ethereum 1.0 to 2.0 Migration
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item md-nav__item--nested">
+    
+      <input class="md-toggle md-nav__toggle" data-md-toggle="nav-3-3-6" type="checkbox" id="nav-3-3-6">
+    
+    <label class="md-nav__link" for="nav-3-3-6">
+      Ethereum 2.0 Clients
+    </label>
+    <nav class="md-nav" data-md-component="collapsible" data-md-level="3">
+      <label class="md-nav__title" for="nav-3-3-6">
+        Ethereum 2.0 Clients
+      </label>
+      <ul class="md-nav__list" data-md-scrollfix>
+        
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../eth2.0-clients/artemis/" title="Artemis" class="md-nav__link">
+      Artemis
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../eth2.0-clients/harmony/" title="Harmony" class="md-nav__link">
+      Harmony
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../eth2.0-clients/lighthouse/" title="Lighthouse" class="md-nav__link">
+      Lighthouse
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../eth2.0-clients/lodestar/" title="Lodestar" class="md-nav__link">
+      Lodestar
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../eth2.0-clients/nimbus/" title="Nimbus" class="md-nav__link">
+      Nimbus
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../eth2.0-clients/prysm/" title="Prysm" class="md-nav__link">
+      Prysm
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../eth2.0-clients/shasper/" title="Shasper" class="md-nav__link">
+      Shasper
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../eth2.0-clients/trinity/" title="Trinity" class="md-nav__link">
+      Trinity
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../eth2.0-clients/yeeth/" title="Yeeth" class="md-nav__link">
+      Yeeth
+    </a>
+  </li>
+
+        
+      </ul>
+    </nav>
+  </li>
+
+        
+      </ul>
+    </nav>
+  </li>
+
+        
+      </ul>
+    </nav>
+  </li>
+
+    
+  </ul>
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+            
+              <div class="md-sidebar md-sidebar--secondary" data-md-component="toc">
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+<nav class="md-nav md-nav--secondary">
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">Table of contents</label>
+    <ul class="md-nav__list" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#what-is-proof-of-stake" title="What is Proof of Stake" class="md-nav__link">
+    What is Proof of Stake
+  </a>
+  
+    <nav class="md-nav">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#what-are-the-benefits-of-proof-of-stake-as-opposed-to-proof-of-work" title="What are the benefits of proof of stake as opposed to proof of work?" class="md-nav__link">
+    What are the benefits of proof of stake as opposed to proof of work?
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#what-would-the-equivalent-of-a-51-attack-against-casper-look-like" title="What would the equivalent of a 51% attack against Casper look like?" class="md-nav__link">
+    What would the equivalent of a 51% attack against Casper look like?
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#staking-logistics" title="Staking Logistics" class="md-nav__link">
+    Staking Logistics
+  </a>
+  
+    <nav class="md-nav">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#why-would-i-want-to-stake-my-ether" title="Why would I want to stake my Ether?" class="md-nav__link">
+    Why would I want to stake my Ether?
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#what-are-the-minimum-requirements-to-stake" title="What are the minimum requirements to stake?" class="md-nav__link">
+    What are the minimum requirements to stake?
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#what-software-do-i-need-to-run-to-stake" title="What software do I need to run to stake?" class="md-nav__link">
+    What software do I need to run to stake?
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#what-are-the-hardware-requirements-to-run-this-software" title="What are the hardware requirements to run this software?" class="md-nav__link">
+    What are the hardware requirements to run this software?
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#what-happens-if-i-lose-my-internet-connection-while-staking" title="What happens if I lose my internet connection while staking?" class="md-nav__link">
+    What happens if I lose my internet connection while staking?
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#how-long-is-my-ether-locked-up-if-i-stake" title="How long is my Ether locked up if I stake?" class="md-nav__link">
+    How long is my Ether locked up if I stake?
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#resources" title="Resources" class="md-nav__link">
+    Resources
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+      
+      
+      
+      
+    </ul>
+  
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+          
+          <div class="md-content">
+            <article class="md-content__inner md-typeset">
+              
+                
+                  <a href="https://github.com/ethhub-io/ethhub/edit/master/docs/ethereum-roadmap/ethereum-2.0/proof-of-stake.md" title="Edit this page" class="md-icon md-content__icon">&#xE3C9;</a>
+                
+                
+                <h1 id="proof-of-stake">Proof of Stake</h1>
+<h2 id="what-is-proof-of-stake">What is Proof of Stake</h2>
+<p>Proof of Stake (PoS) is a category of consensus algorithms for public blockchains that depend on a validator's economic stake in the network. In proof of work (PoW) based public blockchains (e.g. Bitcoin and the current implementation of Ethereum), the algorithm rewards participants who solve cryptographic puzzles in order to validate transactions and create new blocks (i.e. mining). In PoS-based public blockchains (e.g. Ethereum's upcoming Casper implementation), a set of validators take turns proposing and voting on the next block, and the weight of each validator's vote depends on the size of its deposit (i.e. stake). Significant advantages of PoS include security, reduced risk of centralization, and energy efficiency.</p>
+<p>In general, a proof of stake algorithm looks as follows. The blockchain keeps track of a set of validators, and anyone who holds the blockchain's base cryptocurrency (in Ethereum's case, ether) can become a validator by sending a special type of transaction that locks up their ether into a deposit. The process of creating and agreeing to new blocks is then done through a consensus algorithm that all current validators can participate in.</p>
+<p>There are many kinds of consensus algorithms, and many ways to assign rewards to validators who participate in the consensus algorithm, so there are many "flavors" of proof of stake. From an algorithmic perspective, there are two major types: chain-based proof of stake and BFT-style proof of stake.</p>
+<p>In chain-based proof of stake, the algorithm pseudo-randomly selects a validator during each time slot (e.g. every period of 10 seconds might be a time slot), and assigns that validator the right to create a single block, and this block must point to some previous block (normally the block at the end of the previously longest chain), and so over time most blocks converge into a single constantly growing chain.</p>
+<p>In BFT-style proof of stake, validators are randomly assigned the right to propose blocks, but agreeing on which block is canonical is done through a multi-round process where every validator sends a "vote" for some specific block during each round, and at the end of the process all (honest and online) validators permanently agree on whether or not any given block is part of the chain. Note that blocks may still be chained together; the key difference is that consensus on a block can come within one block, and does not depend on the length or size of the chain after it.</p>
+<h3 id="what-are-the-benefits-of-proof-of-stake-as-opposed-to-proof-of-work">What are the benefits of proof of stake as opposed to proof of work?</h3>
+<ul>
+<li>No need to consume large quantities of electricity in order to secure a blockchain (e.g. it's estimated that both Bitcoin and Ethereum burn over $1 million worth of electricity and hardware costs per day as part of their consensus mechanism).</li>
+<li>Because of the lack of high electricity consumption, there is not as much need to issue as many new coins in order to motivate participants to keep participating in the network. It may theoretically even be possible to have negative net issuance, where a portion of transaction fees is "burned" and so the supply goes down over time.</li>
+<li>Proof of stake opens the door to a wider array of techniques that use game-theoretic mechanism design in order to better discourage centralized cartels from forming and, if they do form, from acting in ways that are harmful to the network (e.g. like selfish mining in proof of work).</li>
+<li>Reduced centralization risks, as economies of scale are much less of an issue. $10 million of coins will get you exactly 10 times higher returns than $1 million of coins, without any additional disproportionate gains because at the higher level you can afford better mass-production equipment, which is an advantage for Proof-of-Work.</li>
+<li>Ability to use economic penalties to make various forms of 51% attacks vastly more expensive to carry out than proof of work - to paraphrase Vlad Zamfir, "it's as though your ASIC farm burned down if you participated in a 51% attack".</li>
+</ul>
+<h3 id="what-would-the-equivalent-of-a-51-attack-against-casper-look-like">What would the equivalent of a 51% attack against Casper look like?</h3>
+<p>There are four basic types of 51% attack:</p>
+<ul>
+<li>Finality reversion: validators that already finalized block A then finalize some competing block A', thereby breaking the blockchain's finality guarantee.</li>
+<li>Invalid chain finalization: validators finalize an invalid (or unavailable) block.</li>
+<li>Liveness denial: validators stop finalizing blocks.</li>
+<li>Censorship: validators block some or all transactions or blocks from entering the chain.</li>
+</ul>
+<p>In the first case, users can socially coordinate out-of-band to agree which finalized block came first, and favor that block. The second case can be solved with fraud proofs and data availability proofs. The third case can be solved by a modification to proof of stake algorithms that gradually reduces ("leaks") non-participating nodes' weights in the validator set if they do not participate in consensus; the Casper FFG paper includes a description of this.</p>
+<p>The fourth is most difficult. The fourth can be recovered from via a "minority soft fork", where a minority of honest validators agree the majority is censoring them, and stop building on their chain. Instead, they continue their own chain, and eventually the "leak" mechanism described above ensures that this honest minority becomes a 2/3 supermajority on the new chain. At that point, the market is expected to favor the chain controlled by honest nodes over the chain controlled by dishonest nodes.</p>
+<h2 id="staking-logistics">Staking Logistics</h2>
+<h3 id="why-would-i-want-to-stake-my-ether">Why would I want to stake my Ether?</h3>
+<p>For staking your ETH and attesting to correct blocks, you will be rewarded with ETH through a network wide interest rate as well as receive a portion of network transaction fees. Details can be found <a href="https://docs.ethhub.io/ethereum-roadmap/serenity-phases/eth-2.0-economics">here</a>.</p>
+<h3 id="what-are-the-minimum-requirements-to-stake">What are the minimum requirements to stake?</h3>
+<ul>
+<li>A minimum of 32 ETH per validator</li>
+<li>Computer</li>
+<li>Internet connection</li>
+</ul>
+<h3 id="what-software-do-i-need-to-run-to-stake">What software do I need to run to stake?</h3>
+<p>There are two main types of software to be aware of when considering staking on Ethereum:</p>
+<ul>
+<li>Beacon nodes: This is the hub for your validators. </li>
+<li>Stores canonical state, handles peers and incoming sync, propagates blocks and attestations.</li>
+<li>Has a gRPC server that clients can connect to and provides a public API.</li>
+<li>Validator clients: Talks to your beacon node and signs blocks. You can have multiple of these at 32 ETH each.</li>
+<li>Stores important secrets such as RANDAO reveal, proof of custody for shared data and BLS private key.</li>
+<li>Can swap underlying beacon nodes efficiently</li>
+<li>Tracks shared state execution data and data blobs the validator has signed.</li>
+</ul>
+<p>This means that there are three possible combinations of software to run:</p>
+<ol>
+<li>Beacon node only</li>
+<li>Beacon node + validator client</li>
+<li>Beacon node + multiple validator clients</li>
+</ol>
+<h3 id="what-are-the-hardware-requirements-to-run-this-software">What are the hardware requirements to run this software?</h3>
+<p>Still TBD. Ideally we can get minimum requirements for all three setups mentioned above.</p>
+<h3 id="what-happens-if-i-lose-my-internet-connection-while-staking">What happens if I lose my internet connection while staking?</h3>
+<p>The key to being a validator is making sure you are only voting for blocks and therefore securing the network. Therefore, there is a slight penalty if your validator client goes offline at any point. There are two scenarios where this can happen:</p>
+<ol>
+<li>If blocks are finalizing and you're offline, you can lose x% of your deposit over a year where x=current_interest</li>
+<li>For example, if the current interest rate is 5%, you would lose 0.0137% of your deposit every day, but gain that for every day you're online.</li>
+<li>If blocks aren't finalizing (&gt;33% of validators are offline) and you're offline, you can lose 60% in 18 days. </li>
+</ol>
+<p>If at any point your deposit drops below 16 ETH, you will be removed from the validator set entirely.</p>
+<h3 id="how-long-is-my-ether-locked-up-if-i-stake">How long is my Ether locked up if I stake?</h3>
+<p>There is a withdraw queue that you are placed into when wanting to withdraw ETH from your validator. If there is no queue, then the minimum withdraw time is 18 hours and adjusts dynamically depending on how many people are withdrawing at that time.</p>
+<h3 id="resources">Resources</h3>
+<p><a href="https://github.com/ethereum/wiki/wiki/Proof-of-Stake-FAQs">Proof of Stake FAQ</a>
+<em> <a href="https://twitter.com/terenc3t/status/1070738081337106432">Beacon and Validator explanations</a>
+</em> <a href="https://www.reddit.com/r/ethereum/comments/a41u9k/_/ebbm03t/?context=1">Some details around staking from Vitalik</a></p>
+                
+                  
+                
+              
+              
+                
+
+
+              
+            </article>
+          </div>
+        </div>
+      </main>
+      
+        
+<footer class="md-footer">
+  
+    <div class="md-footer-nav">
+      <nav class="md-footer-nav__inner md-grid">
+        
+          <a href="../sharding/" title="Sharding" class="md-flex md-footer-nav__link md-footer-nav__link--prev" rel="prev">
+            <div class="md-flex__cell md-flex__cell--shrink">
+              <i class="md-icon md-icon--arrow-back md-footer-nav__button"></i>
+            </div>
+            <div class="md-flex__cell md-flex__cell--stretch md-footer-nav__title">
+              <span class="md-flex__ellipsis">
+                <span class="md-footer-nav__direction">
+                  Previous
+                </span>
+                Sharding
+              </span>
+            </div>
+          </a>
+        
+        
+          <a href="../eth-2.0-phases/" title="Ethereum 2.0 Phases" class="md-flex md-footer-nav__link md-footer-nav__link--next" rel="next">
+            <div class="md-flex__cell md-flex__cell--stretch md-footer-nav__title">
+              <span class="md-flex__ellipsis">
+                <span class="md-footer-nav__direction">
+                  Next
+                </span>
+                Ethereum 2.0 Phases
+              </span>
+            </div>
+            <div class="md-flex__cell md-flex__cell--shrink">
+              <i class="md-icon md-icon--arrow-forward md-footer-nav__button"></i>
+            </div>
+          </a>
+        
+      </nav>
+    </div>
+  
+  <div class="md-footer-meta md-typeset">
+    <div class="md-footer-meta__inner md-grid">
+      <div class="md-footer-copyright">
+        
+        powered by
+        <a href="https://www.mkdocs.org">MkDocs</a>
+        and
+        <a href="https://squidfunk.github.io/mkdocs-material/">
+          Material for MkDocs</a>
+      </div>
+      
+        
+  <div class="md-footer-social">
+    <link rel="stylesheet" href="../../../assets/fonts/font-awesome.css">
+    
+      <a href="https://twitter.com/ethhub_io" class="md-footer-social__link fa fa-twitter"></a>
+    
+  </div>
+
+      
+    </div>
+  </div>
+</footer>
+      
+    </div>
+    
+      <script src="../../../assets/javascripts/application.583bbe55.js"></script>
+      
+      <script>app.initialize({version:"1.0.4",url:{base:"../../.."}})</script>
+      
+    
+    
+      
+        <script>!function(e,a,t,n,o,c,i){e.GoogleAnalyticsObject=o,e.ga=e.ga||function(){(e.ga.q=e.ga.q||[]).push(arguments)},e.ga.l=1*new Date,c=a.createElement(t),i=a.getElementsByTagName(t)[0],c.async=1,c.src="https://www.google-analytics.com/analytics.js",i.parentNode.insertBefore(c,i)}(window,document,"script",0,"ga"),ga("create","UA-125892125-2","auto"),ga("set","anonymizeIp",!0),ga("send","pageview");var links=document.getElementsByTagName("a");if(Array.prototype.map.call(links,function(e){e.host!=document.location.host&&e.addEventListener("click",function(){var a=e.getAttribute("data-md-action")||"follow";ga("send","event","outbound",a,e.href)})}),document.forms.search){var query=document.forms.search.query;query.addEventListener("blur",function(){if(this.value){var e=document.location.pathname;ga("send","pageview",e+"?q="+this.value)}})}</script>
+      
+    
+  </body>
+</html>
