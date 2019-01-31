@@ -88,7 +88,9 @@ Same as --light but syncs from genesis block.
 **parity --light  --jsonrpc-cors="chrome-extension://nkbihfbeogaeaoehlefnkodbefgpgknn" &**
 *(syncs light node, connects to peers and imports blockheaders)*
 
-**control +c tail -f nohup.out**
+Press ctrl+C and then type:
+
+**tail -f nohup.out**
 *(this will show you logs to ensure its all working)*
 
 4. Open metamask on web browser, drop down network, connect to localhost.
