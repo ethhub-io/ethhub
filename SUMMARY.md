@@ -161,6 +161,7 @@
   * [RareBits](built-on-ethereum/marketplaces/rarebits.md)
 * [Developer Tools](built-on-ethereum/developer-tools/README.md)
   * [Gitcoin](built-on-ethereum/developer-tools/gitcoin.md)
+  * [WalletConnect](built-on-ethereum/developer-tools/walletconnect.md)
   * [Kauri](built-on-ethereum/developer-tools/kauri.md)
   * [Mintable](built-on-ethereum/developer-tools/mintable.md)
   * [OneClickdApp](built-on-ethereum/developer-tools/oneclickdapp.md)
