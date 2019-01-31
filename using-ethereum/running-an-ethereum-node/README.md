@@ -71,6 +71,30 @@ Begins syncing from a hardcoded value \(block \#6219777\) almost immediately, at
 
 Same as --light but syncs from genesis block.
 
+### Connecting Parity light node to MetaMask (MacOS)
+
+1. Download [homebrew](https://brew.sh) (you will have to go through apple dev terms first)
+
+2. Find and open the application Terminal (utilties/terminal) 
+
+3. Enter the following commands one by one into the Terminal:
+
+**brew tap paritytech/paritytech**
+*(this adds parity to list of brew taps)*
+
+**brew install parity**
+*(installs parity - stable version)*
+
+**parity --light  --jsonrpc-cors="chrome-extension://nkbihfbeogaeaoehlefnkodbefgpgknn" &**
+*(syncs light node, connects to peers and imports blockheaders)*
+
+**control +c tail -f nohup.out**
+*(this will show you logs to ensure its all working)*
+
+4. Open metamask on web browser, drop down network, connect to localhost.
+
+
+
 ## Archive Nodes
 
 An archive node:
