@@ -26,6 +26,7 @@ Ethereum is a blockchain, first-and-foremost. Its primary artifact is the smart 
 
 ## Resources
 
+- [Mastering Ethereum by Andreas M. Antonopoulos and Gavin Wood](https://github.com/ethereumbook/ethereumbook)
 - [Ethereum Developer Tools List](https://github.com/ConsenSys/ethereum-developer-tools-list)
 - [Awesome Solidity List](https://github.com/bkrem/awesome-solidity)
 - [Awesome Ethereum Security List](https://github.com/trailofbits/awesome-ethereum-security)
