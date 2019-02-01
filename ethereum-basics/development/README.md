@@ -6,27 +6,28 @@ Ethereum is a blockchain, first-and-foremost. Its primary artifact is the smart 
 
 ### Languages
 
-Solidity
+Solidity - Most commonly used language
 
-- [GitHub](https://github.com/ethereum/solidity)
 - [Docs](https://solidity.readthedocs.io/en/v0.5.3/)
+- [GitHub](https://github.com/ethereum/solidity)
+- [Community Audited Contracts](https://github.com/OpenZeppelin/openzeppelin-solidity) by OpenZeppelin
 
-Vyper
+Vyper - Newer language focused on security on auditability
 
-- [GitHub](https://github.com/ethereum/vyper)
 - [Docs](https://vyper.readthedocs.io/en/latest/)
+- [GitHub](https://github.com/ethereum/vyper)
 
 ### Clients
 
 go-ethereum - Official Go Implementation
 
-- [GitHub](https://github.com/ethereum/go-ethereum)
 - [Docs](https://github.com/ethereum/go-ethereum/wiki)
+- [GitHub](https://github.com/ethereum/go-ethereum)
 
 Parity Ethereum - Rust Implementation
 
-- [GitHub](https://github.com/paritytech/parity-ethereum)
 - [Docs](https://wiki.parity.io/Setup)
+- [GitHub](https://github.com/paritytech/parity-ethereum)
 
 ## Development Chats/Forums
 
