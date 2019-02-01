@@ -1,0 +1,65 @@
+@media only screen and (max-width: 76.1875em) {
+  .md-nav {
+    background-color: #000; } }
+
+.md-header {
+  background-color: #000; }
+
+.md-container {
+  background-color: #333; }
+
+.md-typeset .footnote {
+  color: #ccc; }
+
+body {
+  color: #ccc; }
+
+.md-typeset pre {
+  background-color: #000; }
+
+.md-typeset code {
+  color: #ccc;
+  box-shadow: 0.29412em 0 0 rgba(0, 0, 0, 0.5), -0.29412em 0 0 rgba(0, 0, 0, 0.5);
+  background-color: rgba(0, 0, 0, 0.5); }
+
+.md-nav__link[data-md-state=blur] {
+  color: rgba(230, 230, 230, 0.54); }
+
+.md-typeset h1 {
+  color: #ccc; }
+
+a, .md-typeset a, md-nav__link, md-nav__link:hover {
+  color: #10cfff; }
+
+a footnote-ref::before {
+  border-color: #10cfff; }
+
+a footnote-ref::before {
+  color: #10cfff; }
+
+.md-nav__item--active > .md-nav__link, .md-nav__link:active {
+  color: #10cfff; }
+
+.md-nav--secondary {
+  border-left: 0.4rem solid #10cfff; }
+
+.md-nav__link:focus, .md-nav__link:hover {
+  color: #10cfff; }
+
+.md-typeset hr {
+  border-bottom: .1rem dotted #666; }
+
+.md-footer-copyright {
+  color: #666; }
+
+.md-typeset blockquote {
+  padding-left: 1.2rem;
+  border-left: 0.4rem solid rgba(230, 230, 230, 0.26);
+  color: rgba(230, 230, 230, 0.54); }
+
+@media only screen and (max-width: 76.1875em) {
+  html .md-nav--primary .md-nav__title--site {
+    background-color: #000; }
+  html .md-nav--primary .md-nav__title ~ .md-nav__list {
+    background: linear-gradient(180deg, #000 10%, transparent), linear-gradient(180deg, rgba(0, 0, 0, 0.26), rgba(0, 0, 0, 0.07) 35%, transparent 60%);
+    background-color: #333; } }
