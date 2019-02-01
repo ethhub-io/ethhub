@@ -4,7 +4,7 @@ theme:
   custom_dir: 'docs/material'
   palette:
     primary: 'ethhub'
-    accent: 'ethhub'
+    accent: 'red'
   logo: 'logo.png'
   favicon: 'assets/images/favicon.ico'
   feature:
