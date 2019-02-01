@@ -4,7 +4,7 @@ For those who wish to tackle smart contract development on Ethereum, there are a
 
 ## IDEs
 
-- [Remix](https://remix.ethereum.org/) - Web IDE with built in static analysis, test blockchain VM.
+- [Remix](https://remix.ethereum.org/) - (Great for starters!) Web IDE with built in static analysis, test blockchain VM.
 - [Superblocks Lab](https://superblocks.com/lab/) - Web IDE. Built in browser blochain VM, Metamask integration (one click deployments to Testnet/Mainnet), transaction logger and live code your WebApp among many other features.
 - [Atom](https://atom.io/) - Atom editor with [Atom Solidity Linter](https://atom.io/packages/atom-solidity-linter), [Etheratom](https://atom.io/packages/etheratom)
 - [Pragma](https://www.withpragma.com/) - Very simple web IDE for solidity, and auto-generated interfaces for smart contracts.
