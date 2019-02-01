@@ -6,15 +6,16 @@ Ethereum is a blockchain, first-and-foremost. Its primary artifact is the smart 
 
 ### Languages
 
-Solidity
+Solidity - Most commonly used language
 
-- [GitHub](https://github.com/ethereum/solidity)
 - [Docs](https://solidity.readthedocs.io/en/v0.5.3/)
+- [GitHub](https://github.com/ethereum/solidity)
+- [Community Audited Contracts](https://github.com/OpenZeppelin/openzeppelin-solidity)
 
-Vyper
+Vyper - New language focused on security on auditability
 
-- [GitHub](https://github.com/ethereum/vyper)
 - [Docs](https://vyper.readthedocs.io/en/latest/)
+- [GitHub](https://github.com/ethereum/vyper)
 
 ### Clients
 
