@@ -10,7 +10,7 @@ Solidity - Most commonly used language
 
 - [Docs](https://solidity.readthedocs.io/en/v0.5.3/)
 - [GitHub](https://github.com/ethereum/solidity)
-- [Community Audited Contracts](https://github.com/OpenZeppelin/openzeppelin-solidity)
+- [Community Audited Contracts](https://github.com/OpenZeppelin/openzeppelin-solidity) by OpenZeppelin
 
 Vyper - Newer language focused on security on auditability
 
@@ -21,13 +21,13 @@ Vyper - Newer language focused on security on auditability
 
 go-ethereum - Official Go Implementation
 
-- [GitHub](https://github.com/ethereum/go-ethereum)
 - [Docs](https://github.com/ethereum/go-ethereum/wiki)
+- [GitHub](https://github.com/ethereum/go-ethereum)
 
 Parity Ethereum - Rust Implementation
 
-- [GitHub](https://github.com/paritytech/parity-ethereum)
 - [Docs](https://wiki.parity.io/Setup)
+- [GitHub](https://github.com/paritytech/parity-ethereum)
 
 ## Development Chats/Forums
 
