@@ -12,7 +12,7 @@ Solidity - Most commonly used language
 - [GitHub](https://github.com/ethereum/solidity)
 - [Community Audited Contracts](https://github.com/OpenZeppelin/openzeppelin-solidity)
 
-Vyper - New language focused on security on auditability
+Vyper - Newer language focused on security on auditability
 
 - [Docs](https://vyper.readthedocs.io/en/latest/)
 - [GitHub](https://github.com/ethereum/vyper)
