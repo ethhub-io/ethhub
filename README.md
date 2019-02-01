@@ -24,4 +24,6 @@ There are also some basic guidelines that need to be followed when contributing 
 
 Join the discussion on our Discord server: [https://discord.gg/VDMBe4c](https://discord.gg/VDMBe4c)
 
+Donations: [0xa19fcdad77c1f0fd184689aca88babcf68010347](https://etherscan.io/address/0xa19fcdad77c1f0fd184689aca88babcf68010347)
+
 **DISCLAIMER: EthHub is a completely independent and open-source initiative founded by Ethereum community members. Nothing contained in this Github repository should be considered financial or investment advice - it is for informational purposes only.**
