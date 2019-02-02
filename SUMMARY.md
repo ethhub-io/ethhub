@@ -208,9 +208,10 @@
 ## Other
 
 * [EthHub CFTC Response](other/ethhub-cftc-response.md)
+* [Get Involved](/other/get-involved.md)
+* [Internationalization of EthHub](other/internationalization.md)
 * [Grants Process](other/grants-process.md)
 * [Ethereum Fundraising Event](other/ethereum-fundraising-event.md)
-* [Internationalization of EthHub](other/internationalization.md)
 * [Funds](other/funds/README.md)
   * [0xeap](other/funds/0xeap.md)
   * [Aragon Nest](other/funds/aragon-nest.md)
