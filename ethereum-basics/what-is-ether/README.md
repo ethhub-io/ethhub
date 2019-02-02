@@ -1,10 +1,10 @@
-# What is Ether?
+# ¿Qué es Ether?
 
-## Summary
+## Resumen
 
-Ether \(ETH or Ξ\) is the native cryptocurrency used on the Ethereum network and is used to compensate miners who secure transactions. A planned upgrade to the Ethereum protocol in 2019-2021 would replace mining with a less computationally expensive Proof of Stake mechanism which will be secured by validators, who are also expected to receive a proportional compensation in Ether. Ether also has many current use cases, such as a store of value \(e.g. in lending collateral\), a medium of exchange \(e.g. in trade and payments\), and a unit of account \(e.g. in digital marketplaces\).
+Ether (ETH o Ξ) es la criptomoneda nativa de la red Ethereum que se emplea para compensar a los mineros que aseguran las transacciones. Una mejora del protocolo Ethereum, planificada para el 2019-2021, tiene previsto reemplazar el minado por un mecanismo “Proof of Stake” (Prueba de Participación) computacionalmente menos costoso, que será asegurado por validadores -que, en consecuencia, recibirán una compensación proporcional en Ether. Ether presenta en la actualidad muchos casos de uso: depósito de valor (por ejemplo, como colateral en préstamos), medio de cambio (en intercambios comerciales o pagos) y unidad contable (en “marketplaces” digitales).
 
-## Resources
+## Recursos
 
 * [Wikipedia](https://en.wikipedia.org/wiki/Ether)
 
