@@ -15,7 +15,7 @@ The Constantinople hard fork will occur at block 7,280,000 on approximately 2/27
 
 Istanbul is the name given to the hard fork expected to occur nine months after Constantinople. This will be approximately 2019-11-27.
 
-### Resources
+## Resources
 
 * [Constantinople Progress Tracker](https://github.com/ethereum/pm/wiki/Constantinople-Progress-Tracker)
 
