@@ -70,7 +70,7 @@ nav:
       - 'State Channels': 'ethereum-roadmap/layer-2-scaling/state-channels.md'
       - 'Payment Channels': 'ethereum-roadmap/layer-2-scaling/payment-channels.md'
       - 'ZK-STARKs': 'ethereum-roadmap/layer-2-scaling/zk-starks.md'
-  - 'Privacy': 'ethereum-roadmap/ethereum-2.0/privacy.md'
+  - 'Privacy': 'ethereum-roadmap/privacy.md'
 - Using Ethereum:
   - 'Running an Ethereum Node': 'using-ethereum/how-to-run-an-ethereum-node.md'
   - 'Transactions': 'using-ethereum/transactions.md'
@@ -78,10 +78,10 @@ nav:
   - 'Test Networks': 'using-ethereum/test-networks.md'
   - Wallets:
     - 'Desktop': 'using-ethereum/wallets/desktop.md'
-    - 'Web': using-ethereum/wallets/web.md'
-    - 'Mobile': using-ethereum/wallets/mobile.md'
+    - 'Web': 'using-ethereum/wallets/web.md'
+    - 'Mobile': 'using-ethereum/wallets/mobile.md'
     - 'Hardware': 'using-ethereum/wallets/hardware.md'
-    - 'multsignature': 'using-ethereum/wallets/multisignature.md'
+    - 'Multi Signature': 'using-ethereum/wallets/multisignature.md'
 - Built on Ethereum:
   - Open Finance:
     - 'What is Open Finance?': 'built-on-ethereum/open-finance/what-is-open-finance.md'
@@ -111,16 +111,16 @@ nav:
       - 'Polymath': 'built-on-ethereum/open-finance/securities/polymath.md'
       - 'Securitize': 'built-on-ethereum/open-finance/securities/securitize.md'
       - 'Templum': 'built-on-ethereum/open-finance/securities/templum.md'
-    - '0x Protocol': '/built-on-ethereum/open-finance/0x-protocol.md'
-    - '8x': '/built-on-ethereum/open-finance/8x.md'
-    - 'Bskt': '/built-on-ethereum/open-finance/bskt.md'
-    - 'Burner Wallet': '/built-on-ethereum/open-finance/burner-wallet.md'
-    - 'cdx': '/built-on-ethereum/open-finance/cdx.md'
-    - 'Digix': '/built-on-ethereum/open-finance/digix.md'
-    - 'Etherisc': '/built-on-ethereum/open-finance/etherisc.md'
-    - 'Set Protocol': /built-on-ethereum/open-finance/set-protocol.md
-    - 'Settle': /built-on-ethereum/open-finance/settle.md
-    - 'WBTC': /built-on-ethereum/open-finance/wbtc.md
+    - '0x Protocol': 'built-on-ethereum/open-finance/0x-protocol.md'
+    - '8x': 'built-on-ethereum/open-finance/8x.md'
+    - 'Bskt': 'built-on-ethereum/open-finance/bskt.md'
+    - 'Burner Wallet': 'built-on-ethereum/open-finance/burner-wallet.md'
+    - 'cdx': 'built-on-ethereum/open-finance/cdx.md'
+    - 'Digix': 'built-on-ethereum/open-finance/digix.md'
+    - 'Etherisc': 'built-on-ethereum/open-finance/etherisc.md'
+    - 'Set Protocol': 'built-on-ethereum/open-finance/set-protocol.md'
+    - 'Settle': 'built-on-ethereum/open-finance/settle.md'
+    - 'WBTC': 'built-on-ethereum/open-finance/wbtc.md'
   - ERC Token Standards:
     - 'ERC20': 'built-on-ethereum/erc-token-standards/erc20.md'
     - 'ERC621': 'built-on-ethereum/erc-token-standards/erc621.md'
@@ -162,12 +162,12 @@ nav:
     - 'Decentraland': 'built-on-ethereum/collectables/decentraland.md'
     - 'MLB Crypto Baseball': 'built-on-ethereum/collectables/mlb-crypto-baseball.md'
   - Marketplaces:
-    - 'District0x': 'built-on-ethereum/Marketplaces/district0x.md'
-    - 'Opensea': 'built-on-ethereum/Marketplaces/opensea.md'
-    - 'Origin Protocol': 'built-on-ethereum/Marketplaces/origin-protocol.md'
-    - 'Rarebits': 'built-on-ethereum/Marketplaces/rarebits.md'
+    - 'District0x': 'built-on-ethereum/marketplaces/district0x.md'
+    - 'Opensea': 'built-on-ethereum/marketplaces/opensea.md'
+    - 'Origin Protocol': 'built-on-ethereum/marketplaces/origin-protocol.md'
+    - 'Rarebits': 'built-on-ethereum/marketplaces/rarebits.md'
   - Developer Tools:
-    - 'Gitcoin': 'built-on-ethereum/developer-tools/gitcion.md'
+    - 'Gitcoin': 'built-on-ethereum/developer-tools/gitcoin.md'
     - 'Kauri': 'built-on-ethereum/developer-tools/kauri.md'
     - 'Mintable': 'built-on-ethereum/developer-tools/mintable.md'
     - 'One Click dApp': 'built-on-ethereum/developer-tools/oneclickdapp.md'
@@ -189,7 +189,7 @@ nav:
     - 'FOAM Protocol': 'built-on-ethereum/infrastructure/foam-protocol.md'
     - 'Golem': 'built-on-ethereum/infrastructure/golem.md'
     - 'POA Network': 'built-on-ethereum/infrastructure/poa-network.md'
-    - 'Steamr': 'built-on-ethereum/infrastructure/steamr.md'
+    - 'Streamr': 'built-on-ethereum/infrastructure/streamr.md'
   - Token Curated Registries:
     - 'What are TCRs': 'built-on-ethereum/tcrs/what-are-tcrs.md'
     - 'Types of TCRs': 'built-on-ethereum/tcrs/types-of-tcrs.md'
