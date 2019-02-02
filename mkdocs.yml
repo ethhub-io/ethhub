@@ -5,20 +5,28 @@ theme:
   palette:
     primary: 'ethhub'
     accent: 'red'
-  logo: 'logo.png'
+  logo: 'logo-2.svg'
   favicon: 'assets/images/favicon.ico'
   feature:
-    tabs: false
+    tabs: true
 
-//extra_css: [extra.css]
+extra_css: [extra.css]
 
 repo_name: 'ethhub-io/ethhub'
 repo_url: 'https://github.com/ethhub-io/ethhub'
 
 extra:
   social:
+    - type: 'github'
+      link: 'https://github.com/ethhub-io/ethhub'
     - type: 'twitter'
       link: 'https://twitter.com/ethhub_io'
+    - type: 'medium'
+      link: 'https://medium.com/ethhub'
+    - type: 'comment'
+      link: 'https://discordapp.com/invite/gw8AM98'
+    - type: 'instagram'
+      link: 'https://www.instagram.com/ethhub_io/'
 
 google_analytics:
   - 'UA-125892125-2'
@@ -26,6 +34,10 @@ google_analytics:
 
 nav:
 - Home: 'index.md'
+- Learn: 'ethereum-basics/what-is-ethereum.md'
+- Listen: 'https://podcast.ethhub.io'
+- Read: 'https://medium.com/ethhub'
+- Subscribe: 'https://ethhub.substack.com/'
 - Ethereum Basics:
   - 'What is Ethereum?': 'ethereum-basics/what-is-ethereum.md'
   - 'What is Ether?': 'ethereum-basics/what-is-ether.md'
@@ -70,14 +82,6 @@ nav:
     - 'Mobile': using-ethereum/wallets/mobile.md'
     - 'Hardware': 'using-ethereum/wallets/hardware.md'
     - 'multsignature': 'using-ethereum/wallets/multisignature.md'
-- Questions About Ethereum:
-  - 'Is Ethereum more expensive to use as price rises?': 'questions-about-ethereum/is-ethereum-more-expensive-to-use-as-price-rises.md'
-  - 'Why do you have to pay to use Ethereum?': 'questions-about-ethereum/why-do-you-have-to-pay-to-use-ethereum.md'
-  - 'Is Ether a security?': 'questions-about-ethereum/is-ether-a-security.md'
-  - 'Is Ethereum over 1TB in size?': 'questions-about-ethereum/is-ethereum-over-1tb-in-size.md'
-  - 'Is Ethereum immutable?': 'questions-about-ethereum/is-ethereum-immutable.md'
-  - 'Is Ether needed for transaction fees?': 'questions-about-ethereum/is-ether-needed-for-transaction-fees.md'
-  - "If Ethereum is open source why can't it be copied?": 'questions-about-ethereum/if-ethereum-is-open-source-why-cant-it-be-copied.md'
 - Built on Ethereum:
   - Open Finance:
     - 'What is Open Finance?': 'built-on-ethereum/open-finance/what-is-open-finance.md'
@@ -189,6 +193,14 @@ nav:
   - Token Curated Registries:
     - 'What are TCRs': 'built-on-ethereum/tcrs/what-are-tcrs.md'
     - 'Types of TCRs': 'built-on-ethereum/tcrs/types-of-tcrs.md'
+- Ethereum FAQ:
+  - 'Is Ethereum more expensive to use as price rises?': 'questions-about-ethereum/is-ethereum-more-expensive-to-use-as-price-rises.md'
+  - 'Why do you have to pay to use Ethereum?': 'questions-about-ethereum/why-do-you-have-to-pay-to-use-ethereum.md'
+  - 'Is Ether a security?': 'questions-about-ethereum/is-ether-a-security.md'
+  - 'Is Ethereum over 1TB in size?': 'questions-about-ethereum/is-ethereum-over-1tb-in-size.md'
+  - 'Is Ethereum immutable?': 'questions-about-ethereum/is-ethereum-immutable.md'
+  - 'Is Ether needed for transaction fees?': 'questions-about-ethereum/is-ether-needed-for-transaction-fees.md'
+  - "If Ethereum is open source why can't it be copied?": 'questions-about-ethereum/if-ethereum-is-open-source-why-cant-it-be-copied.md'
 - Other:
   - 'Ethereum 2.0 AMA': 'other/ethereum-2.0-ama.md'
   - 'EthHub CFTC Responses': 'other/ethhub-cftc-response.md'
