@@ -1,8 +1,7 @@
-# Network Usage
+# Uso de la Red
 
-Ether is required to transact on the Ethereum network.
+Para realizar transacciones en la red Ethereum se necesita Ether.
 
-As explained in the [gas section](https://docs.ethhub.io/-LTo-PwFj1VwulVCZAFW/~/drafts/-LUpsUsOLWLhW7Fftje4/primary/using-ethereum/ethereum-network-basics/transactions/gas), every transaction that occurs on the network requires a set amount of gas, which is a unit used to measure the computational power required to process the transaction. To process a transaction and include it in a block, miners expect to be compensated. This is accomplished by setting a gas price with every transaction, which is the cost of 1 unit of gas, denominated in Gwei \(1 ETH = 1,000,000,000 Gwei\).
+Como se explica en el siguiente enlace, cada transacción que tiene lugar en la red requiere una cantidad determinada de gas -que es una unidad utilizada para medir la potencia computacional necesaria para procesar la transacción. Por el procesamiento de la transacción e inclusión de ésta en un bloque, los mineros esperan ser compensados. Esto se logra mediante el establecimiento de un precio de gas para cada transacción, que es el coste de 1 unidad de gas denominado en Gwei (1 ETH = 1,000,000,000 Gwei).
 
-For example, when you simply send ETH from one account to another, this cost 21,000 gas. If you were to set a gas price of 1 Gwei, this transaction would cost 0.000021 ETH.
-
+Por poner un ejemplo, un simple envío de ETH desde una cuenta a otra tiene un coste de 21,000 gas. En el caso de establecer un precio de gas de 1 Gwei, la transacción costará 0.000021 ETH.
