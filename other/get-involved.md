@@ -15,7 +15,8 @@ See [Internationalization](https://github.com/ethhub-io/ethhub/blob/master/other
 2. Learn to make pull requests from the section above.
 ![Selecting desired language](https://i.imgur.com/HgQ70ce.png)
 3. To translate a page, simply navigate to the branch for your desired language and make a pull request on the page you translate.
-*Note that all changes and pull requests should be submitted to their target language's designated EthHub repo branch.
+
+*Note that all changes and pull requests should be submitted to their target language's designated EthHub repo branch.*
 
 
 ## Consider donating to EthHub
