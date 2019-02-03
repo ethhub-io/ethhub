@@ -3283,7 +3283,7 @@
 
 
   <li class="md-nav__item">
-    <a href="../../glossary/glossary/sideways-dictionary/blockchain.md" title="Blockchain" class="md-nav__link">
+    <a href="../../glossary/sideways-dictionary/blockchain/" title="Blockchain" class="md-nav__link">
       Blockchain
     </a>
   </li>
@@ -3583,7 +3583,7 @@
                 
                 <h1 id="ethereum-1x">Ethereum 1.x</h1>
 <h2 id="summary">Summary</h2>
-<p>A group of Ethereum core developers and friends talked at Devcon IV and realised that they all share similar view - that Ethereum mainnet, if left unchanged, would become very hard or impossible to use due to severe performance degradation, and increased storage requirements.</p>
+<p>A group of Ethereum core developers and friends talked at Devcon IV and realized that they all share similar view - that Ethereum mainnet, if left unchanged, would become very hard or impossible to use due to severe performance degradation, and increased storage requirements.</p>
 <ul>
 <li>Performance degradation mostly due to the large (and increasing) state.</li>
 <li>Increased storage requirements mostly due to keeping blocks, event logs (receipts), and state history (currently prunable in major clients).</li>
@@ -3592,22 +3592,22 @@
 <h4 id="october-2017-devcon3-in-cancun">October 2017, Devcon3 in Cancun</h4>
 <p>Vitalik Buterin presents <a href="https://www.youtube.com/watch?v=hAhUfCjjkXc">"Modest proposal for Ethereum 2.0"</a>, suggesting that Layer 1 of Ethereum 1.0 should stay “safe and conservative”, and most of the innovation go into Layer 2 and into shards.</p>
 <h4 id="may-2018-edcon-in-toronto">May 2018, EDCON in Toronto</h4>
-<p>Vitalik Buterin gives a talk <a href="https://www.youtube.com/watch?v=VqOlOMAqC08">“So you want to become Casper validator?”</a>, signalling that Casper FFG validators may be running on laptops and rollout is getting close.</p>
+<p>Vitalik Buterin gives a talk <a href="https://www.youtube.com/watch?v=VqOlOMAqC08">“So you want to become Casper validator?”</a>, signaling that Casper FFG validators may be running on laptops and rollout is getting close.</p>
 <h4 id="june-2018">June 2018</h4>
 <p>Pivot in Casper research from Casper FFG to full Casper and merging with sharding, due to challenges of implementing Casper FFG as a contract, and due to large overlap with Sharding research, as discussed at the <a href="https://youtu.be/8-AZys80RrU?t=1819">Core Dev Meeting 40</a>.</p>
 <h3 id="october-november-2018-devcon-iv-in-prague">October-November 2018, Devcon IV in Prague</h3>
 <p>It becomes apparent that Serenity (full Casper + Sharding) is not going to functionally supersede Ethereum 1.0 for another 3-5 years.</p>
 <h2 id="main-objectives">Main Objectives</h2>
 <ul>
-<li>Develop, formalise, and implement set of measures, deployable on the Ethereum 1.0 mainnet, within the next 2 years, to ensure that the chain stays viable and usable. That mainly means curbing the state growth or limiting the state size.</li>
+<li>Develop, formalize, and implement set of measures, deployable on the Ethereum 1.0 mainnet, within the next 2 years, to ensure that the chain stays viable and usable. That mainly means curbing the state growth or limiting the state size.</li>
 <li>Emphasize focus on these measures and de-emphasize introduction of specific “features”. This is one of the places where eWASM engine comes in. Current computational pre-compiles are seen as features requiring case-by-case work. Introduction of eWASM engine would first enable “pre-compile” factory, where more pre-compiles are introduced faster. Later it would enable any contracts written in eWASM, obviating need in pre-compiles altogether.</li>
 </ul>
 <h2 id="working-groups">Working groups</h2>
 <ul>
-<li><a href="state-rent.md">State rent</a></li>
-<li><a href="ewasm.md">eWASM</a></li>
-<li><a href="storage-pruning.md">Storage pruning</a></li>
-<li><a href="simulation-emulation.md">Simulation and Emulation</a></li>
+<li>State rent</li>
+<li>eWASM</li>
+<li>Storage pruning</li>
+<li>Simulation and emulation</li>
 </ul>
 <h2 id="state-rent">State Rent</h2>
 <h4 id="proposal-framework">Proposal framework</h4>
