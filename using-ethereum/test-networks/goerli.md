@@ -6,8 +6,9 @@ The Görli test network is a Proof of Authority testnet for Ethereum, originally
 
 ## Resources
 
-* [Website](https://goerli.com/)  
-* [GitHub](https://github.com/goerli/testnet)  
+* [Website](https://goerli.com/)
+* [Block Explorer](https://goerli.etherscan.io/)
+* [GitHub](https://github.com/goerli/testnet)
 * [Testnet proposal](https://dev.to/5chdn/the-grli-testnet-proposal---a-call-for-participation-58pf)
 * [Ethstats for Görli](https://stats.goerli.net/)
 
