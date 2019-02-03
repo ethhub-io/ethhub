@@ -178,9 +178,13 @@ nav:
     - 'Jolocom': 'built-on-ethereum/identity/jolocom.md'
     - 'Selfkey': 'built-on-ethereum/identity/selfkey.md'
     - 'uPort': 'built-on-ethereum/identity/uport.md'
+  - Governance:
+    - 'Aragon': 'built-on-ethereum/governance/aragon.md'
+    - 'Colony': 'built-on-ethereum/governance/colony.md'
+    - 'Democracy Earth': 'built-on-ethereum/governance/democracy-earth.md'
+    - 'Govblocks': 'built-on-ethereum/governance/govblocks.md'
   - Infrastructure:
     - '0xcert': 'built-on-ethereum/infrastructure/0xcert.md'
-    - 'Aragon': 'built-on-ethereum/infrastructure/aragon.md'
     - 'Aztec Protocol': 'built-on-ethereum/infrastructure/aztec-protocol.md'
     - 'Bounties Network': 'built-on-ethereum/infrastructure/bountiesnetwork.md'
     - 'Ethereum Alarm Clock': 'built-on-ethereum/infrastructure/ethereum-alarm-clock.md'

@@ -3099,7 +3099,7 @@
 
 
   <li class="md-nav__item">
-    <a href="../../glossary/glossary/sideways-dictionary/blockchain.md" title="Blockchain" class="md-nav__link">
+    <a href="../../glossary/sideways-dictionary/blockchain/" title="Blockchain" class="md-nav__link">
       Blockchain
     </a>
   </li>
@@ -3235,7 +3235,7 @@
 <p>See <a href="https://docs.ethhub.io/ethereum-roadmap/serenity-phases">Serenity phases</a> for more information.</p>
 <h1 id="block-generation">Block Generation</h1>
 <h2 id="block-structure">Block structure</h2>
-<p><img alt="Diagram of an Ethereum Block" src="../../../.gitbook/assets/block-generation.png" /></p>
+<p><img alt="Diagram of an Ethereum Block" src="/assets/images/blocks.png" /></p>
 <p>A block consists a header, which includes information identifying the block and linking it to the rest of the chain, and a body of transactions. Miners select these transactions to be included in their block from the pending transaction pool based on their own criteria (most commonly by the highest fees paid).</p>
 <h2 id="block-times">Block times</h2>
 <p>The Ethereum network is designed to produce a block every 12 seconds. Block times will vary based upon how long it takes miners to generate a hash that meets the required mining difficulty at that moment. 12 seconds was chosen as a time that is as fast as possible, but is at the same time substantially longer than network latency. A 2013 paper by Decker and Wattenhofer in Zurich measured Bitcoin network latency and determined that 12.6 seconds is the time it takes for a new block to propagate to 95% of nodes. The goal of the 12 second design is to allow the network to propagate blocks as fast as possible without causing miners to find a significant number of stale blocks.</p>
