@@ -48,7 +48,7 @@ nav:
   - 'Resources': 'ethereum-basics/resources.md'
 - Ethereum Roadmap:
   - 'Planned Upgrades': 'ethereum-roadmap/planned-upgrades.md'
-  - 'Ethereum 1.x': 'ethereum-roadmap/eth-1.x.md'
+  - 'Ethereum 1.x': 'ethereum-roadmap/ethereum-1.x.md'
   - Ethereum 2.0:
       - 'Sharding': 'ethereum-roadmap/ethereum-2.0/sharding.md'
       - 'Proof of Stake': 'ethereum-roadmap/ethereum-2.0/proof-of-stake.md'
@@ -145,6 +145,7 @@ nav:
       - 'What are Peer to Peer Decentralized Exchanges?': 'built-on-ethereum/decentralized-exchanges/peer-to-peer/what-is-peer-to-peer.md'
       - 'Airswap': 'built-on-ethereum/decentralized-exchanges/peer-to-peer/airswap.md'
       - 'Republic Protocol': 'built-on-ethereum/decentralized-exchanges/peer-to-peer/republic-protocol.md'
+      - 'Ren': 'built-on-ethereum/decentralized-exchanges/peer-to-peer/ren.md'
     - Pool Based:
       - 'What are Pool Based Decentralized Exchanges?': 'built-on-ethereum/decentralized-exchanges/pool-based/what-is-pool-based.md'
       - 'Bancor': 'built-on-ethereum/decentralized-exchanges/pool-based/bancor.md'
@@ -171,6 +172,7 @@ nav:
     - 'Kauri': 'built-on-ethereum/developer-tools/kauri.md'
     - 'Mintable': 'built-on-ethereum/developer-tools/mintable.md'
     - 'One Click dApp': 'built-on-ethereum/developer-tools/oneclickdapp.md'
+    - 'Wallet Connect': 'built-on-ethereum/developer-tools/walletconnect.md'
   - Identity:
     - 'Bloom': 'built-on-ethereum/identity/bloom.md'
     - 'Civic': 'built-on-ethereum/identity/civic.md'
