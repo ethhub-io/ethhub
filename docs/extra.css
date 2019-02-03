@@ -15,3 +15,7 @@
   [data-md-color-accent=red] .md-nav__link:focus, [data-md-color-accent=red] .md-nav__link:hover {
     color: #3f51b5!important;
   }
+
+  html .md-footer-meta.md-typeset a {
+color: white!important
+}
