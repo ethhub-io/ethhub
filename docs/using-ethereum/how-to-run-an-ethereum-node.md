@@ -93,11 +93,11 @@ In Parity, this is called pruning which refers to the concept of [state trie pru
 
 ### Parity
 
-![](../.gitbook/assets/parity-modes.png)
+![](/assets/images/parity.png)
 
 ### Geth
 
-![](../.gitbook/assets/geth-modes.png)
+![](/assets/images/geth.png)
 
 ## Resources
 

@@ -8,7 +8,7 @@ Ethereum’s Serenity upgrade will bring Sharding, Proof of Stake, a new virtual
 
 To start, here is a [nice visual](https://docs.google.com/presentation/d/1G5UZdEL71XAkU5B2v-TC3lmGaRIu2P6QSeF8m3wg6MU/edit#slide=id.g3c326bb661_0_58) from Hsiao-Wei Wang on what the different layers and phases look like.
 
-![](../../.gitbook/assets/screen-shot-2018-12-10-at-2.01.26-pm.png)
+![](/assets/images/serenity.png)
 
 ## Design Goals
 

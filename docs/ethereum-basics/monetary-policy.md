@@ -1,10 +1,4 @@
----
-description: 'Ethereum''s monetary policy past, present and future.'
----
-
 # Monetary Policy
-
-## Monetary Policy
 
 ### Summary
 
@@ -17,7 +11,7 @@ Ethereum does not have an official Monetary Policy. Rather, the policy is decide
 * Ecosystem spokes/projects
 * Miners and other network participants
 
-As Ethereum is a decentralized network, the Monetary Policy can only be successfully modified if there is overwhelming consensus from the aforementioned stakeholders. Ethereum follows an [off-chain governance](governance/off-chain-governance.md) process meaning that any and all decisions on changes to the network happen extra-protocol.
+As Ethereum is a decentralized network, the Monetary Policy can only be successfully modified if there is overwhelming consensus from the aforementioned stakeholders. Ethereum follows an [off-chain governance](governance.md) process meaning that any and all decisions on changes to the network happen extra-protocol.
 
 ## Important Events
 
@@ -28,7 +22,7 @@ As part of the Ethereum genesis block, initial contributors to Ethereum sale wer
 ### Historical Issuance Impacts
 
 **Block Reward Reductions**  
-Every block produced on the Ethereum network has an associated block reward which incentivizes miners to support the network. On top of the base block reward, miners that find an [uncle blocks](../using-ethereum/ethereum-network-basics/mining/uncle-blocks.md) receive ~75% of the current block reward. This results in a growing supply of Ether across time. The history of the block reward are as follows:
+Every block produced on the Ethereum network has an associated block reward which incentivizes miners to support the network. On top of the base block reward, miners that find an [uncle blocks](../using-ethereum/mining.md) receive ~75% of the current block reward. This results in a growing supply of Ether across time. The history of the block reward are as follows:
 
 * Block 0 to Block 4,369,999: 5 Ether
 * Block 4,370,000 to current: 3 Ether \(changed via [EIP-649](https://github.com/ethereum/EIPs/blob/master/EIPS/eip-649.md)\)
@@ -46,7 +40,7 @@ Issuance rate is also impacted by the speed of blocks. There have been a few oth
 
 According to the current [Eth 2.0 spec](https://github.com/ethereum/eth2.0-specs), issuance rate will be greatly reduced as a part of Proof of Stake. There will be a sliding scale between total amount of Ether at stake and annual interest earned by stakers. The current spec would produce the following annual interest and inflation numbers based on total network stake:
 
-![](../.gitbook/assets/screen-shot-2018-12-10-at-6.55.04-pm.png)
+![](/assets/images/stake_interest.png)
 
 ### Historical and Future Supply Forecast
 
@@ -56,5 +50,5 @@ There are three majors upcoming factors when it comes to Ethereum's issuance rat
 * [Serenity Phase 0](https://github.com/ethhub-io/ethhub/tree/master/ethereum-roadmap/serenity-phases): Slight bump in issuance due to Beacon Chain launch.
 * [Serenity Phase 2](https://github.com/ethhub-io/ethhub/tree/master/ethereum-roadmap/serenity-phases): Strong drop in issuance due to the PoW chain fading away.
 
-![](../.gitbook/assets/screen-shot-2018-12-11-at-7.51.08-am.png)
+![](/assets/images/issuance_graph.png)
 

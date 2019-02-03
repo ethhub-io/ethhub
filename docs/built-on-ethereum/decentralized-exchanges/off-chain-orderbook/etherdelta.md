@@ -6,7 +6,7 @@ EtherDelta is a decentralized exchange. It processes both orders and trade settl
 
 ## Interface
 
-![](../../../.gitbook/assets/etherdelta_interface.png)
+![](/assets/images/etherdelta.png)
 
 ## Resources
 

@@ -10,7 +10,7 @@ The EVM - the Ethereum Virtual Machine \(EVM\) running on each Ethereum node - i
 
 In order to prevent "overload" of the host, each operation on the EVM consumes a certain amount of gas. Accessing memory or writing to disk have differing costs with each EVM operator setting an upper limit to the gas consumed during execution of a contract. So, if a malicious operator crafted a smart contract that went into an infinite loop, each loop would consume some gas and eventually run into the limit, at which point the EVM would abort the execution of this contract. Essentially, the larger, more complex the contract and the more operations it performs, the more expensive it is to run it.
 
-This process creates a fee market using gas prices where users decide how much they are willing to pay for each unit of gas. Due to the gas block limit, the [fee market](fee-market.md) almost always determines what order transactions are mined in because miners looking to profit will select the transactions with the highest fees.
+This process creates a fee market using gas prices where users decide how much they are willing to pay for each unit of gas. Due to the gas block limit, the fee market almost always determines what order transactions are mined in because miners looking to profit will select the transactions with the highest fees.
 
 There are many key components to a transaction that are important to understand:
 
@@ -26,7 +26,7 @@ There are many key components to a transaction that are important to understand:
 
 ### Summary
 
-As described on the [Gas page](gas.md), the Ethereum gas block limit means that there is a limit to how many computations can occur per block. This creates a fee market for gas where miners will accept higher paying transactions first. Users that want their transactions to be included first can pay a higher gas price than those who aren't in a rush. Key concepts to understand about the fee market are:
+The Ethereum gas block limit means that there is a limit to how many computations can occur per block. This creates a fee market for gas where miners will accept higher paying transactions first. Users that want their transactions to be included first can pay a higher gas price than those who aren't in a rush. Key concepts to understand about the fee market are:
 
 | Term | Description |
 | :--- | :--- |

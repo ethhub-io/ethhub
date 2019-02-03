@@ -21,7 +21,7 @@ AirSwap is a decentralized exchange that uses an off chain matching system calle
 
 ## Interface
 
-![](../../../.gitbook/assets/airswap_interface.png)
+![](/assets/images/airswap.png)
 
 ## Resources
 

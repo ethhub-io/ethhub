@@ -2,7 +2,7 @@
 
 ## Summary
 
-A group of Ethereum core developers and friends talked at Devcon IV and realised that they all share similar view - that Ethereum mainnet, if left unchanged, would become very hard or impossible to use due to severe performance degradation, and increased storage requirements.
+A group of Ethereum core developers and friends talked at Devcon IV and realized that they all share similar view - that Ethereum mainnet, if left unchanged, would become very hard or impossible to use due to severe performance degradation, and increased storage requirements.
 
 * Performance degradation mostly due to the large \(and increasing\) state.
 * Increased storage requirements mostly due to keeping blocks, event logs \(receipts\), and state history \(currently prunable in major clients\).
@@ -15,7 +15,7 @@ Vitalik Buterin presents ["Modest proposal for Ethereum 2.0"](https://www.youtub
 
 #### May 2018, EDCON in Toronto
 
-Vitalik Buterin gives a talk [“So you want to become Casper validator?”](https://www.youtube.com/watch?v=VqOlOMAqC08), signalling that Casper FFG validators may be running on laptops and rollout is getting close.
+Vitalik Buterin gives a talk [“So you want to become Casper validator?”](https://www.youtube.com/watch?v=VqOlOMAqC08), signaling that Casper FFG validators may be running on laptops and rollout is getting close.
 
 #### June 2018
 
@@ -27,14 +27,14 @@ It becomes apparent that Serenity \(full Casper + Sharding\) is not going to fun
 
 ## Main Objectives
 
-* Develop, formalise, and implement set of measures, deployable on the Ethereum 1.0 mainnet, within the next 2 years, to ensure that the chain stays viable and usable. That mainly means curbing the state growth or limiting the state size.
+* Develop, formalize, and implement set of measures, deployable on the Ethereum 1.0 mainnet, within the next 2 years, to ensure that the chain stays viable and usable. That mainly means curbing the state growth or limiting the state size.
 * Emphasize focus on these measures and de-emphasize introduction of specific “features”. This is one of the places where eWASM engine comes in. Current computational pre-compiles are seen as features requiring case-by-case work. Introduction of eWASM engine would first enable “pre-compile” factory, where more pre-compiles are introduced faster. Later it would enable any contracts written in eWASM, obviating need in pre-compiles altogether.
 
 ## Working groups
-* [State rent](state-rent.md)
-* [eWASM](ewasm.md)
-* [Storage pruning](storage-pruning.md)
-* [Simulation and Emulation](simulation-emulation.md)
+* State rent
+* eWASM
+* Storage pruning
+* Simulation and emulation
 
 ## State Rent
 

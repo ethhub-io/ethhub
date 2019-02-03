@@ -2,27 +2,27 @@
 
 ## Unordered TCR
 
-![](../../.gitbook/assets/unordered-tcr.png)
+![](/assets/images/unordered_tcr.png)
 
 ## Ordered TCR
 
-![](../../.gitbook/assets/ordered-tcr.png)
+![](/assets/images/ordered_tcr.png)
 
 ## Graded TCR
 
-![](../../.gitbook/assets/graded-tcr.png)
+![](/assets/images/graded_tcr.png)
 
 ## Layered TCR
 
-![](../../.gitbook/assets/layered-tcr.png)
+![](/assets/images/layered_tcr.png)
 
 ## Nested TCR
 
-![](../../.gitbook/assets/nested-tcr.png)
+![](/assets/images/nested_tcr.png)
 
 ## Combinatorial TCR
 
-![](../../.gitbook/assets/combinatorial-tcr.png)
+![](/assets/images/combinatorial_tcr.png)
 
 ## Resources
 
