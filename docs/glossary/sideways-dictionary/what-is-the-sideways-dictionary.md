@@ -1,4 +1,4 @@
-title: Ethereum Sideways Dictionary
+title: Ethereum Sideways Dictionary - EthHub
 description: This sideways dictionary provides analogies for key terms and concepts of the Ethereum ecosystem.
 
 # Sideways Dictionary

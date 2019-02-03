@@ -1,4 +1,4 @@
-title: Ethereum Test Networks
+title: Ethereum Test Networks - EthHub
 description: A list of all test networks currently live for Ethereum.
 
 # Test Networks

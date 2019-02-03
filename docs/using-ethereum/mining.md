@@ -1,4 +1,4 @@
-title: Ethereum Mining
+title: Ethereum Mining - EthHub
 description: A deep dive into all aspects of Ethereum mining, including how blocks are formed and what are uncle blocks.
 
 # Mining

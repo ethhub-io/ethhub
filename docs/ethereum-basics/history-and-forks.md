@@ -1,4 +1,4 @@
-title: Ethereum’s History and Network Upgrades
+title: Ethereum’s History and Network Upgrades - EthHub
 description: A history of Ethereum and past network upgrades.
 
 # History and Network Upgrades

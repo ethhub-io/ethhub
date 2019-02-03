@@ -1,4 +1,4 @@
-title: Ethereum 2.0 Researches Reddit AMA
+title: Ethereum 2.0 Researches Reddit AMA - EthHub
 description: All questions and answers from the Ethereum 2.0 researchers AMA done on Reddit.
 
 # Ethereum 2.0 Reddit AMA

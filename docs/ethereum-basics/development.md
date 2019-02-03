@@ -1,4 +1,4 @@
-title: Ethereum Development
+title: Ethereum Development - EthHub
 description: Ethereum’s primary artifact is the smart contract, written in the programming language Solidity
 
 # Development

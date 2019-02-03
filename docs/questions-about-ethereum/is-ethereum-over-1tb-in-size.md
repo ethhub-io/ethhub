@@ -1,4 +1,4 @@
-title: Is Ethereum over 1TB in size?
+title: Is Ethereum over 1TB in size? - EthHub
 description: No, the Ethereum blockchain size has not exceeded 1TB in size.
 
 # Is Ethereum over 1TB in size?

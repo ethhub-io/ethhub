@@ -1,4 +1,4 @@
-title: How to get Involved with EthHub
+title: How to get Involved with EthHub - EthHub
 description: Ways in which you can contribute to EthHub, the essential source for Ethereum information.
 
 # How can I get involved with EthHub?

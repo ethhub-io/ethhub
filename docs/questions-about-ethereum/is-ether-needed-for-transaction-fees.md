@@ -1,4 +1,4 @@
-title: Is Ether needed for transaction fees?
+title: Is Ether needed for transaction fees? - EthHub
 description: Ether is necessary for Ethereum network security and operational efficiency for miners.
 
 # Is Ether needed for transaction fees?

@@ -1,4 +1,4 @@
-title: ZK-STARKs
+title: ZK-STARKs - EthHub
 description: ZK-STARKs are a layer 2 scaling and privacy solution for Ethereum.
 
 # ZK-STARKs

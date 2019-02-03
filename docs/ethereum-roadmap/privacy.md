@@ -1,4 +1,4 @@
-title: Privacy on Ethereum
+title: Privacy on Ethereum - EthHub
 description: Solutions proposed to build out privacy technology on Ethereum.
 
 # Privacy

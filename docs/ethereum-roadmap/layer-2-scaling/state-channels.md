@@ -1,4 +1,4 @@
-title: State Channels
+title: State Channels - EthHub
 description: State channels are a layer 2 scaling solution for Ethereum.
 
 # State Channels

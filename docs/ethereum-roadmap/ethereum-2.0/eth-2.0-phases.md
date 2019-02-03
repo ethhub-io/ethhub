@@ -1,4 +1,7 @@
-# Ethereum 2.0 \(Serenity\)
+title: Ethereum 2.0 (Serenity) Phases - EthHub
+description: A guide to the phases and implementation plans of Ethereum 2.0, aka Serenity.
+
+# Ethereum 2.0 \(Serenity\) Phases
 
 _This page is a WIP._
 

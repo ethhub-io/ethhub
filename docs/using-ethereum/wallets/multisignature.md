@@ -1,4 +1,4 @@
-title: Ethereum MultiSig Wallets
+title: Ethereum MultiSig Wallets - EthHub
 description: Explanation of Ethereum multisig wallets pros and cons as well as a list of applications.
 
 # MultiSig

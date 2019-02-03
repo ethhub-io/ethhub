@@ -1,4 +1,4 @@
-title: Ethereum Desktop Wallets
+title: Ethereum Desktop Wallets - EthHub
 description: Explanation of Ethereum desktop wallets pros and cons as well as a list of applications.
 
 # Desktop

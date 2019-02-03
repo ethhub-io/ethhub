@@ -1,4 +1,4 @@
-title: Ethereum’s Monetary Policy
+title: Ethereum’s Monetary Policy - EthHub
 description: A description of Ethereum’s monetary (issuance) policy in the past, present and future.
 
 # Monetary Policy

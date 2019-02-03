@@ -1,4 +1,4 @@
-title: Ethereum Mobile Wallets
+title: Ethereum Mobile Wallets - EthHub
 description: Explanation of Ethereum mobile wallets pros and cons as well as a list of applications.
 
 # Mobile

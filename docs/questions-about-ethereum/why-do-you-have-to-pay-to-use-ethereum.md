@@ -1,4 +1,4 @@
-title: Why do you have to pay to use Ethereum?
+title: Why do you have to pay to use Ethereum? - EthHub
 description: Every transaction that occurs on the Ethereum network requires computational resources.
 
 # Why do you have to pay to use Ethereum?

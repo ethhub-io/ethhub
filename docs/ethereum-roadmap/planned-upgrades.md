@@ -1,4 +1,4 @@
-title: Future Ethereum Network Upgrades
+title: Future Ethereum Network Upgrades - EthHub
 description: A list of current planned upgrades to the Ethereum network.
 
 # PLanned Network Upgrades

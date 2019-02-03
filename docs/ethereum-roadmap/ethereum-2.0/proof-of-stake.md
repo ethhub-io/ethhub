@@ -1,3 +1,6 @@
+title: Ethereum Proof of Stake - EthHub
+description: Information on Proof of Stake and how it will work on Ethereum.
+
 # Proof of Stake
 
 ## What is Proof of Stake
