@@ -1,3 +1,6 @@
+title: Governance on Ethereum
+description: The core components of Ethereum’s governance system.
+
 # Governance
 
 ## Summary

@@ -1,3 +1,6 @@
+title: Ethereum Desktop Wallets
+description: Explanation of Ethereum desktop wallets pros and cons as well as a list of applications.
+
 # Desktop
 
 ## Summary

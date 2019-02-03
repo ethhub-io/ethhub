@@ -1,3 +1,6 @@
+title: Ethereum Sideways Dictionary
+description: This sideways dictionary provides analogies for key terms and concepts of the Ethereum ecosystem.
+
 # Sideways Dictionary
 
 Taking a page from [The Sideways Dictionary](https://sidewaysdictionary.com/#/about), this sideways dictionary provides analogies instead of definitions for key terms and concepts of the Ethereum ecosystem.

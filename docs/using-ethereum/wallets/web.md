@@ -1,3 +1,6 @@
+title: Ethereum Web Wallets
+description: Explanation of Ethereum web wallets pros and cons as well as a list of applications.
+
 # Web
 
 ## Summary

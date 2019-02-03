@@ -1,3 +1,6 @@
+title: Ethereum 1.x
+description: Ethereum 1.x is an effort to improve performance and storage of the current Ethereum mainnet.
+
 # Ethereum 1.x
 
 ## Summary

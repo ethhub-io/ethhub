@@ -1,4 +1,7 @@
-# Is Ethereum immutable?
+title: Is Ethereum Immutable?
+description: Transactions and data stored within the Ethereum blockchain are immutable.
+
+# Is Ethereum Immutable?
 
 Yes, transactions and data stored within the Ethereum blockchain are immutable.
 

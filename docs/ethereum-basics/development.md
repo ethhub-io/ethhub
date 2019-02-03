@@ -1,3 +1,6 @@
+title: Ethereum Development
+description: Ethereum’s primary artifact is the smart contract, written in the programming language Solidity
+
 # Development
 
 ## Summary

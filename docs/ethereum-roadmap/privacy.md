@@ -1,3 +1,6 @@
+title: Privacy on Ethereum
+description: Solutions proposed to build out privacy technology on Ethereum.
+
 # Privacy
 
 ## Summary

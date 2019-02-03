@@ -1,3 +1,6 @@
+title: How to run an Ethereum node.
+description: A page explaining how to run Parity or Geth Ethereum nodes and the different settings.
+
 # How to Run an Ethereum Node
 
 ## Summary

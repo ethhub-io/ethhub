@@ -1,3 +1,6 @@
+title: State Channels
+description: State channels are a layer 2 scaling solution for Ethereum.
+
 # State Channels
 
 ## What Are State Channels?

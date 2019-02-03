@@ -1,3 +1,6 @@
+title: Ethereum Hardware Wallets
+description: Explanation of Ethereum hardware wallets pros and cons as well as a list of vendors.
+
 # Hardware
 
 ## Summary

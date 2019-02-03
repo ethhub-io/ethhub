@@ -1,3 +1,6 @@
+title: Ethereum’s Monetary Policy
+description: A description of Ethereum’s monetary (issuance) policy in the past, present and future.
+
 # Monetary Policy
 
 ### Summary

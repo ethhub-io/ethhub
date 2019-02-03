@@ -1,3 +1,6 @@
+title: How to get Involved with EthHub
+description: Ways in which you can contribute to EthHub, the essential source for Ethereum information.
+
 # How can I get involved with EthHub?
 
 ## [Join the EthHub discord!](https://discord.gg/Svn8nJh)

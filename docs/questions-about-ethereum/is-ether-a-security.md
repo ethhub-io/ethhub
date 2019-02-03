@@ -1,4 +1,7 @@
-# Is Ethereum a security?
+title: Is Ether a Security?
+description: In the US, the SEC has not issued a formal ruling, but recent comments suggest that they do not believe Ether is a security.
+
+# Is Ether a security?
 
 ## Answer
 

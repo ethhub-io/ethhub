@@ -1,3 +1,6 @@
+title: Welcome to EthHub
+description: EthHub provides a single source for essential Ethereum information through documentation, a podcast and a newsletter.
+
 # Welcome to EthHub
 
 The goal of EthHub is to provide a single source for essential Ethereum information. We attempt to accomplish this goal through three main areas:

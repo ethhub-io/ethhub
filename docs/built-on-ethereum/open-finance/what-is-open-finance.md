@@ -1,3 +1,6 @@
+title: Open Finance on Ethereum
+description: Open Finance refers to a number of decentralized protocols building open financial infrastructure.
+
 # Open Finance
 
 ## Summary

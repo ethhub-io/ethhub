@@ -1,3 +1,6 @@
+title: Ethereum Transactions
+description: Explanation of Ethereum transactions including gas and the fee market.
+
 # Transactions
 
 ## Gas

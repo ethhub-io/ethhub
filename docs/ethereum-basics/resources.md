@@ -1,3 +1,6 @@
+title: Key Ethereum Resources
+description: A list of essential Ethereum’s resources.
+
 # Resources
 
 ## Getting Started

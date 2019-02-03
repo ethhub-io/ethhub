@@ -1,3 +1,6 @@
+title: Ethereum’s History and Network Upgrades
+description: A history of Ethereum and past network upgrades.
+
 # History and Network Upgrades
 
 ## Initial Concept

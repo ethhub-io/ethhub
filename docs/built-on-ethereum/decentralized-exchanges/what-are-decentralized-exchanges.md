@@ -1,3 +1,6 @@
+title: Ethereum Decentralized Exchanges
+description: A dive into what decentralized exchanges on Ethereum are as well as the different types.
+
 # Decentralized Exchanges
 
 ## Summary

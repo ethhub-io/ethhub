@@ -1,3 +1,6 @@
+title: Ethereum Off-chain Order Book Decentralized Exchanges
+description: A dive into what off-chain order book decentralized exchanges on Ethereum are as well as the different options.
+
 # Off-chain Order Book
 
 For "Off-Chain Orderbook" decentralized exchanges, final trades occur on chain but every order is hosted by a third party called a Relayer. This was the style of many early generation decentralized exchanges built on Ethereum.

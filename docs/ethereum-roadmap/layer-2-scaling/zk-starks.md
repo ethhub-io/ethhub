@@ -1,3 +1,6 @@
+title: ZK-STARKs
+description: ZK-STARKs are a layer 2 scaling and privacy solution for Ethereum.
+
 # ZK-STARKs
 
 ## Summary

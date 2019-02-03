@@ -1,3 +1,6 @@
+title: Crypto Acronyms
+description: A list of commonly used acronyms for crypto and blockchain.
+
 # Crypto Acronyms
 
 ## Consensus/Sybil-control

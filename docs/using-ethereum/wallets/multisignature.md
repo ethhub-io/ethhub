@@ -1,3 +1,6 @@
+title: Ethereum MultiSig Wallets
+description: Explanation of Ethereum multisig wallets pros and cons as well as a list of applications.
+
 # MultiSig
 
 ## Summary
