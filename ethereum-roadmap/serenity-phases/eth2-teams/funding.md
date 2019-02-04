@@ -1,6 +1,6 @@
 # Funding
 
-There are currently nine independent development teams building Ethereum 2.0 clients:
+Below is a table of each team building Ethereum 2.0 clients and their respective funding to date.
 
 | Team | Funding |
 | :--- | :---: | 
