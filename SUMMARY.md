@@ -49,7 +49,7 @@
     * [Sigma](ethereum-roadmap/serenity-phases/eth2-teams/sigma.md)
     * [Trinity](ethereum-roadmap/serenity-phases/eth2-teams/trinity.md)
     * [Dean Eigenmann](ethereum-roadmap/serenity-phases/eth2-teams/dean-eigenmann.md)
-* [Team Funding](ethereum-roadmap/serenity-phases/funding.md)
+* [Team Funding](ethereum-roadmap/serenity-phases/eth2-teams/funding.md)
 * [Layer 2 Scaling](ethereum-roadmap/layer-2-scaling/README.md)
   * [Plasma](ethereum-roadmap/layer-2-scaling/plasma.md)
   * [State Channels](ethereum-roadmap/layer-2-scaling/state-channels.md)
