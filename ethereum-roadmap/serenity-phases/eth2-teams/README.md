@@ -12,5 +12,5 @@ There are currently nine independent development teams building Ethereum 2.0 cli
 | [Sigma Prime](sigma.md) | Lighthouse | Rust |
 | [Status](status.md) | Nimbus | Nim |
 | [Ethereum Foundation](trinity.md) | Trinity | Python |
-| [ZK Labs](https://github.com/ethhub-io/ethhub/tree/7dadbac9d7dd80513f1c71bfb1fedea0847c7081/ethereum-roadmap/serenity-phases/eth2-teams/zk-labs.md) | yeeth | Swift |
+| [Yeeth](yeeth.md) | yeeth | Swift |
 
