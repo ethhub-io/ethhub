@@ -203,7 +203,7 @@
 * [Sideways Dictionary](/glossary/sideways-dictionary/README.md)
   * [2FA](/glossary/sideways-dictionary/2FA.md)
   * [Blockchain](/glossary/sideways-dictionary/blockchain.md)
-  * [Cold Storage](/glossary/sideways-dictionary/cold-stroage.md)
+  * [Cold Storage](/glossary/sideways-dictionary/cold-storage.md)
   * [Cryptojacking](/glossary/sideways-dictionary/cryptojacking.md)
   * [DDOS](/glossary/sideways-dictionary/ddos.md)
   * [Difficulty](/glossary/sideways-dictionary/difficulty.md)
