@@ -1,5 +1,5 @@
 # Difficulty
-# Difficulty is like...
+## Difficulty is like...
 
 * the odds you have to winning the the lottery
 
