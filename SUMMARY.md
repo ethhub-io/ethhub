@@ -203,6 +203,12 @@
 * [Sideways Dictionary](/glossary/sideways-dictionary/README.md)
   * [2FA](/glossary/sideways-dictionary/2FA.md)
   * [Blockchain](/glossary/sideways-dictionary/blockchain.md)
+  * [Cold Storage](/glossary/sideways-dictionary/cold-stroage.md)
+  * [Cryptojacking]((/glossary/sideways-dictionary/cryptojacking.md)
+  * [DDOS](/glossary/sideways-dictionary/ddos.md)
+  * [Difficulty]((/glossary/sideways-dictionary/difficulty.md)
+  * [Forks](/glossary/sideways-dictionary/forks.md)
+  * [Multi-signature Wallets]((/glossary/sideways-dictionary/multi-sig.md)
   * [Smart Contract](/glossary/sideways-dictionary/smart-contract.md)
   * [Uncle Blocks](glossary/sideways-dictionary/uncle-blocks.md)
 
