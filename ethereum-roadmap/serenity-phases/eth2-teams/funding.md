@@ -16,7 +16,7 @@ Below is a table of each team building Ethereum 2.0 clients and their respective
 
 ## Notes
 
-* The ['Vitalik YOLO Fund'](https://twitter.com/VitalikButerin/status/1075181710730506240) is when Vitalik donated 1000 ETH to three teams over Twitter.
+* The ['Vitalik YOLO Fund'](https://twitter.com/VitalikButerin/status/1075181710730506240) references when Vitalik donated 1000 ETH to three teams over Twitter.
 * Paritys $5 million grant isn't just for building an Ethereum 2.0 client. You can find more information [here](https://www.parity.io/parity-technologies-awarded-5-million-grant-from-the-ethereum-foundation/).
 * Prysmatic Labs [estimates a 14 to 18 month runway](https://twitter.com/preston_vanloon/status/1092194253105741825) from February 2019.
 * EF = Ethereum Foundation.
