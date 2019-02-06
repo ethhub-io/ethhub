@@ -7,7 +7,7 @@ description: A dive into what decentralized exchanges on Ethereum are as well as
 
 Decentralized Exchanges \(sometimes referred to as 'non-custodial exchanges'\) allow for the trading of crypto assets without the need for a trusted central authority. This cuts down on the risk of exchange hacks and many other risks. There are many types of decentralized exchanges and it's important to understand the differences.
 
-### Different types of DEXs:
+## Different types of DEXs:
 
 * [Off-chain order book](off-chain-orderbook/)
 * [Peer-to-peer](peer-to-peer/)

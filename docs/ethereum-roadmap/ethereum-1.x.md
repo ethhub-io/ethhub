@@ -24,7 +24,7 @@ Vitalik Buterin gives a talk [“So you want to become Casper validator?”](htt
 
 Pivot in Casper research from Casper FFG to full Casper and merging with sharding, due to challenges of implementing Casper FFG as a contract, and due to large overlap with Sharding research, as discussed at the [Core Dev Meeting 40](https://youtu.be/8-AZys80RrU?t=1819).
 
-### October-November 2018, Devcon IV in Prague
+#### October-November 2018, Devcon IV in Prague
 
 It becomes apparent that Serenity \(full Casper + Sharding\) is not going to functionally supersede Ethereum 1.0 for another 3-5 years.
 
@@ -39,7 +39,7 @@ It becomes apparent that Serenity \(full Casper + Sharding\) is not going to fun
 * Storage pruning
 * Simulation and emulation
 
-## State Rent
+### State Rent
 
 #### Proposal framework
 
@@ -83,7 +83,7 @@ Part of the state rent research is to identify main classes of contracts that ar
 
 * [State Rent Proposal](https://ethereum-magicians.org/t/state-rent-proposal-version-2-rushed/2494)
 
-## eWASM
+### eWASM
 
 #### Main unresolved questions
 
@@ -121,7 +121,7 @@ JIT compilers might be problematic in an adversarial environment, because it is 
 
 AOT \(Ahead of Time\) compilers can be used for Core Dev-controlled pre-compiles \(Phase 1\). For Phase 2, the plan was to initially use very straightforward interpreters, and then develop AOT compilers with necessary guarantees. The idea of first introducing interpreters is to make sure eWASM is there, giving people more motivation to work on the compilers \(which is harder than interpreter\)
 
-## Storage Pruning
+### Storage Pruning
 
 #### The questions to be answered are:
 
@@ -131,7 +131,7 @@ AOT \(Ahead of Time\) compilers can be used for Core Dev-controlled pre-compiles
 * Do we need to always download the entire header chain or can we compress it \(with STARK proofs for example\)?
 * Can we improve snapshot sync procedures \(fast sync, warp sync\) so that they prevent invalid state transitions \(with Validity Proofs, for example\)? 
 
-## Simulation and Emulation
+### Simulation and Emulation
 
 **Simulation** handles models of the software agents \(in our case Ethereum client software instances\), coarse enough to be performant, and fine enough to capture the important facets of the agents.
 

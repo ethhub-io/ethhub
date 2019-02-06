@@ -18,4 +18,3 @@ For "Pool-based" decentralized exchanges, users are getting liquidity from a sin
 ### Cons
 
 * No order system
-

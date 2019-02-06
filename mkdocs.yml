@@ -46,7 +46,11 @@ nav:
   - 'History and Network Upgrades': 'ethereum-basics/history-and-forks.md'
   - 'Monetary Policy': 'ethereum-basics/monetary-policy.md'
   - 'Governance': 'ethereum-basics/governance.md'
-  - 'Development': 'ethereum-basics/development.md'
+  - Development: 
+      - 'Ethereum Development Basics': 'ethereum-basics/development/ethereum-development-basics.md'
+      - 'Patterns': 'ethereum-basics/development/patterns.md'
+      - 'Testing': 'ethereum-basics/development/testing.md'
+      - 'Tooling': 'ethereum-basics/development/tooling.md'
   - 'Resources': 'ethereum-basics/resources.md'
 - Ethereum Roadmap:
   - 'Planned Upgrades': 'ethereum-roadmap/planned-upgrades.md'
@@ -57,16 +61,17 @@ nav:
       - 'Ethereum 2.0 Phases': 'ethereum-roadmap/ethereum-2.0/eth-2.0-phases.md'
       - 'Ethereum 2.0 Economics': 'ethereum-roadmap/ethereum-2.0/eth-2.0-economics.md'
       - 'Ethereum 1.0 to 2.0 Migration': 'ethereum-roadmap/ethereum-2.0/eth-1.0-to-2.0-migration.md'
-      - Ethereum 2.0 Clients:
-        - 'Artemis': 'ethereum-roadmap/ethereum-2.0/eth2.0-clients/artemis.md'
-        - 'Harmony': 'ethereum-roadmap/ethereum-2.0/eth2.0-clients/harmony.md'
-        - 'Lighthouse': 'ethereum-roadmap/ethereum-2.0/eth2.0-clients/lighthouse.md'
-        - 'Lodestar': 'ethereum-roadmap/ethereum-2.0/eth2.0-clients/lodestar.md'
-        - 'Nimbus': 'ethereum-roadmap/ethereum-2.0/eth2.0-clients/nimbus.md'
-        - 'Prysm': 'ethereum-roadmap/ethereum-2.0/eth2.0-clients/prysm.md'
-        - 'Shasper': 'ethereum-roadmap/ethereum-2.0/eth2.0-clients/shasper.md'
-        - 'Trinity': 'ethereum-roadmap/ethereum-2.0/eth2.0-clients/trinity.md'
-        - 'Yeeth': 'ethereum-roadmap/ethereum-2.0/eth2.0-clients/yeeth.md'
+      - Ethereum 2.0 Teams:
+        - 'Teams Building Eth 2.0': 'ethereum-roadmap/ethereum-2.0/eth2.0-teams/teams-building-eth2.0.md'
+        - 'Artemis': 'ethereum-roadmap/ethereum-2.0/eth2.0-teams/artemis.md'
+        - 'Harmony': 'ethereum-roadmap/ethereum-2.0/eth2.0-teams/harmony.md'
+        - 'Lighthouse': 'ethereum-roadmap/ethereum-2.0/eth2.0-teams/lighthouse.md'
+        - 'Lodestar': 'ethereum-roadmap/ethereum-2.0/eth2.0-teams/lodestar.md'
+        - 'Nimbus': 'ethereum-roadmap/ethereum-2.0/eth2.0-teams/nimbus.md'
+        - 'Prysm': 'ethereum-roadmap/ethereum-2.0/eth2.0-teams/prysm.md'
+        - 'Shasper': 'ethereum-roadmap/ethereum-2.0/eth2.0-teams/shasper.md'
+        - 'Trinity': 'ethereum-roadmap/ethereum-2.0/eth2.0-teams/trinity.md'
+        - 'Yeeth': 'ethereum-roadmap/ethereum-2.0/eth2.0-teams/yeeth.md'
   - Layer 2 Scaling:
       - 'Plasma': 'ethereum-roadmap/layer-2-scaling/plasma.md'
       - 'State Channels': 'ethereum-roadmap/layer-2-scaling/state-channels.md'
@@ -124,6 +129,7 @@ nav:
     - 'Settle': 'built-on-ethereum/open-finance/settle.md'
     - 'WBTC': 'built-on-ethereum/open-finance/wbtc.md'
   - ERC Token Standards:
+    - 'What are ERC Tokens?': 'built-on-ethereum/erc-token-standards/what-are-erc-tokens.md'
     - 'ERC20': 'built-on-ethereum/erc-token-standards/erc20.md'
     - 'ERC621': 'built-on-ethereum/erc-token-standards/erc621.md'
     - 'ERC721': 'built-on-ethereum/erc-token-standards/erc721.md'
@@ -146,7 +152,6 @@ nav:
     - Peer to Peer:
       - 'What are Peer to Peer Decentralized Exchanges?': 'built-on-ethereum/decentralized-exchanges/peer-to-peer/what-is-peer-to-peer.md'
       - 'Airswap': 'built-on-ethereum/decentralized-exchanges/peer-to-peer/airswap.md'
-      - 'Republic Protocol': 'built-on-ethereum/decentralized-exchanges/peer-to-peer/republic-protocol.md'
       - 'Ren': 'built-on-ethereum/decentralized-exchanges/peer-to-peer/ren.md'
     - Pool Based:
       - 'What are Pool Based Decentralized Exchanges?': 'built-on-ethereum/decentralized-exchanges/pool-based/what-is-pool-based.md'
@@ -156,6 +161,7 @@ nav:
     - Aggregators:
       - 'Totle': 'built-on-ethereum/decentralized-exchanges/aggregators/totle.md'
   - Games:
+    - 'What is Blockchain Gaming?': 'built-on-ethereum/games/what-is-blockchain-gaming.md'
     - 'CryptoKitties': 'built-on-ethereum/games/cryptokitties.md'
     - 'Etheroll': 'built-on-ethereum/games/etheroll.md'
     - 'Gods Unchained': 'built-on-ethereum/games/gods-unchained.md'
@@ -176,6 +182,7 @@ nav:
     - 'One Click dApp': 'built-on-ethereum/developer-tools/oneclickdapp.md'
     - 'Wallet Connect': 'built-on-ethereum/developer-tools/walletconnect.md'
   - Identity:
+    - 'Identity on Ethereum': 'built-on-ethereum/identity/identity-on-ethereum.md'
     - 'Bloom': 'built-on-ethereum/identity/bloom.md'
     - 'Civic': 'built-on-ethereum/identity/civic.md'
     - 'ERC725': 'built-on-ethereum/identity/ERC725.md'
@@ -234,6 +241,12 @@ nav:
     - 'What is the sideways dictionary?': 'glossary/sideways-dictionary/what-is-the-sideways-dictionary.md'
     - '2FA': 'glossary/sideways-dictionary/2FA.md'
     - 'Blockchain': 'glossary/sideways-dictionary/blockchain.md'
+    - 'Cold Storage': 'glossary/sideways-dictionary/cold-storage.md'
+    - 'Cryptojacking': 'glossary/sideways-dictionary/cryptojacking.md'
+    - 'DDOS': 'glossary/sideways-dictionary/ddos.md'
+    - 'Difficulty': 'glossary/sideways-dictionary/difficulty.md'
+    - 'Forks': 'glossary/sideways-dictionary/forks.md'
+    - 'Multi-Sig': 'glossary/sideways-dictionary/multi-sig.md'
     - 'Smart Contract': 'glossary/sideways-dictionary/smart-contract.md'
     - 'Uncle Blocks': 'glossary/sideways-dictionary/uncle-blocks.md'
 

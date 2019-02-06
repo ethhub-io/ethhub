@@ -13,12 +13,12 @@ For "Off-Chain Orderbook" decentralized exchanges, final trades occur on chain b
 * [IDEX](idex.md)
 * [Hydro](https://github.com/ethhub-io/ethhub/tree/c4d7df9476f84e4388b8ff8fa614966f82c19dac/built-on-ethereum/decentralized-exchanges/off-chain-orderbook/Hydro.md)
 
-## Pros
+### Pros
 
 * Faster order management than On-Chain solutions
 * Less fees involved than On-Chain solutions
 
-## Cons
+### Cons
 
 * No full guarantee that a maker order is still active
 * The relayer could front run an order
