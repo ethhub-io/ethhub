@@ -4,8 +4,7 @@ theme:
   custom_dir: 'docs/material'
   palette:
     primary: 'ethhub'
-    accent: 'red'
-  logo: 'logo-2.svg'
+  logo: 'logo.png'
   favicon: 'assets/images/favicon.ico'
   feature:
     tabs: true
@@ -79,7 +78,7 @@ nav:
       - 'ZK-STARKs': 'ethereum-roadmap/layer-2-scaling/zk-starks.md'
   - 'Privacy': 'ethereum-roadmap/privacy.md'
 - Using Ethereum:
-  - 'Running an Ethereum Node': 'using-ethereum/how-to-run-an-ethereum-node.md'
+  - 'Running an Ethereum Node': 'using-ethereum/running-an-ethereum-node.md'
   - 'Transactions': 'using-ethereum/transactions.md'
   - 'Mining': 'using-ethereum/mining.md'
   - 'Test Networks': 'using-ethereum/test-networks.md'
