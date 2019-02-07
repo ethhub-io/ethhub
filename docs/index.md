@@ -7,7 +7,7 @@ description: EthHub provides a single source for essential Ethereum information 
 
 The goal of EthHub is to provide a single source for essential Ethereum information. We attempt to accomplish this goal through three main areas:
 
-1. [Learn](ethereum-basics/what-is-ethereum/) - Open source, easy to understand documentation
+1. [Learn](../ethereum-basics/what-is-ethereum/) - Open source, easy to understand documentation
 2. [Listen](https://podcast.ethhub.io) - Into the Ether podcast
 3. [Read](https://medium.com/ethhub) - EthHub on Medium
 4. [Subscribe](https://ethhub.substack.com) - EthHub Weekly newsletter
