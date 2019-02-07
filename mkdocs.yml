@@ -1,4 +1,5 @@
 site_name: EthHub
+site_description: Essential source for Ethereum information.
 theme:
   name: 'material'
   custom_dir: 'docs/material'
