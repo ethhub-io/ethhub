@@ -3652,7 +3652,7 @@
 <p>Once Phase 0 is complete, there will be two active Ethereum chains. For the sake of clarity let’s call them the Eth 1.0 chain (current, PoW mainchain) and the Eth 2.0 chain (new beacon chain). During this phase, users will be able to migrate their ETH from the Eth 1.0 chain to the Eth 2.0 chain and become validators. However, they will NOT be able to migrate this ETH back. The reason someone may want to do this is that they could be earning interest paid in ETH on the Eth 2.0 chain.</p>
 <p><strong>Important Considerations</strong></p>
 <ul>
-<li>There will be a minimum amount of ETH stake needed in order to first bootstrap the beacon chain. This is defined as <code>CHAIN_START_FULL_DEPOSIT_THRESHOLD</code> in the spec. Currently, this is set to 16384 validators needed. That would mean 524,288 ETH in total stake is needed. This would pay ~11% interest to stakers.</li>
+<li>There will be a minimum amount of ETH stake needed in order to first bootstrap the beacon chain. This is defined as <code>CHAIN_START_FULL_DEPOSIT_THRESHOLD</code> in the <a href="https://github.com/ethereum/deposit_contract/blob/master/deposit_contract/contracts/validator_registration.v.py#L69">deposit contract that will live on the Eth 1.0 chain</a>. Currently, this is set to 16384 validators needed. That would mean 524,288 ETH in total stake is needed. This would pay ~11% interest to stakers.</li>
 <li>ETH rewards earned by validators won’t be transferable until Phase 2 of the Serenity roll-out as that is when state execution is implemented.</li>
 <li>During Phase 0, all user transactions and smart contract computations will still occur on the Eth 1.0 chain.</li>
 </ul>
@@ -3736,11 +3736,7 @@
     <div class="md-footer-meta__inner md-grid">
       <div class="md-footer-copyright">
         
-        powered by
-        <a href="https://www.mkdocs.org">MkDocs</a>
-        and
-        <a href="https://squidfunk.github.io/mkdocs-material/">
-          Material for MkDocs</a>
+        <a href="https://etherscan.io/address/0xa19fcdad77c1f0fd184689aca88babcf68010347">Donate: 0xA19FCDaD77C1F0fd184689aca88BabCF68010347</a>
       </div>
       
         
