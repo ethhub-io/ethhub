@@ -1,7 +1,7 @@
 title: Future Ethereum Network Upgrades - EthHub
 description: A list of current planned upgrades to the Ethereum network.
 
-# PLanned Network Upgrades
+# Planned Network Upgrades
 
 The Ethereum network goes through planned network upgrades via hard forks every nine months. The names given to future planned network upgrades.
 
