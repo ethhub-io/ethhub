@@ -1,10 +1,15 @@
+title: xDai Burner Wallet for Ethereum
+description: The Burner Wallet allows users to interact with xDai on the POA Network sidechain for Ethereum.
+
 # Burner Wallet (xDai)
 
 ## Summary
 
 Founded by [Austin Griffith](https://twitter.com/austingriffith), The Burner Wallet is a wallet that allows users to interact with the xDai sidechain from [POA](../infrastructure/poa-network.md). 
 
-xDai is the USD-stable coin that is a representation of Dai but lives on xDai Chain, instead of Ethereum mainnet. xDai is the native coin on xDai Chain and is used as the currency and for transaction fees on the network. You can use the [TokenBridge](https://dai-bridge.poa.network/) to convert Dai from Ethereum Mainnet to xDai on xDai Chain
+xDai is the USD-stable coin that is a representation of Dai but lives on xDai Chain, instead of Ethereum mainnet. xDai is the native coin on xDai Chain and is used as the currency and for transaction fees on the network. You can use the [TokenBridge](https://dai-bridge.poa.network/) to convert Dai from Ethereum Mainnet to xDai on xDai Chain.
+
+_Please note that the Burner Wallet is new and the site is constantly being improved._
 
 
 ## How to use the Burner Wallet
@@ -15,8 +20,8 @@ Upon visiting [https://xdai.io](https://xdai.io) a wallet is automatically gener
 
 ![](/assets/images/burner_advanced.png)
 
-* Private Key: Show private key and save it somewhere. This can be inserted into the Private Key box in the future and upon hitting create, the wallet will be restored.
-* Seed Phrase: Create any string of words or phrase that you want and hit create. This will create a wallet tied to that phrase and you can reenter it and pull it up at any point. WARNING: Doing this the first time will create a NEW wallet.
+* **Private Key:** Show private key and save it somewhere. This can be inserted into the Private Key box in the future and upon hitting create, the wallet will be restored.
+* **Seed Phrase:** Create any string of words or phrase that you want and hit create. This will create a wallet tied to that phrase and you can reenter it and pull it up at any point. WARNING: Doing this the first time will create a NEW wallet.
 
 #### Getting xDai
 As previously mentioned, xDai is a representation of Dai running on a POA sidechain. This means that you must lock up Dai on the Etheruem mainnet to be minted xDai tokens. The Burner Wallet makes this easy through the Exchange section of the page.
