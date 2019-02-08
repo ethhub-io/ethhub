@@ -109,7 +109,7 @@
     <input class="md-toggle" data-md-toggle="search" type="checkbox" id="__search" autocomplete="off">
     <label class="md-overlay" data-md-component="overlay" for="__drawer"></label>
     
-      <a href="#burner-wallet" tabindex="1" class="md-skip">
+      <a href="#burner-wallet-xdai" tabindex="1" class="md-skip">
         Skip to content
       </a>
     
@@ -1604,19 +1604,40 @@
     Summary
   </a>
   
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#how-to-use-the-burner-wallet" title="How to use the Burner Wallet" class="md-nav__link">
+    How to use the Burner Wallet
+  </a>
+  
     <nav class="md-nav">
       <ul class="md-nav__list">
         
           <li class="md-nav__item">
-  <a href="#what-is-the-xdai-chain" title="What is the xDai Chain?" class="md-nav__link">
-    What is the xDai Chain?
+  <a href="#wallet-generation" title="Wallet Generation" class="md-nav__link">
+    Wallet Generation
   </a>
   
 </li>
         
           <li class="md-nav__item">
-  <a href="#what-is-xdai" title="What is XDAI?" class="md-nav__link">
-    What is XDAI?
+  <a href="#getting-xdai" title="Getting xDai" class="md-nav__link">
+    Getting xDai
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#exiting-xdai" title="Exiting xDai" class="md-nav__link">
+    Exiting xDai
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#sending-and-receiving-xdai" title="Sending and Receiving xDai" class="md-nav__link">
+    Sending and Receiving xDai
   </a>
   
 </li>
@@ -3431,19 +3452,40 @@
     Summary
   </a>
   
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#how-to-use-the-burner-wallet" title="How to use the Burner Wallet" class="md-nav__link">
+    How to use the Burner Wallet
+  </a>
+  
     <nav class="md-nav">
       <ul class="md-nav__list">
         
           <li class="md-nav__item">
-  <a href="#what-is-the-xdai-chain" title="What is the xDai Chain?" class="md-nav__link">
-    What is the xDai Chain?
+  <a href="#wallet-generation" title="Wallet Generation" class="md-nav__link">
+    Wallet Generation
   </a>
   
 </li>
         
           <li class="md-nav__item">
-  <a href="#what-is-xdai" title="What is XDAI?" class="md-nav__link">
-    What is XDAI?
+  <a href="#getting-xdai" title="Getting xDai" class="md-nav__link">
+    Getting xDai
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#exiting-xdai" title="Exiting xDai" class="md-nav__link">
+    Exiting xDai
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#sending-and-receiving-xdai" title="Sending and Receiving xDai" class="md-nav__link">
+    Sending and Receiving xDai
   </a>
   
 </li>
@@ -3479,14 +3521,27 @@
                   <a href="https://github.com/ethhub-io/ethhub/edit/master/docs/built-on-ethereum/open-finance/burner-wallet.md" title="Edit this page" class="md-icon md-content__icon">&#xE3C9;</a>
                 
                 
-                <h1 id="burner-wallet">Burner Wallet</h1>
+                <h1 id="burner-wallet-xdai">Burner Wallet (xDai)</h1>
 <h2 id="summary">Summary</h2>
-<p>Founded by <a href="https://twitter.com/austingriffith">Austin Griffith</a>, The Burner Wallet runs on the xDai sidechain from POA. Since it is in DAI, a dApp can simply refer to amounts in USD. Plus, block times take 5 seconds and gas costs are virtually abstracted because they are so cheap and paid in DAI. Finally, the bridge between xDai and DAI/ETH is as simple as sending tokens to a specific address.</p>
-<p>A burner wallet is automatically generated upon visiting <a href="https://xdai.io">https://xdai.io</a> and your private key is stored in a cookie in your browser.</p>
-<h3 id="what-is-the-xdai-chain">What is the xDai Chain?</h3>
-<p>The xDai Chain is an Ethereum-based blockchain that uses USD-stable XDAI (a representation of DAI token) as the native coin of the network. xDai Chain will be fast and cost efficient, using Proof-of-Authority consensus model and having 5 second block times.</p>
-<h3 id="what-is-xdai">What is XDAI?</h3>
-<p>XDAI is the USD-stable coin that is a representation of DAI but lives on xDai Chain, instead of Ethereum mainnet. XDAI is the native coin on xDai Chain and is used as the currency and for transaction fees on the network. You can use the <a href="https://dai-bridge.poa.network/">TokenBridge</a> to convert Dai from Ethereum Mainnet to xDai on xDai Chain</p>
+<p>Founded by <a href="https://twitter.com/austingriffith">Austin Griffith</a>, The Burner Wallet is a wallet that allows users to interact with the xDai sidechain from <a href="../../infrastructure/poa-network/">POA</a>. </p>
+<p>xDai is the USD-stable coin that is a representation of Dai but lives on xDai Chain, instead of Ethereum mainnet. xDai is the native coin on xDai Chain and is used as the currency and for transaction fees on the network. You can use the <a href="https://dai-bridge.poa.network/">TokenBridge</a> to convert Dai from Ethereum Mainnet to xDai on xDai Chain</p>
+<h2 id="how-to-use-the-burner-wallet">How to use the Burner Wallet</h2>
+<p>First, it’s suggested at the moment to use the Burner Wallet without MetaMask. While it’s possible to use MetaMask, it is not necessary and adds some overhead. Suggested use right now would be in a mobile browser or in a private browser tab (to avoid MetaMask).</p>
+<h4 id="wallet-generation">Wallet Generation</h4>
+<p>Upon visiting <a href="https://xdai.io">https://xdai.io</a> a wallet is automatically generated and your private key is stored in a cookie in your browser. There are multiple ways to backup and restore your Burner Wallet in the Advanced section.</p>
+<p><img alt="" src="/assets/images/burner_advanced.png" /></p>
+<ul>
+<li>Private Key: Show private key and save it somewhere. This can be inserted into the Private Key box in the future and upon hitting create, the wallet will be restored.</li>
+<li>Seed Phrase: Create any string of words or phrase that you want and hit create. This will create a wallet tied to that phrase and you can reenter it and pull it up at any point. WARNING: Doing this the first time will create a NEW wallet.</li>
+</ul>
+<h4 id="getting-xdai">Getting xDai</h4>
+<p>As previously mentioned, xDai is a representation of Dai running on a POA sidechain. This means that you must lock up Dai on the Etheruem mainnet to be minted xDai tokens. The Burner Wallet makes this easy through the Exchange section of the page.</p>
+<p><img alt="" src="/assets/images/burner_exchange.png" /></p>
+<p>You can start with just ETH or Dai. If you start with ETH you must go ETH &gt; Dai &gt; xDai using this page. Once complete, you have xDai in your wallet.</p>
+<h4 id="exiting-xdai">Exiting xDai</h4>
+<p>Leaving the xDai chain is just as easy as getting on but in reverse. Simply go to the Exchange page and convert from xDai to Dai and then onto ETH if you want.</p>
+<h4 id="sending-and-receiving-xdai">Sending and Receiving xDai</h4>
+<p>Sending and Receiving xDai is extremely easy. Simply get the address of whoever you want to send to or scan a QR code which is generated inside the wallet. Users can also request funds via the Request option which generates a link for others to drop in their browser.</p>
 <h2 id="resources">Resources</h2>
 <ul>
 <li><a href="https://xdai.io">Website</a></li>
