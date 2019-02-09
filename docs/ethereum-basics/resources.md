@@ -35,6 +35,7 @@ description: A list of essential Ethereum’s resources.
   * [/r/EthTrader](https://www.reddit.com/r/EthTrader/)
   * [/r/EtherMining](https://www.reddit.com/r/EtherMining/)
   * [/r/EthDev](https://www.reddit.com/r/ethdev/)
+  * [/r/EthereumNoobies](https://www.reddit.com/r/EthereumNoobies/)
 * [The Block](https://www.theblockcrypto.com/)
 * [Token Daily](https://www.tokendaily.co/)
 * [Token Economy](https://tokeneconomy.co/)
