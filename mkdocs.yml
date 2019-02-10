@@ -38,8 +38,7 @@ nav:
 - Home: 'index.md'
 - Learn: 'ethereum-basics/what-is-ethereum.md'
 - Listen: 'https://podcast.ethhub.io'
-- Read: 'https://medium.com/ethhub'
-- Subscribe: 'https://ethhub.substack.com/'
+- Read: 'https://ethhub.substack.com/'
 - Ethereum Basics:
   - 'What is Ethereum?': 'ethereum-basics/what-is-ethereum.md'
   - 'What is Ether?': 'ethereum-basics/what-is-ether.md'
