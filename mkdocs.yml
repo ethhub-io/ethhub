@@ -52,7 +52,6 @@ nav:
       - 'Tooling': 'ethereum-basics/development/tooling.md'
   - 'Resources': 'ethereum-basics/resources.md'
 - Ethereum Roadmap:
-  - 'Planned Upgrades': 'ethereum-roadmap/planned-upgrades.md'
   - 'Ethereum 1.x': 'ethereum-roadmap/ethereum-1.x.md'
   - Ethereum 2.0:
       - 'Sharding': 'ethereum-roadmap/ethereum-2.0/sharding.md'
@@ -77,6 +76,7 @@ nav:
       - 'Payment Channels': 'ethereum-roadmap/layer-2-scaling/payment-channels.md'
       - 'ZK-STARKs': 'ethereum-roadmap/layer-2-scaling/zk-starks.md'
   - 'Privacy': 'ethereum-roadmap/privacy.md'
+  - 'Planned Upgrades': 'ethereum-roadmap/planned-upgrades.md'
 - Using Ethereum:
   - 'Running an Ethereum Node': 'using-ethereum/running-an-ethereum-node.md'
   - 'Transactions': 'using-ethereum/transactions.md'
