@@ -30,6 +30,7 @@ Phone and other mobile device-based wallets are mobile alternatives to desktop a
 * [WallETH](https://walleth.org) - Native Android Ethereum Wallet.
 * [Jaxx](https://jaxx.io) - Both a mobile and a desktop wallet. Has integrated Shapeshift support.
 * [eth-wallet-light](https://github.com/NoahHydro/eth-wallet-light) - Lightweight JS Wallet optimized for mobile
+* [Tokenary](https://tokenary.io/) — Native iOS wallet and DApp explorer and browser with cross-device synchronization and macOS support.
 
 ## Resources
 

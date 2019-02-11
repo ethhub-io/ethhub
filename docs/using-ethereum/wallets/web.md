@@ -27,6 +27,7 @@ Web wallets are wallets hosted on a website, they may be custodial or act as an 
 * [SpankCard](https://github.com/SpankChain/SpankCard) - An in-browser Ethereum wallet with support for payment channels
 * [Mnemonic generator](https://iancoleman.io/bip39/) - generate word mnemonic and associated public/private key pairs. Select "Ethereum" as coin to generate Ethereum addresses. Useful for truffle-hd-wallet.
 * [Fetch](https://hellofetch.co/download) - Web-based \(and desktop\) wallet supporting Ethereum and ERC-20 tokens. Integrated with 20 exchanges for real time trading rates and one-click trading.
+* [Zerion](https://zerion.io/) - Ethereum and ERC-20 wallet interface with automatic historical portfolio tracking. Integrated with DeFi protocols for trading, borrowing and investing. 
 
 ## Resources
 
