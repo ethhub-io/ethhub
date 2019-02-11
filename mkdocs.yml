@@ -127,6 +127,7 @@ nav:
     - 'Set Protocol': 'built-on-ethereum/open-finance/set-protocol.md'
     - 'Settle': 'built-on-ethereum/open-finance/settle.md'
     - 'WBTC': 'built-on-ethereum/open-finance/wbtc.md'
+    - 'Zerion': 'built-on-ethereum/open-finance/zerion.md'
   - ERC Token Standards:
     - 'What are ERC Tokens?': 'built-on-ethereum/erc-token-standards/what-are-erc-tokens.md'
     - 'ERC20': 'built-on-ethereum/erc-token-standards/erc20.md'
