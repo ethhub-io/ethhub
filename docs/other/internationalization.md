@@ -6,7 +6,7 @@ Start by reading the plan below.
 
 If you are interested in helping, please join the [EthHub Discord](https://discordapp.com/invite/gw8AM98) and request to join the group.
 
-Head over to [this page](https://github.com/ethhub-io/ethhub/blob/master/docs/other/get-involved.md) to learn how get started.
+Head over to [this page](get-involved.md) to learn how get started.
 
 ## General plan 
 *This plan was the original outline for translating EthHub. Updates to this plan are needed.*
