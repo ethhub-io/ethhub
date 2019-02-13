@@ -5,7 +5,7 @@ description: Proper ways to run a Parity or Geth Ethereum node.
 
 ## Summary
 
-Anyone is able to run an Ethereum node on their computer. This means that you can participate in validating transactions and blocks on the Ethereum blockchain. The two most common clients for running nodes are [Geth](https://ethereum.github.io/go-ethereum/downloads/) and [Parity](https://github.com/paritytech/parity-ethereum/releases/tag/v2.0.6). Depending on the type of node run and the hardware specifications of the system, the initial syncronization time and storage requirements vary. For information related to the current Full Node chaindata and state storage size check out:
+Anyone is able to run an Ethereum node on their computer. This means that you can participate in validating transactions and blocks on the Ethereum blockchain. The two most common clients for running nodes are [Geth](https://ethereum.github.io/go-ethereum/downloads/) and [Parity](https://github.com/paritytech/parity-ethereum/releases/). Depending on the type of node run and the hardware specifications of the system, the initial syncronization time and storage requirements vary. For information related to the current Full Node chaindata and state storage size check out:
 http://didtheethereumblockchainreach1tbyet.5chdn.co/
 
 Below are the different types of nodes a user can run, their settings, and what they mean.
