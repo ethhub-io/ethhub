@@ -23,4 +23,4 @@ ETH Prize is a community research and bounty project that identifies the most cr
 
 ## Important Links
 
-* Website: http://ethprize.io/
+* Website: [http://ethprize.io/](http://ethprize.io/)
