@@ -27,7 +27,7 @@ Mining profitability calculators, such as [CoinWarz](https://www.coinwarz.com/ca
 
 ## How much longer will Ethereum mining be around?
 
-See [Serenity phases](https://docs.ethhub.io/ethereum-roadmap/serenity-phases) for more information.
+See [Serenity phases](https://docs.ethhub.io/ethereum-roadmap/ethereum-2.0/eth-2.0-phases/) for more information.
 
 # Block Generation
 

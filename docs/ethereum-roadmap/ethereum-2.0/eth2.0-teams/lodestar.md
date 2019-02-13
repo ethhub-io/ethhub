@@ -11,7 +11,7 @@ The team is currently building an Ethereum 2.0 client written in JavasScript/Typ
 ## Resources:
 
 * [Website](https://chainsafe.io/)
-* [Github](https://github.com/ChainSafeSystems/lodestar_chain)
-* [Gitter](https://gitter.im/chainsafe/lodestar-chain)
+* [Github](https://github.com/ChainSafeSystems/lodestar)
+* [Gitter](https://gitter.im/chainsafe/lodestar)
 * [Twitter](https://twitter.com/chainsafeth)
 

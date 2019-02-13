@@ -27,6 +27,6 @@ Furthermore, we will also consider projects involved in research and education.
 
 ## Important Links
 
-* Website: https://github.com/gnosis/GECO
-* Announcement: https://blog.gnosis.pm/unveiling-the-gnosis-ecosystem-fund-7353926bfb65
-* Proposal template: https://github.com/gnosis/GECO/blob/master/Proposals/ProposalTemplate.md
+* Website: [https://github.com/gnosis/GECO](https://github.com/gnosis/GECO)
+* Announcement: [https://blog.gnosis.pm/unveiling-the-gnosis-ecosystem-fund-7353926bfb65](https://blog.gnosis.pm/unveiling-the-gnosis-ecosystem-fund-7353926bfb65)
+* Proposal template: [https://github.com/gnosis/GECO/blob/master/Proposals/ProposalTemplate.md](https://github.com/gnosis/GECO/blob/master/Proposals/ProposalTemplate.md)
