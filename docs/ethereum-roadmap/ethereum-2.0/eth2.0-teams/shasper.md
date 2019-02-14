@@ -1,4 +1,4 @@
-# Parity Shasper
+# Substrate Shasper
 
 ## Background
 
@@ -6,7 +6,7 @@ Parity Technologies is a blockchain infrastructure company responsible for maint
 
 ## Implementation Details
 
-Parity is developing _Parity Ethereum_ - a legacy Ethereum 1.0 client written in the Rust programming language and built for mission-critical use. In addition, Parity is developing the Serenity client called _Parity Shasper_.
+Parity is developing _Parity Ethereum_ - a legacy Ethereum 1.0 client written in the Rust programming language and built for mission-critical use. In addition, Parity is developing the Serenity client called _Substrate Shasper_.
 
 ## Resources:
 
