@@ -1,29 +1,29 @@
-# Welcome to EthHub
+# Bienvenido a EthHub
 
-## Welcome to EthHub
+## Bienvenido a EthHub
 
-The goal of EthHub is to provide a single source for essential Ethereum information. We attempt to accomplish this goal through three main areas:
+El objetivo de EthHub es proporcionar una fuente única para toda la información esencial sobre Ethereum. Nos proponemos alcanzar este objetivo a través de tres secciones principales:
 
-1. [Learn](https://docs.ethhub.io) - Open source, easy to understand documentation
-2. [Listen](https://podcast.ethhub.io) - Into the Ether podcast
-3. [Read](https://medium.com/ethhub) - EthHub on Medium
-4. [Subscribe](https://ethhub.substack.com) - EthHub Weekly newsletter
+1. [Aprende](https://docs.ethhub.io) - Dcoumentación de código abierto y fácil comprensión
+2. [Escucha](https://podcast.ethhub.io) - Podcast "Into the Ether"
+3. [Lee](https://medium.com/ethhub) - EthHub en Medium
+4. [Subscríbete](https://ethhub.substack.com) - Newsletter semanal de EthHub 
 
-The Learn section, where you are now, is the core of EthHub. This documentation is open source and hosted on GitHub which means that anyone has the ability to contribute. The goal is to make sure the information is available, clear, concise, and up to date.
+La sección "Aprende", en la que te encuentras, es el núcleo de EthHub. La documentación es de código abierto y se hospeda en GitHub, lo que significa que todo el mundo tiene la posibilidad de contribuir. El objetivo es asegurarse de que la información sea accesible, clara, concisa y esté actualizada.
 
-## Contribution Guidelines
+## Pautas para las Contribuciones
 
-In the interest of keeping the content on EthHub looking uniform, we have set up a template that you can use when adding your own pages to the github repo. You can find the template [here](https://github.com/ethhub-io/ethhub/tree/138f04335ad4a090d8eb370a9af90ee82fccf1a6/template.md).
+Con el propósito de mantener un aspecto uniforme en el contenido de EthHub, hemos configurado una plantilla que puedes utilizar cuando añadas tus propias páginas al repo de github. Puedes encontrar la plantilla [aquí](https://github.com/ethhub-io/ethhub/tree/138f04335ad4a090d8eb370a9af90ee82fccf1a6/template.md).
 
-There are also some basic guidelines that need to be followed when contributing to EthHub:
+Hay también algunas pautas básicas que hay que seguir al contribuir a EthHub:
 
-* All pages should have links to supporting sources/documentation and additional resources
-* No marketing or sponsored posts
-* No promotion of ICOs/token sales
-* No inappropriate content
+* Todas las páginas deben incluir enlaces a las fuentes/documentos de apoyo, así como a recursos adicionales
+* No se admiten acciones de marketing o publicaciones patrocinadas
+* No se admiten promociones de ICOs/ofertas de tokens 
+* No se admite el contenido inapropiado
 
-Join the discussion on our Discord server: [https://discord.gg/VDMBe4c](https://discord.gg/VDMBe4c)
+Únete al debate en nuestro servidor de Discord: [https://discord.gg/VDMBe4c](https://discord.gg/VDMBe4c)
 
-Donations: [0xa19fcdad77c1f0fd184689aca88babcf68010347](https://etherscan.io/address/0xa19fcdad77c1f0fd184689aca88babcf68010347)
+Donativos: [0xa19fcdad77c1f0fd184689aca88babcf68010347](https://etherscan.io/address/0xa19fcdad77c1f0fd184689aca88babcf68010347)
 
-**DISCLAIMER: EthHub is a completely independent and open-source initiative founded by Ethereum community members. Nothing contained in this Github repository should be considered financial or investment advice - it is for informational purposes only.**
+**AVISO LEGAL: EthHub es una iniciativa completamente independiente y de código abierto fundada por miembros de la comunidad Ethereum. Ninguna información contenida en este repositorio de Github debe considerarse asesoramiento financiero o de inversión - solo reviste propóitos informativos.**
