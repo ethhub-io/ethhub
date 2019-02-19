@@ -1,9 +1,10 @@
-title: What is Ethereum? - EthHub
-description: Ethereum is an open-source, permissionless blockchain-based distributed ledger with decentralized governance that provides infrastructure for distributed computing and economic activities.
+标题：什么是以太坊？ - EthHub
 
-# What is Ethereum?
+说明：以太坊是一种开源的，无权限的基于区块链的分布式分类账，具有分散式治理，为分布式计算和经济活动提供基础设施。
 
-Ethereum is an open-source, permissionless blockchain-based distributed ledger with decentralized governance that provides infrastructure for distributed computing and economic activities. It enables developers to build and deploy decentralized applications, products, and services on the Ethereum network and leverage logic-based transaction automation programs called 'smart contracts'. This smart contract technology enables developers to create unique programs and business logic that execute in a trustless environment, while leveraging the high availability of the global Ethereum network.
+# 什么是以太坊？
+
+以太坊是一种开源的，无权限的基于区块链的分布式分类账，具有分散式治理，为分布式计算和经济活动提供基础设施。 它使开发人员能够在以太坊网络上构建和部署分散的应用程序，产品和服务，并利用基于逻辑的事务自动化程序“智能合约”。 这种智能合约技术使开发人员能够创建在无信任环境中执行的独特程序和业务逻辑，同时利用全球以太坊网络的高可用性。
 
 ## Resources
 
