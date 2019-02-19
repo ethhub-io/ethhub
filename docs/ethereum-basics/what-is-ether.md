@@ -1,9 +1,11 @@
-title: ¿Qué es Ethereum? - EthHub
+title: ¿Qué es Ether? - EthHub
 description: Ether is the native cryptocurrency used on the Ethereum network.
 
-# ¿Qué es Ethereum?
+# ¿Qué es Ether?
 
-Ethereum es un libro contable distribuido, de código abierto, no permisionado, basado en tecnología blockchain y de gobernanza descentralizada, que proporciona infraestructura para computación distribuida y actividades económicas. Permite a los desarrolladores construir e implementar aplicaciones descentralizadas, productos y servicios en la red Ethereum; así como aprovechar programas de automatización de transacciones de base lógica, denominados 'smart contracts' (contratos inteligentes). La tecnología “smart contract” permite a los desarrolladores crear programas únicos y lógicas de negocio que se ejecutan en un entorno “trustless” (en que no interviene la confianza en terceros), beneficiándose a la vez de la elevada disponibilidad de la red global de Ethereum.
+## Resumen
+
+Ether (ETH o Ξ) es la criptomoneda nativa de la red Ethereum que se emplea para compensar a los mineros que aseguran las transacciones. Una mejora del protocolo Ethereum, planificada para el 2019-2021, tiene previsto reemplazar el minado por un mecanismo “Proof of Stake” (Prueba de Participación) computacionalmente menos costoso, que será asegurado por validadores -que, en consecuencia, recibirán una compensación proporcional en Ether. Ether presenta en la actualidad muchos casos de uso: depósito de valor (por ejemplo, como colateral en préstamos), medio de cambio (en intercambios comerciales o pagos) y unidad contable (en “marketplaces” digitales).
 
 ## Ether Use Cases
 
