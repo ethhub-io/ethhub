@@ -6,7 +6,7 @@
 
 以太坊是一种开源的，无权限的基于区块链的分布式分类账，具有分散式治理，为分布式计算和经济活动提供基础设施。 它使开发人员能够在以太坊网络上构建和部署分散的应用程序，产品和服务，并利用基于逻辑的事务自动化程序“智能合约”。 这种智能合约技术使开发人员能够创建在无信任环境中执行的独特程序和业务逻辑，同时利用全球以太坊网络的高可用性。
 
-## Resources
+## 参考资料
 
 * [What is Ethereum](https://blockgeeks.com/guides/ethereum/)
 * [What is Ethereum. Guide for Beginners](https://cointelegraph.com/ethereum-for-beginners/what-is-ethereum)
