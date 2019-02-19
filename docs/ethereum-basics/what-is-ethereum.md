@@ -1,11 +1,11 @@
-title: What is Ethereum? - EthHub
+title: ¿Qué es Ethereum? - EthHub
 description: Ethereum is an open-source, permissionless blockchain-based distributed ledger with decentralized governance that provides infrastructure for distributed computing and economic activities.
 
-# What is Ethereum?
+# ¿Qué es Ethereum?
 
-Ethereum is an open-source, permissionless blockchain-based distributed ledger with decentralized governance that provides infrastructure for distributed computing and economic activities. It enables developers to build and deploy decentralized applications, products, and services on the Ethereum network and leverage logic-based transaction automation programs called 'smart contracts'. This smart contract technology enables developers to create unique programs and business logic that execute in a trustless environment, while leveraging the high availability of the global Ethereum network.
+Ethereum es un libro contable distribuido, de código abierto, no permisionado, basado en tecnología blockchain y de gobernanza descentralizada, que proporciona infraestructura para computación distribuida y actividades económicas. Permite a los desarrolladores construir e implementar aplicaciones descentralizadas, productos y servicios en la red Ethereum; así como aprovechar programas de automatización de transacciones de base lógica, denominados 'smart contracts' (contratos inteligentes). La tecnología “smart contract” permite a los desarrolladores crear programas únicos y lógicas de negocio que se ejecutan en un entorno “trustless” (en que no interviene la confianza en terceros), beneficiándose a la vez de la elevada disponibilidad de la red global de Ethereum.
 
-## Resources
+## Recursos
 
 * [What is Ethereum](https://blockgeeks.com/guides/ethereum/)
 * [What is Ethereum. Guide for Beginners](https://cointelegraph.com/ethereum-for-beginners/what-is-ethereum)
