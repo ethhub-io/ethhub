@@ -1,22 +1,22 @@
-# Governance
+# Gobernanza
 
-## Summary
+## Resumen
 
-Blockchains are distributed systems. They are essentially consensus protocols, which means that different nodes in the network \(e.g. computers on the internet\) have to be running compatible software.
+Las blockchains son sistemas distribuidos, esencialmente, protocolos de consenso. Esto significa que distintos nodos de una red \(como por ejemplo, ordenadores en internet\) deben ejecutar software compatible.
 
-**“Node operators”** are the owners and managers of nodes that run the protocol. Most node operators don’t want to write much software, and it’s a technical challenge for anyone to independently write compatible implementations of any consensus protocol even if they have a specification. As a result, node operators rely on software repositories \(usually hosted on Microsoft/Github servers\) to provide them with the software they choose to run.
+**“Los operadores de nodos”** son los propietarios y gestores de los nodos que ejecutan el protocolo. La mayoría de operadores de nodos no desean programar una gran cantidad de software, y es que intentar programar de forma independiente implementaciones compatibles de cualquier protocolo de consenso, incluso cuando se dispone de una especificación, es un desafío técnico para cualquiera. Como resultado, los operadores de nodos suelen depender de repositorios \(habitualmente hospedados en servidores de Microsoft/Github\) que les proporcionan el software que escogen ejecutar.
 
-**“Core developers”** of a blockchain are software developers who work on the software that implement that protocol. Developers have processes that are supposed to assure the quality of the software they release, and are generally very interested in maintaining the legitimacy of their software repositories because they want to see people using their software \(as opposed to someone else’s\).
+**“Los core developers”** de una blockchain son desarrolladores que trabajan en el software encargado de implementar el protocolo en cuestión. Los desarrolladores disponen de procesos que, supuestamente, deben asegurar la calidad del software que publican; y generalmente están muy interesados en preservar la legitimidad de sus repositorios, porque desean ver a la gente utilizar su software \(en lugar del de otros\).
 
-## Critical Components of Governance
+## Componentes Críticos de la Gobernanza
 
-**1. Incentives**
+**1. Incentivos**
 
-Each group in the system has their own incentives. Those incentives are not always 100% aligned with all other groups in the system. Groups will propose changes over time which are advantageous for them. Organisms are biased towards their own survival. This commonly manifests in changes to the reward structure, monetary policy, or balances of power.
+Cada uno de los grupo que integra el sistema tiene sus propios incentivos. Dichos incentivos no siempre están 100% alineados con los de los otros grupos que forman parte del sistema. A lo largo del tiempo, los grupos tenderán a proponer cambios que favorezcan sus intereses. Los organismos siempre presentan sesgos que buscan asegurar su supervivencia. En este caso, esto se manifiesta de manera habitual en cambios respecto a la estructura de recompensas, política monetaria y equilibrios de poder.
 
-**2. Mechanisms for Coordination**
+**2. Mecanismos de Coordinación**
 
-Since it’s unlikely all groups have 100% incentive alignment at all times, the ability for each group to coordinate around their common incentives is critical for them to affect change. If one group can coordinate better than another, it creates power imbalances in their favor.
+Dada la improbabilidad de que los incentivos de los grupos estén 100% alineados todo el tiempo, la habilidad de cada grupo para coordinarse en torno a unos intereses compartidos es crítica para poder influir en los cambios. Si un grupo es capaz de coordinarse mejor que otro, creará desequilibrios de poder que le favorecerán.
 
-In practice, a major factor is how much coordination can be done on-chain vs. off-chain, where on-chain coordination makes coordinating easier. In some new blockchains \(such as Tezos or Polkadot\), on-chain coordination allows the rules or even the ledger history itself to be changed.
+En la práctica, uno de los factores de mayor peso es la cantidad de coordinación que puede llevarse a cabo on-chain, en oposición a aquella que se realiza off-chain -se considera que con la primera, el proceso de coordinación resulta más sencillo. En algunas nuevas blockchains \(como Tezos o Polkadot\), la coordinación on-chain permite que las reglas, o incluso el historial del ledger (libro contable), sean modificados.
 
