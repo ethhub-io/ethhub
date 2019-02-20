@@ -40,13 +40,13 @@ The Ethereum gas block limit means that there is a limit to how many computation
 
 ## Signing Transactions on Ethereum
 
-### Interacting with smart contracts via Etherscan and MetaMask
+### Interacting with Smart Contracts via Etherscan and MetaMask
 1. Navigate to the Etherscan page for the Contract Address
 2. If the code and ABI have been uploaded to Etherscan, you should be able to access the 'Write Contract' tab
 3. Click the connect with MetaMask button
 4. Follow the documentation provided by the Contract's author to complete your transaction.
 
-### Interacting with smart contracts via MyCrypto
+### Interacting with Smart Contracts via MyCrypto
 1. Navigate to **[MyCrypto](https://mycrypto.com/).** *Verify the SSL (little green lock next to URL) to avoid phishing sites.* 
 2. Click the **'Contracts'** tab
 3. Enter the Ethereum address of your desired contract in the **'Contract Address'** field
@@ -54,7 +54,7 @@ Enter the **'ABI / JSON Interface'** provided by the contract author into the **
 *The ABI allows MyCrypto to display named functions that are invokable for the provided contract address. This code can sometimes be found on the Etherscan page for the contract address under the 'Code' tab.*
 4. Click **'Access'**
 5. Follow the contract documentation provided by the contract author to use the desired contract function in the **'Read / Write Contract'** dropdown.
-6. Follow the MyCrypto prompts access your wallet in order to sign and submit your transaction.
+6. Follow the MyCrypto prompts to access your wallet in order to sign and submit your transaction.
 
 #### Important notes
 * If you are experiencing troubles, be sure that you are using the 'Ethereum' (mainnet) from the dropdown in the top right hand corner
