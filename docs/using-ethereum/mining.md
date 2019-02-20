@@ -166,3 +166,5 @@ This limited version of GHOST, with uncles includable only up to 7 generations, 
 * [https://ethereum.stackexchange.com/questions/10548/what-does-every-field-in-block-means](https://ethereum.stackexchange.com/questions/10548/what-does-every-field-in-block-means)
 * [How does Ethereum work, anyway?](https://medium.com/@preethikasireddy/how-does-ethereum-work-anyway-22d1df506369)
 * [Ethereum Whitepaper](https://github.com/ethereum/wiki/wiki/White-Paper)
+* [Ethereum Mining Pools List](https://miningpoolstats.stream/ethereum)
+* [Ethereum Mining Calculator](https://whattomine.com/coins/151-eth-ethash)
