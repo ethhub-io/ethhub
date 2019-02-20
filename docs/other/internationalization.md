@@ -13,7 +13,7 @@ Head over to [this page](get-involved.md) to learn how get started.
 ### Target Audiences
 
 * Spanish
-* Mandarin
+* Chinese
 * Hindi
 * Arabic
 
