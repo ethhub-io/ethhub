@@ -8,7 +8,7 @@
 
 ## 参考资料
 
-* [What is Ethereum](https://blockgeeks.com/guides/ethereum/)
-* [What is Ethereum. Guide for Beginners](https://cointelegraph.com/ethereum-for-beginners/what-is-ethereum)
-* [Ethereum - Wikipedia](https://en.wikipedia.org/wiki/Ethereum)
+* [什么是以太坊](https://blockgeeks.com/guides/ethereum/)
+* [什么是以太坊，初学者指南](https://cointelegraph.com/ethereum-for-beginners/what-is-ethereum)
+* [以太坊 - 维基百科](https://en.wikipedia.org/wiki/Ethereum)
 
