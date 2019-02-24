@@ -13,7 +13,7 @@
 
 以太币需要在以太坊网络上进行交易。
 
-在[汽油部分](https://docs.ethhub.io/-LTo-PwFj1VwulVCZAFW/~/drafts/-LUpsUsOLWLhW7Fftje4/primary/using-ethereum/ethereum-network-basics/transactions/gas) 解释了，在网络上发生的每个交易都需要一定数额的油，这是用于测量处理交易所需的计算能力的单位。
+在[油部分](https://docs.ethhub.io/-LTo-PwFj1VwulVCZAFW/~/drafts/-LUpsUsOLWLhW7Fftje4/primary/using-ethereum/ethereum-network-basics/transactions/gas) 解释了，在网络上发生的每个交易都需要一定数额的油，这是用于测量处理交易所需的计算能力的单位。
 为了处理交易并将其包含在一个区块中，矿工希望得到补偿。这是通过在每次交易中设定油价格来实现的，这是以Gwei计价的1单位油的成本。
 
 例如，当你只是将ETH从一个帐户发送到另一个帐户时，这需要21,000个油。 如果你设定1 Gwei的油价格，此交易将花费0.000021 ETH。
