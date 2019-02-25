@@ -3,11 +3,27 @@
 
 ## Summary
 
-The Gitcoin Torch is a community effort to spur funding of Ethereum projects using the [Gitcoin Grants](https://gitcoin.co/grants/) platform.
+The Gitcoin Torch is a community effort to spur funding of Ethereum projects using the [Gitcoin Grants](https://gitcoin.co/grants/) platform. 
 
-There is a matching pool pledged to match any donations to funds. Any funds donated will be matched from this pool once the match treasury dries up.
+## What are you talking about?
 
-NOTE: Funds donated must be between 10-100 Dai.
+The effort contains of two main components, matchers and donators. 
+
+**Matchers** are individuals who have pledged a certain amount of Dai to a matching pool. These funds will be used to match any donation from individuals to a Grant.
+
+**Donators** are individuals who want to direct their own funds towards certain projects. Any donation that is given and asks for a match will be matched using funds from the matching pool. NOTE: Funds donated must be between 10-100 Dai.
+
+## OK great! How do I participate?
+
+Those who want to act as **matchers** should reach out to @econoar on Twitter. Matchers are able to hold their own funds until the end to disperse or can send to an address that acts as a treasury until the end.
+
+Those who want to act as **donators** can head over to Gitcoin Grants and give to their favorite projects and then tag @econoar with proof of the donation.
+
+The Gitcoin Torch effort will run until the pledged matching pool funds have dried up. At that point, all pledged funds will be sent to the appropriate teams.
+
+## Why would I participate?
+
+All projects on Gitcoin Grants are open source. This is a great way to give to teams who are building open source projects that are vital to the future success of Ethereum. Also, it's a great opportunity to make your single donation go further with matching contributions behind it.
 
 ## Matchers
 
