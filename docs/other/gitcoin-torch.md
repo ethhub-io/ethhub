@@ -47,3 +47,8 @@ Total: 200 Dai
 
 Keep track of the activity on [this spreadsheet](https://docs.google.com/spreadsheets/d/1p3jSYi_IYKj5wfRAS8pxACZBAdJUdRzXqyD7gh6lOZI/edit?usp=sharing)
 
+## Rules
+
+* Matching will only be for projects built on or for Ethereum
+* No matching of funds if donator gives to a team they are assosiated with
+
