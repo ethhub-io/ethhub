@@ -18,6 +18,7 @@ Total: 4,000 Dai
 * Anon1 - 500 Dai
 * David Bleznak - [1,000 Dai](https://twitter.com/bleznak/status/1099740178397229056)
 * Anon2 - 500 Dai
+* Anon3 - 2000 Dai
 
 ## Donators
 
