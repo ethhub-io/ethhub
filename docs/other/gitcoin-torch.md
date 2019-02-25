@@ -11,7 +11,7 @@ NOTE: Funds donated must be between 10-100 Dai.
 
 ## Matchers
 
-Total: 4,000 Dai
+Total: 6,000 Dai
 
 * Eric Conner - [1,000 Dai](https://twitter.com/econoar/status/1099437910992932864)
 * Megan Knab - [1,000 Dai](https://twitter.com/knotmegan/status/1099480194451165185)
