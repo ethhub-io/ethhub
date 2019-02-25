@@ -52,3 +52,6 @@ Keep track of the activity on [this spreadsheet](https://docs.google.com/spreads
 * Matching will only be for projects built on or for Ethereum
 * No matching of funds if donator gives to a team they are assosiated with
 
+## Gitcoin Torch Kudos
+
+Anyone who pledges $1000 or more will get this limited edition Gitcoin Torch Kudos <img src=http://bits.owocki.com/474caa7e3e1f/Screen%20Recording%202019-02-25%20at%2004.41%20PM.gif>
