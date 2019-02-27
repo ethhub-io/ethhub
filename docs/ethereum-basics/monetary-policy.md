@@ -5,7 +5,7 @@ description: A description of Ethereum’s monetary (issuance) policy in the pas
 
 ### Summary
 
-Ethereum's Monetary Policy is defined by the rewards that are paid out by the protocol at any given time. At time of writing, Ethereum's yearly network inflation is approximately 6.7% with 3 Ether per block and an additional 2.5 Ether per uncle block \(plus fees\) being rewarded to miners.
+Ethereum's Monetary Policy is defined by the rewards that are paid out by the protocol at any given time. Starting 2/28/19, Ethereum's yearly network issuance is approximately 4.5% with 2 Ether per block and an additional 1.5 Ether per uncle block \(plus fees\) being rewarded to miners.
 
 Ethereum does not have an official Monetary Policy. Rather, the policy is decided upon by a wide range of stakeholders within the ecosystem - including:
 
@@ -28,8 +28,8 @@ As part of the Ethereum genesis block, initial contributors to Ethereum sale wer
 Every block produced on the Ethereum network has an associated block reward which incentivizes miners to support the network. On top of the base block reward, miners that find an [uncle blocks](../using-ethereum/mining.md) receive ~75% of the current block reward. This results in a growing supply of Ether across time. The history of the block reward are as follows:
 
 * Block 0 to Block 4,369,999: 5 Ether
-* Block 4,370,000 to current: 3 Ether \(changed via [EIP-649](https://github.com/ethereum/EIPs/blob/master/EIPS/eip-649.md)\)
-* The Constantinople hard fork, targeted for block 7,280,000, will cut block rewards to 2 Ether per block via [EIP-1234](https://github.com/ethereum/EIPs/blob/master/EIPS/eip-1234.md).
+* Block 4,370,000 to 7,280,000: 3 Ether \(changed via [EIP-649](https://github.com/ethereum/EIPs/blob/master/EIPS/eip-649.md)\)
+* Block 7,280,000 and beyond: 2 Ether per block via [EIP-1234](https://github.com/ethereum/EIPs/blob/master/EIPS/eip-1234.md).
 
 **Other Events**  
 Issuance rate is also impacted by the speed of blocks. There have been a few other events in Ethereum's history which has impacted the issuance rate. Some planned and some not planned.
@@ -47,9 +47,8 @@ According to the current [Eth 2.0 spec](https://github.com/ethereum/eth2.0-specs
 
 ### Historical and Future Supply Forecast
 
-There are three majors upcoming factors when it comes to Ethereum's issuance rate and supply curve. They are:
+There are two majors upcoming factors when it comes to Ethereum's issuance rate and supply curve. They are:
 
-* Constantinople Hard Fork: block rewards drop from 3 to 2.
 * [Serenity Phase 0](https://github.com/ethhub-io/ethhub/tree/master/ethereum-roadmap/serenity-phases): Slight bump in issuance due to Beacon Chain launch.
 * [Serenity Phase 2](https://github.com/ethhub-io/ethhub/tree/master/ethereum-roadmap/serenity-phases): Strong drop in issuance due to the PoW chain fading away.
 
