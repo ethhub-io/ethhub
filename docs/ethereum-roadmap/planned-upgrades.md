@@ -7,7 +7,7 @@ The Ethereum network goes through planned network upgrades via hard forks every 
 
 ## Constantinople
 
-The Constantinople hard fork will occur at block 7,280,000 on approximately 2/27/2019. The Constantinople fork consists of 4 EIPS:
+The Constantinople hard fork will occur at block 7,280,000 on 2/28/2019. The Constantinople fork consists of 4 EIPS:
 
 * [EIP 145: Bitwise shifting instructions in EVM](https://eips.ethereum.org/EIPS/eip-145)
 * [EIP 1014: Skinny CREATE2](https://eips.ethereum.org/EIPS/eip-1014)
