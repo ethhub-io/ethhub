@@ -5,7 +5,7 @@ description: A description of Ethereum’s monetary (issuance) policy in the pas
 
 ### Summary
 
-Ethereum's Monetary Policy is defined by the rewards that are paid out by the protocol at any given time. Starting 2/28/19, Ethereum's yearly network issuance is approximately 4.5% with 2 Ether per block and an additional 1.5 Ether per uncle block \(plus fees\) being rewarded to miners.
+Ethereum's Monetary Policy is defined by the rewards that are paid out by the protocol at any given time. Ethereum's yearly network issuance is approximately 4.5% with 2 Ether per block and an additional 1.75 Ether per uncle block \(plus fees\) being rewarded to miners.
 
 Ethereum does not have an official Monetary Policy. Rather, the policy is decided upon by a wide range of stakeholders within the ecosystem - including:
 
@@ -29,7 +29,7 @@ Every block produced on the Ethereum network has an associated block reward whic
 
 * Block 0 to Block 4,369,999: 5 Ether
 * Block 4,370,000 to 7,280,000: 3 Ether \(changed via [EIP-649](https://github.com/ethereum/EIPs/blob/master/EIPS/eip-649.md)\)
-* Block 7,280,000 and beyond: 2 Ether per block via [EIP-1234](https://github.com/ethereum/EIPs/blob/master/EIPS/eip-1234.md).
+* Block 7,280,000 to now: 2 Ether \(changed via [EIP-1234](https://github.com/ethereum/EIPs/blob/master/EIPS/eip-1234.md)\).
 
 **Other Events**  
 Issuance rate is also impacted by the speed of blocks. There have been a few other events in Ethereum's history which has impacted the issuance rate. Some planned and some not planned.
