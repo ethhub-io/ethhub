@@ -35,10 +35,10 @@ Total: 14,000 Dai
 * David Bleznak - [1,000 Dai](https://twitter.com/bleznak/status/1099740178397229056)
 * Anon2 - 500 Dai
 * Anon3 - 2000 Dai
+* FollowTheChain - [1000 Dai](https://twitter.com/FollowTheChain/status/1101215014072057856)
 * Anon4 - 1000 Dai
 * Anon5 - 1000 Dai
-* Anon6 - 1000 Dai
-* Anon7 - 5000 Dai
+* Anon6 - 5000 Dai
 
 ## Donators
 
