@@ -27,7 +27,7 @@ All projects on Gitcoin Grants are open source. This is a great way to give to t
 
 ## Matchers
 
-Total: 6,000 Dai
+Total: 14,000 Dai
 
 * Eric Conner - [1,000 Dai](https://twitter.com/econoar/status/1099437910992932864)
 * Megan Knab - [1,000 Dai](https://twitter.com/knotmegan/status/1099480194451165185)
@@ -35,6 +35,10 @@ Total: 6,000 Dai
 * David Bleznak - [1,000 Dai](https://twitter.com/bleznak/status/1099740178397229056)
 * Anon2 - 500 Dai
 * Anon3 - 2000 Dai
+* Anon4 - 1000 Dai
+* Anon5 - 1000 Dai
+* Anon6 - 1000 Dai
+* Anon7 - 5000 Dai
 
 ## Donators
 
