@@ -45,7 +45,7 @@ nav:
   - 'History and Network Upgrades': 'ethereum-basics/history-and-forks.md'
   - 'Monetary Policy': 'ethereum-basics/monetary-policy.md'
   - 'Governance': 'ethereum-basics/governance.md'
-  - Development: 
+  - Development:
       - 'Ethereum Development Basics': 'ethereum-basics/development/ethereum-development-basics.md'
       - 'Patterns': 'ethereum-basics/development/patterns.md'
       - 'Testing': 'ethereum-basics/development/testing.md'
@@ -208,6 +208,8 @@ nav:
   - Token Curated Registries:
     - 'What are TCRs': 'built-on-ethereum/tcrs/what-are-tcrs.md'
     - 'Types of TCRs': 'built-on-ethereum/tcrs/types-of-tcrs.md'
+  - Mobile Development:
+    - 'Mobile Tech Stack': 'built-on-ethereum/mobile-development/mobile-tech-stack.md'
 - Ethereum FAQ:
   - 'Is Ethereum more expensive to use as price rises?': 'questions-about-ethereum/is-ethereum-more-expensive-to-use-as-price-rises.md'
   - 'Why do you have to pay to use Ethereum?': 'questions-about-ethereum/why-do-you-have-to-pay-to-use-ethereum.md'
@@ -251,7 +253,3 @@ nav:
     - 'Multi-Sig': 'glossary/sideways-dictionary/multi-sig.md'
     - 'Smart Contract': 'glossary/sideways-dictionary/smart-contract.md'
     - 'Uncle Blocks': 'glossary/sideways-dictionary/uncle-blocks.md'
-
-
-
-

@@ -37,6 +37,7 @@ Parity Ethereum - Rust Implementation
 - [ETH 2.0 Gitter](https://gitter.im/ethereum/sharding)
 - [ETH Research Discourse](https://ethresear.ch/)
 - [Ethereum Developer Discord](https://discord.gg/hbtA9ex)
+- [Ethereum Magicians - Mobile Ring](https://ethereum-magicians.org/c/working-groups/mobile-ring)
 
 ## Resources
 
