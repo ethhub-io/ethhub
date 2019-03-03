@@ -43,4 +43,5 @@ Sending and Receiving xDai is extremely easy. Simply get the address of whoever 
 * [Introduction to Burner Wallet](https://medium.com/gitcoin/ethereum-in-emerging-economies-b235f8dac2f2)
 * [Burner Wallet Video](https://youtu.be/k1Ssz1dvcpk)
 * [xDai Chain Explained](https://medium.com/poa-network/poa-network-partners-with-makerdao-on-xdai-chain-the-first-ever-usd-stable-blockchain-65a078c41e6a)
+* [xDai Burner Wallet Guide](https://forum.poa.network/t/burner-wallet-guide/1873)
 
