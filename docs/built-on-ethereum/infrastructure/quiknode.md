@@ -2,7 +2,7 @@
 
 ## Description
 
-QuikNode is the fastest and easiest way to run an Ethereum node.
+QuikNode is the fastest and easiest way to run an Ethereum node. <br>
 Its mission is to help blockchain ecosystems scale by providing accessible Web3 infrastructure.
 
 ### Main products:
@@ -31,8 +31,12 @@ Its mission is to help blockchain ecosystems scale by providing accessible Web3 
 
 * Costs money to use it (ETH is accepted)
 
-## Resources
+## FAQ
+* [When should I use QuikNode?](https://medium.com/quiknode/quiknode-your-ethereum-node-c7940db55675)
+* [How can I use QuikNode?](https://medium.com/quiknode/run-your-own-ethereum-node-5c3061925e6a)
+* [Where can I find a demo of QuikNode in action?](http://www.dappuniversity.com/articles/build-a-blockchain-explorer-with-quiknode)
 
+## Resources
 * [Website](https://quiknode.io) 
 * [Twitter](https://twitter.com/quiknode)  
 * [Medium](https://medium.com/quiknode) 
