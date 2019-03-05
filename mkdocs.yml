@@ -195,6 +195,7 @@ nav:
     - 'Democracy Earth': 'built-on-ethereum/governance/democracy-earth.md'
     - 'Govblocks': 'built-on-ethereum/governance/govblocks.md'
   - Infrastructure:
+    - 'QuikNode': 'built-on-ethereum/infrastructure/quiknode.md'
     - '0xcert': 'built-on-ethereum/infrastructure/0xcert.md'
     - 'Aztec Protocol': 'built-on-ethereum/infrastructure/aztec-protocol.md'
     - 'Bounties Network': 'built-on-ethereum/infrastructure/bountiesnetwork.md'
