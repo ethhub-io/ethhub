@@ -1,27 +1,28 @@
-title: Ethereum’s History and Network Upgrades - EthHub
-description: A history of Ethereum and past network upgrades.
+标题：以太坊的历史和网络升级 - Ethhub
 
-# History and Network Upgrades
+说明：以太坊的历史和之前的网络升级
 
-## Initial Concept
+# 历史和网络升级
 
-Vitalik Buterin first described the concept of Ethereum through the [White Paper](https://github.com/ethereum/wiki/wiki/White-Paper) and first introduced the concept [publicly](https://www.youtube.com/watch?v=l9dpjN3Mwps&t=1s) at Bitcoin Miami 2014.
+## 初步概念
 
-The underlying impetus to develop Ethereum and consequently Ether was to utilize aspects of the technology initially developed as part of the Bitcoin blockchain and combine it with the capabilities of smart contract technology. The idea was that this marriage would lead to a platform that could sustain not only the money or medium of exchange use case, but also to add programmability to money, introducing conditional logic to the equation that would open up a world of possibilities with regards to decentralized financial applications and products, and additional decentralized applications.
+Vitalik Buterin 是通过 [白皮书](https://github.com/ethereum/wiki/wiki/White-Paper) 描述以太坊的概念而且在比特币迈阿密2014年的第一次介绍以太坊概念
 
-## Initial ETH Distribution
+开发以太坊以及因此以太币的潜在动力是利用最初开发的技术方面作为比特币区块链的一部分，并将其与智能合约技术的功能相结合。他的想法是，这种婚姻将导致一个平台，不仅可以维持交换用例的金钱或媒介，而且还可以增加对金钱的可编程性，在等式中引入条件逻辑，从而打开一个可能性的世界。 分散的金融应用程序和产品，以及其他分散的应用程序。
 
-The Ethereum presale took place from Tuesday, 22 July 2014 to Tuesday, 2 September 2014, lasting a total of 42 days. The price of ether was initially set to a discounted price of 2000 ETH per BTC, and stayed that way for 14 days before linearly declining to a final rate of 1337 ETH per BTC.
+## 以太币初始的分布
 
-60 Million ether was created for the presale of which 80% was available for purchase with 20% \(or 12 Million\) being retained by the Ethereum Foundations 'development fund' which consisted of early contributors to the project and developers.
+以太坊预售于2014年7月22日星期二至2014年9月2日星期二举行，共持续42天。以太币的价格最初设定为每BTC 2000 ETH的折扣价，并保持这种状态14天，然后线性下降到每BTC的1337 ETH的最终速率。
 
-The presale ended with ~31,000 BTC \(equivalent to ~$18.3 million\) being raised by the Ethereum Foundation over the 42 days.
+为预售创建了6000万以太币，其中80％可供购买，其中20％ \(或1200万\) 由以太坊基金会保留，该基金由项目的早期贡献者和开发商组成。
 
-Ether was not usable or transferable until the launch of the genesis block which occurred on July 30th, 2015.
+预售结束时，以太坊基金会在42天内筹集了约31,000比特币 \(相当于约1830万美元\)。
 
-## Network Upgrade History
+在2015年7月30日发生的成因区块发布之前，以太币不可用或可转让。
 
-| Name | Block | Date |
+## 网络升级的历史
+
+| 名字 | 块 | 日期 |
 | :--- | :--- | :--- |
 | [Frontier](https://blog.ethereum.org/2015/07/30/ethereum-launches/) | 1 | 2015-07-30 |
 | [Frontier Thawing](https://blog.ethereum.org/2015/08/04/the-thawing-frontier/) | 200000 | 2015-09-07 |
@@ -32,7 +33,7 @@ Ether was not usable or transferable until the launch of the genesis block which
 | [Byzantium](https://blog.ethereum.org/2017/10/12/byzantium-hf-announcement/) | 4370000 | 2017-10-16 |
 | [Constantinople](https://github.com/ethereum/pm/wiki/Constantinople-Progress-Tracker) | 7280000 | ~2019-02-27 |
 
-## Resources
+## 参考资料
 
 * [Launching the Ether Sale](https://blog.ethereum.org/2014/07/22/launching-the-ether-sale/)
 * [A Statistical Overview of the Ether Sale](https://blog.ethereum.org/2014/08/08/ether-sale-a-statistical-overview/)
