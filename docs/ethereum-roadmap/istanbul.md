@@ -1,7 +1,7 @@
 # Istanbul
 
 ## Description
-Istanbul is the name given to the next Ethereum upgrade. The proposed timeline for Istanbul is as follows:
+Istanbul is the name given to the next Ethereum upgrade.
 
 ## Timeline
 * 5/17/19 - Hard deadline to accept EIPs
