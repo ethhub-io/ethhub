@@ -77,6 +77,7 @@ nav:
       - 'ZK-STARKs': 'ethereum-roadmap/layer-2-scaling/zk-starks.md'
   - 'Privacy': 'ethereum-roadmap/privacy.md'
   - 'Planned Upgrades': 'ethereum-roadmap/planned-upgrades.md'
+  - 'Istanbul': 'ethereum-roadmap/istanbul.md'
 - Using Ethereum:
   - 'Running an Ethereum Node': 'using-ethereum/running-an-ethereum-node.md'
   - 'Transactions': 'using-ethereum/transactions.md'
