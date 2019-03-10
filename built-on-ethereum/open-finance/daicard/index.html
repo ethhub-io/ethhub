@@ -3447,47 +3447,6 @@
     FAQ
   </a>
   
-    <nav class="md-nav">
-      <ul class="md-nav__list">
-        
-          <li class="md-nav__item">
-  <a href="#when-i-deposit-eth-into-a-channel-and-i-receive-dai-is-the-eth-being-automatically-sold-to-connext" title="When I deposit ETH into a channel and I receive dai, is the ETH being automatically sold to Connext?" class="md-nav__link">
-    When I deposit ETH into a channel and I receive dai, is the ETH being automatically sold to Connext?
-  </a>
-  
-</li>
-        
-          <li class="md-nav__item">
-  <a href="#if-i-deposit-1-eth-into-a-channel-can-i-later-withdraw-1-eth-from-that-channel-for-example-if-the-price-of-eth-goes-up-while-my-eth-is-in-a-channel-and-i-then-withdraw-it-do-i-get-the-value-of-the-eth-at-the-time-of-withdraw-or-at-the-time-of-deposit" title="If I deposit 1 ETH into a channel can I later withdraw 1 ETH from that channel? For example, if the price of ETH goes up while my ETH is in a channel and I then withdraw it, do I get the value of the ETH at the time of withdraw or at the time of deposit?" class="md-nav__link">
-    If I deposit 1 ETH into a channel can I later withdraw 1 ETH from that channel? For example, if the price of ETH goes up while my ETH is in a channel and I then withdraw it, do I get the value of the ETH at the time of withdraw or at the time of deposit?
-  </a>
-  
-</li>
-        
-          <li class="md-nav__item">
-  <a href="#connext-is-live-in-production-with-a-custodial-version-of-our-hubs-noncustodial-hubs-are-coming-in-late-january-2019-and-networked-hubs-nodes-will-be-shipped-with-v2-in-mid-late-2019-so-this-is-the-beta-for-non-custodial-yes-can-you-nutshell-the-difference-between-this-approach-and-one-that-uses-poa" title=""Connext is live in production with a custodial version of our Hubs. Noncustodial hubs are coming in late January 2019, and networked Hubs (nodes) will be shipped with V2 in mid-late 2019" So this is the beta for non-custodial, yes? Can you nutshell the difference between this approach and one that uses POA?" class="md-nav__link">
-    "Connext is live in production with a custodial version of our Hubs. Noncustodial hubs are coming in late January 2019, and networked Hubs (nodes) will be shipped with V2 in mid-late 2019" So this is the beta for non-custodial, yes? Can you nutshell the difference between this approach and one that uses POA?
-  </a>
-  
-</li>
-        
-          <li class="md-nav__item">
-  <a href="#does-connext-have-to-put-reserves-in-the-channel-itself-can-this-run-or-cap-out" title="Does connext have to put reserves in the channel itself? Can this run or cap out?" class="md-nav__link">
-    Does connext have to put reserves in the channel itself? Can this run or cap out?
-  </a>
-  
-</li>
-        
-          <li class="md-nav__item">
-  <a href="#if-a-channel-stops-being-collateralized-how-will-users-be-alerted-that-payments-are-currently-interrupted-eg-does-the-ui-show-an-alert-and-greys-out-the-send-button-how-long-might-outages-last-on-average" title="If a channel stops being collateralized, how will users be alerted that payments are currently interrupted (e.g. does the UI show an alert and grey’s out the SEND button)? How long might outages last, on average?" class="md-nav__link">
-    If a channel stops being collateralized, how will users be alerted that payments are currently interrupted (e.g. does the UI show an alert and grey’s out the SEND button)? How long might outages last, on average?
-  </a>
-  
-</li>
-        
-      </ul>
-    </nav>
-  
 </li>
       
       
@@ -3527,19 +3486,19 @@
 <p>It’s possible to backup your wallets seed and restore it in any browser, at any time.</p>
 <p><img alt="" src="/assets/images/daicard_settings.png" /></p>
 <h2 id="faq">FAQ</h2>
-<h4 id="when-i-deposit-eth-into-a-channel-and-i-receive-dai-is-the-eth-being-automatically-sold-to-connext">When I deposit ETH into a channel and I receive dai, is the ETH being automatically sold to Connext?</h4>
+<p><strong>When I deposit ETH into a channel and I receive dai, is the ETH being automatically sold to Connext?</strong></p>
 <p>A: Sort of. The hub swaps the Dai for Eth in the channel so that you now have custody over Dai and the hub now has custody over Eth instead. The hub actually just stores this in it’s collateral reserves in the contract which it then uses either for gas or when users cash out in Eth. We do expect that most users who enter with Eth will leave with Eth (and the same for Dai) so we expect it to even out. </p>
-<h4 id="if-i-deposit-1-eth-into-a-channel-can-i-later-withdraw-1-eth-from-that-channel-for-example-if-the-price-of-eth-goes-up-while-my-eth-is-in-a-channel-and-i-then-withdraw-it-do-i-get-the-value-of-the-eth-at-the-time-of-withdraw-or-at-the-time-of-deposit">If I deposit 1 ETH into a channel can I later withdraw 1 ETH from that channel? For example, if the price of ETH goes up while my ETH is in a channel and I then withdraw it, do I get the value of the ETH at the time of withdraw or at the time of deposit?</h4>
+<p><strong>If I deposit 1 ETH into a channel can I later withdraw 1 ETH from that channel? For example, if the price of ETH goes up while my ETH is in a channel and I then withdraw it, do I get the value of the ETH at the time of withdraw or at the time of deposit?</strong></p>
 <p>A: You are trading into Dai when you use the card. So you have the benefit of being protected from volatility but, obviously, this means that you wouldn’t see the upside of an Eth bull run. (I guess we should make this more clear to users so that they don’t unwittingly trade their Eth away when they don’t want to). The best way to think about it might be as a decoupled swap -&gt; pay -&gt; swap. We can also allow for the user to hold and pay in Eth only, but we don’t currently support it to keep things simple. </p>
-<h4 id="connext-is-live-in-production-with-a-custodial-version-of-our-hubs-noncustodial-hubs-are-coming-in-late-january-2019-and-networked-hubs-nodes-will-be-shipped-with-v2-in-mid-late-2019-so-this-is-the-beta-for-non-custodial-yes-can-you-nutshell-the-difference-between-this-approach-and-one-that-uses-poa">"Connext is live in production with a custodial version of our Hubs. Noncustodial hubs are coming in late January 2019, and networked Hubs (nodes) will be shipped with V2 in mid-late 2019" So this is the beta for non-custodial, yes? Can you nutshell the difference between this approach and one that uses POA?</h4>
+<p><em>”Connext is live in production with a custodial version of our Hubs. Noncustodial hubs are coming in late January 2019, and networked Hubs (nodes) will be shipped with V2 in mid-late 2019" So this is the beta for non-custodial, yes? Can you nutshell the difference between this approach and one that uses POA?</em>*</p>
 <p>A: Custodial is sort of a funny word for channels. When we say that, we mean that the payment is custodial, not your funds. Your funds are always your own and can be exited at any time even if the hub disappears. However, in a custodial hub it’s possible for the payment to be intercepted by the hub (if they choose not to route a given payment). Obviously, if this happened and you knew about it you’d exit the system so the risk is small.</p>
 <p>Given this, noncustodial just means that it’s lightning-style multihop. The hub is not able to redeem the sender’s channel payment until they complete the receiver’s channel payment.</p>
 <p>The noncustodial code is actually in the repo right now, but the payments are currently custodial because we’re trying to keep collateralization simple until we understand user behavior better. Hoping to activate it sometime week after next.</p>
 <p>The primary difference between channels and sidechains are that channels are a solution that scale up the existing blockchain whereas sidechains move load onto other chains. Both have their uses but IMO channels are better for widespread horizontal infra that aims to serve ALL users and sidechains/plasma are better for app-specific use cases. Think of the difference between the Visa network and Uber.</p>
 <p>It’s easier to get in and out of channels because they’re on the main Ethereum chain. The downside is collateral. We hope to reduce collateral burden by decentralizing ourselves into something that looks like lightning once enough demand/liquidity exists. Sidechains don’t have this restriction but also suffer from the same scalability problems as base chains when they get big. Also, it’s unclear how economic finality on sidechains works. If the sidechain goes down, all funds are gone. Igor is working on this afaik with a plasma-style exit game.</p>
-<h4 id="does-connext-have-to-put-reserves-in-the-channel-itself-can-this-run-or-cap-out">Does connext have to put reserves in the channel itself? Can this run or cap out?</h4>
+<p><strong>Does connext have to put reserves in the channel itself? Can this run or cap out?</strong></p>
 <p>A: Yes! The ChannelManager contract (0x083c8bc6bc6f873091b43ae66cd50abef5c35f99) has Eth and token reserves in it. All channels are automatically collateralized based on the reserves in this contract. If it runs out, channels would stop being collateralized and this would interrupt payments.</p>
-<h4 id="if-a-channel-stops-being-collateralized-how-will-users-be-alerted-that-payments-are-currently-interrupted-eg-does-the-ui-show-an-alert-and-greys-out-the-send-button-how-long-might-outages-last-on-average">If a channel stops being collateralized, how will users be alerted that payments are currently interrupted (e.g. does the UI show an alert and grey’s out the SEND button)? How long might outages last, on average?</h4>
+<p><strong>If a channel stops being collateralized, how will users be alerted that payments are currently interrupted (e.g. does the UI show an alert and grey’s out the SEND button)? How long might outages last, on average?</strong></p>
 <p>A: We definitely need to show a UI alert and grey out. Outages shouldn’t last long, realistically there’s going to be enough collateral on the contract (We would make sure that collateral would always be 2-3x volume in channels or something like that). The main “outage” would be the time it took for the hub to recollateralize - we wait 2 block confirmations and there is a signed state exchanged to confirm so like… 20s max on rinkeby? Same amount of time as deposit.</p>
 <p>I definitely think interrupting payments is not acceptable so want to find a way to avoid it in all but the most extreme of edge cases.</p>
                 
