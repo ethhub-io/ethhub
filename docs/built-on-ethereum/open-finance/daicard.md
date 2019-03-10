@@ -4,7 +4,7 @@
 
 [Daicard](https://daicard.io) is a Dai payment channel solution created by [Connext](https://connext.network/). Daicard uses the concept of payment hubs which is a L2 solution build on top of Ethereum, allowing for instant and micro-fee transactions.
 
-![](/assets/images/daicard_splash.png | width=200)
+![](/assets/images/daicard_splash.png)
 
 ## How to Use Daicard
 
