@@ -38,7 +38,7 @@
     
     
       
-        <title>Daicard - EthHub</title>
+        <title>The Dai Card - EthHub</title>
       
     
     
@@ -109,7 +109,7 @@
     <input class="md-toggle" data-md-toggle="search" type="checkbox" id="__search" autocomplete="off">
     <label class="md-overlay" data-md-component="overlay" for="__drawer"></label>
     
-      <a href="#daicard" tabindex="1" class="md-skip">
+      <a href="#the-dai-card" tabindex="1" class="md-skip">
         Skip to content
       </a>
     
@@ -135,7 +135,7 @@
                 EthHub
               </span>
               <span class="md-header-nav__topic">
-                Daicard
+                The Dai Card
               </span>
             
           
@@ -3409,8 +3409,8 @@
 </li>
       
         <li class="md-nav__item">
-  <a href="#how-to-use-daicard" title="How to Use Daicard" class="md-nav__link">
-    How to Use Daicard
+  <a href="#how-to-use-the-dai-card" title="How to Use the Dai Card" class="md-nav__link">
+    How to Use the Dai Card
   </a>
   
     <nav class="md-nav">
@@ -3468,39 +3468,47 @@
                   <a href="https://github.com/ethhub-io/ethhub/edit/master/docs/built-on-ethereum/open-finance/daicard.md" title="Edit this page" class="md-icon md-content__icon">&#xE3C9;</a>
                 
                 
-                <h1 id="daicard">Daicard</h1>
+                <h1 id="the-dai-card">The Dai Card</h1>
 <h2 id="summary">Summary</h2>
-<p><a href="https://daicard.io">Daicard</a> is a Dai payment channel solution created by <a href="https://connext.network/">Connext</a>. Daicard uses the concept of payment hubs which is a L2 solution build on top of Ethereum, allowing for instant and micro-fee transactions.</p>
+<p><a href="https://daicard.io">Dai Card</a> is a Dai payment channel solution created by <a href="https://connext.network/">Connext</a>. The Dai Card uses  payment channel hubs - a L2 solution built on top of Ethereum - to allow for instant and micro-fee transactions for users and developers.</p>
 <p><img alt="" src="/assets/images/daicard_splash.png" /></p>
-<h2 id="how-to-use-daicard">How to Use Daicard</h2>
+<h2 id="how-to-use-the-dai-card">How to Use the Dai Card</h2>
 <h3 id="getting-funds">Getting Funds</h3>
-<p>There are multiple ways to get funds onto your Dai card. The first would be to directly deposit into your wallet. You can deposit ETH or Dai. If you deposit ETH, it will be auto collateralized into Dai.</p>
+<p>There are multiple ways to get funds onto your Dai Card. The first is to directly send funds (i.e. "deposit") to the Dai Card's address. You can deposit either ETH or Dai. If you deposit ETH, it will be instantly and automatically swapped into Dai at the current Eth-Dai price.</p>
+<p>Note: the beta version of the Dai Card imposes a $30 limit and will refund any deposits above this amount.</p>
 <p><img alt="" src="/assets/images/daicard_deposit.png" /></p>
-<p>You can also request funds from someone else who is already using Daicard. This can be done by clicking the request button and entering in how much you’d like to request. A link will be generated and can be send to the person you want to request from.</p>
+<p>You can also request funds from someone else who is already using a Dai Card. This can be done by clicking the request button and entering in how much you’d like to request. A link will be generated and can be sent to the person you want to request from. The first transaction that is sent to your Card will take some extra time to execute. This is because, in the background, an onchain transaction is being done to set up your Card.</p>
 <p><img alt="" src="/assets/images/daicard_request.png" /></p>
 <h3 id="sending-funds">Sending Funds</h3>
-<p>There are two different ways to send funds. If the receiver already has a Daicard, then it’s best to just use the simple send functionality.</p>
-<p>If the receiver has never used Daicard, you can use the Link function. This will allow anyone to click this link and receive the funds, even if they’ve never used Daicard before.</p>
+<p>There are two different ways to send funds. If the receiver already has a Dai Card and you know their address, then it’s best to just use the simple send functionality.</p>
+<p>If the receiver has never used a Dai Card before, you can use a Link payment instead. Link payments generate an unspent payment object which can be "claimed" by the recipient that produces the correct secret. Note that the link generated here contains the secret to redeem funds in plaintext, so you should be careful with it.</p>
 <p><img alt="" src="/assets/images/daicard_send.png" /></p>
 <h3 id="settings">Settings</h3>
-<p>It’s possible to backup your wallets seed and restore it in any browser, at any time.</p>
+<p>It’s possible to backup your Card's seed and restore it in any browser, at any time. </p>
+<p>You can also restore this seed in other wallets such as Metamask, MyCrypto or TrustWallet. However, this will not give you access to the channel funds themselves, only the signing key used to control those funds.</p>
 <p><img alt="" src="/assets/images/daicard_settings.png" /></p>
 <h2 id="faq">FAQ</h2>
-<p><strong>When I deposit ETH into a channel and I receive dai, is the ETH being automatically sold to Connext?</strong></p>
-<p>A: Sort of. The hub swaps the Dai for Eth in the channel so that you now have custody over Dai and the hub now has custody over Eth instead. The hub actually just stores this in it’s collateral reserves in the contract which it then uses either for gas or when users cash out in Eth. We do expect that most users who enter with Eth will leave with Eth (and the same for Dai) so we expect it to even out. </p>
+<p><strong>When I deposit ETH into a Card and I receive Dai, is the ETH being automatically sold to Connext?</strong></p>
+<p>A: Yes. Connext's payment channel hub automatically swaps any ETH for Dai that you deposit at market price. The swapped ETH then goes into the hub's collateral reserves, which is used either when users "cash out" in Eth or when more Dai needs to be bought by the Connext team.</p>
+<p>Since it's much easier for most users to get access to Eth than Dai (and to off-ramp to fiat from Eth), Connext expects that this will make it simpler to use Dai for everyday payments.</p>
 <p><strong>If I deposit 1 ETH into a channel can I later withdraw 1 ETH from that channel? For example, if the price of ETH goes up while my ETH is in a channel and I then withdraw it, do I get the value of the ETH at the time of withdraw or at the time of deposit?</strong></p>
-<p>A: You are trading into Dai when you use the card. So you have the benefit of being protected from volatility but, obviously, this means that you wouldn’t see the upside of an Eth bull run. (I guess we should make this more clear to users so that they don’t unwittingly trade their Eth away when they don’t want to). The best way to think about it might be as a decoupled swap -&gt; pay -&gt; swap. We can also allow for the user to hold and pay in Eth only, but we don’t currently support it to keep things simple. </p>
-<p><em>”Connext is live in production with a custodial version of our Hubs. Noncustodial hubs are coming in late January 2019, and networked Hubs (nodes) will be shipped with V2 in mid-late 2019" So this is the beta for non-custodial, yes? Can you nutshell the difference between this approach and one that uses POA?</em>*</p>
-<p>A: Custodial is sort of a funny word for channels. When we say that, we mean that the payment is custodial, not your funds. Your funds are always your own and can be exited at any time even if the hub disappears. However, in a custodial hub it’s possible for the payment to be intercepted by the hub (if they choose not to route a given payment). Obviously, if this happened and you knew about it you’d exit the system so the risk is small.</p>
-<p>Given this, noncustodial just means that it’s lightning-style multihop. The hub is not able to redeem the sender’s channel payment until they complete the receiver’s channel payment.</p>
-<p>The noncustodial code is actually in the repo right now, but the payments are currently custodial because we’re trying to keep collateralization simple until we understand user behavior better. Hoping to activate it sometime week after next.</p>
-<p>The primary difference between channels and sidechains are that channels are a solution that scale up the existing blockchain whereas sidechains move load onto other chains. Both have their uses but IMO channels are better for widespread horizontal infra that aims to serve ALL users and sidechains/plasma are better for app-specific use cases. Think of the difference between the Visa network and Uber.</p>
-<p>It’s easier to get in and out of channels because they’re on the main Ethereum chain. The downside is collateral. We hope to reduce collateral burden by decentralizing ourselves into something that looks like lightning once enough demand/liquidity exists. Sidechains don’t have this restriction but also suffer from the same scalability problems as base chains when they get big. Also, it’s unclear how economic finality on sidechains works. If the sidechain goes down, all funds are gone. Igor is working on this afaik with a plasma-style exit game.</p>
-<p><strong>Does connext have to put reserves in the channel itself? Can this run or cap out?</strong></p>
-<p>A: Yes! The ChannelManager contract (0x083c8bc6bc6f873091b43ae66cd50abef5c35f99) has Eth and token reserves in it. All channels are automatically collateralized based on the reserves in this contract. If it runs out, channels would stop being collateralized and this would interrupt payments.</p>
+<p>A: No. You are swapping into Dai when you use the Card. Users have the benefit of being protected from volatility but, obviously, this means that you wouldn’t see the upside of an Eth bull run. Since you're not meant to hold large amounts of value in your Card anyway (only daily spending cash), the upside that you would miss out on should be minimal.</p>
+<p><strong>Is the Dai Card noncustodial?</strong></p>
+<p>A: The concept of custodial is more nuanced for channels:</p>
+<p>In Connext's payment channel hub system, your funds are <em>always your own</em> since you can exit the system at any time by sending your latest channel state to the payment channel contract. This can be done regardless of the status of the hub - i.e. it is completely uncensorable. Note, this assumes that you have access to your channel state - the Connext team is still working on making sure that this will always be the case.</p>
+<p>A <em>payment</em> itself can be custodial. This means that for the brief moment that a payment is "in-flight", it can be intercepted and/or censored by the hub. Obviously, if this happened and you knew about it, you would exit the system so your financial risk is constrained by the size of the payment itself.</p>
+<p>Payments can also be noncustodial using more complex mechanisms (such as lightning-style HTLCs or, in Connext's case, a dispute-based system called "threads).</p>
+<p>Connext's system is live with custodial payments for now. The noncustodial payment code is in the hub and client codebase as part of the launch, but the team is still working on making sure that the user experience of noncustodial payments is seamless, and so they have kept it deactivated for the initial launch. They plan to reactivate it within the first couple of weeks of going live.</p>
+<p>For a more in-depth breakdown of the current trust assumptions in the system and how the team plans to address them, please see Connext's Dai Card launch post here (TODO LINK TO POST).</p>
+<p><strong>What is the difference between this approach and Sidechain/Plasma approaches like xDai?</strong></p>
+<p>A: The primary difference between channels and sidechains are that channels are a solution that scale up the existing blockchain whereas sidechains shift load out onto other chains. Because channelized systems can be built on top of any underlying chain, they are theoretically better for widespread horizontal infrastructure that aims to serve ALL users whereas sidechain/plasma based solutions are better for application-specific use cases. Think of the difference between the Visa network and Uber.</p>
+<p>At scale, sidechains and plasma suffer from the same scalability problems as the base chain, which would require creating further sub-chains or using channels to solve. Moving into and out of sidechains/plasma systems can be more difficult since it involves moving value across different chains, rather than within the base chain. In the event of a mass exit from the system (because the chain went down), it is also sometimes unclear how all users could move their value back onto the base chain. However, sidechains/plasma are <em>much</em> more flexible once within the system, do not require significant collateral lockuup to run, and do not require counterparties to be online/available.</p>
+<p>Channels, on the other hand, are easier to get into and out of. They are also <em>much</em> cheaper to run/scale and funds can always be exited onto the base chain no matter the circumstances. The downsides of channel networks are that they require intermediaries to hold collateral in order to ensure that a transaction will be completed and that they require that those intermediaries (and counterparties) to be available when a transaction occurs. Note that the availability requirements can be improved with better conditional payment functionality.</p>
+<p><strong>Does Connext have to put reserves in the channel itself? Can this run or cap out?</strong></p>
+<p>A: Yes. The ChannelManager contract (0xdfa6edae2ec0cf1d4a60542422724a48195a5071) has Eth and Dai reserves in it. All channels are automatically collateralized based on the reserves in this contract. If it runs out, channels would stop being collateralized and this would interrupt payments.</p>
 <p><strong>If a channel stops being collateralized, how will users be alerted that payments are currently interrupted (e.g. does the UI show an alert and grey’s out the SEND button)? How long might outages last, on average?</strong></p>
-<p>A: We definitely need to show a UI alert and grey out. Outages shouldn’t last long, realistically there’s going to be enough collateral on the contract (We would make sure that collateral would always be 2-3x volume in channels or something like that). The main “outage” would be the time it took for the hub to recollateralize - we wait 2 block confirmations and there is a signed state exchanged to confirm so like… 20s max on rinkeby? Same amount of time as deposit.</p>
-<p>I definitely think interrupting payments is not acceptable so want to find a way to avoid it in all but the most extreme of edge cases.</p>
+<p>A: The most noticeable instance of this occurring will be when a Card receives its first payment. For a standard payment, the sender's UI will state that the receiver's Card is still being set up and whill show a progress indicator. For a link payment, the redeem payment screen will state that the Card is being set up and will show a similar progress indicator. In both of these cases, collateralization of the channel occurs in the background and takes ~30-40s (block time + 2 block confirmations) to complete.</p>
+<p>Aside from these instances, <em>most</em> payments should be instant. Connext is still working on better ways to optmistically allocate collateral to channels so users can expect the user experience around this to improve with time.</p>
                 
                   
                 
