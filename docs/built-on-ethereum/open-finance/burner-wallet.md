@@ -24,7 +24,7 @@ Upon visiting [https://xdai.io](https://xdai.io) a wallet is automatically gener
 * **Seed Phrase:** Create any string of words or phrase that you want and hit create. This will create a wallet tied to that phrase and you can reenter it and pull it up at any point. WARNING: Doing this the first time will create a NEW wallet.
 
 #### Getting xDai
-As previously mentioned, xDai is a representation of Dai running on a POA sidechain. This means that you must lock up Dai on the Etheruem mainnet to be minted xDai tokens. The Burner Wallet makes this easy through the Exchange section of the page.
+As previously mentioned, xDai is a representation of Dai running on a POA sidechain. This means that you must lock up Dai on the Ethereum mainnet to be minted xDai tokens. The Burner Wallet makes this easy through the Exchange section of the page.
 
 ![](/assets/images/burner_exchange.png)
 
