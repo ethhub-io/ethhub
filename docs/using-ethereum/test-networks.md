@@ -34,9 +34,9 @@ The Rinkeby test network is a Proof of Authority testnet for Ethereum, originall
 
 ### Resources
 
-* [Website](https://www.rinkeby.io/#stats)
+* [Website](https://www.rinkeby.net/#stats)
 * [Block Explorer](https://rinkeby.etherscan.io/)
-* [Faucet](https://faucet.rinkeby.io/)
+* [Faucet](https://faucet.rinkeby.net/)
 
 # Görli
 
