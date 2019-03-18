@@ -20,7 +20,7 @@ For those who wish to tackle smart contract development on Ethereum, there are a
 - [Truffle](https://truffleframework.com) - Most popular smart contract development, testing, and deployment framework. The Truffle suite includes Truffle, [Ganache](https://github.com/trufflesuite/ganache), and [Drizzle](https://github.com/truffle-box/drizzle-box). [Deep dive on Truffle here](https://media.consensys.net/truffle-deep-dive-what-you-need-to-know-when-developing-on-ethereum-e548d4df6e9)
 - [Embark](https://github.com/embark-framework/embark) - Framework for DApp development
 - [Dapp](https://dapp.tools/dapp/) - Framework for DApp development, successor to DApple
-- [Populus](https://github.com/ethereum/populus) - The Ethereum development framework with the most cute animal pictures
+- [Brownie](https://github.com/HyperLink-Technology/brownie) - A python framework for testing, deploying and interacting with Ethereum smart contracts.
 - [Etherlime](https://github.com/LimeChain/etherlime) - ethers.js based framework for Dapp deployment
 - [Parasol](https://github.com/Lamarkaz/parasol) - Agile smart contract development environment with testing, INFURA deployment, automatic contract documentation and more. It features a a flexible and unopinionated design with unlimited customizability.
 
