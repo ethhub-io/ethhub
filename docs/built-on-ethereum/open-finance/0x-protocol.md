@@ -49,6 +49,7 @@ The simplest example of a Relayer is a website allowing users to create, discove
 * [LedgerDex](https://www.ledgerdex.com/)
 * [MobiDex](http://mobidex.io)
 * [OpenRelay](https://openrelay.xyz)
+* [Ordermatch](https://ordermatch.io)
 * [Paradex](https://paradex.io/)
 * [Radar Relay](https://radarrelay.com/)
 * [Shark Relay](https://app.sharkrelay.com/)

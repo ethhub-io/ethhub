@@ -183,6 +183,7 @@ description: A list of essential Ethereum’s resources.
 * [List of all Decentralized Exchanges](https://github.com/distribuyed/index/blob/master/README.md)
 * [Uniswap](https://uniswap.io/)
 * [Radar Relay](https://app.radarrelay.com/)
+* [Ordermatch](https://ordermatch.io/)
 * [IDEX](https://idex.market)
 * [ForkDelta](https://forkdelta.app)
 * [Paradex](https://paradex.io/)
