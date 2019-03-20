@@ -135,6 +135,8 @@ description: A list of essential Ethereum’s resources.
 * [Gas Price History Chart](https://gitcoin.co/gas/history?breakdown=weekly)
 * [Ethereum Gas Station](https://ethgasstation.info/)
 * [Ethereum Blockchain on Kaggle](https://www.kaggle.com/bigquery/ethereum-blockchain)
+* [Ethereum Network Hashrate](https://2miners.com/eth-network-hashrate)
+* [Ethereum Network Difficulty](https://2miners.com/eth-network-difficulty)
 
 #### Miscellaneous
 
