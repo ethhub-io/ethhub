@@ -27,7 +27,7 @@ Vitalik Buterin created [a post](https://ethereum-magicians.org/t/meta-we-should
 
 > Note that here, one major challenge with (eg. ringsig or zk snark based) smart contract mixers is that if you want to send funds from A to B, B still needs to have ETH to pay gas to submit the proof to receive their funds, and sending that gas would be a privacy leak; this can be solved with a layer-2 protocol where a user can broadcast their proof (including a commitment to what address they want to receive to and what fee they are willing to pay) over something like Whisper, and a specialized set of nodes could accept these proofs, include them into a transaction and pay for the gas, and collect the fee from the recipient. But this protocol needs to be specced out, standardized and implemented…
 
-#### DApp-specific accounts
+#### DApp-specific addresses
 
 Vitalik Buterin created [a post](https://ethereum-magicians.org/t/meta-we-should-value-privacy-more/2475) on EthMagicians calling for more attention towards privacy solutions:
 
