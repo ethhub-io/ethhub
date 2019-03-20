@@ -19,7 +19,13 @@ Privacy on Ethereum is being actively worked on by a number of different teams.
 
 [Enigma Protocol](https://blog.enigma.co/welcome-to-enigma-start-here-e65c8c9125ef) are building ['secret contracts'](https://blog.enigma.co/defining-secret-contracts-f40ddee67ef2) which enable [computation over encrypted data](https://blog.enigma.co/computing-over-encrypted-data-d36621458447).
 
+#### Mixers
+Vitalik Buterin created [a post](https://ethereum-magicians.org/t/meta-we-should-value-privacy-more/2475) on EthMagicians calling for more attention towards privacy solutions:
+> Mixers
 
+> We can encourage the development of easy-to-use, and importantly decentralized (ie. not just “trustless”, completely serverless) mixers targeting privacy-preserving transfer of small amounts of ETH, so if you want to send gas payment to another account you can do so without linking the two.
+
+> Note that here, one major challenge with (eg. ringsig or zk snark based) smart contract mixers is that if you want to send funds from A to B, B still needs to have ETH to pay gas to submit the proof to receive their funds, and sending that gas would be a privacy leak; this can be solved with a layer-2 protocol where a user can broadcast their proof (including a commitment to what address they want to receive to and what fee they are willing to pay) over something like Whisper, and a specialized set of nodes could accept these proofs, include them into a transaction and pay for the gas, and collect the fee from the recipient. But this protocol needs to be specced out, standardized and implemented…
 
 #### DApp-specific accounts
 
