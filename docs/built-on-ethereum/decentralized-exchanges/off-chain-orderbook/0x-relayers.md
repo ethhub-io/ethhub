@@ -3,6 +3,7 @@
 | Relayer | Link |
 | :--- | :--- |
 | Radar Relay | [https://app.radarrelay.com](https://app.radarrelay.com) |
+| Ordermatch | [https://ordermatch.io](https://ordermatch.io) |
 | StarBitEx | [https://www.starbitex.com/Trade](https://www.starbitex.com/Trade) |
 | DDEX | [https://ddex.io/trade](https://ddex.io/trade) |
 | Paradex | [https://paradex.io/](https://paradex.io/) |
