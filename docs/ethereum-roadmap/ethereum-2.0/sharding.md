@@ -3,6 +3,23 @@ description: Information on sharding and how it will work on Ethereum.
 
 # Sharding
 
+## Summary
+
+There is a trilemma in blockchain systems that can be visualized in form of a triangle known as DCS triangle, what it conevys is "It is impossible to achieve all three Decentralization, Consistency, and Scalability simultaenously. A tradeoff is necessary \(you can choose any two but not all\)". 
+
+![DCS Triangle](https://imgur.com/Hdnb8ih)
+
+Sharding is an attempt to solve this challenge. It simply means partitioning large chains \(databses\) into smaller, faster ones hence making the entire system more scalable. How?
+To solve scalability we split the state and history stored on main chain into shards. Each shard manages it's own shit, has it's own  transaction history, and the effect of transactions in some shard are limited to that shard only.
+
+Examples for this would be:
+* A dApp having a whole shard by himself so that all tx's related to it will be on that one shard only.
+* Several dApps related to a particular domain will be on one single shard.
+
+The later phases of ETH2.0 considers the possibility of cross-shard communications.
+
+Sharding also introduces different types of nodes like "Light Node", "Super-Full Node" etc. depending upon how much data it downloads, how much it verifies. 
+
 ## The Scalability Trilemma
 
 The Scalability Trilemma claims that blockchain systems can only at most have two of the following three properties:
@@ -38,4 +55,5 @@ Note that there are now several "levels" of nodes that can exist in such a syste
 
 * [Sharding FAQ](https://github.com/ethereum/wiki/wiki/Sharding-FAQs)
 * [Sharding Roadmap](https://github.com/ethereum/wiki/wiki/Sharding-roadmap)
+* [DCS Triangle](https://blog.bigchaindb.com/the-dcs-triangle-5ce0e9e0f1dc)
 

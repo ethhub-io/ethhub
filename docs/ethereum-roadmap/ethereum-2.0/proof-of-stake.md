@@ -3,6 +3,17 @@ description: Information on Proof of Stake and how it will work on Ethereum.
 
 # Proof of Stake
 
+## Summary
+
+Proof of Stake represents a class of consensus algorithms in which validators vote on the next block, and the weight of the vote depends upon the size of its stake.
+It is better than the classic PoW because of less consumption of electricity, reduced centralization risks, security against different types of 51% attacks and more.
+
+PoS can be classified into two major types:
+* Chain-Based: Rely on the synchronicity of the network
+* BFT-Based: Favour consistency of nodes over availability
+
+To participate in voting \(becoming a validator\) you are required to stake ether for which you'll be rewarded with ETH at some interest rate plus you'll receive a portion of the network transaction fees.
+
 ## What is Proof of Stake
 
 Proof of Stake \(PoS\) is a category of consensus algorithms for public blockchains that depend on a validator's economic stake in the network. In proof of work \(PoW\) based public blockchains \(e.g. Bitcoin and the current implementation of Ethereum\), the algorithm rewards participants who solve cryptographic puzzles in order to validate transactions and create new blocks \(i.e. mining\). In PoS-based public blockchains \(e.g. Ethereum's upcoming Casper implementation\), a set of validators take turns proposing and voting on the next block, and the weight of each validator's vote depends on the size of its deposit \(i.e. stake\). Significant advantages of PoS include security, reduced risk of centralization, and energy efficiency.
