@@ -21,7 +21,8 @@ Hardware wallets are the most-secure method for accessing your funds while onlin
 ## Wallets
 
 * [Trezor](https://trezor.io) - The original hardware wallet
-* [Ledger](https://ledgerwallet.com) - Support for multiple cryptocurrencies and tokens
+* [Ledger](https://www.ledger.com?r=22cab4d9225d
+) - Support for multiple cryptocurrencies and tokens
 * [KeepKey](https://keepkey.com) - The simple hardware wallet
 
 ## Resources

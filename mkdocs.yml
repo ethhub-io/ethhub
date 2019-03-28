@@ -78,6 +78,7 @@ nav:
   - 'Privacy': 'ethereum-roadmap/privacy.md'
   - 'Istanbul': 'ethereum-roadmap/istanbul.md'
 - Using Ethereum:
+  - 'How to Buy Ether': 'using-ethereum/how-to-buy-ether.md'
   - 'Running an Ethereum Node': 'using-ethereum/running-an-ethereum-node.md'
   - 'Transactions': 'using-ethereum/transactions.md'
   - 'Mining': 'using-ethereum/mining.md'
