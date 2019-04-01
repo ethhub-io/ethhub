@@ -8,5 +8,5 @@ PAX will always be redeemable one-to-one with USD \(1 PAX = $1 USD\), providing 
 
 ## Resources
 
-* [Website](https://www.paxos.com/standard/)
+* [Website](https://www.paxos.com/pax/)
 
