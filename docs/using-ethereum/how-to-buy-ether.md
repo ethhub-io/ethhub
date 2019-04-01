@@ -10,7 +10,7 @@ Coinbase is based in San Fransisco and is one of the most reputable and well kno
 ##Binance
 Binance is headquartered in Japan and constantly has some of the highest trading volume in crypto. Users can buy ETH with cash or Bitcoin.
 
-[Buy ETH on Binance](https://www.binance.com)
+[Buy ETH on Binance](https://www.binance.com/?ref=10900939)
 
 ##Gemini
 Gemini is based in New York and has a great history of security and reliability. Users can buy ETH with cash or Bitcoin.
