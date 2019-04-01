@@ -6,17 +6,17 @@ description: Ethereum 1.x is an effort to improve performance and storage of the
 ## Summary
 
 Ethereum 1.x is a codename for a comprehensive set of upgrades to the Ethereum mainnet intended for near-term adoption. <br/>
-As we know Serenity won't come until 4-5 years, phase 0 and phase 1 will come within 2-3 years but they can't supersede ETH 1.0 so it means we'll have to live with current Ethereum.
-A group of Ethereum core developers and friends talked at Devcon IV and realized that they all share similar view - that Ethereum mainnet, if left unchanged, would become very hard or impossible to use due to severe performance degradation, and increased storage requirements.
+Ethereum 2.0 (Serenity) won't be fully rolled out for another 2-3 years with Phase 0 and Phase 1 due within 1-2 and Phase 2 due sometime in 2022. Ethereum 2.0 is being deployed as a seperate blockchain so it does not supersede ETH 1.0 which means the chain needs to be sustainable for another 5-10 years.
 
-* Performance degradation mostly due to the large \(and increasing\) state.
+Eth1.x is a result of a group of Ethereum core developers and friends discussing the current challenges of Ethereum at Devcon IV and realising that they all share a similar view - that the Ethereum mainnet, if left unchanged, would become very hard or impossible to use due to severe performance degradation and increased storage requirements.
+
+* Performance degradation mostly due to the large \(and increasing\) state size.
 * Increased storage requirements mostly due to keeping blocks, event logs \(receipts\), and state history \(currently prunable in major clients\).
+<br/>
 
-So there seems to be an urgent need of upgrading the current platform and if we wait till 2.0, it's gonna be too late. Comes Eth 1.x \(x because we don't know whether it's going to be 1.3, 1.5 or 1.7\). <br/>
+The 1.x set of improvements will introduce major, breaking changes to the mainnet, while 2.0 (aka Serenity) undergoes prototyping and development in parallel. The plan for 1.x encompasses three primary goals: (1) mainnet scalability boost by increasing the tx/s throughput (achieved with client optimizations that will enable raising the block gas limit substantially); (2) ensure that operating a full node will be sustainable by reducing and capping the disk space requirements with “storage rent”; (3) improved developer experience with VM upgrades including eWASM.
 
-The 1.x set of improvements will introduce major, breaking changes to the mainnet, while 2.0 (aka Serenity) undergoes prototyping and development in parallel. The plan for 1.x encompasses three primary goals: (1) mainnet scalability boost by increasing the tx/s throughput, achieved with client optimizations that will enable raising the block gas limit substantially; (2) ensure that operating a full node will be sustainable by reducing and capping the disk space requirements with “storage rent”; (3) improved developer experience with VM upgrades including eWASM.
-
-## Pre-History
+## Pre-History of Ethereum 1.x
 
 #### October 2017, Devcon3 in Cancun
 
@@ -28,7 +28,7 @@ Vitalik Buterin gives a talk [“So you want to become Casper validator?”](htt
 
 #### June 2018
 
-Pivot in Casper research from Casper FFG to full Casper and merging with sharding, due to challenges of implementing Casper FFG as a contract, and due to large overlap with Sharding research, as discussed at the [Core Dev Meeting 40](https://youtu.be/8-AZys80RrU?t=1819).
+Casper FFG research is merged with sharding due to challenges of implementing Casper FFG as a contract, and due to large overlap with Sharding research, as discussed at the [Core Dev Meeting 40](https://youtu.be/8-AZys80RrU?t=1819).
 
 #### October-November 2018, Devcon IV in Prague
 
@@ -50,11 +50,9 @@ It becomes apparent that Serenity \(full Casper + Sharding\) is not going to fun
 
 #### Proposal framework
 
-Since State rent is a potentially higher impact change \(and therefore more controversial, unpopular\) than any other changes within Ethereum 1x, it requires a clear logical framework for designing, evaluating, and comparing proposals. This framework attempts to ensure, as much as possible, that the change plan eventually chosen is likely close to the best available. It defines the path of reasoning from “What is the problem \(what happens if we do nothing\)?” to “How exactly we are doing it”. [Current location of the proposal framework document](https://github.com/ledgerwatch/eth_state/blob/master/State_size_growth_management.pdf) \(Work in progress\)
+Since State rent is a potentially higher impact change \(and therefore more controversial, possibly unpopular\) than any other changes within Ethereum 1.x, it requires a clear logical framework for designing, evaluating, and comparing proposals. This framework attempts to ensure, as much as possible, that the change plan eventually chosen is likely close to the best available. It defines the path of reasoning from “What is the problem \(what happens if we do nothing\)?” to “How exactly we are doing it”. [Current location of the proposal framework document](https://github.com/ledgerwatch/eth_state/blob/master/State_size_growth_management.pdf) \(Work in progress\)
 
-We need to bound the size of the EVM state trie or the system will and rent is a very natural and fair way to do it.
-
-Alexey explains the idea of state rent, is "to charge people not once when they start using storage and then paying them back a certain amount if they free it up again, but actually charging people by the day or by the block that they’re actually using the storage, and if they decide that they don’t need these things anymore they can just withdraw their Ether or they just leave it and then it will be garbage collected by the rent".
+Alexey explains the idea of state rent - "to charge people not once when they start using storage and then paying them back a certain amount if they free it up again, but actually charging people by the day or by the block based on the storage that they're using, and if they decide that they don’t need these things anymore they can just withdraw their Ether or they just leave it and then it will be garbage collected by the rent".
 
 #### Reasoning questions
 
@@ -73,22 +71,22 @@ Alexey explains the idea of state rent, is "to charge people not once when they 
 
 *"Say you have a smart contract now and it uses storage so it has to pay rent. So it has to have funds or someone needs to pay funds on behalf of it. So what happens if no one pays?"*
 
-Under all three of the current proposals, when the smart contract exhausts its balance and the rent balance, they are two separate things. So when these both balances are empty then eviction happens. <br/>
-Eviction, under the current proposals doesn’t just happen automatically. Somebody actually has to poke this contract. Poking means that somebody has to create a transaction which touches it to access it in some way.<br/>
-For non contracts eviction means just removing from the state as it doesn't have any information at all but for contracts, there's a storage, so eviction doesn't completely remove it from a state but it leaves a so-called stub which is essentially the commitment to the entire state of the contract before the eviction, and this stub, unfortunately has an effect that it does not completely remove it from the state so it has to still dangle there, but this stub is what allows us to restore it later on. If it was a mistake and somebody realizes.
+Under all three of the current proposals, when the smart contract exhausts its balance and the rent balance, they are considered two separate things. So when both of these balances are empty, an eviction happens. <br/>
+Eviction, under the current proposals, doesn’t just happen automatically - somebody actually has to 'poke' the contract. Poking means that somebody has to create a transaction which touches it to access it in some way.<br/>
+For non contracts, eviction means just removing from the state as it doesn't have any information at all but for contracts, there's storage, so eviction doesn't completely remove it from a state but it leaves a so-called stub which is essentially the commitment to the entire state of the contract before the eviction, and this stub, unfortunately has an effect that it does not completely remove it from the state so it has to still dangle there, but this stub is what allows us to restore it later on.
 
-Let's take an **example**, "if you had the multisig wallet with lots of tokens on it, and then you made a mistake by you didn’t pay up the rent and you realize suddenly, my multisig is gone, there was a million dollars in that I want it back, you would be able to use the recovery mechanism to rebuild the storage of this contract in another contract and simply use a special up code to restore it from the stub. And then you get your contract back. You can top it up with the rent and then you keep using it or you can move the things elsewhere." <br/>
-The stub is expected to be 32 bytes hash which is a commitment to what the contract looked like before it was addicted.
+Let's take an **example**, "if you had a multisig wallet with lots of tokens in it and then you've forgotten to pay the rent, the multisig is "gone" but you would still be able to use the recovery mechanism to rebuild the storage of this contract in another contract and simply use a special code to restore it from the stub - then the contract comes "back to life". You can also top up the rent and then keep using the contract or you can move the things elsewhere." <br/>
+The stub is expected to be a 32 byte hash which is a commitment to what the contract looked like before it was addicted.
 
 *How is this different from stateless contracts?*
 
-The difference is that in stateless contracts we assume that when the contract is represented as a stub it’s’ still accessible by the normal operations. In our proposal when the contract is in hibernation state, when it’s a stub, it’s not accessible by anything. It’s basically invisible by EVM with the exception of this special opcode, which it’s restored to, and only that opcode can see that stub, nothing else can.
+The difference is that in stateless contracts we assume that when the contract is represented as a stub it’s still accessible by the normal operations. In this proposal, when the contract is in hibernation state (ie when it’s a stub) it’s not accessible by anything. It’s basically invisible to the EVM with the exception of this special opcode, which it’s restored to, and only that opcode can see that stub - nothing else can.
 
 *Is this the best solution?*
 
-This is not a perfect solution as if we find that there are tons of little contracts having the hash stubs and then the state is still not small enough.
+This is not a perfect solution as if we find that there are lots of little contracts having the hash stubs and then the state is still not small enough.
 
-Watch the whole [talk](https://epicenter.tv/episode/274/) where alexey explains state rent and more about eth 1.x.
+Watch the whole [talk](https://epicenter.tv/episode/274/) where Alexey explains state rent and more about Eth 1.x.
 
 #### Current proposals
 There are currently three proposals being worked upon: <br/> 
@@ -120,11 +118,11 @@ Part of the state rent research is to identify main classes of contracts that ar
 
 ### eWASM
 
-Enhancement of the Ethereum protocol is hindered by the inflexibility of the EVM architecture. The method of extending the execution layer has been the introduction of special “precompile” contracts. The use of WebAssembly as a virtual machine specification for executing high-performance “precompile” contracts promises to streamline the process of introducing such contracts.
+Enhancement to the Ethereum protocol is currently hindered by the inflexibility of the EVM architecture. The method of extending the execution layer has been the introduction of special “precompile” contracts. The use of WebAssembly as a virtual machine specification for executing high-performance “precompile” contracts promises to streamline the process of introducing such contracts.
 
 eWASM is a subset of Wasm, Wasm has a couple of features which are non-deterministic, we need to eliminate them by validating contract while deploying. If contract uses non-deterministic features then it's rejected.
 
-We are using an even smaller subset of eWASM \(only allowing precompiles to be written as eWASM\).
+The current proposal is to use an even smaller subset of eWASM \(only allowing precompiles to be written as eWASM\).
 
 #### Main unresolved questions
 
@@ -144,21 +142,21 @@ Current approach for the 1st phase \(pre-compiles\) is upper-bound based.
 
 #### Memory allocation
 
-Wasm semantics dictates that it's execution has a linear memory \(only one in the current version of the spec\) that can be grown on demand. Will that linear memory be allocated every time the engine is called, and then torn down at the end of the execution? If yes, how more efficient is this compared to the current EVM model \(which does this allocation and tearing down at each CALL opcode\).
+Wasm semantics dictates that its execution has a linear memory \(only one in the current version of the spec\) that can be grown on demand. Will that linear memory be allocated every time the engine is called and then torn down at the end of the execution? If yes, how much more efficient is this compared to the current EVM model \(which does this allocation and tearing down at each CALL opcode\).
 
 #### Interaction with the rest of EVM state
 
-Was proposed via external functions, for example \(name made up\):
+This was proposed via external functions, for example \(name made up\):
 
 `function_SLOAD(storage_index: uint256)`
 
-Alternative approach is not to have eWASM code access EVM state, but only exchange input/output when called. This, of course, makes maintaining large persistent data structures difficult.
+The alternative approach is not to have eWASM code access EVM state, but only exchange input/output when called. This, of course, makes maintaining large persistent data structures difficult.
 
 #### Interpreter/compiler guarantees
 
-Initially, this problem has been brought up in the context of JITs \(Just In Time\) compilers. JIT compilers were one of the reasons why WebAssembly was a big performance improvement over JavaScript.
+Initially, this problem was brought up in the context of JITs \(Just In Time\) compilers. JIT compilers were one of the reasons why WebAssembly was a big performance improvement over JavaScript.
 
-JIT compilers might be problematic in an adversarial environment, because it is usually possible to find a program that takes an unusually long time to compile, and algorithms that decide what to compile “just in time” can be targeted too.
+JIT compilers might be problematic in an adversarial environment because it is usually possible to find a program that takes an unusually long time to compile, and algorithms that decide what to compile “just in time” can be targeted too.
 
 AOT \(Ahead of Time\) compilers can be used for Core Dev-controlled pre-compiles \(Phase 1\). For Phase 2, the plan was to initially use very straightforward interpreters, and then develop AOT compilers with necessary guarantees. The idea of first introducing interpreters is to make sure eWASM is there, giving people more motivation to work on the compilers \(which is harder than interpreter\)
 
@@ -188,7 +186,7 @@ The first challenge to solve with regard to pruning historical chain segments is
 
 ##### Maintain a Merkle (or other cryptographic) proof of deleted chain segments 
 
-Light clients works exactly like this and that's why are able to sync in a couple of minutes. Instead of having to go through all the headers from genesis, clients are hard coded (or fed from the config file) a trusted checkpoint, which they start syncing from. This mechanism has two issues however:
+Light clients work exactly like this and that's why are able to sync in a couple of minutes. Instead of having to go through all the headers from genesis, light clients are hard coded (or fed from the config file) a trusted checkpoint, which they start syncing from. This mechanism has two issues however:
 
 * To keep sync fast, we constantly have to update the hard coded snapshots or the config file. This works for mainnet with an active maintenance schedule, but does not scale for private Ethereum networks.
 * If no release is made, sync currently takes longer. If however the full nodes would start deleting old headers themselves, old checkpoints would become useless, forcing devs to constantly issue new releases and users to constantly pull new releases. It just doesn't scale.
@@ -224,8 +222,6 @@ Pruning historical chain segments breaks a few important invariants within the E
 * DApps will no longer be able to access events past the retention policy.
 * Nodes will have no way of knowing if a transaction was already deleted, or never existed in the first place.
 * It will be harder for nodes to do a full sync, a full sync on Ethereum mainnet with current Geth takes about 5 days, 4 days out of which is the last 2.7M blocks. If we bump the transaction throughput to 10x, apart from very special users, nobody will be able to do a full sync, nor will want to really.
-
-
 
 #### Resources
 
