@@ -46,33 +46,31 @@ Two way transfers between the beacon chain and the shards, as well as between sh
 
 ## State Migration
 
-The current proposal is that in [Phase 2](./#phase-2-state-execution), the state of the current Eth 1.0 chain will be transferred into a shard on the Eth 2.0 chain. At this point, all information from the Eth 1.0 chain will be available on the Eth 2.0 chain.
+The current proposal is that in [Phase 2](./#phase-2-state-execution), the state of the current Eth 1.0 chain will be transferred into a shard on the Eth 2.0 chain. At this point, all information from the Eth 1.0 chain will be available on the Eth 2.0 chain.<br/>
+Currently Lighthouse is working upon a state transition [library](https://github.com/libp2p/go-libp2p-daemon).
 
-Again, quoting Danny Ryan:
-
+Again, quoting Danny Ryan:<br/>
 "Once the state execution layer is in the new 1024 shards, users will be able to transfer ETH directly to the shards from the PoW chain. In the long term, the plan is to roll the PoW state into one of the shards."
+<br/>
 
-**Will eWASM replace EVM?**
-Ethereum-flavoured web assembly is a deterministic smart contract execution engine built on the modern, standard WebAssembly virtual machine. It was first proposed in [EIP 48](https://github.com/ethereum/EIPs/issues/48). It may be the future execution engine for smart contracts on the Ethereum blockchain and is the primary candidate to replace EVM (the Ethereum virtual machine) as part of the Ethereum 2.0 roadmap.
+**Replacing EVM with eWASM?** <br/>
+
+Ethereum-flavoured web assembly is a deterministic smart contract execution engine built on the modern, standard WebAssembly virtual machine. It was first proposed in [EIP 48](https://github.com/ethereum/EIPs/issues/48). It may be the future execution engine for smart contracts on the Ethereum blockchain and is the primary candidate to replace EVM (the Ethereum virtual machine) as part of the phase 2 of Ethereum 2.0 roadmap.
 
 Vitalik also thinks that the EVM should be retired soon and contracts should be on Ewasm with an EVM interpreter.
 
 Since EVM makes use of 256-bit bytecode, smaller computations have to be converted to 256-bit strings before the EVM can process them.
-The WASM code, however, has been designed with production in mind. The elimination of precompiling is an added advantage for eWASM. WASM is an open standard \(backed by google, microsoft, apple\) and because of this it will allow more programming languages to be used for smart contract development (Solidity included).
+The WASM code, however, has been designed with production in mind. The elimination of precompiling is an added advantage for eWASM. WASM is an open standard \(backed by google, microsoft, apple\) and because of this it will allow more programming languages \(C/C++, JS, Go\) to be used for smart contract development (Solidity included).
+ 
+**Challenges** <br/>
 
-However, there is also some community interest in not doing this state transition. Here we will weight the pros and cons of each in order to help stimulate discussion.
+* There are speculations that phase 2 might be divided into sub-forks and there will be a fork during/after phase2 to bring in the eth1.0 state into a contract.
+ "A dapp will have to choose what shard it wants to be on and that decision will matter because cross shard communication will definitely be slow at base layer", according to buterin.
+* Competition between miners in PoW and validators in PoS, requires a robust finality system
 
-**State migration in Phase 2**
+Raul put forward some good questions regarding migration during [implementers call](https://github.com/ethereum/eth2.0-pm/blob/master/eth2.0-implementers-calls/call_008.md)
 
-| Pros | Cons |
-| :--- | :--- |
-|  |  |
-|  |  |
-
-**No state migration in Phase 2**
-
-| Pros | Cons |
-| :--- | :--- |
-|  |  |
-|  |  |
-
+Before we migrate the state there's going to be validators earning rewards, and overall the cumulative issuance of ether will go up. So what will be the economics of eth throughout?
+* The issuance to validators is generally marginal compared to the issuance of miners. So we don't foresee it being a major concern.
+* Beyond that, there is a proposal floating around to do this hybrid PoW/PoS proposal where you begin to utilize the beacon chain for finality
+* Over time, ultimately, issuance will go down when the system is entirely PoS and during that time, validators can move stake over through this deposit contract. But when state execution exists on shard chains, there will likely be another enshrined transfer contract/deposit mechanism to move from eth1.0 --> eth2.0
