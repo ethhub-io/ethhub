@@ -84,7 +84,7 @@ nav:
   - 'Mining': 'using-ethereum/mining.md'
   - 'Test Networks': 'using-ethereum/test-networks.md'
   - Wallets:
-    - 'Into to Ethereum Wallets': 'using-ethereum/wallets/intro-to-ethereum-wallets.md'
+    - 'Intro to Ethereum Wallets': 'using-ethereum/wallets/intro-to-ethereum-wallets.md'
     - 'Desktop': 'using-ethereum/wallets/desktop.md'
     - 'Web': 'using-ethereum/wallets/web.md'
     - 'Mobile': 'using-ethereum/wallets/mobile.md'
