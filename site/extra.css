@@ -1,0 +1,21 @@
+
+    [data-md-color-accent=black] .md-typeset a:active, [data-md-color-accent=black] .md-typeset a:hover {
+      color: blue!important;
+  }
+  
+  .md-typeset a {
+      color: #3f51b5!important;
+  }
+  
+  .md-typeset h2 {
+      border-top: 1px grey solid!important;
+      padding-top: 35px!important;
+  }
+
+  [data-md-color-accent=red] .md-nav__link:focus, [data-md-color-accent=red] .md-nav__link:hover {
+    color: #3f51b5!important;
+  }
+
+  html .md-footer-meta.md-typeset a {
+color: white!important
+}

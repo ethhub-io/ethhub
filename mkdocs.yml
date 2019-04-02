@@ -1,0 +1,264 @@
+site_name: EthHub
+site_description: Essential source for Ethereum information.
+theme:
+  name: 'material'
+  custom_dir: 'docs/material'
+  palette:
+    primary: 'ethhub'
+  logo: 'logo.png'
+  favicon: 'assets/images/favicon.ico'
+  feature:
+    tabs: true
+
+extra_css: [extra.css]
+markdown_extensions:
+  - meta
+
+repo_name: 'ethhub-io/ethhub'
+repo_url: 'https://github.com/ethhub-io/ethhub'
+
+extra:
+  social:
+    - type: 'github'
+      link: 'https://github.com/ethhub-io/ethhub'
+    - type: 'twitter'
+      link: 'https://twitter.com/ethhub_io'
+    - type: 'medium'
+      link: 'https://medium.com/ethhub'
+    - type: 'comment'
+      link: 'https://discordapp.com/invite/gw8AM98'
+    - type: 'instagram'
+      link: 'https://www.instagram.com/ethhub_io/'
+
+google_analytics:
+  - 'UA-125892125-2'
+  - 'auto'
+
+nav:
+- Home: 'index.md'
+- Learn: 'ethereum-basics/what-is-ethereum.md'
+- Listen: 'https://podcast.ethhub.io'
+- Read: 'https://ethhub.substack.com/'
+- Ethereum Basics:
+  - 'What is Ethereum?': 'ethereum-basics/what-is-ethereum.md'
+  - 'What is Ether?': 'ethereum-basics/what-is-ether.md'
+  - 'History and Network Upgrades': 'ethereum-basics/history-and-forks.md'
+  - 'Monetary Policy': 'ethereum-basics/monetary-policy.md'
+  - 'Governance': 'ethereum-basics/governance.md'
+  - Development: 
+      - 'Ethereum Development Basics': 'ethereum-basics/development/ethereum-development-basics.md'
+      - 'Patterns': 'ethereum-basics/development/patterns.md'
+      - 'Testing': 'ethereum-basics/development/testing.md'
+      - 'Tooling': 'ethereum-basics/development/tooling.md'
+  - 'Resources': 'ethereum-basics/resources.md'
+- Ethereum Roadmap:
+  - 'Ethereum 1.x': 'ethereum-roadmap/ethereum-1.x.md'
+  - Ethereum 2.0:
+      - 'Sharding': 'ethereum-roadmap/ethereum-2.0/sharding.md'
+      - 'Proof of Stake': 'ethereum-roadmap/ethereum-2.0/proof-of-stake.md'
+      - 'Ethereum 2.0 Phases': 'ethereum-roadmap/ethereum-2.0/eth-2.0-phases.md'
+      - 'Ethereum 2.0 Economics': 'ethereum-roadmap/ethereum-2.0/eth-2.0-economics.md'
+      - 'Ethereum 1.0 to 2.0 Migration': 'ethereum-roadmap/ethereum-2.0/eth-1.0-to-2.0-migration.md'
+      - Ethereum 2.0 Teams:
+        - 'Teams Building Eth 2.0': 'ethereum-roadmap/ethereum-2.0/eth2.0-teams/teams-building-eth2.0.md'
+        - 'Artemis': 'ethereum-roadmap/ethereum-2.0/eth2.0-teams/artemis.md'
+        - 'Harmony': 'ethereum-roadmap/ethereum-2.0/eth2.0-teams/harmony.md'
+        - 'Lighthouse': 'ethereum-roadmap/ethereum-2.0/eth2.0-teams/lighthouse.md'
+        - 'Lodestar': 'ethereum-roadmap/ethereum-2.0/eth2.0-teams/lodestar.md'
+        - 'Nimbus': 'ethereum-roadmap/ethereum-2.0/eth2.0-teams/nimbus.md'
+        - 'Prysm': 'ethereum-roadmap/ethereum-2.0/eth2.0-teams/prysm.md'
+        - 'Shasper': 'ethereum-roadmap/ethereum-2.0/eth2.0-teams/shasper.md'
+        - 'Trinity': 'ethereum-roadmap/ethereum-2.0/eth2.0-teams/trinity.md'
+        - 'Yeeth': 'ethereum-roadmap/ethereum-2.0/eth2.0-teams/yeeth.md'
+  - Layer 2 Scaling:
+      - 'Plasma': 'ethereum-roadmap/layer-2-scaling/plasma.md'
+      - 'State Channels': 'ethereum-roadmap/layer-2-scaling/state-channels.md'
+      - 'Payment Channels': 'ethereum-roadmap/layer-2-scaling/payment-channels.md'
+      - 'ZK-STARKs': 'ethereum-roadmap/layer-2-scaling/zk-starks.md'
+  - 'Privacy': 'ethereum-roadmap/privacy.md'
+  - 'Istanbul': 'ethereum-roadmap/istanbul.md'
+- Using Ethereum:
+  - 'How to Buy Ether': 'using-ethereum/how-to-buy-ether.md'
+  - 'Running an Ethereum Node': 'using-ethereum/running-an-ethereum-node.md'
+  - 'Transactions': 'using-ethereum/transactions.md'
+  - 'Mining': 'using-ethereum/mining.md'
+  - 'Test Networks': 'using-ethereum/test-networks.md'
+  - Wallets:
+    - 'Desktop': 'using-ethereum/wallets/desktop.md'
+    - 'Web': 'using-ethereum/wallets/web.md'
+    - 'Mobile': 'using-ethereum/wallets/mobile.md'
+    - 'Hardware': 'using-ethereum/wallets/hardware.md'
+    - 'Multi Signature': 'using-ethereum/wallets/multisignature.md'
+- Built on Ethereum:
+  - Open Finance:
+    - 'What is Open Finance?': 'built-on-ethereum/open-finance/what-is-open-finance.md'
+    - Stablecoins:
+      - 'What are Stablecoins?': 'built-on-ethereum/open-finance/stablecoins/what-are-stablecoins.md'
+      - 'Dai': 'built-on-ethereum/open-finance/stablecoins/dai.md'
+      - 'GUSD': 'built-on-ethereum/open-finance/stablecoins/gusd.md'
+      - 'USDC': 'built-on-ethereum/open-finance/stablecoins/usdc.md'
+      - 'True USD': 'built-on-ethereum/open-finance/stablecoins/trueusd.md'
+      - 'Tether': 'built-on-ethereum/open-finance/stablecoins/tether.md'
+      - 'Paxos': 'built-on-ethereum/open-finance/stablecoins/paxos.md'
+      - 'Synthetix': 'built-on-ethereum/open-finance/stablecoins/synthetix.md'
+    - Prediction Markets:
+      - 'What are Prediction Markets?': 'built-on-ethereum/open-finance/prediction-markets/what-are-prediction-markets.md'
+      - 'Augur': 'built-on-ethereum/open-finance/prediction-markets/augur.md'
+      - 'Gnosis': 'built-on-ethereum/open-finance/prediction-markets/gnosis.md'
+    - Lending:
+      - 'Compound': 'built-on-ethereum/open-finance/lending/compound.md'
+      - 'Dharma': 'built-on-ethereum/open-finance/lending/dharma.md'
+      - 'dydx': 'built-on-ethereum/open-finance/lending/dydx.md'
+      - 'Expo': 'built-on-ethereum/open-finance/lending/expo.md'
+      - 'bzx': 'built-on-ethereum/open-finance/lending/bzx.md'
+    - Securities:
+      - 'What are Tokenized Securities?': 'built-on-ethereum/open-finance/securities/what-are-tokenized-securities.md'
+      - 'Abacus': 'built-on-ethereum/open-finance/securities/abacus.md'
+      - 'Harbor': 'built-on-ethereum/open-finance/securities/harbor.md'
+      - 'Polymath': 'built-on-ethereum/open-finance/securities/polymath.md'
+      - 'Securitize': 'built-on-ethereum/open-finance/securities/securitize.md'
+      - 'Templum': 'built-on-ethereum/open-finance/securities/templum.md'
+    - '0x Protocol': 'built-on-ethereum/open-finance/0x-protocol.md'
+    - '8x': 'built-on-ethereum/open-finance/8x.md'
+    - 'Bskt': 'built-on-ethereum/open-finance/bskt.md'
+    - 'Burner Wallet': 'built-on-ethereum/open-finance/burner-wallet.md'
+    - 'The Dai Card': 'built-on-ethereum/open-finance/daicard.md'
+    - 'cdx': 'built-on-ethereum/open-finance/cdx.md'
+    - 'Digix': 'built-on-ethereum/open-finance/digix.md'
+    - 'Etherisc': 'built-on-ethereum/open-finance/etherisc.md'
+    - 'Set Protocol': 'built-on-ethereum/open-finance/set-protocol.md'
+    - 'Settle': 'built-on-ethereum/open-finance/settle.md'
+    - 'StablePay': 'built-on-ethereum/open-finance/stablepay.md'
+    - 'WBTC': 'built-on-ethereum/open-finance/wbtc.md'
+    - 'Zerion': 'built-on-ethereum/open-finance/zerion.md'
+    - 'Nexus Mutual': 'built-on-ethereum/open-finance/nexus-mutual.md'
+  - ERC Token Standards:
+    - 'What are ERC Tokens?': 'built-on-ethereum/erc-token-standards/what-are-erc-tokens.md'
+    - 'ERC20': 'built-on-ethereum/erc-token-standards/erc20.md'
+    - 'ERC621': 'built-on-ethereum/erc-token-standards/erc621.md'
+    - 'ERC721': 'built-on-ethereum/erc-token-standards/erc721.md'
+    - 'ERC721x': 'built-on-ethereum/erc-token-standards/erc721x.md'
+    - 'ERC777': 'built-on-ethereum/erc-token-standards/erc777.md'
+    - 'ERC884': 'built-on-ethereum/erc-token-standards/erc884.md'
+    - 'ERC918': 'built-on-ethereum/erc-token-standards/erc918.md'
+    - 'ERC1155': 'built-on-ethereum/erc-token-standards/erc1155.md'
+    - 'ERC1257': 'built-on-ethereum/erc-token-standards/erc1257.md'
+  - Decentralized Exchanges:
+    - 'What are Decentralized Exchanges?': 'built-on-ethereum/decentralized-exchanges/what-are-decentralized-exchanges.md'
+    - Off-Chain Orderbook:
+      - 'What are Off-Chain Orderbook Decentralized Exchanges?': 'built-on-ethereum/decentralized-exchanges/off-chain-orderbook/what-is-off-chain-orderbook.md'
+      - '0x-Instant': 'built-on-ethereum/decentralized-exchanges/off-chain-orderbook/0x-instant.md'
+      - '0x-Relayers': 'built-on-ethereum/decentralized-exchanges/off-chain-orderbook/0x-relayers.md'
+      - 'EtherDelta': 'built-on-ethereum/decentralized-exchanges/off-chain-orderbook/etherdelta.md'
+      - 'Hydro': 'built-on-ethereum/decentralized-exchanges/off-chain-orderbook/hydro.md'
+      - 'IDEX': 'built-on-ethereum/decentralized-exchanges/off-chain-orderbook/idex.md'
+      - 'Loopring': 'built-on-ethereum/decentralized-exchanges/off-chain-orderbook/loopring.md'
+    - Peer to Peer:
+      - 'What are Peer to Peer Decentralized Exchanges?': 'built-on-ethereum/decentralized-exchanges/peer-to-peer/what-is-peer-to-peer.md'
+      - 'Airswap': 'built-on-ethereum/decentralized-exchanges/peer-to-peer/airswap.md'
+      - 'Ren': 'built-on-ethereum/decentralized-exchanges/peer-to-peer/ren.md'
+    - Pool Based:
+      - 'What are Pool Based Decentralized Exchanges?': 'built-on-ethereum/decentralized-exchanges/pool-based/what-is-pool-based.md'
+      - 'Bancor': 'built-on-ethereum/decentralized-exchanges/pool-based/bancor.md'
+      - 'Kyber': 'built-on-ethereum/decentralized-exchanges/pool-based/kyber.md'
+      - 'Uniswap': 'built-on-ethereum/decentralized-exchanges/pool-based/uniswap.md'
+    - Aggregators:
+      - 'Totle': 'built-on-ethereum/decentralized-exchanges/aggregators/totle.md'
+  - Games:
+    - 'What is Blockchain Gaming?': 'built-on-ethereum/games/what-is-blockchain-gaming.md'
+    - 'CryptoKitties': 'built-on-ethereum/games/cryptokitties.md'
+    - 'Etheroll': 'built-on-ethereum/games/etheroll.md'
+    - 'Gods Unchained': 'built-on-ethereum/games/gods-unchained.md'
+    - 'Zombie Battleground': 'built-on-ethereum/games/zombie-battleground.md'
+  - Collectables:
+    - 'CryptoPunks': 'built-on-ethereum/collectables/cryptopunks.md'
+    - 'Decentraland': 'built-on-ethereum/collectables/decentraland.md'
+    - 'MLB Crypto Baseball': 'built-on-ethereum/collectables/mlb-crypto-baseball.md'
+  - Marketplaces:
+    - 'District0x': 'built-on-ethereum/marketplaces/district0x.md'
+    - 'Opensea': 'built-on-ethereum/marketplaces/opensea.md'
+    - 'Origin Protocol': 'built-on-ethereum/marketplaces/origin-protocol.md'
+    - 'Rarebits': 'built-on-ethereum/marketplaces/rarebits.md'
+  - Developer Tools:
+    - 'Gitcoin': 'built-on-ethereum/developer-tools/gitcoin.md'
+    - 'Kauri': 'built-on-ethereum/developer-tools/kauri.md'
+    - 'Mintable': 'built-on-ethereum/developer-tools/mintable.md'
+    - 'One Click dApp': 'built-on-ethereum/developer-tools/oneclickdapp.md'
+    - 'Wallet Connect': 'built-on-ethereum/developer-tools/walletconnect.md'
+  - Identity:
+    - 'Identity on Ethereum': 'built-on-ethereum/identity/identity-on-ethereum.md'
+    - 'Bloom': 'built-on-ethereum/identity/bloom.md'
+    - 'Civic': 'built-on-ethereum/identity/civic.md'
+    - 'ERC725': 'built-on-ethereum/identity/ERC725.md'
+    - 'Jolocom': 'built-on-ethereum/identity/jolocom.md'
+    - 'Selfkey': 'built-on-ethereum/identity/selfkey.md'
+    - 'uPort': 'built-on-ethereum/identity/uport.md'
+  - Governance:
+    - 'Aragon': 'built-on-ethereum/governance/aragon.md'
+    - 'Colony': 'built-on-ethereum/governance/colony.md'
+    - 'Democracy Earth': 'built-on-ethereum/governance/democracy-earth.md'
+    - 'Govblocks': 'built-on-ethereum/governance/govblocks.md'
+  - Infrastructure:
+    - 'QuikNode': 'built-on-ethereum/infrastructure/quiknode.md'
+    - '0xcert': 'built-on-ethereum/infrastructure/0xcert.md'
+    - 'Aztec Protocol': 'built-on-ethereum/infrastructure/aztec-protocol.md'
+    - 'Bounties Network': 'built-on-ethereum/infrastructure/bountiesnetwork.md'
+    - 'Ethereum Alarm Clock': 'built-on-ethereum/infrastructure/ethereum-alarm-clock.md'
+    - 'Ethereum Name Service': 'built-on-ethereum/infrastructure/ethereum-name-service.md'
+    - 'Ethlance': 'built-on-ethereum/infrastructure/ethlance.md'
+    - 'FOAM Protocol': 'built-on-ethereum/infrastructure/foam-protocol.md'
+    - 'Golem': 'built-on-ethereum/infrastructure/golem.md'
+    - 'POA Network': 'built-on-ethereum/infrastructure/poa-network.md'
+    - 'Streamr': 'built-on-ethereum/infrastructure/streamr.md'
+  - Token Curated Registries:
+    - 'What are TCRs': 'built-on-ethereum/tcrs/what-are-tcrs.md'
+    - 'Types of TCRs': 'built-on-ethereum/tcrs/types-of-tcrs.md'
+- Ethereum FAQ:
+  - 'Is Ethereum more expensive to use as price rises?': 'questions-about-ethereum/is-ethereum-more-expensive-to-use-as-price-rises.md'
+  - 'Why do you have to pay to use Ethereum?': 'questions-about-ethereum/why-do-you-have-to-pay-to-use-ethereum.md'
+  - 'Is Ether a security?': 'questions-about-ethereum/is-ether-a-security.md'
+  - 'Is Ethereum over 1TB in size?': 'questions-about-ethereum/is-ethereum-over-1tb-in-size.md'
+  - 'Is Ethereum immutable?': 'questions-about-ethereum/is-ethereum-immutable.md'
+  - 'Is Ether needed for transaction fees?': 'questions-about-ethereum/is-ether-needed-for-transaction-fees.md'
+  - "If Ethereum is open source why can't it be copied?": 'questions-about-ethereum/if-ethereum-is-open-source-why-cant-it-be-copied.md'
+- Other:
+  - 'Ethereum 2.0 AMA': 'other/ethereum-2.0-ama.md'
+  - 'Get Involved': 'other/get-involved.md'
+  - 'Gitcoin Torch': 'other/gitcoin-torch.md'
+  - 'Ethereum Foundation COI Disclosures': 'other/EF-COI-disclosures.md'
+  - 'EthHub CFTC Responses': 'other/ethhub-cftc-response.md'
+  - 'Ethereum Fundraising Event': 'other/ethereum-fundraising-event.md'
+  - 'Grants Process': 'other/grants-process.md'
+  - 'Internationalization': 'other/internationalization.md'
+  - Funds:
+    - '0xeap': 'other/funds/0xeap.md'
+    - 'Aragon Nest': 'other/funds/aragon-nest.md'
+    - 'Consensys Labs': 'other/funds/consensys-labs.md'
+    - 'Consensys VC': 'other/funds/consensys-vc.md'
+    - 'ECF': 'other/funds/ecf.md'
+    - 'Eth Prize': 'other/funds/eth-prize.md'
+    - 'Geco': 'other/funds/geco.md'
+    - 'Gitcoin': 'other/funds/gitcoin.md'
+    - 'Gnosis X': 'other/funds/gnosisx.md'
+    - 'Stable Fund': 'other/funds/stable-fund.md'
+    - 'Status Incubate': 'other/funds/status-incubate.md'
+- Glossary:
+  - 'Acronyms': 'glossary/crypto-acronyms.md'
+  - Sideways Dictionary:
+    - 'What is the sideways dictionary?': 'glossary/sideways-dictionary/what-is-the-sideways-dictionary.md'
+    - '2FA': 'glossary/sideways-dictionary/2FA.md'
+    - 'Blockchain': 'glossary/sideways-dictionary/blockchain.md'
+    - 'Cold Storage': 'glossary/sideways-dictionary/cold-storage.md'
+    - 'Cryptojacking': 'glossary/sideways-dictionary/cryptojacking.md'
+    - 'DDOS': 'glossary/sideways-dictionary/ddos.md'
+    - 'Difficulty': 'glossary/sideways-dictionary/difficulty.md'
+    - 'Forks': 'glossary/sideways-dictionary/forks.md'
+    - 'Multi-Sig': 'glossary/sideways-dictionary/multi-sig.md'
+    - 'Smart Contract': 'glossary/sideways-dictionary/smart-contract.md'
+    - 'State Rent': 'glossary/sideways-dictionary/state-rent.md'
+    - 'Stateless Clients': 'glossary/sideways-dictionary/stateless-clients.md'
+    - 'Uncle Blocks': 'glossary/sideways-dictionary/uncle-blocks.md'
+
+
+
+

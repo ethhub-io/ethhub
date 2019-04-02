@@ -1,13 +1,13 @@
-# Welcome to EthHub
+title: Welcome to EthHub - EthHub
+description: EthHub provides a single source for essential Ethereum information through documentation, a podcast and a newsletter.
 
-## Welcome to EthHub
+# Welcome to EthHub
 
 The goal of EthHub is to provide a single source for essential Ethereum information. We attempt to accomplish this goal through three main areas:
 
-1. [Learn](https://docs.ethhub.io) - Open source, easy to understand documentation
+1. [Learn](https://docs.ethhub.io/ethereum-basics/what-is-ethereum/) - Open source, easy to understand documentation
 2. [Listen](https://podcast.ethhub.io) - Into the Ether podcast
-3. [Read](https://medium.com/ethhub) - EthHub on Medium
-4. [Subscribe](https://ethhub.substack.com) - EthHub Weekly newsletter
+3. [Read](https://ethhub.substack.com) - EthHub Weekly newsletter
 
 The Learn section, where you are now, is the core of EthHub. This documentation is open source and hosted on GitHub which means that anyone has the ability to contribute. The goal is to make sure the information is available, clear, concise, and up to date.
 
