@@ -188,6 +188,7 @@ nav:
     - 'Wallet Connect': 'built-on-ethereum/developer-tools/walletconnect.md'
   - Identity:
     - 'Identity on Ethereum': 'built-on-ethereum/identity/identity-on-ethereum.md'
+    - 'Identity Standards': 'built-on-ethereum/identity/ERC-EIP.md'
     - 'Bloom': 'built-on-ethereum/identity/bloom.md'
     - 'Civic': 'built-on-ethereum/identity/civic.md'
     - 'ERC725': 'built-on-ethereum/identity/ERC725.md'
