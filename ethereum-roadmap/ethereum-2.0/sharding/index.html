@@ -674,6 +674,13 @@
     <ul class="md-nav__list" data-md-scrollfix>
       
         <li class="md-nav__item">
+  <a href="#summary" title="Summary" class="md-nav__link">
+    Summary
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
   <a href="#the-scalability-trilemma" title="The Scalability Trilemma" class="md-nav__link">
     The Scalability Trilemma
   </a>
@@ -3546,6 +3553,13 @@
     <ul class="md-nav__list" data-md-scrollfix>
       
         <li class="md-nav__item">
+  <a href="#summary" title="Summary" class="md-nav__link">
+    Summary
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
   <a href="#the-scalability-trilemma" title="The Scalability Trilemma" class="md-nav__link">
     The Scalability Trilemma
   </a>
@@ -3600,6 +3614,16 @@
                 
                 
                 <h1 id="sharding">Sharding</h1>
+<h2 id="summary">Summary</h2>
+<p>There is a trilemma in blockchain systems that can be visualized in form of a triangle known as DCS triangle, what it conevys is "It is impossible to achieve all three Decentralization, Consistency, and Scalability simultaenously. A tradeoff is necessary (you can choose any two but not all)". </p>
+<p><img alt="DCS Triangle" src="https://imgur.com/Hdnb8ih" /></p>
+<p>Sharding is an attempt to solve this challenge. It simply means partitioning large chains (databses) into smaller, faster ones hence making the entire system more scalable. How?
+To solve scalability we split the state and history stored on main chain into shards. Each shard manages it's own shit, has it's own  transaction history, and the effect of transactions in some shard are limited to that shard only.</p>
+<p>Examples for this would be:
+<em> A dApp having a whole shard by himself so that all tx's related to it will be on that one shard only.
+</em> Several dApps related to a particular domain will be on one single shard.</p>
+<p>The later phases of ETH2.0 considers the possibility of cross-shard communications.</p>
+<p>Sharding also introduces different types of nodes like "Light Node", "Super-Full Node" etc. depending upon how much data it downloads, how much it verifies. </p>
 <h2 id="the-scalability-trilemma">The Scalability Trilemma</h2>
 <p>The Scalability Trilemma claims that blockchain systems can only at most have two of the following three properties:</p>
 <ul>
@@ -3626,6 +3650,7 @@
 <ul>
 <li><a href="https://github.com/ethereum/wiki/wiki/Sharding-FAQs">Sharding FAQ</a></li>
 <li><a href="https://github.com/ethereum/wiki/wiki/Sharding-roadmap">Sharding Roadmap</a></li>
+<li><a href="https://blog.bigchaindb.com/the-dcs-triangle-5ce0e9e0f1dc">DCS Triangle</a></li>
 </ul>
                 
                   

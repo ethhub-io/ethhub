@@ -109,7 +109,7 @@
     <input class="md-toggle" data-md-toggle="search" type="checkbox" id="__search" autocomplete="off">
     <label class="md-overlay" data-md-component="overlay" for="__drawer"></label>
     
-      <a href="#proof-of-stake" tabindex="1" class="md-skip">
+      <a href="#proof-of-stake-pos" tabindex="1" class="md-skip">
         Skip to content
       </a>
     
@@ -686,6 +686,13 @@
     <ul class="md-nav__list" data-md-scrollfix>
       
         <li class="md-nav__item">
+  <a href="#summary" title="Summary" class="md-nav__link">
+    Summary
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
   <a href="#what-is-proof-of-stake" title="What is Proof of Stake" class="md-nav__link">
     What is Proof of Stake
   </a>
@@ -694,8 +701,8 @@
       <ul class="md-nav__list">
         
           <li class="md-nav__item">
-  <a href="#what-are-the-benefits-of-proof-of-stake-as-opposed-to-proof-of-work" title="What are the benefits of proof of stake as opposed to proof of work?" class="md-nav__link">
-    What are the benefits of proof of stake as opposed to proof of work?
+  <a href="#what-are-the-benefits-of-proof-of-stake-as-opposed-to-proof-of-work" title="What are the benefits of Proof of Stake as opposed to Proof of Work?" class="md-nav__link">
+    What are the benefits of Proof of Stake as opposed to Proof of Work?
   </a>
   
 </li>
@@ -721,8 +728,8 @@
       <ul class="md-nav__list">
         
           <li class="md-nav__item">
-  <a href="#why-would-i-want-to-stake-my-ether" title="Why would I want to stake my Ether?" class="md-nav__link">
-    Why would I want to stake my Ether?
+  <a href="#why-would-i-want-to-stake-my-eth" title="Why would I want to stake my ETH?" class="md-nav__link">
+    Why would I want to stake my ETH?
   </a>
   
 </li>
@@ -3600,6 +3607,13 @@
     <ul class="md-nav__list" data-md-scrollfix>
       
         <li class="md-nav__item">
+  <a href="#summary" title="Summary" class="md-nav__link">
+    Summary
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
   <a href="#what-is-proof-of-stake" title="What is Proof of Stake" class="md-nav__link">
     What is Proof of Stake
   </a>
@@ -3608,8 +3622,8 @@
       <ul class="md-nav__list">
         
           <li class="md-nav__item">
-  <a href="#what-are-the-benefits-of-proof-of-stake-as-opposed-to-proof-of-work" title="What are the benefits of proof of stake as opposed to proof of work?" class="md-nav__link">
-    What are the benefits of proof of stake as opposed to proof of work?
+  <a href="#what-are-the-benefits-of-proof-of-stake-as-opposed-to-proof-of-work" title="What are the benefits of Proof of Stake as opposed to Proof of Work?" class="md-nav__link">
+    What are the benefits of Proof of Stake as opposed to Proof of Work?
   </a>
   
 </li>
@@ -3635,8 +3649,8 @@
       <ul class="md-nav__list">
         
           <li class="md-nav__item">
-  <a href="#why-would-i-want-to-stake-my-ether" title="Why would I want to stake my Ether?" class="md-nav__link">
-    Why would I want to stake my Ether?
+  <a href="#why-would-i-want-to-stake-my-eth" title="Why would I want to stake my ETH?" class="md-nav__link">
+    Why would I want to stake my ETH?
   </a>
   
 </li>
@@ -3707,14 +3721,21 @@
                   <a href="https://github.com/ethhub-io/ethhub/edit/master/docs/ethereum-roadmap/ethereum-2.0/proof-of-stake.md" title="Edit this page" class="md-icon md-content__icon">&#xE3C9;</a>
                 
                 
-                <h1 id="proof-of-stake">Proof of Stake</h1>
+                <h1 id="proof-of-stake-pos">Proof of Stake (PoS)</h1>
+<h2 id="summary">Summary</h2>
+<p>Proof of Stake represents a class of consensus algorithms in which validators vote on the next block, and the weight of the vote depends upon the size of its stake.
+It is considered better than Proof of Work (PoW) because of less consumption of electricity, reduced centralization risks, security against different types of 51% attacks and more.</p>
+<p>PoS can be classified into two major types:
+<em> Chain-Based: Rely on the synchronicity of the network
+</em> BFT-Based: Favour consistency of nodes over availability</p>
+<p>To participate in voting (becoming a validator) you are required to stake ETH for which you'll be rewarded with additional ETH at some interest rate plus you'll receive a portion of the network transaction fees.</p>
 <h2 id="what-is-proof-of-stake">What is Proof of Stake</h2>
 <p>Proof of Stake (PoS) is a category of consensus algorithms for public blockchains that depend on a validator's economic stake in the network. In proof of work (PoW) based public blockchains (e.g. Bitcoin and the current implementation of Ethereum), the algorithm rewards participants who solve cryptographic puzzles in order to validate transactions and create new blocks (i.e. mining). In PoS-based public blockchains (e.g. Ethereum's upcoming Casper implementation), a set of validators take turns proposing and voting on the next block, and the weight of each validator's vote depends on the size of its deposit (i.e. stake). Significant advantages of PoS include security, reduced risk of centralization, and energy efficiency.</p>
-<p>In general, a proof of stake algorithm looks as follows. The blockchain keeps track of a set of validators, and anyone who holds the blockchain's base cryptocurrency (in Ethereum's case, ether) can become a validator by sending a special type of transaction that locks up their ether into a deposit. The process of creating and agreeing to new blocks is then done through a consensus algorithm that all current validators can participate in.</p>
-<p>There are many kinds of consensus algorithms, and many ways to assign rewards to validators who participate in the consensus algorithm, so there are many "flavors" of proof of stake. From an algorithmic perspective, there are two major types: chain-based proof of stake and BFT-style proof of stake.</p>
-<p>In chain-based proof of stake, the algorithm pseudo-randomly selects a validator during each time slot (e.g. every period of 10 seconds might be a time slot), and assigns that validator the right to create a single block, and this block must point to some previous block (normally the block at the end of the previously longest chain), and so over time most blocks converge into a single constantly growing chain.</p>
-<p>In BFT-style proof of stake, validators are randomly assigned the right to propose blocks, but agreeing on which block is canonical is done through a multi-round process where every validator sends a "vote" for some specific block during each round, and at the end of the process all (honest and online) validators permanently agree on whether or not any given block is part of the chain. Note that blocks may still be chained together; the key difference is that consensus on a block can come within one block, and does not depend on the length or size of the chain after it.</p>
-<h3 id="what-are-the-benefits-of-proof-of-stake-as-opposed-to-proof-of-work">What are the benefits of proof of stake as opposed to proof of work?</h3>
+<p>In general, a PoS algorithm looks as follows. The blockchain keeps track of a set of validators, and anyone who holds the blockchain's base cryptocurrency (in Ethereum's case, ETH) can become a validator by sending a special type of transaction that locks up their ETH into a deposit. The process of creating and agreeing to new blocks is then done through a consensus algorithm that all current validators can participate in.</p>
+<p>There are many kinds of consensus algorithms, and many ways to assign rewards to validators who participate in the consensus algorithm, so there are many "flavors" of PoS. From an algorithmic perspective, there are two major types: chain-based and BFT-style PoS.</p>
+<p>In chain-based PoS, the algorithm pseudo-randomly selects a validator during each time slot (e.g. every period of 10 seconds might be a time slot), and assigns that validator the right to create a single block, and this block must point to some previous block (normally the block at the end of the previously longest chain), and so over time most blocks converge into a single constantly growing chain.</p>
+<p>In BFT-style PoS, validators are randomly assigned the right to propose blocks, but agreeing on which block is canonical is done through a multi-round process where every validator sends a "vote" for some specific block during each round, and at the end of the process all (honest and online) validators permanently agree on whether or not any given block is part of the chain. Note that blocks may still be chained together; the key difference is that consensus on a block can come within one block, and does not depend on the length or size of the chain after it.</p>
+<h3 id="what-are-the-benefits-of-proof-of-stake-as-opposed-to-proof-of-work">What are the benefits of Proof of Stake as opposed to Proof of Work?</h3>
 <ul>
 <li>No need to consume large quantities of electricity in order to secure a blockchain (e.g. it's estimated that both Bitcoin and Ethereum burn over $1 million worth of electricity and hardware costs per day as part of their consensus mechanism).</li>
 <li>Because of the lack of high electricity consumption, there is not as much need to issue as many new coins in order to motivate participants to keep participating in the network. It may theoretically even be possible to have negative net issuance, where a portion of transaction fees is "burned" and so the supply goes down over time.</li>
@@ -3730,15 +3751,15 @@
 <li>Liveness denial: validators stop finalizing blocks.</li>
 <li>Censorship: validators block some or all transactions or blocks from entering the chain.</li>
 </ul>
-<p>In the first case, users can socially coordinate out-of-band to agree which finalized block came first, and favor that block. The second case can be solved with fraud proofs and data availability proofs. The third case can be solved by a modification to proof of stake algorithms that gradually reduces ("leaks") non-participating nodes' weights in the validator set if they do not participate in consensus; the Casper FFG paper includes a description of this.</p>
+<p>In the first case, users can socially coordinate out-of-band to agree which finalized block came first, and favor that block. The second case can be solved with fraud proofs and data availability proofs. The third case can be solved by a modification to PoS algorithms that gradually reduces ("leaks") non-participating nodes' weights in the validator set if they do not participate in consensus; the Casper FFG paper includes a description of this.</p>
 <p>The fourth is most difficult. The fourth can be recovered from via a "minority soft fork", where a minority of honest validators agree the majority is censoring them, and stop building on their chain. Instead, they continue their own chain, and eventually the "leak" mechanism described above ensures that this honest minority becomes a 2/3 supermajority on the new chain. At that point, the market is expected to favor the chain controlled by honest nodes over the chain controlled by dishonest nodes.</p>
 <h2 id="staking-logistics">Staking Logistics</h2>
-<h3 id="why-would-i-want-to-stake-my-ether">Why would I want to stake my Ether?</h3>
-<p>For staking your ETH and attesting to correct blocks, you will be rewarded with ETH through a network wide interest rate as well as receive a portion of network transaction fees. Details can be found <a href="https://docs.ethhub.io/ethereum-roadmap/serenity-phases/eth-2.0-economics">here</a>.</p>
+<h3 id="why-would-i-want-to-stake-my-eth">Why would I want to stake my ETH?</h3>
+<p>For staking your ETH and attesting to correct blocks, you will be rewarded with additional ETH through a network wide interest rate as well as receive a portion of network transaction fees. Details can be found <a href="https://docs.ethhub.io/ethereum-roadmap/serenity-phases/eth-2.0-economics">here</a>.</p>
 <h3 id="what-are-the-minimum-requirements-to-stake">What are the minimum requirements to stake?</h3>
 <ul>
 <li>A minimum of 32 ETH per validator</li>
-<li>Computer</li>
+<li>Computer with sufficient hardware specs</li>
 <li>Internet connection</li>
 </ul>
 <h3 id="what-software-do-i-need-to-run-to-stake">What software do I need to run to stake?</h3>
