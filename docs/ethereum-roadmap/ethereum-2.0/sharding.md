@@ -7,7 +7,7 @@ description: Information on sharding and how it will work on Ethereum.
 
 There is a trilemma in blockchain systems that can be visualized in form of a triangle known as DCS triangle, what it conevys is "It is impossible to achieve all three Decentralization, Consistency, and Scalability simultaenously. A tradeoff is necessary \(you can choose any two but not all\)". 
 
-![DCS Triangle](/assets/dcs-triangle.png)
+![](/assets/images/dcs-triangle.png)
 
 Sharding is an attempt to solve this challenge. It simply means partitioning large chains \(databses\) into smaller, faster ones hence making the entire system more scalable. How?
 To solve scalability we split the state and history stored on main chain into shards. Each shard manages it's own shit, has it's own  transaction history, and the effect of transactions in some shard are limited to that shard only.
@@ -39,7 +39,7 @@ However, this poses a question: are there ways to create a new mechanism, where 
 ## What is the basic idea behind sharding?
 
 We split the state and history of Ethereum up into partitions that we call “shards”. For example, a sharding scheme on Ethereum might put all addresses starting with 0x00 into one shard, all addresses starting with 0x01 into another shard, etc. In the simplest form of sharding, each shard also has its own transaction history, and the effect of transactions in some shard are limited to the state of shard of that same shard. One simple example would be a multi-asset blockchain, where there are many shards and each shard stores the balances and processes the transactions associated with one particular asset. In more advanced forms of sharding, some form of cross-shard communication capability, where transactions on one shard can trigger events on other shards, is also included.
-
+/
 ## What might a basic design of a sharded blockchain look like?
 
 There exists a set of validators \(ie. proof of stake nodes\), who randomly get assigned the right to create shard blocks. During each slot \(eg. an 8-second period of time\), for each shard in \[0...999\] a random validator gets selected, and given the right to create a block on a shard, which might contain up to, say, 32 kb of data. Also, for each shard, a set of 100 validators get selected as attesters. The header of a block together with at least 67 of the attesting signatures can be published as an object that gets included in the "main chain" \(also called the beacon chain\).
