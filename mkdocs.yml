@@ -44,6 +44,7 @@ nav:
   - 'What is Ether?': 'ethereum-basics/what-is-ether.md'
   - 'History and Network Upgrades': 'ethereum-basics/history-and-forks.md'
   - 'Monetary Policy': 'ethereum-basics/monetary-policy.md'
+  - 'Ethereum Foundation': 'ethereum-basics/ethereum-foundation.md'
   - 'Governance': 'ethereum-basics/governance.md'
   - Development: 
       - 'Ethereum Development Basics': 'ethereum-basics/development/ethereum-development-basics.md'
