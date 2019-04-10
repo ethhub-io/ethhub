@@ -92,6 +92,7 @@ nav:
     - 'Hardware': 'using-ethereum/wallets/hardware.md'
     - 'Multi Signature': 'using-ethereum/wallets/multisignature.md'
 - Built on Ethereum:
+  - 'Built on Ethereum': 'built-on-ethereum/built-on-ethereum.md'
   - Open Finance:
     - 'What is Open Finance?': 'built-on-ethereum/open-finance/what-is-open-finance.md'
     - Stablecoins:
@@ -134,17 +135,6 @@ nav:
     - 'WBTC': 'built-on-ethereum/open-finance/wbtc.md'
     - 'Zerion': 'built-on-ethereum/open-finance/zerion.md'
     - 'Nexus Mutual': 'built-on-ethereum/open-finance/nexus-mutual.md'
-  - ERC Token Standards:
-    - 'What are ERC Tokens?': 'built-on-ethereum/erc-token-standards/what-are-erc-tokens.md'
-    - 'ERC20': 'built-on-ethereum/erc-token-standards/erc20.md'
-    - 'ERC621': 'built-on-ethereum/erc-token-standards/erc621.md'
-    - 'ERC721': 'built-on-ethereum/erc-token-standards/erc721.md'
-    - 'ERC721x': 'built-on-ethereum/erc-token-standards/erc721x.md'
-    - 'ERC777': 'built-on-ethereum/erc-token-standards/erc777.md'
-    - 'ERC884': 'built-on-ethereum/erc-token-standards/erc884.md'
-    - 'ERC918': 'built-on-ethereum/erc-token-standards/erc918.md'
-    - 'ERC1155': 'built-on-ethereum/erc-token-standards/erc1155.md'
-    - 'ERC1257': 'built-on-ethereum/erc-token-standards/erc1257.md'
   - Decentralized Exchanges:
     - 'What are Decentralized Exchanges?': 'built-on-ethereum/decentralized-exchanges/what-are-decentralized-exchanges.md'
     - Off-Chain Orderbook:
@@ -216,6 +206,17 @@ nav:
   - Token Curated Registries:
     - 'What are TCRs': 'built-on-ethereum/tcrs/what-are-tcrs.md'
     - 'Types of TCRs': 'built-on-ethereum/tcrs/types-of-tcrs.md'
+  - ERC Token Standards:
+    - 'What are ERC Tokens?': 'built-on-ethereum/erc-token-standards/what-are-erc-tokens.md'
+    - 'ERC20': 'built-on-ethereum/erc-token-standards/erc20.md'
+    - 'ERC621': 'built-on-ethereum/erc-token-standards/erc621.md'
+    - 'ERC721': 'built-on-ethereum/erc-token-standards/erc721.md'
+    - 'ERC721x': 'built-on-ethereum/erc-token-standards/erc721x.md'
+    - 'ERC777': 'built-on-ethereum/erc-token-standards/erc777.md'
+    - 'ERC884': 'built-on-ethereum/erc-token-standards/erc884.md'
+    - 'ERC918': 'built-on-ethereum/erc-token-standards/erc918.md'
+    - 'ERC1155': 'built-on-ethereum/erc-token-standards/erc1155.md'
+    - 'ERC1257': 'built-on-ethereum/erc-token-standards/erc1257.md'
 - Ethereum FAQ:
   - 'Is Ethereum more expensive to use as price rises?': 'questions-about-ethereum/is-ethereum-more-expensive-to-use-as-price-rises.md'
   - 'Why do you have to pay to use Ethereum?': 'questions-about-ethereum/why-do-you-have-to-pay-to-use-ethereum.md'
