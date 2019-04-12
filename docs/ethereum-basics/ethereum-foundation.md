@@ -21,6 +21,10 @@ Despite not being mentioned in the comment by Vitalik, there is also a team dedi
 
 ## Organizational Structure
 
+Ethereum Foundation [incorporated](https://www.zefix.ch/en/search/entity/list/firm/1188682?name=ethereum) as Swiss non-proft Stiftung Ethereum at Zug, Switzerland. Miyaguchi Ayako([@mi_ayako](https://twitter.com/mi_ayako)) is the Executive Director of Stiftung Ethereum since [12.06.2018](https://zg.chregister.ch/cr-portal/auszug/auszug.xhtml;jsessionid=d7b0bdd517c1686815002cfec81c?uid=CHE-292.124.800#)
+
+Ethereum Foundation is the [owner of trademarks](https://trademarks.justia.com/owners/stiftung-ethereum-foundation-ethereum-3479392/): ETHEREUM, ETHER, ENTERPRISE ETHEREUM and ENTERPRISE ETHEREUM ALLIANCE.
+
 Sometime in late 2018, an Ethereum Foundation org chart was published online. It can be found [here](https://notes.ethereum.org/lNSvELX1Qvm4zjXlA7cRkQ).
 
 ## Funding and Burn Rate
