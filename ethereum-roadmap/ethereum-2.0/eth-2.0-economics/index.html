@@ -3718,7 +3718,7 @@
 </tr>
 <tr>
 <td align="left">Base Reward Quotient</td>
-<td align="left">32</td>
+<td align="left">1024</td>
 </tr>
 </tbody>
 </table>
@@ -3733,47 +3733,39 @@
 <tbody>
 <tr>
 <td align="left">Network Validators</td>
-<td align="left">10000000 / 32 = 312,500</td>
+<td align="left">10000000/32 = 312,500</td>
+</tr>
+<tr>
+<td align="left">Validators/Shard</td>
+<td align="left">10000000/(32*1024) = 305</td>
 </tr>
 <tr>
 <td align="left">Epoch/year</td>
-<td align="left">31536000 / (6*64) = 82125</td>
+<td align="left">31536000/(6*64) = 82125</td>
 </tr>
 <tr>
-<td align="left">base_reward_quotient</td>
-<td align="left">INT(SQRT(10000000*1000000000))/32 = 3,125,000</td>
+<td align="left">Reward Quotient</td>
+<td align="left">1024*INT(SQRT(10000000)) = 3,237,888</td>
 </tr>
 <tr>
-<td align="left">base_reward</td>
-<td align="left">32 / 3,125,000 / 5 = 0.000002048</td>
-</tr>
-<tr>
-<td align="left">max_attestation_rewards</td>
-<td align="left">0.000002048 * 312,500 * 5 = 3.2</td>
-</tr>
-<tr>
-<td align="left">max_proposer_rewards</td>
-<td align="left">(1/8) * 3.2 = 0.4</td>
-</tr>
-<tr>
-<td align="left">max_rewards_per_epoch</td>
-<td align="left">3.2 + 0.4 = 3.6</td>
+<td align="left">Reward/epoch</td>
+<td align="left">10000000/3237888 = 3.088</td>
 </tr>
 <tr>
 <td align="left">Generated ETH/Year</td>
-<td align="left">82125*3.088 = 295,650</td>
+<td align="left">82125*3.088 = 253638</td>
 </tr>
 <tr>
 <td align="left">Validator Interest/Year</td>
-<td align="left">253638/10000000 = 2.96%</td>
+<td align="left">253638/10000000 = 2.54%</td>
 </tr>
 <tr>
 <td align="left">Issuance Rate/Year</td>
-<td align="left">253638/104000000 = 0.28%</td>
+<td align="left">253638/104000000 = 0.24%</td>
 </tr>
 </tbody>
 </table>
-<p>So here we can see that with 10,000,000 total network stake, validators are gaining 2.96% a year and the network is inflating at 0.28% a year. We can now take these formulas and generate the sliding scale:</p>
+<p>So here we can see that with 10,000,000 total network stake, validators are gaining 2.54% a year and the network is inflating at 0.24% a year. We can now take these formulas and generate the sliding scale:</p>
 <table>
 <thead>
 <tr>
