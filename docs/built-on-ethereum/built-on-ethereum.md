@@ -27,7 +27,7 @@ A suite of developer tools allow for better standards and easy implementation of
 ## Governance
 Given the decentralized nature of the protocol, it’s important for some applications to have a way to govern their team, project or app.
 
-## Infastructure
+## Infrastructure
 Building out basic infrastructure needs using Ethereum as a base layer.
 
 ## Token Curated Registries
