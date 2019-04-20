@@ -5,7 +5,7 @@ In order to [interact](https://docs.ethhub.io/using-ethereum/transactions/) with
 ## Binance
 Binance is headquartered in Malta and constantly has some of the highest trading volume. Users can buy ETH with fiat or cryptocurrencies.
 
-[Buy ETH on Binance](https://www.binance.com)
+[Buy ETH on Binance](https://www.binance.com/?ref=10900939)
 
 ## Coinbase
 Coinbase is based in San Fransisco and is one of the most reputable and well known exchanges in the world. Users can buy ETH with fiat or cryptocurrencies.
