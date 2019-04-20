@@ -10,7 +10,7 @@ Binance is headquartered in Malta and constantly has some of the highest trading
 ## Coinbase
 Coinbase is based in San Fransisco and is one of the most reputable and well known exchanges in the world. Users can buy ETH with fiat or cryptocurrencies.
 
-[Buy ETH on Coinbase](https://www.coinbase.com)
+[Buy ETH on Coinbase](https://www.coinbase.com/join/527bbccd0c46660a8a00003b)
 
 ## Dether
 Dether is a global, p2p marketplace for buying and selling ETH in person with cash.
