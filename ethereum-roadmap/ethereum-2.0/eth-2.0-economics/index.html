@@ -3746,25 +3746,43 @@
 <h2 id="staking-costs-and-risks">Staking Costs and Risks</h2>
 <p>Validating and earning rewards is not a free lunch. There are many things to consider for one to become a validator. These factors will be considered by every validator when contemplating if the staking rewards are "worth it". They are:</p>
 <ul>
-<li>Computing cost</li>
-<li>Users will need to run validators clients at a minimum and likely a beacon node as well. This requires computing resources.<ul>
+<li>
+<p>Computing cost</p>
+<ul>
+<li>Users will need to run validators clients at a minimum and likely a beacon node as well. This requires computing resources.</li>
 <li>Beacon Node: similar to running geth/parity today, will want to run 1 of these.</li>
 <li>Validator client: lightweight and need one per 32 ETH stake.</li>
 <li>Rough estimates on costs are $120/year for a beacon node and $60/year per validator client.</li>
 </ul>
 </li>
-<li>Capital acquisition and lockup</li>
+<li>
+<p>Capital acquisition and lockup</p>
+<ul>
 <li>The user must acquire the necessary 32 Ether either via purchase or mining.</li>
 <li>Stakers can't directly sell staked Ether while it's staked. </li>
 <li>If the user wants to withdraw funds, there is a set amount of time they must wait to get their ETH back. However, this time has come down considerably in the latest versions of the spec. The minimum withdraw queue wait is 18 hours. This could go up if a lot of people are exiting at the same time but 18 hours will likely be the norm.</li>
-<li>Code Risk</li>
+</ul>
+</li>
+<li>
+<p>Code Risk</p>
+<ul>
 <li>There is some code risk involved in staking that users will take into account. This will be more of a concern early on and likely dissipate over time. It's important to distinguish between client side code risk and consensus code risk. If the network runs into a consensus code break, the network will hard fork and fix it, so that's less of a concern. However, client side code risk is more serious because it'll be hard to distinguish that from a malicious fault.</li>
-<li>General uptime and maintenance cost</li>
+</ul>
+</li>
+<li>
+<p>General uptime and maintenance cost</p>
+<ul>
 <li>Users need to make sure their validator doesn't have downtime or they risk a quadratic leak on their stake.</li>
 <li>If a user has multiple validators, maintenance cost and worry of the infrastructure comes into play.</li>
-<li>Security risk</li>
+</ul>
+</li>
+<li>
+<p>Security risk</p>
+<ul>
 <li>Beyond failures in the client code, stakers are responsible for the security environment of their validator clients (internet connection, operating system, hardware, etc.). If their validator client gets hacked due to a security failure, leading to forced downtime and/or misbehavior, there's currently no way to recover funds.</li>
 <li>This risk is similar to the risk of getting Ether stolen from a wallet due to a hacked laptop or smartphone. With decentralized autonomy comes responsibility.</li>
+</ul>
+</li>
 </ul>
 <h2 id="competition">Competition</h2>
 <p>A very important factor in determining if staking ETH is worth it is comparing the net reward versus competition.</p>
