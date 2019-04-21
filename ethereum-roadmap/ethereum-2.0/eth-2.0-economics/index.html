@@ -764,13 +764,6 @@
   
 </li>
       
-        <li class="md-nav__item">
-  <a href="#spreadsheet-examples" title="Spreadsheet Examples" class="md-nav__link">
-    Spreadsheet Examples
-  </a>
-  
-</li>
-      
       
       
       
@@ -3645,13 +3638,6 @@
   
 </li>
       
-        <li class="md-nav__item">
-  <a href="#spreadsheet-examples" title="Spreadsheet Examples" class="md-nav__link">
-    Spreadsheet Examples
-  </a>
-  
-</li>
-      
       
       
       
@@ -3690,147 +3676,81 @@
 <p>Total Incentive to Stake = Validator Rewards + Network Fees - Cost to run a Validator</p>
 <p>*One factor discussed later that validators will consider as well is competition.</p>
 <h2 id="staking-rewards">Staking Rewards</h2>
-<p>In order to incentivize those that have ETH to stake in the network, there must be some type of reward. It's unlikely that many people would stake their ETH for no reward. Serenity accomplishes this by paying validators a reward for every block they successfully propose. In the <a href="https://github.com/ethereum/eth2.0-specs/blob/master/specs/core/0_beacon-chain.md">latest spec</a> this is a sliding scale based on total network stake. So if total ETH stake is low, the interest rate goes up and as stake rises, it starts to fall.</p>
-<p>We can calculate this scale using the spec. There are a lot of variables in doing this. First up are the <strong>constants</strong>:</p>
+<p>In order to incentivize those that have ETH to stake in the network, there must be some type of reward. It's unlikely that many people would stake their ETH for no reward. Serenity accomplishes this by paying validators a reward for every block they successfully propose and attest. This reward is a sliding scale based on total network stake. So if total ETH stake is low, the interest rate goes up and as stake rises, it starts to fall. The current <a href="https://github.com/ethereum/eth2.0-specs/pull/971">suggested payouts</a> are as follows:</p>
 <table>
 <thead>
 <tr>
-<th align="left"><strong>Constant</strong></th>
-<th align="left">Value</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td align="left">ETH stake</td>
-<td align="left">32</td>
-</tr>
-<tr>
-<td align="left">Shards</td>
-<td align="left">1024</td>
-</tr>
-<tr>
-<td align="left">Slot time (in seconds)</td>
-<td align="left">6</td>
-</tr>
-<tr>
-<td align="left">Epoch Length (in slots)</td>
-<td align="left">64</td>
-</tr>
-<tr>
-<td align="left">Base Reward Quotient</td>
-<td align="left">1024</td>
-</tr>
-</tbody>
-</table>
-<p>From here we can start to calculate the <strong>outputs</strong> using a single <strong>assumption</strong> which is <strong>total network stake.</strong> (Let's assume 10,000,000 in the example)</p>
-<table>
-<thead>
-<tr>
-<th align="left"><strong>Output</strong></th>
-<th align="left">Calculation</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td align="left">Network Validators</td>
-<td align="left">10000000/32 = 312,500</td>
-</tr>
-<tr>
-<td align="left">Validators/Shard</td>
-<td align="left">10000000/(32*1024) = 305</td>
-</tr>
-<tr>
-<td align="left">Epoch/year</td>
-<td align="left">31536000/(6*64) = 82125</td>
-</tr>
-<tr>
-<td align="left">Reward Quotient</td>
-<td align="left">1024*INT(SQRT(10000000)) = 3,237,888</td>
-</tr>
-<tr>
-<td align="left">Reward/epoch</td>
-<td align="left">10000000/3237888 = 3.088</td>
-</tr>
-<tr>
-<td align="left">Generated ETH/Year</td>
-<td align="left">82125*3.088 = 253638</td>
-</tr>
-<tr>
-<td align="left">Validator Interest/Year</td>
-<td align="left">253638/10000000 = 2.54%</td>
-</tr>
-<tr>
-<td align="left">Issuance Rate/Year</td>
-<td align="left">253638/104000000 = 0.24%</td>
-</tr>
-</tbody>
-</table>
-<p>So here we can see that with 10,000,000 total network stake, validators are gaining 2.54% a year and the network is inflating at 0.24% a year. We can now take these formulas and generate the sliding scale:</p>
-<table>
-<thead>
-<tr>
-<th align="left">Total Network Stake</th>
-<th align="left">Validator Interest</th>
-<th align="left">Network Issuance</th>
+<th align="left">ETH validating</th>
+<th align="left">Max annual issuance</th>
+<th align="left">Max annual issuance %</th>
+<th align="left">Max annual return rate</th>
 </tr>
 </thead>
 <tbody>
 <tr>
 <td align="left">1,000,000</td>
-<td align="left">8.02%</td>
-<td align="left">0.08%</td>
-</tr>
-<tr>
-<td align="left">2,000,000</td>
-<td align="left">5.67%</td>
-<td align="left">0.11%</td>
+<td align="left">181,019</td>
+<td align="left">0.17%</td>
+<td align="left">18.10%</td>
 </tr>
 <tr>
 <td align="left">3,000,000</td>
-<td align="left">4.63%</td>
-<td align="left">0.13%</td>
-</tr>
-<tr>
-<td align="left">5,000,000</td>
-<td align="left">3.59%</td>
-<td align="left">0.17%</td>
+<td align="left">313,534</td>
+<td align="left">0.30%</td>
+<td align="left">10.45%</td>
 </tr>
 <tr>
 <td align="left">10,000,000</td>
-<td align="left">2.54%</td>
-<td align="left">0.24%</td>
-</tr>
-<tr>
-<td align="left">20,000,000</td>
-<td align="left">1.79%</td>
-<td align="left">0.34%</td>
+<td align="left">572,433</td>
+<td align="left">0.54%</td>
+<td align="left">5.72%</td>
 </tr>
 <tr>
 <td align="left">30,000,000</td>
-<td align="left">1.46%</td>
-<td align="left">0.42%</td>
-</tr>
-<tr>
-<td align="left">50,000,000</td>
-<td align="left">1.13%</td>
-<td align="left">0.55%</td>
+<td align="left">991,483</td>
+<td align="left">0.94%</td>
+<td align="left">3.30%</td>
 </tr>
 <tr>
 <td align="left">100,000,000</td>
-<td align="left">0.80%</td>
-<td align="left">0.77%</td>
+<td align="left">1,810,193</td>
+<td align="left">1.71%</td>
+<td align="left">1.81%</td>
+</tr>
+<tr>
+<td align="left">134,217,728</td>
+<td align="left">2,097,152</td>
+<td align="left">1.98%</td>
+<td align="left">1.56%</td>
 </tr>
 </tbody>
 </table>
+<p><a href="https://www.reddit.com/r/ethtrader/comments/bffp0n/higher_pos_rewards_proposed/elen71t?utm_source=share&amp;utm_medium=web2x">According to Vitalik Buterin</a>, these are maximum numbers and there are many factors that can decrease the total issuance amounts. They are:</p>
+<ul>
+<li>
+<p>Validators going offline. Combining the individual and collective penalties, every 1% of validators offline cuts total issuance by around 3%, and if more than 33% ever go offline at once many coins could get burned quickly.</p>
+</li>
+<li>
+<p>Validators getting slashed. Probably will happen infrequently in practice.</p>
+</li>
+<li>
+<p>Transaction fees being burned due to EIP 1559 (estimate ~10k ETH/year initially while usage is still low, ramping up to hopefully hundreds of thousands of ETH/year eventually)</p>
+</li>
+<li>
+<p>Transaction fees being burned to pay for state rent (this mechanism could possibly be folded into the gas mechanism and hence the EIP 1559 burn)</p>
+</li>
+</ul>
+<p><a href="https://github.com/ethereum/eth2.0-specs/pull/971#issuecomment-485069932">According to Justin Drake</a>, this could result in the 30,000,000 staked figure about resulting in 0.5% network issuance and 5% staker return.</p>
 <h2 id="fees">Fees</h2>
 <p>Validators earn a cut of the transaction fees that people pay to use the network. This is one area that needs more research but currently, the Ethereum network is paying about 600 ETH a day in fees. At current rate that's 219,000 ETH a year. How this will scale up as we add shards and throughput to the network will be important because it goes into the reward calculation.</p>
 <h2 id="staking-costs-and-risks">Staking Costs and Risks</h2>
 <p>Validating and earning rewards is not a free lunch. There are many things to consider for one to become a validator. These factors will be considered by every validator when contemplating if the staking rewards are "worth it". They are:</p>
 <ul>
 <li>Computing cost</li>
-<li>Users will need to run validators clients at a minimum and likely a beacon node as well. This requires computing resources. The specifics around how much as far as HDD, <a href="https://github.com/ethereum/eth2.0-specs/issues/251#issuecomment-445438093">bandwidth and more are still being figured out</a>.<ul>
-<li>Beacon Node: similar to running geth/parity today</li>
-<li>Validator client: lightweight and need one per 32 ETH stake</li>
+<li>Users will need to run validators clients at a minimum and likely a beacon node as well. This requires computing resources.<ul>
+<li>Beacon Node: similar to running geth/parity today, will want to run 1 of these.</li>
+<li>Validator client: lightweight and need one per 32 ETH stake.</li>
+<li>Rough estimates on costs are $120/year for a beacon node and $60/year per validator client.</li>
 </ul>
 </li>
 <li>Capital acquisition and lockup</li>
@@ -3847,18 +3767,11 @@
 <li>This risk is similar to the risk of getting Ether stolen from a wallet due to a hacked laptop or smartphone. With decentralized autonomy comes responsibility.</li>
 </ul>
 <h2 id="competition">Competition</h2>
-<p>A very important factor in determining if staking ETH is worth it is comparing the net reward versus competition. We should assume that stakers do not necessarily care about securing the Ethereum network but rather they are motivated by profit. There are many different categories of competition to consider:</p>
+<p>A very important factor in determining if staking ETH is worth it is comparing the net reward versus competition.</p>
 <p><strong>Decentralized Finance</strong><br />
 Decentralized finance applications such as <a href="https://compound.finance/">Compound Finance</a>, <a href="https://dharma.io/">Dharma</a> and <a href="https://makerdao.com/">Maker</a>. These applications offer ways for users to lock up ETH and gain a reward (interest). Trying to understand what these offerings are or will be is something that should be considered.</p>
 <p><strong>Other Investment Vehicles</strong><br />
 More traditional investment alternatives such as bonds, certificates of deposit, savings account, etc. can be considered competition to staking as well. While not as directly influential to the decent as DeFi apps, they need to be considered.</p>
-<p><strong>Alternative Staking Coins</strong><br />
-There is over <a href="https://masternodes.online/">500 alternative PoS coins</a>, with a reward structure. Why stake ETH, when one can earn more, with potentially less infrastructure and risk, on another coin?</p>
-<h2 id="spreadsheet-examples">Spreadsheet Examples</h2>
-<ul>
-<li>Basic: Click <a href="https://docs.google.com/spreadsheets/d/1SZBJsTHBFmRlo6aLZ0ex_bnTO3MqQrsZK9yLWqL4r68/edit?usp=sharing">here</a> to see calculations of network and personal staking variables given the latest spec.</li>
-<li>Advanced: Building on the above, this <a href="https://docs.google.com/spreadsheets/d/1rfuWnfg42mBcaHEPr-b0gvXofHfl3fC7ldmKQ8JjfMU/edit?usp=sharing">sheet</a> analyzes the financial return when utilizing different validator architectures.</li>
-</ul>
                 
                   
                 
