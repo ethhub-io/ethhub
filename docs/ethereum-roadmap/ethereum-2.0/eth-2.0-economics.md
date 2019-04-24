@@ -34,7 +34,7 @@ Total Incentive to Stake = Validator Rewards + Network Fees - Cost to run a Vali
 
 In order to incentivize those that have ETH to stake in the network, there must be some type of reward. It's unlikely that many people would stake their ETH for no reward. Serenity accomplishes this by paying validators a reward for every block they successfully propose and attest. This reward is a sliding scale based on total network stake. So if total ETH stake is low, the interest rate goes up and as stake rises, it starts to fall. The current [suggested payouts](https://github.com/ethereum/eth2.0-specs/pull/971) are as follows:
 
-| ETH validating | Max annual issuance | Max annual issuance % | Max annual return rate |
+| ETH validating | Max annual issuance | Max annual network issuance % | Max annual return rate  (for validators) |
 | :--- | :--- | :--- | :--- |
 | 1,000,000 | 181,019 | 0.17% | 18.10% |
 | 3,000,000 | 313,534 | 0.30% | 10.45% |
