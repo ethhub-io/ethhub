@@ -43,7 +43,7 @@ Issuance rate is also impacted by the speed of blocks. There have been a few oth
 
 According to the current [Eth 2.0 spec](https://github.com/ethereum/eth2.0-specs), issuance rate will be greatly reduced as a part of Proof of Stake. There will be a sliding scale between total amount of Ether at stake and annual interest earned by stakers. The current spec would produce the following annual interest and inflation numbers based on total network stake:
 
-| ETH validating | Max annual issuance | Max annual issuance % | Max annual return rate |
+| ETH validating | Max annual issuance | Max annual network issuance % | Max annual return rate  (for validators) |
 | :--- | :--- | :--- | :--- |
 | 1,000,000 | 181,019 | 0.17% | 18.10% |
 | 3,000,000 | 313,534 | 0.30% | 10.45% |
