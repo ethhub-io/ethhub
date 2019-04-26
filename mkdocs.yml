@@ -177,6 +177,7 @@ nav:
     - 'Mintable': 'built-on-ethereum/developer-tools/mintable.md'
     - 'One Click dApp': 'built-on-ethereum/developer-tools/oneclickdapp.md'
     - 'Wallet Connect': 'built-on-ethereum/developer-tools/walletconnect.md'
+    - 'Blocknative': 'built-on-ethereum/developer-tools/Blocknative.md'
   - Identity:
     - 'Identity on Ethereum': 'built-on-ethereum/identity/identity-on-ethereum.md'
     - 'Identity Standards': 'built-on-ethereum/identity/ERC-EIP.md'
