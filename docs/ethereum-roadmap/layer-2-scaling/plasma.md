@@ -21,7 +21,7 @@ After rooting the child-chain in the main chain, a child-chain is created. This 
 
 Now that the child-chain is initialized, the basic rules of the game can be set, deploying the actual game application smart contracts on the child-chain, which contains all of the game logic and rules. The collectibles are still ERC721 tokens, created on the Ethereum main-chain, and then transferred onto the child-chain using the plasma root.
 
-Once the child-chain is active, the block producers periodically commit a validation to the main-chain, essentailly proofing that the current state of the child-chain is valid according to the consensus rules. When a user plays this game, they are executing the application, without ever interacting with the main-chain directly.
+Once the child-chain is active, the block producers periodically commit a validation to the main-chain, essentially proofing that the current state of the child-chain is valid according to the consensus rules. When a user plays this game, they are executing the application, without ever interacting with the main-chain directly.
 
 ## What are the main benefits of Plasma?
 
