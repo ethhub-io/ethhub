@@ -10,7 +10,7 @@ There is a trilemma in blockchain systems that can be visualized in form of a tr
 ![](/assets/images/dcs-triangle.png)
 
 Sharding is an attempt to solve this challenge. It simply means partitioning large chains \(databses\) into smaller, faster ones hence making the entire system more scalable. How?
-To solve scalability, we split the state and history stored on the main chain into shards. Each shard manages its own shit, has its own  transaction history, and the effect of transactions in some shard are limited to that shard only.
+To solve scalability, we split the state and history stored on the main chain into shards. Each shard manages itself, has its own  transaction history, and the effect of transactions in some shard are limited to that shard only.
 
 Examples for this would be:
 * A dApp having a whole shard by himself so that all tx's related to it will be on that one shard only.
