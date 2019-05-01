@@ -63,17 +63,19 @@ description: A list of essential Ethereum’s resources.
 
 * [EthHub Weekly Newsletter](https://newsletter.ethhub.io/)
 * [Week In Ethereum](http://www.weekinethereum.com/)
+* [DeFi Weekly](https://defiweekly.substack.com/)
+* [Dharma Markets Report](https://dharmamarkets.substack.com/)
+* [NFTY News](http://nfty.news/)
 * [Messari](https://messari.io/)
 * [Diar](https://diar.co/)
 * [Token Economy](https://tokeneconomy.co/)
 * [Token Daily](https://www.tokendaily.co/join-newsletter)
 * [The Block](https://www.theblockcrypto.com/)
-* [NFTY News](http://nfty.news/)
+* [OrgTech Weekly](https://orgtech.substack.com/)
 * [Long Reads Sunday](https://www.getrevue.co/profile/nlw)
 * [CryptoChat](https://www.cryptochat.us/)
 * [Proof of Work](https://proofofwork.news/)
 * [Tony Sheng](https://www.tonysheng.com/)
-* [Protocol Weekly](https://8xprotocol.com/protocol-weekly)
 * [Global Coin Research](https://globalcoinresearch.com/)
 
 ### Social Media
