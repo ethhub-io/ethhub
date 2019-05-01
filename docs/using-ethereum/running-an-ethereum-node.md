@@ -125,6 +125,14 @@ Synchronizes an archive node starting at genesis, thoroughly verifying all block
 
 In Parity, this is called pruning which refers to the concept of [state trie pruning](https://ethereum.stackexchange.com/questions/174/what-is-state-trie-pruning-and-how-does-it-work). Setting it to archive basically turns it off.
 
+## Hardware
+
+A consumer-grade laptop will be enough to run a full node, but not an archive node. An archive node does need 2+ TB of disk space, and that disk space cannot be HDD - it must be SSD for both full and archive nodes. Light nodes run fine on SD cards and HDDs.
+
+If a full node goes offline for a while, its data can get corrupted and it can take a while to restore it. For best results, if running your own node, run it on an always-on always-connected device for minimal downtime and maximum reliability. This can be impossible on a laptop and expensive on a desktop PC (500W+) so it's better to use a device that's cheap to build and replace and almost free to run. A Raspberry Pi is enough for light nodes while a full node will run fine on an ARM micro computer. Check out pre-synced pre-built devices by [Block And Mortar](https://blockandmortar.io) and [Ava.do](https://ava.do).
+
+Warning: never plug into your LAN anything you cannot thoroughly inspect and verify. You might be subjecting yourself to DNS hijacking or cryptojacking without knowing it. If the hardware and software aren't open source (at least the assembly part), they aren't safe to use.
+
 ## Resources
 
 * Huge shout out and thanks to Afri Schoedon's blogs [here](https://dev.to/5chdn/ethereum-node-configuration-modes-cheat-sheet-25l8) and [here](https://dev.to/5chdn/the-ethereum-blockchain-size-will-not-exceed-1tb-anytime-soon-58a) which is where a lot of the information on this page came from.
