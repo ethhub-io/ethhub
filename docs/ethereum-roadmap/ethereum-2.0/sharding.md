@@ -5,7 +5,7 @@ description: Information on sharding and how it will work on Ethereum.
 
 ## Summary
 
-There is a trilemma in blockchain systems that can be visualized in form of a triangle known as DCS triangle, what it conevys is "It is impossible to achieve all three Decentralization, Consistency, and Scalability simultaenously. A tradeoff is necessary \(you can choose any two but not all\)". 
+There is a trilemma in blockchain systems that can be visualized in form of a triangle known as DCS triangle, what it conevys is "It is impossible to achieve all three Decentralization, Consistency, and Scalability simultaneously. A tradeoff is necessary \(you can choose any two but not all\)". 
 
 ![](/assets/images/dcs-triangle.png)
 
