@@ -281,6 +281,8 @@ description: A list of essential Ethereum’s resources.
 * [InstaDApp](https://instadapp.io/)
 * [Are we stable yet?](https://www.arewestableyet.net/)
 * [ETH Locked in DeFi](https://mikemcdonald.github.io/eth-defi/)
+* [DeFipulse - Value Locked in DeFi](https://defipulse.com/)
+* [DeFiprime - curated list of DeFi Products](https://defiprime.com)
 * [Aragon DAO Explorer](https://daolist.io/)
 * [Curious Giraffe - Blockchain Analytics](https://www.curiousgiraffe.io/)
 
