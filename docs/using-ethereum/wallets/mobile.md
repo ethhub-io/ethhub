@@ -18,7 +18,7 @@ Phone and other mobile device-based wallets are mobile alternatives to desktop a
 * Rely on the security of your mobile device.
 
 ## Wallets
-
+* [AlphaWallet](https://alphawallet.com/) - No nonsense ethereum wallet with native dapp support
 * [Coinbase Wallet](https://wallet.coinbase.com/)
 * [Status](https://github.com/status-im/status-react) - A free open-source, mobile OS for Ethereum
 * [Trust](https://github.com/TrustWallet/trust-wallet-ios) - Mobile [wallet](https://trustwalletapp.com/) for ERC tokens
