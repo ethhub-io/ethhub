@@ -72,6 +72,7 @@ description: A list of essential Ethereum’s resources.
 * [Token Daily](https://www.tokendaily.co/join-newsletter)
 * [The Block](https://www.theblockcrypto.com/)
 * [OrgTech Weekly](https://orgtech.substack.com/)
+* [On The Chain](https://onthechain.substack.com/)
 * [Long Reads Sunday](https://www.getrevue.co/profile/nlw)
 * [CryptoChat](https://www.cryptochat.us/)
 * [Proof of Work](https://proofofwork.news/)
