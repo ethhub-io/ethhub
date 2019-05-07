@@ -1,6 +1,6 @@
 # Intro to Ethereum Wallets
 
-Wallets allow Ethereum users to both store and use Ether. There are many different ways to accomplish this. Below is a list of each option and a high level overview of what each option is best for.
+Wallets allow Ethereum users to store Ether and to interact with smart contracts on the Ethereum network. There are many different ways to accomplish this. Below is a list of each option and a high level overview of what each option is best for.
 
 ## Desktop Wallets
 [Desktop wallets](desktop.md) are downloadable apps capable of operating on Windows, MacOS, or Linux that allow users to interact with their funds.
