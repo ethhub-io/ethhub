@@ -1,6 +1,6 @@
 # Built on Ethereum
 
-There are many different types of applications that can be built on Ethereum. It’s easiest to break them down into the follow categoreie
+There are many different types of applications that can be built on Ethereum. Most applications today fall into the following categories. 
 
 ## Open Finance
 [Open finance](open-finance/what-is-open-finance.md) refers to a number of decentralized protocols building open financial infrastructure. These protocols are valuable because they're creating the necessary plumbing to enable anyone in the world with an internet connection to access self-sovereign, censorship resistant financial services.
