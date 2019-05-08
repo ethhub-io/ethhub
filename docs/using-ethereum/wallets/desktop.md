@@ -24,6 +24,7 @@ Desktop wallets are downloadable apps capable of operating on Windows, MacOS, or
 * [Exodus](https://exodus.io) - Closed-source wallet that allows for multi-currency interaction/transacting \(requires you to be online to generate transactions\).
 * [Fetch](https://hellofetch.co/download) - Desktop \(and web\) wallet supporting Ethereum and ERC-20 tokens. Integrated with 20 exchanges for real time trading rates and one-click trading.
 * [Tokenary](https://tokenary.io/masos) - a macOS Ethereum and ERC-20 tokens wallet and Safari extension that lets you store your assets and interact with DApps.
+* [HUT34](https://wallet.hut34.io/) - An Ethereum web-based wallet.
 
 ## Resources
 

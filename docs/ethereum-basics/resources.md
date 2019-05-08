@@ -72,6 +72,7 @@ description: A list of essential Ethereum’s resources.
 * [Token Daily](https://www.tokendaily.co/join-newsletter)
 * [The Block](https://www.theblockcrypto.com/)
 * [OrgTech Weekly](https://orgtech.substack.com/)
+* [On The Chain](https://onthechain.substack.com/)
 * [Long Reads Sunday](https://www.getrevue.co/profile/nlw)
 * [CryptoChat](https://www.cryptochat.us/)
 * [Proof of Work](https://proofofwork.news/)
@@ -280,6 +281,8 @@ description: A list of essential Ethereum’s resources.
 * [InstaDApp](https://instadapp.io/)
 * [Are we stable yet?](https://www.arewestableyet.net/)
 * [ETH Locked in DeFi](https://mikemcdonald.github.io/eth-defi/)
+* [DeFipulse - Value Locked in DeFi](https://defipulse.com/)
+* [DeFiprime - curated list of DeFi Products](https://defiprime.com)
 * [Aragon DAO Explorer](https://daolist.io/)
 * [Curious Giraffe - Blockchain Analytics](https://www.curiousgiraffe.io/)
 
