@@ -18,7 +18,6 @@ Phone and other mobile device-based wallets are mobile alternatives to desktop a
 * Rely on the security of your mobile device.
 
 ## Wallets
-* [AlphaWallet](https://alphawallet.com/) - No nonsense ethereum wallet with native dapp support
 * [Coinbase Wallet](https://wallet.coinbase.com/)
 * [Status](https://github.com/status-im/status-react) - A free open-source, mobile OS for Ethereum
 * [Trust](https://github.com/TrustWallet/trust-wallet-ios) - Mobile [wallet](https://trustwalletapp.com/) for ERC tokens
@@ -31,6 +30,7 @@ Phone and other mobile device-based wallets are mobile alternatives to desktop a
 * [Jaxx](https://jaxx.io) - Both a mobile and a desktop wallet. Has integrated Shapeshift support.
 * [eth-wallet-light](https://github.com/NoahHydro/eth-wallet-light) - Lightweight JS Wallet optimized for mobile
 * [Tokenary](https://tokenary.io/) — Native iOS wallet and DApp explorer and browser with cross-device synchronization and macOS support.
+* [AlphaWallet](https://alphawallet.com/) - No nonsense ethereum wallet with native dapp support
 
 ## Resources
 
