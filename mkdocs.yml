@@ -227,6 +227,7 @@ nav:
   - 'Is Ether needed for transaction fees?': 'questions-about-ethereum/is-ether-needed-for-transaction-fees.md'
   - "If Ethereum is open source why can't it be copied?": 'questions-about-ethereum/if-ethereum-is-open-source-why-cant-it-be-copied.md'
 - Other:
+  - 'Ethereum Branding Kit': other/ethereum-style-guide.md
   - 'Ethereum 2.0 AMA': 'other/ethereum-2.0-ama.md'
   - 'Get Involved': 'other/get-involved.md'
   - 'Gitcoin Torch': 'other/gitcoin-torch.md'
