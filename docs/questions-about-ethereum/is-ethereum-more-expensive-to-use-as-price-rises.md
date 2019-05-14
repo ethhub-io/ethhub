@@ -15,7 +15,7 @@ There are many concepts to understand when diving into the answer to this questi
 
 ### Fee market  <a id="fee-market"></a>
 
-Currently, the Ethereum network is working at or near capacity. This means that a [fee market](https://docs.ethhub.io/-LTo-PwFj1VwulVCZAFW/~/drafts/-LUpsUsOLWLhW7Fftje4/primary/using-ethereum/ethereum-network-basics/transactions/fee-market) because some users may be willing to pay more to get to the front of the line while others may not be in as big of a rush. Tools such as [EthGasStation](https://ethgasstation.info/) offer a great view into the current fee market and what it current costs to get a basic or fast transaction through.
+Currently, the Ethereum network is working at or near capacity. This means that a [fee market](https://docs.ethhub.io/-LTo-PwFj1VwulVCZAFW/~/drafts/-LUpsUsOLWLhW7Fftje4/primary/using-ethereum/ethereum-network-basics/transactions/fee-market) is created because some users may be willing to pay more to get to the front of the line while others may not be in as big of a rush. Tools such as [EthGasStation](https://ethgasstation.info/) offer a great view into the current fee market and what it current costs to get a basic or fast transaction through.
 
 You'll notice that so far, we haven't talked about fiat or the cost of a transaction in fiat value. That's because at its core, the fee market is independent from the cost of Ether. Users have the ability to send a transaction from 0 gas price all the way to as high as they'd like and miners have the ability to accept the same range.
 
