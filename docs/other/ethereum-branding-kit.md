@@ -4,4 +4,6 @@ The following branding kits are built by the Ethereum community for Ethereum bas
 
 ## Built on Ethereum
 
-These logos should be used on websites of applications or products that are built on Ethereum.
+[These logos](/assets/files/builtoneth_branding) should be used on websites of applications or products that are built on Ethereum.
+
+![](/assets/images/built_on_ethereum.png)
