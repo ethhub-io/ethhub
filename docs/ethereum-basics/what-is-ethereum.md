@@ -9,5 +9,6 @@ Ethereum is an open-source, permissionless blockchain-based distributed ledger w
 
 * [What is Ethereum](https://blockgeeks.com/guides/ethereum/)
 * [What is Ethereum. Guide for Beginners](https://cointelegraph.com/ethereum-for-beginners/what-is-ethereum)
+* [What is Ethereum and how does it compare to something like Bitcoin?](https://bitfalls.com/2017/09/19/what-ethereum-compare-to-bitcoin/)
 * [Ethereum - Wikipedia](https://en.wikipedia.org/wiki/Ethereum)
 
