@@ -59,5 +59,4 @@ In Ethereum 2.0 \(with Sharding and Proof of Stake implemented\), while a low in
 
 * [Wikipedia](https://en.wikipedia.org/wiki/Ether)
 * [Why Ether is Valuable](https://medium.com/ethhub/why-ether-is-valuable-2b4e39e01eb3)
-* [Why Ether is Valuable](https://medium.com/ethhub/why-ether-is-valuable-2b4e39e01eb3)
 
