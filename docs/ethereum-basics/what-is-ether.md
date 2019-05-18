@@ -13,7 +13,7 @@ Ether \(ETH or Ξ\) is the native cryptocurrency used on the Ethereum network an
 
 Ether is required to transact on the Ethereum network.
 
-As explained in the [gas section](https://docs.ethhub.io/-LTo-PwFj1VwulVCZAFW/~/drafts/-LUpsUsOLWLhW7Fftje4/primary/using-ethereum/ethereum-network-basics/transactions/gas), every transaction that occurs on the network requires a set amount of gas, which is the unit used to measure the computational power required to process a transaction. To process a transaction and include it in a block, miners are expected to be compensated for this task. This is accomplished by setting a gas price with every transaction, which is the cost of 1 unit of gas, denominated in Gwei \(1 ETH = 1,000,000,000 Gwei\).
+As explained in the [gas section](https://docs.ethhub.io/using-ethereum/transactions/#gas), every transaction that occurs on the network requires a set amount of gas, which is the unit used to measure the computational power required to process a transaction. To process a transaction and include it in a block, miners are expected to be compensated for this task. This is accomplished by setting a gas price with every transaction, which is the cost of 1 unit of gas, denominated in Gwei \(1 ETH = 1,000,000,000 Gwei\).
 
 For example, when you simply send ETH from one account to another, this cost 21,000 gas. If you were to set a gas price of 1 Gwei, this transaction would cost 0.000021 ETH.
 
@@ -59,5 +59,3 @@ In Ethereum 2.0 \(with Sharding and Proof of Stake implemented\), while a low in
 
 * [Wikipedia](https://en.wikipedia.org/wiki/Ether)
 * [Why Ether is Valuable](https://medium.com/ethhub/why-ether-is-valuable-2b4e39e01eb3)
-* [Why Ether is Valuable](https://medium.com/ethhub/why-ether-is-valuable-2b4e39e01eb3)
-
