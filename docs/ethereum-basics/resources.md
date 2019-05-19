@@ -132,9 +132,9 @@ description: A list of essential Ethereum’s resources.
 
 #### Ethereum Data Explorers
 
-* [ObservEth](https://observeth.net/main)
 * [Ethtective](https://www.ethtective.com/)
 * [Ethereum Network Statistics](https://ethstats.net)
+* [Ethereum Network Statistics (New)](https://ethstats.io)
 * [Gas Price History Chart](https://gitcoin.co/gas/history?breakdown=weekly)
 * [Ethereum Gas Station](https://ethgasstation.info/)
 * [Ethereum Blockchain on Kaggle](https://www.kaggle.com/bigquery/ethereum-blockchain)
@@ -153,6 +153,7 @@ description: A list of essential Ethereum’s resources.
 * [QuikNode](https://quiknode.io/)
 * [Blockdaemon](https://blockdaemon.com/)
 * [Vipnode](https://vipnode.org/)
+* [NanoPC-T4 plug-and-play](https://blockandmortar.io)
 
 ### Ethereum Development
 
@@ -193,6 +194,7 @@ description: A list of essential Ethereum’s resources.
 * [ForkDelta](https://forkdelta.app)
 * [Paradex](https://paradex.io/)
 * [DEX Watcher](https://dex.watch/)
+* [DEX aggregtor](https://dex.ag/)
 
 ### ICO/Token Resources
 
@@ -218,6 +220,7 @@ description: A list of essential Ethereum’s resources.
 
 * [Delta](https://delta.app/)
 * [Blockfolio](https://www.blockfolio.com/)
+* [Coink](https://itunes.apple.com/US/app/id1336700026?mt=8) (iOS)
 
 ### Vizualizations
 
@@ -270,6 +273,7 @@ description: A list of essential Ethereum’s resources.
 * [Veil - Markets on Everything](https://veil.co/)
 * [Predictions.global - Augur Prediction Markets](https://predictions.global/)
 * [Explore Augur](https://exploreaugur.com/)
+* [Helena Network](https://pm.helena.network/)
 
 #### DEX Tools
 
