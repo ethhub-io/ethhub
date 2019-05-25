@@ -6,19 +6,19 @@ description: Information on Proof of Stake and how it will work on Ethereum.
 ## Summary
 
 Proof of Stake represents a class of consensus algorithms in which validators vote on the next block, and the weight of the vote depends upon the size of its stake.
-It is considered better than Proof of Work (PoW) because of less consumption of electricity, reduced centralization risks, security against different types of 51% attacks and more.
+It is considered an improvement over Proof of Work (PoW) because of less consumption of electricity, reduced centralization risks, security against different types of 51% attacks, and more.
 
 PoS can be classified into two major types:
-* Chain-Based: Rely on the synchronicity of the network
-* BFT-Based: Favour consistency of nodes over availability
+*Chain-Based: Rely on the synchronicity of the network
+*BFT-Based: Favour consistency of nodes over availability
 
-To participate in voting \(becoming a validator\) you are required to stake ETH for which you'll be rewarded with additional ETH at some interest rate plus you'll receive a portion of the network transaction fees.
+To participate in voting \(i.e. to become a validator\) you are required to stake ETH for which you'll be rewarded with additional ETH at some interest rate in addition to receiving a portion of the network transaction fees.
 
 ## What is Proof of Stake
 
-Proof of Stake \(PoS\) is a category of consensus algorithms for public blockchains that depend on a validator's economic stake in the network. In proof of work \(PoW\) based public blockchains \(e.g. Bitcoin and the current implementation of Ethereum\), the algorithm rewards participants who solve cryptographic puzzles in order to validate transactions and create new blocks \(i.e. mining\). In PoS-based public blockchains \(e.g. Ethereum's upcoming Casper implementation\), a set of validators take turns proposing and voting on the next block, and the weight of each validator's vote depends on the size of its deposit \(i.e. stake\). Significant advantages of PoS include security, reduced risk of centralization, and energy efficiency.
+Proof of Stake \(PoS\) is a category of consensus algorithms for public blockchains that depend on a validator's economic stake in the network. In Proof of Work \(PoW\) based public blockchains \(e.g. Bitcoin and the current implementation of Ethereum\), the algorithm rewards participants who solve cryptographic puzzles in order to validate transactions and create new blocks \(i.e. mining\). In PoS-based public blockchains \(e.g. Ethereum's upcoming Casper implementation\), a set of validators take turns proposing and voting on the next block, and the weight of each validator's vote depends on the size of its deposit \(i.e. stake\). Significant advantages of PoS include security, reduced risk of centralization, and energy efficiency.
 
-In general, a PoS algorithm looks as follows. The blockchain keeps track of a set of validators, and anyone who holds the blockchain's base cryptocurrency \(in Ethereum's case, ETH\) can become a validator by sending a special type of transaction that locks up their ETH into a deposit. The process of creating and agreeing to new blocks is then done through a consensus algorithm that all current validators can participate in.
+In general, a PoS algorithm looks as follows. The blockchain keeps track of a set of validators, and anyone who holds the blockchain's base cryptocurrency \(in Ethereum's case, ETH\) can become a validator by sending a special type of transaction that locks up their ETH into a deposit. The process of creating and agreeing to new blocks is then done through a consensus algorithm in which all current validators can and are expected to participate.
 
 There are many kinds of consensus algorithms, and many ways to assign rewards to validators who participate in the consensus algorithm, so there are many "flavors" of PoS. From an algorithmic perspective, there are two major types: chain-based and BFT-style PoS.
 
@@ -26,13 +26,13 @@ In chain-based PoS, the algorithm pseudo-randomly selects a validator during eac
 
 In BFT-style PoS, validators are randomly assigned the right to propose blocks, but agreeing on which block is canonical is done through a multi-round process where every validator sends a "vote" for some specific block during each round, and at the end of the process all \(honest and online\) validators permanently agree on whether or not any given block is part of the chain. Note that blocks may still be chained together; the key difference is that consensus on a block can come within one block, and does not depend on the length or size of the chain after it.
 
-### What are the benefits of Proof of Stake as opposed to Proof of Work?
+### What are the benefits of Proof of Stake over Proof of Work?
 
-* No need to consume large quantities of electricity in order to secure a blockchain \(e.g. it's estimated that both Bitcoin and Ethereum burn over $1 million worth of electricity and hardware costs per day as part of their consensus mechanism\).
-* Because of the lack of high electricity consumption, there is not as much need to issue as many new coins in order to motivate participants to keep participating in the network. It may theoretically even be possible to have negative net issuance, where a portion of transaction fees is "burned" and so the supply goes down over time.
-* Proof of stake opens the door to a wider array of techniques that use game-theoretic mechanism design in order to better discourage centralized cartels from forming and, if they do form, from acting in ways that are harmful to the network \(e.g. like selfish mining in proof of work\).
-* Reduced centralization risks, as economies of scale are much less of an issue. $10 million of coins will get you exactly 10 times higher returns than $1 million of coins, without any additional disproportionate gains because at the higher level you can afford better mass-production equipment, which is an advantage for Proof-of-Work.
-* Ability to use economic penalties to make various forms of 51% attacks vastly more expensive to carry out than proof of work - to paraphrase Vlad Zamfir, "it's as though your ASIC farm burned down if you participated in a 51% attack".
+* No need to consume large quantities of electricity in order to secure a blockchain. \(It's estimated that both Bitcoin and Ethereum burn over $1 million worth of electricity and hardware costs per day as part of their consensus mechanism.\)
+* Because of the lack of high electricity consumption requirements there is not as much need to issue as many new coins in order to motivate participants to keep participating in the network. It may theoretically even be possible to have negative net issuance, where a portion of transaction fees is "burned" thus decreasing the supply over time.
+* Proof of Stake opens the door to a wider array of techniques that use game-theoretic mechanism design in order to more effectively discourage centralized cartels from forming and, if they do form, from acting in ways that are harmful to the network \(such as selfish mining in Proof of Work\).
+* Reduced centralization risks, as economies of scale are much less of an issue. $10 million of coins will get you exactly 10 times higher returns than $1 million of coins, without any additional disproportionate gains because at the higher level you can afford better mass-production equipment, which is an advantage for Proof of Work.
+* Ability to use economic penalties to make various forms of 51% attacks vastly more expensive to carry out than Proof of Work. To paraphrase Vlad Zamfir, "it's as though your ASIC farm burned down if you participated in a 51% attack".
 
 ### What would the equivalent of a 51% attack against Casper look like?
 
@@ -67,9 +67,9 @@ There are two main types of software to be aware of when considering staking on 
   * Stores canonical state, handles peers and incoming sync, propagates blocks and attestations.
   * Has a gRPC server that clients can connect to and provides a public API.
 * Validator clients: Talks to your beacon node and signs blocks. You can have multiple of these at 32 ETH each.
-  * Stores important secrets such as RANDAO reveal, proof of custody for shared data and BLS private key.
-  * Can swap underlying beacon nodes efficiently
-  * Tracks shared state execution data and data blobs the validator has signed.
+  * Stores important secrets such as RANDAO reveal, proof of custody for shared data, and BLS private key.
+  * Can swap underlying beacon nodes efficiently.
+  * Tracks shared state execution data and data blobs that the validator has signed.
 
 This means that there are three possible combinations of software to run:
 
@@ -83,13 +83,13 @@ Still TBD. Ideally we can get minimum requirements for all three setups mentione
 
 ### What happens if I lose my internet connection while staking?
 
-The key to being a validator is making sure you are only voting for blocks and therefore securing the network. Therefore, there is a slight penalty if your validator client goes offline at any point. There are two scenarios where this can happen:
+The key to being a validator is to ensure that you are consistently available to vote for blocks which in turn secures the network. Therefore, there is a slight penalty if your validator client goes offline at any point, in order to encourage validator availability. There are two scenarios where this can happen:
 
 1. If blocks are finalizing and you're offline, you can lose x% of your deposit over a year where x=current\_interest
    * For example, if the current interest rate is 5%, you would lose 0.0137% of your deposit every day, but gain that for every day you're online.
 2. If blocks aren't finalizing \(&gt;33% of validators are offline\) and you're offline, you can lose 60% in 18 days. 
 
-If at any point your deposit drops below 16 ETH, you will be removed from the validator set entirely.
+If at any point your deposit drops below 16 ETH you will be removed from the validator set entirely.
 
 ### How long is my Ether locked up if I stake?
 
