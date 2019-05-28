@@ -5,11 +5,11 @@ description: There are many things to consider in the migration of Eth 1.0 to Et
 
 ## Introduction
 
-There are two important factors to consider when it comes to migrating from the Eth 1.0 chain to the Eth 2.0 chain. First, we have the need to migrate existing Ether over and secondly, we have to transition the state of the chain over.
+There are two important factors to consider when it comes to migrating from the Eth 1.0 chain to the Eth 2.0 chain. First, we have the need to migrate existing ether over and secondly, we have to transition the state of the chain over.
 
 ## Ether Migration
 
-The current proposal is that in [Phase 0](./eth-2.0-phases#phase-0-beacon-chain), users on the Eth 1.0 chain will be able to lock their Ether up in a contract and will be credited with that same amount of Ether on the Beacon Chain in Eth 2.0. At that point, they can stake that Ether and begin to earn rewards on the Eth 2.0 chain. However, there is also some community interest in creating a two way bridge for that Ether between the 1.0 and 2.0 chains. Pros and cons of each bridge are found below.
+The current proposal is that in [Phase 0](./eth-2.0-phases#phase-0-beacon-chain), users on the Eth 1.0 chain will be able to lock their ether up in a contract and will be credited with that same amount of ether on the Beacon Chain in Eth 2.0. At that point, they can stake that ether and begin to earn rewards on the Eth 2.0 chain. However, there is also some community interest in creating a two way bridge for that ether between the 1.0 and 2.0 chains. Pros and cons of each bridge are found below.
 
 **One-way bridge**
 
@@ -38,7 +38,7 @@ I think it would be detrimental to 2.0 development to demand fungibility out the
 
 ..we can’t prove things about the beacon chain until we force 1.0 clients to agree on the current state of the beacon chain \(thus the light client requirement\). That’s why it logically falls after finalizing 1.0 if the community really wants it."
 
-Validators will also be able to sell their Eth2.0 Ether balance to another validator, presumably at some discount to the prevailing Ether price due to the lock-up and risks. Nonetheless, anyone can exit with funds if they really need to.
+Validators will also be able to sell their Eth2.0 ether balance to another validator, presumably at some discount to the prevailing ether price due to the lock-up and risks. Nonetheless, anyone can exit with funds if they really need to.
 This is a nice feature that will hopefully encourage more participants to feel comfortable committing to staking.
 
 Two way transfers between the beacon chain and the shards, as well as between shards, will be available in Phase 2.
