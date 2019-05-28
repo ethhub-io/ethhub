@@ -23,7 +23,7 @@ Ethereum researcher Danny Ryan has [stipulated](https://github.com/ethereum/eth2
 * **Simplicity:** to minimize complexity, even at the cost of some losses in efficiency.
 * **Longevity:** to select all components such that they are either quantum secure or can be easily swapped out for quantum secure counterparts when available.
 
-## Phase 0 - Beacon Chain \(~Late 2019\)
+## Phase 0 - Beacon Chain
 
 ### **What is included?**
 
