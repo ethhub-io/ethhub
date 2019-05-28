@@ -61,7 +61,7 @@ Ethereum-flavoured web assembly is a deterministic smart contract execution engi
 Vitalik also thinks that the EVM should be retired soon and contracts should be on Ewasm with an EVM interpreter.
 
 Since EVM makes use of 256-bit bytecode, smaller computations have to be converted to 256-bit strings before the EVM can process them.
-The WASM code, however, has been designed with production in mind. The elimination of precompiling is an added advantage for eWASM. WASM is an open standard \(backed by google, microsoft, apple\) and because of this it will allow more programming languages \(C/C++, JS, Go\) to be used for smart contract development (Solidity included).
+The WASM code, however, has been designed with production in mind. The elimination of precompiling is an added advantage for eWASM. WASM is an open standard \(backed by Google, Microsoft, Apple\) and because of this it will allow more programming languages \(C/C++, JS, Go\) to be used for smart contract development (Solidity included).
  
 **Challenges**
 
