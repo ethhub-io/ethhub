@@ -15,7 +15,7 @@ The current proposal is that in [Phase 0](./eth-2.0-phases#phase-0-beacon-chain)
 
 | Pros | Cons |
 | :--- | :--- |
-| Steady security, deposits can only go up, possibility to transfer staking balance between validator accounts | High lockup risk for early stakers (~almost 1.5years) |
+| Steady security, deposits can only go up, possibility to transfer staking balance between validator accounts | High lockup risk for early stakers (at least ~1.5 years) |
 | Less complexity for early stages | Potential for two coins via futures market |
 | Keeps forks isolated to each chain | Fragmented community/economics |
  
@@ -38,7 +38,7 @@ I think it would be detrimental to 2.0 development to demand fungibility out the
 
 ..we can’t prove things about the beacon chain until we force 1.0 clients to agree on the current state of the beacon chain \(thus the light client requirement\). That’s why it logically falls after finalizing 1.0 if the community really wants it."
 
-Validators will also be able to sell their Eth2.0 ether balance to another validator, presumably at some discount to the prevailing ether price due to the lock-up and risks. Nonetheless, anyone can exit with funds if they really need to.
+Validators will also be able to sell their Eth 2.0 ether balance to another validator, presumably at some discount to the prevailing ether price due to the lock-up and risks. Nonetheless, anyone can exit with funds if they really need to.
 This is a nice feature that will hopefully encourage more participants to feel comfortable committing to staking.
 
 Two way transfers between the beacon chain and the shards, as well as between shards, will be available in Phase 2.
@@ -72,5 +72,5 @@ Raul put forward some good questions regarding migration during [implementers ca
 
 Before we migrate the state there's going to be validators earning rewards, and overall the cumulative issuance of ether will go up. So what will be the economics of eth throughout?
 * The issuance to validators is generally marginal compared to the issuance of miners. So we don't foresee it being a major concern.
-* Beyond that, there is a proposal floating around to do this hybrid PoW/PoS proposal where you begin to utilize the beacon chain for finality
-* Over time, ultimately, issuance will go down when the system is entirely PoS and during that time, validators can move stake over through this deposit contract. But when state execution exists on shard chains, there will likely be another enshrined transfer contract/deposit mechanism to move from eth1.0 --> eth2.0
+* Beyond that, there is a proposal floating around to do this hybrid PoW/PoS proposal where you begin to utilize the beacon chain for finality,
+* Over time, ultimately, issuance will go down when the system is entirely PoS and during that time, validators can move stake over through this deposit contract. But when state execution exists on shard chains, there will likely be another enshrined transfer contract/deposit mechanism to move from Eth 1.0 &rarr; Eth 2.0,
