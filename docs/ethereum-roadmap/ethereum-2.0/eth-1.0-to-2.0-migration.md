@@ -58,7 +58,7 @@ Again, quoting Danny Ryan: <br/>
 
 Ethereum-flavoured web assembly is a deterministic smart contract execution engine built on the modern, standard WebAssembly virtual machine. It was first proposed in [EIP 48](https://github.com/ethereum/EIPs/issues/48). It may be the future execution engine for smart contracts on the Ethereum blockchain and is the primary candidate to replace EVM (the Ethereum virtual machine) as part of the phase 2 of Ethereum 2.0 roadmap.
 
-Vitalik also thinks that the EVM should be retired soon and contracts should be on Ewasm with an EVM interpreter.
+Buterin also thinks that the EVM should be retired soon and contracts should be on Ewasm with an EVM interpreter ([source](https://medium.com/ethereum-magicians/demystifying-the-road-to-ethereum-2-0-8130ade8d00f#a32b)).
 
 Since EVM makes use of 256-bit bytecode, smaller computations have to be converted to 256-bit strings before the EVM can process them.
 The WASM code, however, has been designed with production in mind. The elimination of precompiling is an added advantage for eWASM. WASM is an open standard \(backed by Google, Microsoft, Apple\) and because of this it will allow more programming languages \(C/C++, JS, Go\) to be used for smart contract development (Solidity included).
