@@ -9,7 +9,7 @@ There are two important factors to consider when it comes to migrating from the 
 
 ## Ether Migration
 
-The current proposal is that in [Phase 0](./#phase-0-beacon-chain-late-2019), users on the Eth 1.0 chain will be able to lock their Ether up in a contract and will be credited with that same amount of Ether on the Beacon Chain in Eth 2.0. At that point, they can stake that Ether and begin to earn rewards on the Eth 2.0 chain. However, there is also some community interest in creating a two way bridge for that Ether between the 1.0 and 2.0 chains. Pros and cons of each bridge are found below.
+The current proposal is that in [Phase 0](./eth-2.0-phases#phase-0-beacon-chain), users on the Eth 1.0 chain will be able to lock their Ether up in a contract and will be credited with that same amount of Ether on the Beacon Chain in Eth 2.0. At that point, they can stake that Ether and begin to earn rewards on the Eth 2.0 chain. However, there is also some community interest in creating a two way bridge for that Ether between the 1.0 and 2.0 chains. Pros and cons of each bridge are found below.
 
 **One-way bridge**
 
@@ -46,7 +46,7 @@ Two way transfers between the beacon chain and the shards, as well as between sh
 
 ## State Migration
 
-The current proposal is that in [Phase 2](./#phase-2-state-execution), the state of the current Eth 1.0 chain will be transferred into a shard on the Eth 2.0 chain. At this point, all information from the Eth 1.0 chain will be available on the Eth 2.0 chain.<br/>
+The current proposal is that in [Phase 2](./eth-2.0-phases#phase-2-state-execution), the state of the current Eth 1.0 chain will be transferred into a shard on the Eth 2.0 chain. At this point, all information from the Eth 1.0 chain will be available on the Eth 2.0 chain.<br/>
 Currently Lighthouse is working upon a state transition [library](https://github.com/libp2p/go-libp2p-daemon).
 
 Again, quoting Danny Ryan:<br/>
