@@ -3655,31 +3655,30 @@
                 
                 <h1 id="plasma">Plasma</h1>
 <h2 id="what-is-plasma">What is Plasma?</h2>
-<p>Plasma is a layer 2 scaling solution that was originally proposed by Vitalik Buterin and Joseph Poon in the original paper <a href="https://plasma.io/plasma.pdf">'Plasma: Scalable Autonomous Smart Contracts'</a>. Since then, many <a href="https://ethresear.ch/t/plasma-world-map-the-hitchhiker-s-guide-to-the-plasma/4333">flavours</a> of Plasma have been proposed that come with different sets of trade-offs.</p>
-<p>Plasma is a technique for conducting off-chain (layer 2) operations while relying on the underlying Ethereum blockchain (layer 1) to ground its security. You may also see Plasma (and similar constructs) referred to as 'child chains'.</p>
+<p>Plasma is a layer-2 scaling solution that was originally proposed by Joseph Poon and Vitalik Buterin in their paper <a href="https://plasma.io/plasma.pdf">"Plasma: Scalable Autonomous Smart Contracts"</a>. Since then, many <a href="https://ethresear.ch/t/plasma-world-map-the-hitchhiker-s-guide-to-the-plasma/4333">flavors</a> of Plasma have been proposed that come with different sets of trade-offs.</p>
+<p>Plasma is a technique for conducting off-chain (layer-2) operations while relying on the underlying Ethereum blockchain (layer-1) to ground its security. You may also see Plasma (and similar constructs) referred to as "child chains."</p>
 <h2 id="how-does-plasma-work">How does Plasma work?</h2>
-<p>In order to understand how Plasma works, let’s take a look at how the technology could be used in a real-world example.</p>
-<p>Let’s imagine that you are creating a digital-collectibles game on Ethereum. The collectibles will be ERC 721 non-fungible tokens (like Cryptokitties), but have certain features and attributes that lets users play against each other — like Pokemon Go. These kinds of complex operations are expensive to do on-chain, so you decide to use Plasma instead for your application.</p>
-<p>Initially, smart-contracts are created on the Ethereum main-chain. These smart contracts serve as the “root” of the Plasma child-chain. This main chain entry contains the basic rules of the child-chain, records state hashes of the child-chain, and allows users to move assets between the Ethereum main-chain and the child-chain.</p>
-<p>After rooting the child-chain in the main chain, a child-chain is created. This child-chain features its own consensus algorithm, independently from the Ethereum main-chain. Let’s use Proof of Stake (PoS) for this example. This consensus mechanism does not rely on miners using electricity to run a hashing algorithm but rather the block producers are economically incentivized to remain truthful by a collateral that will be destroyed in case of a bad actor behaving fraudulently. This consensus algorithm generally allows for faster block-creation times than PoW.</p>
-<p>Now that the child-chain is initialized, the basic rules of the game can be set, deploying the actual game application smart contracts on the child-chain, which contains all of the game logic and rules. The collectibles are still ERC721 tokens, created on the Ethereum main-chain, and then transferred onto the child-chain using the plasma root.</p>
-<p>Once the child-chain is active, the block producers periodically commit a validation to the main-chain, essentially proofing that the current state of the child-chain is valid according to the consensus rules. When a user plays this game, they are executing the application, without ever interacting with the main-chain directly.</p>
+<p>In order to understand how Plasma works, let's take a look at how the technology could be used in a real-world example.</p>
+<p>Let's imagine that you are creating a digital-collectibles game on Ethereum. The collectibles will be ERC 721 non-fungible tokens (like Cryptokitties), but have certain features and attributes that lets users play against each other—like Pokemon Go. These kinds of complex operations are expensive to do on-chain, so you decide to use Plasma instead for your application.</p>
+<p>Initially, smart-contracts are created on the Ethereum main chain. These smart contracts serve as the "root" of the Plasma child chain. This main chain entry contains the basic rules of the child chain, records block commitments of the child chain, and allows users to move assets between the Ethereum main chain and the child chain.</p>
+<p>After rooting the child chain in the main chain, a child chain is created. This child chain features its own consensus algorithm, independent from the Ethereum main chain. As Plasma aims to provide security guarantees regardless of the consensus protocol used for the child chain, maximum performance is achieved by using single-operator Proof-of-Authority (PoA) consensus.</p>
+<p>Now that the child chain is initialized, the basic rules of the game can be set, deploying the actual game application smart contracts on the child chain, which contain all of the game logic and rules. The collectibles are still ERC 721 tokens, created on the Ethereum main chain, and then transferred onto the child chain using the Plasma root.</p>
+<p>Once the child chain is active, the block producer(s) periodically commit blocks to the main chain. When a user plays this game, they are executing the application, without ever interacting with the main chain directly.</p>
 <h2 id="what-are-the-main-benefits-of-plasma">What are the main benefits of Plasma?</h2>
 <ul>
 <li>Plasma will help the Ethereum blockchain scale by taking operations off-chain.</li>
 <li>Because only a much smaller number of nodes (i.e. block producers) have to process transactions, fees can be much lower and operations can be faster.</li>
-<li>Plasma will help to get rid of unnecessary data in the main-chain.</li>
+<li>Plasma will help to get rid of unnecessary data in the main chain.</li>
 <li>Plasma is compatible with various on-chain scaling solutions such as sharding, various block sizes, etc.</li>
 </ul>
 <h2 id="does-plasma-have-drawbacks">Does Plasma have drawbacks?</h2>
-<p>The main concern related to the current Plasma proposal is what would happen if everyone using a child-chain tried to exit the sidechain at the same time. In the case of a mass withdrawal, there might not be enough capacity on the Ethereum main-chain to process everyone’s transactions within the challenge period, meaning users could lose funds. Fortunately, there are many possible techniques for preventing this, e.g. by extending the challenge period in a way that is responsive to demand for withdrawals.</p>
+<p>The main concern related to the current Plasma proposal is what would happen if everyone using a child chain tried to exit the sidechain at the same time. In the case of a mass withdrawal, there might not be enough capacity on the Ethereum main chain to process everyone's transactions within the challenge period, meaning users could lose funds. Fortunately, there are many possible techniques for preventing this, e.g. by extending the challenge period in a way that is responsive to demand for withdrawals.</p>
 <h2 id="resources">Resources</h2>
 <ul>
-<li><a href="https://medium.com/@argongroup/ethereum-plasma-explained-608720d3c60e">Ethereum Plasma Explained</a></li>
 <li><a href="https://blog.omisego.network/construction-of-a-plasma-chain-0x1-614f6ebd1612">Construction of a Plasma Chain</a></li>
-<li><a href="https://docs.google.com/spreadsheets/d/1Hs1-ddKwLG8xrqIXFrYUJzTEH2SjsATFXhgISG1ypzI/edit#gid=0">Plasma Design Comparison</a></li>
 <li><a href="https://medium.com/loom-network/million-user-dapps-on-ethereum-an-introduction-to-application-specific-sidechains-c0fdc288c5e5">An Introduction to Application-Specific Sidechains</a></li>
-<li><a href="https://podcast.ethhub.io/scaling-ethereum-with-plasma-georgios-konstantopoulos-of-loom">Scaling Ethereum with Plasma: Georgios Konstantopoulos of Loom (Podcast)</a></li>
+<li><a href="https://podcast.ethhub.io/website/scaling-ethereum-with-plasma-georgios-konstantopoulos-of-loom">Scaling Ethereum with Plasma: Georgios Konstantopoulos of Loom (Podcast)</a></li>
+<li><a href="https://media.consensys.net/the-state-of-plasma-1-6b48c1e4b295">The State of Plasma: #1</a>, <a href="https://media.consensys.net/the-state-of-ethereum-layer-2-protocol-development-2-f22b2603abd6">The State of Layer-2 Protocol Development #1</a></li>
 </ul>
                 
                   

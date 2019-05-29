@@ -3627,9 +3627,9 @@
                 
                 <h1 id="eth-10-to-20-migration">Eth 1.0 to 2.0 Migration</h1>
 <h2 id="introduction">Introduction</h2>
-<p>There are two important factors to consider when it comes to migrating from the Eth 1.0 chain to the Eth 2.0 chain. First, we have the need to migrate existing Ether over and secondly, we have to transition the state of the chain over.</p>
+<p>There are two important factors to consider when it comes to migrating from the Eth 1.0 chain to the Eth 2.0 chain. First, we have the need to migrate existing ether over and secondly, we have to transition the state of the chain over.</p>
 <h2 id="ether-migration">Ether Migration</h2>
-<p>The current proposal is that in <a href="./#phase-0-beacon-chain-late-2019">Phase 0</a>, users on the Eth 1.0 chain will be able to lock their Ether up in a contract and will be credited with that same amount of Ether on the Beacon Chain in Eth 2.0. At that point, they can stake that Ether and begin to earn rewards on the Eth 2.0 chain. However, there is also some community interest in creating a two way bridge for that Ether between the 1.0 and 2.0 chains. Pros and cons of each bridge are found below.</p>
+<p>The current proposal is that in <a href="./eth-2.0-phases#phase-0-beacon-chain">phase 0</a>, users on the Eth 1.0 chain will be able to lock their ether up in a contract and will be credited with that same amount of ether on the Beacon Chain in Eth 2.0. At that point, they can stake that ether and begin to earn rewards on the Eth 2.0 chain. However, there is also some community interest in creating a two way bridge for that ether between the 1.0 and 2.0 chains. Pros and cons of each bridge are found below.</p>
 <p><strong>One-way bridge</strong></p>
 <table>
 <thead>
@@ -3640,8 +3640,8 @@
 </thead>
 <tbody>
 <tr>
-<td align="left">Steady security, deposits can only go up, possibility to transfer staking balance between validator accounts</td>
-<td align="left">High lockup risk for early stakers (~almost 1.5years)</td>
+<td align="left">Steady security, deposits can only go up</td>
+<td align="left">High lockup risk for early stakers (at least ~1.5 years)</td>
 </tr>
 <tr>
 <td align="left">Less complexity for early stages</td>
@@ -3667,7 +3667,7 @@
 <td align="left">High volatility of total stake</td>
 </tr>
 <tr>
-<td align="left">Keeps just a single ETH coin, no Beacon ETH (BETH)</td>
+<td align="left">Keeps just a single ETH coin, no Beacon ETH (BETH) (<a href="https://medium.com/@fubuloubu/economically-linking-ethereum-1-0-2-0-e5af0fec02ed">only if issuance of Eth 1.0 is changed</a>)</td>
 <td align="left">Additional code complexity in early stages</td>
 </tr>
 <tr>
@@ -3676,36 +3676,34 @@
 </tr>
 </tbody>
 </table>
-<p>Having a one-way bridge promises security, less complexity, even the lockup risk shouldn't matter much as the validator will earn interest on performing honestly.</p>
-<p>Danny Ryan tells us more about why two-way bridge is not included in Phase 0:</p>
+<p>Having a one-way bridge promises security, less complexity, but the lockup risk is significant as ether from Eth 1.0 is effectively burned. Transfers in phase 0 have been <a href="https://github.com/ethereum/eth2.0-specs/pull/965">disabled since version 0.6.0 of the spec</a>, with no current plans of being re-enabled. As resuming validator duties is tied to the transfer mechanism, this also means that if you decide to stop validating for a bit, you can't resume validating until such a time as the transfer functionality is implemented.</p>
+<p>Danny Ryan tells us more about why two-way bridge is not included in phase 0:</p>
 <p>"The more we encumber the 1.0 consensus with 2.0, the more we tie the development and fork processes which would likely slow down the shipping/iterating on 2.0. It is not technically infeasible. It would require 2.0 light clients to be run by all 1.0 clients and some changes to the 1.0 consensus rules allowing for a similar burn/receipt method in the opposite direction. If we were to create fungibility, the path would be (1) release 2.0 beacon chain, (2) once stable beacon chain and light clients exist then require 1.0 clients to be light clients of 2.0 and finalize 1.0 with 2.0 and expose beacon chain state root to 1.0 (3) add additional consensus rules to 1.0 and 2.0 to handle the reminting on 1.0 with proof of burn on 2.0.</p>
 <p>I think it would be detrimental to 2.0 development to demand fungibility out the gate. Over time as light clients are released and we begin to finalize 1.0 with 2.0 if the community wants fungibility, then we can assess proposals then.</p>
-<p>..we can’t prove things about the beacon chain until we force 1.0 clients to agree on the current state of the beacon chain (thus the light client requirement). That’s why it logically falls after finalizing 1.0 if the community really wants it."</p>
-<p>Validators will also be able to sell their Eth2.0 Ether balance to another validator, presumably at some discount to the prevailing Ether price due to the lock-up and risks. Nonetheless, anyone can exit with funds if they really need to.
+<p>...we can't prove things about the beacon chain until we force 1.0 clients to agree on the current state of the beacon chain (thus the light client requirement). That's why it logically falls after finalizing 1.0 if the community really wants it."</p>
+<p>Validators will also be able to sell their Eth 2.0 ether balance to another validator, presumably at some discount to the prevailing ether price due to the lock-up and risks. Nonetheless, anyone can exit with funds if they really need to.
 This is a nice feature that will hopefully encourage more participants to feel comfortable committing to staking.</p>
-<p>Two way transfers between the beacon chain and the shards, as well as between shards, will be available in Phase 2.</p>
+<p>Using BETH on shard chains (for smart contracts) will be available in phase 2.</p>
 <h2 id="state-migration">State Migration</h2>
-<p>The current proposal is that in <a href="./#phase-2-state-execution">Phase 2</a>, the state of the current Eth 1.0 chain will be transferred into a shard on the Eth 2.0 chain. At this point, all information from the Eth 1.0 chain will be available on the Eth 2.0 chain.<br/>
-Currently Lighthouse is working upon a state transition <a href="https://github.com/libp2p/go-libp2p-daemon">library</a>.</p>
-<p>Again, quoting Danny Ryan:<br/>
-"Once the state execution layer is in the new 1024 shards, users will be able to transfer ETH directly to the shards from the PoW chain. In the long term, the plan is to roll the PoW state into one of the shards."
-<br/></p>
-<p><strong>Replacing EVM with eWASM?</strong> <br/></p>
+<p>The current proposal is that in <a href="./eth-2.0-phases#phase-2-state-execution">phase 2</a>, the state of the current Eth 1.0 chain will be transferred into a shard on the Eth 2.0 chain. At this point, all information from the Eth 1.0 chain will be available on the Eth 2.0 chain.</p>
+<p>Currently Lighthouse is working upon a state transition <a href="https://github.com/libp2p/go-libp2p-daemon">library</a>.</p>
+<p>Again, quoting Danny Ryan: <br/>
+"Once the state execution layer is in the new 1024 shards, users will be able to transfer ETH directly to the shards from the PoW chain. In the long term, the plan is to roll the PoW state into one of the shards."</p>
+<p><strong>Replacing EVM with eWASM?</strong></p>
 <p>Ethereum-flavoured web assembly is a deterministic smart contract execution engine built on the modern, standard WebAssembly virtual machine. It was first proposed in <a href="https://github.com/ethereum/EIPs/issues/48">EIP 48</a>. It may be the future execution engine for smart contracts on the Ethereum blockchain and is the primary candidate to replace EVM (the Ethereum virtual machine) as part of the phase 2 of Ethereum 2.0 roadmap.</p>
-<p>Vitalik also thinks that the EVM should be retired soon and contracts should be on Ewasm with an EVM interpreter.</p>
+<p>Buterin also thinks that the EVM should be retired soon and contracts should be on Ewasm with an EVM interpreter (<a href="https://medium.com/ethereum-magicians/demystifying-the-road-to-ethereum-2-0-8130ade8d00f#a32b">source</a>).</p>
 <p>Since EVM makes use of 256-bit bytecode, smaller computations have to be converted to 256-bit strings before the EVM can process them.
-The WASM code, however, has been designed with production in mind. The elimination of precompiling is an added advantage for eWASM. WASM is an open standard (backed by google, microsoft, apple) and because of this it will allow more programming languages (C/C++, JS, Go) to be used for smart contract development (Solidity included).</p>
-<p><strong>Challenges</strong> <br/></p>
+The WASM code, however, has been designed with production in mind. The elimination of precompiling is an added advantage for eWASM. WASM is an open standard (backed by Google, Microsoft, Apple) and because of this it will allow more programming languages (C/C++, JS, Go) to be used for smart contract development (Solidity included).</p>
+<p><strong>Challenges</strong></p>
 <ul>
-<li>There are speculations that phase 2 might be divided into sub-forks and there will be a fork during/after phase2 to bring in the eth1.0 state into a contract.
- "A dapp will have to choose what shard it wants to be on and that decision will matter because cross shard communication will definitely be slow at base layer", according to buterin.</li>
-<li>Competition between miners in PoW and validators in PoS, requires a robust finality system</li>
+<li>There are speculations that phase 2 might be divided into sub-forks and there will be a fork during/after phase 2 to bring in the Eth 1.0 state into a contract.
+ "A dapp will have to choose what shard it wants to be on and that decision will matter because cross-shard communication will definitely be slow at base layer," according to Buterin.</li>
 </ul>
-<p>Raul put forward some good questions regarding migration during <a href="https://github.com/ethereum/eth2.0-pm/blob/master/eth2.0-implementers-calls/call_008.md">implementers call</a></p>
-<p>Before we migrate the state there's going to be validators earning rewards, and overall the cumulative issuance of ether will go up. So what will be the economics of eth throughout?
+<p>Raul put forward some good questions regarding migration during the <a href="https://github.com/ethereum/eth2.0-pm/blob/master/eth2.0-implementers-calls/call_008.md">implementers call</a>.</p>
+<p>Before we migrate the state there's going to be validators earning rewards, and overall the cumulative issuance of ether will go up. So what will be the economics of ETH throughout?
 <em> The issuance to validators is generally marginal compared to the issuance of miners. So we don't foresee it being a major concern.
-</em> Beyond that, there is a proposal floating around to do this hybrid PoW/PoS proposal where you begin to utilize the beacon chain for finality
-* Over time, ultimately, issuance will go down when the system is entirely PoS and during that time, validators can move stake over through this deposit contract. But when state execution exists on shard chains, there will likely be another enshrined transfer contract/deposit mechanism to move from eth1.0 --&gt; eth2.0</p>
+</em> Beyond that, <a href="https://ethereum-magicians.org/t/finality-gadget-for-ethereum1x-working-group/3177">there is a proposal floating around</a> to do this hybrid PoW/PoS proposal where you begin to utilize the beacon chain for finality,
+* Over time, ultimately, issuance will go down when the system is entirely PoS and during that time, validators can move stake over through this deposit contract. But when state execution exists on shard chains, there will likely be another enshrined transfer contract/deposit mechanism to move from Eth 1.0 &rarr; Eth 2.0,</p>
                 
                   
                 
