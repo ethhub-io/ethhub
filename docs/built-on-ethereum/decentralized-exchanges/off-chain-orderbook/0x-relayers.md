@@ -10,4 +10,4 @@
 | ERC dEX | [https://app.ercdex.com](https://app.ercdex.com) |
 | The Ocean | [https://app.theocean.trade/](https://app.theocean.trade/) |
 | Token Jar | [https://tokenjar.io/](https://tokenjar.io/) |
-
+| Bamboo Relay | [https://bamboorelay.com/](https://bamboorelay.com/) |
