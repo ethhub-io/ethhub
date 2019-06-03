@@ -68,6 +68,7 @@ description: A list of essential Ethereum’s resources.
 * [NFTY News](http://nfty.news/)
 * [Messari](https://messari.io/)
 * [Diar](https://diar.co/)
+* [Coin Metrics](https://coinmetrics.substack.com/)
 * [Token Economy](https://tokeneconomy.co/)
 * [Token Daily](https://www.tokendaily.co/join-newsletter)
 * [The Block](https://www.theblockcrypto.com/)
