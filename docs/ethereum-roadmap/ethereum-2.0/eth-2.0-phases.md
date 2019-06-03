@@ -9,10 +9,6 @@ _This page is a WIP._
 
 Ethereum’s Serenity upgrade will bring Sharding, Proof of Stake, a new virtual machine \(eWASM\) and more. It’s important to understand that this upgrade will not take place at a single point in time - instead, it will be rolled out in phases. This document attempts to be a reference point for these phases and what each includes.
 
-To start, here is a [nice visual](https://docs.google.com/presentation/d/1G5UZdEL71XAkU5B2v-TC3lmGaRIu2P6QSeF8m3wg6MU/edit#slide=id.g3c326bb661_0_58) from Ethereum researcher Hsiao-Wei Wang on what the different layers and phases look like.
-
-![](/assets/images/serenity.png)
-
 ## Design Goals
 
 Ethereum researcher Danny Ryan has [stipulated](https://github.com/ethereum/eth2.0-specs#design-goals) 5 distinct design goals for Ethereum 2.0:
