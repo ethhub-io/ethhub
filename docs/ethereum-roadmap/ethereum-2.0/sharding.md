@@ -11,13 +11,6 @@ There is a trilemma in blockchain systems that can be visualized in form of a tr
 
 Sharding is an attempt to solve this challenge. It simply means partitioning large chains \(databses\) into smaller, faster ones hence making the entire system more scalable. How?
 To solve scalability, we split the state and history stored on the main chain into shards. Each shard manages itself, has its own  transaction history, and the effect of transactions in some shard are limited to that shard only.
-=======
-There is a trilemma in blockchain systems that can be visualized in form of a triangle known as DCS triangle, what it conevys is "It is impossible to achieve all three Decentralization, Consistency, and Scalability simultaneously. A tradeoff is necessary \(you can choose any two but not all\)". 
-
-![](/assets/images/dcs-triangle.png)
-
-Sharding is an attempt to solve this challenge. It simply means partitioning large chains \(databases\) into smaller, faster ones hence making the entire system more scalable. How?
-To solve scalability we split the state and history stored on main chain into shards. Each shard manages it's own shit, has it's own  transaction history, and the effect of transactions in some shard are limited to that shard only.
 
 Examples for this would be:
 * A dApp having a whole shard by himself so that all tx's related to it will be on that one shard only.
