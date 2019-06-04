@@ -44,11 +44,10 @@ description: A list of essential Ethereum’s resources.
 
 * [Into the Ether](https://podcast.ethhub.io/)
 * [Epicenter](https://epicenter.tv/)
-* [An Ethereum Podcast](https://thebitcoinpodcast.com/category/an-ethereum-podcast/)
+* [Dose of Ether](https://thebitcoinpodcast.com/category/dose-of-ether/)
 * [Unchained](https://www.forbes.com/podcasts/unchained/#39e6bd005b4f)
 * [Unconfirmed](https://unconfirmed.libsyn.com/)
 * [Zero Knowledge](https://www.zeroknowledge.fm/)
-* [51pct Podcast](https://51pct.io/podcast/)
 * [The Smartest Contract](https://itunes.apple.com/us/podcast/the-smartest-contract/id1377520772?mt=2)
 * [Flippening for Crypto Investors](https://p.nomics.com/podcast)
 * [Block Zero](http://www.blockzero.show/)
