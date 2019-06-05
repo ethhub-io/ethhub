@@ -3679,14 +3679,14 @@
                 
                 <h1 id="dutchx">DutchX</h1>
 <h2 id="description">Description</h2>
-<p>The DutchX is a decentrealized exchange for ERC-20 tokens based on the Dutch auction principle. DutchX uses the <a href="https://en.wikipedia.org/wiki/Dutch_auction">Dutch auction</a> principle which attempts to fix issues faced by other decentralized exchanges such as front running, issues with low liquidity, and third party risk.</p>
+<p>The DutchX is a decentralized exchange for ERC-20 tokens. DutchX uses the <a href="https://en.wikipedia.org/wiki/Dutch_auction">Dutch auction</a> principle which attempts to fix issues faced by other decentralized exchanges such as front running, low liquidity and third party risk.</p>
 <h2 id="how-an-auction-works">How an auction works</h2>
 <ol>
 <li>Sellers deposit tokens they want to sell to the exchange and pick what token they want in return.</li>
-<li>Once $1,000 threshold in deposits for the pair is reached, the auction starts at 2x the previous closing price.</li>
-<li>Price of the pair starts falling according to a price decreasing function.</li>
-<li>Bidders can now begin to place their bids and can immediately claim tokens bought even if auction isn't closed yet.</li>
-<li>Once all sell quantity is accounted for, the auction clears and everyone who bid pays that price for their tokens. This means those who bid higher can come back and claim more tokens.</li>
+<li>Once a $1,000 threshold in deposits for the pair is reached, the auction starts at 2x the previous closing price.</li>
+<li>The price of the pair starts falling according to a price decreasing function.</li>
+<li>Bidders can now begin to place their bids and immediately claim tokens bought even if the auction hasn't cleared yet.</li>
+<li>Once the entire sell side is accounted for, the auction clears and everyone who bid pays that price for the tokens. This means those who bid higher can come back and claim more tokens.</li>
 </ol>
 <h2 id="interface-examples">Interface examples</h2>
 <p>Sellers:
