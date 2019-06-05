@@ -138,7 +138,7 @@ nav:
   - Decentralized Exchanges:
     - 'What are Decentralized Exchanges?': 'built-on-ethereum/decentralized-exchanges/what-are-decentralized-exchanges.md'
     - Auction Based:
-      - 'DutchX': 'built-on-ethereum/decentralized-exchanges/auction-based/DutchX.md'
+      - 'DutchX': 'built-on-ethereum/decentralized-exchanges/auction-based/dutchx.md'
     - Off-Chain Orderbook:
       - 'What are Off-Chain Orderbook Decentralized Exchanges?': 'built-on-ethereum/decentralized-exchanges/off-chain-orderbook/what-is-off-chain-orderbook.md'
       - '0x-Instant': 'built-on-ethereum/decentralized-exchanges/off-chain-orderbook/0x-instant.md'
