@@ -9,6 +9,7 @@ Decentralized Exchanges \(sometimes referred to as 'non-custodial exchanges'\) a
 
 ## Different types of DEXs:
 
+* Auction Based
 * Off-chain order book
 * Peer-to-peer
 * Pool-based
