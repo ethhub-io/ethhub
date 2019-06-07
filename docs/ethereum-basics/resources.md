@@ -308,3 +308,4 @@ description: A list of essential Ethereum’s resources.
 * [The Brooklyn Project](https://thebkp.com/)
 * [Crypto Grant Programs](https://github.com/fredexed/crypto-funding-ops)
 * [Plasma Map](https://ethresear.ch/t/plasma-world-map-the-hitchhiker-s-guide-to-the-plasma/4333)
+* [Ethereum.org Swag Store](https://swag.ethereum.org/)
