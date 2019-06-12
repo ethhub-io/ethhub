@@ -32,9 +32,9 @@ These proofs use an interactive funds-withdrawal protocol. In order to withdraw 
 
 If Alice keeps 1 ETH in a Plasma chain, for instance, it gets recorded into a block, whereas the consensus is met due to fraud proofs. Further commitments are enforced and submitted on the base chain, and her funds are held in its smart contract:
 
-![](/assets/images/how-plasma-works.jpeg)
+![](/docs/assets/images/how-plasma-works.jpeg)
 
-![](/assets/images/how-plasma-works1.jpeg)
+![](/docs/assets/images/how-plasma-works1.jpeg)
 
 ## Plasma: Pros and Cons
 Undoubtely, plasma is a good solution for scalability issues but Plasma does have some drawbacks. Each new plasma iteration reveals a new research problem that needs to be addressed, leading to multiple Plasma variants that navigate deployment trade-offs in different ways. We will compare these different variants in detail below but let's first compare the pros and cons of plasma and it's variants.
