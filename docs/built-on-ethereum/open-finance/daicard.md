@@ -4,7 +4,7 @@
 
 [Dai Card](https://daicard.io) is a Dai payment channel solution created by [Connext](https://connext.network/). The Dai Card uses  payment channel hubs - a L2 solution built on top of Ethereum - to allow for instant and micro-fee transactions for users and developers.
 
-![](/assets/images/daicard_splash.png)
+![](/docs/assets/images/daicard_splash.png)
 
 ## How to Use the Dai Card
 
@@ -14,11 +14,11 @@ There are multiple ways to get funds onto your Dai Card. The first is to directl
 
 Note: the beta version of the Dai Card imposes a $30 limit and will refund any deposits above this amount.
 
-![](/assets/images/daicard_deposit.png)
+![](/docs/assets/images/daicard_deposit.png)
 
 You can also request funds from someone else who is already using a Dai Card. This can be done by clicking the request button and entering in how much you’d like to request. A link will be generated and can be sent to the person you want to request from. The first transaction that is sent to your Card will take some extra time to execute. This is because, in the background, an onchain transaction is being done to set up your Card.
 
-![](/assets/images/daicard_request.png)
+![](/docs/assets/images/daicard_request.png)
 
 ### Sending Funds
 
@@ -26,7 +26,7 @@ There are two different ways to send funds. If the receiver already has a Dai Ca
 
 If the receiver has never used a Dai Card before, you can use a Link payment instead. Link payments generate an unspent payment object which can be "claimed" by the recipient that produces the correct secret. Note that the link generated here contains the secret to redeem funds in plaintext, so you should be careful with it.
 
-![](/assets/images/daicard_send.png)
+![](/docs/assets/images/daicard_send.png)
 
 ### Settings
 
@@ -34,7 +34,7 @@ It’s possible to backup your Card's seed and restore it in any browser, at any
 
 You can also restore this seed in other wallets such as Metamask, MyCrypto or TrustWallet. However, this will not give you access to the channel funds themselves, only the signing key used to control those funds.
 
-![](/assets/images/daicard_settings.png)
+![](/docs/assets/images/daicard_settings.png)
 
 ## FAQ
 
