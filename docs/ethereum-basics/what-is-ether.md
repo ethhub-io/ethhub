@@ -35,7 +35,7 @@ It is highly unlikely that the Ethereum protocol will ever implement economic ab
 
 In Proof of Work systems, miners compete with each other to find a block and thus be rewarded for their work \(in the form of the native crypto-asset of the protocol\). As the price of the asset increases, it naturally brings with it more miners, which then increases the network difficulty. As the network difficulty increases, it becomes increasingly difficult for miners to find a block which results in large scale mining operations \(commonly referred to as “mining farms”\) being one of the only profitable ways to mine on a Proof of Work network \(once it reaches a certain size\). Miners can also join ‘mining pools’ in order to increase their chances of finding a block and thus increase their rewards.
 
-It would currently cost an individual or group a large amount of money to successfully attack or take control of either the Bitcoin or Ethereum PoW blockchains.uh
+It would currently cost an individual or group a large amount of money to successfully attack or take control of either the Bitcoin or Ethereum PoW blockchains
 
 When Ethereum transitions to Proof of stake under Ethereum 2.0, it is expected that users will be able to stake 32 Ether per validator and receive rewards for their work in the form of additional Ether \(at a dynamic issuance rate , discussed later in this essay\).
 
