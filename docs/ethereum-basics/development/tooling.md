@@ -26,7 +26,7 @@ For those who wish to tackle smart contract development on Ethereum, there are a
 
 ### Test blockchain networks
 
-- [Ganache](https://github.com/trufflesuite/ganache) - App for test Ethereum blockchain with visual UI and logs
+- [Ganache](https://github.com/trufflesuite/ganache) - App for testing Ethereum blockchain with visual UI and logs
 - [Kaleido](https://kaleido.io/) - Use Kaleido for spinning up a consortium blockchain network. Great for PoCs and testing
 - [Pantheon Private Network](https://docs.pantheon.pegasys.tech/en/latest/Getting-Started/Private-Network-Quickstart/) - Run a private network of Pantheon nodes in a Docker container
 - [Local Raiden](https://github.com/ConsenSys/Local-Raiden) - Run a local Raiden network in docker containers for demo and testing purposes
