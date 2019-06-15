@@ -1,3 +1,7 @@
+title: dYdX
+
+description: dYdX is a non-custodial trading platform on Ethereum
+
 # dYdX
 
 ## Summary
@@ -10,6 +14,5 @@ dYdX also plans to support options trading. Options give a right to its owner to
 
 ## Resources
 
+* [DeFi Pulse](https://defipulse.com/dydx)
 * [Website](https://dydx.exchange)
-* [Expo Exchange](https://www.expotrading.com/)
-
