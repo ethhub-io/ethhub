@@ -1,3 +1,7 @@
+title: The Dai Card
+
+description: The Dai Card is a Dai payment channel solution created by Connext
+
 # The Dai Card
 
 ## Summary
@@ -80,6 +84,9 @@ A: The most noticeable instance of this occurring will be when a Card receives i
 
 Aside from these instances, *most* payments should be instant. Connext is still working on better ways to optmistically allocate collateral to channels so users can expect the user experience around this to improve with time.
 
+## Resources
 
+* [DeFi Pulse](https://defipulse.com/connext)
+* [Website](https://connext.network/)
 
 
