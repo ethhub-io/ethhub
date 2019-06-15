@@ -47,7 +47,7 @@ All of the following examples are based on [this block](https://etherscan.io/blo
 
 ### Height:
 
-This number current number of blocks that exist in the Ethereum blockchain
+This number is the current number of blocks that exist in the Ethereum blockchain
 
 _Example: 6969122_
 
@@ -77,7 +77,7 @@ _Example: 0xa48e2ad13de011f127b345a81a91933d221f5a60d45852e7d7c2b5a07fda9fe2_
 
 ### Sha3Uncles:
 
-A SHA3 hash of the uncle block data included the block
+A SHA3 hash of the uncle block data included in the block
 
 _Example: 0x1dcc4de8dec75d7aab85b567b6ccd41ad312451b948a7413f0a142fd40d49347_
 

@@ -7,7 +7,7 @@ description: Explanation of Ethereum transactions including gas and the fee mark
 
 ### Summary
 
-Understanding 'gas' is fundamental to understand how the Ethereum network functions.
+Understanding 'gas' is fundamental to understanding how the Ethereum network functions.
 
 The EVM - the Ethereum Virtual Machine \(EVM\) running on each Ethereum node - is an emulation of a computer system. One example of a regular, non-blockchain virtual machine is the VirtualBox software, which allows you to emulate computer systems \(guests\) on your physical hardware \(hosts\). Any operation in the EVM consumes CPU cycles, disk access, memory, of the hosting machine \(which carries a cost\). This cost is paid via Ethereum 'gas'.
 

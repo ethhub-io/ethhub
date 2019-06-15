@@ -57,7 +57,7 @@ You might be tempted to set `gasLimit` to something like `1000000000000000`. Thi
 
 Testing is important, but you will never ascertain as much information as to the execution of a contract as by using the official debugger tooling, the Remix IDE \([demo](https://remix.ethereum.org/), [docs](https://remix.readthedocs.io/en/latest/)\).
 
-Remix is a big of a hack piece put together, but it works very well once you're using it correctly. It can run Solidity in a JavaScript VM, an injected Web3 provider \(e.g. Metamask\) or connect to your local Ganache / other setup on `http://localhost:8545`.
+Remix is a bit of a hack piece put together, but it works very well once you're using it correctly. It can run Solidity in a JavaScript VM, an injected Web3 provider \(e.g. Metamask\) or connect to your local Ganache / other setup on `http://localhost:8545`.
 
 ### Using Remix like a pro
 
@@ -107,7 +107,7 @@ contract MarketForTesting is Market {
 
 ### Testing return values
 
-When you call a method on a contract, and it updates state \(i.e. is not `view`/`pure`\), it must be transacted upon the network. In such case, the Web3 interfaces do not give you the return value of the method. This can be frustrating if you're trying to test such a value, so you can do something like so:;
+When you call a method on a contract, and it updates state \(i.e. is not `view`/`pure`\), it must be transacted upon the network. In such case, the Web3 interfaces do not give you the return value of the method. This can be frustrating if you're trying to test such a value, so you can do something like so:
 
 ```javascript
 async function txWithReturnValue(method, ...args) {

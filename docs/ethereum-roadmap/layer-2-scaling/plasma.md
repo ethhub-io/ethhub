@@ -37,7 +37,7 @@ If Alice keeps 1 ETH in a Plasma chain, for instance, it gets recorded into a bl
 ![](https://i.imgur.com/NbvA4eM.jpg)
 
 ## Plasma: Pros and Cons
-Undoubtely, plasma is a good solution for scalability issues but Plasma does have some drawbacks. Each new plasma iteration reveals a new research problem that needs to be addressed, leading to multiple Plasma variants that navigate deployment trade-offs in different ways. We will compare these different variants in detail below but let's first compare the pros and cons of plasma and it's variants.
+Undoubtedly, plasma is a good solution for scalability issues but Plasma does have some drawbacks. Each new plasma iteration reveals a new research problem that needs to be addressed, leading to multiple Plasma variants that navigate deployment trade-offs in different ways. We will compare these different variants in detail below but let's first compare the pros and cons of plasma and it's variants.
 
 | Pros | Cons |
 | :--- | :--- |
@@ -86,7 +86,7 @@ _Note: Confirmation signatures make for pretty bad user experience. **More Viabl
 | Deposits | UTXOs representation, support for ETH, ERC20 | Unique Coin ID for each deposit, NFTs only | Accounts with unique coin IDs for each deposit, NFTs and FTs only |
 | Fees | Plasma transaction fees to validators and gas fees when exiting/withdrawing to rootchain or other chains | Same as MVP | Users pay via operator-led payment channel instead of directly to other users |
 | Signatures | Tx signature before block inclusion, confirmation signature post-inclusion | Confirmation signatures to avoid griefing | No confirmation signatures |
-| Exits/Withdrawals | Proof of unspent UTXO required to exit, priority based on how old UTXO is | Proof of coin’s latest two transactions, proof of block inclusion, no priority | Proof of coin’s latest two transactions, proof that fraction of coin hasn’t been previously spent proof of block inclusion, no exit priority |
+| Exits/Withdrawals | Proof of unspent UTXO required to exit, priority based on how old UTXO is | Proof of coin’s latest two transactions, proof of block inclusion, no priority | Proof of coin’s latest two transactions, proof that fraction of coin hasn’t been previously spent, proof of block inclusion, no exit priority |
 
 Let's compare pros, cons and use cases for each model now
 

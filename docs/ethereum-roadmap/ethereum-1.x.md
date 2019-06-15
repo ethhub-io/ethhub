@@ -37,7 +37,7 @@ It becomes apparent that Serenity \(full Casper + Sharding\) is not going to fun
 ## Main Objectives
 
 * Develop, formalize, and implement set of measures, deployable on the Ethereum 1.0 mainnet, within the next 2 years, to ensure that the chain stays viable and usable. That mainly means curbing the state growth or limiting the state size.
-* Emphasize focus on these measures and de-emphasize introduction of specific “features”. This is one of the places where eWASM engine comes in. Current computational pre-compiles are seen as features requiring case-by-case work. Introduction of eWASM engine would first enable “pre-compile” factory, where more pre-compiles are introduced faster. Later it would enable any contracts written in eWASM, obviating need in pre-compiles altogether.
+* Emphasize focus on these measures and de-emphasize introduction of specific “features”. This is one of the places where eWASM engine comes in. Current computational pre-compiles are seen as features requiring case-by-case work. Introduction of eWASM engine would first enable “pre-compile” factory, where more pre-compiles are introduced faster. Later it would enable any contracts written in eWASM, obviating the need for pre-compiles altogether.
 
 
 ## Working groups
@@ -168,7 +168,7 @@ AOT \(Ahead of Time\) compilers can be used for Core Dev-controlled pre-compiles
 ### Storage Pruning
 
 Ethereum 1.0 has a storage scaling issue. Yes, the rate of growth itself is implicitly limited by the block gas limit, but there is no limit on the total amount of data accumulated over time. <br/>
-Also known as Chain Pruning, this group is not related to state directly instead it concerns with growing size of logs, blocks data etc. <br/>
+Also known as Chain Pruning, this group is not related to state directly instead it is concerned with the growing size of logs, blocks, data, etc. <br/>
 "If Ethereum were to grow at its current rate, 91 GB would be added per year to storage", according to the core team.<br/>
 Storage Pruning is necessary and seeks to place a cap on Ethereum's data storage growth. Part of the proposal includes the deletion of historical blocks, logs, and indexes. 
 
@@ -200,15 +200,15 @@ It solve all of the issues that the Merkle proof mechanism has, you can always f
 
 If we agree on an N month/block retention policy, whenever the chain progresses, each client would delete bodies and receipts older than HEAD-N. This has an implication on the RPC APIs too however. We need to introduce the concept of a "vitual genesis block" (open for better names) which define the point of history before which the APIs cannot return data (or return that they don't maintain it any more).
 
-#### Block/Receipt Archieves
+#### Block/Receipt Archives
 
-Archiving historical chain segments so they remain available for later reconstruction if need be is the hardest part of this proposal. So where to store these archieves, internally or externally:
+Archiving historical chain segments so they remain available for later reconstruction if need be is the hardest part of this proposal. So where to store these archives, internally or externally:
 
-* Extra-protocol storage means hosting the data files on classical external servers, mirrored and replicated according to our security needs: FTP, S3, CDNs, etc. These could be archived my major players (Ethereum Foundation, Consensys, Parity Technologies, Internet Archive, etc). Access to these could boil down to dumb web requests.
+* Extra-protocol storage means hosting the data files on classical external servers, mirrored and replicated according to our security needs: FTP, S3, CDNs, etc. These could be archived by major players (Ethereum Foundation, Consensys, Parity Technologies, Internet Archive, etc). Access to these could boil down to dumb web requests.
 
-* Intra-protocol storage means hosting the data files within some of the nodes in the Ethereum network itself: Swarm/devp2p, IPFS/libp2p, BitTorrent, etc. The arhives would still be run by the same major players, but running an archive would be approachable to anyone, thus closer to the ethos of decentralization.
+* Intra-protocol storage means hosting the data files within some of the nodes in the Ethereum network itself: Swarm/devp2p, IPFS/libp2p, BitTorrent, etc. The archives would still be run by the same major players, but running an archive would be approachable to anyone, thus closer to the ethos of decentralization.
 
-Since the whole point of Ethereum is decentralization, the only option we have is Intra Protocol. However there are many methods by which we can store the archieves in a decentralized way. Some of them are listed here:
+Since the whole point of Ethereum is decentralization, the only option we have is Intra Protocol. However there are many methods by which we can store the archives in a decentralized way. Some of them are listed here:
 
 * Swarm \(but not production ready\)
 * IPFS \(accessing is easy, hosting is hard\)

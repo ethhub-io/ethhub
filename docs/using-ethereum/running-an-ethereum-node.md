@@ -109,7 +109,7 @@ An archive node:
 
 Archive nodes are only necessary if you want to check the state of an account at any given block height. For example, if you wanted to know the Ether balance an account had at block #4,000,000, you would need to run and query an archive node.
 
-They are commonly only used for services such as block explorers and infrastructure providers like Infura. They are use case dependendent and have no impact on the security or trust model of the blockchain.
+They are commonly only used for services such as block explorers and infrastructure providers like Infura. They are use case dependent and have no impact on the security or trust model of the blockchain.
 
 ### Client Settings
 
