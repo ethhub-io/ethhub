@@ -129,12 +129,14 @@ nav:
     - 'cdx': 'built-on-ethereum/open-finance/cdx.md'
     - 'Digix': 'built-on-ethereum/open-finance/digix.md'
     - 'Etherisc': 'built-on-ethereum/open-finance/etherisc.md'
+    - 'Maker': 'built-on-ethereum/open-finance/maker.md'
+    - 'Nexus Mutual': 'built-on-ethereum/open-finance/nexus-mutual.md'
     - 'Set Protocol': 'built-on-ethereum/open-finance/set-protocol.md'
     - 'Settle': 'built-on-ethereum/open-finance/settle.md'
     - 'StablePay': 'built-on-ethereum/open-finance/stablepay.md'
+    - 'Synthetix': 'built-on-ethereum/open-finance/synthetix.md'
     - 'WBTC': 'built-on-ethereum/open-finance/wbtc.md'
     - 'Zerion': 'built-on-ethereum/open-finance/zerion.md'
-    - 'Nexus Mutual': 'built-on-ethereum/open-finance/nexus-mutual.md'
   - Decentralized Exchanges:
     - 'What are Decentralized Exchanges?': 'built-on-ethereum/decentralized-exchanges/what-are-decentralized-exchanges.md'
     - Auction Based:
