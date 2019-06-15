@@ -19,3 +19,4 @@ Recently the team introduced [Dharma Lever](https://www.dharmalever.com/) — a 
 * [Bloqboard App](https://dapp.bloqboard.com/)
 * [Loan Explorer](https://loanscan.io/)
 * [Analytics](https://dharmalytics.io/)
+* [Dharma Stats](https://metabase.dharma.io/public/dashboard/4c1bd2bd-3567-44fc-abe3-f6b8f6126fb7/)
