@@ -1,5 +1,6 @@
 title: MakerDAO Stablecoin System on Ethereum
-description: The Burner Wallet allows users to interact with xDai on the POA Network sidechain for Ethereum.
+
+description: MakerDAO is a decentralized credit platform on Ethereum that supports Dai.
 
 # MakerDAO
 
