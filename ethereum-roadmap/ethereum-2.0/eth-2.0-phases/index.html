@@ -3893,13 +3893,13 @@
 <h2 id="phase-0-beacon-chain">Phase 0 - Beacon Chain</h2>
 <h3 id="what-is-included"><strong>What is included?</strong></h3>
 <p>Phase 0 is the name given to the launch of the Beacon Chain. The Beacon Chain will manage the Casper Proof of Stake protocol for itself and all of the shard chains. As Ben Edgington <a href="https://media.consensys.net/state-of-ethereum-protocol-2-the-beacon-chain-c6b6a9a69129">puts it</a>, “There are a number of aspects to this: managing validators and their stakes; nominating the chosen block proposer for each shard at each step; organizing validators into committees to vote on the proposed blocks; applying the consensus rules; applying rewards and penalties to validators; and, being an anchor point on which the shards register their states to facilitate cross-shard transactions.”</p>
-<p>The primary source of load on the Beacon CHain will be "attestations". Attestations are availability votes for a shard block and, simultaneously, proof of stake votes for a beacon block. A sufficient number of attestations for the same shard block will create a "crosslink" which confirms the shard segment up to that shard block into the Beacon Chain.</p>
+<p>The primary source of load on the Beacon Chain will be "attestations". Attestations are availability votes for a shard block and, simultaneously, proof of stake votes for a beacon block. A sufficient number of attestations for the same shard block will create a "crosslink" which confirms the shard segment up to that shard block into the Beacon Chain.</p>
 <p>Phase 0 will use Casper the Friendly Finality Gadget (FFG) for finality. Finality, in very loose terms, means that once a particular operation has been done, it will forever be etched in history and nothing can revert that operation.</p>
 <h4 id="eth2the-new-ether"><strong>ETH2:The New Ether</strong></h4>
-<p>Phase 0 will introduce ETH2 which will be a new asset for stakers (validators) to be used on Beacon Chain. It will be created by two methods:</p>
+<p>Phase 0 will introduce ETH2 which will be a new asset for stakers (validators) to be used on the Beacon Chain. It will be created by two methods:</p>
 <ul>
 <li>As a reward for validating the Beacon Chain (and shards after phase1).</li>
-<li>Purchasing it for 1 ETH by any ETH1.X user via an <a href="https://github.com/ethereum/beacon_chain/blob/master/contracts/validator_registration.v.py">registration contract</a>. The contract refers to it as deposit. </li>
+<li>Purchasing it for 1 ETH by any ETH1.X user via a <a href="https://github.com/ethereum/beacon_chain/blob/master/contracts/validator_registration.v.py">registration contract</a>. The contract refers to it as a deposit. </li>
 </ul>
 <p>There is currently no way to withdraw ETH2 from the beacon chain in Phase 0. Once deposited in the ETH1.x validator registration contract, the ETH1 is effectively burned. Beacon Chain validators watch this contract and submit deposit information to the Beacon Chain, which then issues ETH2 to the depositors.</p>
 <p>Lastly, the Beacon Chain will generate good quality (distributed, verifiable, unpredictable, and (reasonably) unbiasable) randomness for the rest of the system. It will use RANDAO which is simply a way to combine contributions (individual random numbers) provided by many participants into a single output number.</p>
@@ -3927,7 +3927,7 @@ Periodically, the current state (the “combined data root”) of each shard get
 <p>The Eth 1.0 and 2.0 chains will still operate in parallel after Phase 1.</p>
 <h3 id="important-considerations">Important Considerations</h3>
 <ul>
-<li>In Phase 0, 1, and 2 the main PoW chain (Eth 1.0) will remain live while testing and transitioning is happening on the Eth 2.0 chain. This means that rewards will be paid to both Ethereum 2.0 validators as well as the normal PoW block rewards. Therefore, the combined inflation of the 2 chains may spike initially but then start to trend towards the 0-1% range as the PoW chain is gradually deemphasized.</li>
+<li>In Phase 0, 1, and 2 the main PoW chain (Eth 1.0) will remain live while testing and transitioning is happening on the Eth 2.0 chain. This means that rewards will be paid to both Ethereum 2.0 validators as well as the normal PoW block rewards. Therefore, the combined inflation of the 2 chains may spike initially but then start to trend towards the 0-1% range as the PoW chain is gradually de-emphasized.</li>
 </ul>
 <h2 id="phase-2-state-execution">Phase 2 - State Execution</h2>
 <h3 id="what-is-included_2">What is included?</h3>
@@ -3943,7 +3943,7 @@ Periodically, the current state (the “combined data root”) of each shard get
 </ul>
 <h2 id="whats-next">What's next ?</h2>
 <p>The sharding roadmap according to the official wiki suggests 6 phases. Justin Drake strongly believes that the sharding phases 1 and 2 will come in 2020 and 2021, respectively (assuming that the Beacon Chain launches in 2019). <br/>
-From Phase 3 onwards any speculation made is subjected to change, you can go and check out <a href="https://github.com/ethereum/wiki/wiki/Sharding-roadmap#phase-3-light-client-state-protocol">wiki</a> for further phase's information. </p>
+From Phase 3 onwards any speculation made is subjected to change, you can go and check out the <a href="https://github.com/ethereum/wiki/wiki/Sharding-roadmap#phase-3-light-client-state-protocol">wiki</a> for further phase's information. </p>
 <h2 id="resources">Resources</h2>
 <ul>
 <li><a href="https://github.com/ethereum/wiki/wiki/Sharding-roadmap#strongphase-3strong-light-client-state-protocol">Sharding Roadmap</a></li>

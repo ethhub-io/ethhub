@@ -3891,7 +3891,7 @@ then the minimum amount to send with the transaction is:
 </table>
 <h2 id="debugging">Debugging</h2>
 <p>Testing is important, but you will never ascertain as much information as to the execution of a contract as by using the official debugger tooling, the Remix IDE (<a href="https://remix.ethereum.org/">demo</a>, <a href="https://remix.readthedocs.io/en/latest/">docs</a>).</p>
-<p>Remix is a big of a hack piece put together, but it works very well once you're using it correctly. It can run Solidity in a JavaScript VM, an injected Web3 provider (e.g. Metamask) or connect to your local Ganache / other setup on <code>http://localhost:8545</code>.</p>
+<p>Remix is a bit of a hack piece put together, but it works very well once you're using it correctly. It can run Solidity in a JavaScript VM, an injected Web3 provider (e.g. Metamask) or connect to your local Ganache / other setup on <code>http://localhost:8545</code>.</p>
 <h3 id="using-remix-like-a-pro">Using Remix like a pro</h3>
 <p>Remix is a web app, so it doesn't have access to your file system (whether you access it from remix.ethereum.org or as an Electron desktop app). While you can copy-paste code in, it's much better to install <code>remixd</code>, which will expose a local folder to Remix.</p>
 <ol>
@@ -3927,7 +3927,7 @@ then the minimum amount to send with the transaction is:
 </code></pre>
 
 <h3 id="testing-return-values">Testing return values</h3>
-<p>When you call a method on a contract, and it updates state (i.e. is not <code>view</code>/<code>pure</code>), it must be transacted upon the network. In such case, the Web3 interfaces do not give you the return value of the method. This can be frustrating if you're trying to test such a value, so you can do something like so:;</p>
+<p>When you call a method on a contract, and it updates state (i.e. is not <code>view</code>/<code>pure</code>), it must be transacted upon the network. In such case, the Web3 interfaces do not give you the return value of the method. This can be frustrating if you're trying to test such a value, so you can do something like so:</p>
 <pre><code class="javascript">async function txWithReturnValue(method, ...args) {
   let [retval, tx] = await Promise.all([
     method.call(...args),
