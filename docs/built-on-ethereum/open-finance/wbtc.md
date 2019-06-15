@@ -40,6 +40,7 @@ Burning is the action of redeeming Bitcoin for WBTC tokens, and only merchant ad
 
 ## Resources
 
+* [DeFi Pulse](https://defipulse.com/wbtc)
 * [WBTC Contract](https://etherscan.io/address/0x2260fac5e5542a773aa44fbcfedf7c193bc2c599)
 * [Website](https://www.wbtc.network/)
 * [WBTC Dashboard](https://www.wbtc.network/dashboard/order-book)
