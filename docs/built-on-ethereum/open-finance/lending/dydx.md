@@ -16,3 +16,5 @@ dYdX also plans to support options trading. Options give a right to its owner to
 
 * [DeFi Pulse](https://defipulse.com/dydx)
 * [Website](https://dydx.exchange)
+* [Scout Dashboard](https://scout.cool/dydxprotocol/mainnet/)
+* [dYdX Positions](https://bloxy.info/list_margin_positions)
