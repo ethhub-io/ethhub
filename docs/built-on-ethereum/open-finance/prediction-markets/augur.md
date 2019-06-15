@@ -1,3 +1,8 @@
+title: Augur
+
+description: Augur is a decentralized oracle and prediction market built on Ethereum
+
+
 # Augur
 
 ## Summary
@@ -10,6 +15,7 @@ Augur has a native token called Reputation \(REP\). REP is needed by market crea
 
 ## Resources
 
+* [DeFi Pulse](https://defipulse.com/augur)
 * [Website](https://www.augur.net/)
 * [Whitepaper](https://github.com/AugurProject/whitepaper)
 * [Market Explorer](https://predictions.global/)
@@ -18,4 +24,3 @@ Augur has a native token called Reputation \(REP\). REP is needed by market crea
 
 * [Unchained](http://unchained.forbes.libsynpro.com/joey-krug-on-how-augur-is-like-any-other-tool-ep79)
 * [Epicenter](https://epicenter.tv/episode/143/)
-
