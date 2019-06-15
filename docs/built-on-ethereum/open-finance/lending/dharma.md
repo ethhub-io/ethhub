@@ -1,3 +1,7 @@
+title: Dharma
+
+description: Dharma is a protocol on Ethereum for tokenized peer-to-peer debt assets
+
 # Dharma
 
 ## Summary
@@ -10,7 +14,8 @@ Recently the team introduced [Dharma Lever](https://www.dharmalever.com/) — a 
 
 ## Resources
 
+* [DeFi Pulse](https://defipulse.com/dharma)
 * [Website](https://dharma.io/)
 * [Bloqboard App](https://dapp.bloqboard.com/)
 * [Loan Explorer](https://loanscan.io/)
-
+* [Analytics](https://dharmalytics.io/)
