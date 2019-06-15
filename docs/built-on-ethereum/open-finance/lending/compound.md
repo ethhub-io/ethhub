@@ -31,3 +31,4 @@ On May. 16, 2018 , Compound announced that it had raised $8.2 million in seed fu
 
 * [DeFi Pulse](https://defipulse.com/compound)
 * [Website](https://compound.finance)
+* [Curious Giraffe Analytics](https://www.curiousgiraffe.io/compound/)
