@@ -64,7 +64,7 @@ Alexey explains the idea of state rent - "to charge people not once when they st
 * What parameters \(control inputs\) do we use? \(cost of state expansion, charge per size unit per block\)
 * Can controlled system weaken or evade control? \(dark rent, miner rebates\)
 * How can we get active contracts that are using lots of storage to pay a rent that more accurately represents the cost of storing that data permanently on-chain over a period of time? \(Linear cross-contract storage could be a solution here\)
-* How can we clear the state of abandoned contracts that are not being used anymore? \(This problem is not addressed in any such proposal as abandoned contracts represent only 6% of the stake\)
+* How can we clear the state of abandoned contracts that are not being used anymore? \(This problem is not addressed in any such proposal as abandoned contracts represent only 6% of the state\)
 * How about keeping rent simple and maximally effective at the protocol level and completely deleting anything which runs out of funds? \(Bad Idea, Users forget about some application they are involved in all the time\)
 * Moving portions of the smart contracts data off chain? \(A subprotocol is needed for the delivery\)
 
@@ -76,11 +76,11 @@ Eviction, under the current proposals, doesn’t just happen automatically - som
 For non contracts, eviction means just removing from the state as it doesn't have any information at all but for contracts, there's storage, so eviction doesn't completely remove it from a state but it leaves a so-called stub which is essentially the commitment to the entire state of the contract before the eviction, and this stub, unfortunately has an effect that it does not completely remove it from the state so it has to still dangle there, but this stub is what allows us to restore it later on.
 
 Let's take an **example**, "if you had a multisig wallet with lots of tokens in it and then you've forgotten to pay the rent, the multisig is "gone" but you would still be able to use the recovery mechanism to rebuild the storage of this contract in another contract and simply use a special code to restore it from the stub - then the contract comes "back to life". You can also top up the rent and then keep using the contract or you can move the things elsewhere." <br/>
-The stub is expected to be a 32 byte hash which is a commitment to what the contract looked like before it was addicted.
+The stub is expected to be a 32 byte hash which is a commitment to what the contract looked like before it was evicted.
 
 *How is this different from stateless contracts?*
 
-The difference is that in stateless contracts we assume that when the contract is represented as a stub it’s still accessible by the normal operations. In this proposal, when the contract is in hibernation state (ie when it’s a stub) it’s not accessible by anything. It’s basically invisible to the EVM with the exception of this special opcode, which it’s restored to, and only that opcode can see that stub - nothing else can.
+The difference is that in stateless contracts we assume that when the contract is represented as a stub it’s still accessible by the normal operations. In this proposal, when the contract is in hibernation state (ie when it’s a stub) it’s not accessible by anything. It’s basically invisible to the Ethereum Virtual Machine\([EVM](https://github.com/ethereum/wiki/wiki/Ethereum-Virtual-Machine-(EVM)-Awesome-List)\) with the exception of this special opcode, which it’s restored to, and only that opcode can see that stub - nothing else can.
 
 *Is this the best solution?*
 
@@ -96,7 +96,7 @@ There are currently three proposals being worked upon: <br/>
 
 #### Challenges inherent to most proposals
 
-* How will existing dApps be affected. Will they become too expensive/cumbersome to use? Will they need to be optimized/rewritten completely?
+* How will existing dApps be affected? Will they become too expensive/cumbersome to use? Will they need to be optimized/rewritten completely?
 * Denomination of the extra state expansion charge or rent - should it be priced in gas, ETH, and how should be the price be determined \(feedback loop on the state size?\). Will volatility of ETH price affect those charges too much? Will miners help users evade charges?
 
 #### Classes of contracts and impacts
@@ -105,7 +105,7 @@ Part of the state rent research is to identify main classes of contracts that ar
 
 * ERC20 token contracts and applications managing them \(DAI, Augur\)
 * On-chain order books \(DEXs\)
-* ENS
+* Ethereum Name Service [ENS](https://ens.domains/)
 * Non-fungible token contracts
 * Multi-signature wallets
 * Gaming contracts
@@ -118,7 +118,7 @@ Part of the state rent research is to identify main classes of contracts that ar
 
 ### eWASM
 
-Enhancement to the Ethereum protocol is currently hindered by the inflexibility of the EVM architecture. The method of extending the execution layer has been the introduction of special “precompile” contracts. The use of WebAssembly as a virtual machine specification for executing high-performance “precompile” contracts promises to streamline the process of introducing such contracts.
+Enhancement to the Ethereum protocol is currently hindered by the inflexibility of the Ethereum Virtual Machine\([EVM](https://github.com/ethereum/wiki/wiki/Ethereum-Virtual-Machine-(EVM)-Awesome-List)\) architecture. The method of extending the execution layer has been the introduction of special “precompile” contracts. The use of WebAssembly as a virtual machine specification for executing high-performance “precompile” contracts promises to streamline the process of introducing such contracts.
 
 eWASM is a subset of Wasm, Wasm has a couple of features which are non-deterministic, we need to eliminate them by validating contract while deploying. If contract uses non-deterministic features then it's rejected.
 
@@ -208,11 +208,11 @@ Archiving historical chain segments so they remain available for later reconstru
 
 * Intra-protocol storage means hosting the data files within some of the nodes in the Ethereum network itself: Swarm/devp2p, IPFS/libp2p, BitTorrent, etc. The archives would still be run by the same major players, but running an archive would be approachable to anyone, thus closer to the ethos of decentralization.
 
-Since the whole point of Ethereum is decentralization, the only option we have is Intra Protocol. However there are many methods by which we can store the archives in a decentralized way. Some of them are listed here:
+Since the whole point of Ethereum is decentralization, the only option we have is intra-protocol. However there are many methods by which we can store the archives in a decentralized way. Some of them are listed here:
 
-* Swarm \(but not production ready\)
-* IPFS \(accessing is easy, hosting is hard\)
-* BitTorrent
+* [Swarm](https://ethswarm.org/) \(but not production ready\)
+* [IPFS](https://ipfs.io/) \(accessing is easy, hosting is hard\)
+* [BitTorrent](https://www.bittorrent.com/)
 * LES/PIP
 
 **Broken Invariants**
@@ -263,7 +263,7 @@ Developers are in the process of collecting datasets for simulation and finalizi
 
 **Dataset Preparation**
 
-Datasets are being collected [here](https://drive.google.com/drive/folders/1cJRMKxhGBzXMxNBcPi011Mg5e2Dw1JU1) from various sources like "WhiteBlock", etherscan etc.
+Datasets are being collected [here](https://drive.google.com/drive/folders/1cJRMKxhGBzXMxNBcPi011Mg5e2Dw1JU1) from various sources like [WhiteBlock](https://whiteblock.io/), [etherscan](https://whiteblock.io/) etc.
 
 #### Resources
 
