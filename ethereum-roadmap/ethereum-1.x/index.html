@@ -4273,7 +4273,7 @@ Ethereum 2.0 (Serenity) won't be fully rolled out for another 2-3 years with Pha
 <li>What parameters (control inputs) do we use? (cost of state expansion, charge per size unit per block)</li>
 <li>Can controlled system weaken or evade control? (dark rent, miner rebates)</li>
 <li>How can we get active contracts that are using lots of storage to pay a rent that more accurately represents the cost of storing that data permanently on-chain over a period of time? (Linear cross-contract storage could be a solution here)</li>
-<li>How can we clear the state of abandoned contracts that are not being used anymore? (This problem is not addressed in any such proposal as abandoned contracts represent only 6% of the stake)</li>
+<li>How can we clear the state of abandoned contracts that are not being used anymore? (This problem is not addressed in any such proposal as abandoned contracts represent only 6% of the state)</li>
 <li>How about keeping rent simple and maximally effective at the protocol level and completely deleting anything which runs out of funds? (Bad Idea, Users forget about some application they are involved in all the time)</li>
 <li>Moving portions of the smart contracts data off chain? (A subprotocol is needed for the delivery)</li>
 </ul>
@@ -4282,9 +4282,9 @@ Ethereum 2.0 (Serenity) won't be fully rolled out for another 2-3 years with Pha
 Eviction, under the current proposals, doesn’t just happen automatically - somebody actually has to 'poke' the contract. Poking means that somebody has to create a transaction which touches it to access it in some way.<br/>
 For non contracts, eviction means just removing from the state as it doesn't have any information at all but for contracts, there's storage, so eviction doesn't completely remove it from a state but it leaves a so-called stub which is essentially the commitment to the entire state of the contract before the eviction, and this stub, unfortunately has an effect that it does not completely remove it from the state so it has to still dangle there, but this stub is what allows us to restore it later on.</p>
 <p>Let's take an <strong>example</strong>, "if you had a multisig wallet with lots of tokens in it and then you've forgotten to pay the rent, the multisig is "gone" but you would still be able to use the recovery mechanism to rebuild the storage of this contract in another contract and simply use a special code to restore it from the stub - then the contract comes "back to life". You can also top up the rent and then keep using the contract or you can move the things elsewhere." <br/>
-The stub is expected to be a 32 byte hash which is a commitment to what the contract looked like before it was addicted.</p>
+The stub is expected to be a 32 byte hash which is a commitment to what the contract looked like before it was evicted.</p>
 <p><em>How is this different from stateless contracts?</em></p>
-<p>The difference is that in stateless contracts we assume that when the contract is represented as a stub it’s still accessible by the normal operations. In this proposal, when the contract is in hibernation state (ie when it’s a stub) it’s not accessible by anything. It’s basically invisible to the EVM with the exception of this special opcode, which it’s restored to, and only that opcode can see that stub - nothing else can.</p>
+<p>The difference is that in stateless contracts we assume that when the contract is represented as a stub it’s still accessible by the normal operations. In this proposal, when the contract is in hibernation state (ie when it’s a stub) it’s not accessible by anything. It’s basically invisible to the Ethereum Virtual Machine(<a href="https://github.com/ethereum/wiki/wiki/Ethereum-Virtual-Machine-(EVM)-Awesome-List">EVM</a>) with the exception of this special opcode, which it’s restored to, and only that opcode can see that stub - nothing else can.</p>
 <p><em>Is this the best solution?</em></p>
 <p>This is not a perfect solution as if we find that there are lots of little contracts having the hash stubs and then the state is still not small enough.</p>
 <p>Watch the whole <a href="https://epicenter.tv/episode/274/">talk</a> where Alexey explains state rent and more about Eth 1.x.</p>
@@ -4295,7 +4295,7 @@ The stub is expected to be a 32 byte hash which is a commitment to what the cont
 * Increase the cost of state expansion in “short term”, to enable block gas limit increase before state rent is implemented</p>
 <h4 id="challenges-inherent-to-most-proposals">Challenges inherent to most proposals</h4>
 <ul>
-<li>How will existing dApps be affected. Will they become too expensive/cumbersome to use? Will they need to be optimized/rewritten completely?</li>
+<li>How will existing dApps be affected? Will they become too expensive/cumbersome to use? Will they need to be optimized/rewritten completely?</li>
 <li>Denomination of the extra state expansion charge or rent - should it be priced in gas, ETH, and how should be the price be determined (feedback loop on the state size?). Will volatility of ETH price affect those charges too much? Will miners help users evade charges?</li>
 </ul>
 <h4 id="classes-of-contracts-and-impacts">Classes of contracts and impacts</h4>
@@ -4303,7 +4303,7 @@ The stub is expected to be a 32 byte hash which is a commitment to what the cont
 <ul>
 <li>ERC20 token contracts and applications managing them (DAI, Augur)</li>
 <li>On-chain order books (DEXs)</li>
-<li>ENS</li>
+<li>Ethereum Name Service <a href="https://ens.domains/">ENS</a></li>
 <li>Non-fungible token contracts</li>
 <li>Multi-signature wallets</li>
 <li>Gaming contracts</li>
@@ -4315,7 +4315,7 @@ The stub is expected to be a 32 byte hash which is a commitment to what the cont
 <li><a href="https://epicenter.tv/episode/274/">Alexey explains State Fees</a></li>
 </ul>
 <h3 id="ewasm">eWASM</h3>
-<p>Enhancement to the Ethereum protocol is currently hindered by the inflexibility of the EVM architecture. The method of extending the execution layer has been the introduction of special “precompile” contracts. The use of WebAssembly as a virtual machine specification for executing high-performance “precompile” contracts promises to streamline the process of introducing such contracts.</p>
+<p>Enhancement to the Ethereum protocol is currently hindered by the inflexibility of the Ethereum Virtual Machine(<a href="https://github.com/ethereum/wiki/wiki/Ethereum-Virtual-Machine-(EVM)-Awesome-List">EVM</a>) architecture. The method of extending the execution layer has been the introduction of special “precompile” contracts. The use of WebAssembly as a virtual machine specification for executing high-performance “precompile” contracts promises to streamline the process of introducing such contracts.</p>
 <p>eWASM is a subset of Wasm, Wasm has a couple of features which are non-deterministic, we need to eliminate them by validating contract while deploying. If contract uses non-deterministic features then it's rejected.</p>
 <p>The current proposal is to use an even smaller subset of eWASM (only allowing precompiles to be written as eWASM).</p>
 <h4 id="main-unresolved-questions">Main unresolved questions</h4>
@@ -4380,11 +4380,11 @@ Storage Pruning is necessary and seeks to place a cap on Ethereum's data storage
 <p>Intra-protocol storage means hosting the data files within some of the nodes in the Ethereum network itself: Swarm/devp2p, IPFS/libp2p, BitTorrent, etc. The archives would still be run by the same major players, but running an archive would be approachable to anyone, thus closer to the ethos of decentralization.</p>
 </li>
 </ul>
-<p>Since the whole point of Ethereum is decentralization, the only option we have is Intra Protocol. However there are many methods by which we can store the archives in a decentralized way. Some of them are listed here:</p>
+<p>Since the whole point of Ethereum is decentralization, the only option we have is intra-protocol. However there are many methods by which we can store the archives in a decentralized way. Some of them are listed here:</p>
 <ul>
-<li>Swarm (but not production ready)</li>
-<li>IPFS (accessing is easy, hosting is hard)</li>
-<li>BitTorrent</li>
+<li><a href="https://ethswarm.org/">Swarm</a> (but not production ready)</li>
+<li><a href="https://ipfs.io/">IPFS</a> (accessing is easy, hosting is hard)</li>
+<li><a href="https://www.bittorrent.com/">BitTorrent</a></li>
 <li>LES/PIP</li>
 </ul>
 <p><strong>Broken Invariants</strong></p>
@@ -4424,7 +4424,7 @@ Storage Pruning is necessary and seeks to place a cap on Ethereum's data storage
  (b) Assume bandwidth limit results in many uncles</li>
 </ul>
 <p><strong>Dataset Preparation</strong></p>
-<p>Datasets are being collected <a href="https://drive.google.com/drive/folders/1cJRMKxhGBzXMxNBcPi011Mg5e2Dw1JU1">here</a> from various sources like "WhiteBlock", etherscan etc.</p>
+<p>Datasets are being collected <a href="https://drive.google.com/drive/folders/1cJRMKxhGBzXMxNBcPi011Mg5e2Dw1JU1">here</a> from various sources like <a href="https://whiteblock.io/">WhiteBlock</a>, <a href="https://whiteblock.io/">etherscan</a> etc.</p>
 <h4 id="resources_3">Resources</h4>
 <p><a href="https://docs.google.com/document/d/1pIW6Uac5Qanx_L5Y_G4Ucrx_gjITkBgzQKmlBQbW3Cg/edit">Simulation Proposal</a></p>
 <h2 id="deliverables">Deliverables</h2>
