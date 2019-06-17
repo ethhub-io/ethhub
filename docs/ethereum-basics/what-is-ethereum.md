@@ -17,4 +17,4 @@ Because it opens the door to a global financial system where an Internet connect
 * [Cointelegraph - What is Ethereum. Guide for Beginners](https://cointelegraph.com/ethereum-for-beginners/what-is-ethereum)
 * [Bitfalls - What is Ethereum and how does it compare to something like Bitcoin?](https://bitfalls.com/2017/09/19/what-ethereum-compare-to-bitcoin/)
 * [Wikipedia - Ethereum](https://en.wikipedia.org/wiki/Ethereum)
-
+* [Binance Academy - What is Ethereum](https://www.binance.vision/blockchain/what-is-ethereum)
