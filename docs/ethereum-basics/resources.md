@@ -25,6 +25,7 @@ description: A list of essential Ethereum’s resources.
 * [Crypto and Blockchain Glossary](https://www.upfolio.com/glossary)
 * [Circle Research](https://www.circle.com/en/research)
 * [Cryptoeconomics.study](https://cryptoeconomics.study/)
+* [Binance Academy](https://www.binance.vision)
 
 ## Media
 
@@ -180,6 +181,8 @@ description: A list of essential Ethereum’s resources.
 * [MyCrypto's Security Guide](https://medium.com/mycrypto/mycryptos-security-guide-for-dummies-and-smart-people-too-ab178299c82e)
 * [Hardware Wallet Guide](https://blockgeeks.com/guides/cryptocurrency-wallet-guide/)
 * [Paper Wallet Guide](https://blockgeeks.com/guides/paper-wallet-guide/)
+* [Common Scams on Mobile Devices](https://www.binance.vision/security/common-scams-on-mobile-devices)
+* [General Security Principles](https://www.binance.vision/security/general-security-principles)
 
 ## Trading
 
