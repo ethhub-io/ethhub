@@ -86,11 +86,11 @@ nav:
   - 'Test Networks': 'using-ethereum/test-networks.md'
   - Wallets:
     - 'Intro to Ethereum Wallets': 'using-ethereum/wallets/intro-to-ethereum-wallets.md'
+    - 'Smart Contract Wallets': 'using-ethereum/wallets/smart-contract-wallets.md'
+    - 'Hardware': 'using-ethereum/wallets/hardware.md'
+    - 'Mobile': 'using-ethereum/wallets/mobile.md'
     - 'Desktop': 'using-ethereum/wallets/desktop.md'
     - 'Web': 'using-ethereum/wallets/web.md'
-    - 'Mobile': 'using-ethereum/wallets/mobile.md'
-    - 'Hardware': 'using-ethereum/wallets/hardware.md'
-    - 'Smart Contract Wallets': 'using-ethereum/wallets/smart-contract-wallets.md'
 - Built on Ethereum:
   - 'Built on Ethereum': 'built-on-ethereum/built-on-ethereum.md'
   - Open Finance:
