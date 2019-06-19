@@ -20,8 +20,9 @@ Hardware wallets are the most-secure method for accessing your funds while onlin
 
 ## Wallets
 
-* [Trezor](https://shop.trezor.io/product/trezor-model-t?offer_id=15&aff_id=2828) - The original hardware wallet
 * [Ledger](https://www.ledger.com?r=22cab4d9225d) - Support for multiple cryptocurrencies and tokens
+* [Lattice1](https://gridplus.io/lattice) - Use your Lattice1 as a traditional hardware wallet, set up permissions for spending on the go, or allow recurring payments for subscription services.
+* [Trezor](https://shop.trezor.io/product/trezor-model-t?offer_id=15&aff_id=2828) - The original hardware wallet
 * [KeepKey](http://keepkey.myshopify.com?afmc=1km&utm_campaign=1km&utm_source=leaddyno&utm_medium=affiliate) - The simple hardware wallet
 
 ## Resources

@@ -90,7 +90,7 @@ nav:
     - 'Web': 'using-ethereum/wallets/web.md'
     - 'Mobile': 'using-ethereum/wallets/mobile.md'
     - 'Hardware': 'using-ethereum/wallets/hardware.md'
-    - 'Multi Signature': 'using-ethereum/wallets/multisignature.md'
+    - 'Smart Contract Wallets': 'using-ethereum/wallets/smart-contract-wallets.md'
 - Built on Ethereum:
   - 'Built on Ethereum': 'built-on-ethereum/built-on-ethereum.md'
   - Open Finance:
