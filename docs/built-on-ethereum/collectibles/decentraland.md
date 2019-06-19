@@ -10,7 +10,13 @@ Each land has a 'scene' where an owner can put 3D objects and code their interac
 
 The world will be accessible via a VR browser on multiple platforms.
 
-## Important links
+## History
+
+### Public Launch
+
+Decentraland's public launch is expected early Summer 2019.
+
+## Resources
 
 * [Website](https://decentraland.org)
 
