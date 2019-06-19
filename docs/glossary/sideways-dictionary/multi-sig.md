@@ -1,6 +1,8 @@
 # Multi-signature wallets
 ## A multi-signature wallet is like...
 
+* joint savings account
+
 * a bank vault that requires each bank manager's password to open.
 
 * a planning committee where every expense needs to be signed off on by each member of the committee.
