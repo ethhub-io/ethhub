@@ -28,6 +28,10 @@ On January 10th, 2019, a partnership between CryptoKitties and the trading card 
 
 The event also provided the ability for Crypokitty's users to create, buy, or win Gods Unchained-themed Cryptokitties, including creating one of 3,992 TallyThePurrocious fancy cats, buying one of 380 Aeoncat special edition cats, or winning the one and only Hyppurrion exclusive cat. Details can be found on the [Cryptokitties Gods Unchained page](https://www.cryptokitties.co/gods-unchained).
 
+### Decentraland crossover
+
+CryptoKitties are accessible in Picture Frames as part of the [Decentraland](https://docs.ethhub.io/built-on-ethereum/collectables/decentraland/) Scene builder. The partnership was announced in December of 2017 and are ready to go with Decentraland's expected launch during the Summer 2019.
+
 ## Resources
 
 * [Website](https://www.cryptokitties.co/)
