@@ -1,7 +1,7 @@
 # Multi-signature wallets
 ## A multi-signature wallet is like...
 
-* joint savings account
+* a joint savings account that requires more than one account holder to sign checks.
 
 * a bank vault that requires each bank manager's password to open.
 
