@@ -162,14 +162,23 @@ nav:
       - 'Totle': 'built-on-ethereum/decentralized-exchanges/aggregators/totle.md'
   - Games:
     - 'What is Blockchain Gaming?': 'built-on-ethereum/games/what-is-blockchain-gaming.md'
+    - 'Axie Infinity': 'built-on-ethereum/games/axie-infinity.md'
+    - 'Caesar`s Triumph': 'built-on-ethereum/games/caesars-triumph.md'
+    - 'Chibi Fighters': 'built-on-ethereum/games/chibi-fighters.md'
+    - 'Crypto Space Commander': 'built-on-ethereum/games/crypto-space-commander.md'
     - 'CryptoKitties': 'built-on-ethereum/games/cryptokitties.md'
+    - 'Etherbots': 'built-on-ethereum/games/etherbots.md'
+    - 'Etheremon': 'built-on-ethereum/games/etheremon.md'
     - 'Etheroll': 'built-on-ethereum/games/etheroll.md'
     - 'Gods Unchained': 'built-on-ethereum/games/gods-unchained.md'
-    - 'Zombie Battleground': 'built-on-ethereum/games/zombie-battleground.md'
-  - Collectables:
-    - 'CryptoPunks': 'built-on-ethereum/collectables/cryptopunks.md'
-    - 'Decentraland': 'built-on-ethereum/collectables/decentraland.md'
-    - 'MLB Crypto Baseball': 'built-on-ethereum/collectables/mlb-crypto-baseball.md'
+    - 'MLB Champions': 'built-on-ethereum/games/mlb-champions.md'
+    - 'My Crypto Heroes': 'built-on-ethereum/games/mycryptoheroes.md'
+    - 'Mythereum': 'built-on-ethereum/games/mythereum.md'
+    - 'Relentless': 'built-on-ethereum/games/relentless.md'
+    - 'World War Goo': 'built-on-ethereum/games/world-war-goo.md'
+  - Collectibles:
+    - 'CryptoPunks': 'built-on-ethereum/collectibles/cryptopunks.md'
+    - 'Decentraland': 'built-on-ethereum/collectibles/decentraland.md'
   - Marketplaces:
     - 'District0x': 'built-on-ethereum/marketplaces/district0x.md'
     - 'Opensea': 'built-on-ethereum/marketplaces/opensea.md'

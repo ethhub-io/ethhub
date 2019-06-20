@@ -11,8 +11,8 @@ There are many different types of applications that can be built on Ethereum. Mo
 ## Gaming
 [Blockchain games](games/what-is-blockchain-gaming.md) are any games that include blockchain technology in its backend or mechanics in general.
 
-## Collectables
-Crypto collectables are unique items that adhere to the ERC-721 standard. They can be collected and perhaps used across many different games and applications built on Ethereum.
+## Collectibles
+Crypto collectibles are unique items that adhere to the ERC-721 standard. They can be collected and perhaps used across many different games and applications built on Ethereum.
 
 ## Marketplaces
 Marketplaces built on Ethereum allow for the trading of ERC-721 tokens such as crypto collectibles.
