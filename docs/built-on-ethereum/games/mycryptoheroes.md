@@ -20,7 +20,7 @@ The Quad Dragon Cup is coming to My Crypto Heroes in June 2019. The Red and Blue
 
 ### Decentraland crossover
 
-My Crypto Heroes are accessible in Picture Frames as part of the [Decentraland](https://docs.ethhub.io/built-on-ethereum/collectables/decentraland/) Scene builder. They are ready to go with Decentraland's expected launch during the Summer 2019.
+My Crypto Heroes are accessible in Picture Frames as part of the [Decentraland](https://docs.ethhub.io/built-on-ethereum/collectibles/decentraland/) Scene builder. They are ready to go with Decentraland's expected launch during the Summer 2019.
 
 ## Resources
 

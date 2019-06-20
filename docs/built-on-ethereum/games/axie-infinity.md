@@ -18,7 +18,7 @@ The world of Lunacia is where Axies live and the land is owned, operated, and co
 
 ### Decentraland crossover
 
-Like some of the other collectibles Axies are available in Picture Frames inside [Decentraland](https://docs.ethhub.io/built-on-ethereum/collectables/decentraland/), which is expecting an imminent public launch.
+Like some of the other collectibles Axies are available in Picture Frames inside [Decentraland](https://docs.ethhub.io/built-on-ethereum/collectibles/decentraland/), which is expecting an imminent public launch.
 
 ### LOOM partnership
 
