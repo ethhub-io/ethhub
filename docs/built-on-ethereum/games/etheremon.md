@@ -38,7 +38,7 @@ In September 2018, Kyber Network partnered with Etheremon to increase access to 
 
 ### Decentraland crossover
 
-Etheremon are accessible in Picture Frames as part of the [Decentraland](https://docs.ethhub.io/built-on-ethereum/collectables/decentraland/) Scene builder. The partnership was announced in February of 2018 and are ready to go with Decentraland's expected launch in Summer 2019.
+Etheremon are accessible in Picture Frames as part of the [Decentraland](https://docs.ethhub.io/built-on-ethereum/collectibles/decentraland/) Scene builder. The partnership was announced in February of 2018 and are ready to go with Decentraland's expected launch in Summer 2019.
 
 ## Resources
 
