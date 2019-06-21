@@ -6,7 +6,7 @@ description: Proper ways to run a Parity or Geth Ethereum node.
 ## Summary
 
 Anyone is able to run an Ethereum node on their computer. This means that you can participate in validating transactions and blocks on the Ethereum blockchain. The two most common clients for running nodes are [Geth](https://ethereum.github.io/go-ethereum/downloads/) and [Parity](https://github.com/paritytech/parity-ethereum/releases/). Depending on the type of node run and the hardware specifications of the system, the initial syncronization time and storage requirements vary. For information related to the current Full Node chaindata and state storage size check out:
-http://didtheethereumblockchainreach1tbyet.5chdn.co/
+https://etherscan.io/chartsync/chaindefault
 
 Below are the different types of nodes a user can run, their settings, and what they mean.
 
@@ -25,11 +25,11 @@ A full node:
 
 **geth**
 
-The default sync mode. Synchronizes a full node doing a [fast synchronization](https://ethereum.stackexchange.com/questions/1161/what-is-geths-fast-sync-and-why-is-it-faster) by downloading the entire state database, requesting the headers first, and filling in block bodies and receipts afterward. Once the fast sync reached the best block of the Ethereum network, it switches to a full sync mode
+The default sync mode. Synchronizes a full node doing a [fast synchronization](https://ethereum.stackexchange.com/questions/1161/what-is-geths-fast-sync-and-why-is-it-faster) by downloading the entire state database, requesting the headers first, and filling in block bodies and receipts afterward. Once the fast sync reaches the best block of the Ethereum network, it switches to full sync mode.
 
 **geth --syncmode full**
 
-Synchronizes a full node starting at genesis verifying all blocks and executing all transactions. This mode is a bit slower than the fast sync mode but comes with increased security.
+Synchronizes a full node starting at genesis, verifying all blocks and executing all transactions. This mode is a bit slower than the fast sync mode but comes with increased security.
 
 **parity**
 
@@ -41,7 +41,7 @@ A parity default node serves the network as a full node after it has finished sy
 
 **parity --no-warp**
 
-Synchronizes a full node starting at genesis verifying all blocks and executing all transactions. This mode is a bit slower than the warp sync mode but comes with increased security.
+Synchronizes a full node starting at genesis, verifying all blocks and executing all transactions. This mode is a bit slower than the warp sync mode but comes with increased security.
 
 Both geth full and parity no-warp are to be considered a full Ethereum node because:
 
@@ -129,7 +129,7 @@ In Parity, this is called pruning which refers to the concept of [state trie pru
 
 A consumer-grade laptop will be enough to run a full node, but not an archive node. An archive node does need 2+ TB of disk space, and that disk space cannot be HDD - it must be SSD for both full and archive nodes. Light nodes run fine on SD cards and HDDs.
 
-If a full node goes offline for a while, its data can get corrupted and it can take a while to restore it. For best results, if running your own node, run it on an always-on always-connected device for minimal downtime and maximum reliability. This can be impossible on a laptop and expensive on a desktop PC (500W+) so it's better to use a device that's cheap to build and replace and almost free to run. A Raspberry Pi is enough for light nodes while a full node will run fine on an ARM micro computer. Check out pre-synced pre-built devices by [Block And Mortar](https://blockandmortar.io) and [Ava.do](https://ava.do).
+If a full node goes offline for a while, its data can get corrupted and it can take a while to restore it. For best results, if running your own node, run it on an always-on always-connected device for minimal downtime and maximum reliability. This can be impossible on a laptop and expensive on a desktop PC (500W+) so it's better to use a device that's cheap to build and replace and almost free to run. A Raspberry Pi is enough for light nodes while a full node will run fine on an ARM micro computer. Check out pre-synced pre-built devices by [Block And Mortar](https://blockandmortar.io), [Ava.do](https://ava.do), and [DAppNode](https://shop.dappnode.io/).
 
 Warning: never plug into your LAN anything you cannot thoroughly inspect and verify. You might be subjecting yourself to DNS hijacking or cryptojacking without knowing it. If the hardware and software aren't open source (at least the assembly part), they aren't safe to use.
 
