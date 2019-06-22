@@ -184,6 +184,8 @@ nav:
     - 'Opensea': 'built-on-ethereum/marketplaces/opensea.md'
     - 'Origin Protocol': 'built-on-ethereum/marketplaces/origin-protocol.md'
     - 'Rarebits': 'built-on-ethereum/marketplaces/rarebits.md'
+  - Supply Chain:
+    - 'Shipchain': 'built-on-ethereum/supply-chain/shipchain.md'
   - Developer Tools:
     - 'Gitcoin': 'built-on-ethereum/developer-tools/gitcoin.md'
     - 'Kauri': 'built-on-ethereum/developer-tools/kauri.md'
