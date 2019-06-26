@@ -32,6 +32,10 @@ Ether was not usable or transferable until the launch of the genesis block which
 | [Byzantium](https://blog.ethereum.org/2017/10/12/byzantium-hf-announcement/) | 4370000 | 2017-10-16 |
 | [Constantinople](https://github.com/ethereum/pm/wiki/Constantinople-Progress-Tracker) | 7280000 | 2019-02-28 |
 
+## History Timeline
+
+For a digital history book on Ethereum, visit ["The History of Ethereum" timeline](https://thehistoryofethereum.com/).
+
 ## Resources
 
 * [Launching the Ether Sale](https://blog.ethereum.org/2014/07/22/launching-the-ether-sale/)
