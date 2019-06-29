@@ -1,4 +1,4 @@
-# Enterprise
+# Enterprise and Ethereum
 
 ## What Ethereum offers to Enterprises
 
