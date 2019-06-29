@@ -2,7 +2,7 @@ title: Axoni
 
 description: Axoni is building AxLang
 
-# Hyperledger
+# Axoni
 
 ## Summary
 Axoni announced **AxLang**, a new programming language that supports functional programming and enables formal verification of smart contracts for Ethereum-compatible networks.
