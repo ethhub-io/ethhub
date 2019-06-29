@@ -22,6 +22,20 @@ EEA has more than 200 members now with big names like microsoft, JPM etc. Many o
 
 Below is the list of some of the EEA members and organizations who are using, building enterprise based solutions. 
 
-# List of enterprises working with Ethereum
+## List of enterprises working with Ethereum
 
 * [AXA](axa.md)
+* [Axoni](axoni.md)
+* [Deloitte](deloitte.md)
+* [DTCC](dtcc.md)
+* [Enterprise Ethereum Alliance](eea.md)
+* [Ernst and Young (EY)](ey.md)
+* [Fnality International](fnality.md)
+* [Foxconn](foxconn.md)
+* [Google](google.md)
+* [Hyperledger](hyperledger.md)
+* [JP Morgan](jpm.md)
+* [Kaleido](kaleido.md)
+* [MetLife](metlife.md)
+* [PegaSys](pegasys.md)
+* [Enterprise Projects](projects.md)
