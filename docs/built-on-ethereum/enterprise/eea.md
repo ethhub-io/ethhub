@@ -1,4 +1,5 @@
 title: Enterprise Ethereum Alliance (EEA)
+
 description: EEA is a member-driven standards organization whose charter is to develop open blockchain specifications
 
 # Enterprise Ethereum Alliance (EEA)
