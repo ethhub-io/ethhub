@@ -1,6 +1,6 @@
 title: Foxconn
 
-description: DTCC is building AxCore
+description: Foxconn is building Chained Finance
 
 # Foxconn
 
@@ -9,6 +9,5 @@ Foxconn – best known for manufacturing Apple’s iPhone launched a Shanghai st
 
 ## Resources
 
+* https://www.coindesk.com/foxconn-wants-take-global-supply-chain-blockchain
 * http://www.forbesindia.com/article/cross-border/blockchain-goes-to-work/53903/1
-* https://www.coindesk.com/dtcc-milestone-11-trillion-derivatives-gets-closer-blockchain
-* http://www.dtcc.com/blockchain
