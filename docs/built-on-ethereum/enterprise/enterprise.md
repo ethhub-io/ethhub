@@ -24,4 +24,4 @@ Below is the list of some of the EEA members and organizations who are using, bu
 
 # List of enterprises working with Ethereum
 
-* [AXA](enterprise/axa.md)
+* [AXA](axa.md)
