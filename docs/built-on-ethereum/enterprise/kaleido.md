@@ -1,8 +1,8 @@
 title: Kaleido
 
-description: Foxconn is building Chained Finance
+description: The Kaleido Blockchain Business Cloud is the full-stack platform for building and running cross-cloud, hybrid enterprise ecosystems.
 
-# Foxconn
+# Kaleido
 
 ## Summary
 The Kaleido Blockchain Business Cloud is the full-stack platform for building and running cross-cloud, hybrid enterprise ecosystems.
@@ -17,5 +17,5 @@ Kaleido provides services such as:
 
 ## Resources
 
-* https://www.coindesk.com/foxconn-wants-take-global-supply-chain-blockchain
-* http://www.forbesindia.com/article/cross-border/blockchain-goes-to-work/53903/1
+* https://kaleido.io/
+* https://marketplace.kaleido.io/
