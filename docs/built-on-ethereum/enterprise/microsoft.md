@@ -1,6 +1,6 @@
 title: Microsoft
 
-description: JPM is working on blockchain solutions for business
+description: Microsoft along with Enterprise Ethereum Allaince (EEA) launched a token-building-kit to help businesses design and create the right sort of crypto tokens for their particular needs.
 
 # Microsoft
 
