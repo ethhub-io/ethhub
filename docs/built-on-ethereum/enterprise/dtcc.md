@@ -1,6 +1,6 @@
 title: Depository Trust & Clearing Corporation (DTCC)
 
-description: Axoni is building AxLang
+description: DTCC is building AxCore
 
 # Depository Trust & Clearing Corporation (DTCC)
 
