@@ -14,5 +14,5 @@ real-time traceability" to its supply chains.
 
 ## Resources
 
-* https://docs.microsoft.com/en-us/azure/blockchain/workbench/
-* https://news.microsoft.com/transform/starbucks-turns-to-technology-to-brew-up-a-more-personal-connection-with-its-customers/
+* [https://docs.microsoft.com/en-us/azure/blockchain/workbench/](https://docs.microsoft.com/en-us/azure/blockchain/workbench/)
+* [https://news.microsoft.com/transform/starbucks-turns-to-technology-to-brew-up-a-more-personal-connection-with-its-customers/](https://news.microsoft.com/transform/starbucks-turns-to-technology-to-brew-up-a-more-personal-connection-with-its-customers/)
