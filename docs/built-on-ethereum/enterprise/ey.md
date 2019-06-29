@@ -11,5 +11,5 @@ Unlike other enterprise blockchain platforms, Nightfall is supposed to run on to
 
 ## Resources
 
-* https://github.com/EYBlockchain/nightfall
-* https://www.ey.com/en_gl/blockchain
+* [https://github.com/EYBlockchain/nightfall](https://github.com/EYBlockchain/nightfall)
+* [https://www.ey.com/en_gl/blockchain](https://www.ey.com/en_gl/blockchain)
