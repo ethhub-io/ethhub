@@ -11,5 +11,5 @@ Fnality's complex roadmap will see things begin to come to fruition in 2020. Asi
 
 ## Resources
 
-* https://www.coindesk.com/fnality-utility-settlement-coin-central-bank-token-blockchain
-* https://www.clearmatics.com/about/
+* [https://www.coindesk.com/fnality-utility-settlement-coin-central-bank-token-blockchain](https://www.coindesk.com/fnality-utility-settlement-coin-central-bank-token-blockchain)
+* [https://www.clearmatics.com/about/](https://www.clearmatics.com/about/)
