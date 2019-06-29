@@ -15,6 +15,6 @@ transactions recipients in a larger group of parties.
 
 ## Resources
 
-* https://www.goquorum.com/
-* https://github.com/jpmorganchase/quorum
-* https://github.com/jpmorganchase/anonymous-zether
+* [https://www.goquorum.com/](https://www.goquorum.com/)
+* [https://github.com/jpmorganchase/quorum](https://github.com/jpmorganchase/quorum)
+* [https://github.com/jpmorganchase/anonymous-zether](https://github.com/jpmorganchase/anonymous-zether)
