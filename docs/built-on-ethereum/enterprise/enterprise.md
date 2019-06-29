@@ -11,11 +11,12 @@ Ethereum offers tools which empower developers to build collaboratively and conf
 * Training resources: [ConsenSys Academy](https://consensys.net/academy/)
 
 For management and ongoing maintenance of Enterprise Ethereum solutions: Established support providers such as [ConsenSys Solutions](http://consensys.net/solutions/) and top-tier IT consulting firms exist in every market across the globe.<br/>
+
 Ethereum's architectural specifications effectively satisfy enterprise-grade requirements for privacy, security, performance, scalability, and interoperability. 
 
-To read [more](https://consensys.net/enterprise-ethereum/best-blockchain-for-business/)
+Read more [here](https://consensys.net/enterprise-ethereum/best-blockchain-for-business/).
 
-## List of Known Enterprises Using Ethereum
+## List of Known Enterprises Using and Working with Ethereum
 
 * [AXA](axa.md)
 * [Axoni](axoni.md)
