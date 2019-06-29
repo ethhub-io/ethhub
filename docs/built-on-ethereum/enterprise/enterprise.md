@@ -30,5 +30,6 @@ To read [more](https://consensys.net/enterprise-ethereum/best-blockchain-for-bus
 * [JP Morgan](jpm.md)
 * [Kaleido](kaleido.md)
 * [MetLife](metlife.md)
+* [Microsoft](microsoft.md)
 * [PegaSys](pegasys.md)
 * [Enterprise Projects](projects.md)
