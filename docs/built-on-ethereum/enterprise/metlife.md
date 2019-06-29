@@ -13,5 +13,5 @@ This is not MetLife's first experimentation with blockchain. In fact, the core s
 
 ## Resources
 
-* http://www.vitana.sg/
-* https://www.forbes.com/sites/stevenehrlich/2019/06/19/metlife-plans-to-disrupt-2-7-trillion-life-insurance-industry-using-ethereum-blockchain/#205ac2fb2770
+* [http://www.vitana.sg/](http://www.vitana.sg/)
+* [https://www.forbes.com/sites/stevenehrlich/2019/06/19/metlife-plans-to-disrupt-2-7-trillion-life-insurance-industry-using-ethereum-blockchain/#205ac2fb2770](https://www.forbes.com/sites/stevenehrlich/2019/06/19/metlife-plans-to-disrupt-2-7-trillion-life-insurance-industry-using-ethereum-blockchain/#205ac2fb2770)
