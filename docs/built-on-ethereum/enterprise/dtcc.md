@@ -13,6 +13,6 @@ And, unlike ethereum, the DTCC implementation of AxCore does not include a token
 
 ## Resources
 
-* http://www.forbesindia.com/article/cross-border/blockchain-goes-to-work/53903/1
-* https://www.coindesk.com/dtcc-milestone-11-trillion-derivatives-gets-closer-blockchain
-* http://www.dtcc.com/blockchain
+* [http://www.forbesindia.com/article/cross-border/blockchain-goes-to-work/53903/1](http://www.forbesindia.com/article/cross-border/blockchain-goes-to-work/53903/1)
+* [https://www.coindesk.com/dtcc-milestone-11-trillion-derivatives-gets-closer-blockchain](https://www.coindesk.com/dtcc-milestone-11-trillion-derivatives-gets-closer-blockchain)
+* [http://www.dtcc.com/blockchain](http://www.dtcc.com/blockchain)
