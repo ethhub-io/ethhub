@@ -17,5 +17,5 @@ Kaleido provides services such as:
 
 ## Resources
 
-* https://kaleido.io/
-* https://marketplace.kaleido.io/
+* [https://kaleido.io/](https://kaleido.io/)
+* [https://marketplace.kaleido.io/](https://marketplace.kaleido.io/)
