@@ -1,21 +1,20 @@
-title: Kaleido
+title: PegaSys
 
-description: The Kaleido Blockchain Business Cloud is the full-stack platform for building and running cross-cloud, hybrid enterprise ecosystems.
+description: PegaSys (Protocol Engineering Groups and Systems) is a 50-person team dedicated to enterprise grade blockchain at ConsenSys
 
-# Kaleido
+# PegaSys
 
 ## Summary
-The Kaleido Blockchain Business Cloud is the full-stack platform for building and running cross-cloud, hybrid enterprise ecosystems.
-It brings the dramatic simplicity of SaaS combined with the performance, security, global reach and cloud scale in an enterprise platform that goes way beyond today’s quick start scripts and templates and other Blockchain-as-a-Service offerings.
+PegaSys (Protocol Engineering Groups and Systems) is a 50-person team dedicated to enterprise grade blockchain at ConsenSys. It is building Ethereum tech for the public-chain community and leading enterprises focused on privacy, permissioning, scalability, and other features to make Ethereum production-ready.
 
-Kaleido has deep partnerships with industry leaders like ConsenSys, Microsoft Azure, Amazon Web Services and more to bring you enterprise blockchain’s easy button for your modern business network.
+Pegasys develop open-source software, and are researching next-generation solutions like sidechains and sharding.
 
-Kaleido provides services such as:
-* **B2B**: [App2App Messaging](https://marketplace.kaleido.io/service/app2app-messaging)
-* **Blockchain First**: [Token Explorer](https://marketplace.kaleido.io/service/token-explorer), [Token Swap](https://marketplace.kaleido.io/service/token-swap), [On-Chain Registry](https://marketplace.kaleido.io/service/identity-registry), [EthFirewall](https://marketplace.kaleido.io/service/ethfirewall)
-* **Middleware**: [Event Streams](https://marketplace.kaleido.io/service/event-streams-and-data-sync), [REST API Gateway](https://marketplace.kaleido.io/service/rest-api-gateway)
+Some of the great solutions developed by pegasys are:
+* **Pantheon**: An Apache 2.0 licensed Ethereum client written in Java. Pantheon is public chain compatible, with a more modular architecture and roadmap to add privacy, permissioning, and new consensus algorithms.
+* **Hobbits (In progress)**: Hobbits is a lightweight wire protocol for ETH 2.0 network testing purposes.
 
 ## Resources
 
-* https://kaleido.io/
-* https://marketplace.kaleido.io/
+* https://pegasys.tech/
+* https://pegasys.tech/solutions/
+* https://github.com/deltap2p/hobbits
