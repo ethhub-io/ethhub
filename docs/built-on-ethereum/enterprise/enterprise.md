@@ -16,11 +16,9 @@ To read [more](https://consensys.net/enterprise-ethereum/best-blockchain-for-bus
 
 **Enterprise Ethereum Alliance (EEA)**
 
-Industry leaders are now realizing the true potential of blockchain and ethereum. EEA is a member-driven standards organization whose charter is to develop open 
-blockchain specifications that drive harmonization and interoperability for businesses and consumers worldwide.
+Industry leaders are now realizing the true potential of blockchain and ethereum. EEA is a member-driven standards organization whose charter is to develop open blockchain specifications that drive harmonization and interoperability for businesses and consumers worldwide.
 
-EEA has more than 200 members now with big names like microsoft, JPM etc. Many of the EEA members are going through and researching into ethereum to support to 
-fit it into their use case. You can see the list of all the members [here](https://entethalliance.org/members/).
+EEA has more than 200 members now with big names like microsoft, JPM etc. Many of the EEA members are going through and researching into ethereum to support to fit it into their use case. You can see the list of all the members [here](https://entethalliance.org/members/).
 
 Below is the list of some of the EEA members and organizations who are using, building enterprise based solutions. 
 
@@ -101,7 +99,7 @@ This is not MetLife's first experimentation with blockchain. In fact, the core s
 ## Google
 
 ### Summary
-Google just dropped a bomb by announcing parternship with **Chainlink** to build hybrid blockchain/cloud applications. The blog posted by Google describes that the team is working on applications of making internet-hosted data available inside an immutable public blockchain: placing BigQuery data available on-chain using a Chainlink oracle smart contract.
+Google announced a parternship with **Chainlink** to build hybrid blockchain/cloud applications utilizing the Ethereum blockchain. The blog posted by Google describes that the team is working on applications of making internet-hosted data available inside an immutable public blockchain: placing BigQuery data available on-chain using a Chainlink oracle smart contract.
 
 BigQuery allows large swathes of data from multiple blockchains to be correlated and analyzed. The datasets have been used to develop processes such as profit sharing, characterizing network participants, and detecting software vulnerabilities and malware.
 
