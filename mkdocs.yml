@@ -160,6 +160,23 @@ nav:
       - 'Uniswap': 'built-on-ethereum/decentralized-exchanges/pool-based/uniswap.md'
     - Aggregators:
       - 'Totle': 'built-on-ethereum/decentralized-exchanges/aggregators/totle.md'
+  - Enterprise:
+    - 'Ethereum Enterprise': 'built-on-ethereum/enterprise/enterprise.md'
+    - 'AXA': 'built-on-ethereum/enterprise/axa.md'
+    - 'Axoni': 'built-on-ethereum/enterprise/Axoni.md'
+    - 'Deloitte': 'built-on-ethereum/enterprise/deloitte.md'
+    - 'DTCC': 'built-on-ethereum/enterprise/dtcc.md'
+    - 'Ethereum Enterprise Alliance': 'built-on-ethereum/enterprise/eea.md'
+    - 'Ernst and Young (EY)': 'built-on-ethereum/enterprise/ey.md'
+    - 'Fnality International': 'built-on-ethereum/enterprise/fnality.md'
+    - 'Foxconn': 'built-on-ethereum/enterprise/foxconn.md'
+    - 'Google': 'built-on-ethereum/enterprise/google.md'
+    - 'Hyperledger': 'built-on-ethereum/enterprise/hyperledger.md'
+    - 'JP Morgan': 'built-on-ethereum/enterprise/jpm.md'
+    - 'Kaleido': 'built-on-ethereum/enterprise/kaleido.md'
+    - 'MetLife': 'built-on-ethereum/enterprise/metlife.md'
+    - 'PegaSys': 'built-on-ethereum/enterprise/pegasys.md'
+    - 'Enterprise Projects': 'built-on-ethereum/enterprise/projects.md'
   - Games:
     - 'What is Blockchain Gaming?': 'built-on-ethereum/games/what-is-blockchain-gaming.md'
     - 'Axie Infinity': 'built-on-ethereum/games/axie-infinity.md'
