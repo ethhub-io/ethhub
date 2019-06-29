@@ -13,7 +13,7 @@ Sawtooth also supports Ethereum through **Seth**, Sawtooth's Ethereum-compatible
 
 ## Resources
 
-* https://www.hyperledger.org/blog/2018/10/26/hyperledger-fabric-now-supports-ethereum
-* https://www.hyperledger.org/blog/2017/08/22/hello-world-meet-seth-sawtooth-ethereum
-* https://sawtooth.hyperledger.org/docs/seth/releases/latest/introduction.html
-* https://hyperledger-fabric.readthedocs.io/en/release-1.4/
+* [https://www.hyperledger.org/blog/2018/10/26/hyperledger-fabric-now-supports-ethereum](https://www.hyperledger.org/blog/2018/10/26/hyperledger-fabric-now-supports-ethereum)
+* [https://www.hyperledger.org/blog/2017/08/22/hello-world-meet-seth-sawtooth-ethereum](https://www.hyperledger.org/blog/2017/08/22/hello-world-meet-seth-sawtooth-ethereum)
+* [https://sawtooth.hyperledger.org/docs/seth/releases/latest/introduction.html](https://sawtooth.hyperledger.org/docs/seth/releases/latest/introduction.html)
+* [https://hyperledger-fabric.readthedocs.io/en/release-1.4/](https://hyperledger-fabric.readthedocs.io/en/release-1.4/)
