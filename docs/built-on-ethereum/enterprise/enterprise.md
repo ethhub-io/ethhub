@@ -15,10 +15,11 @@ Ethereum's architectural specifications effectively satisfy enterprise-grade req
 
 To read [more](https://consensys.net/enterprise-ethereum/best-blockchain-for-business/)
 
-## List of enterprises working with Ethereum
+## List of Known Enterprises Using Ethereum
 
 * [AXA](axa.md)
 * [Axoni](axoni.md)
+* [Cloudflare](cloudflare.md)
 * [Deloitte](deloitte.md)
 * [DTCC](dtcc.md)
 * [Enterprise Ethereum Alliance](eea.md)
