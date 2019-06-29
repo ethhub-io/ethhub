@@ -11,5 +11,5 @@ The new platform is a first in the European financial services industry and will
 
 ## Resources
 
-* https://cointelegraph.com/news/deloitte-completes-joint-pilot-digitizing-supply-chain-management-on-multiple-dlts
-* https://www2.deloitte.com/ca/en/pages/technology/solutions/deloitte-digital-blockchain.html
+* [https://cointelegraph.com/news/deloitte-completes-joint-pilot-digitizing-supply-chain-management-on-multiple-dlts](https://cointelegraph.com/news/deloitte-completes-joint-pilot-digitizing-supply-chain-management-on-multiple-dlts)
+* [https://www2.deloitte.com/ca/en/pages/technology/solutions/deloitte-digital-blockchain.html](https://www2.deloitte.com/ca/en/pages/technology/solutions/deloitte-digital-blockchain.html)
