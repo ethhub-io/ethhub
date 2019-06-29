@@ -15,6 +15,6 @@ Some of the great solutions developed by pegasys are:
 
 ## Resources
 
-* https://pegasys.tech/
-* https://pegasys.tech/solutions/
-* https://github.com/deltap2p/hobbits
+* [https://pegasys.tech/](https://pegasys.tech/)
+* [https://pegasys.tech/solutions/](https://pegasys.tech/solutions/)
+* [https://github.com/deltap2p/hobbits](https://github.com/deltap2p/hobbits)
