@@ -178,6 +178,7 @@ nav:
     - 'MetLife': 'built-on-ethereum/enterprise/metlife.md'
     - 'Microsoft': 'built-on-ethereum/enterprise/microsoft.md'
     - 'PegaSys': 'built-on-ethereum/enterprise/pegasys.md'
+    - 'Unicef': 'built-on-ethereum/enterprise/unicef.md'
     - 'Enterprise Projects': 'built-on-ethereum/enterprise/projects.md'
   - Games:
     - 'What is Blockchain Gaming?': 'built-on-ethereum/games/what-is-blockchain-gaming.md'
