@@ -34,4 +34,5 @@ Read more [here](https://consensys.net/enterprise-ethereum/best-blockchain-for-b
 * [MetLife](metlife.md)
 * [Microsoft](microsoft.md)
 * [PegaSys](pegasys.md)
+* [Unicef](unicef.md)
 * [Enterprise Projects](projects.md)
