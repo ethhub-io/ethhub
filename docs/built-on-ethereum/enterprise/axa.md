@@ -13,5 +13,5 @@ In this way, AXA has delegated the compensation decision to an independent netwo
 
 ## Resources
 
-* https://fizzy.axa/en-gb/
-* https://www.axa.com/en/newsroom/news/axa-goes-blockchain-with-fizzy
+* [https://fizzy.axa/en-gb/](https://fizzy.axa/en-gb/)
+* [https://www.axa.com/en/newsroom/news/axa-goes-blockchain-with-fizzy](https://www.axa.com/en/newsroom/news/axa-goes-blockchain-with-fizzy)
