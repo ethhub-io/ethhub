@@ -63,6 +63,7 @@ description: A list of essential Ethereum’s resources.
 
 * [EthHub Weekly Newsletter](https://newsletter.ethhub.io/)
 * [Week In Ethereum](http://www.weekinethereum.com/)
+* [The Defiant](https://thedefiant.substack.com/)
 * [DeFi Weekly](https://defiweekly.substack.com/)
 * [Dharma Markets Report](https://dharmamarkets.substack.com/)
 * [NFTY News](http://nfty.news/)
@@ -163,6 +164,7 @@ description: A list of essential Ethereum’s resources.
 * [Intro to Smart Contracts](https://solidity.readthedocs.io/en/develop/introduction-to-smart-contracts.html)
 * [Ethereum Research Forum](https://ethresear.ch/)
 * [Ethereum Sharding Roadmap](https://github.com/ethereum/wiki/wiki/Sharding-roadmap)
+* [Ethereum 2.0 Phase 2 Wiki](https://hackmd.io/UzysWse1Th240HELswKqVA)
 * [Ethereum Developer Tools List](https://github.com/ConsenSysLabs/ethereum-developer-tools-list)
 * [Ethereum Stack Exchange](https://ethereum.stackexchange.com/)
 * [Ethereum Bounties](https://bounty.ethereum.org/#bounties)
