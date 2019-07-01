@@ -31,3 +31,8 @@ Kraken is a great option for those living in Canada, Europe, and the United Stat
 LocalEthereum is a global, p2p marketplace for buying and selling ETH. Over 30 payment methods are supported including in-person cash trades.
 
 [Buy ETH on LocalEthereum](https://localethereum.com/)
+
+## ExchangeRates.Pro
+ExchangeRates.Pro is a price comparison platform, comparing the prices of ETH and 33 other cryptocurrencies across Exchanges, Brokers and P2P Marketplaces in 255 countries.
+
+[Buy ETH on ExchangeRates.Pro](https://exchangerates.pro/?to_currency=ETH)
