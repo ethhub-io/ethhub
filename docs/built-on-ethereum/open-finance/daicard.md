@@ -64,7 +64,7 @@ Payments can also be noncustodial using more complex mechanisms (such as lightni
 
 Connext's system is live with custodial payments for now. The noncustodial payment code is in the hub and client codebase as part of the launch, but the team is still working on making sure that the user experience of noncustodial payments is seamless, and so they have kept it deactivated for the initial launch. They plan to reactivate it within the first couple of weeks of going live.
 
-For a more in-depth breakdown of the current trust assumptions in the system and how the team plans to address them, please see Connext's Dai Card launch post here (TODO LINK TO POST).
+For a more in-depth breakdown of the current trust assumptions in the system and how the team plans to address them, please see Connext's Dai Card launch post [here](https://medium.com/@arjunbhuptani/introducing-the-dai-card-fc46520078d3).
 
 **What is the difference between this approach and Sidechain/Plasma approaches like xDai?**
 
