@@ -1,5 +1,5 @@
 title: Ethereum 2.0 Economics - EthHub
-description: A deep dive on the economics in Ethereum 2.0 including staking interest and issuance rate.
+description: A deep dive on the economics in Ethereum 2.0 including staking rewards and issuance rate.
 
 # Eth 2.0 Economics
 
@@ -20,7 +20,7 @@ NOTE: Some of these are taken from [https://github.com/ethereum/eth2.0-specs/blo
 * **Validator** - a participant in the Casper/sharding consensus system. You can become one by depositing 32 ETH into the Casper mechanism.
 * **Committee** - a \(pseudo-\) randomly sampled subset of active validators. When a committee is referred to collectively, as in "this committee attests to X", this is assumed to mean "some subset of that committee that contains enough validators that the protocol recognizes it as representing the committee".
 * **Issuance Rate** - The annualized rate at which ETH supply grows.
-* **Interest** - The annualized rate at which validators are rewarded \(in ETH\).
+* **Issuance** - The annualized rate at which validators are rewarded \(in ETH\).
 
 ## Validator Economic Incentive
 
@@ -32,7 +32,7 @@ Total Incentive to Stake = Validator Rewards + Network Fees - Cost to run a Vali
 
 ## Staking Rewards
 
-In order to incentivize those that have ETH to stake in the network, there must be some type of reward. It's unlikely that many people would stake their ETH for no reward. Serenity accomplishes this by paying validators a reward for every block they successfully propose and attest. This reward is a sliding scale based on total network stake. So if total ETH stake is low, the interest rate goes up and as stake rises, it starts to fall. The current [suggested payouts](https://github.com/ethereum/eth2.0-specs/pull/971) are as follows:
+In order to incentivize those that have ETH to stake in the network, there must be some type of reward. It's unlikely that many people would stake their ETH for no reward. Serenity accomplishes this by paying validators a reward for every block they successfully propose and attest. This reward is a sliding scale based on total network stake. So if total ETH stake is low, the issuance rate goes up and as stake rises, it starts to fall. The current [suggested payouts](https://github.com/ethereum/eth2.0-specs/pull/971) are as follows:
 
 | ETH validating | Max annual issuance | Max annual network issuance % | Max annual return rate  (for validators) |
 | :--- | :--- | :--- | :--- |
@@ -90,7 +90,7 @@ Validating and earning rewards is not a free lunch. There are many things to con
 A very important factor in determining if staking ETH is worth it is comparing the net reward versus competition.
 
 **Decentralized Finance**  
-Decentralized finance applications such as [Compound Finance](https://compound.finance/), [Dharma](https://dharma.io/) and [Maker](https://makerdao.com/). These applications offer ways for users to lock up ETH and gain a reward \(interest\). Trying to understand what these offerings are or will be is something that should be considered.
+Decentralized finance applications such as [Compound Finance](https://compound.finance/), [Dharma](https://dharma.io/) and [Maker](https://makerdao.com/). These applications offer ways for users to lock up ETH and gain a reward. Trying to understand what these offerings are or will be is something that should be considered.
 
 **Other Investment Vehicles**  
 More traditional investment alternatives such as bonds, certificates of deposit, savings account, etc. can be considered competition to staking as well. While not as directly influential to the decent as DeFi apps, they need to be considered.
