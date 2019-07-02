@@ -4353,7 +4353,7 @@ Periodically, the current state (the “combined data root”) of each shard get
 <h3 id="what-is-included_2">What is included?</h3>
 <p>Phase 2 is where the functionality will start to come together. Shard chains transition from simple data containers to a structured chain state and Smart Contracts will be reintroduced. Each shard will manage a virtual machine based on <a href="https://github.com/ewasm/design">eWASM</a>. It'll support accounts, contracts, state, and other abstractions that we’re familiar with from solidity. We can expect familiar tools like truffle, solc, ganache ported to support eWASM before or during phase 2.</p>
 <p>State Rent is also a very likely inclusion for Phase 2 and it poses challenges to developers. Rather than being able to store code and data indefinitely, state rent would require contract developers and users to pay for eWASM storage over time. This ensures that unused information falls out of the state over time.</p>
-<p>Currently, not much information is available about this phase and whatever is available is almmost certainly going to change over time.</p>
+<p>Currently, not much information is available about this phase and whatever is available is almost certainly going to change over time.</p>
 <h3 id="important-considerations_1">Important Considerations</h3>
 <ul>
 <li>A dApp will have to choose what shard it wants to be on. That decision matters because “Cross-shard communication will definitely be slow at base layer, however there are higher-level mechanisms that can be used to implement fast cross-shard communication on top of a base layer that allows any cross-shard communication at all even if slow,” according to Vitalik Buterin.<br/></li>
