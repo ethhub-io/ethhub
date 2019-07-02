@@ -89,7 +89,7 @@ Phase 2 is where the functionality will start to come together. Shard chains tra
 
 State Rent is also a very likely inclusion for Phase 2 and it poses challenges to developers. Rather than being able to store code and data indefinitely, state rent would require contract developers and users to pay for eWASM storage over time. This ensures that unused information falls out of the state over time.
 
-Currently, not much information is available about this phase and whatever is available is almmost certainly going to change over time.
+Currently, not much information is available about this phase and whatever is available is almost certainly going to change over time.
 
 ### Important Considerations
 * A dApp will have to choose what shard it wants to be on. That decision matters because “Cross-shard communication will definitely be slow at base layer, however there are higher-level mechanisms that can be used to implement fast cross-shard communication on top of a base layer that allows any cross-shard communication at all even if slow,” according to Vitalik Buterin.<br/>
