@@ -25,3 +25,4 @@ As of June 2019, only ETH can be used as collateral. A planned upgrade to Multi-
 * [Subreddit](https://old.reddit.com/r/MakerDAO/)
 * [Twitter](https://twitter.com/MakerDAO)
 * [Maker Chat](https://chat.makerdao.com/home)
+* [Watch maker burn](https://makerburn.com)
