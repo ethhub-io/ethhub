@@ -3527,8 +3527,15 @@
     <ul class="md-nav__list" data-md-scrollfix>
       
         <li class="md-nav__item">
-  <a href="#questions-and-answers" title="Questions and Answers" class="md-nav__link">
-    Questions and Answers
+  <a href="#part-1" title="Part 1" class="md-nav__link">
+    Part 1
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#part-2" title="Part 2" class="md-nav__link">
+    Part 2
   </a>
   
 </li>
@@ -4033,8 +4040,15 @@
     <ul class="md-nav__list" data-md-scrollfix>
       
         <li class="md-nav__item">
-  <a href="#questions-and-answers" title="Questions and Answers" class="md-nav__link">
-    Questions and Answers
+  <a href="#part-1" title="Part 1" class="md-nav__link">
+    Part 1
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#part-2" title="Part 2" class="md-nav__link">
+    Part 2
   </a>
   
 </li>
@@ -4066,7 +4080,7 @@
                 
                 
                 <h1 id="ethereum-20-reddit-ama">Ethereum 2.0 Reddit AMA</h1>
-<h2 id="questions-and-answers">Questions and Answers</h2>
+<h2 id="part-1">Part 1</h2>
 <p><strong>Q: When, as in period of time, do you think Ethereum will be able to solve scalability issues?</strong></p>
 <p>A: In phase 1 (about 2020 by my estimate) we will have shard data. Those shards, even without an EVM, can be used as the data availability layer for TrueBit (and other alternative execution engines). Phase 2 (about 2021) is when we will have scalable L1 execution. [Justin Drake]</p>
 <p><strong>Follow up Q: ELI5 execution engines</strong></p>
@@ -4467,9 +4481,431 @@
 </ul>
 <p><strong>Q: How ETH 2.0 differs from ETH, and why POS instead of POW.</strong></p>
 <p>A: PoS enables goodies such as economic finality and sharding. It is also much cheaper (in terms of inflation cost for hodlers, as well as ecologically) than PoW. [Justin Drake]</p>
+<h2 id="part-2">Part 2</h2>
+<p><strong>Q: What do you feel is the biggest unsolved challenge left in Eth 2.0 research which must be addressed before Phase 1 or Phase 2 could be implemented in the future?</strong></p>
+<p>A: I really honestly think that there are no unsolved research challenges at this point. It's mostly "how do we make this thing more elegant and take up fewer lines of code and have fewer edge cases" on the research side. [Vitalik]</p>
+<p>Better understanding the incentives and various actors that might arise in a stateless and highly abstracted execution model. There is really great work being led by both the EF eWASM team and the Consensys Quilt team to better understand the design space and active build prototypes to vet ideas. [Danny]</p>
+<p><strong>Q: Previously, a release date of January 2020 for Phase 0 was informally articulated. Do you feel this date is realistic and achievable?</strong></p>
+<p>A: Thanks for noting its informality. :) Launching early next year is my personal target, but there is a lot that needs to be done before then! We need: long-running test nets (however that is defined), formal verification of the deposit contract, and clients to be ready for prime time, but right now it looks like everything will come together in time. We also don't want to rush clients into developing buggy software just to be ready by an arbitrary date. </p>
+<p>If anything, I think BLS standardisation efforts are the most likely to slow us down. We (as a greater blockchain community) are trying very hard to have a standardised signature scheme for better interoperability between all the chains. There is a high degree of consensus on this already, but establishing a new standard is always a slow process. [Carl]</p>
+<p><strong>Q: Are the researchers happy with the current state of the economics of Ethereum 2.0?</strong></p>
+<p>A: I don't think it's productive for us to worry about the absolute numbers at this point; the network will launch, and either the rewards will prove sufficient or they won't. The other thing worth worrying about is centralization incentives, but that's difficult to work out "in theory land"; much of the result in practice has to do with how lazy people are. [Vitalik]</p>
+<p><strong>Q: My biggest worry about ETH 2.0 is that it will kill composability. Won't most dapps end up trying to build on the same shard as say MakerDAO so they can use Dai?</strong></p>
+<p>A: Composability between shards is definitely unchartered territory but there are reasons to be optimistic:</p>
+<p>The shards are designed for homogeneity (unlike, say, Polkadot or Cosmos) to facilitate cross-shard communication.</p>
+<p>There are design patterns which abstract away the boundaries between shards. For example, one could consider shards 0 and 1 as a combined data availability substrate for an execution engine which requires more bandwidth. These design patterns will be more easily exploitable in the context of programmable execution engines.</p>
+<p>The shards are designed to be friendly to "fast optimistic finality" thanks to shard attestations which are somewhat analogous to block confirmations in the context of Eth1. What this means that is, in practice, the shards may act as one logical blockchain thanks to quick probabilistic finality of individual shards.</p>
+<p>The UI layer is also an opportunity to abstract away the boundary between shards. [Justin]</p>
+<p><strong>Q: When can we expect the Beacon Chain to be finalizing/checkpointing the Eth1.x chain?</strong></p>
+<p>A: My best guess is early 2021. See <a href="https://www.reddit.com/r/ethtrader/comments/c872b7/ethereum_20_well_on_its_way_serenity_phase_zero/esnnvey/">here</a>. [Justin]</p>
+<p><strong>Q: Under the specs there is a " block.eth1_data " property; based on that I thought that somehow we were going to have an hybrid validation starting Jan 2020 (if all goes well) from both PoW and PoS. As stakers, what are we going to validate except the validators, staking rewards &amp; penalties if all the traffic will still be on eth 1.0 and we're not taking part?</strong></p>
+<p>A: In order for Eth2 to finalise Eth1, 2 things are needed, Eth2 must vote on Eth1 (as is implemented as you point out) and Eth1 must change its fork rule to follow the finalised blocks on Eth1. The latter requirement requires an Eth1 hardfork. It is therefore easier to just have validator finalise the things you mention for now and later on add in Eth1 finalisation.</p>
+<p>Additionally, it is safer to launch without Eth1 finalisation in case of a Eth2 black-swan event in the early days. [Carl]</p>
+<p><strong>Q: Rebuttals to the criticism that Eth 2.0 is extremely complex?</strong></p>
+<p>A: It got considerably simpler over the last year. If you do a word count on the spec, it seems to be considerably smaller than the yellow paper at this point. There's a lot of things in eth2 that are much simpler than eth1. But there's definitely lingering complexity and I deeply care about minimizing it. [Vitalik]</p>
+<p>While the research path has been somewhat tortuous and hard to follow, the end product is arguably simple and clean. Expect more educational material highlighting the simplicity of the current design. Phase 0 is about 1024 lines of code to specify (assuming SHA256 and BLS12-381 as primitives). I expect phases 1 and 2 to be 1024 lines of code combined (assuming WASM as primitive). [Justin]</p>
+<p><strong>Q: Why are there so many teams building eth2.0 clients? I understand the point of client diversity but don't you think 6 clients seem to be pushing it? Supporting so many clients would also divide the resources in terms of funding. Which clients do you see as the geth and parity of eth2.0?</strong></p>
+<p>A: A few notes on client diversity:</p>
+<ul>
+<li>
+<p>There's more than 6 clients being developed—it's closer to 8.</p>
+</li>
+<li>
+<p>I expect consolidation—a bunch of clients may not survive 2020.</p>
+</li>
+<li>
+<p>I expect specialisation—one can focus on the browser (e.g. Lodestar), resource-constrained devices (e.g. Nimbus), the enterprise (e.g. Artemis), prototyping (e.g. Trinity), etc.</p>
+</li>
+<li>
+<p>A minimum of two production-ready clients are necessary for launch. I expect the first-mover advantage to be strong.</p>
+</li>
+<li>
+<p>All the above have, to an extent, historically happened on Eth1. [Carl]</p>
+</li>
+</ul>
+<p>We definitely don't want a duopoly! For me personally, the ideal would be to have no single client exceed 1/3 of the network, so any software bug in any single client would not stop the network. Though having no single client exceed 1/2 is ok too and gets us most of the same benefit (if a major client has a bug, having no finality for a while while things are being figured out may even be an improvement...)</p>
+<p>I expect a power law distribution, and it's definitely likely that some of the clients will not survive to see significant usage on mainnet. [Vitalik]</p>
+<p><strong>Q: Are the Ethereum 2.0 clients eventually going to replace the 1.0 counterparts? For example, will Prism ever get merged to Geth?</strong></p>
+<p>A: I expect the Eth1 clients to live a long and prosperous life :)</p>
+<p>On Prism: "Likely not. Other than the language (Go), Prysm and Geth have very little in common." [Justin]</p>
+<p><strong>Q: what happens when I stake 32 eth, and get slashed once? now that my stake is below 32 eth do i get kicked out of the validator set?</strong></p>
+<p>A: Validators get kicked out when they get slashed. There is another ejection mechanism if your balance goes below 16 ETH from accumulating (non-slashing) penalties. [Justin]</p>
+<p>You also lose some amount of ETH. The minimum being set to 1 ETH currently.</p>
+<p>There is an additional penalty related to the number of other slashable offenses that have occurred in the recent time period. If more validators have been slashed recently, you lose more ETH. The maximum penalty occurs if ~1/3 of validators have been slashed recently, at which point you lose all ETH.</p>
+<p>This highlights the importance of having a discorrelated validator setup from other nodes and potentially having some fault tolerance setup with yourself before you sign things. [Danny]</p>
+<p><strong>Q: What are the non-slashing offences?</strong></p>
+<p>A: There are micro-penalties for not voting to finalise the same blocks as other validators and the inactivity penalty (for offline validators) for when the chain is not finalising for an extended period of time. [Carl]</p>
+<p>We have a bunch of micro-penalties for not optimally crafting attestations and penalties for being offline (search for get_attestation_deltasand get_crosslink_deltas <a href="https://github.com/ethereum/eth2.0-specs/blob/dev/specs/core/0_beacon-chain.md">here</a>). [Justin]</p>
+<p><strong>Q: i hear a lot of hype around staking rewards, but what are the penalties for getting slashed? does the network have different punishments for different misbehavior (offline vs. double-signing)? is the "up to 60.8% slash in 18 days" still correct?</strong></p>
+<p>A: I think you are conflating two thigs here, slashing and the inactivity leak.</p>
+<p><strong>Inactivity leak</strong></p>
+<p>If your validator node goes offline for 18 days, and the beacon chain is not finalizing, then your balance will be reduced by "up to 60.8% slash in 18 days".</p>
+<p><strong>Slashing</strong></p>
+<p>If a validator behaves provably maliciously, then they are slashed by having their balance reduced. Assuming client software is written well, this should be basically impossible to happen to you. Minimum penalty is 1 ETH, but it goes up linearly in the number of people slashed at the same time as you.</p>
+<p>See <a href="https://notes.ethereum.org/9l707paQQEeI-GPzVK02lA#Why-are-the-Casper-incentives-set-the-way-they-are">here</a> for more [Carl]</p>
+<p>Important to note that if you are offline, but the chain is still finalizing you only stand to lose approximately the same as you would have gained. The quick reduction in balance over a ~2 week period only occurs when not finalizing.</p>
+<p>Another reason to have a discorrelated setup from the rest of the network! [Danny]</p>
+<p><strong>Q:What is currently the most exciting new research development in Ethereum 2.0?</strong></p>
+<p>A: The execution engine abstraction in phase 2 is quite exciting, taking account abstraction to the next level. It allows for the consensus part of execution to be an ultra thin layer of abstraction on top of data availability. Assuming WASM as a black box, it may be on the order of 256 lines of code to specify. </p>
+<p>There's an initial proposal from Vitalik <a href="https://notes.ethereum.org/s/Bkoaj4xpN">here</a>. The idea is that even the notion of a "transaction" is an application-layer detail which can be specified as WASM code. Compare this to Eth1 which "enshrines" an opinionated notion of replay protection (nonces), signatures (ECDSA), contracts, accounts (vs UTXOs), gas, storage, etc. [Justin]</p>
+<p>I'm lately most excited about <a href="https://ethresear.ch/t/layer-2-state-schemes/5691">this</a>. The OVM work by Karl Floersch and co is along similar lines and also very interesting. [Vitalik]</p>
+<p><strong>Q: Theres been some debate over the necessity of ASICs in Eth 2.0. I understand theres an effort to spread the cost out among various communities, but I think many people feel this might just end up being an expensive science project where the rewards dont justify the costs and if you itemised Eth 2.0, it seems like it might be the most expensive part. Are there alternatives besides relying on just Randao/Randao + ASICs (VDF)? What are the ELI5 upsides + downsides of the alternatives? I appreciate that the researchers are a tackling a difficult problem with randomness for a blockchain.</strong></p>
+<p>A: It's important to stress that the VDF mechanism's safety is not critical to the safety of the Eth2 consensus; if the VDF scheme gets broken or someone makes an ASIC fast enough to predict all the outputs, all that happens is that the percentage of validators they need to corrupt a single committee drops by a few percentage points (think, from ~50% to ~33-40% plus a lot of computing power). I actually think the main value of the VDF is that it provides global trustable secure randomness to applications that need it. [Vitalik]</p>
+<p>+1 on consensus-layer security and/or performance gains, and value-add at the application-layer. The other "promise" of VDFs is that they are a new cryptographic building block with the rather unique notion of time. They can used for proofs of space, proofs of replication, proofs of history, anti-frontrunning, expiring zk-proofs, and hopefully further applications which are hard to predict today. [Justin]</p>
+<p><strong>Q: I'd like to know more about the data availability layer of Ethereum 2.0 - particularly the economic costs of long-term data storage. Part of my political platform includes integrating blockchain technology with government operations. For example, I'd like to see all of America's public records stored on a public, open source, sufficiently decentralized blockchain. Would it make sense to build something like this on top of Ethereum 2.0? Why or why not?</strong></p>
+<p>A: Realistically you would want an incentivized data storage platform like Swarm, with hashes of the documents stored on the ethereum blockchain.</p>
+<p>But I'd recommend thinking harder and trying to figure out how to answer the deeper question "how could we use blockchains as a tool to minimize opportunities for misbehavior in government?" Places to start I can think of include:</p>
+<ul>
+<li>
+<p>Things like https://opencerts.io/ for all government-issued records</p>
+</li>
+<li>
+<p>Using https://ethresear.ch/t/minimal-anti-collusion-infrastructure/5413/ to do online votes, starting in low-security contexts (I think petitions would be a good place to start and underexplored)</p>
+</li>
+<li>
+<p>An internal-use stablecoin where only government agencies can hold balances but transactions are visible to and auditable by the public</p>
+</li>
+<li>
+<p>Some kind of zero-knowledge privacy-preserving sales tax collection thing</p>
+</li>
+<li>
+<p>Blockchain-based solutions for esoteric government things like spectrum auctions</p>
+</li>
+<li>
+<p>Get your country (I'm speaking generically to all readers here :D) to make an Estonian-style E-ID system that lets people make digital signatures that can be verified by anyone publicly. This is not technically a blockchain application, but it would be a tool useful in many blockchain applications [Vitalik]</p>
+</li>
+</ul>
+<p><strong>Q: I recall /u/bobthesponge once saying that almost his entire Net worth is in Ether (even his salary from the EF). Are there any other researchers on the research team that are as convinced of Ethereum's future, besides Vitalik and Justin of course? No need to call someone out. Just percentages, ie. "Over 50% of the research team is heavily (over 30% of net worth) invested in Ether financially", would be sufficient.</strong></p>
+<p>A: Somewhat ingrained in our culture, the research team doesn't talk much about net worths. Having said that, the research team has a lot of fresh blood (e.g. Dankrad, Proto, Carl) which I don't expect to be crazy invested in ETH.[Justin]</p>
+<p>I am not an eth whale, but I get paid in eth and have high exposure. [Danny]</p>
+<p>The aforementioned Carl here, let's put it this way: financially, emotionally, and intellectually, I am heavily exposed to ETH. [Carl]</p>
+<p><strong>Q: How many Eth2.0 client teams have to have a finished client for the Beacon chain to go live?</strong></p>
+<p>A: I asked the same question a few days ago. At this moment, it is still an open question and will likely be until much loser to the time. Obviously having more clients is better, but that should be played off against the launch date. I am currently torn between 2 and 3. (Having &gt; 2 would be great because otherwise there is a client guaranteed to have a majority of the validator-base.) At the end of the day, it will come down to who is ready and when. [Carl]</p>
+<p>Two at minimum, ideally three. [Justin]</p>
+<p><strong>Q: I understand that about 10 million eth is expected to provide good enough security for the network. In a hypothetical scenario, what happens in the situation where a large organization manage to secure more than 50% of the total eth staked and use it to maliciously attack the network? As i understand, the side with less total eth staked will be slashed, so won't this malicious actor be able to effectively kill the network?</strong></p>
+<p>A: If a large actor were to aquire a large enough stake to take over the network they would need to buy &gt;2/3 of the total staking supply which would drive the price up, so it's not a cheap attack in the first place. Secondly, you are not slashed if you vote for a minority chain, only if you behave provably maliciously in the eyes of 2/3 of the validators.</p>
+<p>One of the beautiful things about PoS is that these attacks can be handled with grace. We, as a community, can go in and hard-fork out the malicious actors so they have no more voting power. The malicious actors just burnt a lot of money to temporally halt a network. In PoW, by contrast, if someone buys ASICS with 51% hash power, there is no way to remove them from the system. [Carl]</p>
+<p><strong>Q:Do the client teams feel their implementations will be sufficiently robust enough, stable enough, and easy enough to use that normal nerds (like myself) can safely run their node software, stake 32 ETH on it, and not be slashed or lose ETH due to client bugs? My biggest concern is losing ETH while being a well intentioned actor. I've ran Geth, Parity, Trinity, and EthereumJ (Harmony) nodes for multiple years now and those clients have been around a lot longer than any of the ETH 2.0 clients have, but they still have issues, still have bugs, still sometimes crash.</strong></p>
+<p>A: I hope so!</p>
+<p>One key component in the incentive design is that penalties (for going offline and for being slashed) are only high if many other validators go offline at the same time. So any bug that doesn't hit every node at the same time should only cost you a minimal amount. [Vitalik]</p>
+<p><strong>Q:suppose ethereum reaches 1 mllion tps, ledger size will grow 1 terabyte everyday, any solution to this? what is your projections in terms of ledger size growh and what is your solution to this</strong></p>
+<p>A: The sharded eth2.0 is expected to handle ~10MB/s of data availability. This is data that is come to consensus upon in shard chains and guaranteed to be available in at least the ~2 week time frame.</p>
+<p>This is not necessarily state size. The current approach to state and state execution is to take a "state-less" approach in which blocks must contain the merkle witnesses of the relevant state to perform the tx executions. This is reduces the amount of state any consensus node must store, but does bring up other issues about state size, who stores it, how users get it, etc. In fact, the entirety of state execution is being abstracted away such that we can experiment with multiple schemes to deal with this problem (state rent, users/dapps storing their own data, etc). Much of the state rent research that @ledgerwatch has driven in the past year or so will likely come into play. [Danny]</p>
+<p><strong>Q: Lets assume you are a guy with very little cryptotech-knowledge, but you do have &gt;32 ETHER.</strong></p>
+<p><strong>Question #1: Would staking be made easy-to-do, so "ordinary" people can earn interest on their holdings?</strong></p>
+<p><strong>Question #2: Does staking pose any risks of losing ETH by accident? Trying to understand if you can stake without any risks unless you "intentionally" try to harm the network (eg. if your validator node goes offline, because your internet provider has an issue and likewise)</strong></p>
+<p>A: </p>
+<blockquote>
+<p>Would staking be made easy-to-do, så "ordinary" people can earn interest on their holdings?</p>
+</blockquote>
+<p>I expect a cottage industry will be setup around accessibility. Infrastructure to be built includes staking pools (centralised—think Coinbase—as well as decentralised one) as well as plug-and-play "validator in a box" solutions.</p>
+<blockquote>
+<p>Trying to understand if you can stake without any risks unless you "intentionally" try to harm the network</p>
+</blockquote>
+<p>That's definitely the goal.</p>
+<blockquote>
+<p>eg. if your validator node goes offline, because your internet provider has an issue and likewise</p>
+</blockquote>
+<p>Penalties should be marginal for validator nodes that go offline for short periods of time every once in a while. [Justin]</p>
+<p><strong>Q: What is the current thinking around the Eth1&gt;Eth2 migration plan?</strong></p>
+<p>A: The current approach is to fold eth1 into eth2 as an execution environment. In practice, this will mean that we would need to have a hard fork on the eth1 side to rebalance some gas costs (opcodes that read storage or read accounts would see their gas costs increased to 2000-10000), and after that at some point there will be a "flag block height" from which the eth1 state root will be moved into the eth2 system (or possibly some one-time processing will be run on the eth1 state to make some optimizations, eg. replacing the patricia hex trie with a binary tree) and after that eth1 will be part of eth2, with applications being able to run as before.</p>
+<p>I do think the likely gas cost increase of storage/account reading opcodes (basically the same opcodes whose gas costs were already increased in Tangerine Whistle; those costs will need to go up at least another order of magnitude) is something that contract devs should be aware and plan for. The reason that change will be necessary is that those opcodes greatly increase the size of a Merkle proof needed to statelessly verify a block, so currently Merkle proofs for a worst-case block are &gt;100 MB; with those gas repricings plus trie optimization plus charging per byte of any contract being read, we could get it down to acceptable levels. [Vitalik]</p>
+<p><strong>Q: Regarding Proof-of-Stake and wealth distribution (and issuance reduction), by the looks of it the majority of ETH will be held by the minority of entities, does that cause any concern since a single entity can run multiple validator nodes (and earn more rewards)?</strong></p>
+<p><strong>It's a question from inequality perspective not security; if ETH were to take a significant role in the global economy, wouldn't this widen the gap between rich and poor by orders of magnitude (MUCH worse than the current economic system)? Basically, economic inequality on steroids.</strong></p>
+<p>A: I definitely think income inequality issues from crypto are an issue! It's a big part of why I am not a single-cryptocurrency maximalist. But I still think that PoW is not better than PoS from an inequality point of view, because although PoW does distribute coins into "fresh hands", you need so much capital to become a PoW miner that PoW itself is a big rich-get-richer mechanic in practice. [Vitalik]</p>
+<p><strong>Q: I know its still early but are there some rough estimates of when we might see Spec freezes for Phase 1 and 2?</strong></p>
+<p>A: Phase 2 is a bit too far out to say, but my hope for phase 1 is Q3/4 of this year. [Carl]</p>
+<p>That said, the current minimal execution design with EEs for phase 2 (once better researched and prototyped) is a super simple addition on top of phase 1 [Danny]</p>
+<p><strong>Q: Please ELI5 ("explain like I'm five") why the need for a second chain instead keeping on evolving the first one?</strong></p>
+<p>A: Building Eth2 on Eth1 would be a bad design decision for a few reasons:</p>
+<ul>
+<li>
+<p>We would be constrained by the Eth1 gas limit, which would severely affect performance (e.g. 1024 shards and 32 ETH to validate would not be possible).</p>
+</li>
+<li>
+<p>We would be mixing the consensus and application layers. This means the consensus layer is subject to the application-layer DoS vectors (e.g. high gas prices). It would also mean "enshrining" application-layer contracts, which is far from ideal from a governance standpoint which should be as neutral as possible with regards to deployed contracts (i.e. The DAO interventions should be the exception, not the norm).</p>
+</li>
+<li>
+<p>We would be constrained by the EVM, which is notoriously hard to safely program complex contracts in.</p>
+</li>
+<li>
+<p>Eth1 does not have support for BLS12-381.</p>
+</li>
+<li>
+<p>We would be subject to the Eth1 block time Poisson distribution (as opposed to the regular—and shorter—slots durations in Eth2).</p>
+</li>
+</ul>
+<p>The list goes on :) [Justin]</p>
+<p><strong>Q: I am considering to stake during phase 0, but i am a bit concerned about the inactivity leak. I want to know how to stop/pause being a validator if I change my mind? I am asking this as there may be certain situations in which I think I will be offline for a while, and I do not want my balance to slowly leak out due to that.</strong></p>
+<p>A: You will only suffer large penalties if you are offline at the same time that &gt;1/3 of other validators are offline. Otherwise the penalties for being offline will be tiny, to the point where you will be net-profitable (not including computer costs etc) as long as you are online more than ~50-67% of the time. The incentives are deliberately designed to be forgiving to avoid discouraging amateur setups to promote decentralization. [Vitalik]</p>
+<p>The closest to a "pause" button is to first exit (which can take as little as half an hour, but may take days/weeks since there's a queuing mechanism) and later re-activate. [Justin]</p>
+<p><strong>Q: 1024 shards, 131,000+ validator slots... what happens if there aren't enough validator slots filled by the time sharding goes live?</strong></p>
+<p>A: With 1024 shards, and 128 validators in a committee, a minimum of 131,072 validators are needed to crosslink every shard every slot. If there are fewer validators than this, then shards are skipped to ensure the 128/committee validator number. [Carl]</p>
+<p>The system can naturally handle as low as ~64 validators. In this case, security is obviously insanely degraded, but the protocol can technically move forward. [Danny]</p>
+<p>Technically the system can "move forward" with one validator :D</p>
+<p>But yes, below the 131,072 validator (4.1M ETH) level the properties of the system progressively degrade as the number of validators goes lower and lower. [Vitalik]</p>
+<p><strong>Q: if i understand finalization correctly, the more validators you have the longer it takes to finalize. how is eth2 addressing this issue without pounding the network with tons of messages being sent between all the validators?</strong></p>
+<p>A: Correct. I wrote an article about this fundamental tradeoff here: https://medium.com/@VitalikButerin/parametrizing-casper-the-decentralization-finality-time-overhead-tradeoff-3f2011672735</p>
+<p>We managed to get a couple orders of magnitude more favorable tradeoff curve than other projects through BLS signature aggregation, which reduces the marginal cost of a signature to 1 bit of data and 1 ECADD (~0.001 traditional signature verifications) of computation. [Vitalik]</p>
+<p>In Eth2, more validators should not lead to (significantly) longer finalization times. By making use of BLS signature aggregation and by grouping the validators into committees, we're able to support hundreds of thousands (and hopefully into the millions) of validators. [Carl]</p>
+<p><strong>Q: Has the EF given any thought to maybe issuing "official" NFTs (i.e. collectibles) to initial stakers upon the launch of Beacon Chain as an "extra incentive"? What's your opinion on this?</strong></p>
+<p>I'd say this would be the remit of the community, not the EF. Note that the Eth2 designers avoided giving early validators a special reward (e.g. giving the first 16,384 validators a 1 ETH bounty) to avoid distorting the economic experiment. We want to learn whether or not the basic incentivises are sufficient to incentivise participation. [Justin]</p>
+<p>I actually like the idea of an NFT. The deposit contract is readable in such a way that proofs can be made to a separate contract to generate NFTs. Been talking to Austin Griffith about this. He/burner-wallet might take the charge. I don't think an NFT would hinder our ability to understand the pure incentivizes here. It's at best a trophy and of little economic value imo. [Danny]</p>
+<p><strong>Q: How is the work on evaluating the feasibility of producing dedicated VDF hardware coming along?</strong></p>
+<p>A: At this point there's reasonably high confidence that VDFs (including building hardware) are viable. A few updates:</p>
+<ul>
+<li>
+<p>A team of 3 ex-Intel people (Simon, Sean, Kelly from Supranational) is dedicated to the hardware aspects.</p>
+</li>
+<li>
+<p>The Rivest timelock challenge (open for 20 years, designed to last 35 years) was cracked in a few months using an FPGA (see here, and here). There's also code on Github.</p>
+</li>
+<li>
+<p>Work by Erdinc Ozturk has improved the state-of-the-art circuit depth for the modular exponentiation in VDFs. The ePrint paper was submitted a few days ago and should be published soon.</p>
+</li>
+<li>
+<p>A prominent complexity theorist (Ryan Williams from MIT) is working on circuit depth lower bounds for modular multiplication.</p>
+</li>
+<li>
+<p>Significant progress was made by Ligero on the RSA ceremony. We are planning for a ceremony with unprecedented scale (1024 participants) in 2020.</p>
+</li>
+<li>
+<p>New research papers keep flowing in—see http://vdfresearch.org</p>
+</li>
+<li>
+<p>The $100K FPGA competition is starting in a few weeks. We have relevant corporate sponsors for the FPGA and ASIC competitions.</p>
+</li>
+<li>
+<p>In addition to the Ethereum Foundation and Protocol Labs (i.e. Filecoin), a new blockchain project (to be announced with the FPGA competition) is helping with funding. $900K was raised in the latest round of funding. [Justin]</p>
+</li>
+</ul>
+<p><strong>Q: Is there a chance for obligatory anonymity of future validator withdrawals? Force every withdrawal to go to a shielded pool - like zcash does with mining rewards. I fear without the obligatory anonymity here just using a mixer/etc is going to be treated as extremely suspicious - forcing stakers would add plausible deniability.</strong></p>
+<p>A: I definitely support moving toward more and more privacy being a default over time! I'd say validator <em>deposits</em> are more important to mix than withdrawals, as that way it becomes harder to locate the nodes of specific validators which seems like it would increase security and censorship resistance. [Vitalik]</p>
+<p><strong>Q: What are the main incentives to run a beacon node for validators if they can just connect to high-up time beacon nodes?If there are beacon node providers with high up-time - how is this going to be decentralized?</strong></p>
+<p>A: There is an anti-centralisation incentive mechanism baked in. Basically, validators get punished for going offline the more other validators are offline at the same time. So "uncorrelated downtime" should be optimised in addition to "high uptime". [Justin]</p>
+<p><strong>Q: If, as a validator, I know that I'm going to be offline for a period of time, is is possible to 'pause' validating without suffering an inactivity leak?</strong></p>
+<p>A: The closest to a "pause" button is to first exit (which can take as little as half an hour, but may take days/weeks since there's a queuing mechanism) and later re-activate. [Justin]</p>
+<p>Clarification: there's a minimum ~1 day period before you can withdraw after you exit. It's safe to be offline during that time, but it does prevent you from re-entering.</p>
+<p>If we want to, in some future version we could add a "re-enter" feature that allows immediate re-depositing without waiting to withdraw first.... there's no theoretical reason why such a thing would not be possible. [Vitalik]</p>
+<p><strong>Q: Do we have clarity yet on whether currently locked-down smart contracts (eg metronomes 4 contracts by Jeff garzik) will continue to work seamless in ETH2.0 or whether these contracts will be deprecated with all ETH in them lost? And how can storage costs be added to locked-down contracts in ETH 1.x ? In other words can we all assume immutable contracts on ETH1.0 will continue to work forever (provided enough people want them to)? Thx</strong></p>
+<p>A: The current plan is that eth1 will be folded into eth2 as an execution environment via the stateless client approach, in which case, yes, contracts will keep working as expected. [Vitalik]</p>
+<p><strong>Q: According to this paper, it may be possible for Quantum Computers to hijack and re-sign transactions DURING BLOCKTIME by (as early as) 2027. In other words, ownership of ANY wallet that has not upgraded to a quantum secure signature scheme BEFORE THEN can no longer be trusted AT ALL (even WITHOUT previous outgoing transactions). SO THE QUESTION IS THIS: Is anyone who fails to manually upgrade their wallets before a deadline (in order to become quantum secure) guaranteed to lose their funds after the advent of Quantum Computers? For example, if someone stores a PAPER WALLET for let's say 20 years, are they going to lose their funds by that time? Can QCs just monitor the entire blockchain and automatically attempt to hijack any transaction with insecure signature scheme during one blocktime, even if the sender has no previous outgoing transactions?</strong></p>
+<p>A: Even if a quantum computer gets announced as immediately usable tomorrow, it is possible to do an emergency procedure to secure the funds of everyone who has not yet publicly released their public key or a signature (ie. every standard account holder that has not signed a transaction). You do this by doing a soft fork to disallow standard transactions, and replace them with a special transaction type that uses a STARK to prove that you own the private key k such that the given address A equals to <code>hash(G * k)[12:]</code>, and then moves the funds over into a new address type that uses a quantum-secure signature scheme, eg. Winternitz signatures.</p>
+<p>If we get more warning, then we can get people to update to Winternitz on an orderly schedule.</p>
+<p>TLDR: we're fine. [Vitalik]</p>
+<p><strong>Q: how do/will the performance bottlenecks compare between 1.x and 2.0</strong></p>
+<p>A: 2.0 removes the disk I/O bottleneck for consensus participants by heavily leaning towards stateless clients. Finality greatly mitigates the sync latency bottleneck, and the requirement for consensus participants to store historical blocks. [Justin]</p>
+<p>I'd also add that I expect light clients to be massively more viable in eth2 than in eth1. About the same order of magnitude load as a bitcoin light client to stay synced (as opposed to eth1, where light clients are not light enough in practice to run on phones...) [Vitalik]</p>
+<p><strong>Q: As an ETH miner, my main concern is how to prep for ETH 2.0. Any wiki, tips, or advice on how to proceed contributing (and profiting) for Ethereum?</strong></p>
+<p>A: Eth2 has no mining. You may be able to put those GPUs to good use at the application layer with protocols like Golem, or maybe protocols that incentivise GPU-accelerated SNARK proofs. [Justin]</p>
+<p><strong>Q: Approximately when is ETH issuance supposed to drop dramatically? (I believe the figure I've come accross is 10x reduction in issuance, is this correct also?)</strong></p>
+<p>A: When the PoW chain starts piggybacking on the PoS chain for security (this could happen during phase 1 or phase 2), it becomes safe to lower the PoW chain reward by maybe ~4x. Further reductions would happen when the PoW chain stops entirely. [Vitalik]</p>
+<p><strong>Q: During Phase 0, will ETH 2.0 be transferrable between wallets? 2.0 to 2.0? If so, are there concerns exchanges will list ETH 2.0?</strong></p>
+<p>A: Transfers will probably only go live in Phase 1 at which point exchanges will list ETH2.0. Having exchanges to so will help maintain price-parity between ETH and ETH2.0. [Carl]</p>
+<p><strong>Q: if block reward is X eth, and it is enough to secure the block, why do we pay X+gas to miners? Will this change?</strong></p>
+<p>A: In Eth2 the economic security is not a direct function of the block rewards. Instead, it is a function of the total amount at stake.</p>
+<blockquote>
+<p>Will this change?</p>
+</blockquote>
+<p>Eth2 should have a partial fee burning mechanism (see EIP1559). [Justin]</p>
+<p><strong>Q: As ETH 2.0 currently stands what are the odds of a uni-directional vs bi-directional 1.x to 2.0 bridge?</strong></p>
+<p>A: The uni-directional Eth1 -&gt; Eth2 bridge comes with the beacon chain. I'd say it's likely there will be a bi-directional bridge eventually (though unlikely to happen in 2020). Even better than a bi-directional bridge (based on light clients, which comes with non-negligible latency) is native integration of Eth1 into Eth2 (see here). [Justin]</p>
+<p><strong>Q: Will the issuance rate be enough to incentivize validators given the competition from say DeFi products and will it be changed in the future if needed?</strong></p>
+<p>A: Compound rates for ETH are ~0.02% AFAIK, so very easy to compete with. The "do you take 3% interest staking or 6% lending DAI on Compound" framing is highly misleading, because that 6% is on USD, which is very different to having 3% on ETH. But over time I do expect interest rates on ETH to slide up as more forms of staking become available (eg. channels, Plasma, Truebit, other security deposit games...). [Vitalik]</p>
+<p><strong>Q: What are the research team's thoughts / plans on if there is extreme price differences between ETH 1.0 and ETH 2.0? I would think arbitrage would solve the issue but haven't thought too deeply on the subject myself. In paticular, if ETH 1.0 coins are worth significantly more causing people to not want to redeem their ETH 2.0 coins because they will instantly take a price hit versus just selling.</strong></p>
+<p>A: I'm not too worried:</p>
+<ul>
+<li>
+<p>Transfers and exchanges can be used to redeploy "cheap" Eth2 coins for validation.</p>
+</li>
+<li>
+<p>Large holders (e.g. the EF) can be arbitragers.</p>
+</li>
+<li>
+<p>The greater the price delta, the greater the incentive to deliver a two-way bridge ASAP. [Justin]</p>
+</li>
+</ul>
+<p><strong>Q: Is it still the plan that the frequently rotated notaries perform stateless validation of the blocks?</strong></p>
+<ul>
+<li>
+<p><strong>If yes, are there any insights into how much extra network overhead will sending blocks with merkle proofs incur?</strong></p>
+</li>
+<li>
+<p><strong>If no, is there any other mechanism to prevent adversaries that can corrupt a shard quickly from applying an invalid state transition?</strong></p>
+</li>
+</ul>
+<p>A: </p>
+<blockquote>
+<p>Is it still the plan that the frequently rotated notaries perform stateless validation of the blocks?</p>
+</blockquote>
+<p>Yep!</p>
+<blockquote>
+<ul>
+<li>If yes, are there any insights into how much extra network overhead will sending blocks with merkle proofs incur?</li>
+</ul>
+</blockquote>
+<p>Looks like ~10x data (though very low computation, and we expect data to be cheaper than computation). But with techniques like https://ethresear.ch/t/layer-2-state-schemes/5691, even that could potentially be unnecessary. [Vitalik]</p>
+<blockquote>
+<p>Is it still the plan that the frequently rotated notaries perform stateless validation of the blocks?</p>
+</blockquote>
+<p>Yes.</p>
+<blockquote>
+<p>are there any insights into how much extra network overhead will sending blocks with merkle proofs incur?</p>
+</blockquote>
+<p>Now that execution engines are application layer, the answer is technically 0 :) For execution engines that use large Merkle trees (e.g. Eth1) the rough estimate at one point was 8x. I'm personally excited for execution engines that do Merkle path "witness compression" using SNARKs (proof creation accelerated by GPUs, FPGAs, or even ASICs). [Justin]</p>
+<p><strong>Q: What is the current design to move Ether tokens on eth1 to eth2?</strong></p>
+<p>A: That depends on what you mean by "Ether tokens".</p>
+<ul>
+<li>
+<p>Validators can send a deposit of 32 ETH to the deposit contract which is then transferred to the beacon chain where they can begin validation.</p>
+</li>
+<li>
+<p>For people who wish to transfer their ETH from Eth1-&gt;2, that is not something that has been decided upon yet, but there will (probably) exist a dedicated bridge for this purpose (otherwise they can go through the deposit contract).</p>
+</li>
+<li>
+<p>It is still too early to know about ERC20/721 tokens. If Eth2 has an Eth1 execution engine, then it could be pretty painless, but even if not, an ERC20 token could just be transferred by copying over its state root. [Carl]</p>
+</li>
+</ul>
+<p><strong>Q: Sorry in advance if my questions are dumb but I didn't follow closely Ethereum 2.0 for couple months.</strong></p>
+<ul>
+<li>
+<p><strong>Is there an approximative release date?</strong></p>
+</li>
+<li>
+<p><strong>Concerning staking, how much is needed and do we know for now the rewards?</strong></p>
+</li>
+<li>
+<p><strong>What is the main point in eth2.0 you are the most proud of?</strong></p>
+</li>
+<li>
+<p><strong>Do you feel that the Binance Chain is an enemy to Ethereum?</strong></p>
+</li>
+</ul>
+<p>A: </p>
+<blockquote>
+<p>Is there an approximative release date?</p>
+</blockquote>
+<p>January 3, 2020 at the earliest for phase 0. I'd say Q1 2020 is likely.</p>
+<blockquote>
+<p>Concerning staking, how much is needed and do we know for now the rewards?</p>
+</blockquote>
+<p>32 ETH. Rewards depend on the total number of validators, individual validator performance, and the gas markets. I wouldn't be surprised if the typical validator has an annual return around 10%.</p>
+<blockquote>
+<p>What is the main point in eth2.0 you are the most proud of?</p>
+</blockquote>
+<p>I'm proud to have been able to make a contribution in a beautiful piece of infrastructure I believe will radically change the world in a positive way :)</p>
+<blockquote>
+<p>Do you feel that the Binance Chain is an enemy to Ethereum?</p>
+</blockquote>
+<p>No. [Justin]</p>
+<p><strong>Q: When sharding is released, will there just suddenly be 1024 shards in existence, or will there be a small but growing number of shards as usage goes up? Starting with such a high number will leave a lot of unused space/capacity</strong></p>
+<p>A: All 1024 shards will be launched at once. Growing the number of shards is (probably) unneeded complexity. Shards with lots of unused capacity will have lower gas prices attracting more users.</p>
+<p><strong>Q: How can the average person help with eth2.0? Donations? Documentation? Are there any organized efforts underway?</strong></p>
+<p>A: Educating yourself enough to feel comfortable to participate as a validator would be fantastic :) [Justin]</p>
+<p><strong>Q: After the scaling issues are solved will this be an economical platform to host backend logic on? How will this compare to running your own server or going through a cloud hosting company in terms of cost and ease of use for light or heavy workloads? Personally, my highest anticipated use case is hosting multiplayer matchmaking and signaling, though I haven’t built such a system yet out of concern for difficulty and cost.</strong></p>
+<p>A: It's unlikely that Eth2 on its will be used as a backend for heavy workloads, the data throughput is likely just too high. That said, it works really well as a dispute resolution layer so a centralised service can run the backend optimistically and if someone disagrees with the execution, they can contest and have it resolved on Eth2.</p>
+<p>For lighter use-cases it probably can, but this is more in the context of a dapp. [Carl]</p>
+<p><strong>Q: I was under the assumption that ETH would just update to the new ETH 2.0 chain, no need to swap coins or anything but will this transition from ETH1 to ETH2 cause a fork in the community similar to ETC Ethereum classic and ETH chain? Does the circulating supply of ETH 2.0 depend on how many people 'evolve' their ETH1 tokens to ETH2 tokens?</strong></p>
+<p>A: </p>
+<blockquote>
+<p>ETH would just update to the new ETH 2.0 chain</p>
+</blockquote>
+<p>Unfortunately, it is not quite that simple. Eth2 is such a big upgrade over Eth1 that it is easier to implement as an entirely new chain than to upgrade. See <a href="https://old.reddit.com/r/ethereum/comments/cdg8v6/ama_we_are_the_eth_20_research_team_pt_2/ettrnlw/">Justin's ELI5 here for more</a>.</p>
+<blockquote>
+<p>Does the circulating supply of ETH 2.0 depend on how many people 'evolve' their ETH1 tokens to ETH2 tokens?</p>
+</blockquote>
+<p>The large majority of it, yes. Rewards are also issued on the Eth2 chain so that increases the supply there too. Ultimately, the expectation is that all Eth1 ETH will be transferred to Eth2.</p>
+<p><strong>Q: Do you think its worth laying 6 month/1 year/2 year 'ground rules' for Eth 2.0 chain assuming something unexpectedly goes wrong?</strong></p>
+<p>A: My concern with doing something like this is its inflexibility. It is basically impossible to cover all the possible cases and even if we could, I'd argue that such an approach is too inflexible to handle the intricacies of exactly how something has failed. Handling it on a case-by-case basis seems like a better solution to me. [Carl]</p>
+<p><strong>Q: Are there any plans to have the ETH 2.0 chain finalize blocks of the ETH 1.0 chain during Phase 0? For example like proposed with Casper, every 100th block will be validated by PoS.</strong></p>
+<p>A: The integration between Eth1 and Eth2 is a roadmap orthogonal to phases 1, 2, 3 of Eth2.</p>
+<blockquote>
+<p>Are there any plans to have the ETH 2.0 chain finalize blocks of the ETH 1.0 chain during Phase 0?</p>
+</blockquote>
+<p>My best guess is this will happen in 2021. See <a href="https://www.reddit.com/r/ethtrader/comments/c872b7/ethereum_20_well_on_its_way_serenity_phase_zero/esnnvey/">here</a>. [Justin]</p>
+<p><strong>Q: What happens if you send more ETH to the deposit contract? Like 32.1 or 40?</strong></p>
+<p>A: Nothing is stopping you from sending &gt;32 Eth to the deposit contract, but you'll only receive rewards on the first 32 Eth, so it's not something I'd really recommend. [Carl]</p>
+<p>That's fine. Your balance will reflect the deposit, and the balance in excess of 32 ETH can be transferred to another validator (phase 1) or to a shard (phase 2). [Justin]</p>
+<p><strong>Q: What's the easiest set up to stake let's say 320 ETH?</strong></p>
+<p>A: A laptop should be capable of handling around 10 validators so you should be able to send 10*32 Eth to the deposit contract and start validating on your 1 machine. [Carl]</p>
+<p>A laptop should be sufficient. We'll know more in a few months when the numbers for block sizes and gas limits of shard blocks get finalized. [Vitalik]</p>
+<p><strong>Q: What's your opinion on Harmony one's approach to a high scalability smart contract platform using PoS? I read you're involved in discussions with them, have you helped each other in developing code?</strong></p>
+<p>A: </p>
+<blockquote>
+<p>I read you're involved in discussions with them</p>
+</blockquote>
+<p>I've had brief VDF discussions with Harmony.</p>
+<blockquote>
+<p>have you helped each other in developing code?</p>
+</blockquote>
+<p>Don't think so, at least not yet.</p>
+<blockquote>
+<p>What's your opinion on Harmony one's approach to a high scalability smart contract platform using PoS?</p>
+</blockquote>
+<p>I had a brief look at their whitepaper which seems to be inspired by Ethereum. So I guess my opinion is that their approach to scalability is great :) [Justin]</p>
+<p><strong>Q: If Eth 2.0 introduces PoS, are there legal hurdles to be clarified upon? Could the token be considered a security token?</strong></p>
+<p>A: I'm not aware of any jurisdiction that considers ETH on Eth1 a security, and since ETH on Eth2 is basically the same as ETH on Eth1 (other than the temporary technicality of two separate tokens) then ETH on Eth2 should not be a security. [Justin]</p>
+<p><strong>Q: I'm planning to run a beacon node + N validators. Do you think this will will be able to be managed by a Raspberry Pi 4? I'm aware that it is being worked out to have ARM64 binaries ready soon, the question is if it seems realistic not to have a computer running at home and instead running something smaller and cleaner environmentally speaking like a Pi4.</strong></p>
+<p>A: That depends on "N". I (personally) fully expect a RPi3 to be able to run at least one validator node, but we'll only know this when clients are closer to delivery. [Carl]</p>
+<p><strong>Q: What are some smaller things that you guys would like an average r/ethtrader community member could help with?</strong></p>
+<p>A: Educating yourself enough to feel comfortable to participate as a validator would be fantastic :) [Justin]</p>
+<p><strong>Q: Is there any clarity on the transition process regarding basic aspects like whether Beacon eth can be sold on exchanges for example, and whether the PoW chain knows of the Beacon eth? Better asked, how do you ensure there is one network when there are two chains?</strong></p>
+<p>A: </p>
+<blockquote>
+<p>whether Beacon eth can be sold on exchanges for example</p>
+</blockquote>
+<p>Beacon eth will be sellable on exchanges when transfers are enabled in phase 1.</p>
+<blockquote>
+<p>whether the PoW chain knows of the Beacon eth?</p>
+</blockquote>
+<p>That will come later, see <a href="https://www.reddit.com/r/ethtrader/comments/c872b7/ethereum_20_well_on_its_way_serenity_phase_zero/esnnvey/">here</a>.</p>
+<blockquote>
+<p>how do you ensure there is one network when there are two chains?</p>
+</blockquote>
+<p>The long term plan is to natively integrate Eth1 into Eth2. See <a href="https://ethresear.ch/t/work-to-natively-integrate-eth1-into-eth2/5573">here</a>. [Justin]</p>
+<p><strong>Q: Can you explain somewhat precisely how cross sharding communication would work. As in how does shard node A talk to shard node B without going through some sort of intermediary? If they can do this talking, why can't it be used for eth to talk to say bitcoin.</strong></p>
+<p>A: The intermediary is the beacon chain, or infrastructure optimistically predicting what will eventually get finalised in the beacon chain. [Justin]</p>
+<p><strong>Q: How would you objectively judge the level of technological advancement of current eth and current bitcoin as far as the very limited function of sending coins from A to B is concerned?</strong></p>
+<p>A: Eth1 and Bitcoin are comparable for on-chain payments. [Justin]</p>
+<p><strong>Q: Presuming you agree price drives security, and presuming you agree all cryptos reside in a very competitive environment, are there any plans to address the increased issuance that the Beacon chain would bring? In addition, are there any plans to meet or maybe even surpass bitcoin's coded reduction of new supply to 2% next year. And related, what would you say to the criticisms that have already been expressed whereby if you can reduce issuance by say 10x, you can increase it too. Or asked in a more open question manner, what do you think of this process through which increases or decreases of issuance are made?</strong></p>
+<p>A: It's possible Eth2 will cause net-negative issuance. The reason is that ETH gets burned via transaction fees. Pushing code to the beacon chain will also burn ETH. Finality, the penalties also burns ETH. [Justin]</p>
+<p><strong>Q: Will phase 0 contain any scalability improvements? How many transactions per second will Ethereum be able to handle with Sharding?</strong></p>
+<p>A: Phase 0 will allow for a light client that can give you hashes of the eth1 chain in a fairly lightweight way (but not too lightweight, you'll need ~200kb per 6 minutes to keep up with the committees, this will go down to 200kb per a few days with phase 1). This could be used to allow eg. light clients inside of browsers to work efficiently. That's a kind of scalability improvement, and an underdiscussed one imo. [Vitalik]</p>
+<p>Phase 0's purpose is tracking validators' states and producing randomness, asking about its scalability is not really meaningful. Regarding Tx/s, the answer is not really known. As a basic calculation, if each shard has the same throughput as Eth1.x, then we'll have 16 * 1024 = 16,384 Tx/s (assuming no inter-shard Txs).</p>
+<p>That said, the above numbers are kinda meaningless as Eth2 is designed to be used along with L2 scaling solutions like Rollups and OVM which could yield insanely high throughputs. [Carl]</p>
+<p><strong>Q: Can you address points 2 - 4 in this <a href="https://twitter.com/josephdelong/status/1148771489807835136">tweet</a>?</strong></p>
+<p>A: The default idea for clocks in eth2 is https://ethresear.ch/t/network-adjusted-timestamps/4187.</p>
+<p>There has not been that much work done on writing "policeman" software that would detect slashable violations by validators and penalize them, but I am not worried about this. Reasons:</p>
+<ul>
+<li>
+<p>Even if no one writes the code, that just means the security model degrades to honest majority, which is not the worst</p>
+</li>
+<li>
+<p>One client implementing the code correctly is sufficient</p>
+</li>
+<li>
+<p>If a client implements the code badly, there's no consensus risk, they could just ship with badly written code that only works half the time and it would catch half the slashable violations.</p>
+</li>
+</ul>
+<p>I'll defer to Danny on wire protocol stuff. [Vitalik]</p>
+<p>Point 2: "Wire protocol" =&gt; This is an implementation detail that I'm sure the implementers will agree upon soon enough :) The high-level recommendation from the research team is to use libp2p as the networking stack (dicv5 for discovery) and SSZ for serialisation. But this cannot enforced at the consensus layer, and we've already seen alternatives (e.g. clients using Whiteblock for networking, and Prysm is using protobufs in some places).</p>
+<p>Point 3: "Clients to slash surround votes" =&gt; Not sure what this means. The spec clearly defines the slashing mechanism for surround votes. See is_slashable_attestation_data.</p>
+<p>Point 4: "Decentralized network time protocol" =&gt; Just like Eth1, clocking is an implementation detail. It is to an extent decentralised (e.g. there are alternatives to NTP such as GPS, one can choose his/her NTP servers, one can use local clocks, etc.). It would be nice to have something even more robust but this is research territory—not required for launch of Eth2. [Justin]</p>
+<p><strong>Q: Why aren't Beacon nodes rewarded? Wouldn't this allow the network to be more decentralized?</strong></p>
+<p>A: Validators are rewarded. Beacon nodes that are not validators are not rewarded in protocol because the protocol can't tell who's a beacon node vs just pretending to be one (eg. via 100 fake nodes pointing to the same real node). Though non-validator nodes may be able to earn money in eth2 through incentivized light client protocols.</p>
+<p><strong>Q: In regards to the recent proposal of vitalik to use the bcash chain as a short-term scaling solution until eth 2.0 launches: is eth 2.0 still on track? is there a concrete demand for an interim solution?</strong></p>
+<p>A: The main motivation for proposing an interim solution (if you don't like bitcoin cash for political reasons, I also recommended ethereum classic, I think it's also a good choice) is to make it easier for the work on building these layer 2s to be able to get off the ground in parallel with finalizing the work on the eth2 layer 1 itself. In general, the ethereum community is large, so doing things in parallel is its advantage. [Vitalik]</p>
+<p><strong>Q: You do not plan to work on the creation of parachain (eth 2.0.) On Polkadot?</strong></p>
+<p>I don't think EF will have to drive this. Web3/Parity are on it and I believe consider it to be a top priority.</p>
+<p>The Shasper (Parity) client is written in substrate to help facilitate this happening. [Danny]</p>
+<p><strong>Q: Pretty basic but what's a realistic estimate of throughput after every is put together?</strong></p>
+<p>A: Somewhere between 5000 and 500000 TPS depending on what execution environment and transaction type you're using. [Vitalik]</p>
+<p><strong>Q: Could you say anything about the adoption of Ethereum Blockchain? Are there plans to create something like a B2B team actively approaching "qualified" companys?</strong></p>
+<p>A: I'd say the Ethereum Foundation's primary focus is the consensus layer (research, development, education, maintenance, etc.), more so than the application layer. [Justin]</p>
 <h2 id="resources">Resources:</h2>
 <ul>
-<li><a href="https://old.reddit.com/r/ethereum/comments/ajc9ip/ama_we_are_the_eth_20_research_team/">Source</a></li>
+<li><a href="https://old.reddit.com/r/ethereum/comments/ajc9ip/ama_we_are_the_eth_20_research_team/">Part 1</a></li>
+<li><a href="https://old.reddit.com/r/ethereum/comments/ajc9ip/ama_we_are_the_eth_20_research_team/">Part 2</a></li>
 </ul>
                 
                   
