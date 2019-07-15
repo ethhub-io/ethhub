@@ -755,7 +755,9 @@ Additionally, it is safer to launch without Eth1 finalisation in case of a Eth2 
 
 A: It got considerably simpler over the last year. If you do a word count on the spec, it seems to be considerably smaller than the yellow paper at this point. There's a lot of things in eth2 that are much simpler than eth1. But there's definitely lingering complexity and I deeply care about minimizing it. [Vitalik]
 
-While the research path has been somewhat tortuous and hard to follow, the end product is arguably simple and clean. Expect more educational material highlighting the simplicity of the current design. Phase 0 is about 1024 lines of code to specify (assuming SHA256 and BLS12-381 as primitives). I expect phases 1 and 2 to be 1024 lines of code combined (assuming WASM as primitive). [Justin]
+While the research path has been somewhat tortuous and hard to follow, the end product is arguably simple and clean. Expect more educational material highlighting the simplicity of the current design. Phase 0 is about 1024 lines of code to specify (assuming SHA256 and BLS12-381 as primitives). I expect phases 1 and 2 to be 1024 lines of code combined (assuming WASM as primitive). That's just the phase 0 consensus (deposit contract, beacon chain state transition function, and beacon chain fork choice rule).
+
+[Justin]
 
 **Q: Why are there so many teams building eth2.0 clients? I understand the point of client diversity but don't you think 6 clients seem to be pushing it? Supporting so many clients would also divide the resources in terms of funding. Which clients do you see as the geth and parity of eth2.0?**
 
