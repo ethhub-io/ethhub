@@ -725,6 +725,10 @@ A: Thanks for noting its informality. :) Launching early next year is my persona
 
 If anything, I think BLS standardisation efforts are the most likely to slow us down. We (as a greater blockchain community) are trying very hard to have a standardised signature scheme for better interoperability between all the chains. There is a high degree of consensus on this already, but establishing a new standard is always a slow process. [Carl]
 
+The client teams are doing a great job and continuing to push the envelope. I expect exciting progress to be made in the coming months, but I also expect that the last mile might be long.
+
+Early 2020 is realistic and still the target. [Danny]
+
 **Q: Are the researchers happy with the current state of the economics of Ethereum 2.0?**
 
 A: I don't think it's productive for us to worry about the absolute numbers at this point; the network will launch, and either the rewards will prove sufficient or they won't. The other thing worth worrying about is centralization incentives, but that's difficult to work out "in theory land"; much of the result in practice has to do with how lazy people are. [Vitalik]
@@ -776,6 +780,10 @@ A: A few notes on client diversity:
 We definitely don't want a duopoly! For me personally, the ideal would be to have no single client exceed 1/3 of the network, so any software bug in any single client would not stop the network. Though having no single client exceed 1/2 is ok too and gets us most of the same benefit (if a major client has a bug, having no finality for a while while things are being figured out may even be an improvement...)
 
 I expect a power law distribution, and it's definitely likely that some of the clients will not survive to see significant usage on mainnet. [Vitalik]
+
+My guess on why so many clients showed up to do the hard work is that eth2.0 is both exciting as a purely technical challenge as well as a chance to make a mark on Ethereum and the crypto space in general.
+
+I'm pleased that there are so many great teams doing the hard work, but recently, I've been more focused on finding contributors to do value-add work outside of the core client implementation. Formal verification, academic analysis of protocols, testing, light clients, web3 interfaces and developer tooling, validator clients with great UX that plug into any underlying node, etc, etc. [Danny]
 
 **Q: Are the Ethereum 2.0 clients eventually going to replace the 1.0 counterparts? For example, will Prism ever get merged to Geth?**
 
