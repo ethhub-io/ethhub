@@ -216,5 +216,11 @@
         <script src="{{ path | url }}"></script>
       {% endfor %}
     {% endblock %}
+
+    {% block unlock %}
+      {% if config.extra.unlock %}
+        {% include "partials/integrations/unlock-config.html" %}
+      {% endif %}
+    {% endblock %}
   </body>
 </html>

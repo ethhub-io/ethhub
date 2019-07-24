@@ -1,0 +1,10 @@
+<script> (function (d, s) {
+    var js = d.createElement(s),
+      sc = d.getElementsByTagName(s)[0];
+    js.src = "https://paywall.unlock-protocol.com/static/unlock.1.0.min.js";
+    sc.parentNode.insertBefore(js, sc);
+  }(document, "script"));
+</script>
+<script>
+  var unlockProtocolConfig = {{ config.extra.unlock| tojson }}
+</script>

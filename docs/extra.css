@@ -2,11 +2,11 @@
     [data-md-color-accent=black] .md-typeset a:active, [data-md-color-accent=black] .md-typeset a:hover {
       color: blue!important;
   }
-  
+
   .md-typeset a {
       color: #3f51b5!important;
   }
-  
+
   .md-typeset h2 {
       border-top: 1px grey solid!important;
       padding-top: 35px!important;
@@ -18,4 +18,11 @@
 
   html .md-footer-meta.md-typeset a {
 color: white!important
+}
+
+.md-footer-unlock {
+  clear: both;
+  height: 30px;
+  text-align: center;
+  color: white !important;
 }
