@@ -11,6 +11,33 @@ Ethereum is an open-source, public, blockchain-based distributed ledger featurin
 
 Because it opens the door to a global financial system where an Internet connection is all you need to access applications, products and services that operate in a trustless manner. Anyone can interact with the Ethereum network and participate in this digital economy, without the need for third parties and without the risk of censorship.
 
+## What are Smart Contracts and Decentralized Applications?
+
+While the word "contract" brings to mind legal agreements; in Ethereum "smart contracts" are just pieces of code that run on the blockchain and are guaranteed to produce the same result for everyone who runs them. These can be used to create a wide range of Decentralized Applications (DApps) which can include games, digital collectibles, online-voting systems, financial products and many others.
+
+The term "Smart Contract" was coined by Nick Szabo in the 90's. Szabo used the basic example of a vending machine to describe how real-world contractual obligations can be programmed into software and hardware systems. Everyone who puts the correct amount of coins into the machine can expect to receive a product in exchange. Similarly, on Ethereum, contracts can hold value and unlock it only if specific conditions are met.
+
+The scripting language used by Ethereum is Turing-complete, essentially meaning that the types of DApps users can design is limited only by their imagination. The [Ethereum Whitepaper] (https://github.com/ethereum/wiki/wiki/White-Paper) divides DApps into three categories:
+
+### Financial Applications
+These are applications that allow users to enter into contracts to interact with their money in a variety of innovative ways, including:
+* Tokenized assets
+* Smart wallets
+* Financial derivatives
+* Decentralized exchanges
+
+### Semi-Financial Applications
+These applications involve money, but also include non-financial aspects. These include:
+* Decentralized insurance contracts that pay users based on external events
+* Bounty systems that pay users for specified work
+
+### Non-Financial Applications
+These applications are not financial in nature, but use the security and censorship-resistance of blockchain to produce a wide range of innovative applications including:
+* Digital Collectibles
+* Proveably fair online games
+* Decentralized Autonomous Organizations (DAOs)
+* Voting systems
+
 ## Resources
 
 * [Blockgeek - What is Ethereum](https://blockgeeks.com/guides/ethereum/)
