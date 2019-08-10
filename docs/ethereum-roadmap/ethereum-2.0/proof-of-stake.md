@@ -51,7 +51,7 @@ The fourth is most difficult. The fourth can be recovered from via a "minority s
 
 ### Why would I want to stake my ETH?
 
-For staking your ETH and attesting to correct blocks, you will be rewarded with additional ETH through a network wide interest rate as well as receive a portion of network transaction fees. Details can be found [here](https://docs.ethhub.io/ethereum-roadmap/serenity-phases/eth-2.0-economics).
+For staking your ETH and attesting to correct blocks, you will be rewarded with additional ETH through a network wide interest rate as well as receive a portion of network transaction fees. Details can be found [here](https://docs.ethhub.io/ethereum-roadmap/ethereum-2.0/eth-2.0-economics).
 
 ### What are the minimum requirements to stake?
 
