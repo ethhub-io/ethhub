@@ -41,7 +41,7 @@ In order to incentivize those that have ETH to stake in the network, there must 
 | 10,000,000 | 572,433 | 0.54% | 5.72% |
 | 30,000,000 | 991,483 | 0.94% | 3.30% |
 | 100,000,000 | 1,810,193 | 1.71% | 1.81% |
-| 134,217,728 | 2,097,152 | 1.98% | 1.56% |
+| 134,217,728 | 2,097,152 | 1.56% | 1.56% |
 
 [According to Vitalik Buterin](https://www.reddit.com/r/ethtrader/comments/bffp0n/higher_pos_rewards_proposed/elen71t?utm_source=share&utm_medium=web2x), these are maximum numbers and there are many factors that can decrease the total issuance amounts. They are:
 
