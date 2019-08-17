@@ -1,4 +1,4 @@
-title: Cloudflare
+title: Cloudflare - EthHub
 
 description: Cloudflare is building a public Ethereum gateway
 

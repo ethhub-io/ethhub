@@ -1,4 +1,5 @@
 title: Payment Channels - EthHub
+
 description: Payment channels are a layer 2 scaling solution for Ethereum.
 
 # Payment Channels

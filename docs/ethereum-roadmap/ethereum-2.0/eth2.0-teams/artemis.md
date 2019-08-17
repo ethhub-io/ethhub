@@ -1,3 +1,7 @@
+title: PegaSys - EthHub
+
+description: PegaSys (Protocol Engineering Groups and Systems) is a 50-person team dedicated to enterprise grade blockchain at ConsenSys.
+
 # PegaSys
 
 ## Background

@@ -1,3 +1,7 @@
+title: Teams building on Eth 2.0 - EthHub
+
+description: There are currently nine independent development teams building Ethereum 2.0 clients.
+
 # Teams Building Eth 2.0
 
 There are currently nine independent development teams building Ethereum 2.0 clients:

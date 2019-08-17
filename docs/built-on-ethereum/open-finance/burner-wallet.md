@@ -1,4 +1,5 @@
-title: xDai Burner Wallet for Ethereum
+title: xDai Burner Wallet for  - EthHub
+
 description: The Burner Wallet allows users to interact with xDai on the POA Network sidechain for Ethereum.
 
 # Burner Wallet (xDai)

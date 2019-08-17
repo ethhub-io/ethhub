@@ -1,4 +1,4 @@
-title: Wrapped Bitcoin (WBTC)
+title: Wrapped Bitcoin (WBTC) - EthHub
 
 description: Wrapped Bitcoin brings Bitcoin to Ethereum in the form of an ERC20 token
 

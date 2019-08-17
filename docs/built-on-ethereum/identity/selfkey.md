@@ -1,3 +1,7 @@
+title: Selfkey - EthHub
+
+description: SelfKey is a blockchain based self-sovereign identity system that allows individuals and companies to truly own, control and manage their digital identity.
+
 # Selfkey
 
 ## Summary

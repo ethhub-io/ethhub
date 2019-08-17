@@ -1,3 +1,7 @@
+title: Parity: Substrate Shasper - EthHub
+
+description: Parity is developing the Serenity client called Substrate Shasper.
+
 # Substrate Shasper
 
 ## Background

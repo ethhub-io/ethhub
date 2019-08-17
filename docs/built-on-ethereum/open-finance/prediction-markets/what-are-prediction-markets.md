@@ -1,4 +1,5 @@
 title: What are Prediction Markets on Ethereum? - EthHub
+
 description: Prediction markets facilitate the trading of event derivatives.
 
 # Prediction Markets

@@ -1,4 +1,4 @@
-title: The Dai Card
+title: The Dai Card - EthHub
 
 description: The Dai Card is a Dai payment channel solution created by Connext
 

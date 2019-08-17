@@ -1,3 +1,6 @@
+title: Bloom - EthHub
+description: Bloom is a set of products designed to facilitate lending and borrowing on a global scale.
+
 # Bloom
 
 ## Summary

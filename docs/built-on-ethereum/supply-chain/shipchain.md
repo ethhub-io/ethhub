@@ -1,3 +1,7 @@
+title: ShipChain - EthHub
+
+description: ShipChain is building an end to end logistics and supply chain visibility platform, based both on Ethereum and Loom for scalability.
+
 # ShipChain
 
 <img src="https://i.imgur.com/9yoEuLW.png" alt="ShipChain logo" width="500" />

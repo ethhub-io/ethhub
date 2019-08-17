@@ -1,3 +1,7 @@
+title: Nexus Mutual - EthHub
+
+description: Nexus Mutual is a digital cooperative built on Ethereum, allowing users to cover themselves against hacks and bugs in smart contracts.
+
 # Nexus Mutual
 
 ## Summary

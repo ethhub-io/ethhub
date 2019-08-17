@@ -1,3 +1,7 @@
+title: EthHub CFTC Response - EthHub
+
+description: On December 11th, 2018 the CFTC submitted a public "Request for Input" which asks for clarity and answers around Ethereum. EthHub answered.
+
 # EthHub CFTC Response
 
 On December 11th, 2018 the CFTC [submitted a public "Request for Input"](https://www.cftc.gov/sites/default/files/2018-12/federalregister121118.pdf) which asks for clarity and answers around Ethereum. The following is a list of all questions asked in the RFI. The following answers were developed on EthHub, an open source, community run information hub for the Ethereum community.

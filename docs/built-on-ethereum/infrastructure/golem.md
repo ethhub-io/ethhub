@@ -1,3 +1,7 @@
+title: Golem - EthHub
+
+description: Golem is a decentralized computing marketplace. Golem enables the rental of hardware resources for applications, including processing for digital rendering.
+
 # Golem
 
 ## Description

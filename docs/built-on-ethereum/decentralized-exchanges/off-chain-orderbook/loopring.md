@@ -1,3 +1,7 @@
+title: Loopring - Ethhub
+
+description: Loopring introduces two novel tools that can increase liquidity, order ring and consortium blockchain, to improve on decentralized exchanges.
+
 # Loopring
 
 ## Description

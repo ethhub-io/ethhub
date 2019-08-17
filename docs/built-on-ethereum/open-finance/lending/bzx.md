@@ -1,3 +1,7 @@
+title: bZx - EthHub
+
+description: bZx defines a protocol for decentralized margin trading with a hybrid order model. Relayers maintain their own orderbook while orders are settled on-chain.
+
 # bZx
 
 ## Summary

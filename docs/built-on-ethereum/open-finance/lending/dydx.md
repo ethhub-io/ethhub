@@ -1,6 +1,6 @@
-title: dYdX
+title: dYdX - EthHub
 
-description: dYdX is a non-custodial trading platform on Ethereum
+description: dYdX is a non-custodial margin trading platform on Ethereum. ERC20 tokens can be leveraged against collateral.
 
 # dYdX
 

@@ -1,3 +1,7 @@
+title: Chainmonsters - EthHub
+
+description: Chainmonsters is an monster training and battling MMORPG. The story mode takes trainers on adventures through a monster-filled world. 
+
 # Chainmonsters
 
 <img src="https://blockchaingamer.net/wp-content/uploads/2018/04/pvp_preview-758x502.png" alt="Chainmonsters battle scene" width="550" />

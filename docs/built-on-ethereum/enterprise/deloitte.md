@@ -1,4 +1,4 @@
-title: Deloitte
+title: Deloitte - EthHub
 
 description: Deloitte has a dedicated team (EMEA blockchain lab) exploring blockchain capabilities
 

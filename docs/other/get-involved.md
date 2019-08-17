@@ -1,3 +1,7 @@
+title: How can I get involved with EthHub? - EthHub
+
+description: Join our Discord Server to get involved with the community. Check out the open source repo on Github and ask any questions you run into along the way!
+
 # How can I get involved with EthHub?
 
 ## [Join the EthHub discord!](https://discord.gg/Svn8nJh)

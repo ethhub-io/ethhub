@@ -1,3 +1,7 @@
+title: Hydro - Ethhub
+
+description: Hydro is a fork of 0x that removes the requirement to pay fees in a native token and adds liquidity sharing and an improved matching engine.
+
 # Hydro
 
 ## Description

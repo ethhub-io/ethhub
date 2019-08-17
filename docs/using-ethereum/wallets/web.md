@@ -1,4 +1,5 @@
 title: Ethereum Web Wallets - EthHub
+
 description: Explanation of Ethereum web wallets pros and cons as well as a list of applications.
 
 # Web

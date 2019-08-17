@@ -1,3 +1,7 @@
+title: Blocknative - Ethhub
+
+description: Blocknative Assist is an embeddable widget that improves transaction usability. It leads end-users through interactions with prompts and clear actions.
+
 # Blocknative
 
 ## Description

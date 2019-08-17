@@ -1,3 +1,7 @@
+title: Settle - EthHub
+
+description: Settle is a web-native operating system for decentralized finance. Settle attempts to create a new open economy for DeFi protocols and trading tools.
+
 # Settle
 
 ## Summary

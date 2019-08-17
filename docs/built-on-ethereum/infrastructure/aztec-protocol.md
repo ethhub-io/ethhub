@@ -1,3 +1,7 @@
+title: 0xcert - EthHub
+
+description: The AZTEC protocol is a second-layer solutions that uses zero-knowledge proofs to enable confidential transactions for any asset on Ethereum.
+
 # Aztec Protocol
 
 The AZTEC protocol is a second-layer solutions that uses zero-knowledge proofs and confidential transactions to enable confidential transactions for any generic digital asset on Ethereum, including existing assets. The AZTEC protocol supports a stealth address protocol that can be used to obfuscate the link between a note 'owner' and any on-chain identity. The first contract built for the Aztec Protocol is for MakerDao's DAI token.

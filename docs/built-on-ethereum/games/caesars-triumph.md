@@ -1,3 +1,8 @@
+title: Caesar's Triumph - EthHub
+
+description: Caesar's Triumph is a map conquest game where players look to collect points from Land battles to become Caesar or a Senator for the day.
+
+
 # Caesar's Triumph
 _previously CryptoRome_
 

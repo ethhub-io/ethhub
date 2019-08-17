@@ -1,3 +1,7 @@
+title: DutchX - Ethhub
+
+description: DutchX leverages the Dutch Auction to fix decentralized trading by preventing front running. DutchX is governed by dxDAO. 
+
 # DutchX
 
 ## Description

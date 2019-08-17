@@ -1,3 +1,8 @@
+title: QuikNode - EthHub
+
+description: QuikNode is the fastest and easiest way to run an Ethereum node.
+Its mission is to help blockchain ecosystems by providing accessible Web3 infrastructure.
+
 # QuikNode
 
 ## Description

@@ -1,3 +1,7 @@
+title: Origin Protocol - EthHub
+
+description: Origin Protocol provides infrastructure for a general-purpose marketplace. Listings data is stored on IPFS, while the metadata is stored on Ethereum.
+
 # Origin Protocol
 
 ## Summary

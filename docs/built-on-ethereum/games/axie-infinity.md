@@ -1,3 +1,7 @@
+title: Axie Infinity - EthHub
+
+description: Axie Infinity is a fantasy creature game with training, battling, and breeding. Axie pets have unique attributes and moves they can use in battle.
+
 # Axie Infinity
 
 <img src="https://cdn-images-1.medium.com/max/960/1*OGfTUWooSC2NMqw8x6nn4w@2x.png" width="250" alt="An axie ready for battle" />

@@ -1,7 +1,6 @@
-title: Augur
+title: Augur - EthHub
 
 description: Augur is a decentralized oracle and prediction market built on Ethereum
-
 
 # Augur
 

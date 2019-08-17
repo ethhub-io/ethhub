@@ -1,3 +1,7 @@
+title: Gnosis X - EthHub
+
+description: Gnosis X is a challenge designed to encourage developers to build prediction market applications on Gnosis.
+
 # Gnosis X
 
 Gnosis X — a challenge designed to encourage developers to build prediction market applications on Gnosis.

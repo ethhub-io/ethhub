@@ -1,3 +1,7 @@
+title: Decentraland - EthHub
+
+description: Decentraland is an open virtual world that players can modify and interact with. Purchase, rent and upgrade land in virtual reality and interact with others.
+
 # Decentraland
 
 ## Description

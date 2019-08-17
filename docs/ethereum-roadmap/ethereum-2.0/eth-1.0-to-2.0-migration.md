@@ -1,4 +1,5 @@
 title: Migration from Ethereum 1.0 to Ethereum 2.0 - EthHub
+
 description: There are many things to consider in the migration of Eth 1.0 to Eth 2.0 including Ether migration and state.
 
 # Eth 1.0 to 2.0 Migration

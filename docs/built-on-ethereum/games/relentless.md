@@ -1,3 +1,7 @@
+title: Relentless - EthHub
+
+description: Relentless is a trading card game that stores all of your game assets and data on its own dedicated Plasma DAppChain, a sidechain to Ethereum.
+
 # Relentless
 _previously Zombie Battleground_
 

@@ -1,3 +1,7 @@
+title: My Crypto Heroes - EthHub
+
+description: My Crypto Heroes is a turn-based role-playing game featuring historic heroes and battles. Players can collect new legendary heroes and items.
+
 # My Crypto Heroes
 
 ## Summary

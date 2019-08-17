@@ -1,3 +1,7 @@
+title: Enterprise on Ethereum - Ethhub
+
+description: Ethereum offers tools which empower developers to create, test, and deploy  enterprise-grade blockchain solutions in a matter of minutes.
+
 # Enterprise
 
 ## What Ethereum offers to Enterprises

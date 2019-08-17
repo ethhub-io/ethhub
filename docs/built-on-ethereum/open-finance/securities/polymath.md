@@ -1,3 +1,7 @@
+title: Polymath - EthHub
+
+description: Polymath aims to bring compliant securities to Ethereum in the form of tokens.
+
 # Polymath
 
 ## Summary

@@ -1,4 +1,5 @@
 title: Stablecoins on Ethereum - EthHub
+
 description: Stablecoins are cryptocurrencies designed to minimize the effects of price volatility, thus they seek to function as a store of value and a unit of account.
 
 # Stablecoins

@@ -1,3 +1,7 @@
+title: Ethereum Development Testing - EthHub
+
+description: Leveraging testing throughout the development process of decentralised applications but can lead to false positive results.
+
 # Testing
 
 Not only does Test-Driven Development make your codebase stellar, it's extremely useful when interacting with a new language with different semantics. And surprisingly, it's actually not so hard in Ethereum development to get started with it!

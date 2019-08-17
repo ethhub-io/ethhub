@@ -1,3 +1,7 @@
+title: CDx Protocol - EthHub
+
+description: CDx is a protocol for default credit swaps. Default credit swaps are a financial product used as a protection from the default of another party.
+
 # cdx
 
 ## Summary

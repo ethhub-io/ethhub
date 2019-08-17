@@ -1,5 +1,8 @@
-# Gitcoin Torch
+title: How can I get involved with EthHub? - EthHub
 
+description: The Gitcoin Torch is a community effort to spur funding of Ethereum projects using the Gitcoin Grants platform. 
+
+# Gitcoin Torch
 
 ## Summary
 

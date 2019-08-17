@@ -1,3 +1,7 @@
+title: Eth Prize - EthHub
+
+description: ETH Prize is a community research and bounty project that identifies the most critical issues and organizes bounties to solve them.
+
 # ETH Prize
 
 ETH Prize is a community research and bounty project that identifies the most critical issues facing the ethereum ecosystem and organizes bounties to solve them.

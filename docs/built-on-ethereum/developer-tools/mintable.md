@@ -1,3 +1,7 @@
+title: Mintable - Ethhub
+
+description: Mintable is a free service that lets you manage all of your ERC-721s in one UI via Metamask.
+
 # Mintable
 
 ## About

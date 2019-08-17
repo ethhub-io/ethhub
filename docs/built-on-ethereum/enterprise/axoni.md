@@ -1,6 +1,6 @@
-title: Axoni
+title: Axoni - EthHub
 
-description: Axoni is building AxLang
+description: AxLang is a programming language that supports functional programming and enables formal verification of smart contracts for Ethereum-compatible networks.
 
 # Axoni
 
