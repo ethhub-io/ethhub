@@ -17,7 +17,7 @@ As with any cryptocurrency, Ethereum's Monetary Policy is decided upon by a wide
 
 As Ethereum is a decentralized network, the Monetary Policy can only be successfully modified if there is overwhelming consensus from the aforementioned stakeholders. Ethereum follows an [off-chain governance](governance.md) process meaning that any and all decisions on changes to the network happen extra-protocol.
 
-That said, due to natural incentives Ether's issuance is unlikely to ever increase unless the security of the network is at risk. And the upcoming Ethereum 2.0's proof of stake transition will progressively allow for a drastic reduction of Ether issuance while maintaining the same level of network security.
+That said, due to natural incentives Ether's issuance is unlikely to ever increase unless the security of the network is at risk. And the upcoming Ethereum 2.0 proof of stake transition will progressively allow for a drastic reduction of Ether issuance while maintaining the same level of network security.
 
 ## Important Events
 
