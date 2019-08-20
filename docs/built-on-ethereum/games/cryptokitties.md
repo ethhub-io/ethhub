@@ -1,3 +1,7 @@
+title: CryptoKitties - EthHub
+
+description: CryptoKitties is a game built on Ethereum that allows users to collect and breed cryptographically unique creatures.
+
 # CryptoKitties
 
 ![An example of a CryptoKitty](https://www.cryptokitties.co/images/kitty-eth.svg)

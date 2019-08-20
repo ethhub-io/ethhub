@@ -1,3 +1,7 @@
+title: District0x - EthHub
+
+description: The district0x network is a collective of decentralized marketplaces and communities, known as ‘Districts’, utilizing d0xINFRA and Aragon for governance. 
+
 # district0x
 
 ## Summary

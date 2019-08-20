@@ -1,6 +1,6 @@
-title: Depository Trust & Clearing Corporation (DTCC)
+title: Depository Trust & Clearing Corporation (DTCC) - EthHub
 
-description: DTCC is building AxCore
+description: AxCore protocol is originally derived from the public ethereum blockchain, and the DTCC’s system uses the same Solidity smart contract language that powers its applications.
 
 # Depository Trust & Clearing Corporation (DTCC)
 

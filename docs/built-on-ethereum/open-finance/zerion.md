@@ -1,3 +1,7 @@
+title: Zerion - EthHub
+
+description: Zerion aims at transforming the decentralized finance experience to drive the next wave of adoption of blockchain-based finance. 
+
 # Zerion
 
 ## Summary

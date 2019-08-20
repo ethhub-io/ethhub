@@ -1,3 +1,7 @@
+title: uPort - EthHub
+
+description: uPort's open identity system allows users to register their own identity on Ethereum, sign transactions, and securely manage keys & data.
+
 # uPort
 
 ## Open Identity System for the Decentralized Web

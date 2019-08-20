@@ -1,3 +1,7 @@
+title: Istanbul (October 2019) - EthHub
+
+description: Istanbul is the name given to the next Ethereum upgrade.
+
 # Istanbul
 
 ## Description

@@ -1,6 +1,6 @@
-title: Dharma
+title: Dharma - EthHub
 
-description: Dharma is a protocol on Ethereum for tokenized peer-to-peer debt assets
+description: Dharma is a protocol on Ethereum for tokenized peer-to-peer debt assets.
 
 # Dharma
 

@@ -1,3 +1,7 @@
+title: Etheremon - EthHub
+
+description: Etheremon is a role-playing game with training, battling, and transforming monsters. Immersive game play takes you through battles and tournaments.
+
 # Etheremon
 
 <img src="https://www.etheremon.com/assets/images/banner_facebook.png" alt="Etheremon" width="600" />

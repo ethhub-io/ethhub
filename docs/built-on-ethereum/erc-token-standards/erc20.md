@@ -1,3 +1,7 @@
+title: ERC20 - The Token Standard - EthHub
+
+description: ERC20 allows the implementation of a standard API to ensure the interoperability between tokens
+
 # ERC20
 
 ## Summary

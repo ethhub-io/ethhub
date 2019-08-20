@@ -1,3 +1,7 @@
+title: World War Goo / EtherGoo - EthHub
+
+description: World War Goo, an ancestor of the original EtherGoo, is a fantasy idle game where players earn resources, cultivate land and battle armies.
+
 # World War Goo
 
 <img src="https://crypto-games.de/wp-content/uploads/2018/12/World-War-Goo.jpg" alt="World War Goo" width="600" />

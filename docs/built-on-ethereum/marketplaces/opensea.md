@@ -1,3 +1,7 @@
+title: OpenSea - EthHub
+
+description: OpenSea is the first decentralized, peer-to-peer marketplace for blockchain-based assets, including collectibles, equities, derivatives, and gaming items.
+
 # OpenSea
 
 ![OpenSea logo](https://files.readme.io/f41ce42-opensea-logo-full-colored-blue.png)

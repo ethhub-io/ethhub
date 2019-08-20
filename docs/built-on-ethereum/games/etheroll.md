@@ -1,3 +1,7 @@
+title: Etheroll - EthHub
+
+description: Etheroll is an Ethereum smart contract for placing bets on our provably-fair dice game using Ether with no deposits or sign-ups.
+
 # Etheroll
 
 ## Summary

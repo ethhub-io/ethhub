@@ -1,3 +1,7 @@
+title: 0x Protocol - EthHub
+
+description: 0x is an open protocol that facilitates peer-to-peer exchange of digital assets on the Ethereum blockchain.
+
 # 0x Protocol
 
 ## Summary

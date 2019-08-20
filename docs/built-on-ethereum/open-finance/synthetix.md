@@ -1,6 +1,6 @@
-title: Synthetix
+title: Synthetix - EthHub
 
-description: Synthetic asset platform built on Ethereum
+description: Synthetix is a decentralized platform on Ethereum for the creation synthetic assets which track the value of real-world assets.
 
 # Synthetix
 

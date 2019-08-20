@@ -1,4 +1,5 @@
 title: Ethereum Smart Contract Wallets - EthHub
+
 description: Explanation of Ethereum smart contract wallets as well as a list of applications.
 
 # Smart Contract Wallets

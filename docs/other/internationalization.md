@@ -1,6 +1,11 @@
+title: WInternationalization of EthHub - EthHub
+
+description: The purpose of Ethereum is to be a decentralized network that is open to anyone to use, build upon, develop, and maintain. 
+
 # Internationalization of EthHub
 
 The purpose of Ethereum is to be a decentralized network that is open to anyone to use, build upon, develop, and maintain. Currently, nearly all documentation and resources for Ethereum are written in English. In order for the Ethereum community to become truly global, it needs to become more accessible to those who do not speak English. EthHub can play a vital role in this process. This page was created to plan the roadmap for translating EthHub into multiple languages.
+
 ## How Can I help?
 Start by reading the plan below.
 
@@ -10,6 +15,7 @@ Head over to [this page](get-involved.md) to learn how get started.
 
 ## General plan 
 *This plan was the original outline for translating EthHub. Updates to this plan are needed.*
+
 ### Target Audiences
 
 * Spanish

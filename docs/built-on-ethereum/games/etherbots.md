@@ -1,3 +1,7 @@
+title: Etherbots - EthHub
+
+description: Etherbots is a robot battling game built on Ethereum with rock-paper-scissors style battles completely on chain.
+
 # Etherbots
 
 <img src="https://pbs.twimg.com/media/DZjNXkDX4AMcXCe.jpg" alt="Etherbots landscape" width="600" />

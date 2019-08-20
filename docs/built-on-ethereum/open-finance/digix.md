@@ -1,3 +1,7 @@
+title: Digix - EthHub
+
+description: Digix provides a use case for the tokenisation and documentation of physical assets through its Proof of Provenance \(PoP\) protocol.
+
 # Digix
 
 ## Summary

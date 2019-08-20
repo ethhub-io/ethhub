@@ -1,3 +1,7 @@
+title: Ethereum Foundation Conflict of Interest Disclosures - EthHub
+
+description: The following disclosures were voluntarily provided by EF members in an AMA about Ethereum Leadership and Accountability.
+
 # Conflict of Interest (COI) Disclosures from Ethereum Foundation members
 
 The following disclosures were voluntarily provided by EF members in an [AMA about Ethereum Leadership and Accountability](https://www.reddit.com/r/ethereum/comments/arw075/ama_about_ethereum_leadership_and_accountability/) shortly after the departure of Afri Schoedon from the Ethereum community.

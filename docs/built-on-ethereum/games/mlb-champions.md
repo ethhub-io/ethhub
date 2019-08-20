@@ -1,3 +1,7 @@
+title: MLB Champions - EthHub
+
+description: MLB Champions is a blockchain-based baseball game that anyone can play using their very own crypto figures. It takes MLB Fantasy to a whole new level.
+
 # MLB Champions
 
 ## Summary

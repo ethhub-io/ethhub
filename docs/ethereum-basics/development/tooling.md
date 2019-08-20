@@ -1,3 +1,7 @@
+title: Ethereum Development Tools - EthHub
+
+description: There are a vast amount of tools developers can use to take their smart contracts further. Beginners can start with Remix to start scripting in browser.
+
 # Tooling
 
 For those who wish to tackle smart contract development on Ethereum, there are a vast amount of tools one can use to leverage their smart contracts even further.

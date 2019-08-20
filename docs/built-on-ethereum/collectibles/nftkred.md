@@ -1,3 +1,7 @@
+title: NFT.Kred - EthHub
+
+description: NFT.Kred is a platform for creating custom, actionable Non-Fungible Tokens with social engagement.
+
 # NFT.Kred
 
 NFT.Kred is a platform for creating custom, actionable Non-Fungible Tokens with social engagement. Tokens created on NFT.Kred can be created using various templates and types that give the NFT different attributes, including redemptions, royalties, magic pairs and more.

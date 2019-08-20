@@ -1,4 +1,5 @@
 title: Ethereum Foundation - EthHub
+
 description: Information on the Ethereum Foundation
 
 # Ethereum Foundation

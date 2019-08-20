@@ -1,3 +1,7 @@
+title: Identity EIPs - EthHub
+
+description: There are a number of identity related Ethereum standards under development, in addition to ERC725 and 735.
+
 # ERC-EIP
 
 There are a number of identity related Ethereum standards under development, in addition to [ERC725 and 735](ERC725), :

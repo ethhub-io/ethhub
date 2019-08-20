@@ -1,3 +1,7 @@
+title: Identity on Ethereum - EthHub
+
+description: DApps can leverage the secure and decentralized nature of the Ethereum network with storage protocols to empower and protect consumers' data.
+
 # Identity
 
 ## Summary

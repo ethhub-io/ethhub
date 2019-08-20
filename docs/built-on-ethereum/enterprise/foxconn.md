@@ -1,6 +1,6 @@
-title: Foxconn
+title: Foxconn - EthHub
 
-description: Foxconn is building Chained Finance
+description: Foxconn is building Chained Finance. Chained Finance will soon connect Foxconn and its many small suppliers on an Ethereum-based blockchain.
 
 # Foxconn
 

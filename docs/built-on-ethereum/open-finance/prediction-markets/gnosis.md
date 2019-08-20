@@ -1,3 +1,7 @@
+title: Gnosis - EthHub
+
+description: Gnosis creates a global forecasting and information discovery tool by building a prediction market platform on Ethereum.
+
 # Gnosis
 
 ## Summary

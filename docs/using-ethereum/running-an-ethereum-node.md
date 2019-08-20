@@ -1,4 +1,5 @@
 title: Running an Ethereum Node - EthHub
+
 description: Proper ways to run a Parity or Geth Ethereum node.
 
 # Running an Ethereum Node

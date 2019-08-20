@@ -1,6 +1,6 @@
-title: Ernst and Young (EY)
+title: Ernst and Young (EY) - EthHub
 
-description: EY is rolling out Nightfall
+description: EY is rolling out Nightfall. Nightfall allows private transactions on a shared ledger.
 
 # Ernst and Young (EY)
 

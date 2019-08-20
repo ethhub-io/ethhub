@@ -1,3 +1,7 @@
+title: Bskt - EthHub
+
+description: Bskt allows creating portfolios of tokens.
+
 # Bskt
 
 ## Summary

@@ -1,3 +1,7 @@
+title: 0x Ecosystem Acceleration Program - EthHub
+
+description: The 0x Ecosystem Acceleration Program gives teams access to a variety of services including funding, technical support, and recruiting assistance.
+
 # 0xeap
 
 The 0x Ecosystem Acceleration Program gives teams access to a variety of services including funding, dedicated technical support, and recruiting assistance. We created the Ecosystem Acceleration Program to bolster the expansion of both infrastructure projects and relayers building on 0x.

@@ -1,3 +1,7 @@
+title: Consensys Labs - EthHub
+
+description: ConsenSys Labs incubates the best teams of Web3 across the globe, providing them mentorship, and access to the ConsenSys network of top-tier projects.
+
 # Consensys Labs
 
 ConsenSys Labs incubates the best teams of Web3 across the globe, providing them capital, mentorship, and access to ConsenSys’s network of top-tier projects and talent.

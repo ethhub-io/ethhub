@@ -1,3 +1,7 @@
+title: Built on Ethereum - EthHub
+
+description: There are many different types of applications that can be built on Ethereum. Most applications today fall into the following categories. 
+
 # Built on Ethereum
 
 There are many different types of applications that can be built on Ethereum. Most applications today fall into the following categories. 

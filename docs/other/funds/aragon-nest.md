@@ -1,3 +1,7 @@
+title: Aragon Nest - EthHub
+
+description: A grants program to support the development of the ecosystems by aragon and placeholder.vc.
+
 # Aragon Nest
 
 A grants program to support the development of the ecosystems by aragon and placeholder.vc.

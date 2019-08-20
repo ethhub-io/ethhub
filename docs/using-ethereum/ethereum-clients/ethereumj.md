@@ -1,3 +1,7 @@
+title: EthereumJ - EthHub
+
+description: EthereumJ is a pure-Java implementation of the Ethereum protocol. Harmony is the front-end client software and runs on top of EthereumJ.
+
 # EthereumJ (Harmony)
 
 ## Summary

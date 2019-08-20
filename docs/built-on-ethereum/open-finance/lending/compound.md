@@ -1,4 +1,4 @@
-title: Compound
+title: Compound - EthHub
 
 description: Compound Finance is an open-source money market protocol on Ethereum
 

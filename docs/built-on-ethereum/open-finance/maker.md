@@ -1,4 +1,4 @@
-title: MakerDAO Stablecoin System on Ethereum
+title: MakerDAO Stablecoin System on Ethereum - EthHub
 
 description: MakerDAO is a decentralized credit platform on Ethereum that supports Dai.
 

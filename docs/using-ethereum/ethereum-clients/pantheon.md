@@ -1,3 +1,7 @@
+title: Geth - EthHub
+
+description: Pantheon is an open-source Ethereum client developed under the Apache 2.0 license and written in Java.
+
 # Pantheon
 
 ## Summary

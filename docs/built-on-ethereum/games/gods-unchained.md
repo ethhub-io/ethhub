@@ -1,3 +1,7 @@
+title: Gods Unchained - EthHub
+
+description: Gods Unchained is a free-to-play digital trading card game built on Ethereum. Cards from the core set can be unlocked by progressing through the game.
+
 # Gods Unchained
 
 <img src="https://www.tokenflipper.com/wp-content/uploads/Articlepic.jpg" alt="Gods Unchained mythic" width="500" />

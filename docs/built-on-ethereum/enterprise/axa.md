@@ -1,4 +1,4 @@
-title: AXA
+title: AXA - EthHub
 
 description: AXA launched an insurance product that utilizes smart contracts on Ethereum's public blockchain called **Fizzy**.
 
