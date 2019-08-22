@@ -4,18 +4,22 @@ description: A description of Ethereum’s monetary (issuance) policy in the pas
 
 # Monetary Policy
 
-### Summary
+### Summary: Minimum Necessary Issuance
 
 Ethereum's Monetary Policy is defined by the rewards that are paid out by the protocol at any given time. Ethereum's current yearly network issuance is approximately 4.5% with 2 Ether per block and an additional 1.75 Ether per uncle block \(plus fees\) being rewarded to miners.
 
-As with any cryptocurrency, Ethereum's Monetary Policy is decided upon by a wide range of stakeholders within the ecosystem - including:
+Ethereum does not have a fixed supply because a fixed supply would also require a fixed security budget for the Ethereum network. Rather than arbitarily fix Ethereum's security, Ethereum's monetary policy is best described as "minimum issuance to secure the network". 
+
+Ethereum has had a history of reducing issuance to these estimated minimums and the network has never increased issuance. The move to proof-of-stake is also part of Ethereum's effort to reduce issuance to minimum amounts without sacrificing security. 
+
+Ethereum's minimum necessary issuance policy is enforced by a wide range of stakeholders within the ecosystem - including:
 
 * Developers
 * Community members
 * Ecosystem spokes/projects
 * Miners and other network participants
 
-As Ethereum is a decentralized network, the Monetary Policy can only be successfully modified if there is overwhelming consensus from the aforementioned stakeholders. Ethereum follows an [off-chain governance](governance.md) process meaning that any and all decisions on changes to the network happen extra-protocol.
+As Ethereum is a decentralized network, the Monetary Policy cannot be successfully modified unless there is overwhelming consensus from the aforementioned stakeholders. Ethereum follows an [off-chain governance](governance.md) process meaning that any and all decisions on changes to the network happen extra-protocol.
 
 That said, due to natural incentives Ether's issuance is unlikely to ever increase unless the security of the network is at risk. And the upcoming Ethereum 2.0 proof of stake transition will progressively allow for a drastic reduction of Ether issuance while maintaining the same level of network security.
 
