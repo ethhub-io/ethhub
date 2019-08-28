@@ -40,5 +40,5 @@ Ethereum leverages the same principles that create 'digital trust' within Bitcoi
 
 ## Resources
 
-* [Awesome Decentralized Finance](https://github.com/ong/awesome-decentralized-finance)
+* [Open Finance dApps on Ethereum](https://defiprime.com/ethereum)
 
