@@ -4,7 +4,7 @@ description: This page provides information and resources to help you programmat
 
 # Interacting with an Ethereum Client: JSON-RPC
 
-JSON-RPC is the primary protocol used by Ethereum and bitcoin. JSON-RPC is very simple, and transport agnostic, however, within ethereum, JSON-RPC is supported over HTTP, IPC and websockets.
+JSON-RPC is the primary protocol used by Ethereum and bitcoin. JSON-RPC is a simple, transport agnostic messaging payload structure. Although JSON-RPC itself does not specify the transport that should be used, in ethereum, HTTP, IPC and websockets are the currently supported transports.
 
 ## Ethereum JSON-RPC Specification
 
