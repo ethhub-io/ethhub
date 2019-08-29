@@ -1,0 +1,15 @@
+{
+  "persistentCheckout": true,
+  "icon": "https://cdn.substack.com/image/fetch/w_1100,c_limit,f_auto,q_auto:good/https%3A%2F%2Fbucketeer-e05bbc84-baa3-437e-9518-adb32be77984.s3.amazonaws.com%2Fpublic%2Fimages%2Fc4863f1e-9513-48e8-8655-1b6a2bb0904d_1074x462",
+  "callToAction":{
+     "default": "Support our work by becoming a member of the Ethub community. You will receive your own Non Fungible Token!",
+     "expired": "Unfortunately your previous key has expired... But you can get a new one now!",
+     "pending": "Your transaction has been sent but not mined yet... you'll get your Non Fungible Token right after.",
+     "confirmed": "Thanks a lot for your support. It means a lot to us. Please send us feedback, question and suggestions!"
+  },
+  "locks":{
+     "0x3a65A52598B4d9A3C92514368A4152B182546A6D":{
+        "name":"EthHub Community Members"
+     }
+  }
+}

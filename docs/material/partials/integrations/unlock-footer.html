@@ -1,0 +1,25 @@
+{% if config.extra.unlock %}
+<div class="md-footer-unlock">
+  &nbsp;
+  <!-- Default state is neither locked nor unlocked! -->
+</div>
+<script>
+  window.addEventListener('unlockProtocol', function (e) {
+    var state = e.detail
+    var lockFooter = document.querySelector('.md-footer-unlock')
+    if (lockFooter) {
+      if (state === 'locked') {
+        lockFooter.style.cursor = 'pointer'
+        lockFooter.innerHTML = 'Support our work and earn the EthHub Non Fungible Token by becoming a EthHub member now! <span role="img" aria-label="click">🔒</span>'
+        lockFooter.onclick = function () {
+          window.unlockProtocol && window.unlockProtocol.loadCheckoutModal()
+        }
+      } else if (state === 'unlocked') {
+        lockFooter.innerHTML = 'You are member <span role="img" aria-label="click">🗝</span>! Thanks for your support ;)'
+        delete lockFooter.onclick // remove the onlick handler
+        delete lockFooter.style.cursor
+      }
+    }
+  })
+</script>
+{% endif %}

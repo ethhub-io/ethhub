@@ -29,6 +29,13 @@ extra:
       link: 'https://discordapp.com/invite/gw8AM98'
     - type: 'instagram'
       link: 'https://www.instagram.com/ethhub_io/'
+  unlock:
+    locks:
+      "0x3a65A52598B4d9A3C92514368A4152B182546A6D":
+        name: "EthHub Community Members"
+    icon: "https://cdn.substack.com/image/fetch/w_1100,c_limit,f_auto,q_auto:good/https%3A%2F%2Fbucketeer-e05bbc84-baa3-437e-9518-adb32be77984.s3.amazonaws.com%2Fpublic%2Fimages%2Fc4863f1e-9513-48e8-8655-1b6a2bb0904d_1074x462"
+    callToAction:
+      default: "Become an EthHub member to support our work and receive our Non Fungible token!"
 
 google_analytics:
   - 'UA-125892125-2'
@@ -46,7 +53,7 @@ nav:
   - 'Monetary Policy': 'ethereum-basics/monetary-policy.md'
   - 'Ethereum Foundation': 'ethereum-basics/ethereum-foundation.md'
   - 'Governance': 'ethereum-basics/governance.md'
-  - Development: 
+  - Development:
       - 'Ethereum Development Basics': 'ethereum-basics/development/ethereum-development-basics.md'
       - 'Patterns': 'ethereum-basics/development/patterns.md'
       - 'Testing': 'ethereum-basics/development/testing.md'
