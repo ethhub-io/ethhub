@@ -1,3 +1,7 @@
+title: Interacting with Clients - EthHub
+
+description: This page provides information and resources to help you programmatically interface with an ethereum client.
+
 # Interacting with an Ethereum Client: JSON-RPC
 
 JSON-RPC is the primary protocol used by Ethereum and bitcoin. JSON-RPC is very simple, and transport agnostic, however, within ethereum, JSON-RPC is supported over HTTP, IPC and websockets.
