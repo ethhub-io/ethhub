@@ -47,6 +47,7 @@ nav:
   - 'Ethereum Foundation': 'ethereum-basics/ethereum-foundation.md'
   - 'Governance': 'ethereum-basics/governance.md'
   - Development: 
+      - 'Interacting with clients': 'ethereum-basics/development/interacting-with-clients.md'
       - 'Ethereum Development Basics': 'ethereum-basics/development/ethereum-development-basics.md'
       - 'Patterns': 'ethereum-basics/development/patterns.md'
       - 'Testing': 'ethereum-basics/development/testing.md'
