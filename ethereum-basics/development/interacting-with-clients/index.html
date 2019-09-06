@@ -38,7 +38,7 @@
     
     
       
-        <title>Interacting with an Ethereum Client: JSON-RPC - EthHub</title>
+        <title>Interacting with Clients - EthHub</title>
       
     
     
@@ -135,7 +135,7 @@
                 EthHub
               </span>
               <span class="md-header-nav__topic">
-                Interacting with an Ethereum Client: JSON-RPC
+                Interacting with clients
               </span>
             
           
@@ -207,14 +207,16 @@
       
         
 
-<nav class="md-tabs" data-md-component="tabs">
+  
+
+<nav class="md-tabs md-tabs--active" data-md-component="tabs">
   <div class="md-tabs__inner md-grid">
     <ul class="md-tabs__list">
       
         
   <li class="md-tabs__item">
     
-      <a href="../../.." title="Home" class="md-tabs__link md-tabs__link--active">
+      <a href="../../.." title="Home" class="md-tabs__link">
         Home
       </a>
     
@@ -232,7 +234,7 @@
   
     <li class="md-tabs__item">
       
-        <a href="../../what-is-ethereum/" title="Ethereum Basics" class="md-tabs__link">
+        <a href="../../what-is-ethereum/" title="Ethereum Basics" class="md-tabs__link md-tabs__link--active">
           Ethereum Basics
         </a>
       
@@ -415,10 +417,12 @@
       
       
 
+  
 
-  <li class="md-nav__item md-nav__item--nested">
+
+  <li class="md-nav__item md-nav__item--active md-nav__item--nested">
     
-      <input class="md-toggle md-nav__toggle" data-md-toggle="nav-5" type="checkbox" id="nav-5">
+      <input class="md-toggle md-nav__toggle" data-md-toggle="nav-5" type="checkbox" id="nav-5" checked>
     
     <label class="md-nav__link" for="nav-5">
       Ethereum Basics
@@ -506,10 +510,12 @@
           
           
 
+  
 
-  <li class="md-nav__item md-nav__item--nested">
+
+  <li class="md-nav__item md-nav__item--active md-nav__item--nested">
     
-      <input class="md-toggle md-nav__toggle" data-md-toggle="nav-5-7" type="checkbox" id="nav-5-7">
+      <input class="md-toggle md-nav__toggle" data-md-toggle="nav-5-7" type="checkbox" id="nav-5-7" checked>
     
     <label class="md-nav__link" for="nav-5-7">
       Development
@@ -520,6 +526,56 @@
       </label>
       <ul class="md-nav__list" data-md-scrollfix>
         
+        
+          
+          
+          
+
+  
+
+
+  <li class="md-nav__item md-nav__item--active">
+    
+    <input class="md-toggle md-nav__toggle" data-md-toggle="toc" type="checkbox" id="__toc">
+    
+      
+    
+    
+      <label class="md-nav__link md-nav__link--active" for="__toc">
+        Interacting with clients
+      </label>
+    
+    <a href="./" title="Interacting with clients" class="md-nav__link md-nav__link--active">
+      Interacting with clients
+    </a>
+    
+      
+<nav class="md-nav md-nav--secondary">
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">Table of contents</label>
+    <ul class="md-nav__list" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#ethereum-json-rpc-specification" title="Ethereum JSON-RPC Specification" class="md-nav__link">
+    Ethereum JSON-RPC Specification
+  </a>
+  
+</li>
+      
+      
+      
+      
+      
+    </ul>
+  
+</nav>
+    
+  </li>
+
         
           
           
@@ -4022,7 +4078,7 @@
                 
                 
                 <h1 id="interacting-with-an-ethereum-client-json-rpc">Interacting with an Ethereum Client: JSON-RPC</h1>
-<p>JSON-RPC is the primary protocol used by Ethereum and bitcoin. JSON-RPC is very simple, and transport agnostic, however, within ethereum, JSON-RPC is supported over HTTP, IPC and websockets.</p>
+<p>JSON-RPC is the primary protocol used by Ethereum and bitcoin. is a lightweight data-interchange format. It is easy for humans to read and write. It is easy for machines to parse and generate. While it is transport agnostic, most ethereum clients today implement one or all of the following: HTTP, IPC and websockets.</p>
 <h2 id="ethereum-json-rpc-specification">Ethereum JSON-RPC Specification</h2>
 <p>There exists a specification for ethereum JSON-RPC that is expected to be implemented by all client developers. The OpenRPC document can be found <a href="https://github.com/etclabscore/ethereum-json-rpc-specification/blob/master/openrpc.json">here</a>.</p>
 <p>Within the above linked repo you will also find generated code for making RPC calls to any ethereum client. </p>
@@ -4042,6 +4098,41 @@
       
         
 <footer class="md-footer">
+  
+    <div class="md-footer-nav">
+      <nav class="md-footer-nav__inner md-grid">
+        
+          <a href="../../governance/" title="Governance" class="md-flex md-footer-nav__link md-footer-nav__link--prev" rel="prev">
+            <div class="md-flex__cell md-flex__cell--shrink">
+              <i class="md-icon md-icon--arrow-back md-footer-nav__button"></i>
+            </div>
+            <div class="md-flex__cell md-flex__cell--stretch md-footer-nav__title">
+              <span class="md-flex__ellipsis">
+                <span class="md-footer-nav__direction">
+                  Previous
+                </span>
+                Governance
+              </span>
+            </div>
+          </a>
+        
+        
+          <a href="../ethereum-development-basics/" title="Ethereum Development Basics" class="md-flex md-footer-nav__link md-footer-nav__link--next" rel="next">
+            <div class="md-flex__cell md-flex__cell--stretch md-footer-nav__title">
+              <span class="md-flex__ellipsis">
+                <span class="md-footer-nav__direction">
+                  Next
+                </span>
+                Ethereum Development Basics
+              </span>
+            </div>
+            <div class="md-flex__cell md-flex__cell--shrink">
+              <i class="md-icon md-icon--arrow-forward md-footer-nav__button"></i>
+            </div>
+          </a>
+        
+      </nav>
+    </div>
   
   <div class="md-footer-meta md-typeset">
     <div class="md-footer-meta__inner md-grid">
