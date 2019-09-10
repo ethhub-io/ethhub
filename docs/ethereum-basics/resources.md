@@ -35,6 +35,7 @@ description: A list of essential Ethereum resources.
 * Subreddits
   * [/r/Ethereum](https://www.reddit.com/r/Ethereum/)
   * [/r/EthTrader](https://www.reddit.com/r/EthTrader/)
+  * [/r/EthFinance](https://www.reddit.com/r/EthFinance/)
   * [/r/EtherMining](https://www.reddit.com/r/EtherMining/)
   * [/r/EthDev](https://www.reddit.com/r/ethdev/)
   * [/r/EthereumNoobies](https://www.reddit.com/r/EthereumNoobies/)
