@@ -287,6 +287,7 @@ nav:
     - 'Status Incubate': 'other/funds/status-incubate.md'
 - Glossary:
   - 'Acronyms': 'glossary/crypto-acronyms.md'
+  - 'ENS Domain Directory': 'glossary/ens-domains.md'
   - Sideways Dictionary:
     - 'What is the sideways dictionary?': 'glossary/sideways-dictionary/what-is-the-sideways-dictionary.md'
     - '2FA': 'glossary/sideways-dictionary/2FA.md'
