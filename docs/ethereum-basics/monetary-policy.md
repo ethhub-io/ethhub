@@ -57,7 +57,7 @@ According to the current [Eth 2.0 spec](https://github.com/ethereum/eth2.0-specs
 | 10,000,000 | 572,433 | 0.54% | 5.72% |
 | 30,000,000 | 991,483 | 0.94% | 3.30% |
 | 100,000,000 | 1,810,193 | 1.71% | 1.81% |
-| 134,217,728 | 2,097,152 | 1.98% | 1.56% |
+| 134,217,728 | 2,097,152 | 1.56% | 1.56% |
 
 ### Historical and Future Supply Forecast
 
