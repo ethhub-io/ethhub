@@ -1,3 +1,7 @@
+title: EthHub CFTC Response - EthHub
+
+description: On December 11th, 2018 the CFTC submitted a public "Request for Input" which asks for clarity and answers around Ethereum. EthHub answered.
+
 # EthHub CFTC Response
 
 On December 11th, 2018 the CFTC [submitted a public "Request for Input"](https://www.cftc.gov/sites/default/files/2018-12/federalregister121118.pdf) which asks for clarity and answers around Ethereum. The following is a list of all questions asked in the RFI. The following answers were developed on EthHub, an open source, community run information hub for the Ethereum community.
@@ -169,7 +173,7 @@ Beyond price volatility, Ether also must deal with a collection of exchanges tha
 
 Given the nascent markets for cryptocurrencies and longstanding laws for KYC/AML, these exchanges play a vital role in allowing investors to legally exchange Ether with USD. Even so, until their performance is tested in more market cycles, an unexpected shutdown to their operations via technical problems or business insolvency remains a significant risk to the purchase and holding of Ether.
 
-Granted, one significant caveat to the risks presented above is that investors can easily exchange Ether into other cryptocurrencies via an array of traditional exchanges, decentralized exchanges, and other services. The exchanges mentioned above all have ETH/BTC trading pairs as do less-regulated exchange such as Binance. In fact, the volume of ETH/BTC transactions on Binance often outstrips the volume of ETH/USD transactions on Coinbase, the largest US provider. Thus, when considering the liquidity of Ether, it’s important to account for the ability to exchange any cryptocurrency \(particularly other liquid ones such as Bitcoin\) to USD as a secondary source of liquidity.
+Granted, one significant caveat to the risks presented above is that investors can easily exchange Ether into other cryptocurrencies via an array of traditional exchanges, decentralized exchanges, and other services. The exchanges mentioned above all have ETH/BTC trading pairs as do crypto-to-crypto exchanges. In fact, the volume of ETH/BTC transactions on crypto-to-crypto exchanges often outstrip the volume of ETH/USD transactions on Coinbase, the largest US provider. Thus, when considering the liquidity of Ether, it’s important to account for the ability to exchange any cryptocurrency \(particularly other liquid ones such as Bitcoin\) to USD as a secondary source of liquidity.
 
 It’s also important to consider the risks that some of these providers represent to the ecosystem. Exchanges which don’t have regulated fiat on-ramps often are unaudited, lack proper licenses, and conduct questionable practices such as volume spoofing \(An analysis of fake volume: [https://medium.com/@sylvainartplayribes/chasing-fake-volume-a-crypto-plague-ea1a3c1e0b5e](https://medium.com/@sylvainartplayribes/chasing-fake-volume-a-crypto-plague-ea1a3c1e0b5e)\). These exchanges deserve further scrutiny to protect investors and institutions alike from potential misconduct.
 

@@ -1,3 +1,7 @@
+title: Dharma - EthHub
+
+description: Expo is built on the dYdX Protocol, and is the easiest way to buy and sell dYdX Margin Tokens.
+
 # expo
 
 ## Summary

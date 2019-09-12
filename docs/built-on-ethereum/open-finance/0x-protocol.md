@@ -1,3 +1,7 @@
+title: 0x Protocol - EthHub
+
+description: 0x is an open protocol that facilitates peer-to-peer exchange of digital assets on the Ethereum blockchain.
+
 # 0x Protocol
 
 ## Summary
@@ -18,7 +22,7 @@ The simplest example of a Relayer is a website allowing users to create, discove
 
 * [Aragon](https://aragon.one/)
 * [Auctus](https://auctus.org/)
-* [Augur](http://www.augur.net/)
+* [Augur](https://www.augur.net/)
 * [bZx](https://bzx.network/)
 * [Blocknet](https://blocknet.co/)
 * [ChronoBank](https://chronobank.io/)
@@ -27,42 +31,37 @@ The simplest example of a Relayer is a website allowing users to create, discove
 * [dYdX](https://dydx.exchange/)
 * [EasyTrade](https://easytrade.io/)
 * [Gods Unchained](https://godsunchained.com/)
-* [Hut34 Project](http://hut34.io/)
+* [Hut34 Project](https://hut34.io/)
 * [Lendroid](https://lendroid.com/)
 * [Maker](https://makerdao.com/)
 * [MelonPort](https://melonport.com/)
-* [OpenANX](https://www.openanx.org/)
+* [OpenANX](https://www.oax.org/)
 * [Paradigm Protocol](https://paradigm.market/)
 * [Request Network](https://request.network/)
-* [Set](https://setprotocol.com/)
+* [Set](https://www.setprotocol.com/)
 
 ## List of relayers that will be \(or are\) using the 0x protocol
 
-* [Amadeus](http://amadeusrelay.org)
 * [Bamboo Relay](https://www.bamboorelay.com/)
 * [DDEX](https://ddex.io/)
-* [Dextroid](https://www.dextroid.io/)
 * [ERC dEX](http://ercdex.com)
 * [Ethfinex](https://www.ethfinex.com/)
-* [IDT Exchange](https://www.idtexchange.com/)
 * [Instex](https://app.instex.io/)
 * [LedgerDex](https://www.ledgerdex.com/)
-* [MobiDex](http://mobidex.io)
+* [MobiDex](https://mobidex.io)
 * [OpenRelay](https://openrelay.xyz)
+* [Ordermatch](https://ordermatch.io)
 * [Paradex](https://paradex.io/)
 * [Radar Relay](https://radarrelay.com/)
-* [Shark Relay](https://app.sharkrelay.com/)
 * [Starbit](https://www.starbitex.com/Trade)
 * [The Ocean](https://theocean.trade)
 * [Token Jar](https://tokenjar.io/)
 * [Tokenlon](https://tokenlon.token.im/)
-* [Weswap](https://www.weswap.io/)
 
 ## List of 0x trade explorers
 
-* [0x Remote Hr](http://0x.remote.hr)
 * [0x Trade Viewer](http://0xtrades.info)
-* [0x Tracker](http://0xtracker.com)
+* [0x Tracker](https://0xtracker.com)
 
 ## Resources
 

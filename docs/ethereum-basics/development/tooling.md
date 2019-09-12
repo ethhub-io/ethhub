@@ -1,3 +1,7 @@
+title: Ethereum Development Tools - EthHub
+
+description: There are a vast amount of tools developers can use to take their smart contracts further. Beginners can start with Remix to start scripting in browser.
+
 # Tooling
 
 For those who wish to tackle smart contract development on Ethereum, there are a vast amount of tools one can use to leverage their smart contracts even further.
@@ -20,13 +24,13 @@ For those who wish to tackle smart contract development on Ethereum, there are a
 - [Truffle](https://truffleframework.com) - Most popular smart contract development, testing, and deployment framework. The Truffle suite includes Truffle, [Ganache](https://github.com/trufflesuite/ganache), and [Drizzle](https://github.com/truffle-box/drizzle-box). [Deep dive on Truffle here](https://media.consensys.net/truffle-deep-dive-what-you-need-to-know-when-developing-on-ethereum-e548d4df6e9)
 - [Embark](https://github.com/embark-framework/embark) - Framework for DApp development
 - [Dapp](https://dapp.tools/dapp/) - Framework for DApp development, successor to DApple
-- [Populus](https://github.com/ethereum/populus) - The Ethereum development framework with the most cute animal pictures
+- [Brownie](https://github.com/HyperLink-Technology/brownie) - A python framework for testing, deploying and interacting with Ethereum smart contracts.
 - [Etherlime](https://github.com/LimeChain/etherlime) - ethers.js based framework for Dapp deployment
 - [Parasol](https://github.com/Lamarkaz/parasol) - Agile smart contract development environment with testing, INFURA deployment, automatic contract documentation and more. It features a a flexible and unopinionated design with unlimited customizability.
 
 ### Test blockchain networks
 
-- [Ganache](https://github.com/trufflesuite/ganache) - App for test Ethereum blockchain with visual UI and logs
+- [Ganache](https://github.com/trufflesuite/ganache) - App for testing Ethereum blockchain with visual UI and logs
 - [Kaleido](https://kaleido.io/) - Use Kaleido for spinning up a consortium blockchain network. Great for PoCs and testing
 - [Pantheon Private Network](https://docs.pantheon.pegasys.tech/en/latest/Getting-Started/Private-Network-Quickstart/) - Run a private network of Pantheon nodes in a Docker container
 - [Local Raiden](https://github.com/ConsenSys/Local-Raiden) - Run a local Raiden network in docker containers for demo and testing purposes

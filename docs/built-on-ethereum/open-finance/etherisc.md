@@ -1,3 +1,7 @@
+title: Etherisc - EthHub
+
+description: Etherisc is a protocol to collectively build insurance products. Flight Delay Insurance is in production on Ethereum—fully licensed, sold worldwide.
+
 # Etherisc
 
 ## Summary

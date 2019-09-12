@@ -1,3 +1,7 @@
+title: Ethereum Development Basics - EthHub
+
+description: Ethereum is a blockchain running the Ethereum Virtual Machine (EVM). Applications can be developed with scripting languages, including Solidity and Vyper.
+
 # Development
 
 ## Summary
@@ -12,7 +16,7 @@ Solidity - Most commonly used language
 - [GitHub](https://github.com/ethereum/solidity)
 - [Community Audited Contracts](https://github.com/OpenZeppelin/openzeppelin-solidity) by OpenZeppelin
 
-Vyper - Newer language focused on security on auditability
+Vyper - Newer language focused on security and auditability
 
 - [Docs](https://vyper.readthedocs.io/en/latest/)
 - [GitHub](https://github.com/ethereum/vyper)

@@ -1,3 +1,7 @@
+title: Kauri - Ethhub
+
+description: Kauri is a decentralized knowledge base, blogging platform and is building infrastructure for gathering technical information about Ethereum.
+
 # Kauri
 
 ## Description

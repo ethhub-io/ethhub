@@ -1,6 +1,10 @@
+title: Consensys VC - EthHub
+
+description: We invest in the Ethereum powered decentralized future. ConsenSys Ventures empowers entrepreneurs creating the building blocks of Web 3.0.
+
 # Consensys VC
 
-We invest in the Ethereum powered decentralized future. ConsenSys Ventures empowers entrepreneurs creating the building blocks of Web 3.0
+We invest in the Ethereum powered decentralized future. ConsenSys Ventures empowers entrepreneurs creating the building blocks of Web 3.0.
 
 ## About
 

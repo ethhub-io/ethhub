@@ -1,3 +1,7 @@
+title: Loopring - Ethhub
+
+description: Loopring introduces two novel tools that can increase liquidity, order ring and consortium blockchain, to improve on decentralized exchanges.
+
 # Loopring
 
 ## Description
@@ -11,5 +15,5 @@ Relayers can cooperate by sharing liquidity. Loopring offers a way to do that by
 ## Important links
 
 * [Website](https://loopring.org)
-* [DEX Portal](https://loopring.io)
+* [DEX Portal](https://loopr.loopring.io/#/)
 

@@ -1,3 +1,7 @@
+title: Stable Fund - EthHub
+
+description: The Stable Fund is a small to mid-size granting program run by MakerDAO.
+
 # Stable Fund
 
 The Stable Fund is a small to mid-size granting program run by MakerDAO. It is designed to incentivise the third-party Dai ecosystem by disbursing milestone-based grants to teams wishing to build on our financial primitives.

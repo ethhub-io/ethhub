@@ -1,4 +1,5 @@
 title: What is Ether? - EthHub
+
 description: Ether is the native cryptocurrency used on the Ethereum network.
 
 # What is Ether?
@@ -13,7 +14,7 @@ Ether \(ETH or Ξ\) is the native cryptocurrency used on the Ethereum network an
 
 Ether is required to transact on the Ethereum network.
 
-As explained in the [gas section](https://docs.ethhub.io/-LTo-PwFj1VwulVCZAFW/~/drafts/-LUpsUsOLWLhW7Fftje4/primary/using-ethereum/ethereum-network-basics/transactions/gas), every transaction that occurs on the network requires a set amount of gas, which is a unit used to measure the computational power required to process the transaction. To process a transaction and include it in a block, miners expect to be compensated. This is accomplished by setting a gas price with every transaction, which is the cost of 1 unit of gas, denominated in Gwei \(1 ETH = 1,000,000,000 Gwei\).
+As explained in the [gas section](https://docs.ethhub.io/using-ethereum/transactions/#gas), every transaction that occurs on the network requires a set amount of gas, which is the unit used to measure the computational power required to process a transaction. To process a transaction and include it in a block, miners are expected to be compensated for this task. This is accomplished by setting a gas price with every transaction, which is the cost of 1 unit of gas, denominated in Gwei \(1 ETH = 1,000,000,000 Gwei\).
 
 For example, when you simply send ETH from one account to another, this cost 21,000 gas. If you were to set a gas price of 1 Gwei, this transaction would cost 0.000021 ETH.
 
@@ -21,7 +22,7 @@ For example, when you simply send ETH from one account to another, this cost 21,
 
 Ether, the native currency of the Ethereum network, derives its value from a myriad of different factors. It is used within the Ethereum network to perform a range of functions, including:
 
-used to pay Ethereum transaction fees \(in the form of ‘gas’\) used as collateral for a wide range of open finance applications \(MakerDAO, Compound\) can be lent or borrowed \(Dharma\) accepted as payment at certain retailers and service providers used to as a medium of exchange to purchase Ethereum-based tokens \(via ICOs or exchanges\), crypto-collectibles, in-game items, and other non-fungible tokens \(NFTs\) earned as a reward for completing bounties \(Gitcoin, Bounties Network\) Furthermore, in Ethereum 2.0 \(Serenity\), users will be able to become a validator and help secure the network by providing computational resources and locking up 32 Ether per validator. Due to this, it is expected that Proof of Stake will lock a substantial amount of the circulating supply of Ether. There are also discussions around introducing a ‘fee-burn’ model where a percentage of Ether used to pay transaction fees would be ‘burned’ and thus reduce the circulating supply of Ether.
+used to pay Ethereum transaction fees \(in the form of ‘gas’\), used as collateral for a wide range of open finance applications \(MakerDAO, Compound\), can be lent or borrowed \(Dharma\), accepted as payment by certain retailers and service providers use it as a medium of exchange to purchase Ethereum-based tokens \(via ICOs or exchanges\), crypto-collectibles, in-game items, and other non-fungible tokens \(NFTs\) earned as a reward for completing bounties \(Gitcoin, Bounties Network\). Furthermore, in Ethereum 2.0 \(Serenity\), users will be able to become a validator and help secure the network by providing computational resources and locking up 32 Ether per validator. Due to this, it is expected that Proof of Stake will lock a substantial amount of the circulating supply of Ether. There are also discussions around introducing a ‘fee-burn’ model where a percentage of Ether used to pay transaction fees would be ‘burned’ and thus reduce the circulating supply of Ether.
 
 In addition to utility value, Ether also has speculative value. This is value that is derived from speculative activities \(such as trading and investing\) which currently accounts for most of the value behind all crypto-assets. As observed in 2017, crypto-assets can attract substantial speculative interest, with some assets increasing in value by 1000x over just a few months. This speculative interest often brings fresh capital into the ecosystem that can be reinvested into various verticals, but it can be damaging to the short-term market sentiment of all crypto-assets.
 
@@ -35,7 +36,7 @@ It is highly unlikely that the Ethereum protocol will ever implement economic ab
 
 In Proof of Work systems, miners compete with each other to find a block and thus be rewarded for their work \(in the form of the native crypto-asset of the protocol\). As the price of the asset increases, it naturally brings with it more miners, which then increases the network difficulty. As the network difficulty increases, it becomes increasingly difficult for miners to find a block which results in large scale mining operations \(commonly referred to as “mining farms”\) being one of the only profitable ways to mine on a Proof of Work network \(once it reaches a certain size\). Miners can also join ‘mining pools’ in order to increase their chances of finding a block and thus increase their rewards.
 
-It would currently cost an individual or group a large amount of money to successfully attack or take control of either the Bitcoin or Ethereum PoW blockchains.
+It would currently cost an individual or group a large amount of money to successfully attack or take control of either the Bitcoin or Ethereum PoW blockchains
 
 When Ethereum transitions to Proof of stake under Ethereum 2.0, it is expected that users will be able to stake 32 Ether per validator and receive rewards for their work in the form of additional Ether \(at a dynamic issuance rate , discussed later in this essay\).
 
@@ -45,7 +46,7 @@ Under Proof of Stake, the cost of attacking Ethereum will be tied to the cost of
 
 In order for something to function as money within an economy, it needs to act as a good medium of exchange \(MoE\), unit of account \(UoA\) and store of value \(SoV\). Ether is used as a medium of exchange within the Ethereum economy for a wide range of apps, with dApp providers accepting it in exchange for fungible / non-fungible tokens, or other services. It is also used as a unit of account by various parties \(including companies that have raised Ether via ICOs\). Finally, Ether has historically been used as a store of value, with investors and speculators purchasing Ether to hold for investment purposes, given its relative scarcity, predictable supply growth, and inherent utility.
 
-An object \(physical or digital\) must typically exhibit five distinct attributes in order to be considered money: portability, durability, divisibility, fungibility and established history \(see the [Lindy effect](https://en.wikipedia.org/wiki/Lindy_effect)\). Ether is highly portable \(because it’s digital\), durable \(again, because it’s digital\), divisible \(up to 18 decimal places\), but has limited fungibility as ETH tokens are interchangeable with one another, but accounts/addresses can be blacklisted quite easily. Privacy protocols such as zk-SNARKs will eventually improve this property for Ethereum.
+An object \(physical or digital\) must typically exhibit five distinct attributes in order to be considered as money: portability, durability, divisibility, fungibility and established history \(see the [Lindy effect](https://en.wikipedia.org/wiki/Lindy_effect)\). Ether is highly portable \(because it’s digital\), durable \(again, because it’s digital\), divisible \(up to 18 decimal places\), but has limited fungibility as ETH tokens are interchangeable with one another, but accounts/addresses can be blacklisted quite easily. Privacy protocols such as zk-SNARKs will eventually improve this property for Ethereum.
 
 Ethereum has been in operation since 2015 and continues to build a strong established history. The Ethereum network \(and Ether\) have functioned as expected for 99.99% of its life. The other 0.01% includes surviving The DAO, multiple large hacks of smart contracts, multiple protocol-level exploits, the Shanghai DoS attacks, constant negative remarks from the wider crypto community and multiple bear markets \(including a recent 94% drop in price\).
 
@@ -59,5 +60,3 @@ In Ethereum 2.0 \(with Sharding and Proof of Stake implemented\), while a low in
 
 * [Wikipedia](https://en.wikipedia.org/wiki/Ether)
 * [Why Ether is Valuable](https://medium.com/ethhub/why-ether-is-valuable-2b4e39e01eb3)
-* [Why Ether is Valuable](https://medium.com/ethhub/why-ether-is-valuable-2b4e39e01eb3)
-

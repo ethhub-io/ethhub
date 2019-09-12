@@ -1,3 +1,7 @@
+title: Parity - EthHub
+
+description: Parity is an implementation of the Ethereum protocol written in Rust, a systems programming language.
+
 # Parity
 
 ## Summary

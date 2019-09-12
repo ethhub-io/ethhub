@@ -1,4 +1,10 @@
+title: Gods Unchained - EthHub
+
+description: Gods Unchained is a free-to-play digital trading card game built on Ethereum. Cards from the core set can be unlocked by progressing through the game.
+
 # Gods Unchained
+
+<img src="https://www.tokenflipper.com/wp-content/uploads/Articlepic.jpg" alt="Gods Unchained mythic" width="500" />
 
 ## Summary
 
@@ -24,9 +30,13 @@ Gods Unchained also supports Battle Royale style elimination tournaments and is 
 
 ## History
 
-### Closed Beta
+### Open Beta
 
-Gods Unchained is currently in closed beta. The beta is expected to be opened up to the public in Q1 2019 with a global launch occuring several months later.
+Gods Unchained is currently in open beta. Downloading the apollo client and creating an account will get new players signed up and new beta players are being added daily. The global launch is expected late in Q3 2019.
+
+### Etherbots crossover
+
+[Etherbots](https://docs.ethhub.io/built-on-ethereum/games/etherbots), by the same studio Fuel Games, was originally launched in March 2018 and included battling completely on-chain. To promote interoperability Etherbots holders were rewarded with exclusive Gods Unchained cards for their early contributions. Etherbots 2 is expected after Gods Unchained is fully launched.
 
 ### CryptoKitties crossover
 
@@ -41,4 +51,5 @@ On January 10th, 2019, a partnership between Gods Unchained and the kitty-breedi
 * [godsunchained.info - Game stats/Collection Browser](https://godsunchained.info)
 * [gu.cards - Card Catalogue/Deck Building/Automated Pack Opening](https://gu.cards)
 * [gudecks.com - Card Catalogue/Deck Building/Collectibles & Tournament Pass Marketplace](https://gudecks.com)
+* [FuelGames Website](https://www.fuelgames.io/)
 

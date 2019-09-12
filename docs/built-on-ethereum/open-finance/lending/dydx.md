@@ -1,3 +1,7 @@
+title: dYdX - EthHub
+
+description: dYdX is a non-custodial margin trading platform on Ethereum. ERC20 tokens can be leveraged against collateral.
+
 # dYdX
 
 ## Summary
@@ -10,6 +14,7 @@ dYdX also plans to support options trading. Options give a right to its owner to
 
 ## Resources
 
+* [DeFi Pulse](https://defipulse.com/dydx)
 * [Website](https://dydx.exchange)
-* [Expo Exchange](https://www.expotrading.com/)
-
+* [Scout Dashboard](https://scout.cool/dydxprotocol/mainnet/)
+* [dYdX Positions](https://bloxy.info/list_margin_positions)

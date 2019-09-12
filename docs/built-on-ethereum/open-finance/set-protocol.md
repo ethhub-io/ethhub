@@ -1,3 +1,7 @@
+title: Set Protocol - EthHub
+
+description: Set Protocol allows grouping multiple tokens into one asset. Each set is a deployed smart contract with each set being fully-collateralized.
+
 # Set Protocol
 
 ## Summary

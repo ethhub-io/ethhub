@@ -1,3 +1,7 @@
+title: Golem - EthHub
+
+description: POA Network is a transparent network of public validators to govern its network. Its Ethereum side-chain has a bridge for Dai, named xDai.
+
 # POA Network
 
 ## About

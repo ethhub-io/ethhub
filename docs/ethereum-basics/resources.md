@@ -1,5 +1,6 @@
 title: Key Ethereum Resources - EthHub
-description: A list of essential Ethereum’s resources.
+
+description: A list of essential Ethereum resources.
 
 # Resources
 
@@ -25,6 +26,7 @@ description: A list of essential Ethereum’s resources.
 * [Crypto and Blockchain Glossary](https://www.upfolio.com/glossary)
 * [Circle Research](https://www.circle.com/en/research)
 * [Cryptoeconomics.study](https://cryptoeconomics.study/)
+* [Binance Academy](https://www.binance.vision)
 
 ## Media
 
@@ -33,6 +35,7 @@ description: A list of essential Ethereum’s resources.
 * Subreddits
   * [/r/Ethereum](https://www.reddit.com/r/Ethereum/)
   * [/r/EthTrader](https://www.reddit.com/r/EthTrader/)
+  * [/r/EthFinance](https://www.reddit.com/r/EthFinance/)
   * [/r/EtherMining](https://www.reddit.com/r/EtherMining/)
   * [/r/EthDev](https://www.reddit.com/r/ethdev/)
   * [/r/EthereumNoobies](https://www.reddit.com/r/EthereumNoobies/)
@@ -44,11 +47,10 @@ description: A list of essential Ethereum’s resources.
 
 * [Into the Ether](https://podcast.ethhub.io/)
 * [Epicenter](https://epicenter.tv/)
-* [An Ethereum Podcast](https://thebitcoinpodcast.com/category/an-ethereum-podcast/)
+* [Dose of Ether](https://thebitcoinpodcast.com/category/dose-of-ether/)
 * [Unchained](https://www.forbes.com/podcasts/unchained/#39e6bd005b4f)
 * [Unconfirmed](https://unconfirmed.libsyn.com/)
 * [Zero Knowledge](https://www.zeroknowledge.fm/)
-* [51pct Podcast](https://51pct.io/podcast/)
 * [The Smartest Contract](https://itunes.apple.com/us/podcast/the-smartest-contract/id1377520772?mt=2)
 * [Flippening for Crypto Investors](https://p.nomics.com/podcast)
 * [Block Zero](http://www.blockzero.show/)
@@ -63,17 +65,22 @@ description: A list of essential Ethereum’s resources.
 
 * [EthHub Weekly Newsletter](https://newsletter.ethhub.io/)
 * [Week In Ethereum](http://www.weekinethereum.com/)
+* [The Defiant](https://thedefiant.substack.com/)
+* [DeFi Weekly](https://defiweekly.substack.com/)
+* [Dharma Markets Report](https://dharmamarkets.substack.com/)
+* [NFTY News](http://nfty.news/)
 * [Messari](https://messari.io/)
 * [Diar](https://diar.co/)
+* [Coin Metrics](https://coinmetrics.substack.com/)
 * [Token Economy](https://tokeneconomy.co/)
 * [Token Daily](https://www.tokendaily.co/join-newsletter)
 * [The Block](https://www.theblockcrypto.com/)
-* [NFTY News](http://nfty.news/)
+* [OrgTech Weekly](https://orgtech.substack.com/)
+* [On The Chain](https://onthechain.substack.com/)
 * [Long Reads Sunday](https://www.getrevue.co/profile/nlw)
 * [CryptoChat](https://www.cryptochat.us/)
 * [Proof of Work](https://proofofwork.news/)
 * [Tony Sheng](https://www.tonysheng.com/)
-* [Protocol Weekly](https://8xprotocol.com/protocol-weekly)
 * [Global Coin Research](https://globalcoinresearch.com/)
 
 ### Social Media
@@ -107,6 +114,7 @@ description: A list of essential Ethereum’s resources.
 
 #### Block Explorers
 
+* [Etherchain](https://www.etherchain.org/)
 * [Etherscan](https://etherscan.io/)
 * [Ethplorer](https://ethplorer.io/)
 * [BlockScout](https://blockscout.com/eth/mainnet)
@@ -128,12 +136,14 @@ description: A list of essential Ethereum’s resources.
 
 #### Ethereum Data Explorers
 
-* [ObservEth](https://observeth.net/main)
 * [Ethtective](https://www.ethtective.com/)
 * [Ethereum Network Statistics](https://ethstats.net)
+* [Ethereum Network Statistics (New)](https://ethstats.io)
 * [Gas Price History Chart](https://gitcoin.co/gas/history?breakdown=weekly)
 * [Ethereum Gas Station](https://ethgasstation.info/)
 * [Ethereum Blockchain on Kaggle](https://www.kaggle.com/bigquery/ethereum-blockchain)
+* [Ethereum Network Hashrate](https://2miners.com/eth-network-hashrate)
+* [Ethereum Network Difficulty](https://2miners.com/eth-network-difficulty)
 
 #### Miscellaneous
 
@@ -147,6 +157,7 @@ description: A list of essential Ethereum’s resources.
 * [QuikNode](https://quiknode.io/)
 * [Blockdaemon](https://blockdaemon.com/)
 * [Vipnode](https://vipnode.org/)
+* [NanoPC-T4 plug-and-play](https://blockandmortar.io)
 
 ### Ethereum Development
 
@@ -155,6 +166,7 @@ description: A list of essential Ethereum’s resources.
 * [Intro to Smart Contracts](https://solidity.readthedocs.io/en/develop/introduction-to-smart-contracts.html)
 * [Ethereum Research Forum](https://ethresear.ch/)
 * [Ethereum Sharding Roadmap](https://github.com/ethereum/wiki/wiki/Sharding-roadmap)
+* [Ethereum 2.0 Phase 2 Wiki](https://hackmd.io/UzysWse1Th240HELswKqVA)
 * [Ethereum Developer Tools List](https://github.com/ConsenSysLabs/ethereum-developer-tools-list)
 * [Ethereum Stack Exchange](https://ethereum.stackexchange.com/)
 * [Ethereum Bounties](https://bounty.ethereum.org/#bounties)
@@ -173,6 +185,8 @@ description: A list of essential Ethereum’s resources.
 * [MyCrypto's Security Guide](https://medium.com/mycrypto/mycryptos-security-guide-for-dummies-and-smart-people-too-ab178299c82e)
 * [Hardware Wallet Guide](https://blockgeeks.com/guides/cryptocurrency-wallet-guide/)
 * [Paper Wallet Guide](https://blockgeeks.com/guides/paper-wallet-guide/)
+* [Common Scams on Mobile Devices](https://www.binance.vision/security/common-scams-on-mobile-devices)
+* [General Security Principles](https://www.binance.vision/security/general-security-principles)
 
 ## Trading
 
@@ -182,10 +196,12 @@ description: A list of essential Ethereum’s resources.
 * [List of all Decentralized Exchanges](https://github.com/distribuyed/index/blob/master/README.md)
 * [Uniswap](https://uniswap.io/)
 * [Radar Relay](https://app.radarrelay.com/)
+* [Ordermatch](https://ordermatch.io/)
 * [IDEX](https://idex.market)
 * [ForkDelta](https://forkdelta.app)
 * [Paradex](https://paradex.io/)
 * [DEX Watcher](https://dex.watch/)
+* [DEX aggregtor](https://dex.ag/)
 
 ### ICO/Token Resources
 
@@ -211,6 +227,7 @@ description: A list of essential Ethereum’s resources.
 
 * [Delta](https://delta.app/)
 * [Blockfolio](https://www.blockfolio.com/)
+* [Coink](https://itunes.apple.com/US/app/id1336700026?mt=8) (iOS)
 
 ### Vizualizations
 
@@ -263,6 +280,7 @@ description: A list of essential Ethereum’s resources.
 * [Veil - Markets on Everything](https://veil.co/)
 * [Predictions.global - Augur Prediction Markets](https://predictions.global/)
 * [Explore Augur](https://exploreaugur.com/)
+* [Helena Network](https://pm.helena.network/)
 
 #### DEX Tools
 
@@ -274,8 +292,11 @@ description: A list of essential Ethereum’s resources.
 * [InstaDApp](https://instadapp.io/)
 * [Are we stable yet?](https://www.arewestableyet.net/)
 * [ETH Locked in DeFi](https://mikemcdonald.github.io/eth-defi/)
+* [DeFipulse - Value Locked in DeFi](https://defipulse.com/)
+* [DeFiprime - curated list of DeFi Products](https://defiprime.com)
 * [Aragon DAO Explorer](https://daolist.io/)
 * [Curious Giraffe - Blockchain Analytics](https://www.curiousgiraffe.io/)
+* [Ethereum BUIDL Guide](https://buidl.guide/)
 
 ## Miscellaneous
 
@@ -294,3 +315,4 @@ description: A list of essential Ethereum’s resources.
 * [The Brooklyn Project](https://thebkp.com/)
 * [Crypto Grant Programs](https://github.com/fredexed/crypto-funding-ops)
 * [Plasma Map](https://ethresear.ch/t/plasma-world-map-the-hitchhiker-s-guide-to-the-plasma/4333)
+* [Ethereum.org Swag Store](https://swag.ethereum.org/)

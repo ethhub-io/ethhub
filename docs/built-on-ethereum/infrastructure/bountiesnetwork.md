@@ -1,3 +1,7 @@
+title: Bounties Network - EthHub
+
+description: Bounties Network is a general-purpose bounty protocol. Bounty creators can incentivize work by offering tokens in exchange for getting a task completed.
+
 # Bounties Network
 
 ## Description

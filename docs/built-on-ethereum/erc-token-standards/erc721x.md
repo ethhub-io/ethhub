@@ -1,3 +1,7 @@
+title: ERC721x - EthHub
+
+description: ERC721x is an extension of ERC721 that adds support for multi-fungible tokens and batch transfers, while being fully backward-compatible.
+
 # ERC721x
 
 ## Summary

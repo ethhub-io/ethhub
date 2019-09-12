@@ -3,6 +3,10 @@
 ## Click [here](/built-on-ethereum/open-finance/stablecoins/crypto-backed/dai.md) for an example of what a fully-fledged page looks like.
 ------------------------
 # [Template Begin]
+`title: [Page Title] - EthHub`  
+_[Leave a blank line]_  
+`description: [Meta description (155 characters recommended)`  
+_[Leave a blank line]_  
 # Page Heading [H1]
 
 ## Summary [H2]

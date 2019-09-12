@@ -1,3 +1,7 @@
+title: USD Coin - EthHub
+
+description: USD Coin is an currency-backed stablecoin created by Centre which was founded by Circle and Coinbase.
+
 # USD Coin
 
 ## Summary

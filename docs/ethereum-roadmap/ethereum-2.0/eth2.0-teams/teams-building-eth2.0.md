@@ -1,3 +1,7 @@
+title: Teams building on Eth 2.0 - EthHub
+
+description: There are currently nine independent development teams building Ethereum 2.0 clients.
+
 # Teams Building Eth 2.0
 
 There are currently nine independent development teams building Ethereum 2.0 clients:
@@ -8,7 +12,7 @@ There are currently nine independent development teams building Ethereum 2.0 cli
 | [ChainSafe](lodestar.md) | Lodestar | JavaScript | $100k - Vitalik YOLO fund <br/> $10k for team member Mikerah from EF <br/> Funded by [Gitcoin Grant](https://gitcoin.co/grants/21/lodestar-eth20-client-2) |
 | [PegaSys](artemis.md) | Artemis | Java | Funded by ConsenSys |
 | [Harmony](harmony.md) | Harmony | Java | $90k - EF funded Grant Wave 3 |
-| [Parity](shasper.md) | Shasper | Rust | $5mil - EF Special Grant <br/> Funded by Parity Technologies |
+| Parity Technologies | [Substrate Shasper](shasper.md) | Rust | [$5mil - EF Special Grant](https://www.parity.io/parity-technologies-awarded-5-million-grant-from-the-ethereum-foundation/) <br/> Funded by Parity Technologies |
 | [Sigma Prime](lighthouse.md) | Lighthouse | Rust | $150k - EF Grant Wave 4 <br/> $100k - Vitalik YOLO fund <br/> Funded by Sigma Prime <br/> Funded via [Gitcoin grant](https://gitcoin.co/grants/25/lighthouse-ethereum-20-client) |
 | [Status](nimbus.md) | Nimbus | Nim | $500k - EF Grant Wave 4 |
 | [Ethereum Foundation](trinity.md) | Trinity | Python | $80k - EF Funding |

@@ -1,4 +1,5 @@
 title: Ethereum Fundraising Ideas - EthHub
+
 description: Some ideas around how Ethereum could host a once a year fundraising event.
 
 # Ethereum Fundraising Event

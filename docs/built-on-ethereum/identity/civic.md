@@ -1,3 +1,7 @@
+title: Civic - EthHub
+
+description: Civic uses blockchain identity verification technology to secure and protect personal information transfer.
+
 # Civic
 
 Civic allows people to control the use of their identity information. Civic uses blockchain identity verification technology to secure and protect personal information transfer.

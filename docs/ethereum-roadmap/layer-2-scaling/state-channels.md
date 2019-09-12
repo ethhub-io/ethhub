@@ -1,4 +1,5 @@
 title: State Channels - EthHub
+
 description: State channels are a layer 2 scaling solution for Ethereum.
 
 # State Channels
@@ -47,14 +48,14 @@ If the “state” being updated between participants was a digital currency bal
 
 ### Sidechain cons
 
-* Sidechains do not benefit from the security of the main-chain. A user interacting on a side-chain must trust the security properties of that sidechain, because if it compromised or malevolent, a user has no guarantee of withdrawl to mainchain. In contrast, participants in a state channel can always return to main-chain so long as they follow the protocol.
+* Sidechains do not benefit from the security of the main-chain. A user interacting on a side-chain must trust the security properties of that sidechain, because if it compromised or malevolent, a user has no guarantee of withdrawal to the main-chain. In contrast, participants in a state channel can always return to the main-chain so long as they follow the protocol.
 * Sidechains need a lot of initial investment to start off: To create a sidechain we need to have enough miners so that the network is safe from attackers. Also, we have to make sure that they are up and running. Whereas there is no blockchain involved in state channels. So, no such requirement is needed.
 * A Federation is needed for sidechains: This adds another layer between the mainchain and the sidechain. This could prove as another weak point for the attackers to attack by bribing or attacking the federation. Whereas in state channel we just need a smart contract to do this for us.
 
 ## Resources
 
+* [State Channels - an explanation](https://www.jeffcoleman.ca/state-channels/)
 * [Making Sense of Ethereum's Layer 2 Scaling Solutions \(Josh Stark\)](https://medium.com/l4-media/making-sense-of-ethereums-layer-2-scaling-solutions-state-channels-plasma-and-truebit-22cb40dcc2f4)
 * [Generalized State Channels on Ethereum \(Jeff Coleman, Liam Horne, and Xuanji Li\)](https://www.counterfactual.com/statechannels/)
-* [Difference Between SideChains and State Channels \(Vasa\)](https://hackernoon.com/difference-between-sidechains-and-state-channels-2f5dfbd10707)
 * [State Channel Applications \(Liam Horne\)](https://medium.com/statechannels/state-channel-applications-1f170e7d542e)
 
