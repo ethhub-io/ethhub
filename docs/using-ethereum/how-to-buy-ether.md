@@ -11,6 +11,11 @@ Binance is headquartered in Malta and constantly has some of the highest trading
 
 [Buy ETH on Binance](https://www.binance.com/?ref=10900939)
 
+## bitFlyer
+bitFlyer is Japan's largest exchange and the only platform in the world licensed to operate in the US, Japan, and Europe. Users can easily buy ETH with fiat or cryptocurrencies.
+
+[Buy ETH on bitFlyer](https://bitflyer.com/en-us/)
+
 ## Coinbase
 Coinbase is based in San Fransisco and is one of the most reputable and well known exchanges in the world. Users can buy ETH with fiat or cryptocurrencies.
 
