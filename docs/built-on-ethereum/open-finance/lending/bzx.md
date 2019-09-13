@@ -19,6 +19,7 @@ To provide fair pricing of assets, bZx uses oracle providers to send price data 
 
 * [Website](https://bzx.network)
 * [Protocol documentation](https://docs.bzx.network/)
+* [DeFi Pulse](https://defipulse.com/bzx)
 * [Twitter](https://twitter.com/b0xNet)
 * [Telegram](https://t.me/b0xNet)
 * [Discord](https://discord.gg/ZxpKrs)
