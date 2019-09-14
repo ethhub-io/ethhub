@@ -35,7 +35,7 @@ Phase 0 will use Casper the Friendly Finality Gadget (FFG) for finality. Finalit
 Phase 0 will introduce ETH2 which will be a new asset for stakers \(validators\) to be used on the Beacon Chain. It will be created by two methods:
 
 * As a reward for validating the Beacon Chain \(and shards after phase1\).
-* Purchasing it for 1 ETH by any ETH1.X user via a [registration contract](https://github.com/ethereum/beacon_chain/blob/master/contracts/validator_registration.v.py). The contract refers to it as a deposit. 
+* Purchasing it for 1 ETH by any ETH1.X user via a [registration contract](https://github.com/ethereum/beacon_chain/blob/master/contracts/validator_registration.v.py). The contract refers to it as a deposit.
 
 There is currently no way to withdraw ETH2 from the beacon chain in Phase 0. Once deposited in the ETH1.x validator registration contract, the ETH1 is effectively burned. Beacon Chain validators watch this contract and submit deposit information to the Beacon Chain, which then issues ETH2 to the depositors.
 
@@ -100,13 +100,14 @@ Currently, not much information is available about this phase and whatever is av
 
 ## What's next ?
 The sharding roadmap according to the official wiki suggests 6 phases. Justin Drake strongly believes that the sharding phases 1 and 2 will come in 2020 and 2021, respectively \(assuming that the Beacon Chain launches in 2019\). <br/>
-From Phase 3 onwards any speculation made is subjected to change, you can go and check out the [wiki](https://github.com/ethereum/wiki/wiki/Sharding-roadmap#phase-3-light-client-state-protocol) for further phase's information. 
- 
+From Phase 3 onwards any speculation made is subjected to change, you can go and check out the [wiki](https://github.com/ethereum/wiki/wiki/Sharding-roadmap#phase-3-light-client-state-protocol) for further phase's information.
+
 ## Resources
 
+* [Eth 2.0 Specs](https://github.com/ethereum/eth2.0-specs)
+* [Phase 0 for Humans](https://notes.ethereum.org/jDcuUp3-T8CeFTv0YpAsHw?view)
 * [Sharding Roadmap](https://github.com/ethereum/wiki/wiki/Sharding-roadmap#strongphase-3strong-light-client-state-protocol)
 * [State of Ethereum Protocol](https://media.consensys.net/state-of-ethereum-protocol-2-the-beacon-chain-c6b6a9a69129)
-* [Eth 2.0 Specs](https://github.com/ethereum/eth2.0-specs)
 * [Ethereum 2.0 Design Goals](https://media.consensys.net/exploring-the-ethereum-2-0-design-goals-fd2d901b4c01)
 * [Q&A Session ETHMagicians](https://medium.com/ethereum-magicians/demystifying-the-road-to-ethereum-2-0-8130ade8d00f)
 * [eWASM](https://www.coindesk.com/open-heart-surgery-inside-ethereums-crucial-replacement-of-the-evm)
