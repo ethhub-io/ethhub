@@ -46,7 +46,7 @@ nav:
   - 'Monetary Policy': 'ethereum-basics/monetary-policy.md'
   - 'Ethereum Foundation': 'ethereum-basics/ethereum-foundation.md'
   - 'Governance': 'ethereum-basics/governance.md'
-  - Development: 
+  - Development:
       - 'Interacting with clients': 'ethereum-basics/development/interacting-with-clients.md'
       - 'Ethereum Development Basics': 'ethereum-basics/development/ethereum-development-basics.md'
       - 'Patterns': 'ethereum-basics/development/patterns.md'
@@ -94,7 +94,7 @@ nav:
     - 'Desktop': 'using-ethereum/wallets/desktop.md'
     - 'Web': 'using-ethereum/wallets/web.md'
 - Built on Ethereum:
-  - 'Built on Ethereum': 'built-on-ethereum/built-on-ethereum.md'
+  - 'Built on Ethereum': 'built-on-ethereum/ecosystem-outline.md'
   - Open Finance:
     - 'What is Open Finance?': 'built-on-ethereum/open-finance/what-is-open-finance.md'
     - Stablecoins:
