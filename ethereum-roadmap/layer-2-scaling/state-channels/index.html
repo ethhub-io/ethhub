@@ -939,6 +939,13 @@
 </li>
       
         <li class="md-nav__item">
+  <a href="#who-is-working-on-state-channels" title="Who is working on State Channels?" class="md-nav__link">
+    Who is working on State Channels?
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
   <a href="#how-do-state-channels-work" title="How do State Channels work?" class="md-nav__link">
     How do State Channels work?
   </a>
@@ -1419,18 +1426,6 @@
   </li>
 
         
-          
-          
-          
-
-
-  <li class="md-nav__item">
-    <a href="../../../built-on-ethereum/open-finance/stablecoins/synthetix.md" title="Synthetix" class="md-nav__link">
-      Synthetix
-    </a>
-  </li>
-
-        
       </ul>
     </nav>
   </li>
@@ -1778,6 +1773,18 @@
 
 
   <li class="md-nav__item">
+    <a href="../../../built-on-ethereum/open-finance/fulcrum/" title="Fulcrum" class="md-nav__link">
+      Fulcrum
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
     <a href="../../../built-on-ethereum/open-finance/maker/" title="Maker" class="md-nav__link">
       Maker
     </a>
@@ -1840,6 +1847,18 @@
   <li class="md-nav__item">
     <a href="../../../built-on-ethereum/open-finance/synthetix/" title="Synthetix" class="md-nav__link">
       Synthetix
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../../built-on-ethereum/open-finance/torque/" title="Torque" class="md-nav__link">
+      Torque
     </a>
   </li>
 
@@ -2534,6 +2553,18 @@
 
 
   <li class="md-nav__item">
+    <a href="../../../built-on-ethereum/games/chainmonsters/" title="Chainmonsters" class="md-nav__link">
+      Chainmonsters
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
     <a href="../../../built-on-ethereum/games/chibi-fighters/" title="Chibi Fighters" class="md-nav__link">
       Chibi Fighters
     </a>
@@ -2716,6 +2747,18 @@
   <li class="md-nav__item">
     <a href="../../../built-on-ethereum/collectibles/decentraland/" title="Decentraland" class="md-nav__link">
       Decentraland
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../../built-on-ethereum/collectibles/nftkred/" title="NFT.Kred" class="md-nav__link">
+      NFT.Kred
     </a>
   </li>
 
@@ -3452,18 +3495,6 @@
   </li>
 
         
-          
-          
-          
-
-
-  <li class="md-nav__item">
-    <a href="../../../built-on-ethereum/erc-token-standards/erc1257.md" title="ERC1257" class="md-nav__link">
-      ERC1257
-    </a>
-  </li>
-
-        
       </ul>
     </nav>
   </li>
@@ -4022,6 +4053,18 @@
 
 
   <li class="md-nav__item">
+    <a href="../../../glossary/sideways-dictionary/double-spend/" title="Double Spend" class="md-nav__link">
+      Double Spend
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
     <a href="../../../glossary/sideways-dictionary/forks/" title="Forks" class="md-nav__link">
       Forks
     </a>
@@ -4088,6 +4131,18 @@
   </li>
 
         
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../../glossary/sideways-dictionary/wei/" title="Wei" class="md-nav__link">
+      Wei
+    </a>
+  </li>
+
+        
       </ul>
     </nav>
   </li>
@@ -4121,6 +4176,13 @@
         <li class="md-nav__item">
   <a href="#what-are-state-channels" title="What Are State Channels?" class="md-nav__link">
     What Are State Channels?
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#who-is-working-on-state-channels" title="Who is working on State Channels?" class="md-nav__link">
+    Who is working on State Channels?
   </a>
   
 </li>
@@ -4203,6 +4265,11 @@
 <h2 id="what-are-state-channels">What Are State Channels?</h2>
 <p>State channels are a very broad and simple way to think about blockchain interactions which could occur on the blockchain, but instead get conducted off of the blockchain, without significantly increasing the risk of any participant. The most well known example of this strategy is the idea of payment channels in Bitcoin, which allow for instant fee-less payments to be sent directly between two parties.</p>
 <p>State channels are very similar to the concept of payment channels in Bitcoin’s Lightning Network, but instead of only supporting payments, they also support general ‘state updates.’ For example, moves conducted in a game of Chess could be updated in a state channel and only broadcasted to the Ethereum network once the game is finished. This allows ethereum applications to "move" transactions off-chain, increasing the usefulness of the network as a whole.</p>
+<h2 id="who-is-working-on-state-channels">Who is working on State Channels?</h2>
+<p>Teams currently working on State Channels are:
+<em> <a href="https://celerx.app">CelerX</a>
+</em> <a href="https://connext.network/">Connext Network</a>
+* <a href="https://specs.counterfactual.com/en/latest/">Counterfactual</a></p>
 <h2 id="how-do-state-channels-work">How do State Channels work?</h2>
 <p>State channels work by “locking up” some portion of blockchain state into a multisig contract, controlled by a defined set of participants. The state that is “locked up” is called a state deposit. For instance, this might be an amount of ether or an ERC20 token, but could also be a cryptokitty or an ENS domain name.</p>
 <p>After the state deposit is locked, channel participants use off-chain messaging to exchange and sign valid ethereum transactions without deploying them to chain. These are transactions that could be put on chain anytime, but are not.</p>
@@ -4219,7 +4286,7 @@
 <h3 id="state-channel-pros">State Channel pros</h3>
 <ul>
 <li>State channels have strong privacy properties: This is because everything is happening “inside” a channel between participants, rather than broadcast publicly and recorded on-chain. Only the opening and closing transactions must be public. Whereas in sidechains every transaction is published on the sidechain which is received by every participant on the sidechain irrespective of the fact that you are not interacting with all of the participants on the sidechain.</li>
-<li>State channels have instant finality, meaning that as soon as both parties sign a state update, it can be considered final. Both parties have a very high guarantee that, if necessary, they can “enforce” that state on-chain. </li>
+<li>State channels have instant finality, meaning that as soon as both parties sign a state update, it can be considered final. Both parties have a very high guarantee that, if necessary, they can “enforce” that state on-chain.</li>
 </ul>
 <h3 id="state-channel-cons">State Channel cons</h3>
 <ul>
