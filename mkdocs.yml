@@ -105,7 +105,6 @@ nav:
       - 'True USD': 'built-on-ethereum/open-finance/stablecoins/trueusd.md'
       - 'Tether': 'built-on-ethereum/open-finance/stablecoins/tether.md'
       - 'Paxos': 'built-on-ethereum/open-finance/stablecoins/paxos.md'
-      - 'Synthetix': 'built-on-ethereum/open-finance/stablecoins/synthetix.md'
     - Prediction Markets:
       - 'What are Prediction Markets?': 'built-on-ethereum/open-finance/prediction-markets/what-are-prediction-markets.md'
       - 'Augur': 'built-on-ethereum/open-finance/prediction-markets/augur.md'
@@ -131,12 +130,14 @@ nav:
     - 'cdx': 'built-on-ethereum/open-finance/cdx.md'
     - 'Digix': 'built-on-ethereum/open-finance/digix.md'
     - 'Etherisc': 'built-on-ethereum/open-finance/etherisc.md'
+    - 'Fulcrum': 'built-on-ethereum/open-finance/fulcrum.md'
     - 'Maker': 'built-on-ethereum/open-finance/maker.md'
     - 'Nexus Mutual': 'built-on-ethereum/open-finance/nexus-mutual.md'
     - 'Set Protocol': 'built-on-ethereum/open-finance/set-protocol.md'
     - 'Settle': 'built-on-ethereum/open-finance/settle.md'
     - 'StablePay': 'built-on-ethereum/open-finance/stablepay.md'
     - 'Synthetix': 'built-on-ethereum/open-finance/synthetix.md'
+    - 'Torque': 'built-on-ethereum/open-finance/torque.md'
     - 'WBTC': 'built-on-ethereum/open-finance/wbtc.md'
     - 'Zerion': 'built-on-ethereum/open-finance/zerion.md'
   - Decentralized Exchanges:
@@ -186,6 +187,7 @@ nav:
     - 'What is Blockchain Gaming?': 'built-on-ethereum/games/what-is-blockchain-gaming.md'
     - 'Axie Infinity': 'built-on-ethereum/games/axie-infinity.md'
     - 'Caesar`s Triumph': 'built-on-ethereum/games/caesars-triumph.md'
+    - 'Chainmonsters': 'built-on-ethereum/games/chainmonsters.md'
     - 'Chibi Fighters': 'built-on-ethereum/games/chibi-fighters.md'
     - 'Crypto Space Commander': 'built-on-ethereum/games/crypto-space-commander.md'
     - 'CryptoKitties': 'built-on-ethereum/games/cryptokitties.md'
@@ -201,6 +203,7 @@ nav:
   - Collectibles:
     - 'CryptoPunks': 'built-on-ethereum/collectibles/cryptopunks.md'
     - 'Decentraland': 'built-on-ethereum/collectibles/decentraland.md'
+    - 'NFT.Kred': 'built-on-ethereum/collectibles/nftkred.md'
   - Marketplaces:
     - 'District0x': 'built-on-ethereum/marketplaces/district0x.md'
     - 'Opensea': 'built-on-ethereum/marketplaces/opensea.md'
@@ -254,7 +257,6 @@ nav:
     - 'ERC884': 'built-on-ethereum/erc-token-standards/erc884.md'
     - 'ERC918': 'built-on-ethereum/erc-token-standards/erc918.md'
     - 'ERC1155': 'built-on-ethereum/erc-token-standards/erc1155.md'
-    - 'ERC1257': 'built-on-ethereum/erc-token-standards/erc1257.md'
 - Ethereum FAQ:
   - 'Is Ethereum more expensive to use as price rises?': 'questions-about-ethereum/is-ethereum-more-expensive-to-use-as-price-rises.md'
   - 'Why do you have to pay to use Ethereum?': 'questions-about-ethereum/why-do-you-have-to-pay-to-use-ethereum.md'
@@ -296,12 +298,14 @@ nav:
     - 'Cryptojacking': 'glossary/sideways-dictionary/cryptojacking.md'
     - 'DDOS': 'glossary/sideways-dictionary/ddos.md'
     - 'Difficulty': 'glossary/sideways-dictionary/difficulty.md'
+    - 'Double Spend': 'glossary/sideways-dictionary/double-spend.md'
     - 'Forks': 'glossary/sideways-dictionary/forks.md'
     - 'Multi-Sig': 'glossary/sideways-dictionary/multi-sig.md'
     - 'Smart Contract': 'glossary/sideways-dictionary/smart-contract.md'
     - 'State Rent': 'glossary/sideways-dictionary/state-rent.md'
     - 'Stateless Clients': 'glossary/sideways-dictionary/stateless-clients.md'
     - 'Uncle Blocks': 'glossary/sideways-dictionary/uncle-blocks.md'
+    - 'Wei': 'glossary/sideways-dictionary/wei.md'
 
 
 
