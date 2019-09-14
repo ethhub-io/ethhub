@@ -10,6 +10,13 @@ State channels are a very broad and simple way to think about blockchain interac
 
 State channels are very similar to the concept of payment channels in Bitcoin’s Lightning Network, but instead of only supporting payments, they also support general ‘state updates.’ For example, moves conducted in a game of Chess could be updated in a state channel and only broadcasted to the Ethereum network once the game is finished. This allows ethereum applications to "move" transactions off-chain, increasing the usefulness of the network as a whole.
 
+
+## Who is working on State Channels?
+Teams currently working on State Channels are:
+* [CelerX](https://celerx.app)
+* [Connext Network](https://connext.network/)
+* [Counterfactual](https://specs.counterfactual.com/en/latest/)
+
 ## How do State Channels work?
 
 State channels work by “locking up” some portion of blockchain state into a multisig contract, controlled by a defined set of participants. The state that is “locked up” is called a state deposit. For instance, this might be an amount of ether or an ERC20 token, but could also be a cryptokitty or an ENS domain name.
@@ -33,7 +40,7 @@ If the “state” being updated between participants was a digital currency bal
 ### State Channel pros
 
 * State channels have strong privacy properties: This is because everything is happening “inside” a channel between participants, rather than broadcast publicly and recorded on-chain. Only the opening and closing transactions must be public. Whereas in sidechains every transaction is published on the sidechain which is received by every participant on the sidechain irrespective of the fact that you are not interacting with all of the participants on the sidechain.
-* State channels have instant finality, meaning that as soon as both parties sign a state update, it can be considered final. Both parties have a very high guarantee that, if necessary, they can “enforce” that state on-chain. 
+* State channels have instant finality, meaning that as soon as both parties sign a state update, it can be considered final. Both parties have a very high guarantee that, if necessary, they can “enforce” that state on-chain.
 
 ### State Channel cons
 
