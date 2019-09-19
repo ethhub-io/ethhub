@@ -35,3 +35,9 @@ Kraken is a great option for those living in Canada, Europe, and the United Stat
 LocalEthereum is a global, p2p marketplace for buying and selling ETH. Over 30 payment methods are supported including in-person cash trades.
 
 [Buy ETH on LocalEthereum](https://localethereum.com/)
+
+## Coinvendor
+
+Coinvendor is a no-KYC (ID needed but to generate unique user account) platform for no-custody purchasing of limited amounts of Ether and other cryptocurrencies. The limit is set to 1 BTC worth of Ether per person per day, but that's more than enough for anyone's needs. The currency arrives directly to the provided crypto address and funds are never kept by the platform. Currently only bank transfers are supported as a payment method.
+
+[Buy ETH on Coinvendor.io](https://coinvendor.io)
