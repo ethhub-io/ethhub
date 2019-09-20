@@ -1,6 +1,6 @@
 title: StablePay - EthHub
 
-description: StablePay is a decentralized payment platform that enables users to make payments with Ether or any ERC20 tokens that are converted to any token desired.
+description:  StablePay is a decentralized payment platform that enables users to make payments with Ether or any ERC20 tokens that are converted to their token of their choosing. Users can also choose a strategy to receive transfers as well, like convert all tokens to DAI and deposit 100% to Compound. The possibilites are endless with DeFI integrations.
 
 # StablePay
 
