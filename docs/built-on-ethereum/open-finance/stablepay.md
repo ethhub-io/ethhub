@@ -15,7 +15,6 @@ The contracts function as a gateway for receiving tokens, seek the best rate for
 
 ## Resources
 * [WebSite](https://stablepay.io/)
-* [Widget Generator](https://stablepay.io/widget/generator)
 * [Twitter](https://twitter.com/StablePay)
 * [Linkedin](https://www.linkedin.com/company/stablepay)
 * [Telegram](https://t.me/joinchat/BgU0cRRKyJW6Tn3zchSUvQ)
