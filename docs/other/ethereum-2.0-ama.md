@@ -1278,6 +1278,57 @@ A: Somewhere between 5000 and 500000 TPS depending on what execution environment
 
 A: I'd say the Ethereum Foundation's primary focus is the consensus layer (research, development, education, maintenance, etc.), more so than the application layer. [Justin]
 
+## Data Questions with Justin Drake
+
+Eth2 Data Questions with Justin Drake
+
+**Q: How much data will there be in Eth2?**
+
+JD: As the spec currently stands, on average 2.8MB/s across all shards with a "burst mode" which is 4x that (i.e. 11.3MB/s).
+
+**Q: What does this translate into for state size?**
+
+JD: At the consensus layer block size and state size are basically orthogonal considerations. Consensus-layer state size will always remain very small since we lean heavily on stateless clients.
+
+In theory application-layer state ("L2 state") can grow up to 2.8MB/s. For execution engines without state rent, you can expect state to grow roughly as fast as Eth1 state grows today. Multiply that by 1024 shards and the situation is possibly not long-term sustainable. This is a significant reason why I personally believe we should progressively launch execution engines (as opposed to allowing anyone to deploy EEs at launch), starting with an EE that has state rent.
+
+**Q: What role do nodes play (versus validators)?**
+
+JD: At the consensus layer non-validator nodes don't play any role. At the networking layer they can act as lubricants to relay message. They may also help create blocks for block proposers, i.e. be "relayers".
+
+**Q: Who will run these nodes?**
+
+JD: Nodes can be run by anyone who wants "direct" access to Eth2 (e.g. service providers such as exchanges, etherscan, power users). Relayer nodes may be run by specialised businesses.
+
+**Q:For someone that needs to run a node (EtherScan), what will the resourcing look like?**
+
+JD: They will get their data by being nodes and listening on the gossip networks.
+
+The bad news is that bandwidth should grow by roughly 1024x to keep track of all shards. But then again, that's not terrible news because a good internet connection (especially server-class) can handle 4*11.2MB/s (the 4* is, say, the gossiping overhead).
+
+The good news is that consensus state is minimal (again, stateless clients), which means zero consensus-layer I/O which is currently an Eth1 bottleneck. They can then choose withever EEs and/or dApps it wants to support, i.e. it's opt-in.
+
+**Q:How do we assume all data is stored and available?**
+
+JD: For recent blocks we have quite sophisticated infrastructure, including proofs of custody in phase 1 and data availability proofs (possibly phase 2). For historical blocks we rely on the ecosystem to keep them around.
+
+**Q:What will "historical blocks" be needed for. As in, if they were lost forever, what would be messed up?**
+
+JD: Historical blocks are required to recompute application-layer state, and may also contain application-layer receipts. If they were lost forever (which I don't expect would ever happen) then applications without at least one synced full node may lose user state.
+
+**Q:Will people congregate on a few shards?**
+
+JD: Hard to tell. Naive dApp design would suggest that dApps would aggregate into clusters within shard boundaries. We are exploring dApp designs that are somewhat shard-agnostic, i.e. consume data availability from shards as a fungible resource.
+
+**Q:Quick explanation of cross shard communication and where research is?**
+
+JD: Cross shard communication is a huge design space, just like "plasma" or "state channels". At the consensus layer we don't provide much infrastructure beyond crosslinks. I'm expecting significant experimentation in the early days followed by standardisation, somewhat similar to the token transfer design space and the ERC20 standard.
+
+One big idea is the concept of "optimistic crosslink" which are shared between shards in advance of the real crosslinks, and which with high probability will match the actual crosslinks that get finalised. dApps can use optimistic crosslinks to get super-low cross-shard latency.
+
+**Q:Why 1024 shards?**
+
+JD: Because 2048 shards would be stressing the beacon chain and 512 shards would be under-utilising the beacon chain.
 
 ## Resources:
 
