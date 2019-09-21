@@ -1280,8 +1280,6 @@ A: I'd say the Ethereum Foundation's primary focus is the consensus layer (resea
 
 ## Data Questions with Justin Drake
 
-Eth2 Data Questions with Justin Drake
-
 **Q: How much data will there be in Eth2?**
 
 JD: As the spec currently stands, on average 2.8MB/s across all shards with a "burst mode" which is 4x that (i.e. 11.3MB/s).
