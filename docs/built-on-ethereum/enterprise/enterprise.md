@@ -43,4 +43,4 @@ Read more [here](https://consensys.net/enterprise-ethereum/best-blockchain-for-b
 
 ## Resources
 
-* [Ethereum.org Enterprise Resources] (http://ethereum.org/enterprise/)
+* [Ethereum.org Enterprise Resources](http://ethereum.org/enterprise/)
