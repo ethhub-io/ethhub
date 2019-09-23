@@ -40,3 +40,7 @@ Read more [here](https://consensys.net/enterprise-ethereum/best-blockchain-for-b
 * [PegaSys](pegasys.md)
 * [Unicef](unicef.md)
 * [Enterprise Projects](projects.md)
+
+## Resources
+
+* [Ethereum.org Enterprise Resources] (http://ethereum.org/enterprise/)
