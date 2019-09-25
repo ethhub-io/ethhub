@@ -26,7 +26,6 @@ For those who wish to tackle smart contract development on Ethereum, there are a
 - [Dapp](https://dapp.tools/dapp/) - Framework for DApp development, successor to DApple
 - [Brownie](https://github.com/HyperLink-Technology/brownie) - A python framework for testing, deploying and interacting with Ethereum smart contracts.
 - [Etherlime](https://github.com/LimeChain/etherlime) - ethers.js based framework for Dapp deployment
-- [Parasol](https://github.com/Lamarkaz/parasol) - Agile smart contract development environment with testing, INFURA deployment, automatic contract documentation and more. It features a a flexible and unopinionated design with unlimited customizability.
 
 ### Test blockchain networks
 
