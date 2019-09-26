@@ -36,9 +36,9 @@ google_analytics:
 
 nav:
 - Home: 'index.md'
-- Learn: 'ethereum-basics/what-is-ethereum.md'
-- Listen: 'https://podcast.ethhub.io'
-- Read: 'https://ethhub.substack.com/'
+- Docs: 'ethereum-basics/what-is-ethereum.md'
+- Podcast: 'https://ethhub.substack.com/'
+- Newsletter: 'https://ethhub.substack.com/'
 - Ethereum Basics:
   - 'What is Ethereum?': 'ethereum-basics/what-is-ethereum.md'
   - 'What is Ether?': 'ethereum-basics/what-is-ether.md'
@@ -269,7 +269,6 @@ nav:
 - Other:
   - 'Ethereum Branding Kit': other/ethereum-branding-kit.md
   - 'Ethereum 2.0 AMA': 'other/ethereum-2.0-ama.md'
-  - 'Get Involved': 'other/get-involved.md'
   - 'Ethereum Foundation COI Disclosures': 'other/EF-COI-disclosures.md'
   - 'Grants Process': 'other/grants-process.md'
   - 'Internationalization': 'other/internationalization.md'
