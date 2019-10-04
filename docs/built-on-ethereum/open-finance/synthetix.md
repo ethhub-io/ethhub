@@ -31,9 +31,8 @@ According to a Synthetix [blog post](https://blog.synthetix.io/our-new-seth-snx-
 
 ## Index Synths: sCEX and iCEX
 
-In August 2019, the first exchange index synths went live on Synthetix.exchange. Dubbed sCEX, the sCEX token represents a basket of tokens issued by the top centralized exchanges (CEXs) in the industry: Binance Coin (BNB), Bitfinex's LEO, Huobi's HT, Okex's OKB, and Kucoin's KuCoin Shares (KCS). This basket provides unique exposure to a new strain of synthetic assets that enables traders and investors to gain exposure to the price of several exchanges' tokens without having to own the underlying tokens or maintain an account with one of the represented exchanges. 
-When sCEX was introduced, so too was iCEX born, which effectively enables beneficial exposure to downward price movement in the aforementioned tokens. Like iXTZ, iMKR, or iBNB, iCEX appreciates in price when its underlying components depreciate. This is akin to taking a short position, though the parameters of Inverse Synths makes the term inverse more appropriate. 
-The inaugural sCEX and iCEX tokens are weighted as follows: BNB (50%), LEO (20%), HT (10%), OKB (10%) and KCS (10%.)
+In August 2019, the [first exchange index synths](https://blog.synthetix.io/introducing-our-first-index-tokens-scex-and-icex/) went live on Synthetix.exchange. Dubbed sCEX, the sCEX token represents a basket of tokens issued by the top centralized exchanges (CEXs) in the industry: Binance Coin (BNB), Bitfinex's LEO, Huobi's HT, Okex's OKB, and Kucoin's KuCoin Shares (KCS). This basket provides unique exposure to a new strain of synthetic assets that enables traders and investors to gain exposure to the price of several exchanges' tokens without having to own the underlying tokens or maintain an account with one of the represented exchanges. 
+When sCEX was introduced, so too was iCEX born, which effectively enables beneficial exposure to downward price movement in the aforementioned tokens. Like iXTZ, iMKR, or iBNB, iCEX appreciates in price when its underlying components depreciate. This is akin to taking a short position, though the parameters of Inverse Synths makes the term inverse more appropriate. The inaugural sCEX and iCEX tokens are weighted as follows: BNB (50%), LEO (20%), HT (10%), OKB (10%) and KCS (10%.)
 
 ## Resources
 
