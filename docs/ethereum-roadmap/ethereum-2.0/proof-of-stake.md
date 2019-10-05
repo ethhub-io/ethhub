@@ -10,8 +10,8 @@ Proof of Stake represents a class of consensus algorithms in which validators vo
 It is considered an improvement over Proof of Work (PoW) because of less consumption of electricity, reduced centralization risks, security against different types of 51% attacks, and more.
 
 PoS can be classified into two major types:
-*Chain-Based: Rely on the synchronicity of the network
-*BFT-Based: Favour consistency of nodes over availability
+* Chain-Based: Rely on the synchronicity of the network
+* BFT-Based: Favour consistency of nodes over availability
 
 To participate in voting \(i.e. to become a validator\) you are required to stake ETH for which you'll be rewarded with additional ETH at some interest rate in addition to receiving a portion of the network transaction fees.
 
