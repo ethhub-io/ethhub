@@ -54,7 +54,7 @@ On its own, the Beacon Chain might not seem particularly useful. But, as the fir
 **Important Considerations**
 
 * ETH2 is transferable to and from shards once Phase 2 is complete.
-* There will be a minimum amount of ETH stake needed in order to first bootstrap the beacon chain. This is defined as `CHAIN_START_FULL_DEPOSIT_THRESHOLD` in the [deposit contract that will live on the Eth 1.0 chain](https://github.com/ethereum/deposit_contract/blob/master/deposit_contract/contracts/validator_registration.v.py#L69). Currently, this is set to 16384 validators needed. That would mean 524,288 ETH in total stake is needed. This would pay ~11% interest to stakers.
+* There will be a minimum amount of ETH stake needed in order to first bootstrap the beacon chain. This is defined as `CHAIN_START_FULL_DEPOSIT_THRESHOLD` in the [deposit contract that will live on the Eth 1.0 chain](https://github.com/ethereum/deposit_contract/blob/master/deposit_contract/contracts/validator_registration.v.py#L3). Currently, this is set to 65536 validators needed. That would mean 2,097,152 ETH in total stake is needed. This would pay ~11% interest to stakers.
 * To become a validator, you'll need to stake 32 ETH2.
 * During Phase 0, all user transactions and smart contract computations will still occur on the Eth 1.0 chain.
 
