@@ -22,10 +22,6 @@ The purpose is to bring back the original community model from which insurance o
 
 **Governance** - A membership organisation [governed](https://medium.com/nexus-mutual/dao-governance-a-pragmatic-approach-27d529ad0819) by token voting and an Advisory board. Legally wrapped in a UK discretionary mutual.
 
-## Testnet Demo
-
-[https://demo.nexusmutual.io/](https://demo.nexusmutual.io/) Deployed on the Kovan testnet and can be accessed via Metamask.
-
 ## Resources
 
 - [Website](https://www.nexusmutual.io/)
