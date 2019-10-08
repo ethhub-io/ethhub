@@ -123,7 +123,7 @@ description: A list of essential Ethereum resources.
 
 #### Wallets
 
-* [EthHub Wallets Section](../../using-ethereum/wallets/)
+* [EthHub Wallets Section](https://docs.ethhub.io/using-ethereum/wallets/intro-to-ethereum-wallets/)
 * [MyEtherWallet](https://www.myetherwallet.com/)
 * [MyCrypto](https://mycrypto.com/)
 * [MetaMask](https://metamask.io/)
@@ -192,7 +192,7 @@ description: A list of essential Ethereum resources.
 
 ### Decentralized Exchanges \(DEXs\)
 
-* [EthHub DEX Section](../../built-on-ethereum/decentralized-exchanges/)
+* [EthHub DEX Section](https://docs.ethhub.io/built-on-ethereum/decentralized-exchanges/what-are-decentralized-exchanges/)
 * [List of all Decentralized Exchanges](https://github.com/distribuyed/index/blob/master/README.md)
 * [Uniswap](https://uniswap.io/)
 * [Radar Relay](https://app.radarrelay.com/)
@@ -244,7 +244,6 @@ description: A list of essential Ethereum resources.
 * [Rare Bits \(Digital Asset Marketplace\)](https://rarebits.io/)
 * [OpenSea \(Digital Asset Marketplace\)](https://opensea.io/)
 * [Emoon \(Digital Asset Marketplace\)](https://www.emoon.io/)
-* [Atomic Bazaar \(Digital Asset Marketplace\)](https://www.atomicbazaar.io/)
 * [Nifty Gateway](https://niftygateway.com/#/home)
 * [Cryptogoods Gallery](https://gallery.cryptogoods.com/)
 * [NFT Reading List](https://paper.dropbox.com/doc/NFT-Reading-List-WIP-8YKK903rKYUBKPFFC8dHU)

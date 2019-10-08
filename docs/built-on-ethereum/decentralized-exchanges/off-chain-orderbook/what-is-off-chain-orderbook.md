@@ -8,7 +8,7 @@ For "Off-Chain Orderbook" decentralized exchanges, final trades occur on chain b
 
 ## Exchanges
 
-* [0x Protocol](0x-protocol/)
+* [0x Protocol](https://docs.ethhub.io/built-on-ethereum/open-finance/0x-protocol/)
 * [EtherDelta](etherdelta.md)
 * [Loopring](loopring.md)
 * [IDEX](idex.md)
