@@ -11,7 +11,6 @@ For those who wish to tackle smart contract development on Ethereum, there are a
 - [Remix](https://remix.ethereum.org/) - (Great for starters!) Web IDE with built in static analysis, test blockchain VM.
 - [Superblocks Lab](https://superblocks.com/lab/) - Web IDE. Built in browser blochain VM, Metamask integration (one click deployments to Testnet/Mainnet), transaction logger and live code your WebApp among many other features.
 - [Atom Solidity Linter](https://atom.io/packages/atom-solidity-linter), [Etheratom](https://atom.io/packages/etheratom)
-- [Pragma](https://www.withpragma.com/) - Very simple web IDE for solidity, and auto-generated interfaces for smart contracts.
   [autocomplete-solidity](https://atom.io/packages/autocomplete-solidity), and [language-solidity](https://atom.io/packages/language-solidity) packages
 - [Vim solidity](https://github.com/tomlion/vim-solidity) - Vim syntax file for solidity
 - [Solidity VS Code](https://marketplace.visualstudio.com/items?itemName=JuanBlanco.solidity) - Visual Studio Code extension that adds support for Solidity
