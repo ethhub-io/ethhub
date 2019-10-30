@@ -26,6 +26,7 @@ Phone and other mobile device-based wallets are mobile alternatives to desktop a
 * [Coinomi](https://www.coinomi.com/en/) - Multicurrency wallet
 * [Coinbase Wallet](https://wallet.coinbase.com/)
 * [Cypher](https://www.cipherbrowser.com/) - Mobile Dapp explorer
+* [Eidoo](https://eidoo.io/) - Multicurrency and Multiplatform wallet with a DEX and a DeFI gateway
 * [eth-wallet-light](https://github.com/NoahHydro/eth-wallet-light) - Lightweight JS Wallet optimized for mobile
 * [imToken](https://token.im/) - Feature-rich digital asset mobile wallet enabling multi-chain asset management, DApp browsing and secure, private exchange of value.
 * [Jaxx](https://jaxx.io) - Both a mobile and a desktop wallet. Has integrated Shapeshift support.
