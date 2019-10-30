@@ -22,6 +22,7 @@ Desktop wallets are downloadable apps capable of operating on Windows, MacOS, or
 ## Wallets
 
 * [MyCrypto](https://github.com/MyCryptoHQ) - Open-source, client-side tool downloadable from [https://download.mycrypto.com](https://download.mycrypto.com) for generating Ethereum wallets, handling ERC-20 tokens, and interacting with the blockchain easily.
+* [Eidoo](https://eidoo.io/) - Multicurrency and Multiplatform \(Windows, Mac, Linux, Andorid, iOs\) wallet with a DEX and a DeFI gateway
 * [Exodus](https://exodus.io) - Closed-source wallet that allows for multi-currency interaction/transacting \(requires you to be online to generate transactions\).
 * [Fetch](https://hellofetch.co/download) - Desktop \(and web\) wallet supporting Ethereum and ERC-20 tokens. Integrated with 20 exchanges for real time trading rates and one-click trading.
 * [Tokenary](https://tokenary.io/masos) - a macOS Ethereum and ERC-20 tokens wallet and Safari extension that lets you store your assets and interact with DApps.
