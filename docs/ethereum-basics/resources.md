@@ -66,6 +66,7 @@ description: A list of essential Ethereum resources.
 * [EthHub Weekly Newsletter](https://newsletter.ethhub.io/)
 * [Week In Ethereum](http://www.weekinethereum.com/)
 * [The Defiant](https://thedefiant.substack.com/)
+* [Bankless](https://bankless.substack.com/)
 * [DeFi Weekly](https://defiweekly.substack.com/)
 * [Dharma Markets Report](https://dharmamarkets.substack.com/)
 * [NFTY News](http://nfty.news/)
