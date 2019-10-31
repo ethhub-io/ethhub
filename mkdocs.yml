@@ -77,6 +77,7 @@ nav:
       - 'State Channels': 'ethereum-roadmap/layer-2-scaling/state-channels.md'
       - 'Payment Channels': 'ethereum-roadmap/layer-2-scaling/payment-channels.md'
       - 'ZK-STARKs': 'ethereum-roadmap/layer-2-scaling/zk-starks.md'
+      - 'Commit-Chains': 'ethereum-roadmap/layer-2-scaling/commit-chains.md'
   - 'Privacy': 'ethereum-roadmap/privacy.md'
   - 'Istanbul': 'ethereum-roadmap/istanbul.md'
 - Using Ethereum:
