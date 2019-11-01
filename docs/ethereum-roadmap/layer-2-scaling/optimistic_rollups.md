@@ -5,10 +5,15 @@ Optimistic Rollups are one type of layer 2 constructions on Ethereum, that is, c
 
 ## A Simple Overview
 1-A user sends a deploy transaction of a smart contract off-chain to an aggregator (a block producer in this construction).
+
 2-An aggregator locally deploys the transaction creating the new smart contract.
-3-That aggregator computes the new state root (a merkle root)
+
+3-That aggregator computes the new state root (a merkle root).
+
 4-That aggregator creates an Ethereum transaction which contains that state root calculated in 3.
+
 5-Any user that sees an aggregator deploying an invalid state root (a state root created by including invalid transactions) can challenge that aggregator by posting the valid state root along with the merkle proofs required to prove it, slashing(removing a portion of the bond) and the aggregator that commited such fraud and any that built blocks on top of the fraudulent one and claiming those rewards.
+
 6-After an invalid block has been commited and a fraud proof is finalized, the chain in layer 2 can be rolled back and can resume to work.
 
 Note: Anyone can become an aggregator as long as they lock a bond in the smart contract.
