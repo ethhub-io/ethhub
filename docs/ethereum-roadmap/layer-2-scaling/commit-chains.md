@@ -6,16 +6,16 @@ description: Commit-chains a layer 2 scaling solution for Ethereum.
 
 ## What are commit-chains?
 
-Commit-chains are the more generic term for what is also called Plasma for Ethereum blockchain. 
+Commit-chains are the generic term for what is also called 'Plasma' - a layer 2 scaling solution for Ethereum and other blockchains. 
 
 Vitalik Buterin has jokingly said, 
 *"Commit chains" is more on-brand for bitcoin whereas "plasma" is more on-brand for ethereum.*
 
-Commit-chains, also sometimes described as non-custodial side chains, don’t introduce a new consensus mechanism like side chains, they rely on the parent-blockchain consensus, which makes them as safe as the parent-blockchain itself. 
+Commit-chains, also sometimes described as non-custodial side chains, don’t introduce a new consensus mechanism like side chains - they rely on the parent-blockchains consensus which makes them as safe as the parent-blockchain itself. 
 
-In commit-chains, untrusted and non-custodial operator facilitates the communication between transacting parties. The operator is expected to commit the state of user account balances by sending periodic updates to the parent-blockchain.
+In commit-chains, untrusted and non-custodial operators facilitate the communication between transacting parties. The operator is expected to commit the state of user account balances by sending periodic updates to the parent-blockchain.
 
-## How commit-chains work?
+## How do commit-chains work?
 
 ![](https://i.imgur.com/9ekBVjB.png)
 
@@ -31,25 +31,26 @@ While ZKPs enforce consistent state transitions on-chain, Merkle root commitment
 
 ### Data Availability Requirement
 
-Data availability requirement means users must retrieve and maintain data required to exit a commit-chain since data isn’t broadcasted. 
+Users must retrieve and maintain data required to exit a commit-chain since data isn’t broadcasted.
 
-Depending on the implementation, if the data is unavailable, you are either forced to exit, like in Plasma or the operator can be challenged to provide the necessary data, like in NOCUST. 
+Depending on the implementation, if the data is unavailable, you are either forced to exit (like in Plasma) or the operator can be challenged to provide the necessary data (like in NOCUST). 
 
 On misbehavior, users are allowed to exit with their last confirmed balance.
 
 ### Centralized but Untrusted Intermediary
 
-The centralized operator never holds custody of funds so, in case of failure to be available, the worst-case scenario is that you’re just unable to make any further off-chain transactions, but users can exit and move to another commit-chain at any time.
+The centralized operator never holds custody of funds so if the operator is not available the worst-case scenario is that users are just unable to make any further off-chain transactions, but they can exit and move to another commit-chain at any time.
 
 ### Transaction Finality
 Unlike payment channels, the commit-chain operator does not require on-chain collateral to securely route payments between users.
 
-Commit-chain transactions do not offer instant transaction finality like channels but offer eventual finality after an on-chain checkpoint. 
+Commit-chain transactions do not offer instant transaction finality like payment channels but offer eventual finality after an on-chain checkpoint. 
 
 However, if an operator chooses to allocate collateral to each user, essentially implementing a payment channel on top of a commit-chain, instant transaction finality becomes possible.
 
 ### Reduced Routing Requirements
-A single commit-chain can potentially host millions of users, so a few statically connected commit-chains are envisioned to spaw stable networks with low routing complexity. Atomic cross commit-chain transactions have not been proposed yet.
+
+A single commit-chain can potentially host millions of users, so a few statically connected commit-chains are envisioned to spawn stable networks with low routing complexity. Atomic cross commit-chain transactions have not been proposed yet.
 
 ## Commit-chain security properties
 
@@ -67,7 +68,7 @@ Balance security is provided for honest users even if the operator and all other
 
 ### State progression
 
-User can anytime enforce an off-chain state transition on-chain.
+Users can, at any time, enforce an off-chain state transition on-chain.
 
 ### Commitment integrity
 
@@ -77,12 +78,11 @@ Since there isn’t a fixed 3-phase lifetime for a commit-chain, users of the co
 
 ### Overview
 
-NOCUST commit-chain was first introduced by the team at [Liquidity Network](https://liquidity.network/) and their peers in the form of an [academic paper](https://eprint.iacr.org/2018/642.pdf).
+The concept of 'NOCUST commit-chains' was first introduced by the team at [Liquidity Network](https://liquidity.network/) and their peers in the form of an [academic paper](https://eprint.iacr.org/2018/642.pdf).
 
-NOCUST is an account-based commit-chain, where an on-chain address is associated to a commit-chain account.
+NOCUST is an account-based commit-chain where an on-chain address is associated to a commit-chain account.
 
-The NOCUST on-chain contract expects to periodically receive a constant-sized commitment to the state of the commit-chain ledger from the operator, containing each user’s account in the
-collateral pool.
+The NOCUST on-chain contract expects to periodically receive a constant-sized commitment to the state of the commit-chain ledger from the operator containing each user’s account in the collateral pool.
 
 ### Free establishment
 
@@ -96,7 +96,7 @@ A transaction within NOCUST is enacted with the signature of the sender and the 
 
 State progression is only possible if the operator stakes collateral towards the recipient. NOCUST specifies a mechanism to allocate collateral towards all commit-chain users within a constant-size on-chain commitment, which enables instant transaction finality for specified amounts.
 
-Allocated collateral is reusable after each on-chain checkpoint and at this point, the transaction throughput is only limited by the operator’s bandwidth and computational throughput, and independent of checkpoint commitment interval.
+Allocated collateral is reusable after each on-chain checkpoint and at this point, the transaction throughput is only limited by the operator’s bandwidth and computational throughput - independent of checkpoint commitment interval.
 
 ### Commitment integrity
 Each user is only required to verify their own balance proof by requesting data from the operator and comparing it with their locally stored state at regular time intervals to observe integrity. 
@@ -107,9 +107,9 @@ NOCUST supports a provably consistent mode of operation through zkSNARKS. Layer 
 
 ## Comparing commit-chains
 
-Comparing NOCUST commit-chain with Plasma Cash, which is the most comprehensive working draft of Plasma implementation.
+Comparing NOCUST commit-chain with Plasma Cash, which is the most comprehensive working draft of a Plasma implementation.
 
-Comparison data is based on the [systemization of knowledge academic paper](https://eprint.iacr.org/2019/360.pdf) and sourced from discussions with Georgios Konstantopoulos.
+Comparison data is based on the [systemization of knowledge academic paper](https://eprint.iacr.org/2019/360.pdf) and sourced from discussions with [Georgios Konstantopoulos](https://twitter.com/gakonst?lang=en).
 
 | General properties              | Plasma Cash | NOCUST              |
 |---------------------------------|-------------|---------------------|
@@ -124,9 +124,9 @@ Comparison data is based on the [systemization of knowledge academic paper](http
 | Provably consistent state (ZKP) | ✕           | ✓                   |
 | Commit-chain swaps              | ✕           | ✓                   |
 
-Plasma is a UTXO-based commit-chain when NOCUST is account-based. 
+Plasma is a UTXO-based commit-chain while NOCUST is account-based. 
 
-In Plasma Cash, a coin is minted with an on-chain deposit and cannot be merged or split with another coin on the commit-chain, hence it is useful for non-fungible tokens, but not practical as a payment system.
+In Plasma Cash, a coin is minted with an on-chain deposit and cannot be merged or split with another coin on the commit-chain, hence it is useful for non-fungible tokens but not practical as a payment system.
 
 NOCUST uses ZKPs to enforce consistent state transitions on-chain, Plasma Cash uses Merkle root commitments, which do not and require users to participate in challenge-response protocols to challenge operator misbehavior.
 
