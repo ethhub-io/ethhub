@@ -99,8 +99,8 @@ description: A list of essential Ethereum resources.
 
 ### Blogs
 
-* [Fred Ehrsam \(Coinbase Co-Founder\)](https://medium.com/@FEhrsam)
 * [Vitalik Buterin \(Ethereum Founder\)](https://vitalik.ca/)
+* [Fred Ehrsam \(Coinbase Co-Founder\)](https://medium.com/@FEhrsam)
 * [Vlad Zamfir \(Ethereum Core Developer\)](https://medium.com/@Vlad_Zamfir)
 * [The Control by Nick Tomaino](https://thecontrol.co/)
 * [Multicoin Capital](https://multicoin.capital/)
@@ -172,6 +172,7 @@ description: A list of essential Ethereum resources.
 * [Ethereum Stack Exchange](https://ethereum.stackexchange.com/)
 * [Ethereum Bounties](https://bounty.ethereum.org/#bounties)
 * [EthList: The Crowdsourced Ethereum Reading List](https://github.com/Scanate/EthList/blob/master/README.md)
+* [Ethereum 2.0 Devs Handbook and FAQs](https://notes.ethereum.org/@serenity/handbook)
 * [Quickblocks](https://quickblocks.io/)
 * [LearnChannels](https://learnchannels.org/)
 * [VDF Research](https://vdfresearch.org/)
