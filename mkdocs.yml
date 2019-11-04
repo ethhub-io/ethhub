@@ -164,6 +164,9 @@ nav:
       - 'Uniswap': 'built-on-ethereum/decentralized-exchanges/pool-based/uniswap.md'
     - Aggregators:
       - 'Totle': 'built-on-ethereum/decentralized-exchanges/aggregators/totle.md'
+    - Layer 2 Based:
+      - 'What are layer 2 based decentralized exchanges?': 'built-on-ethereum/decentralized-exchanges/layer-2-based/what-is-layer-2-based.md'
+      - 'TEX': 'built-on-ethereum/decentralized-exchanges/layer-2-based/tex.md'
   - Enterprise:
     - 'Ethereum Enterprise': 'built-on-ethereum/enterprise/enterprise.md'
     - 'AXA': 'built-on-ethereum/enterprise/axa.md'
