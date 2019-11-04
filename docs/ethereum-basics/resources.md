@@ -173,6 +173,7 @@ description: A list of essential Ethereum resources.
 * [Ethereum Bounties](https://bounty.ethereum.org/#bounties)
 * [EthList: The Crowdsourced Ethereum Reading List](https://github.com/Scanate/EthList/blob/master/README.md)
 * [Ethereum 2.0 Devs Handbook and FAQs](https://notes.ethereum.org/@serenity/handbook)
+* [EatTheBlocks Solidity Video Tutorials](https://www.youtube.com/playlist?list=PLbbtODcOYIoE0D6fschNU4rqtGFRpk3ea)
 * [Quickblocks](https://quickblocks.io/)
 * [LearnChannels](https://learnchannels.org/)
 * [VDF Research](https://vdfresearch.org/)
