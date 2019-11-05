@@ -137,7 +137,6 @@ Warning: never plug into your LAN anything you cannot thoroughly inspect and ver
 ## Resources
 
 * Huge shout out and thanks to Afri Schoedon's blogs [here](https://dev.to/5chdn/ethereum-node-configuration-modes-cheat-sheet-25l8) and [here](https://dev.to/5chdn/the-ethereum-blockchain-size-will-not-exceed-1tb-anytime-soon-58a) which is where a lot of the information on this page came from.
-
+* [Run an Ethereum Node on Debian](https://medium.com/better-programming/run-an-ethereum-node-on-linux-late-2019-b37a1d35800e)
 * [Dispelling Myths About Ethereum's Disk Space](https://www.tokendaily.co/blog/dispelling-myths-about-ethereum-s-disk-space)
-
 * [What Comprises an Ethereum Fullnode Implementation?](https://medium.com/amentum/what-comprises-an-ethereum-fullnode-implementation-a9113ce3fe3a)
