@@ -4,7 +4,7 @@ description: A dive into what layer 2 based decentralized exchanges on Ethereum 
 
 # Layer 2 Based
 
-Layer 2 decentralized exchanges are built on layer 2 scaling methods, bringing much of the benefits regarding saving on on-chain transaction gas fees, settlement speed, and scalability. but also inheriting the potential underlying weaknesses.
+Layer 2 decentralized exchanges are built on layer 2 scaling methods, bringing much of the benefits regarding saving on on-chain transaction gas fees, settlement speed, and scalability - but also inherit the potential underlying weaknesses.
 
 ## Exchanges
 
