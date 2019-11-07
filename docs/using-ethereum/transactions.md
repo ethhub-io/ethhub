@@ -71,9 +71,9 @@ Ethereum private keys can be used to sign messages. Signatures can be used to ve
 To learn how to sign and verify signatures via MyCrypto, see [this guide](https://support.mycrypto.com/addresses/signing-and-verifying-messages.html). 
 
 
-
 ## Resources
 
+* [Understanding Ethereum Gas, Blocks and the Fee Market](https://medium.com/@eric.conner/understanding-ethereum-gas-blocks-and-the-fee-market-d5e268bf0a0e)
 * [How does Ethereum work, anyway?](https://medium.com/@preethikasireddy/how-does-ethereum-work-anyway-22d1df506369)
 * [EthGasStation](https://ethgasstation.info/)
 

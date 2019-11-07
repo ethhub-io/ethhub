@@ -16,11 +16,6 @@ Coinbase is based in San Fransisco and is one of the most reputable and well kno
 
 [Buy ETH on Coinbase](https://www.coinbase.com/join/527bbccd0c46660a8a00003b)
 
-## Dether
-Dether is a global, p2p marketplace for buying and selling ETH in person with cash.
-
-[Buy ETH on Dether](https://dether.io)
-
 ## Gemini
 Gemini is based in New York and has a great history of security and reliability. Users can buy ETH with fiat or cryptocurrencies.
 
@@ -30,6 +25,11 @@ Gemini is based in New York and has a great history of security and reliability.
 Kraken is a great option for those living in Canada, Europe, and the United States, and supports accounts for users from [other countries](https://support.kraken.com/hc/en-us/articles/360001368823-Geographic-Restrictions-Can-I-use-Kraken-if-I-m-from-) as well. Users can buy ETH with any of the supported [fiat](https://support.kraken.com/hc/en-us/articles/360000381846-Fiat-currency-deposit-methods-fees-and-minimums) or [cryptocurrencies](https://support.kraken.com/hc/en-us/articles/360001389303-Summary-of-digital-assets-cryptocurrency-minimums-and-fees).
 
 [Buy ETH on Kraken](https://www.kraken.com)
+
+## Dether
+Dether is a global, p2p marketplace for buying and selling ETH in person with cash.
+
+[Buy ETH on Dether](https://dether.io)
 
 ## LocalEthereum
 LocalEthereum is a global, p2p marketplace for buying and selling ETH. Over 30 payment methods are supported including in-person cash trades.

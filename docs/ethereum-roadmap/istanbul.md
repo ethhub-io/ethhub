@@ -1,4 +1,4 @@
-title: Istanbul (October 2019) - EthHub
+title: Istanbul - EthHub
 
 description: Istanbul is the name given to the next Ethereum upgrade.
 
@@ -8,10 +8,7 @@ description: Istanbul is the name given to the next Ethereum upgrade.
 Istanbul is the name given to the next Ethereum upgrade.
 
 ## Timeline
-* 5/17/19 - Hard deadline to accept EIPs
-* 7/19/19 - Soft deadline for major client implementations of EIPs
-* 9/04/19 - Testnet upgrades
-* 10/16/19 - Mainnet upgrade
+* 12/4/19 (Block 9,069,000) - Mainnet upgrade
 
 ## EIPs accepted
 * [EIP-152](https://github.com/ethereum/EIPs/pull/2129): Add Blake2 compression function `F` precompile

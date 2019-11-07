@@ -153,7 +153,7 @@ description: A list of essential Ethereum resources.
 
 ### Run an Ethereum node
 
-* [Run an Ethereum Node](https://medium.com/mercuryprotocol/how-to-run-an-ethereum-node-on-aws-a8774ed3acf6)
+* [Run an Ethereum Node](https://medium.com/@JustinMLeroux/running-ethereum-full-nodes-a-guide-for-the-barely-motivated-a8a13e7a0d31)
 * [DAppNode](https://github.com/dappnode/dappnode)
 * [QuikNode](https://quiknode.io/)
 * [Blockdaemon](https://blockdaemon.com/)

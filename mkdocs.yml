@@ -39,6 +39,7 @@ nav:
 - Docs: 'ethereum-basics/what-is-ethereum.md'
 - Podcast: 'https://ethhub.substack.com/'
 - Newsletter: 'https://ethhub.substack.com/'
+- Shop: 'https://shop.ethhub.io'
 - Ethereum Basics:
   - 'What is Ethereum?': 'ethereum-basics/what-is-ethereum.md'
   - 'What is Ether?': 'ethereum-basics/what-is-ether.md'
@@ -54,7 +55,6 @@ nav:
       - 'Tooling': 'ethereum-basics/development/tooling.md'
   - 'Resources': 'ethereum-basics/resources.md'
 - Ethereum Roadmap:
-  - 'Ethereum 1.x': 'ethereum-roadmap/ethereum-1.x.md'
   - Ethereum 2.0:
       - 'Sharding': 'ethereum-roadmap/ethereum-2.0/sharding.md'
       - 'Proof of Stake': 'ethereum-roadmap/ethereum-2.0/proof-of-stake.md'
@@ -78,6 +78,7 @@ nav:
       - 'Payment Channels': 'ethereum-roadmap/layer-2-scaling/payment-channels.md'
       - 'ZK-STARKs': 'ethereum-roadmap/layer-2-scaling/zk-starks.md'
       - 'Commit-Chains': 'ethereum-roadmap/layer-2-scaling/commit-chains.md'
+  - 'Ethereum 1.x': 'ethereum-roadmap/ethereum-1.x.md'
   - 'Privacy': 'ethereum-roadmap/privacy.md'
   - 'Istanbul': 'ethereum-roadmap/istanbul.md'
 - Using Ethereum:
