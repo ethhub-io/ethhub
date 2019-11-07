@@ -280,3 +280,8 @@ Datasets are being collected [here](https://drive.google.com/drive/folders/1cJRM
 #### Measures likely not requiring hard-forks, but requiring cross client code coordination on the network protocol:
 
 * Storage pruning
+
+## Resources
+* [Ethereum 1x Definition (part 1)](https://ledgerwatch.github.io/Ethereum_1x_Definition_part_1)
+* [Ethereum 1x Definition (part 2)](https://ledgerwatch.github.io/Ethereum_1x_Definition_part_2)
+* [Ethereum 1x Definition (part 3)](https://ledgerwatch.github.io/Ethereum_1x_Definition_part_3)
