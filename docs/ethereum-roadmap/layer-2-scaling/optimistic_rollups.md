@@ -26,11 +26,12 @@ Note: The front-running problem associated with 5. can be solved by numerous met
 Any user that uses any Dapp that is deployed in Layer 2 with an Optimistic Rollup construction can enjoy economic abstraction of use (eg: fee-free transactions, pay with ERC-20, etc.) and quasi-instant transactions (transactions in the ball-park of 200ms, don't blink or you'll miss it!).
 
 ## Pros/Cons
+Pros:
  + Flexibility in generalized Computation (Turing-complete / EVM compatible )
  + Increase in scalability (200 to 2000 transactions-per-second(tps) vs Ethereum 1.0's current 10 tps )
  + All Data is available on-chain (no need to trust off-chain data providers)
  + Better UX (as explained above)
-
+Cons:
  - Limited Throughput when compared with some other Layer 2 solutions (Plasma, ZK Rollups, etc.)
  - Some additional security issues are raised (discussed below)
 
