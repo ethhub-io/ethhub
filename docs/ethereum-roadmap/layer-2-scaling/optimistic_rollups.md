@@ -36,14 +36,17 @@ Cons:
  * Limited Throughput when compared with some other Layer 2 solutions (Plasma, ZK Rollups, etc.)
  * Some additional security issues are raised (discussed below)
 
+
 ## Demo
 A Uniswap-like exchange called Unipig was developed by both Uniswap and Plasma Group teams as a Proof of Concept application and demoed in Devcon5, which you can try for free in unipig.exchange.
 
 ## Security Overview
 For Optimistic Rollups to work, we must assume that there exists a honest majority of Ethereum validators (miners in Eth1,stakers in Eth2), and that there is at least one aggregator that is not censuring transactions.
 
-## Resources 
-	[Unipig](https://unipig.exchange)
-	[Plasma group forum](https://plasma.group/)
-	[ZK Rollups vs Optimistic Rollups](https://blog.idex.io/all-posts/rollup-rundown)
+## Resources
+
+[Unipig](https://unipig.exchange)
+[Plasma group forum](https://plasma.group/)
+[ZK Rollups vs Optimistic Rollups](https://blog.idex.io/all-posts/rollup-rundown)
+	
 
