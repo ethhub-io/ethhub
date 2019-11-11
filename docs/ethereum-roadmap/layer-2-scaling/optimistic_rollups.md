@@ -46,7 +46,9 @@ For Optimistic Rollups to work, we must assume that there exists a honest majori
 ## Resources
 
 [Unipig](https://unipig.exchange)
+
 [Plasma group forum](https://plasma.group/)
+
 [ZK Rollups vs Optimistic Rollups](https://blog.idex.io/all-posts/rollup-rundown)
 	
 
