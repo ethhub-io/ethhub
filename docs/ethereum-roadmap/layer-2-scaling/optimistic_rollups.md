@@ -27,14 +27,14 @@ Any user that uses any Dapp that is deployed in Layer 2 with an Optimistic Rollu
 
 ## Pros/Cons
 Pros:
- + Flexibility in generalized Computation (Turing-complete / EVM compatible )
- + Increase in scalability (200 to 2000 transactions-per-second(tps) vs Ethereum 1.0's current 10 tps )
- + All Data is available on-chain (no need to trust off-chain data providers)
- + Better UX (as explained above)
- 
+ * Flexibility in generalized Computation (Turing-complete / EVM compatible )
+ * Increase in scalability (200 to 2000 transactions-per-second(tps) vs Ethereum 1.0's current 10 tps )
+ * All Data is available on-chain (no need to trust off-chain data providers)
+ * Better UX (as explained above)
+
 Cons:
- - Limited Throughput when compared with some other Layer 2 solutions (Plasma, ZK Rollups, etc.)
- - Some additional security issues are raised (discussed below)
+ * Limited Throughput when compared with some other Layer 2 solutions (Plasma, ZK Rollups, etc.)
+ * Some additional security issues are raised (discussed below)
 
 ## Demo
 A Uniswap-like exchange called Unipig was developed by both Uniswap and Plasma Group teams as a Proof of Concept application and demoed in Devcon5, which you can try for free in unipig.exchange.
@@ -43,6 +43,6 @@ A Uniswap-like exchange called Unipig was developed by both Uniswap and Plasma G
 For Optimistic Rollups to work, we must assume that there exists a honest majority of Ethereum validators (miners in Eth1,stakers in Eth2), and that there is at least one aggregator that is not censuring transactions.
 
 ## Resources
-	[Unipig] (https://unipig.exchange)
-	[Plasma group forum] (https://plasma.group/)
-	[ZK Rollups vs Optimistic Rollups] (https://blog.idex.io/all-posts/rollup-rundown)
+	* [Unipig] (https://unipig.exchange)
+	* [Plasma group forum] (https://plasma.group/)
+	* [ZK Rollups vs Optimistic Rollups] (https://blog.idex.io/all-posts/rollup-rundown)
