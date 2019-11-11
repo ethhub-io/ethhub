@@ -31,6 +31,7 @@ Pros:
  + Increase in scalability (200 to 2000 transactions-per-second(tps) vs Ethereum 1.0's current 10 tps )
  + All Data is available on-chain (no need to trust off-chain data providers)
  + Better UX (as explained above)
+ 
 Cons:
  - Limited Throughput when compared with some other Layer 2 solutions (Plasma, ZK Rollups, etc.)
  - Some additional security issues are raised (discussed below)
