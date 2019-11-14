@@ -9,6 +9,9 @@ There are many different types of applications that can be built on Ethereum. Mo
 ## Open Finance
 [Open finance](open-finance/what-is-open-finance.md) refers to a number of decentralized protocols building open financial infrastructure. These protocols are valuable because they're creating the necessary plumbing to enable anyone in the world with an internet connection to access self-sovereign, censorship resistant financial services.
 
+## Oracles
+[Oracles](oracles/what-are-oracles.md) refers to a protocols or services to connect Ethereum to offchain information.  They can be utilized for querying information from the internet (e.g. API calls), information about other chains (e.g. BTC transactions), or even as dispute resolution mechanisms concerning non-native assets.
+
 ## Decentralized Exchanges
 [Decentralized Exchanges](decentralized-exchanges/what-are-decentralized-exchanges.md) allow for the trading of crypto assets without the need for a trusted central authority. This cuts down on the risk of exchange hacks and many other risks. There are many types of decentralized exchanges and it's important to understand the differences.
 
