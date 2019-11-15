@@ -117,7 +117,7 @@ nav:
       - 'dydx': 'built-on-ethereum/open-finance/lending/dydx.md'
       - 'Expo': 'built-on-ethereum/open-finance/lending/expo.md'
       - 'bzx': 'built-on-ethereum/open-finance/lending/bzx.md'
-    - Securities:
+    - Tokenized Securities:
       - 'What are Tokenized Securities?': 'built-on-ethereum/open-finance/securities/what-are-tokenized-securities.md'
       - 'Abacus': 'built-on-ethereum/open-finance/securities/abacus.md'
       - 'Harbor': 'built-on-ethereum/open-finance/securities/harbor.md'
@@ -142,6 +142,9 @@ nav:
     - 'Torque': 'built-on-ethereum/open-finance/torque.md'
     - 'WBTC': 'built-on-ethereum/open-finance/wbtc.md'
     - 'Zerion': 'built-on-ethereum/open-finance/zerion.md'
+  - Oracles:
+    - 'What are Oracles?': 'docs/built-on-ethereum/oracles/what-are-oracles.md'
+    - 'Tellor': 'docs/built-on-ethereum/oracles/tellor.md'
   - Decentralized Exchanges:
     - 'What are Decentralized Exchanges?': 'built-on-ethereum/decentralized-exchanges/what-are-decentralized-exchanges.md'
     - Auction Based:
