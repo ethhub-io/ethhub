@@ -97,6 +97,7 @@ Phase 2 also introduces the concept of 'Execution Environments (EEs)'. EEs withi
 
 ## What's next ?
 The sharding roadmap according to the official wiki suggests 6 phases. Ethereum researcher Justin Drake strongly believes that the sharding Phase 1 and 2 will come in 2020 and 2021, respectively \(assuming that the Beacon Chain launches in early 2020\). <br/>
+
 From Phase 3 onwards any speculation made is subjected to change, you can go and check out the [wiki](https://github.com/ethereum/wiki/wiki/Sharding-roadmap#phase-3-light-client-state-protocol) for further phase's information.
 
 ## Resources
