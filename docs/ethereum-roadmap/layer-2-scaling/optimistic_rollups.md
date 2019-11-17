@@ -1,3 +1,7 @@
+title: Optimistic Rollups - EthHub
+
+description: Optimistic Rollups (ORs) are one type of layer 2 constructions that do not run on Ethereum's base layer but on top of it.
+
 # Optimistic Rollups
 
 ## Introduction
@@ -49,3 +53,4 @@ For Optimistic Rollups to work, we must assume that there exists a honest majori
 [Unipig](https://unipig.exchange)
 [Plasma group forum](https://plasma.group/)
 [ZK Rollups vs Optimistic Rollups](https://blog.idex.io/all-posts/rollup-rundown)
+[Optimistic vs. ZK Rollup: Deep Dive](https://medium.com/matter-labs/optimistic-vs-zk-rollup-deep-dive-ea141e71e075)
