@@ -38,7 +38,7 @@
     
     
       
-        <title>Payment Channels - EthHub</title>
+        <title>Optimistic Rollups - EthHub</title>
       
     
     
@@ -109,7 +109,7 @@
     <input class="md-toggle" data-md-toggle="search" type="checkbox" id="__search" autocomplete="off">
     <label class="md-overlay" data-md-component="overlay" for="__drawer"></label>
     
-      <a href="#payment-channels" tabindex="1" class="md-skip">
+      <a href="#optimistic-rollups" tabindex="1" class="md-skip">
         Skip to content
       </a>
     
@@ -135,7 +135,7 @@
                 EthHub
               </span>
               <span class="md-header-nav__topic">
-                Payment Channels
+                Optimistic Rollups
               </span>
             
           
@@ -923,63 +923,11 @@
           
           
 
-  
 
-
-  <li class="md-nav__item md-nav__item--active">
-    
-    <input class="md-toggle md-nav__toggle" data-md-toggle="toc" type="checkbox" id="__toc">
-    
-      
-    
-    
-      <label class="md-nav__link md-nav__link--active" for="__toc">
-        Payment Channels
-      </label>
-    
-    <a href="./" title="Payment Channels" class="md-nav__link md-nav__link--active">
+  <li class="md-nav__item">
+    <a href="../payment-channels/" title="Payment Channels" class="md-nav__link">
       Payment Channels
     </a>
-    
-      
-<nav class="md-nav md-nav--secondary">
-  
-  
-    
-  
-  
-    <label class="md-nav__title" for="__toc">Table of contents</label>
-    <ul class="md-nav__list" data-md-scrollfix>
-      
-        <li class="md-nav__item">
-  <a href="#summary" title="Summary" class="md-nav__link">
-    Summary
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#the-raiden-network" title="The Raiden Network" class="md-nav__link">
-    The Raiden Network
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#resources" title="Resources" class="md-nav__link">
-    Resources
-  </a>
-  
-</li>
-      
-      
-      
-      
-      
-    </ul>
-  
-</nav>
-    
   </li>
 
         
@@ -1011,11 +959,91 @@
           
           
 
+  
 
-  <li class="md-nav__item">
-    <a href="../optimistic_rollups/" title="Optimistic Rollups" class="md-nav__link">
+
+  <li class="md-nav__item md-nav__item--active">
+    
+    <input class="md-toggle md-nav__toggle" data-md-toggle="toc" type="checkbox" id="__toc">
+    
+      
+    
+    
+      <label class="md-nav__link md-nav__link--active" for="__toc">
+        Optimistic Rollups
+      </label>
+    
+    <a href="./" title="Optimistic Rollups" class="md-nav__link md-nav__link--active">
       Optimistic Rollups
     </a>
+    
+      
+<nav class="md-nav md-nav--secondary">
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">Table of contents</label>
+    <ul class="md-nav__list" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#introduction" title="Introduction" class="md-nav__link">
+    Introduction
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#a-simple-overview" title="A Simple Overview" class="md-nav__link">
+    A Simple Overview
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#user-experience" title="User Experience" class="md-nav__link">
+    User Experience
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#proscons" title="Pros/Cons" class="md-nav__link">
+    Pros/Cons
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#demo" title="Demo" class="md-nav__link">
+    Demo
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#security-overview" title="Security Overview" class="md-nav__link">
+    Security Overview
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#resources" title="Resources" class="md-nav__link">
+    Resources
+  </a>
+  
+</li>
+      
+      
+      
+      
+      
+    </ul>
+  
+</nav>
+    
   </li>
 
         
@@ -4242,15 +4270,43 @@
     <ul class="md-nav__list" data-md-scrollfix>
       
         <li class="md-nav__item">
-  <a href="#summary" title="Summary" class="md-nav__link">
-    Summary
+  <a href="#introduction" title="Introduction" class="md-nav__link">
+    Introduction
   </a>
   
 </li>
       
         <li class="md-nav__item">
-  <a href="#the-raiden-network" title="The Raiden Network" class="md-nav__link">
-    The Raiden Network
+  <a href="#a-simple-overview" title="A Simple Overview" class="md-nav__link">
+    A Simple Overview
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#user-experience" title="User Experience" class="md-nav__link">
+    User Experience
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#proscons" title="Pros/Cons" class="md-nav__link">
+    Pros/Cons
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#demo" title="Demo" class="md-nav__link">
+    Demo
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#security-overview" title="Security Overview" class="md-nav__link">
+    Security Overview
   </a>
   
 </li>
@@ -4278,22 +4334,57 @@
             <article class="md-content__inner md-typeset">
               
                 
-                  <a href="https://github.com/ethhub-io/ethhub/edit/master/docs/ethereum-roadmap/layer-2-scaling/payment-channels.md" title="Edit this page" class="md-icon md-content__icon">&#xE3C9;</a>
+                  <a href="https://github.com/ethhub-io/ethhub/edit/master/docs/ethereum-roadmap/layer-2-scaling/optimistic_rollups.md" title="Edit this page" class="md-icon md-content__icon">&#xE3C9;</a>
                 
                 
-                <h1 id="payment-channels">Payment Channels</h1>
-<h2 id="summary">Summary</h2>
-<p>Payment Channels are one implementation of State Channel technology. Payment channels allow for practically unlimited, bidirectional transfers between two participants, as long as the net sum of their transfers does not exceed the deposited tokens. These transfers can be performed instantaneously and without any involvement of the actual blockchain itself, except for an initial one-time on-chain creation and an eventual closing of the channel.</p>
-<h2 id="the-raiden-network">The Raiden Network</h2>
-<p>The Raiden Network is an off-chain scaling solution for performing ERC20-compliant token transfers on the Ethereum blockchain. It is Ethereum's version of Bitcoin's Lightning Network, enabling near-instant, low-fee, scalable, and privacy-preserving payments.</p>
-<p>The Raiden Network allows secure transfers of tokens between participants without the need for global consensus. This is achieved using digitally signed and hash-locked transfers, called balance proofs, fully collateralized by previously setup on-chain deposits. This concept, illustrated below, is known as payment channel technology.</p>
-<p><img alt="" src="/assets/images/payment_chans.png" /></p>
-<p>The true strength of Raiden lies in its network protocol. Since opening and closing a payment channel between two peers still requires on-chain transactions, creating channels between all possible peers becomes infeasible. As it turns out, however, you do not need a direct payment channel between a payer and a payee if there exists at least one route through a network of channels that connects the two parties, as shown in figure 2. This network and its associated protocol for routing and interlocking channel transfers is called the Raiden Network.</p>
-<p>In addition, payment channel transfers, in contrast to on-chain transactions, do not require any fees. Intermediaries within the greater network, however, will want to charge fees on a low percentage basis for providing their own channels to the network, leading to complex routing and a competitive channel fee market. The Raiden protocol aims to facilitate this market by using both protocol-level features and optional auxiliary services.</p>
+                <h1 id="optimistic-rollups">Optimistic Rollups</h1>
+<h2 id="introduction">Introduction</h2>
+<p>Optimistic Rollups (ORs) are one type of layer 2 constructions that do not run on Ethereum's base layer but on top of it. This enables running smart contracts at scale while still being secured by Ethereum. These constructions resemble Plasma, but trade the almost infinite scalability of Plasma to run an EVM compatible Virtual Machine called OVM (Optimistic Virtual Machine) which enables ORs to run anything Ethereum can.</p>
+<p>The name Optimistic Rollups originates from how the solution works. 'Optimistic' is used because aggregators publish only the bare minimum information needed with no proofs, assuming the aggregators run without commiting frauds, and only providing proofs in case of fraud. 'Rollups' is used because transactions are commited to main chain in bundles (that is, they are rolled-up).</p>
+<h2 id="a-simple-overview">A Simple Overview</h2>
+<p>Much like most Layer-2 solutions, the funds transacted on Optimistic Rollups are stored in a smart-contract on Ethereum, where users deposit funds, aggregators sign up and fraud proofs are commited. The usual process one can interact with such solutions are as follows:</p>
+<ol>
+<li>
+<p>A user sends a deploy transaction of a smart contract off-chain to an aggregator (a block producer in this construction)</p>
+</li>
+<li>
+<p>An aggregator locally deploys the transaction creating the new smart contract</p>
+</li>
+<li>
+<p>That aggregator computes the new state root (aka a merkle root)</p>
+</li>
+<li>
+<p>That aggregator creates an Ethereum transaction which contains that state root calculated in step 3</p>
+</li>
+<li>
+<p>Any user that sees an aggregator deploying an invalid state root (a state root created by including invalid transactions) can challenge that aggregator by posting the valid state root along with the merkle proofs required to prove it, slashing (removing a portion of the bond) and the aggregator that commited such fraud and any that built blocks on top of the fraudulent one and claiming those rewards.</p>
+</li>
+<li>
+<p>After an invalid block has been commited and a fraud proof is finalized, the chain in layer 2 can be rolled back and resume from the previous non-fraudelent block.</p>
+</li>
+</ol>
+<p>Note: Anyone can become an aggregator as long as they lock a bond in the smart contract.</p>
+<p>Note 2: The front-running problem associated with step 5 can be solved by numerous methods, such as by using [submarine sends(https://libsubmarine.org/).</p>
+<h2 id="user-experience">User Experience</h2>
+<p>Any user that uses a Dapp that is deployed to a layer 2 with an Optimistic Rollup construction can enjoy economic abstraction (eg: fee-free transactions, pay with ERC-20, etc.) and quasi-instant transactions (transactions in the ball-park of 200ms, don't blink or you'll miss it!).</p>
+<h2 id="proscons">Pros/Cons</h2>
+<p>Pros:
+ * Flexibility in generalized Computation (Turing-complete / EVM compatible)
+ * Increase in scalability (200 to 2000 transactions-per-second (tps) vs Ethereum layer 1's current 10 tps)
+ * All Data is available on-chain (no need to trust off-chain data providers)
+ * Better UX (as explained above)</p>
+<p>Cons:
+ * Limited Throughput when compared with some other Layer 2 solutions (Plasma, ZK Rollups, etc.)
+ * Some additional security issues are raised (discussed below)</p>
+<h2 id="demo">Demo</h2>
+<p>A Uniswap-like exchange called Unipig was developed by both Uniswap and Plasma Group teams as a Proof of Concept application and demonstrated at Devcon5, which you can try for free at <a href="unipig.exchange">unipig.exchange</a>.</p>
+<h2 id="security-overview">Security Overview</h2>
+<p>For Optimistic Rollups to work, we must assume that there exists a honest majority of Ethereum validators (miners in Eth1, stakers in Eth2), and that there is at least one aggregator that is not censoring transactions.</p>
 <h2 id="resources">Resources</h2>
-<ul>
-<li><a href="https://raiden.network/101.html">Raiden Network</a></li>
-</ul>
+<p><a href="https://unipig.exchange">Unipig</a>
+<a href="https://plasma.group/">Plasma group forum</a>
+<a href="https://blog.idex.io/all-posts/rollup-rundown">ZK Rollups vs Optimistic Rollups</a>
+<a href="https://medium.com/matter-labs/optimistic-vs-zk-rollup-deep-dive-ea141e71e075">Optimistic vs. ZK Rollup: Deep Dive</a></p>
                 
                   
                 
@@ -4314,7 +4405,7 @@
     <div class="md-footer-nav">
       <nav class="md-footer-nav__inner md-grid">
         
-          <a href="../state-channels/" title="State Channels" class="md-flex md-footer-nav__link md-footer-nav__link--prev" rel="prev">
+          <a href="../commit-chains/" title="Commit-Chains" class="md-flex md-footer-nav__link md-footer-nav__link--prev" rel="prev">
             <div class="md-flex__cell md-flex__cell--shrink">
               <i class="md-icon md-icon--arrow-back md-footer-nav__button"></i>
             </div>
@@ -4323,19 +4414,19 @@
                 <span class="md-footer-nav__direction">
                   Previous
                 </span>
-                State Channels
+                Commit-Chains
               </span>
             </div>
           </a>
         
         
-          <a href="../zk-starks/" title="ZK-STARKs" class="md-flex md-footer-nav__link md-footer-nav__link--next" rel="next">
+          <a href="../../ethereum-1.x/" title="Ethereum 1.x" class="md-flex md-footer-nav__link md-footer-nav__link--next" rel="next">
             <div class="md-flex__cell md-flex__cell--stretch md-footer-nav__title">
               <span class="md-flex__ellipsis">
                 <span class="md-footer-nav__direction">
                   Next
                 </span>
-                ZK-STARKs
+                Ethereum 1.x
               </span>
             </div>
             <div class="md-flex__cell md-flex__cell--shrink">
