@@ -33,14 +33,14 @@ Any user that uses a Dapp that is deployed to a layer 2 with an Optimistic Rollu
 
 ## Pros/Cons
 Pros:
- * Flexibility in generalized Computation (Turing-complete / EVM compatible)
- * Increase in scalability (200 to 2000 transactions-per-second (tps) vs Ethereum layer 1's current 10 tps)
- * All Data is available on-chain (no need to trust off-chain data providers)
- * Better UX (as explained above)
+* Flexibility in generalized Computation (Turing-complete / EVM compatible)
+* Increase in scalability (200 to 2000 transactions-per-second (tps) vs Ethereum layer 1's current 10 tps)
+* All Data is available on-chain (no need to trust off-chain data providers)
+* Better UX (as explained above)
 
 Cons:
- * Limited Throughput when compared with some other Layer 2 solutions (Plasma, ZK Rollups, etc.)
- * Some additional security issues are raised (discussed below)
+* Limited Throughput when compared with some other Layer 2 solutions (Plasma, ZK Rollups, etc.)
+* Some additional security issues are raised (discussed below)
 
 ## Demo
 A Uniswap-like exchange called Unipig was developed by both Uniswap and Plasma Group teams as a Proof of Concept application and demonstrated at Devcon5, which you can try for free at [unipig.exchange](unipig.exchange).
