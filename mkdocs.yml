@@ -78,6 +78,7 @@ nav:
       - 'Payment Channels': 'ethereum-roadmap/layer-2-scaling/payment-channels.md'
       - 'ZK-STARKs': 'ethereum-roadmap/layer-2-scaling/zk-starks.md'
       - 'Commit-Chains': 'ethereum-roadmap/layer-2-scaling/commit-chains.md'
+      - 'Optimistic Rollups': 'ethereum-roadmap/layer-2-scaling/optimistic_rollups.md'
   - 'Ethereum 1.x': 'ethereum-roadmap/ethereum-1.x.md'
   - 'Privacy': 'ethereum-roadmap/privacy.md'
   - 'Istanbul': 'ethereum-roadmap/istanbul.md'
