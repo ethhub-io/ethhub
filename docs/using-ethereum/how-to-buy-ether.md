@@ -31,7 +31,7 @@ Dether is a global, p2p marketplace for buying and selling ETH in person with ca
 
 [Buy ETH on Dether](https://dether.io)
 
-## LocalEthereum
-LocalEthereum is a global, p2p marketplace for buying and selling ETH. Over 30 payment methods are supported including in-person cash trades.
+## LocalCryptos
+LocalCryptos is a global, p2p marketplace for buying and selling ETH. Over 30 payment methods are supported including in-person cash trades.
 
-[Buy ETH on LocalEthereum](https://localethereum.com/)
+[Buy ETH on LocalCryptos](https://localcryptos.com/)
