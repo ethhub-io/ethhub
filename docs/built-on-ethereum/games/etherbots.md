@@ -18,11 +18,11 @@ While [Gods Unchained](https://docs.ethhub.io/built-on-ethereum/games/gods-uncha
 
 ## Gods Unchained crossover
 
-[Gods Unchained](https://docs.ethhub.io/built-on-ethereum/games/gods-unchained) is a trading card game also created by the FeulGames team. The team showed another innovation on the blockchain by bringing the game assets from Etherbots into Gods Unchained to be limited edition cards for those players.
+[Gods Unchained](https://docs.ethhub.io/built-on-ethereum/games/gods-unchained) is a trading card game also created by the Immutable team. The team showed another innovation on the blockchain by bringing the game assets from Etherbots into Gods Unchained to be limited edition cards for those players.
 
 ## Resources
 
  * [Website](https://etherbots.io/)
  * [Etherbots Sales](https://etherbot-sales.herokuapp.com)
  * [User & Parts Leaderboard](https://docs.google.com/spreadsheets/d/1vjhPSC4BsVBu-WOt_5KMVg3v_3AlpJ2RGwupB7PvCmM/edit#gid=653974819) \(Google Docs\)
- * [FuelGames Website](https://www.fuelgames.io/)
+ * [Immutable Website](https://www.immutable.com/)
