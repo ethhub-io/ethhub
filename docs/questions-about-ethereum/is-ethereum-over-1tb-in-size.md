@@ -6,7 +6,7 @@ description: No, the Ethereum blockchain size has not exceeded 1TB in size.
 
 ## Answer
 
-No. Please check [here](https://www.nodestats.org/) for the latest size.
+No. Please check [here](https://etherscan.io/chartsync/chaindefault) for the latest size.
 
 ## Explanation
 
