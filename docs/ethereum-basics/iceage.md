@@ -18,10 +18,12 @@ The Diffuculty Bomb was originally put in place for a variety of reasons:
 
 ## Is the Difficulty Bomb Still Necessary?
 
-There is an open debate as to whether the Difficulty Bomb is still required as Ethereum 2.0 is now being deployed as a seperate blockchain (instead of a direct upgrade to the Ethereum 1.0 chain) and the bomb has been delayed without any fanfare in every network upgrade since
+There is an open debate as to whether the Difficulty Bomb is still required as Ethereum 2.0 is now being deployed as a seperate blockchain (instead of a direct upgrade to the Ethereum 1.0 chain) and the bomb has been delayed without any fanfare in both the Byzantine and Constantinople network upgrades.
 
 ## Timeline
 
 The effect of the Diffuclty Bomb is easily seen in the 'Ethereum Block Time History' chart from [Etherscan](https://etherscan.io/chart/blocktime) (you'll notice that it is a step-function that increases block times the longer that it exists on the chain.
+
+![](/assets/images/blocktimes.PNG)
 
 ## Resources
