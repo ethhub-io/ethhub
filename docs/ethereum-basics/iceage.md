@@ -22,8 +22,8 @@ There is an open debate as to whether the Difficulty Bomb is still required as E
 
 ## Timeline
 
-The effect of the Diffuclty Bomb is easily seen in the 'Ethereum Block Time History' chart from [Etherscan](https://etherscan.io/chart/blocktime) (you'll notice that it is a step-function that increases block times the longer that it exists on the chain.
+The effect of the Difficulty Bomb is easily seen in the 'Ethereum Block Time History' chart from [Etherscan](https://etherscan.io/chart/blocktime) (you'll notice that it is a step-function that increases block times the longer that it exists on the chain).
 
-![](/assets/images/blocktimes.PNG)
+<img src="https://i.imgur.com/ac1xV3l.png" alt="ethereum block times" width="900" />
 
 ## Resources
