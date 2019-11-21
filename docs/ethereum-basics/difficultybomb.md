@@ -14,7 +14,6 @@ The Difficulty Bomb was originally put in place for a variety of reasons:
 
 * To act as a deterrant for miners who wish to continue mining the Ethereum 1.0 (Proof of Work) chain once the network moved fully to the Ethereum 2.0 (Proof of Stake) chain
 * To ensure that the core developers of Ethereum 1.0 are "forced" to upgrade the network via a hard fork (if only to delay the effects of the bomb) so that the network does not stagnate innovation-wise
-* 
 
 ## Technical Details of the Difficulty Bomb
 
