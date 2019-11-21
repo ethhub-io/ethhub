@@ -1,4 +1,4 @@
-title: Ethereum Diffculty Bomb (Ice Age) - EthHub
+title: Ethereum Difficulty Bomb (Ice Age) - EthHub
 
 description: Ethereum's "Difficulty Bomb" refers to a mechanism that, at a predefined block number, increases the difficulty level of puzzles in the Proof of Work mining algorithm.
 
