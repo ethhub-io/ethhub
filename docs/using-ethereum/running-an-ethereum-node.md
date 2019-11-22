@@ -15,9 +15,9 @@ Below are the different types of nodes a user can run, their settings, and what 
 
 ## Full nodes
 
-A full node: 
+A full node:
 
-* Stores the full blockchain data available on disk and can serve the network with any data on request. 
+* Stores the full blockchain data available on disk and can serve the network with any data on request.
 * Receives new transactions and blocks while participating in block validation.
 * Verifies all blocks and states.
 * Stores recent state only for more efficient initial sync.
@@ -56,10 +56,10 @@ Both geth full and parity no-warp are to be considered a full Ethereum node beca
 
 ## Light nodes
 
-A light node: 
-	
+A light node:
+
 * Stores the header chain and requests everything else on demand.
-* Can verify the validity of the data against the state roots in the block headers. 
+* Can verify the validity of the data against the state roots in the block headers.
 
 Light nodes are useful for low capacity devices, such as embedded devices or mobile phones, which can't afford to store multiple dozen Gigabytes of blockchain data.
 
@@ -81,7 +81,7 @@ Same as --light but syncs from genesis block.
 
 1. Download [homebrew](https://brew.sh) (you will have to go through apple dev terms first)
 
-2. Find and open the application Terminal (utilties/terminal) 
+2. Find and open the application Terminal (utilties/terminal)
 
 3. Enter the following commands one by one into the Terminal:
 
@@ -143,3 +143,4 @@ Warning: never plug into your LAN anything you cannot thoroughly inspect and ver
 * [Run an Ethereum Node on Debian](https://medium.com/better-programming/run-an-ethereum-node-on-linux-late-2019-b37a1d35800e)
 * [Dispelling Myths About Ethereum's Disk Space](https://www.tokendaily.co/blog/dispelling-myths-about-ethereum-s-disk-space)
 * [What Comprises an Ethereum Fullnode Implementation?](https://medium.com/amentum/what-comprises-an-ethereum-fullnode-implementation-a9113ce3fe3a)
+* [Running an Ethereum Full Node on a RaspberryPi 4](https://kauri.io/article/9695fcca217f46feb355245275835fc0)
