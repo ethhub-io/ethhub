@@ -4,7 +4,7 @@ description: A description of Ethereum’s monetary (issuance) policy in the pas
 
 # Monetary Policy
 
-### Summary: Minimum Necessary Issuance
+## Summary: Minimum Necessary Issuance
 
 Ethereum's Monetary Policy is defined by the rewards that are paid out by the protocol at any given time. Ethereum's current yearly network issuance is approximately 4.5% with 2 Ether per block and an additional 1.75 Ether per uncle block \(plus fees\) being rewarded to miners.
 
@@ -21,7 +21,7 @@ Ethereum's minimum necessary issuance policy is enforced by a wide range of stak
 
 As Ethereum is a decentralized network, the Monetary Policy cannot be successfully modified unless there is overwhelming consensus from the aforementioned stakeholders. Ethereum follows an [off-chain governance](governance.md) process meaning that any and all decisions on changes to the network happen extra-protocol.
 
-That said, due to natural incentives Ether's issuance is unlikely to ever increase unless the security of the network is at risk. And the upcoming Ethereum 2.0 proof-of-stake transition will progressively allow for a drastic reduction of Ether issuance while maintaining the same level of network security.
+That said, due to natural incentives, Ether's issuance is unlikely to ever increase unless the security of the network is at risk. Additionally, the upcoming Ethereum 2.0 proof-of-stake transition will progressively allow for a drastic reduction of Ether issuance while maintaining the same level of network security.
 
 ## Important Events
 
@@ -67,3 +67,5 @@ There are two majors upcoming factors when it comes to Ethereum's issuance rate 
 
 ![](/assets/images/issuance_graph.png)
 
+## Resources
+* [Ethereum issuance reduction process explained](https://twitter.com/sassal0x/status/1086023932514189312)
