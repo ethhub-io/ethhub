@@ -25,3 +25,4 @@ Istanbul includes 6 Ethereum Improvement Proposals (EIPs):
 * [Official Ethereum Foundation Blog Post](https://blog.ethereum.org/2019/11/20/ethereum-istanbul-upgrade-announcement/)
 * [Istanbul Eth Wiki](https://eth.wiki/en/roadmap/istanbul)
 * [Everything You Need to Know About The Istanbul Hard Fork](https://consensys.net/blog/news/everything-you-need-to-know-about-the-istanbul-hard-fork/)
+* [Istanbul Hardfork - ELI5 Edition](https://old.reddit.com/r/ethfinance/comments/dzdhbe/istanbul_hardfork_eli5_edition/)
