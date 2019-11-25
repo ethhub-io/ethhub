@@ -37,7 +37,7 @@ google_analytics:
 nav:
 - Home: 'index.md'
 - Docs: 'ethereum-basics/what-is-ethereum.md'
-- Podcast: 'https://ethhub.substack.com/'
+- Podcast: 'https://podcast.ethhub.io'
 - Newsletter: 'https://ethhub.substack.com/'
 - Shop: 'https://shop.ethhub.io'
 - Ethereum Basics:
