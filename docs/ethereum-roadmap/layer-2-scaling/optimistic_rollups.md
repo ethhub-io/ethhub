@@ -26,7 +26,7 @@ Much like most Layer-2 solutions, the funds transacted on Optimistic Rollups are
 
 Note: Anyone can become an aggregator as long as they lock a bond in the smart contract.
 
-Note 2: The front-running problem associated with step 5 can be solved by numerous methods, such as by using [submarine sends(https://libsubmarine.org/).
+Note 2: The front-running problem associated with step 5 can be solved by numerous methods, such as by using [submarine sends](https://libsubmarine.org/).
 
 ## User Experience
 Any user that uses a Dapp that is deployed to a layer 2 with an Optimistic Rollup construction can enjoy economic abstraction (eg: fee-free transactions, pay with ERC-20, etc.) and quasi-instant transactions (transactions in the ball-park of 200ms, don't blink or you'll miss it!).
