@@ -4840,7 +4840,7 @@
                 <h1 id="ethereum-1x">Ethereum 1.x</h1>
 <h2 id="summary">Summary</h2>
 <p>Ethereum 1.x is a codename for a comprehensive set of upgrades to the Ethereum mainnet intended for near-term adoption. <br/>
-Ethereum 2.0 (Serenity) won't be fully rolled out for another 2-3 years with Phase 0 and Phase 1 due within 1-2 and Phase 2 due sometime in 2022. Ethereum 2.0 is being deployed as a seperate blockchain so it does not supersede ETH 1.0 which means the chain needs to be sustainable for another 5-10 years.</p>
+Ethereum 2.0 (Serenity) won't be fully rolled out for another 2-3 years with Phase 0 and Phase 1 due within 1-2 and Phase 2 due sometime in 2022. Ethereum 2.0 is being deployed as a separate blockchain so it does not supersede ETH 1.0 which means the chain needs to be sustainable for another 5-10 years.</p>
 <p>Eth1.x is a result of a group of Ethereum core developers and friends discussing the current challenges of Ethereum at Devcon IV and realising that they all share a similar view - that the Ethereum mainnet, if left unchanged, would become very hard or impossible to use due to severe performance degradation and increased storage requirements.</p>
 <ul>
 <li>Performance degradation mostly due to the large (and increasing) state size.</li>
@@ -4979,7 +4979,7 @@ Storage Pruning is necessary and seeks to place a cap on Ethereum's data storage
 <h5 id="maintain-the-header-chain-indefinitely">Maintain the header chain indefinitely</h5>
 <p>It solve all of the issues that the Merkle proof mechanism has, you can always fast sync based on the header chain with only the genesis. The downside is that opposed to the Merkle proof, which is 32 bytes for arbitrary history, keeping the headers available indefinitely means indefinite chain growth.</p>
 <h4 id="garbage-collection">Garbage Collection</h4>
-<p>If we agree on an N month/block retention policy, whenever the chain progresses, each client would delete bodies and receipts older than HEAD-N. This has an implication on the RPC APIs too however. We need to introduce the concept of a "vitual genesis block" (open for better names) which define the point of history before which the APIs cannot return data (or return that they don't maintain it any more).</p>
+<p>If we agree on an N month/block retention policy, whenever the chain progresses, each client would delete bodies and receipts older than HEAD-N. This has an implication on the RPC APIs too however. We need to introduce the concept of a "virtual genesis block" (open for better names) which define the point of history before which the APIs cannot return data (or return that they don't maintain it any more).</p>
 <h4 id="blockreceipt-archives">Block/Receipt Archives</h4>
 <p>Archiving historical chain segments so they remain available for later reconstruction if need be is the hardest part of this proposal. So where to store these archives, internally or externally:</p>
 <ul>
@@ -4992,7 +4992,7 @@ Storage Pruning is necessary and seeks to place a cap on Ethereum's data storage
 </ul>
 <p>Since the whole point of Ethereum is decentralization, the only option we have is intra-protocol. However there are many methods by which we can store the archives in a decentralized way. Some of them are listed here:</p>
 <ul>
-<li><a href="https://ethswarm.org/">Swarm</a> (but not production ready)</li>
+<li><a href="https://swarm.ethereum.org/">Swarm</a> (but not production ready)</li>
 <li><a href="https://ipfs.io/">IPFS</a> (accessing is easy, hosting is hard)</li>
 <li><a href="https://www.bittorrent.com/">BitTorrent</a></li>
 <li>LES/PIP</li>
@@ -5034,7 +5034,7 @@ Storage Pruning is necessary and seeks to place a cap on Ethereum's data storage
  (b) Assume bandwidth limit results in many uncles</li>
 </ul>
 <p><strong>Dataset Preparation</strong></p>
-<p>Datasets are being collected <a href="https://drive.google.com/drive/folders/1cJRMKxhGBzXMxNBcPi011Mg5e2Dw1JU1">here</a> from various sources like <a href="https://whiteblock.io/">WhiteBlock</a>, <a href="https://whiteblock.io/">etherscan</a> etc.</p>
+<p>Datasets are being collected <a href="https://drive.google.com/drive/folders/1cJRMKxhGBzXMxNBcPi011Mg5e2Dw1JU1">here</a> from various sources like <a href="https://whiteblock.io/">WhiteBlock</a>, <a href="https://etherscan.io/">Etherscan</a> etc.</p>
 <h4 id="resources_3">Resources</h4>
 <p><a href="https://docs.google.com/document/d/1pIW6Uac5Qanx_L5Y_G4Ucrx_gjITkBgzQKmlBQbW3Cg/edit">Simulation Proposal</a></p>
 <h2 id="deliverables">Deliverables</h2>
