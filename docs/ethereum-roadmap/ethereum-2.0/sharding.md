@@ -54,7 +54,7 @@ Note that there are now several "levels" of nodes that can exist in such a syste
 
 ## Resources
 
-* [Sharding FAQ](https://github.com/ethereum/wiki/wiki/Sharding-FAQs)
+* [Sharding FAQ](https://github.com/ethereum/wiki/wiki/Sharding-FAQ)
 * [Sharding Roadmap](https://github.com/ethereum/wiki/wiki/Sharding-roadmap)
 * [DCS Triangle](https://blog.bigchaindb.com/the-dcs-triangle-5ce0e9e0f1dc)
 
