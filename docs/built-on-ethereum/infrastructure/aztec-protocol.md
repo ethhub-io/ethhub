@@ -1,4 +1,4 @@
-title: 0xcert - EthHub
+title: Aztec Protocol - EthHub
 
 description: The AZTEC protocol is a second-layer solutions that uses zero-knowledge proofs to enable confidential transactions for any asset on Ethereum.
 
