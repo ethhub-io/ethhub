@@ -1,4 +1,4 @@
-title: Golem - EthHub
+title: POA Network - EthHub
 
 description: POA Network is a transparent network of public validators to govern its network. Its Ethereum side-chain has a bridge for Dai, named xDai.
 
@@ -28,7 +28,7 @@ Developer Austin Griffith built an easy burner wallet that uses POA's xDai chain
 * Github: [https://github.com/poanetwork/](https://github.com/poanetwork/)
 * Governance: [https://poa.network/governance](https://poa.network/governance)
 * Validators: [https://validators.poa.network/](https://validators.poa.network/)
-* xDai Chain: [https://poa.network/xdai](https://poa.network/xdai)
+* xDai Chain: [https://www.xdaichain.com/](https://www.xdaichain.com/)
 * Burner Wallet github: [https://github.com/austintgriffith/burner-wallet/](https://github.com/austintgriffith/burner-wallet/)
 * Burner Wallet app: [https://xdai.io/](https://xdai.io/)
 * Token Bridge github: [https://github.com/poanetwork/token-bridge](https://github.com/poanetwork/token-bridge)
