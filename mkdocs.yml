@@ -254,6 +254,7 @@ nav:
     - 'POA Network': 'built-on-ethereum/infrastructure/poa-network.md'
     - 'Streamr': 'built-on-ethereum/infrastructure/streamr.md'
     - 'ethPM': 'built-on-ethereum/infrastructure/ethpm.md'
+    - 'dfuse': 'built-on-ethereum/infrastructure/dfuse.md'
   - Token Curated Registries:
     - 'What are TCRs': 'built-on-ethereum/tcrs/what-are-tcrs.md'
     - 'Types of TCRs': 'built-on-ethereum/tcrs/types-of-tcrs.md'
