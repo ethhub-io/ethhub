@@ -16,5 +16,6 @@ There are currently nine independent development teams building Ethereum 2.0 cli
 | [Sigma Prime](lighthouse.md) | Lighthouse | Rust | $485k - EF Co-funded ETH2 Grant <br/> $150k - EF Grant Wave 4 <br/> $100k - Vitalik YOLO fund <br/> Funded by Sigma Prime <br/> Funded via [Gitcoin grant](https://gitcoin.co/grants/25/lighthouse-ethereum-20-client) |
 | [Status](nimbus.md) | Nimbus | Nim | $650K - EF Co-funded ETH2 Grant <br/> $500k - EF Grant Wave 4 |
 | [Ethereum Foundation](trinity.md) | Trinity | Python | $80k - EF Funding |
+| [Nethermind](nethermind.md) | Cortex | .NET | EF Grant |
 | [Yeeth](yeeth.md) | Yeeth | Swift | Funded via [Gitcoin Grant](https://gitcoin.co/grants/41/yeeth) |
 
