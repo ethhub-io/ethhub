@@ -71,6 +71,7 @@ nav:
         - 'Prysm': 'ethereum-roadmap/ethereum-2.0/eth2.0-teams/prysm.md'
         - 'Shasper': 'ethereum-roadmap/ethereum-2.0/eth2.0-teams/shasper.md'
         - 'Trinity': 'ethereum-roadmap/ethereum-2.0/eth2.0-teams/trinity.md'
+        - 'Nethermind': 'ethereum-roadmap/ethereum-2.0/eth2.0-teams/nethermind.md'
         - 'Yeeth': 'ethereum-roadmap/ethereum-2.0/eth2.0-teams/yeeth.md'
   - Layer 2 Scaling:
       - 'Plasma': 'ethereum-roadmap/layer-2-scaling/plasma.md'
