@@ -10,7 +10,7 @@ Ethereum Client built on .NET Core, perfect for enterprise-grade systems and ben
 
 ## Requirements
 
-https://nethermind.readthedocs.io/en/latest/hardware_requirements.html
+[Hardware Requirements](https://nethermind.readthedocs.io/en/latest/hardware_requirements.html)
 
 
 ## Setup
