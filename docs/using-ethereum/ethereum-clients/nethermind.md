@@ -35,6 +35,8 @@ This is the actual client binary similar to the `geth` binary and supports both 
 
 By default Nethermind will use the binary's location as its home and will create keystore, database, etc in that home location. You can overwrite this behavior with a custom configuration file or via the command line options.
 
+`Nethermind.Runner --config <path_to_config>`
+
 ## Using
 
 Nethermind.Launcher can be used as a [CLI](https://nethermind.readthedocs.io/en/latest/cli.html) tool similar to that of the geth cli. If you have enabled WebSockets and/or [JSON RPC](https://nethermind.readthedocs.io/en/latest/jsonrpc.html) then most RPC endpoints have been implimented and can be accessed in the same manner as geth.
