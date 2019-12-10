@@ -87,6 +87,12 @@ nav:
   - 'Ethereum New User Guide': 'using-ethereum/ethereum-new-user-guide.md'
   - 'How to Buy Ether': 'using-ethereum/how-to-buy-ether.md'
   - 'Running an Ethereum Node': 'using-ethereum/running-an-ethereum-node.md'
+  - Ethereum Clients:
+    - 'Geth': 'using-ethereum/ethereum-clients/geth.md'
+    - 'Nethermind': 'using-ethereum/ethereum-clients/nethermind.md'
+    - 'Pantheon': 'using-ethereum/ethereum-clients/pantheon.md'
+    - 'Parity': 'using-ethereum/ethereum-clients/parity.md'
+    - 'Py-EVM (Trinity)': 'using-ethereum/ethereum-clients/py-evm.md'
   - 'Transactions': 'using-ethereum/transactions.md'
   - 'Mining': 'using-ethereum/mining.md'
   - 'Test Networks': 'using-ethereum/test-networks.md'
@@ -315,7 +321,3 @@ nav:
     - 'Stateless Clients': 'glossary/sideways-dictionary/stateless-clients.md'
     - 'Uncle Blocks': 'glossary/sideways-dictionary/uncle-blocks.md'
     - 'Wei': 'glossary/sideways-dictionary/wei.md'
-
-
-
-
