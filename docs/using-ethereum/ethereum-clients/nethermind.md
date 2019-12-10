@@ -10,7 +10,7 @@ Ethereum Client built on .NET Core, perfect for enterprise-grade systems and ben
 
 ## Requirements
 
-https://nethermind.readthedocs.io/en/latest/hardware_requirements.html
+[Hardware Requirements](https://nethermind.readthedocs.io/en/latest/hardware_requirements.html)
 
 
 ## Setup
@@ -34,6 +34,8 @@ Nethermind.Launcher is an interactive prompt that allows you to choose the netwo
 This is the actual client binary similar to the `geth` binary and supports both cli options or a JSON configuration file.
 
 By default Nethermind will use the binary's location as its home and will create keystore, database, etc in that home location. You can overwrite this behavior with a custom configuration file or via the command line options.
+
+`Nethermind.Runner --config <path_to_config>`
 
 ## Using
 
