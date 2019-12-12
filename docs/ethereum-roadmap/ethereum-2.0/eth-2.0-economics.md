@@ -94,3 +94,6 @@ Decentralized finance applications such as [Compound Finance](https://compound.f
 
 **Other Investment Vehicles**  
 More traditional investment alternatives such as bonds, certificates of deposit, savings account, etc. can be considered competition to staking as well. While not as directly influential to the decent as DeFi apps, they need to be considered.
+
+## Resources
+* [ETH2 Staking Calculator](https://docs.google.com/spreadsheets/d/15tmPOvOgi3wKxJw7KQJKoUe-uonbYR6HF7u83LR5Mj4/edit#gid=1446566120)
