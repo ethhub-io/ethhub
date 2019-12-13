@@ -14,5 +14,4 @@ Token holders, acting in their own self-interest, will produce a valuable list b
 
 ## Resources
 
-* [Introduction to Token Curated Registries](https://medium.com/@maxbronstein/introduction-to-token-curated-registries-e2699f2270cd)
-
+* [Token-Curated Registries 1.0](https://medium.com/@ilovebagels/token-curated-registries-1-0-61a232f8dac7)
