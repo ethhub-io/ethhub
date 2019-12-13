@@ -27,5 +27,5 @@ ConsenSys Labs incubates the best teams of Web3 across the globe, providing them
 
 ## Important Links
 
-* Website: [https://consensys.net/labs/](https://consensys.net/labs/)
+* Website: [https://labs.consensys.net/](https://labs.consensys.net/)
 
