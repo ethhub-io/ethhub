@@ -27,7 +27,7 @@ Light node:
 
 ## Setup
 
-* [Download parity from the official Github releases page](https://github.com/paritytech/parity-ethereum/releases/tag/v2.0.6)
+* [Download parity from the official Github releases page](https://github.com/paritytech/parity-ethereum/releases/)
 * If on Linux, make the parity binary executable with `chmod +x ./parity`
 
 For running a compiled binary downloaded from the official Github releases page, no system dependencies are required.
