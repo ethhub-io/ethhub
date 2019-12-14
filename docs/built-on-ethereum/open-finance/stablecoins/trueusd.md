@@ -10,5 +10,5 @@ TrueUSD \(TUSD\) is a stablecoin that you can redeem 1-for-1 for US dollars. TUS
 
 ## Resources
 
-* [Website](https://www.trusttoken.com/)
+* [Website](https://www.trusttoken.com/trueusd)
 
