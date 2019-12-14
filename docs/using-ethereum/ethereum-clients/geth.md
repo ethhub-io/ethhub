@@ -28,7 +28,7 @@ For light nodes, the requirements are much lower, as you will only be storing bl
 
 ## Setup
 
-* [Download Geth from the official page](https://ethereum.github.io/go-ethereum/downloads/)
+* [Download Geth from the official page](https://geth.ethereum.org/downloads/)
 * Extract the compressed archive with your tool of choice
 
 There are no system dependencies if using an officially released geth binary, which ships for most architectures and operating systems.
