@@ -27,12 +27,11 @@ Phone and other mobile device-based wallets are mobile alternatives to desktop a
 * [Coinbase Wallet](https://wallet.coinbase.com/)
 * [Cypher](https://www.cipherbrowser.com/) - Mobile Dapp explorer
 * [Eidoo](https://eidoo.io/) - Multicurrency and Multiplatform wallet with a DEX and a DeFI gateway
-* [eth-wallet-light](https://github.com/NoahHydro/eth-wallet-light) - Lightweight JS Wallet optimized for mobile
+* [eth-wallet-light](https://github.com/NoahZinsmeister/eth-wallet-light) - Lightweight JS Wallet optimized for mobile
 * [imToken](https://token.im/) - Feature-rich digital asset mobile wallet enabling multi-chain asset management, DApp browsing and secure, private exchange of value.
 * [Jaxx](https://jaxx.io) - Both a mobile and a desktop wallet. Has integrated Shapeshift support.
-* [Status](https://github.com/status-im/status-react) - A free open-source, mobile OS for Ethereum
-* [Trust](https://github.com/TrustWallet/trust-wallet-ios) - Mobile [wallet](https://trustwalletapp.com/) for ERC tokens
-* [Tokenary](https://tokenary.io/) — Native iOS wallet and DApp explorer and browser with cross-device synchronization and macOS support.
+* [Status](https://status.im/) - A free open-source, mobile OS for Ethereum
+* [Trust](https://trustwallet.com/) - Mobile wallet for ERC tokens
 * [WallETH](https://walleth.org) - Native Android Ethereum Wallet.
 
 ## Resources
