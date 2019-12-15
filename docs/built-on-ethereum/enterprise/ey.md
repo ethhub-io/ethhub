@@ -10,13 +10,13 @@ EY is a professional services firm that offers audit, accounting, legal, and bus
 
 The firm offers two main service platforms to it's clients:
 
-**EY OpsChain** is a middleware tool that is designed to connect enterprises to public and private blockchains for the purpose of enabling business transactions such as product traceablity, tokenization, sale and transfer of assets, enterprise procurement contracting, and other enterprise processes.
+**EY OpsChain** is a middleware tool that is designed to connect enterprises to public and private blockchains for the purpose of enabling business transactions such as product traceability, tokenization, sale and transfer of assets, enterprise procurement contracting, and other enterprise processes.
 
 **EY Blockchain Analyzer** is a SaaS analytics platform to help enterprise users and financial statement auditors understand the flow of business transactions on both public and private blockchains.  EY Blockchain Analyzer is used by EY audit teams in the preparation of financial statement audits and can also be used by individual clients for transaction analysis, tax liability calculation, blockchain analytics, and security testing.
 
-While EY Blockchain Analyzer supports multiple blockchain platforms, EY has chosen to focus its product and system development activities on the Ehtereum ecosystem with a particular focus on enabling secure transactions on the public Ethereum mainnet.
+While EY Blockchain Analyzer supports multiple blockchain platforms, EY has chosen to focus its product and system development activities on the Ethereum ecosystem with a particular focus on enabling secure transactions on the public Ethereum mainnet.
 
-EY is rolling out free software designed to help corporate clients use the ethereum blockchain. This software, named **Nightfall** has been made available in the public domain. The protocol is created for such use cases as supply chains, food tracing, transactions between branches of a company and public finance. It takes advantage of Zero Knowledge Proofs to allow private transactions on a shared ledger.
+EY is rolling out free software designed to help corporate clients use the Ethereum blockchain. This software, named **Nightfall** has been made available in the public domain. The protocol is created for such use cases as supply chains, food tracing, transactions between branches of a company and public finance. It takes advantage of Zero Knowledge Proofs to allow private transactions on a shared ledger.
 
 
 ## Resources
