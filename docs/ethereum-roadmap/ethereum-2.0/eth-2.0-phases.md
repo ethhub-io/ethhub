@@ -4,7 +4,7 @@ description: A guide to the phases and implementation plans of Ethereum 2.0, aka
 
 # Ethereum 2.0 Phases
 
-_As Ethereum 2.0 is in heavy research and development, this page may become outdated spontaneously. It is kept up to date on a best-effort basis._
+_As Ethereum 2.0 is in heavy research and development, this page may become outdated spontaneously. It is kept up to date on a best-effort basis. Last updated 16th of November, 2019._
 
 ## Introduction
 
