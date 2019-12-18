@@ -9,9 +9,9 @@ description: Ethereum offers tools which empower developers to create, test, and
 Ethereum offers tools which empower developers to build collaboratively and confidently. These tools enables businesses to create, test, and deploy  enterprise-grade blockchain solutions in a matter of minutes. Some of them are:
 
 * Blockchain for business platforms: [Kaleido](https://kaleido.io/), [Quorum](https://www.jpmorgan.com/global/Quorum), [Pantheon](https://pegasys.tech/)
-* Infrastructure and Ethereum API access: [Infura](https://infura.io/)
-* Wallet and identity platforms: [MetaMask](https://metamask.io/) and [uPort](https://www.uport.me/)
-* Developer tools, frameworks and testnets: [Truffle](https://truffleframework.com/) and [Rinkeby](https://www.rinkeby.io/)
+* Infrastructure and Ethereum API access: [Alchemy](https://alchemyapi.io/), [Infura](https://infura.io/)
+* Wallet and identity platforms: [Fortmatic](https://fortmatic.com/), [MetaMask](https://metamask.io/), [uPort](https://www.uport.me/)
+* Developer tools, frameworks and testnets: [Truffle](https://truffleframework.com/), [Rinkeby](https://www.rinkeby.io/)
 * Training resources: [ConsenSys Academy](https://consensys.net/academy/)
 
 For management and ongoing maintenance of Enterprise Ethereum solutions: Established support providers such as [ConsenSys Solutions](http://consensys.net/solutions/) and top-tier IT consulting firms exist in every market across the globe.<br/>
