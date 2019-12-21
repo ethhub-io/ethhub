@@ -12,4 +12,4 @@ Solidity has some limitations such as inability to use techniques like formal ve
 ## Resources
 
 * [https://medium.com/axoni/axlang-formally-verifiable-smart-contracts-for-the-ethereum-ecosystem-6201203be4e8](https://medium.com/axoni/axlang-formally-verifiable-smart-contracts-for-the-ethereum-ecosystem-6201203be4e8)
-* [https://axoni.com/axlang/](https://medium.com/axoni/axlang-formally-verifiable-smart-contracts-for-the-ethereum-ecosystem-6201203be4e8)
+* [https://axoni.com/axlang/](https://axoni.com/axlang/)
