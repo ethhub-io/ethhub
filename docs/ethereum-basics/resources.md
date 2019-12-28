@@ -177,6 +177,7 @@ description: A list of essential Ethereum resources.
 * [Web3 Foundation Wiki](https://wiki.web3.foundation/en/latest/)
 * [Zero-Knowledge Proofs Starter Pack](https://ethresear.ch/t/zero-knowledge-proofs-starter-pack/4519)
 * [Awesome Ethreum Virtual Machine](https://github.com/ethereum/wiki/wiki/Ethereum-Virtual-Machine-%28EVM%29-Awesome-List)
+* [Solidity and Vyper cheat sheet](https://reference.auditless.com/cheatsheet)
 
 ### Security
 
