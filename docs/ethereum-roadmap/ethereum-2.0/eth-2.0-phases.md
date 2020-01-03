@@ -79,7 +79,7 @@ The Eth1 and Eth2 chains will still operate in parallel after Phase 1.
 
 ### Important Considerations
 
-* In Phase 0, 1, and 2 the main PoW chain (Eth1) will remain live while testing and transitioning is happening on the Eth2 chain. This means that rewards will be paid to both Ethereum 2.0 validators as well as the normal PoW block rewards. Therefore, the combined inflation of the twp chains may spike initially but then start to trend towards the 0-1% range as the PoW chain is gradually de-emphasized.
+* In Phase 0, 1, and 2 the main PoW chain (Eth1) will remain live while testing and transitioning is happening on the Eth2 chain. This means that rewards will be paid to both Ethereum 2.0 validators as well as the normal PoW block rewards. Therefore, the combined inflation of the two chains may spike initially but then start to trend towards the 0-1% range as the PoW chain is gradually de-emphasized.
 
 ## Phase 2 - State Execution
 
