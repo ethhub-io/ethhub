@@ -33,7 +33,7 @@ Ether was not usable or transferable until the launch of the genesis block which
 | [Byzantium](https://blog.ethereum.org/2017/10/12/byzantium-hf-announcement/) | 4370000 | 2017-10-16 |
 | [Constantinople](https://github.com/ethereum/pm/wiki/Constantinople-Progress-Tracker) | 7280000 | 2019-02-28 |
 | [Istanbul](https://consensys.net/blog/news/everything-you-need-to-know-about-the-istanbul-hard-fork/) | 9069000 | 2019-12-06 |
-| [Muir Glacier](https://blog.ethereum.org/2019/12/23/ethereum-muir-glacier-upgrade-announcement/) | 9200000 | 2019-01-02 |
+| [Muir Glacier](https://blog.ethereum.org/2019/12/23/ethereum-muir-glacier-upgrade-announcement/) | 9200000 | 2020-01-02 |
 
 ## History Timeline
 
