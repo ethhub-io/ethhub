@@ -49,6 +49,7 @@ Vitalik Buterin created [a post](https://ethereum-magicians.org/t/meta-we-should
 
 ## Resources:
 
+* [Master ZKP Reading List](https://zkp.science/)
 * [Private DAI transactions on Ethereum using Zk-SNARKs](https://medium.com/@atvanguard/zkdai-private-dai-transactions-on-ethereum-using-zk-snarks-9e3ef4676e22)
 * [Explain Like I’m 5: Zero Knowledge Proof](https://hackernoon.com/eli5-zero-knowledge-proof-78a276db9eff)
 
