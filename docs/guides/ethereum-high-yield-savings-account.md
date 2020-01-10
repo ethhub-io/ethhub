@@ -6,11 +6,11 @@ description: Learn how to use Ethereum as a high yield savings account.
 
 The world of [decentralized finance](/built-on-ethereum/open-finance/what-is-open-finance.md) opens up unique financial opportunities on the Ethereum network.  Historically, the interest rates earned on stablecoin lending in Ethereum have had a large spread to what can be earned in the traditional finance sector, presenting a nice opportunity to earn extra yield on cash. This guide will show you how to earn high-yield interest on USD using the Ethereum blockchain.
 
-If you are brand new to Ethereum, we suggest first reading our [new user guide](using-ethereum/ethereum-new-user-guide.md).
+If you are brand new to Ethereum, we suggest first reading our [new user guide](../using-ethereum/ethereum-new-user-guide.md).
 
 ## 1. Acquire Stablecoins
 
-The key to this guide is understanding the concept of [stablecoins](built-on-ethereum/open-finance/stablecoins/what-are-stablecoins.md). These are 1:1 representations of USD on the Ethereum network, essentially digitalizing your dollar. In order to earn yield using decentralized finance, you will need to acquire a stablecoin. We suggest either Dai or USDC, both of which can be acquired on [Coinbase](https://www.coinbase.com/price/ethereum?r=conner_k3).
+The key to this guide is understanding the concept of [stablecoins](../built-on-ethereum/open-finance/stablecoins/what-are-stablecoins.md). These are 1:1 representations of USD on the Ethereum network, essentially digitalizing your dollar. In order to earn yield using decentralized finance, you will need to acquire a stablecoin. We suggest either Dai or USDC, both of which can be acquired on [Coinbase](https://www.coinbase.com/price/ethereum?r=conner_k3).
 
 Coinbase offers a feeless onramp for USDC, however Dai is the more trustless option and usually offers a higher yield. 
 
