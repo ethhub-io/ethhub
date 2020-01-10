@@ -84,7 +84,6 @@ nav:
   - 'Privacy': 'ethereum-roadmap/privacy.md'
   - 'Istanbul': 'ethereum-roadmap/istanbul.md'
 - Using Ethereum:
-  - 'Ethereum New User Guide': 'using-ethereum/ethereum-new-user-guide.md'
   - 'How to Buy Ether': 'using-ethereum/how-to-buy-ether.md'
   - 'Running an Ethereum Node': 'using-ethereum/running-an-ethereum-node.md'
   - Ethereum Clients:
@@ -278,6 +277,8 @@ nav:
     - 'ERC884': 'built-on-ethereum/erc-token-standards/erc884.md'
     - 'ERC918': 'built-on-ethereum/erc-token-standards/erc918.md'
     - 'ERC1155': 'built-on-ethereum/erc-token-standards/erc1155.md'
+- Guides:
+  - 'Ethereum New User Guide': 'using-ethereum/ethereum-new-user-guide.md'
 - Ethereum FAQ:
   - 'Is Ethereum more expensive to use as price rises?': 'questions-about-ethereum/is-ethereum-more-expensive-to-use-as-price-rises.md'
   - 'Why do you have to pay to use Ethereum?': 'questions-about-ethereum/why-do-you-have-to-pay-to-use-ethereum.md'
