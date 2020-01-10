@@ -1,4 +1,7 @@
 # The Ultimate Guide to ENS Names
+
+*This article initially appeared as a [Medium post](https://medium.com/@eric.conner/the-ultimate-guide-to-ens-names-aa541586067a) authored by [Eric Conner](https://twitter.com/econoar).*
+
 The Ethereum Name Service is one of the most popular projects on Ethereum right now and for good reason. As the [website states](https://ens.domains/), "ENS offers a secure & decentralized way to address resources both on and off the blockchain using simple, human-readable names."
 
 In short, you are able to give your Ethereum (or [favorite chain](https://medium.com/the-ethereum-name-service/ens-launches-multi-coin-support-15-wallets-to-integrate-92518ab20599)) address a name. This is much like how the traditional web works with DNS. All websites are hosted at an IP address but no one actually puts that in their browser, instead we use names such as amazon.com, not 205.251.242.103 (try it, it works!). The ENS has many great features but I'm going to focus this guide specifically on registering and managing .eth names and their subdomains.
