@@ -4613,8 +4613,8 @@
                 
                 
                 <h1 id="the-ultimate-guide-to-ens-names">The Ultimate Guide to ENS Names</h1>
-<p>The Ethereum Name Service is one of the most popular projects on Ethereum right now and for good reason. As the website states, "ENS offers a secure &amp; decentralized way to address resources both on and off the blockchain using simple, human-readable names."</p>
-<p>In short, you are able to give your Ethereum (or favorite chain) address a name. This is much like how the traditional web works with DNS. All websites are hosted at an IP address but no one actually puts that in their browser, instead we use names such as amazon.com, not 205.251.242.103 (try it, it works!). The ENS has many great features but I'm going to focus this guide specifically on registering and managing .eth names and their subdomains.</p>
+<p>The Ethereum Name Service is one of the most popular projects on Ethereum right now and for good reason. As the <a href="https://ens.domains/">website states</a>, "ENS offers a secure &amp; decentralized way to address resources both on and off the blockchain using simple, human-readable names."</p>
+<p>In short, you are able to give your Ethereum (or <a href="https://medium.com/the-ethereum-name-service/ens-launches-multi-coin-support-15-wallets-to-integrate-92518ab20599">favorite chain</a>) address a name. This is much like how the traditional web works with DNS. All websites are hosted at an IP address but no one actually puts that in their browser, instead we use names such as amazon.com, not 205.251.242.103 (try it, it works!). The ENS has many great features but I'm going to focus this guide specifically on registering and managing .eth names and their subdomains.</p>
 <h2 id="registering-eth-domain-names">Registering .eth Domain Names</h2>
 <p>The core functionality of the ENS is registering .eth domains. There are a few important rules to keep in mind when it comes to registering domains on the ENS:</p>
 <ol>
@@ -4623,7 +4623,7 @@
 <li>Emojis are valid. 👍🏼</li>
 </ol>
 <h3 id="creating-and-managing-domains">Creating and Managing Domains</h3>
-<p>Registering a domain is extremely easy using the ENS app. First search for the ENS name that you'd like. If it is not taken (if it is, head over to OpenSea and search for it), you will be presented with this screen.</p>
+<p>Registering a domain is extremely easy using the <a href="https://app.ens.domains/">ENS app</a>. First search for the ENS name that you'd like. If it is not taken (if it is, head over to <a href="https://opensea.io/assets/ens">OpenSea</a> and search for it), you will be presented with this screen.</p>
 <p><img alt="" src="/assets/images/ens_register.png" /></p>
 <p>Once here you can click request to register which will trigger a transaction, wait 1 minute and then you can register the name. It's now yours.</p>
 <p>Now that you own a .eth domain, you want to enable all the cool features that it offers. This starts on the domain management screen.</p>
@@ -4633,7 +4633,7 @@
 <li>Registrant: can set the controller address, and transfer the registration to someone else. This is the ultimate owner.</li>
 <li>Controller: essentially handles the "day to day operations" of the domain.</li>
 <li>Expiration Date: when your renewal fee is due and you can pay it here as well.</li>
-<li>Resolver: handles resolving (translating) the records put below such as what Ethereum address is tied to this domain. Should be set the public resolver which will be the default option when clicking the Set button.</li>
+<li>Resolver: handles resolving (translating) the records put below such as what Ethereum address is tied to this domain. Should be set the <a href="https://docs.ens.domains/contract-api-reference/publicresolver">public resolver</a> which will be the default option when clicking the Set button.</li>
 <li>Records: this is where you can add the cool stuff to your domain. Put an address here so that when you put your domain name in a wallet, it points to this address. You can also put an IPFS content hash which when going to your domain in a web browser will pull up your website.</li>
 </ul>
 <p>Once you set an Ethereum address in the address field, it will resolve in wallets such as MetaMask.</p>
@@ -4648,54 +4648,54 @@
 <p><img alt="" src="/assets/images/ens_submanage2.png" /></p>
 <h3 id="allowing-anyone-to-claim-subdomains-on-your-eth-domain">Allowing Anyone to Claim Subdomains on your .eth Domain</h3>
 <p>All of the above is being done by the registrant of the .eth domain. They are the one setting up the subdomains and have ultimate control over them, including being able to revoke them. This is fine for a company or someone that wants full control over the subdomains but what if you want anyone in the world to be able to claim a subdomain on your domain? You obviously don't want to have to coordinate with them and they won't want you to be able to revoke access. The good news is there is a solution that easily allows you to open up registration of subdomains on your domain. You can even set a price at which you'd like to sell them.</p>
-<p>Doing this starts with turning control of your domain over to the ENS Subdomain Registrar contract. This means that the contract is able to distribute out subdomains to people but you no longer can revoke access to those subdomains. The steps at the moment are fairly manual but also easy. Nick Johnson lays out the steps well in this ENSNow domains post so I'm going to just put them here:</p>
+<p>Doing this starts with turning control of your domain over to the <a href="https://github.com/ensdomains/subdomain-registrar">ENS Subdomain Registrar contract</a>. This means that the contract is able to distribute out subdomains to people but you no longer can revoke access to those subdomains. The steps at the moment are fairly manual but also easy. Nick Johnson lays out the steps well in this <a href="https://medium.com/the-ethereum-name-service/migrating-your-ensnow-domains-to-the-new-registrar-c0085eaaeff2">ENSNow domains post</a> so I'm going to just put them here:</p>
 <p><strong>Warning: By doing this, you are permanently giving up use of your domain! You will be able to collect registration fees, change prices, and transfer control to another user - but you will never be able to use your domain for anything else!</strong></p>
 <ol>
-<li>Load up the .eth registrar contract. If you are using Etherscan, you will need to click "Connect with Metamask" and authorize the subsequent dialog box from Metamask.</li>
+<li>Load up the <a href="https://etherscan.io/address/0xfac7bea255a6990f749363002136af6556b31e04#writeContract">.eth registrar contract</a>. If you are using Etherscan, you will need to click "Connect with Metamask" and authorize the subsequent dialog box from Metamask.</li>
 <li>Find the 'approve' function.</li>
 <li>In the address field, enter '0xc32659651d137a18b79925449722855aa327231d'</li>
 <li>In the tokenId field, enter the labelhash of your name. You can look this up by searching for your name on etherscan (look for 'Label hash [foo]:').</li>
 <li>Submit the transaction.</li>
-<li>Load up the new subdomain registrar contract.</li>
+<li>Load up the new <a href="https://etherscan.io/address/0xc32659651d137a18b79925449722855aa327231d#writeContract">subdomain registrar contract</a>.</li>
 <li>Find the 'configureDomain' function.</li>
 <li>In the name field, enter the name you want to list, without '.eth' (Eg, 'gimmethe', not 'gimmethe.eth').</li>
-<li>In the price field, enter the price to charge for a new domain, in wei. 1 ether is 1,000,000,000,000,000,000 wei, so for instance to charge 0.01 ether per domain, you should enter 10000000000000000. A convertor can be found here.</li>
+<li>In the price field, enter the price to charge for a new domain, in wei. 1 ether is 1,000,000,000,000,000,000 wei, so for instance to charge 0.01 ether per domain, you should enter 10000000000000000. A convertor can be found <a href="https://gwei.io/">here</a>.</li>
 <li>In the referralFeePPM field, enter the amount you want to give to any website that finds a new user for you. For instance, to keep the entire amount yourself, enter 0; to give it all to the site, enter 1000000.</li>
 <li>Submit the transaction.</li>
 </ol>
 <p>Your domain has now been handed over to the subdomain registrar contract. If you've set up a fee, anytime someone registers a subdomain, the funds will be directed to the original owner address. This has now opened up a lot of possibilities!</p>
 <h3 id="listing-your-subdomains-on-ensnow">Listing Your Subdomains on ENSNow</h3>
-<p>The ENS team has setup a website which allows for claiming of subdomains. If you'd like your subdomains listed here the process is quite easy. Once again Nick has a blog post about the steps and I'm going to put them below:</p>
+<p>The ENS team has setup a <a href="https://now.ens.domains/">website</a> which allows for claiming of subdomains. If you'd like your subdomains listed here the process is quite easy. Once again Nick has a <a href="https://medium.com/@weka/how-to-list-your-domain-on-ensnow-7297808f31f5">blog post</a> about the steps and I'm going to put them below:</p>
 <ol>
-<li>Go to this page and click 'fork' in the top right corner.</li>
+<li>Go to <a href="https://github.com/ensdomains/subdomain-registrar">this page</a> and click 'fork' in the top right corner.</li>
 <li>Navigate to app -&gt; js -&gt; domains.json</li>
 <li>Click on the pencil icon in the top right corner of the file.</li>
 <li>Find the appropriate place to insert your entry (entries are listed alphabetically).</li>
-<li>Add a new line with your entry. If using the default registrar for steps 2 and 3, this should look like {"name": "yourdomain", "version": "1.0"}, .</li>
+<li>Add a new line with your entry. If using the default registrar for steps 2 and 3, this should look like <code>{"name": "yourdomain", "version": "1.0"},</code> .</li>
 <li>Commit your changes by clicking 'Commit changes' down the bottom of the page.</li>
 <li>Click on 'Pull requests', then 'New pull request'.</li>
 <li>Click on 'Create pull request'.</li>
 </ol>
 <p><img alt="" src="/assets/images/ensnow.png" /></p>
 <h3 id="hosting-your-own-subdomain-sale-site">Hosting Your Own Subdomain Sale Site</h3>
-<p>ENSNow is great and easy, but the list of domains supported there is rather long and you cannot specifically brand your own domain. So, if you'd like to setup a site that only lists your domain and allows you to customize it, that is possible as well. A good example of this is a site I'm running called Ethmojis.</p>
-<p>The best place to start is on the Subdomain Registrar GitHub page. They have a "getting started" section which tells you how to run it but I'll try to summarize the steps up as best as I can below</p>
+<p>ENSNow is great and easy, but the list of domains supported there is rather long and you cannot specifically brand your own domain. So, if you'd like to setup a site that only lists your domain and allows you to customize it, that is possible as well. A good example of this is a site I'm running called <a href="https://ethmojis.com/">Ethmojis</a>.</p>
+<p>The best place to start is on the <a href="https://github.com/ensdomains/subdomain-registrar">Subdomain Registrar GitHub page</a>. They have a "getting started" section which tells you how to run it but I'll try to summarize the steps up as best as I can below</p>
 <ol>
-<li>Install node.js and NPM</li>
-<li>Install Truffle on your computer using npm install -g truffle</li>
-<li>Download and install Ganache</li>
-<li>Clone the subdomain-registrar repo to your computer.</li>
-<li>In terminal, navigate to the folder you cloned it to and run npm install</li>
+<li>Install <a href="https://www.npmjs.com/get-npm">node.js</a> and NPM</li>
+<li>Install Truffle on your computer using <code>npm install -g truffle</code></li>
+<li>Download and install <a href="https://www.trufflesuite.com/ganache">Ganache</a></li>
+<li>Clone the <a href="https://github.com/ensdomains/subdomain-registrar">subdomain-registrar repo</a> to your computer.</li>
+<li>In terminal, navigate to the folder you cloned it to and run <code>npm install</code></li>
 <li>Find the /app/js/domains.json file and edit the whitelist to only include your domain. Mine looks like: [{"name": "ethmojis", "version": "1.0"}]</li>
 <li>Edit the index.html file however you'd like for your site.</li>
 <li>In terminal, change directory to where you cloned the subdomain registrar.</li>
-<li>Run:ganache-cli &amp;
+<li>Run:<code>ganache-cli &amp;
 truffle deploy
-npm run dev</li>
-<li>If everything looks goo, runnpm run build</li>
+npm run dev</code></li>
+<li>If everything looks goo, run <code>npm run build</code></li>
 <li>A build folder should be created and files output here. This is your final site that you can upload to a web server or IPFS.</li>
 </ol>
-<p>To host on IPFS, upload the entire build folder and get your content hash. You can then put this content hash in the "records" section of any ENS domain or subdomain! Here's an example of how it will look:</p>
+<p>To host on <a href="https://docs.ipfs.io/introduction/usage/">IPFS</a>, upload the entire build folder and get your content hash. You can then put this content hash in the "records" section of any ENS domain or subdomain! Here's an example of how it will look:</p>
 <p><img alt="" src="/assets/images/ethmojis.png" /></p>
 <p>Congrats, you are now an expert on the Ethereum Name Service!</p>
                 
