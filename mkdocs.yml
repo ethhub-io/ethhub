@@ -89,9 +89,9 @@ nav:
   - 'Running an Ethereum Node': 'using-ethereum/running-an-ethereum-node.md'
   - Ethereum Clients:
     - 'Geth': 'using-ethereum/ethereum-clients/geth.md'
-    - 'Nethermind': 'using-ethereum/ethereum-clients/nethermind.md'
-    - 'Pantheon': 'using-ethereum/ethereum-clients/pantheon.md'
     - 'Parity': 'using-ethereum/ethereum-clients/parity.md'
+    - 'Nethermind': 'using-ethereum/ethereum-clients/nethermind.md'
+    - 'Besu': 'using-ethereum/ethereum-clients/besu.md'
     - 'Py-EVM (Trinity)': 'using-ethereum/ethereum-clients/py-evm.md'
   - 'Transactions': 'using-ethereum/transactions.md'
   - 'Mining': 'using-ethereum/mining.md'
@@ -158,7 +158,7 @@ nav:
       - 'DutchX': 'built-on-ethereum/decentralized-exchanges/auction-based/dutchx.md'
     - Off-Chain Orderbook:
       - 'What are Off-Chain Orderbook Decentralized Exchanges?': 'built-on-ethereum/decentralized-exchanges/off-chain-orderbook/what-is-off-chain-orderbook.md'
-      - '0x Protocol': 'built-on-ethereum/decentralized-exchanges/0x-protocol.md' 
+      - '0x Protocol': 'built-on-ethereum/decentralized-exchanges/off-chain-orderbook/0x-protocol.md' 
       - '0x-Instant': 'built-on-ethereum/decentralized-exchanges/off-chain-orderbook/0x-instant.md'
       - '0x-Relayers': 'built-on-ethereum/decentralized-exchanges/off-chain-orderbook/0x-relayers.md'
       - 'EtherDelta': 'built-on-ethereum/decentralized-exchanges/off-chain-orderbook/etherdelta.md'
@@ -286,6 +286,7 @@ nav:
   - 'Is Ethereum immutable?': 'questions-about-ethereum/is-ethereum-immutable.md'
   - 'Is Ether needed for transaction fees?': 'questions-about-ethereum/is-ether-needed-for-transaction-fees.md'
   - "If Ethereum is open source why can't it be copied?": 'questions-about-ethereum/if-ethereum-is-open-source-why-cant-it-be-copied.md'
+  - 'What is the Ethereum difficulty bomb (Ice Age)?': 'questions-about-ethereum/what-is-the-difficulty-bomb.md'
 - Other:
   - 'Ethereum Branding Kit': other/ethereum-branding-kit.md
   - 'Ethereum 2.0 AMA': 'other/ethereum-2.0-ama.md'
@@ -297,12 +298,10 @@ nav:
     - '0xeap': 'other/funds/0xeap.md'
     - 'Aragon Nest': 'other/funds/aragon-nest.md'
     - 'Consensys Labs': 'other/funds/consensys-labs.md'
-    - 'Consensys VC': 'other/funds/consensys-vc.md'
     - 'ECF': 'other/funds/ecf.md'
     - 'Eth Prize': 'other/funds/eth-prize.md'
     - 'Geco': 'other/funds/geco.md'
     - 'Gitcoin': 'other/funds/gitcoin.md'
-    - 'Gnosis X': 'other/funds/gnosisx.md'
     - 'Stable Fund': 'other/funds/stable-fund.md'
     - 'Status Incubate': 'other/funds/status-incubate.md'
 - Glossary:

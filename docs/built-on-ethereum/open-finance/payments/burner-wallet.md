@@ -6,7 +6,7 @@ description: The Burner Wallet allows users to interact with xDai on the POA Net
 
 ## Summary
 
-Founded by [Austin Griffith](https://twitter.com/austingriffith), The [Burner Wallet](https://xdai.io/) is a wallet that allows users to interact with the xDai sidechain from [POA](../infrastructure/poa-network.md). 
+Founded by [Austin Griffith](https://twitter.com/austingriffith), The [Burner Wallet](https://xdai.io/) is a wallet that allows users to interact with the xDai sidechain from [POA](/built-on-ethereum/infrastructure/poa-network.md). 
 
 xDai is the USD-stable coin that is a representation of Dai but lives on the xDai Chain, instead of Ethereum mainnet. You can use the [TokenBridge](https://dai-bridge.poa.network/) to convert Dai from Ethereum Mainnet to xDai on xDai Chain or do this inside the Burner Wallet itself.
 
