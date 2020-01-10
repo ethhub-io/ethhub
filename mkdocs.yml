@@ -56,9 +56,9 @@ nav:
   - 'Resources': 'ethereum-basics/resources.md'
 - Ethereum Roadmap:
   - Ethereum 2.0:
-      - 'Sharding': 'ethereum-roadmap/ethereum-2.0/sharding.md'
-      - 'Proof of Stake': 'ethereum-roadmap/ethereum-2.0/proof-of-stake.md'
       - 'Ethereum 2.0 Phases': 'ethereum-roadmap/ethereum-2.0/eth-2.0-phases.md'
+      - 'Proof of Stake': 'ethereum-roadmap/ethereum-2.0/proof-of-stake.md'
+      - 'Sharding': 'ethereum-roadmap/ethereum-2.0/sharding.md'
       - 'Ethereum 2.0 Economics': 'ethereum-roadmap/ethereum-2.0/eth-2.0-economics.md'
       - 'Ethereum 1.0 to 2.0 Migration': 'ethereum-roadmap/ethereum-2.0/eth-1.0-to-2.0-migration.md'
       - Ethereum 2.0 Teams:
