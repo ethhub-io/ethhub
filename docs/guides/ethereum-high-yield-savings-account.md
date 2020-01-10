@@ -32,6 +32,10 @@ The website to interact with the Maker protocol is called Oasis. [Navigate](http
 
 ![](/assets/images/dsr.png)  
 
+Below is an image from Maker on how the mechanism functions:
+
+![](/assets/images/dsr_guide.png) 
+
 Now you can watch your interest earned count up in real time and withdraw at any point.
 
 ## 4. Insurance
