@@ -45,7 +45,7 @@ description: A list of essential Ethereum resources.
 
 ### Podcasts
 
-* [EthHub Substack](https://ethhub.substack.com/)
+* [Into the Ether](https://directory.libsyn.com/shows/view/id/intotheether)
 * [Epicenter](https://epicenter.tv/)
 * [Dose of Ether](https://thebitcoinpodcast.com/category/dose-of-ether/)
 * [Unchained](https://unchainedpodcast.com/)
@@ -103,7 +103,6 @@ description: A list of essential Ethereum resources.
 * [Hacking, Distributed \(Emin Gün Sirer\)](http://hackingdistributed.com/)
 * [Simon de la Rouviere](https://blog.simondlr.com/)
 * [Tony Sheng](https://www.tonysheng.com/)
-* [Preethi Kasireddy \(Blockchain Engineer\)](https://medium.com/@preethikasireddy)
 
 ## Technical Resources
 
@@ -111,8 +110,8 @@ description: A list of essential Ethereum resources.
 
 #### Block Explorers
 
-* [Etherchain](https://www.etherchain.org/)
 * [Etherscan](https://etherscan.io/)
+* [Etherchain](https://www.etherchain.org/)
 * [Ethplorer](https://ethplorer.io/)
 * [BlockScout](https://blockscout.com/eth/mainnet)
 * [EnjinX](https://enjinx.io/)
