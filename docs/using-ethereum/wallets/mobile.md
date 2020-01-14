@@ -21,6 +21,7 @@ Phone and other mobile device-based wallets are mobile alternatives to desktop a
 * [AlphaWallet](https://alphawallet.com/) - No nonsense ethereum wallet with native dapp support
 * [Ambo](https://Ambo.io/) - A Mobile Ethereum wallet targeted for the mainstream audience.
 * [Argent](https://www.argent.xyz/) - No transaction fee wallet
+* [Atomic Wallet](https://atomicwallet.io) - a new multiple currency Android wallet that allows you to manage Bitcoin, Ethereum, XRP and over 300 coins and tokens easily.
 * [Balance](https://balance.io/) - A Mobile Ethereum wallet for iOS and Android.
 * [Coinomi](https://www.coinomi.com/en/) - Multicurrency wallet
 * [Coinbase Wallet](https://wallet.coinbase.com/)
@@ -32,7 +33,6 @@ Phone and other mobile device-based wallets are mobile alternatives to desktop a
 * [Trust](https://github.com/TrustWallet/trust-wallet-ios) - Mobile [wallet](https://trustwalletapp.com/) for ERC tokens
 * [Tokenary](https://tokenary.io/) — Native iOS wallet and DApp explorer and browser with cross-device synchronization and macOS support.
 * [WallETH](https://walleth.org) - Native Android Ethereum Wallet.
-* [Atomic Wallet](https://atomicwallet.io) - a new multiple currency Android wallet that allows you to manage Bitcoin, Ethereum, XRP and over 300 coins and tokens easily.
 
 ## Resources
 
