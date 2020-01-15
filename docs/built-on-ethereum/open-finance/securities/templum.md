@@ -1,3 +1,7 @@
+title: Templum - EthHub
+
+description: Templum is a technology innovator that provides regulated market infrastructure for the digital asset sector.
+
 # Templum
 
 ## Summary

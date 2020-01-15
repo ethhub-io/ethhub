@@ -1,3 +1,7 @@
+title: Chibi Fighters - EthHub
+
+description: Chibi Fighters is a fantasy role-playing game where players can send their Chibis on adventures and into battles for pride and prizes.
+
 # Chibi Fighters
 
 <img src="https://cdn-images-1.medium.com/max/1200/1*3q5zQys1bEl5oal_C-j--Q.png" width="700" alt="Chibi fighters prepare for battle"/>

@@ -1,3 +1,7 @@
+title: Abacus - EthHub
+
+description: Abacus makes an ecosystem for financial applications and service providers. Users can use Abacus to interact with smart contracts and service providers.
+
 # Abacus
 
 ## Summary

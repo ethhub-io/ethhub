@@ -1,20 +1,23 @@
 title: Running an Ethereum Node - EthHub
+
 description: Proper ways to run a Parity or Geth Ethereum node.
 
 # Running an Ethereum Node
 
 ## Summary
 
-Anyone is able to run an Ethereum node on their computer. This means that you can participate in validating transactions and blocks on the Ethereum blockchain. The two most common clients for running nodes are [Geth](https://ethereum.github.io/go-ethereum/downloads/) and [Parity](https://github.com/paritytech/parity-ethereum/releases/). Depending on the type of node run and the hardware specifications of the system, the initial syncronization time and storage requirements vary. For information related to the current Full Node chaindata and state storage size check out:
-https://etherscan.io/chartsync/chaindefault
+Anyone is able to run an Ethereum node on their computer. This means that you can participate in validating transactions and blocks on the Ethereum blockchain. The two most common clients for running nodes are [Geth](https://geth.ethereum.org/downloads/) and [Parity](https://github.com/paritytech/parity-ethereum/releases/). Depending on the type of node run and the hardware specifications of the system, the initial syncronization time and storage requirements vary. For information related to the current Full Node chaindata and state storage size check out:
+[https://etherscan.io/chartsync/chaindefault](https://etherscan.io/chartsync/chaindefault)
+
+For an easy guide on running your own node, please see this [blog post](https://medium.com/@JustinMLeroux/running-ethereum-full-nodes-a-guide-for-the-barely-motivated-a8a13e7a0d31).
 
 Below are the different types of nodes a user can run, their settings, and what they mean.
 
 ## Full nodes
 
-A full node: 
+A full node:
 
-* Stores the full blockchain data available on disk and can serve the network with any data on request. 
+* Stores the full blockchain data available on disk and can serve the network with any data on request.
 * Receives new transactions and blocks while participating in block validation.
 * Verifies all blocks and states.
 * Stores recent state only for more efficient initial sync.
@@ -53,10 +56,10 @@ Both geth full and parity no-warp are to be considered a full Ethereum node beca
 
 ## Light nodes
 
-A light node: 
-	
+A light node:
+
 * Stores the header chain and requests everything else on demand.
-* Can verify the validity of the data against the state roots in the block headers. 
+* Can verify the validity of the data against the state roots in the block headers.
 
 Light nodes are useful for low capacity devices, such as embedded devices or mobile phones, which can't afford to store multiple dozen Gigabytes of blockchain data.
 
@@ -78,7 +81,7 @@ Same as --light but syncs from genesis block.
 
 1. Download [homebrew](https://brew.sh) (you will have to go through apple dev terms first)
 
-2. Find and open the application Terminal (utilties/terminal) 
+2. Find and open the application Terminal (utilties/terminal)
 
 3. Enter the following commands one by one into the Terminal:
 
@@ -129,14 +132,15 @@ In Parity, this is called pruning which refers to the concept of [state trie pru
 
 A consumer-grade laptop will be enough to run a full node, but not an archive node. An archive node does need 2+ TB of disk space, and that disk space cannot be HDD - it must be SSD for both full and archive nodes. Light nodes run fine on SD cards and HDDs.
 
-If a full node goes offline for a while, its data can get corrupted and it can take a while to restore it. For best results, if running your own node, run it on an always-on always-connected device for minimal downtime and maximum reliability. This can be impossible on a laptop and expensive on a desktop PC (500W+) so it's better to use a device that's cheap to build and replace and almost free to run. A Raspberry Pi is enough for light nodes while a full node will run fine on an ARM micro computer. Check out pre-synced pre-built devices by [Block And Mortar](https://blockandmortar.io), [Ava.do](https://ava.do), and [DAppNode](https://shop.dappnode.io/).
+If a full node goes offline for a while, its data can get corrupted and it can take a while to restore it. For best results, if running your own node, run it on an always-on always-connected device for minimal downtime and maximum reliability. This can be impossible on a laptop and expensive on a desktop PC (500W+) so it's better to use a device that's cheap to build and replace and almost free to run. A Raspberry Pi is enough for light nodes while a full node will run fine on an ARM micro computer. Check out pre-synced pre-built devices by [Ava.do](https://ava.do), and [DAppNode](https://shop.dappnode.io/).
 
 Warning: never plug into your LAN anything you cannot thoroughly inspect and verify. You might be subjecting yourself to DNS hijacking or cryptojacking without knowing it. If the hardware and software aren't open source (at least the assembly part), they aren't safe to use.
 
 ## Resources
 
+* [Running Ethereum Full Nodes: A Complete Guide](https://medium.com/@JustinMLeroux/running-ethereum-full-nodes-a-guide-for-the-barely-motivated-a8a13e7a0d31)
 * Huge shout out and thanks to Afri Schoedon's blogs [here](https://dev.to/5chdn/ethereum-node-configuration-modes-cheat-sheet-25l8) and [here](https://dev.to/5chdn/the-ethereum-blockchain-size-will-not-exceed-1tb-anytime-soon-58a) which is where a lot of the information on this page came from.
-
+* [Run an Ethereum Node on Debian](https://medium.com/better-programming/run-an-ethereum-node-on-linux-late-2019-b37a1d35800e)
 * [Dispelling Myths About Ethereum's Disk Space](https://www.tokendaily.co/blog/dispelling-myths-about-ethereum-s-disk-space)
-
 * [What Comprises an Ethereum Fullnode Implementation?](https://medium.com/amentum/what-comprises-an-ethereum-fullnode-implementation-a9113ce3fe3a)
+* [Running an Ethereum Full Node on a RaspberryPi 4](https://kauri.io/article/9695fcca217f46feb355245275835fc0)

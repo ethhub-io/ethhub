@@ -1,15 +1,33 @@
+title: Loopring - Ethhub
+
+description: Loopring is an open protocol for building scalable and secure orderbook-based DEXes on Ethereum.
+
 # Loopring
 
 ## Description
 
-Loopring aims to implement a decentralized exchange protocol with a hybrid order model with a focus on liquidity. Loopring introduces two novel tools that can increase liquidity: order ring and consortium blockchain.
+Loopring is an open protocol for building high-performance, non-custodial orderbook exchanges on Ethereum. Loopring is the first zkRollup DEX protocol with on-chain data availability.
 
-Order ring is a method of chaining multiple orders that execute each other. It’s up to relayers and arbitragers to find rings and execute them. On the protocol level, Loopring equally distributes margins between orders and prevents rent-seeking by adding redundant orders to the ring.
+## Architecture
 
-Relayers can cooperate by sharing liquidity. Loopring offers a way to do that by creating a consortium blockchain. This blockchain is fast \(1-2 second block time\) and supports history pruning. Relayers decide whether they want to join the consortium, make their own pool, or not to share liquidity at all.
+Loopring v3 uses a zkRollup construction to achieve scalable exchanges without sacrificing Ethereum security guarantees. It performs all computations off-chain, batches and proves these updates in a zkSNARK proof, and then submits it to Ethereum to verify.
 
-## Important links
+Additionally, Loopring enforces on-chain data availability, meaning in conjunction with the Merkle root, other state transition data is also kept on Ethereum, as opposed to an off-chain consortium. As a result, the only assumption needed in order be certain one can always access their own funds, is that Ethereum will continue to exist.
 
-* [Website](https://loopring.org)
-* [DEX Portal](https://loopring.io)
+* [Loopring 3.0 Design Doc](https://github.com/Loopring/protocols/blob/master/packages/loopring_v3/DESIGN.md)
 
+While previous versions of Loopring were able to settle 2-3 trades per second on Ethereum, v3 raises throughput to 1,400 tps, with the commensurate reduction in settlement costs, currently well below one US cent per transaction. 
+
+## Components
+
+Loopring Protocol is an assembly of Ethereum [smart contracts](https://github.com/Loopring/protocols/tree/master/packages/loopring_v3), and [zkSNARK circuits](https://medium.com/loopring-protocol/loopring-open-sources-its-zksnark-circuit-code-53c934b67ce5). These form the core of the v3 protocol. To run the protocol, a Relayer (or group of relayers) operates the off-chain components, including order hosting & proof generation. 
+
+
+## Resources
+
+* [Website](https://loopring.org) 
+* [GitHub](https://github.com/Loopring)
+* [Twitter](https://twitter.com/loopringorg)
+* [Loopring 3.0 Overview](https://medium.com/loopring-protocol/loopring-3-0-overview-from-a-to-zksnarks-2c542e6c07b0)
+* [zkSNARK Trusted Setup MPC](https://loopring.org/#/post/loopring-starts-trusted-setup-multi-party-computation-ceremony)
+* [Security Audit Report](https://loopring.org/#/post/secbit-delivers-a-security-audit-report-for-loopring-protocol-3-0)

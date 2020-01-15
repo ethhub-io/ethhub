@@ -1,4 +1,5 @@
 title: Ethereum 2.0 Economics - EthHub
+
 description: A deep dive on the economics in Ethereum 2.0 including staking rewards and issuance rate.
 
 # Eth 2.0 Economics
@@ -41,7 +42,6 @@ In order to incentivize those that have ETH to stake in the network, there must 
 | 10,000,000 | 572,433 | 0.54% | 5.72% |
 | 30,000,000 | 991,483 | 0.94% | 3.30% |
 | 100,000,000 | 1,810,193 | 1.71% | 1.81% |
-| 134,217,728 | 2,097,152 | 1.98% | 1.56% |
 
 [According to Vitalik Buterin](https://www.reddit.com/r/ethtrader/comments/bffp0n/higher_pos_rewards_proposed/elen71t?utm_source=share&utm_medium=web2x), these are maximum numbers and there are many factors that can decrease the total issuance amounts. They are:
 
@@ -94,3 +94,6 @@ Decentralized finance applications such as [Compound Finance](https://compound.f
 
 **Other Investment Vehicles**  
 More traditional investment alternatives such as bonds, certificates of deposit, savings account, etc. can be considered competition to staking as well. While not as directly influential to the decent as DeFi apps, they need to be considered.
+
+## Resources
+* [ETH2 Staking Calculator](https://docs.google.com/spreadsheets/d/15tmPOvOgi3wKxJw7KQJKoUe-uonbYR6HF7u83LR5Mj4/edit#gid=1446566120)

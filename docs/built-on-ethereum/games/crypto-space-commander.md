@@ -1,3 +1,7 @@
+title: Crypto Space Commander - EthHub
+
+description: Crypto Space Commander is an open-universe game where players can navigate ships to mine, battle, and craft items. 
+
 # Crypto Space Commander
 
 <img alt="Crypto Space Commander ships in space" src="https://miro.medium.com/max/854/1*I5LfOyPOQsTh_EEAxN4btg.png" width="500" />

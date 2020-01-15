@@ -1,6 +1,6 @@
-title: Fnality
+title: Fnality - EthHub
 
-description: Fnality is developing tokenized fiat solutions
+description: Fnality is developing tokenized fiat solutions.
 
 # Fnality
 

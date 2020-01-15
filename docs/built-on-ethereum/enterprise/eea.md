@@ -1,6 +1,6 @@
-title: Enterprise Ethereum Alliance (EEA)
+title: Enterprise Ethereum Alliance (EEA) - EthHub
 
-description: EEA is a member-driven standards organization whose charter is to develop open blockchain specifications
+description: EEA is a member-driven standards organization whose charter is to develop open blockchain specifications.
 
 # Enterprise Ethereum Alliance (EEA)
 

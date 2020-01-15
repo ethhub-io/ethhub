@@ -1,3 +1,7 @@
+title: Aragon - EthHub
+
+description: Aragon is building technology to remove barriers from the creation and maintenance of organizational structures by using blockchain technology. 
+
 # Aragon
 Create and manage DAOs. 
 

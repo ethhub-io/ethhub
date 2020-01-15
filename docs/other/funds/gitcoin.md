@@ -1,3 +1,7 @@
+title: Gitcoin Grants - EthHub
+
+description: Fast, easy, and secure way to provide recurring token contributions to the best OSS maintainers in your community.
+
 # Gitcoin Grants
 
 Fast, easy, and secure way to provide recurring token contributions to the best OSS maintainers in your community. Your contribution is amplified by the signal it provides to other (potentially, larger) funders on important infrastructure projects.

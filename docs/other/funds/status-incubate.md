@@ -1,3 +1,7 @@
+title: Status Incubate - EthHub
+
+description: A web3 incubator run by the Status team.
+
 # Status Incubate
 
 Incubating Projects that are Building Web3.

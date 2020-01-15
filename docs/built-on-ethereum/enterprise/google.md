@@ -1,6 +1,6 @@
-title: Google
+title: Google - EthHub
 
-description: Google is integrating Ethereum into BigQuery
+description: Google is integrating Ethereum into BigQuery enabled through ChainLink.
 
 # Google
 

@@ -1,4 +1,5 @@
 title: Crypto Acronyms - EthHub
+
 description: A list of commonly used acronyms for crypto and blockchain.
 
 # Crypto Acronyms

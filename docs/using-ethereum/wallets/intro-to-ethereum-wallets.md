@@ -1,3 +1,7 @@
+title: Intro to Ethereum Wallets - EthHub
+
+description: Wallets allow Ethereum users to store Ether and to interact with smart contracts on the Ethereum network. 
+
 # Intro to Ethereum Wallets
 
 Wallets allow Ethereum users to store Ether and to interact with smart contracts on the Ethereum network. There are many different ways to accomplish this. Below is a list of each option and a high level overview of what each option is best for.

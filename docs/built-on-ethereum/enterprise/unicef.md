@@ -1,6 +1,6 @@
-title: Unicef
+title: Unicef - EthHub
 
-description: Unicef Innovation Ventures are exploring the use of the Ethereum public blockchain
+description: Unicef Innovation Ventures are exploring the use of the Ethereum public blockchain.
 
 # Unicef
 

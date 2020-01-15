@@ -1,4 +1,5 @@
 title: Is Ethereum more expensive to use as price rises? - EthHub
+
 description: The Ethereum fee market is independent of fiat prices.
 
 # Is Ethereum more expensive to use as price rises?
@@ -11,11 +12,11 @@ No, the Ethereum fee market is independent of fiat prices.
 
 ### Basics of a transaction  <a id="basics-of-a-transaction"></a>
 
-There are many concepts to understand when diving into the answer to this question. First, it's essential to understand how an Ethereum transaction works. As explained in the [gas section](https://docs.ethhub.io/-LTo-PwFj1VwulVCZAFW/~/drafts/-LUpsUsOLWLhW7Fftje4/primary/using-ethereum/ethereum-network-basics/transactions/gas), every transaction that occurs on the network requires a set amount of gas, which is a unit used to measure the computational power required to process the transaction. To process a transaction and include it in a block, miners expect to be compensated. This is accomplished by setting a gas price with every transaction, which is the cost of 1 unit of gas, denominated in Gwei \(1 ETH = 1,000,000,000 Gwei\). For example, when you simply send ETH from one account to another, this cost 21000 gas. If you were to set a gas price of 1 Gwei, this transaction would cost 0.000021 ETH.
+There are many concepts to understand when diving into the answer to this question. First, it's essential to understand how an Ethereum transaction works. As explained in the [gas section](https://docs.ethhub.io/using-ethereum/transactions/#gas), every transaction that occurs on the network requires a set amount of gas, which is a unit used to measure the computational power required to process the transaction. To process a transaction and include it in a block, miners expect to be compensated. This is accomplished by setting a gas price with every transaction, which is the cost of 1 unit of gas, denominated in Gwei \(1 ETH = 1,000,000,000 Gwei\). For example, when you simply send ETH from one account to another, this cost 21000 gas. If you were to set a gas price of 1 Gwei, this transaction would cost 0.000021 ETH.
 
 ### Fee market  <a id="fee-market"></a>
 
-Currently, the Ethereum network is working at or near capacity. This means that a [fee market](https://docs.ethhub.io/-LTo-PwFj1VwulVCZAFW/~/drafts/-LUpsUsOLWLhW7Fftje4/primary/using-ethereum/ethereum-network-basics/transactions/fee-market) is created because some users may be willing to pay more to get to the front of the line while others may not be in as big of a rush. Tools such as [EthGasStation](https://ethgasstation.info/) offer a great view into the current fee market and what it current costs to get a basic or fast transaction through.
+Currently, the Ethereum network is working at or near capacity. This means that a [fee market](https://docs.ethhub.io/using-ethereum/transactions/#fee-market) is created because some users may be willing to pay more to get to the front of the line while others may not be in as big of a rush. Tools such as [EthGasStation](https://ethgasstation.info/) offer a great view into the current fee market and what it current costs to get a basic or fast transaction through.
 
 You'll notice that so far, we haven't talked about fiat or the cost of a transaction in fiat value. That's because at its core, the fee market is independent from the cost of Ether. Users have the ability to send a transaction from 0 gas price all the way to as high as they'd like and miners have the ability to accept the same range.
 

@@ -1,3 +1,7 @@
+title: How to Buy Ether - EthHub
+
+description: In order to interact with the Ethereum network, you will need to own ether (ETH). The quickest way to acquire ETH is from someone that already owns it.
+
 # How to Buy Ether
 
 In order to [interact](https://docs.ethhub.io/using-ethereum/transactions/) with the Ethereum network, you will need to own ether (ETH). Unless you are mining, the only way to acquire ETH is from someone that already owns it. Below is a list of cryptocurrency exchanges where you can acquire ETH with fiat or cryptocurrencies. It is highly recommended to store the ETH you own in a [hardware wallet](https://docs.ethhub.io/using-ethereum/wallets/hardware/)!
@@ -12,11 +16,6 @@ Coinbase is based in San Fransisco and is one of the most reputable and well kno
 
 [Buy ETH on Coinbase](https://www.coinbase.com/join/527bbccd0c46660a8a00003b)
 
-## Dether
-Dether is a global, p2p marketplace for buying and selling ETH in person with cash.
-
-[Buy ETH on Dether](https://dether.io)
-
 ## Gemini
 Gemini is based in New York and has a great history of security and reliability. Users can buy ETH with fiat or cryptocurrencies.
 
@@ -27,7 +26,12 @@ Kraken is a great option for those living in Canada, Europe, and the United Stat
 
 [Buy ETH on Kraken](https://www.kraken.com)
 
-## LocalEthereum
-LocalEthereum is a global, p2p marketplace for buying and selling ETH. Over 30 payment methods are supported including in-person cash trades.
+## Dether
+Dether is a global, p2p marketplace for buying and selling ETH in person with cash.
 
-[Buy ETH on LocalEthereum](https://localethereum.com/)
+[Buy ETH on Dether](https://dether.io)
+
+## LocalCryptos
+LocalCryptos is a global, p2p marketplace for buying and selling ETH. Over 30 payment methods are supported including in-person cash trades.
+
+[Buy ETH on LocalCryptos](https://localcryptos.com/)

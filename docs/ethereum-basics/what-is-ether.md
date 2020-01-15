@@ -1,4 +1,5 @@
 title: What is Ether? - EthHub
+
 description: Ether is the native cryptocurrency used on the Ethereum network.
 
 # What is Ether?
@@ -57,5 +58,5 @@ In Ethereum 2.0 \(with Sharding and Proof of Stake implemented\), while a low in
 
 ## Resources
 
-* [Wikipedia](https://en.wikipedia.org/wiki/Ether)
 * [Why Ether is Valuable](https://medium.com/ethhub/why-ether-is-valuable-2b4e39e01eb3)
+* [Ether: A New Model for Money](https://medium.com/pov-crypto/ether-a-new-model-for-money-17365b5535ba)

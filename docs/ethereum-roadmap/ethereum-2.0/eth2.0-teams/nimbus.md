@@ -1,3 +1,7 @@
+title: Status: Nimbus - EthHub
+
+description: Status is building Nimbus - an Ethereum 2.0 client written in the programming language Nim.
+
 # Status
 
 ## Background
@@ -10,7 +14,7 @@ Status is building Nimbus - an Ethereum 2.0 client written in the programming la
 
 ## Resources:
 
-* [Website](https://nimbus.status.im/)
+* [Website](https://nimbus.team/)
 * [Github](https://github.com/status-im/nimbus)
 * [Twitter](https://twitter.com/ethstatus)
 

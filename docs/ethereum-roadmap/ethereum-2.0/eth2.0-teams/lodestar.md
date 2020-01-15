@@ -1,3 +1,7 @@
+title: Chainsafe Systems: Lodestar - EthHub
+
+description: Chainsafe Systems is currently building an Ethereum 2.0 client written in JavaScript/TypeScript called Lodestar.
+
 # ChainSafe Systems
 
 ## Background
@@ -11,7 +15,7 @@ The team is currently building an Ethereum 2.0 client written in JavaScript/Type
 ## Resources:
 
 * [Website](https://chainsafe.io/)
-* [Github](https://github.com/ChainSafeSystems/lodestar)
+* [Github](https://github.com/ChainSafe/lodestar)
 * [Gitter](https://gitter.im/chainsafe/lodestar)
 * [Twitter](https://twitter.com/chainsafeth)
 

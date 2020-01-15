@@ -1,3 +1,7 @@
+title: Mythereum - EthHub
+
+description: Mythereum is a unique fantasy trading card game including one-on-one battles featuring Leaders and supporters. The community hosts regular tournaments.
+
 # Mythereum
 
 <img src="https://pbs.twimg.com/media/DYSjeh4VMAABh6D.jpg" alt="Mythereum battle" width="600" />

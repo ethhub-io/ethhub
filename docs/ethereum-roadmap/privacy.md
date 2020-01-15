@@ -1,4 +1,5 @@
 title: Privacy on Ethereum - EthHub
+
 description: Solutions proposed to build out privacy technology on Ethereum.
 
 # Privacy
@@ -19,9 +20,16 @@ Privacy on Ethereum is being actively worked on by a number of different teams.
 
 [Enigma Protocol](https://blog.enigma.co/welcome-to-enigma-start-here-e65c8c9125ef) are building ['secret contracts'](https://blog.enigma.co/defining-secret-contracts-f40ddee67ef2) which enable [computation over encrypted data](https://blog.enigma.co/computing-over-encrypted-data-d36621458447).
 
-[Zether](https://ethresear.ch/t/zether-the-first-privacy-mechanism-designed-for-ethereum/5029) is a confidential (transaction amounts are hidden) and anonymous (transaction sender and receiver are hidden) payment mechanism on blockchains with the account model like Ethereum. [More info on Zether](https://medium.com/coinmonks/notes-on-zether-towards-privacy-in-a-smart-contract-world-6c4333f975d).
+[Zether](https://ethresear.ch/t/zether-the-first-privacy-mechanism-designed-for-ethereum/5029) is a confidential (transaction amounts are hidden) and anonymous (transaction sender and receiver are hidden) payment mechanism on blockchains with the account model like Ethereum. [More info on Zether](https://medium.com/@loveshharchandani/notes-on-zether-towards-privacy-in-a-smart-contract-world-6c4333f975d).
+
 
 #### Mixers
+
+
+[Tornado](https://tornado.cash/) is mixer, which uses zk-SNARKS.
+
+[Heiswap](https://heiswap.exchange/) uses [stealth addresses and linkable ring signatures](https://kndrck.co/posts/heiswap_internal_arch_tour/). Currently lives on Ropsten.
+
 Vitalik Buterin created [a post](https://ethereum-magicians.org/t/meta-we-should-value-privacy-more/2475) on EthMagicians calling for more attention towards privacy solutions:
 > Mixers
 
@@ -41,6 +49,7 @@ Vitalik Buterin created [a post](https://ethereum-magicians.org/t/meta-we-should
 
 ## Resources:
 
+* [Master ZKP Reading List](https://zkp.science/)
 * [Private DAI transactions on Ethereum using Zk-SNARKs](https://medium.com/@atvanguard/zkdai-private-dai-transactions-on-ethereum-using-zk-snarks-9e3ef4676e22)
 * [Explain Like I’m 5: Zero Knowledge Proof](https://hackernoon.com/eli5-zero-knowledge-proof-78a276db9eff)
 

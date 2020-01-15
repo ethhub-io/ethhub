@@ -1,3 +1,7 @@
+title: Gods Unchained - EthHub
+
+description: Gods Unchained is a free-to-play digital trading card game built on Ethereum. Cards from the core set can be unlocked by progressing through the game.
+
 # Gods Unchained
 
 <img src="https://www.tokenflipper.com/wp-content/uploads/Articlepic.jpg" alt="Gods Unchained mythic" width="500" />
@@ -16,9 +20,9 @@ To trustlessly trade Gods Unchained cards, cards must first be 'activated' using
 
 ## Game Mechanics
 
-Gods Unchained builds on the classic gameplay mechanics made famous by Magic the Gathering and Hearthstone. New to Gods Unchained is an [innovate new mana system](https://medium.com/@fuelgames/gods-unchained-mana-system-b2d3cb24e6b7) that forces players to begin engaging on turn 1.
+Gods Unchained builds on the classic gameplay mechanics made famous by Magic the Gathering and Hearthstone. New to Gods Unchained is an [innovate new mana system](https://medium.com/@immutable/gods-unchained-mana-system-b2d3cb24e6b7) that forces players to begin engaging on turn 1.
 
-The game also supports a massive variety of possible matches by giving each player the choice of up to [five special god powers](https://medium.com/@fuelgames/thaeriels-powers-770186b85895) at the start of each match. Of these powers, four are always regular and one is an ultimate. Regular powers can be activated once per turn while an ultimate power can only be used once per match. Since the game has [six gods](https://godsunchained.com/explore/citadel) to play with and each god can use one of [five powers](https://gudecks.com/deckbuilder), there are 7776 possible match combinations in Gods Unchained. This enables more gameplay variety than has been possible before.
+The game also supports a massive variety of possible matches by giving each player the choice of up to [five special god powers](https://medium.com/@immutable/thaeriels-powers-770186b85895) at the start of each match. Of these powers, four are always regular and one is an ultimate. Regular powers can be activated once per turn while an ultimate power can only be used once per match. Since the game has [six gods](https://godsunchained.com/explore/citadel) to play with and each god can use one of [five powers](https://gudecks.com/deckbuilder), there are 7776 possible match combinations in Gods Unchained. This enables more gameplay variety than has been possible before.
 
 Other gameplay features include a Rune system \(i.e. special small spells\), an Anim system \(i.e. special small creatures\) and a special mulligan and first/second turn system.
 
@@ -32,20 +36,20 @@ Gods Unchained is currently in open beta. Downloading the apollo client and crea
 
 ### Etherbots crossover
 
-[Etherbots](https://docs.ethhub.io/built-on-ethereum/games/etherbots), by the same studio Fuel Games, was originally launched in March 2018 and included battling completely on-chain. To promote interoperability Etherbots holders were rewarded with exclusive Gods Unchained cards for their early contributions. Etherbots 2 is expected after Gods Unchained is fully launched.
+[Etherbots](https://docs.ethhub.io/built-on-ethereum/games/etherbots), by the same studio Immutable, was originally launched in March 2018 and included battling completely on-chain. To promote interoperability Etherbots holders were rewarded with exclusive Gods Unchained cards for their early contributions. Etherbots 2 is expected after Gods Unchained is fully launched.
 
 ### CryptoKitties crossover
 
-On January 10th, 2019, a partnership between Gods Unchained and the kitty-breeding collectible game [CryptoKitties](https://docs.ethhub.io/built-on-ethereum/games/cryptokitties) was [announced](https://medium.com/@fuelgames/cryptokitties-x-gods-unchained-7f69c80b5e5b). Between Jan. 10th to Jan. 21st, 2019, CryptoKitty owners were able to forge statues in Gods Unchained, including a special Talisman based on a new fancy cat called Tally the Furrocious. 380 Special-Edition Gods Unchained Aeoncat Kitties were made available for purchase. Each Aeoncat granted its owner a chance to win the exclusive Hypurrion kitty, modelled after GU's Hyperion.
+On January 10th, 2019, a partnership between Gods Unchained and the kitty-breeding collectible game [CryptoKitties](https://docs.ethhub.io/built-on-ethereum/games/cryptokitties) was [announced](https://medium.com/@immutable/cryptokitties-x-gods-unchained-7f69c80b5e5b). Between Jan. 10th to Jan. 21st, 2019, CryptoKitty owners were able to forge statues in Gods Unchained, including a special Talisman based on a new fancy cat called Tally the Furrocious. 380 Special-Edition Gods Unchained Aeoncat Kitties were made available for purchase. Each Aeoncat granted its owner a chance to win the exclusive Hypurrion kitty, modelled after GU's Hyperion.
 
 ## Resources
 
 * [Website](https://www.godsunchained.com)
 * [Twitter](https://twitter.com/godsunchained?lang=en)
 * [Discord](https://discord.gg/DKGr2pW)
-* [Comprehensive Guide](http://bit.ly/TokenFlipper)
+* [Comprehensive Guide](https://bit.ly/TokenFlipper)
 * [godsunchained.info - Game stats/Collection Browser](https://godsunchained.info)
 * [gu.cards - Card Catalogue/Deck Building/Automated Pack Opening](https://gu.cards)
 * [gudecks.com - Card Catalogue/Deck Building/Collectibles & Tournament Pass Marketplace](https://gudecks.com)
-* [FuelGames Website](https://www.fuelgames.io/)
+* [Immutable Website](https://www.immutable.com/)
 

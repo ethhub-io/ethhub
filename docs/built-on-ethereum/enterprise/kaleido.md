@@ -1,4 +1,4 @@
-title: Kaleido
+title: Kaleido  - EthHub
 
 description: The Kaleido Blockchain Business Cloud is the full-stack platform for building and running cross-cloud, hybrid enterprise ecosystems.
 

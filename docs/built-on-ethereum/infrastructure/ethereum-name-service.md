@@ -1,3 +1,7 @@
+title: Ethereum Name Service (ENS) - EthHub
+
+description: Ethereum Name Service (ENS) is a decentralized domain name provider. It allows users to buy and manage .eth domains without a centralized domain registrar.
+
 # Ethereum Name Service \(ENS\)
 
 ## Description

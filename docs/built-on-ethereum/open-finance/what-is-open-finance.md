@@ -1,11 +1,12 @@
-title: Open Finance on Ethereum - EthHub
-description: Open Finance refers to a number of decentralized protocols building open financial infrastructure.
+title: Decentralized Finance on Ethereum - EthHub
 
-# Open Finance
+description: Decentralized Finance refers to a number of decentralized protocols building open financial infrastructure.
+
+# Decentralized Finance
 
 ## Summary
 
-Open Finance (a.k.a. Decentralized Finance or "DeFi") refers to a number of decentralized protocols building open financial infrastructure. These protocols are valuable because they're creating the necessary plumbing to enable anyone in the world with an internet connection to access self-sovereign, censorship resistant financial services.
+Decentralized Finance (a.k.a. "DeFi" or "Open Finance") refers to a number of decentralized protocols building open financial infrastructure. These protocols are valuable because they're creating the necessary plumbing to enable anyone in the world with an internet connection to access self-sovereign, censorship resistant financial services.
 
 In the existing system, all financial services are controlled by a central party. Whether it's basic money transfers, asset purchases, or lending, you must go through an intermediary who charges rent for mediating financial transactions. Ethereum-based financial services, on the other hand, connect individuals peer-to-peer and allow them to access basic financing more easily and affordably.
 
@@ -24,7 +25,7 @@ Ethereum leverages the same principles that create 'digital trust' within Bitcoi
 5. **Programmable**: Developers can create and intertwine financial services at a very low cost
 6. **Efficiency**:  Open financial services are powered by code, not humans, and as such entail much lower middleman costs, if at all
 
-## Open Finance is generally broken up into the following categories:
+## Decentralized Finance is generally broken up into the following categories:
 
 1. Asset Exchange
 2. Credit Scoring
@@ -39,5 +40,5 @@ Ethereum leverages the same principles that create 'digital trust' within Bitcoi
 
 ## Resources
 
-* [Awesome Decentralized Finance](https://github.com/ong/awesome-decentralized-finance)
+* [Decentralized Finance dApps on Ethereum](https://defiprime.com/ethereum)
 

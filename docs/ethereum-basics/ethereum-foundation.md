@@ -1,4 +1,5 @@
 title: Ethereum Foundation - EthHub
+
 description: Information on the Ethereum Foundation
 
 # Ethereum Foundation
@@ -25,7 +26,6 @@ Ethereum Foundation [incorporated](https://www.zefix.ch/en/search/entity/list/fi
 
 Ethereum Foundation is the [owner of trademarks](https://trademarks.justia.com/owners/stiftung-ethereum-foundation-ethereum-3479392/): ETHEREUM, ETHER, ENTERPRISE ETHEREUM and ENTERPRISE ETHEREUM ALLIANCE.
 
-Sometime in late 2018, an Ethereum Foundation org chart was published online. It can be found [here](https://notes.ethereum.org/lNSvELX1Qvm4zjXlA7cRkQ).
 
 ## Funding and Burn Rate
 
@@ -34,13 +34,4 @@ The Ethereum Foundation’s [multisig wallet](https://etherscan.io/address/0xde0
 It is currently not known how much the Ethereum Foundation spends on its organization and grants every year.
 
 ## Resources
-
-[Ethereum Foundation Org Charts as of 2018](https://notes.ethereum.org/lNSvELX1Qvm4zjXlA7cRkQ)
-
-[EF Unicorn Directory as of unknown date](https://airtable.com/shrINaaECNpnrW0Ox/tblMNhNxXQxQYzGTJ?blocks=hide)
-
 [Vitalik’s comments on internal teams](https://www.reddit.com/r/ethereum/comments/95h4io/how_many_people_work_for_ethereum_foundation/e3sv72e/)
-
-
-
-

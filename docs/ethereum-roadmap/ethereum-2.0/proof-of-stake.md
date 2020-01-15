@@ -1,4 +1,5 @@
 title: Ethereum Proof of Stake - EthHub
+
 description: Information on Proof of Stake and how it will work on Ethereum.
 
 # Proof of Stake (PoS)
@@ -9,8 +10,8 @@ Proof of Stake represents a class of consensus algorithms in which validators vo
 It is considered an improvement over Proof of Work (PoW) because of less consumption of electricity, reduced centralization risks, security against different types of 51% attacks, and more.
 
 PoS can be classified into two major types:
-*Chain-Based: Rely on the synchronicity of the network
-*BFT-Based: Favour consistency of nodes over availability
+* Chain-Based: Rely on the synchronicity of the network
+* BFT-Based: Favour consistency of nodes over availability
 
 To participate in voting \(i.e. to become a validator\) you are required to stake ETH for which you'll be rewarded with additional ETH at some interest rate in addition to receiving a portion of the network transaction fees.
 
@@ -51,7 +52,7 @@ The fourth is most difficult. The fourth can be recovered from via a "minority s
 
 ### Why would I want to stake my ETH?
 
-For staking your ETH and attesting to correct blocks, you will be rewarded with additional ETH through a network wide interest rate as well as receive a portion of network transaction fees. Details can be found [here](https://docs.ethhub.io/ethereum-roadmap/serenity-phases/eth-2.0-economics).
+For staking your ETH and attesting to correct blocks, you will be rewarded with additional ETH through a network wide interest rate as well as receive a portion of network transaction fees. Details can be found [here](https://docs.ethhub.io/ethereum-roadmap/ethereum-2.0/eth-2.0-economics).
 
 ### What are the minimum requirements to stake?
 
@@ -97,7 +98,8 @@ There is a withdraw queue that you are placed into when wanting to withdraw ETH 
 
 ### Resources
 
-[Proof of Stake FAQ](https://github.com/ethereum/wiki/wiki/Proof-of-Stake-FAQs)
-* [Beacon and Validator explanations](https://twitter.com/terenc3t/status/1070738081337106432)
+* [Proof of Stake FAQ](https://github.com/ethereum/wiki/wiki/Proof-of-Stake-FAQ)
+* [CBC Casper Resources](https://docs.google.com/document/d/1Iz4d5qhb5OeIajTwfmdE0DZeWjxq7ebD70_0WWOqGa8/edit#)
+* [Beacon and Validator explanations](https://twitter.com/terencechain/status/1070738081337106432)
 * [Some details around staking from Vitalik](https://www.reddit.com/r/ethereum/comments/a41u9k/_/ebbm03t/?context=1)
 

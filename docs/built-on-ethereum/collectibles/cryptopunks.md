@@ -1,3 +1,7 @@
+title: CryptoPunks - EthHub
+
+description: CryptoPunks are unique pixel art collectibles with individual chracteristics stored on the Ethereum blockchain.
+
 # CryptoPunks
 
 CryptoPunks are 10,000 unique collectible characters with proof of ownership stored on the Ethereum blockchain. No two are exactly alike, and each one of them can be officially owned by a single person on the Ethereum blockchain.

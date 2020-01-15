@@ -1,4 +1,4 @@
-title: MetLife
+title: MetLife - EthHub
 
 description: MetLife is utilizing the live public Ethereum blockchain to add transparency and efficiency to the life insurance claims process.
 

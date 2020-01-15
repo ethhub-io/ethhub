@@ -1,3 +1,7 @@
+title: Ethlance - EthHub
+
+description: Ethlance is a freelance marketplace platform. Payments are non-custodial and feeless while the data is stored on Ethereum and IPFS.
+
 # Ethlance
 
 ## Description

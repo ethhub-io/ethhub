@@ -1,3 +1,7 @@
+title: Gnosis Ecosystem Fund - EthHub
+
+description: The Gnosis Ecosystem Fund empowers teams to drive the global adoption of decentralized application.
+
 # Gnosis Ecosystem Fund
 
 The Gnosis Ecosystem Fund empowers teams to drive the global adoption of decentralized applications by leveraging the full potential of Gnosis' products and protocols.

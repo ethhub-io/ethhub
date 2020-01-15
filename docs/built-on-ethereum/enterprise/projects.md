@@ -1,6 +1,6 @@
-title: Enterprise Ethereum Projects
+title: Enterprise Ethereum Projects - EthHub
 
-description: Projects building with the Enterprise Ethereum
+description: Projects are building solutions for enterprise with Ethereum. Banks across the globe are looking to blockchain to bring efficiency and cooperation.
 
 # Enterprise Ethereum Projects
 

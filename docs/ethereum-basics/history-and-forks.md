@@ -1,4 +1,5 @@
 title: Ethereum’s History and Network Upgrades - EthHub
+
 description: A history of Ethereum and past network upgrades.
 
 # History and Network Upgrades
@@ -31,6 +32,8 @@ Ether was not usable or transferable until the launch of the genesis block which
 | [Spurious Dragon](https://blog.ethereum.org/2016/11/18/hard-fork-no-4-spurious-dragon/) | 2675000 | 2016-11-22 |
 | [Byzantium](https://blog.ethereum.org/2017/10/12/byzantium-hf-announcement/) | 4370000 | 2017-10-16 |
 | [Constantinople](https://github.com/ethereum/pm/wiki/Constantinople-Progress-Tracker) | 7280000 | 2019-02-28 |
+| [Istanbul](https://consensys.net/blog/news/everything-you-need-to-know-about-the-istanbul-hard-fork/) | 9069000 | 2019-12-06 |
+| [Muir Glacier](https://blog.ethereum.org/2019/12/23/ethereum-muir-glacier-upgrade-announcement/) | 9200000 | 2020-01-02 |
 
 ## History Timeline
 
@@ -40,4 +43,3 @@ For a digital history book on Ethereum, visit ["The History of Ethereum" timelin
 
 * [Launching the Ether Sale](https://blog.ethereum.org/2014/07/22/launching-the-ether-sale/)
 * [A Statistical Overview of the Ether Sale](https://blog.ethereum.org/2014/08/08/ether-sale-a-statistical-overview/)
-

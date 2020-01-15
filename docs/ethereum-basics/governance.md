@@ -1,4 +1,5 @@
 title: Governance on Ethereum - EthHub
+
 description: The core components of Ethereum’s governance system.
 
 # Governance

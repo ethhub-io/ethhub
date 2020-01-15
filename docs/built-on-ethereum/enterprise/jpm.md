@@ -1,6 +1,6 @@
-title: JP Morgan
+title: JP Morgan - EthHub
 
-description: JPM is working on blockchain solutions for business
+description: JPM is working on Quorum and other blockchain solutions for business. JPM Coin, built on Quorum, enables instant transfers between institutions.
 
 # JPM
 

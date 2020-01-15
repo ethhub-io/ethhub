@@ -1,3 +1,7 @@
+title: Sigma Prime: Lighthouse - EthHub
+
+description: Sigma Prime is building an Ethereum 2.0 client called Lighthouse written in the programming language Rust.
+
 # Sigma
 
 ## Background

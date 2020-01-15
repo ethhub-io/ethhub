@@ -1,4 +1,5 @@
 title: Sharding on Ethereum - EthHub
+
 description: Information on sharding and how it will work on Ethereum.
 
 # Sharding
@@ -9,7 +10,7 @@ There is a trilemma in blockchain systems that can be visualized in form of a tr
 
 ![](/assets/images/dcs-triangle.png)
 
-Sharding is an attempt to solve this challenge. It simply means partitioning large chains \(databses\) into smaller, faster ones hence making the entire system more scalable. How?
+Sharding is an attempt to solve this challenge. It simply means partitioning large chains \(databases\) into smaller, faster ones hence making the entire system more scalable. How?
 To solve scalability, we split the state and history stored on the main chain into shards. Each shard manages itself, has its own  transaction history, and the effect of transactions in some shard are limited to that shard only.
 
 Examples for this would be:
@@ -53,7 +54,7 @@ Note that there are now several "levels" of nodes that can exist in such a syste
 
 ## Resources
 
-* [Sharding FAQ](https://github.com/ethereum/wiki/wiki/Sharding-FAQs)
+* [Sharding FAQ](https://github.com/ethereum/wiki/wiki/Sharding-FAQ)
 * [Sharding Roadmap](https://github.com/ethereum/wiki/wiki/Sharding-roadmap)
 * [DCS Triangle](https://blog.bigchaindb.com/the-dcs-triangle-5ce0e9e0f1dc)
 

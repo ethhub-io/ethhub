@@ -1,4 +1,5 @@
 title: Ethereum 1.x - EthHub
+
 description: Ethereum 1.x is an effort to improve performance and storage of the current Ethereum mainnet.
 
 # Ethereum 1.x
@@ -6,7 +7,7 @@ description: Ethereum 1.x is an effort to improve performance and storage of the
 ## Summary
 
 Ethereum 1.x is a codename for a comprehensive set of upgrades to the Ethereum mainnet intended for near-term adoption. <br/>
-Ethereum 2.0 (Serenity) won't be fully rolled out for another 2-3 years with Phase 0 and Phase 1 due within 1-2 and Phase 2 due sometime in 2022. Ethereum 2.0 is being deployed as a seperate blockchain so it does not supersede ETH 1.0 which means the chain needs to be sustainable for another 5-10 years.
+Ethereum 2.0 (Serenity) won't be fully rolled out for another 2-3 years with Phase 0 and Phase 1 due within 1-2 and Phase 2 due sometime in 2022. Ethereum 2.0 is being deployed as a separate blockchain so it does not supersede ETH 1.0 which means the chain needs to be sustainable for another 5-10 years.
 
 Eth1.x is a result of a group of Ethereum core developers and friends discussing the current challenges of Ethereum at Devcon IV and realising that they all share a similar view - that the Ethereum mainnet, if left unchanged, would become very hard or impossible to use due to severe performance degradation and increased storage requirements.
 
@@ -198,7 +199,7 @@ It solve all of the issues that the Merkle proof mechanism has, you can always f
 
 #### Garbage Collection
 
-If we agree on an N month/block retention policy, whenever the chain progresses, each client would delete bodies and receipts older than HEAD-N. This has an implication on the RPC APIs too however. We need to introduce the concept of a "vitual genesis block" (open for better names) which define the point of history before which the APIs cannot return data (or return that they don't maintain it any more).
+If we agree on an N month/block retention policy, whenever the chain progresses, each client would delete bodies and receipts older than HEAD-N. This has an implication on the RPC APIs too however. We need to introduce the concept of a "virtual genesis block" (open for better names) which define the point of history before which the APIs cannot return data (or return that they don't maintain it any more).
 
 #### Block/Receipt Archives
 
@@ -210,7 +211,7 @@ Archiving historical chain segments so they remain available for later reconstru
 
 Since the whole point of Ethereum is decentralization, the only option we have is intra-protocol. However there are many methods by which we can store the archives in a decentralized way. Some of them are listed here:
 
-* [Swarm](https://ethswarm.org/) \(but not production ready\)
+* [Swarm](https://swarm.ethereum.org/) \(but not production ready\)
 * [IPFS](https://ipfs.io/) \(accessing is easy, hosting is hard\)
 * [BitTorrent](https://www.bittorrent.com/)
 * LES/PIP
@@ -263,7 +264,7 @@ Developers are in the process of collecting datasets for simulation and finalizi
 
 **Dataset Preparation**
 
-Datasets are being collected [here](https://drive.google.com/drive/folders/1cJRMKxhGBzXMxNBcPi011Mg5e2Dw1JU1) from various sources like [WhiteBlock](https://whiteblock.io/), [etherscan](https://whiteblock.io/) etc.
+Datasets are being collected [here](https://drive.google.com/drive/folders/1cJRMKxhGBzXMxNBcPi011Mg5e2Dw1JU1) from various sources like [WhiteBlock](https://whiteblock.io/), [Etherscan](https://etherscan.io/) etc.
 
 #### Resources
 
@@ -279,3 +280,8 @@ Datasets are being collected [here](https://drive.google.com/drive/folders/1cJRM
 #### Measures likely not requiring hard-forks, but requiring cross client code coordination on the network protocol:
 
 * Storage pruning
+
+## Resources
+* [Ethereum 1x Definition (part 1)](https://ledgerwatch.github.io/Ethereum_1x_Definition_part_1)
+* [Ethereum 1x Definition (part 2)](https://ledgerwatch.github.io/Ethereum_1x_Definition_part_2)
+* [Ethereum 1x Definition (part 3)](https://ledgerwatch.github.io/Ethereum_1x_Definition_part_3)
