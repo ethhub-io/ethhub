@@ -10,7 +10,7 @@ PegaSys \(Protocol Engineering Groups and Systems\) is a 50-person team dedicate
 
 ## Implementation Details
 
-The PegaSys Ethereum 2.0 client is called Artemis. It is being built alongside Besu, an Ethereum 1.0 and enterprise-grade client written in the Java programming language. Both Artemis and Besu are Apache 2.0 licensed.
+The PegaSys Ethereum 2.0 client is called Teku (formerly known as Artemis). It is being built alongside Besu, an Ethereum 1.0 and enterprise-grade client written in the Java programming language. Both Artemis and Besu are Apache 2.0 licensed.
 
 ## Resources:
 
@@ -18,4 +18,3 @@ The PegaSys Ethereum 2.0 client is called Artemis. It is being built alongside B
 * [Github](https://github.com/PegaSysEng/artemis)
 * [Gitter](https://gitter.im/PegaSysEng/artemis)
 * [Twitter](https://twitter.com/pegasyseng)
-
