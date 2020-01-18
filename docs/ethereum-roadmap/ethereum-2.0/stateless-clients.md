@@ -85,14 +85,18 @@ within one block of the evaluated block, because lengthy hash cryptography is no
 electricity requirements, therefore cost of running a node.  Additionally, the held stake is an economic incentive / punishement for
 any miner that performs nefarious activity.
 
-Nodes will realize one of the largest improvements due to stateless clients.  The need to store large amounts of blockchain data
-will be obsolete.   The time to set up a node will drop from weeks to hours.  Transaction speed will increase greatly since so much
-data has been cut out of the state verifying work.
+Disk I/O becomes less susceptable to DoS attacks, however still remains the best vector for a DoS attack.  Even for state-storing clients, the account lists allow clients to pre-fetch storage data from disk, possibly in parallel, greatly reducing their vulnerability to DoS attacks.
+
+In a sharded blockchain, security is increased by reshuffling clients between shards frequently.  In a state-storing client model, reshuffling involved clients download the full state of the new shard they are being reshuffled to. In a stateless client, this cost drops to zero, allowing clients to be reshuffled between every single block that they create.
+
+Transaction speed and scalablility will also improve.
 
 ## Security Considerations
 
+DoS attacks aimed at the disk I/O vector are still the greatest risk for DoS attacks.
+
 Casper is the proof of staking algorithm used in Ethereum 2.0.  The following are a list of theoretical attacks that could be executed
-on Casper for furthe research on your own.
+on Casper for further research on your own.
 * [Casper Weaknesses](https://ethstaking.io/guide-to-ethereum-proof-of-stake-and-casper/casper-weaknesses/)
 * [Casper Sybil Attack](https://ethstaking.io/guide-to-ethereum-proof-of-stake-and-casper/casper-sybil-attack/)
 * [Casper 51% Attack](https://ethstaking.io/guide-to-ethereum-proof-of-stake-and-casper/casper-51-attack/)
