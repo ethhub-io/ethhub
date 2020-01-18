@@ -59,4 +59,5 @@ Quantum computing poses a threat to the ability of being able to crack ZK-Rollup
 * [zkSNARKs in a nutshell](https://blog.ethereum.org/2016/12/05/zksnarks-in-a-nutshell/)
 * [On-chain scaling to potentially ~500tx/sec through mass tx validation](https://ethresear.ch/t/on-chain-scaling-to-potentially-500-tx-sec-through-mass-tx-validation/3477)
 * [ZK Rollup & Optimistic Rollup (En)](https://medium.com/coinmonks/zk-rollup-optimistic-rollup-70c01295231b)
-* [On-chain scaling with full data availability.  Moving verification of chains off-chain?](https://ethresear.ch/t/on-chain-scaling-with-full-data-availability-moving-verification-of-transactions-off-chain/3847)
+* [On-chain scaling with full data availability.  
+* [Moving verification of chains off-chain?](https://ethresear.ch/t/on-chain-scaling-with-full-data-availability-moving-verification-of-transactions-off-chain/3847)
