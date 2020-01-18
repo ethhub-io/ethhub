@@ -13,8 +13,7 @@ A root hash is generated from the totality of the entire blockchain which is the
 determine consensus on the network.
 
 Recording the entire state of the blockchain is cumbersome and uses a lot of computational power.  Instead, the change of the state
-can be recorded and packaged with verifiable witness data so that consensus can still be reached with less resource consumption.  
-Increased scalability and significantly improved transaction speeds that result. Using only the change value of the before and after
+can be recorded and packaged with verifiable witness data so that consensus can still be reached with less resource consumption.  Increased scalability and significantly improved transaction speeds that result. Using only the change value of the before and after
 creates statelessness.  Statelessness actually exists on a spectrum, it is not absolute.  The degree of statelessness will depend upon the
 task being performed on the blockchain.
 
@@ -30,8 +29,7 @@ When the node reches this predetermined milestone and is in agreement with the b
 can be built in the background and allow the node to work.
 
 When a node comes online it will be fully stateless since it will hold zero information regarding state.  Over time it will soak up the
-state as transactions touch upon it, putting together a more complete state with every change of state presented.  New nodes will more
-stateless which has lower memory usage, disk, and I/O, however bandwidth usage will be the highest because peers need to send larger
+state as transactions touch upon it, putting together a more complete state with every change of state presented.  New nodes will start as stateless clients which utilizes lower memory, disk space, and I/O.  Bandwidth usage will be the highest on a stateless node because peers need to send larger
 proofs to the new node as it develops its own state data.  More stateful clients will have higher demands on memory, disk, and I/O while
 bandwidth requirements would decrease.  Nodes can become more stateful until a certain tradeoff point is reached and then halted from
 further acquisition of state information to optimize the trade off in computing power and bandwidth.
@@ -42,8 +40,7 @@ Ethereum 1.X implements stateless clients in beam-sync (a method of fast syncing
 It creates what is called a launch-block and only records the input and output state of this block locally.  The launch block is
 a predetermined block number that is a certain amount of time in the future.  The future dated deadline is so that the node can work
 on constructing the launch-block.  Witness data is called by the node to construct blocks.  As long as the launch-block is created early
-or on time, the creation of blocks will continue and the node is active.  Use of witness data and input/output states only make this a
-stateless client.
+or on time, the creation of blocks will continue and the node is active.  Use of only the witness data and input/output states make this a stateless client.
 
 Ethereum 2.0 implements stateless clients in Sharding.  All nodes are stateless so that faster processing with less data
 increases scalability greatly.  Currently the Ethereum blockchain is a sequential chain of blocks where one is
