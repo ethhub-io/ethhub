@@ -63,7 +63,7 @@ further acquisition of state information to optimize the trade off in computing 
 
 ## Applications of Stateless Clients in Ethereum
 
-Ethereum 1.X implements stateless but not stateless miners.  Fast sync initializes as a stateless node.  
+Ethereum 1.X implements stateless clients but not stateless miners.  Fast sync initializes as a stateless node.  
 It creates what is called a launch-block and only records the input and output state of this block locally.  The launch block is
 a predetermined block number that is a certain amount of time in the future.  The future dated deadline is so that the node can work
 on constructing the launch-block.  Witness data is called by the node to construct blocks.  As long as the launch-block is created early
