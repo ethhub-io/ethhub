@@ -1,6 +1,6 @@
 title: Yeeth - EthHub
 
-description: Dean & Eric Tu are building an Ethereum 2.0 client written in the Swift programming language.
+description: Yeeth Ethereum 2.0 client implementation
 
 # Yeeth
 
