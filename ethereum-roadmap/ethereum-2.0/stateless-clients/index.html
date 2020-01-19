@@ -1,0 +1,4866 @@
+
+
+
+
+<!doctype html>
+<html lang="en" class="no-js">
+  <head>
+    
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width,initial-scale=1">
+      <meta http-equiv="x-ua-compatible" content="ie=edge">
+      
+        <meta name="description" content="Essential source for Ethereum information.">
+      
+      
+      
+      
+        <meta name="lang:clipboard.copy" content="Copy to clipboard">
+      
+        <meta name="lang:clipboard.copied" content="Copied to clipboard">
+      
+        <meta name="lang:search.language" content="en">
+      
+        <meta name="lang:search.pipeline.stopwords" content="True">
+      
+        <meta name="lang:search.pipeline.trimmer" content="True">
+      
+        <meta name="lang:search.result.none" content="No matching documents">
+      
+        <meta name="lang:search.result.one" content="1 matching document">
+      
+        <meta name="lang:search.result.other" content="# matching documents">
+      
+        <meta name="lang:search.tokenizer" content="[\s\-]+">
+      
+      <link rel="shortcut icon" href="../../../assets/images/favicon.ico">
+      <meta name="generator" content="mkdocs-1.0.4, mkdocs-material-3.3.0">
+    
+    
+      
+        <title>Stateless-Clients - Ethhub</title>
+      
+    
+    
+      <link rel="stylesheet" href="../../../assets/stylesheets/application.63c76b3b.css">
+      
+        <link rel="stylesheet" href="../../../assets/stylesheets/application-palette.4637f1a4.css">
+      
+      
+        
+        
+        <meta name="theme-color" content="">
+      
+    
+    
+      <script src="../../../assets/javascripts/modernizr.962652e9.js"></script>
+    
+    
+      
+        <link href="https://fonts.gstatic.com" rel="preconnect" crossorigin>
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,400,400i,700|Roboto+Mono">
+        <style>body,input{font-family:"Roboto","Helvetica Neue",Helvetica,Arial,sans-serif}code,kbd,pre{font-family:"Roboto Mono","Courier New",Courier,monospace}</style>
+      
+    
+    <link rel="stylesheet" href="../../../assets/fonts/material-icons.css">
+    
+    
+      <link rel="stylesheet" href="../../../extra.css">
+    
+    
+      
+        <script async src="https://www.googletagmanager.com/gtag/js?id=UA-125892125-2"></script>
+<script>function gtag(){dataLayer.push(arguments)}window.dataLayer=window.dataLayer||[],gtag("js",new Date),gtag("config","UA-125892125-2")</script>
+      
+    
+    
+  </head>
+  
+    
+    
+    <body dir="ltr" data-md-color-primary="ethhub" data-md-color-accent="">
+  
+    <svg class="md-svg">
+      <defs>
+        
+        
+          <svg xmlns="http://www.w3.org/2000/svg" width="416" height="448"
+    viewBox="0 0 416 448" id="__github">
+  <path fill="currentColor" d="M160 304q0 10-3.125 20.5t-10.75 19-18.125
+        8.5-18.125-8.5-10.75-19-3.125-20.5 3.125-20.5 10.75-19 18.125-8.5
+        18.125 8.5 10.75 19 3.125 20.5zM320 304q0 10-3.125 20.5t-10.75
+        19-18.125 8.5-18.125-8.5-10.75-19-3.125-20.5 3.125-20.5 10.75-19
+        18.125-8.5 18.125 8.5 10.75 19 3.125 20.5zM360
+        304q0-30-17.25-51t-46.75-21q-10.25 0-48.75 5.25-17.75 2.75-39.25
+        2.75t-39.25-2.75q-38-5.25-48.75-5.25-29.5 0-46.75 21t-17.25 51q0 22 8
+        38.375t20.25 25.75 30.5 15 35 7.375 37.25 1.75h42q20.5 0
+        37.25-1.75t35-7.375 30.5-15 20.25-25.75 8-38.375zM416 260q0 51.75-15.25
+        82.75-9.5 19.25-26.375 33.25t-35.25 21.5-42.5 11.875-42.875 5.5-41.75
+        1.125q-19.5 0-35.5-0.75t-36.875-3.125-38.125-7.5-34.25-12.875-30.25-20.25-21.5-28.75q-15.5-30.75-15.5-82.75
+        0-59.25 34-99-6.75-20.5-6.75-42.5 0-29 12.75-54.5 27 0 47.5 9.875t47.25
+        30.875q36.75-8.75 77.25-8.75 37 0 70 8 26.25-20.5
+        46.75-30.25t47.25-9.75q12.75 25.5 12.75 54.5 0 21.75-6.75 42 34 40 34
+        99.5z" />
+</svg>
+        
+      </defs>
+    </svg>
+    <input class="md-toggle" data-md-toggle="drawer" type="checkbox" id="__drawer" autocomplete="off">
+    <input class="md-toggle" data-md-toggle="search" type="checkbox" id="__search" autocomplete="off">
+    <label class="md-overlay" data-md-component="overlay" for="__drawer"></label>
+    
+      <a href="#stateless-clients" tabindex="1" class="md-skip">
+        Skip to content
+      </a>
+    
+    
+      <header class="md-header" data-md-component="header">
+  <nav class="md-header-nav md-grid">
+    <div class="md-flex">
+      <div class="md-flex__cell md-flex__cell--shrink">
+        <a href="../../.." title="EthHub" class="md-header-nav__button md-logo">
+          
+            <img src="../../../logo.png" width="24" height="24">
+          
+        </a>
+      </div>
+      <div class="md-flex__cell md-flex__cell--shrink">
+        <label class="md-icon md-icon--menu md-header-nav__button" for="__drawer"></label>
+      </div>
+      <div class="md-flex__cell md-flex__cell--stretch">
+        <div class="md-flex__ellipsis md-header-nav__title" data-md-component="title">
+          
+            
+              <span class="md-header-nav__topic">
+                EthHub
+              </span>
+              <span class="md-header-nav__topic">
+                Stateless Clients
+              </span>
+            
+          
+        </div>
+      </div>
+      <div class="md-flex__cell md-flex__cell--shrink">
+        
+          
+            <label class="md-icon md-icon--search md-header-nav__button" for="__search"></label>
+            
+<div class="md-search" data-md-component="search" role="dialog">
+  <label class="md-search__overlay" for="__search"></label>
+  <div class="md-search__inner" role="search">
+    <form class="md-search__form" name="search">
+      <input type="text" class="md-search__input" name="query" placeholder="Search" autocapitalize="off" autocorrect="off" autocomplete="off" spellcheck="false" data-md-component="query" data-md-state="active">
+      <label class="md-icon md-search__icon" for="__search"></label>
+      <button type="reset" class="md-icon md-search__icon" data-md-component="reset" tabindex="-1">
+        &#xE5CD;
+      </button>
+    </form>
+    <div class="md-search__output">
+      <div class="md-search__scrollwrap" data-md-scrollfix>
+        <div class="md-search-result" data-md-component="result">
+          <div class="md-search-result__meta">
+            Type to start searching
+          </div>
+          <ol class="md-search-result__list"></ol>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+          
+        
+      </div>
+      
+        <div class="md-flex__cell md-flex__cell--shrink">
+          <div class="md-header-nav__source">
+            
+
+
+  
+
+
+  <a href="https://github.com/ethhub-io/ethhub/" title="Go to repository" class="md-source" data-md-source="github">
+    
+      <div class="md-source__icon">
+        <svg viewBox="0 0 24 24" width="24" height="24">
+          <use xlink:href="#__github" width="24" height="24"></use>
+        </svg>
+      </div>
+    
+    <div class="md-source__repository">
+      ethhub-io/ethhub
+    </div>
+  </a>
+
+          </div>
+        </div>
+      
+    </div>
+  </nav>
+</header>
+    
+    <div class="md-container">
+      
+        
+      
+      
+        
+
+  
+
+<nav class="md-tabs md-tabs--active" data-md-component="tabs">
+  <div class="md-tabs__inner md-grid">
+    <ul class="md-tabs__list">
+      
+        
+  <li class="md-tabs__item">
+    
+      <a href="../../.." title="Home" class="md-tabs__link">
+        Home
+      </a>
+    
+  </li>
+
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+  
+  
+    <li class="md-tabs__item">
+      
+        <a href="../../../ethereum-basics/what-is-ethereum/" title="Ethereum Basics" class="md-tabs__link">
+          Ethereum Basics
+        </a>
+      
+    </li>
+  
+
+      
+        
+  
+  
+    
+    
+  
+  
+    <li class="md-tabs__item">
+      
+        <a href="../eth-2.0-phases/" title="Ethereum Roadmap" class="md-tabs__link">
+          Ethereum Roadmap
+        </a>
+      
+    </li>
+  
+
+  
+
+      
+        
+  
+  
+    <li class="md-tabs__item">
+      
+        <a href="../../../using-ethereum/how-to-buy-ether/" title="Using Ethereum" class="md-tabs__link">
+          Using Ethereum
+        </a>
+      
+    </li>
+  
+
+      
+        
+  
+  
+    <li class="md-tabs__item">
+      
+        <a href="../../../built-on-ethereum/built-on-ethereum/" title="Ethereum Ecosystem" class="md-tabs__link">
+          Ethereum Ecosystem
+        </a>
+      
+    </li>
+  
+
+      
+        
+  
+  
+    <li class="md-tabs__item">
+      
+        <a href="../../../using-ethereum/ethereum-new-user-guide/" title="Guides" class="md-tabs__link">
+          Guides
+        </a>
+      
+    </li>
+  
+
+      
+        
+  
+  
+    <li class="md-tabs__item">
+      
+        <a href="../../../questions-about-ethereum/is-ethereum-more-expensive-to-use-as-price-rises/" title="Ethereum FAQ" class="md-tabs__link">
+          Ethereum FAQ
+        </a>
+      
+    </li>
+  
+
+      
+        
+  
+  
+    <li class="md-tabs__item">
+      
+        <a href="../../../other/ethereum-branding-kit/" title="Other" class="md-tabs__link">
+          Other
+        </a>
+      
+    </li>
+  
+
+      
+        
+  
+  
+    <li class="md-tabs__item">
+      
+        <a href="../../../glossary/crypto-acronyms/" title="Glossary" class="md-tabs__link">
+          Glossary
+        </a>
+      
+    </li>
+  
+
+      
+    </ul>
+  </div>
+</nav>
+      
+      <main class="md-main">
+        <div class="md-main__inner md-grid" data-md-component="container">
+          
+            
+              <div class="md-sidebar md-sidebar--primary" data-md-component="navigation">
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    <nav class="md-nav md-nav--primary" data-md-level="0">
+  <label class="md-nav__title md-nav__title--site" for="__drawer">
+    <a href="../../.." title="EthHub" class="md-nav__button md-logo">
+      
+        <img src="../../../logo.png" width="48" height="48">
+      
+    </a>
+    EthHub
+  </label>
+  
+    <div class="md-nav__source">
+      
+
+
+  
+
+
+  <a href="https://github.com/ethhub-io/ethhub/" title="Go to repository" class="md-source" data-md-source="github">
+    
+      <div class="md-source__icon">
+        <svg viewBox="0 0 24 24" width="24" height="24">
+          <use xlink:href="#__github" width="24" height="24"></use>
+        </svg>
+      </div>
+    
+    <div class="md-source__repository">
+      ethhub-io/ethhub
+    </div>
+  </a>
+
+    </div>
+  
+  <ul class="md-nav__list" data-md-scrollfix>
+    
+      
+      
+      
+
+
+  <li class="md-nav__item">
+    <a href="../../.." title="Home" class="md-nav__link">
+      Home
+    </a>
+  </li>
+
+    
+      
+      
+      
+
+
+  <li class="md-nav__item">
+    <a href="../../../ethereum-basics/what-is-ethereum/" title="Docs" class="md-nav__link">
+      Docs
+    </a>
+  </li>
+
+    
+      
+      
+      
+
+
+  <li class="md-nav__item">
+    <a href="https://podcast.ethhub.io" title="Podcast" class="md-nav__link">
+      Podcast
+    </a>
+  </li>
+
+    
+      
+      
+      
+
+
+  <li class="md-nav__item">
+    <a href="https://ethhub.substack.com/" title="Newsletter" class="md-nav__link">
+      Newsletter
+    </a>
+  </li>
+
+    
+      
+      
+      
+
+
+  <li class="md-nav__item">
+    <a href="https://shop.ethhub.io" title="Shop" class="md-nav__link">
+      Shop
+    </a>
+  </li>
+
+    
+      
+      
+      
+
+
+  <li class="md-nav__item md-nav__item--nested">
+    
+      <input class="md-toggle md-nav__toggle" data-md-toggle="nav-6" type="checkbox" id="nav-6">
+    
+    <label class="md-nav__link" for="nav-6">
+      Ethereum Basics
+    </label>
+    <nav class="md-nav" data-md-component="collapsible" data-md-level="1">
+      <label class="md-nav__title" for="nav-6">
+        Ethereum Basics
+      </label>
+      <ul class="md-nav__list" data-md-scrollfix>
+        
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../../ethereum-basics/what-is-ethereum/" title="What is Ethereum?" class="md-nav__link">
+      What is Ethereum?
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../../ethereum-basics/what-is-ether/" title="What is Ether?" class="md-nav__link">
+      What is Ether?
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../../ethereum-basics/history-and-forks/" title="History and Network Upgrades" class="md-nav__link">
+      History and Network Upgrades
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../../ethereum-basics/monetary-policy/" title="Monetary Policy" class="md-nav__link">
+      Monetary Policy
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../../ethereum-basics/ethereum-foundation/" title="Ethereum Foundation" class="md-nav__link">
+      Ethereum Foundation
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../../ethereum-basics/governance/" title="Governance" class="md-nav__link">
+      Governance
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item md-nav__item--nested">
+    
+      <input class="md-toggle md-nav__toggle" data-md-toggle="nav-6-7" type="checkbox" id="nav-6-7">
+    
+    <label class="md-nav__link" for="nav-6-7">
+      Development
+    </label>
+    <nav class="md-nav" data-md-component="collapsible" data-md-level="2">
+      <label class="md-nav__title" for="nav-6-7">
+        Development
+      </label>
+      <ul class="md-nav__list" data-md-scrollfix>
+        
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../../ethereum-basics/development/interacting-with-clients/" title="Interacting with clients" class="md-nav__link">
+      Interacting with clients
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../../ethereum-basics/development/ethereum-development-basics/" title="Ethereum Development Basics" class="md-nav__link">
+      Ethereum Development Basics
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../../ethereum-basics/development/patterns/" title="Patterns" class="md-nav__link">
+      Patterns
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../../ethereum-basics/development/testing/" title="Testing" class="md-nav__link">
+      Testing
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../../ethereum-basics/development/tooling/" title="Tooling" class="md-nav__link">
+      Tooling
+    </a>
+  </li>
+
+        
+      </ul>
+    </nav>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../../ethereum-basics/resources/" title="Resources" class="md-nav__link">
+      Resources
+    </a>
+  </li>
+
+        
+      </ul>
+    </nav>
+  </li>
+
+    
+      
+      
+      
+
+  
+
+
+  <li class="md-nav__item md-nav__item--active md-nav__item--nested">
+    
+      <input class="md-toggle md-nav__toggle" data-md-toggle="nav-7" type="checkbox" id="nav-7" checked>
+    
+    <label class="md-nav__link" for="nav-7">
+      Ethereum Roadmap
+    </label>
+    <nav class="md-nav" data-md-component="collapsible" data-md-level="1">
+      <label class="md-nav__title" for="nav-7">
+        Ethereum Roadmap
+      </label>
+      <ul class="md-nav__list" data-md-scrollfix>
+        
+        
+          
+          
+          
+
+
+  <li class="md-nav__item md-nav__item--nested">
+    
+      <input class="md-toggle md-nav__toggle" data-md-toggle="nav-7-1" type="checkbox" id="nav-7-1">
+    
+    <label class="md-nav__link" for="nav-7-1">
+      Ethereum 2.0
+    </label>
+    <nav class="md-nav" data-md-component="collapsible" data-md-level="2">
+      <label class="md-nav__title" for="nav-7-1">
+        Ethereum 2.0
+      </label>
+      <ul class="md-nav__list" data-md-scrollfix>
+        
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../eth-2.0-phases/" title="Ethereum 2.0 Phases" class="md-nav__link">
+      Ethereum 2.0 Phases
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../proof-of-stake/" title="Proof of Stake" class="md-nav__link">
+      Proof of Stake
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../sharding/" title="Sharding" class="md-nav__link">
+      Sharding
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../eth-2.0-economics/" title="Ethereum 2.0 Economics" class="md-nav__link">
+      Ethereum 2.0 Economics
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../eth-1.0-to-2.0-migration/" title="Ethereum 1.0 to 2.0 Migration" class="md-nav__link">
+      Ethereum 1.0 to 2.0 Migration
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../eth-2.0-client-architecture/" title="Ethereum 2.0 Client Architecture" class="md-nav__link">
+      Ethereum 2.0 Client Architecture
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item md-nav__item--nested">
+    
+      <input class="md-toggle md-nav__toggle" data-md-toggle="nav-7-1-7" type="checkbox" id="nav-7-1-7">
+    
+    <label class="md-nav__link" for="nav-7-1-7">
+      Ethereum 2.0 Teams
+    </label>
+    <nav class="md-nav" data-md-component="collapsible" data-md-level="3">
+      <label class="md-nav__title" for="nav-7-1-7">
+        Ethereum 2.0 Teams
+      </label>
+      <ul class="md-nav__list" data-md-scrollfix>
+        
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../eth2.0-teams/teams-building-eth2.0/" title="Teams Building Eth 2.0" class="md-nav__link">
+      Teams Building Eth 2.0
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../eth2.0-teams/artemis/" title="Artemis" class="md-nav__link">
+      Artemis
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../eth2.0-teams/harmony/" title="Harmony" class="md-nav__link">
+      Harmony
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../eth2.0-teams/lighthouse/" title="Lighthouse" class="md-nav__link">
+      Lighthouse
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../eth2.0-teams/lodestar/" title="Lodestar" class="md-nav__link">
+      Lodestar
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../eth2.0-teams/nimbus/" title="Nimbus" class="md-nav__link">
+      Nimbus
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../eth2.0-teams/prysm/" title="Prysm" class="md-nav__link">
+      Prysm
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../eth2.0-teams/shasper/" title="Shasper" class="md-nav__link">
+      Shasper
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../eth2.0-teams/trinity/" title="Trinity" class="md-nav__link">
+      Trinity
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../eth2.0-teams/nethermind/" title="Nethermind" class="md-nav__link">
+      Nethermind
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../eth2.0-teams/yeeth/" title="Yeeth" class="md-nav__link">
+      Yeeth
+    </a>
+  </li>
+
+        
+      </ul>
+    </nav>
+  </li>
+
+        
+      </ul>
+    </nav>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../ethereum-1.x/" title="Ethereum 1.x" class="md-nav__link">
+      Ethereum 1.x
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+  
+
+
+  <li class="md-nav__item md-nav__item--active">
+    
+    <input class="md-toggle md-nav__toggle" data-md-toggle="toc" type="checkbox" id="__toc">
+    
+      
+    
+    
+      <label class="md-nav__link md-nav__link--active" for="__toc">
+        Stateless Clients
+      </label>
+    
+    <a href="./" title="Stateless Clients" class="md-nav__link md-nav__link--active">
+      Stateless Clients
+    </a>
+    
+      
+<nav class="md-nav md-nav--secondary">
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">Table of contents</label>
+    <ul class="md-nav__list" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#introduction" title="Introduction" class="md-nav__link">
+    Introduction
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#what-does-state-mean" title="What does state mean?" class="md-nav__link">
+    What does state mean?
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#state-defining-objects" title="State-defining Objects" class="md-nav__link">
+    State-defining Objects
+  </a>
+  
+    <nav class="md-nav">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#account-state" title="Account State" class="md-nav__link">
+    Account State
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#world-state" title="World State" class="md-nav__link">
+    World State
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#ethereum-stateless-client" title="Ethereum Stateless Client" class="md-nav__link">
+    Ethereum Stateless Client
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#applications-of-stateless-clients-in-ethereum" title="Applications of Stateless Clients in Ethereum" class="md-nav__link">
+    Applications of Stateless Clients in Ethereum
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#additional-benefits-of-stateless-clients" title="Additional Benefits of Stateless Clients" class="md-nav__link">
+    Additional Benefits of Stateless Clients
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#security-considerations" title="Security Considerations" class="md-nav__link">
+    Security Considerations
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#resources" title="Resources" class="md-nav__link">
+    Resources
+  </a>
+  
+</li>
+      
+      
+      
+      
+      
+    </ul>
+  
+</nav>
+    
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item md-nav__item--nested">
+    
+      <input class="md-toggle md-nav__toggle" data-md-toggle="nav-7-4" type="checkbox" id="nav-7-4">
+    
+    <label class="md-nav__link" for="nav-7-4">
+      Layer 2 Scaling
+    </label>
+    <nav class="md-nav" data-md-component="collapsible" data-md-level="2">
+      <label class="md-nav__title" for="nav-7-4">
+        Layer 2 Scaling
+      </label>
+      <ul class="md-nav__list" data-md-scrollfix>
+        
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../layer-2-scaling/zk-rollups/" title="ZK-Rollups" class="md-nav__link">
+      ZK-Rollups
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../layer-2-scaling/optimistic_rollups/" title="Optimistic Rollups" class="md-nav__link">
+      Optimistic Rollups
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../layer-2-scaling/plasma/" title="Plasma" class="md-nav__link">
+      Plasma
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../layer-2-scaling/state-channels/" title="State Channels" class="md-nav__link">
+      State Channels
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../layer-2-scaling/payment-channels/" title="Payment Channels" class="md-nav__link">
+      Payment Channels
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../layer-2-scaling/zk-starks/" title="ZK-STARKs" class="md-nav__link">
+      ZK-STARKs
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../layer-2-scaling/commit-chains/" title="Commit-Chains" class="md-nav__link">
+      Commit-Chains
+    </a>
+  </li>
+
+        
+      </ul>
+    </nav>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../privacy/" title="Privacy" class="md-nav__link">
+      Privacy
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../istanbul/" title="Istanbul" class="md-nav__link">
+      Istanbul
+    </a>
+  </li>
+
+        
+      </ul>
+    </nav>
+  </li>
+
+    
+      
+      
+      
+
+
+  <li class="md-nav__item md-nav__item--nested">
+    
+      <input class="md-toggle md-nav__toggle" data-md-toggle="nav-8" type="checkbox" id="nav-8">
+    
+    <label class="md-nav__link" for="nav-8">
+      Using Ethereum
+    </label>
+    <nav class="md-nav" data-md-component="collapsible" data-md-level="1">
+      <label class="md-nav__title" for="nav-8">
+        Using Ethereum
+      </label>
+      <ul class="md-nav__list" data-md-scrollfix>
+        
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../../using-ethereum/how-to-buy-ether/" title="How to Buy Ether" class="md-nav__link">
+      How to Buy Ether
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../../using-ethereum/running-an-ethereum-node/" title="Running an Ethereum Node" class="md-nav__link">
+      Running an Ethereum Node
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item md-nav__item--nested">
+    
+      <input class="md-toggle md-nav__toggle" data-md-toggle="nav-8-3" type="checkbox" id="nav-8-3">
+    
+    <label class="md-nav__link" for="nav-8-3">
+      Ethereum Clients
+    </label>
+    <nav class="md-nav" data-md-component="collapsible" data-md-level="2">
+      <label class="md-nav__title" for="nav-8-3">
+        Ethereum Clients
+      </label>
+      <ul class="md-nav__list" data-md-scrollfix>
+        
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../../using-ethereum/ethereum-clients/geth/" title="Geth" class="md-nav__link">
+      Geth
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../../using-ethereum/ethereum-clients/parity/" title="Parity" class="md-nav__link">
+      Parity
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../../using-ethereum/ethereum-clients/nethermind/" title="Nethermind" class="md-nav__link">
+      Nethermind
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../../using-ethereum/ethereum-clients/besu/" title="Besu" class="md-nav__link">
+      Besu
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../../using-ethereum/ethereum-clients/py-evm/" title="Py-EVM (Trinity)" class="md-nav__link">
+      Py-EVM (Trinity)
+    </a>
+  </li>
+
+        
+      </ul>
+    </nav>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../../using-ethereum/transactions/" title="Transactions" class="md-nav__link">
+      Transactions
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../../using-ethereum/mining/" title="Mining" class="md-nav__link">
+      Mining
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../../using-ethereum/test-networks/" title="Test Networks" class="md-nav__link">
+      Test Networks
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item md-nav__item--nested">
+    
+      <input class="md-toggle md-nav__toggle" data-md-toggle="nav-8-7" type="checkbox" id="nav-8-7">
+    
+    <label class="md-nav__link" for="nav-8-7">
+      Wallets
+    </label>
+    <nav class="md-nav" data-md-component="collapsible" data-md-level="2">
+      <label class="md-nav__title" for="nav-8-7">
+        Wallets
+      </label>
+      <ul class="md-nav__list" data-md-scrollfix>
+        
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../../using-ethereum/wallets/intro-to-ethereum-wallets/" title="Intro to Ethereum Wallets" class="md-nav__link">
+      Intro to Ethereum Wallets
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../../using-ethereum/wallets/smart-contract-wallets/" title="Smart Contract Wallets" class="md-nav__link">
+      Smart Contract Wallets
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../../using-ethereum/wallets/hardware/" title="Hardware" class="md-nav__link">
+      Hardware
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../../using-ethereum/wallets/mobile/" title="Mobile" class="md-nav__link">
+      Mobile
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../../using-ethereum/wallets/desktop/" title="Desktop" class="md-nav__link">
+      Desktop
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../../using-ethereum/wallets/web/" title="Web" class="md-nav__link">
+      Web
+    </a>
+  </li>
+
+        
+      </ul>
+    </nav>
+  </li>
+
+        
+      </ul>
+    </nav>
+  </li>
+
+    
+      
+      
+      
+
+
+  <li class="md-nav__item md-nav__item--nested">
+    
+      <input class="md-toggle md-nav__toggle" data-md-toggle="nav-9" type="checkbox" id="nav-9">
+    
+    <label class="md-nav__link" for="nav-9">
+      Ethereum Ecosystem
+    </label>
+    <nav class="md-nav" data-md-component="collapsible" data-md-level="1">
+      <label class="md-nav__title" for="nav-9">
+        Ethereum Ecosystem
+      </label>
+      <ul class="md-nav__list" data-md-scrollfix>
+        
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../../built-on-ethereum/built-on-ethereum/" title="Built on Ethereum" class="md-nav__link">
+      Built on Ethereum
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item md-nav__item--nested">
+    
+      <input class="md-toggle md-nav__toggle" data-md-toggle="nav-9-2" type="checkbox" id="nav-9-2">
+    
+    <label class="md-nav__link" for="nav-9-2">
+      Decentralized Finance
+    </label>
+    <nav class="md-nav" data-md-component="collapsible" data-md-level="2">
+      <label class="md-nav__title" for="nav-9-2">
+        Decentralized Finance
+      </label>
+      <ul class="md-nav__list" data-md-scrollfix>
+        
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../../built-on-ethereum/open-finance/what-is-open-finance/" title="What is Decentralized Finance (DeFi)?" class="md-nav__link">
+      What is Decentralized Finance (DeFi)?
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item md-nav__item--nested">
+    
+      <input class="md-toggle md-nav__toggle" data-md-toggle="nav-9-2-2" type="checkbox" id="nav-9-2-2">
+    
+    <label class="md-nav__link" for="nav-9-2-2">
+      Stablecoins
+    </label>
+    <nav class="md-nav" data-md-component="collapsible" data-md-level="3">
+      <label class="md-nav__title" for="nav-9-2-2">
+        Stablecoins
+      </label>
+      <ul class="md-nav__list" data-md-scrollfix>
+        
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../../built-on-ethereum/open-finance/stablecoins/what-are-stablecoins/" title="What are Stablecoins?" class="md-nav__link">
+      What are Stablecoins?
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../../built-on-ethereum/open-finance/stablecoins/dai/" title="Dai" class="md-nav__link">
+      Dai
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../../built-on-ethereum/open-finance/stablecoins/gusd/" title="GUSD" class="md-nav__link">
+      GUSD
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../../built-on-ethereum/open-finance/stablecoins/usdc/" title="USDC" class="md-nav__link">
+      USDC
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../../built-on-ethereum/open-finance/stablecoins/trueusd/" title="True USD" class="md-nav__link">
+      True USD
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../../built-on-ethereum/open-finance/stablecoins/tether/" title="Tether" class="md-nav__link">
+      Tether
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../../built-on-ethereum/open-finance/stablecoins/paxos/" title="Paxos" class="md-nav__link">
+      Paxos
+    </a>
+  </li>
+
+        
+      </ul>
+    </nav>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item md-nav__item--nested">
+    
+      <input class="md-toggle md-nav__toggle" data-md-toggle="nav-9-2-3" type="checkbox" id="nav-9-2-3">
+    
+    <label class="md-nav__link" for="nav-9-2-3">
+      Lending
+    </label>
+    <nav class="md-nav" data-md-component="collapsible" data-md-level="3">
+      <label class="md-nav__title" for="nav-9-2-3">
+        Lending
+      </label>
+      <ul class="md-nav__list" data-md-scrollfix>
+        
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../../built-on-ethereum/open-finance/lending/bzx/" title="bzx" class="md-nav__link">
+      bzx
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../../built-on-ethereum/open-finance/lending/compound/" title="Compound" class="md-nav__link">
+      Compound
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../../built-on-ethereum/open-finance/lending/dharma/" title="Dharma" class="md-nav__link">
+      Dharma
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../../built-on-ethereum/open-finance/lending/dydx/" title="dydx" class="md-nav__link">
+      dydx
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../../built-on-ethereum/open-finance/lending/expo/" title="Expo" class="md-nav__link">
+      Expo
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../../built-on-ethereum/open-finance/lending/fulcrum/" title="Fulcrum" class="md-nav__link">
+      Fulcrum
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../../built-on-ethereum/open-finance/lending/maker/" title="Maker" class="md-nav__link">
+      Maker
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../../built-on-ethereum/open-finance/lending/torque/" title="Torque" class="md-nav__link">
+      Torque
+    </a>
+  </li>
+
+        
+      </ul>
+    </nav>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item md-nav__item--nested">
+    
+      <input class="md-toggle md-nav__toggle" data-md-toggle="nav-9-2-4" type="checkbox" id="nav-9-2-4">
+    
+    <label class="md-nav__link" for="nav-9-2-4">
+      Investing
+    </label>
+    <nav class="md-nav" data-md-component="collapsible" data-md-level="3">
+      <label class="md-nav__title" for="nav-9-2-4">
+        Investing
+      </label>
+      <ul class="md-nav__list" data-md-scrollfix>
+        
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../../built-on-ethereum/open-finance/investing/bskt/" title="Bskt" class="md-nav__link">
+      Bskt
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../../built-on-ethereum/open-finance/investing/digix/" title="Digix" class="md-nav__link">
+      Digix
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../../built-on-ethereum/open-finance/investing/set-protocol/" title="Set Protocol" class="md-nav__link">
+      Set Protocol
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../../built-on-ethereum/open-finance/investing/settle/" title="Settle" class="md-nav__link">
+      Settle
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../../built-on-ethereum/open-finance/investing/wbtc/" title="WBTC" class="md-nav__link">
+      WBTC
+    </a>
+  </li>
+
+        
+      </ul>
+    </nav>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item md-nav__item--nested">
+    
+      <input class="md-toggle md-nav__toggle" data-md-toggle="nav-9-2-5" type="checkbox" id="nav-9-2-5">
+    
+    <label class="md-nav__link" for="nav-9-2-5">
+      Payments
+    </label>
+    <nav class="md-nav" data-md-component="collapsible" data-md-level="3">
+      <label class="md-nav__title" for="nav-9-2-5">
+        Payments
+      </label>
+      <ul class="md-nav__list" data-md-scrollfix>
+        
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../../built-on-ethereum/open-finance/payments/burner-wallet/" title="Burner Wallet" class="md-nav__link">
+      Burner Wallet
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../../built-on-ethereum/open-finance/payments/daicard/" title="The Dai Card" class="md-nav__link">
+      The Dai Card
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../../built-on-ethereum/open-finance/payments/stablepay/" title="StablePay" class="md-nav__link">
+      StablePay
+    </a>
+  </li>
+
+        
+      </ul>
+    </nav>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item md-nav__item--nested">
+    
+      <input class="md-toggle md-nav__toggle" data-md-toggle="nav-9-2-6" type="checkbox" id="nav-9-2-6">
+    
+    <label class="md-nav__link" for="nav-9-2-6">
+      Insurance
+    </label>
+    <nav class="md-nav" data-md-component="collapsible" data-md-level="3">
+      <label class="md-nav__title" for="nav-9-2-6">
+        Insurance
+      </label>
+      <ul class="md-nav__list" data-md-scrollfix>
+        
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../../built-on-ethereum/open-finance/insurance/etherisc/" title="Etherisc" class="md-nav__link">
+      Etherisc
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../../built-on-ethereum/open-finance/insurance/nexus-mutual/" title="Nexus Mutual" class="md-nav__link">
+      Nexus Mutual
+    </a>
+  </li>
+
+        
+      </ul>
+    </nav>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item md-nav__item--nested">
+    
+      <input class="md-toggle md-nav__toggle" data-md-toggle="nav-9-2-7" type="checkbox" id="nav-9-2-7">
+    
+    <label class="md-nav__link" for="nav-9-2-7">
+      Prediction Markets
+    </label>
+    <nav class="md-nav" data-md-component="collapsible" data-md-level="3">
+      <label class="md-nav__title" for="nav-9-2-7">
+        Prediction Markets
+      </label>
+      <ul class="md-nav__list" data-md-scrollfix>
+        
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../../built-on-ethereum/open-finance/prediction-markets/what-are-prediction-markets/" title="What are Prediction Markets?" class="md-nav__link">
+      What are Prediction Markets?
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../../built-on-ethereum/open-finance/prediction-markets/augur/" title="Augur" class="md-nav__link">
+      Augur
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../../built-on-ethereum/open-finance/prediction-markets/gnosis/" title="Gnosis" class="md-nav__link">
+      Gnosis
+    </a>
+  </li>
+
+        
+      </ul>
+    </nav>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item md-nav__item--nested">
+    
+      <input class="md-toggle md-nav__toggle" data-md-toggle="nav-9-2-8" type="checkbox" id="nav-9-2-8">
+    
+    <label class="md-nav__link" for="nav-9-2-8">
+      Synthetics
+    </label>
+    <nav class="md-nav" data-md-component="collapsible" data-md-level="3">
+      <label class="md-nav__title" for="nav-9-2-8">
+        Synthetics
+      </label>
+      <ul class="md-nav__list" data-md-scrollfix>
+        
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../../built-on-ethereum/open-finance/synthetics/synthetix/" title="Synthetix" class="md-nav__link">
+      Synthetix
+    </a>
+  </li>
+
+        
+      </ul>
+    </nav>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item md-nav__item--nested">
+    
+      <input class="md-toggle md-nav__toggle" data-md-toggle="nav-9-2-9" type="checkbox" id="nav-9-2-9">
+    
+    <label class="md-nav__link" for="nav-9-2-9">
+      DeFi Dashboards
+    </label>
+    <nav class="md-nav" data-md-component="collapsible" data-md-level="3">
+      <label class="md-nav__title" for="nav-9-2-9">
+        DeFi Dashboards
+      </label>
+      <ul class="md-nav__list" data-md-scrollfix>
+        
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../../built-on-ethereum/open-finance/defi-dashboards/zerion/" title="Zerion" class="md-nav__link">
+      Zerion
+    </a>
+  </li>
+
+        
+      </ul>
+    </nav>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item md-nav__item--nested">
+    
+      <input class="md-toggle md-nav__toggle" data-md-toggle="nav-9-2-10" type="checkbox" id="nav-9-2-10">
+    
+    <label class="md-nav__link" for="nav-9-2-10">
+      Tokenized Securities
+    </label>
+    <nav class="md-nav" data-md-component="collapsible" data-md-level="3">
+      <label class="md-nav__title" for="nav-9-2-10">
+        Tokenized Securities
+      </label>
+      <ul class="md-nav__list" data-md-scrollfix>
+        
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../../built-on-ethereum/open-finance/securities/what-are-tokenized-securities/" title="What are Tokenized Securities?" class="md-nav__link">
+      What are Tokenized Securities?
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../../built-on-ethereum/open-finance/securities/abacus/" title="Abacus" class="md-nav__link">
+      Abacus
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../../built-on-ethereum/open-finance/securities/harbor/" title="Harbor" class="md-nav__link">
+      Harbor
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../../built-on-ethereum/open-finance/securities/polymath/" title="Polymath" class="md-nav__link">
+      Polymath
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../../built-on-ethereum/open-finance/securities/securitize/" title="Securitize" class="md-nav__link">
+      Securitize
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../../built-on-ethereum/open-finance/securities/templum/" title="Templum" class="md-nav__link">
+      Templum
+    </a>
+  </li>
+
+        
+      </ul>
+    </nav>
+  </li>
+
+        
+      </ul>
+    </nav>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item md-nav__item--nested">
+    
+      <input class="md-toggle md-nav__toggle" data-md-toggle="nav-9-3" type="checkbox" id="nav-9-3">
+    
+    <label class="md-nav__link" for="nav-9-3">
+      Decentralized Exchanges
+    </label>
+    <nav class="md-nav" data-md-component="collapsible" data-md-level="2">
+      <label class="md-nav__title" for="nav-9-3">
+        Decentralized Exchanges
+      </label>
+      <ul class="md-nav__list" data-md-scrollfix>
+        
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../../built-on-ethereum/decentralized-exchanges/what-are-decentralized-exchanges/" title="What are Decentralized Exchanges?" class="md-nav__link">
+      What are Decentralized Exchanges?
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item md-nav__item--nested">
+    
+      <input class="md-toggle md-nav__toggle" data-md-toggle="nav-9-3-2" type="checkbox" id="nav-9-3-2">
+    
+    <label class="md-nav__link" for="nav-9-3-2">
+      Auction Based
+    </label>
+    <nav class="md-nav" data-md-component="collapsible" data-md-level="3">
+      <label class="md-nav__title" for="nav-9-3-2">
+        Auction Based
+      </label>
+      <ul class="md-nav__list" data-md-scrollfix>
+        
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../../built-on-ethereum/decentralized-exchanges/auction-based/dutchx/" title="DutchX" class="md-nav__link">
+      DutchX
+    </a>
+  </li>
+
+        
+      </ul>
+    </nav>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item md-nav__item--nested">
+    
+      <input class="md-toggle md-nav__toggle" data-md-toggle="nav-9-3-3" type="checkbox" id="nav-9-3-3">
+    
+    <label class="md-nav__link" for="nav-9-3-3">
+      Off-Chain Orderbook
+    </label>
+    <nav class="md-nav" data-md-component="collapsible" data-md-level="3">
+      <label class="md-nav__title" for="nav-9-3-3">
+        Off-Chain Orderbook
+      </label>
+      <ul class="md-nav__list" data-md-scrollfix>
+        
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../../built-on-ethereum/decentralized-exchanges/off-chain-orderbook/what-is-off-chain-orderbook/" title="What are Off-Chain Orderbook Decentralized Exchanges?" class="md-nav__link">
+      What are Off-Chain Orderbook Decentralized Exchanges?
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../../built-on-ethereum/decentralized-exchanges/off-chain-orderbook/0x-protocol/" title="0x Protocol" class="md-nav__link">
+      0x Protocol
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../../built-on-ethereum/decentralized-exchanges/off-chain-orderbook/0x-instant/" title="0x-Instant" class="md-nav__link">
+      0x-Instant
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../../built-on-ethereum/decentralized-exchanges/off-chain-orderbook/0x-relayers/" title="0x-Relayers" class="md-nav__link">
+      0x-Relayers
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../../built-on-ethereum/decentralized-exchanges/off-chain-orderbook/etherdelta/" title="EtherDelta" class="md-nav__link">
+      EtherDelta
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../../built-on-ethereum/decentralized-exchanges/off-chain-orderbook/hydro/" title="Hydro" class="md-nav__link">
+      Hydro
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../../built-on-ethereum/decentralized-exchanges/off-chain-orderbook/idex/" title="IDEX" class="md-nav__link">
+      IDEX
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../../built-on-ethereum/decentralized-exchanges/off-chain-orderbook/loopring/" title="Loopring" class="md-nav__link">
+      Loopring
+    </a>
+  </li>
+
+        
+      </ul>
+    </nav>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item md-nav__item--nested">
+    
+      <input class="md-toggle md-nav__toggle" data-md-toggle="nav-9-3-4" type="checkbox" id="nav-9-3-4">
+    
+    <label class="md-nav__link" for="nav-9-3-4">
+      Peer to Peer
+    </label>
+    <nav class="md-nav" data-md-component="collapsible" data-md-level="3">
+      <label class="md-nav__title" for="nav-9-3-4">
+        Peer to Peer
+      </label>
+      <ul class="md-nav__list" data-md-scrollfix>
+        
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../../built-on-ethereum/decentralized-exchanges/peer-to-peer/what-is-peer-to-peer/" title="What are Peer to Peer Decentralized Exchanges?" class="md-nav__link">
+      What are Peer to Peer Decentralized Exchanges?
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../../built-on-ethereum/decentralized-exchanges/peer-to-peer/airswap/" title="Airswap" class="md-nav__link">
+      Airswap
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../../built-on-ethereum/decentralized-exchanges/peer-to-peer/ren/" title="Ren" class="md-nav__link">
+      Ren
+    </a>
+  </li>
+
+        
+      </ul>
+    </nav>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item md-nav__item--nested">
+    
+      <input class="md-toggle md-nav__toggle" data-md-toggle="nav-9-3-5" type="checkbox" id="nav-9-3-5">
+    
+    <label class="md-nav__link" for="nav-9-3-5">
+      Pool Based
+    </label>
+    <nav class="md-nav" data-md-component="collapsible" data-md-level="3">
+      <label class="md-nav__title" for="nav-9-3-5">
+        Pool Based
+      </label>
+      <ul class="md-nav__list" data-md-scrollfix>
+        
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../../built-on-ethereum/decentralized-exchanges/pool-based/what-is-pool-based/" title="What are Pool Based Decentralized Exchanges?" class="md-nav__link">
+      What are Pool Based Decentralized Exchanges?
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../../built-on-ethereum/decentralized-exchanges/pool-based/bancor/" title="Bancor" class="md-nav__link">
+      Bancor
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../../built-on-ethereum/decentralized-exchanges/pool-based/kyber/" title="Kyber" class="md-nav__link">
+      Kyber
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../../built-on-ethereum/decentralized-exchanges/pool-based/uniswap/" title="Uniswap" class="md-nav__link">
+      Uniswap
+    </a>
+  </li>
+
+        
+      </ul>
+    </nav>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item md-nav__item--nested">
+    
+      <input class="md-toggle md-nav__toggle" data-md-toggle="nav-9-3-6" type="checkbox" id="nav-9-3-6">
+    
+    <label class="md-nav__link" for="nav-9-3-6">
+      Aggregators
+    </label>
+    <nav class="md-nav" data-md-component="collapsible" data-md-level="3">
+      <label class="md-nav__title" for="nav-9-3-6">
+        Aggregators
+      </label>
+      <ul class="md-nav__list" data-md-scrollfix>
+        
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../../built-on-ethereum/decentralized-exchanges/aggregators/totle/" title="Totle" class="md-nav__link">
+      Totle
+    </a>
+  </li>
+
+        
+      </ul>
+    </nav>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item md-nav__item--nested">
+    
+      <input class="md-toggle md-nav__toggle" data-md-toggle="nav-9-3-7" type="checkbox" id="nav-9-3-7">
+    
+    <label class="md-nav__link" for="nav-9-3-7">
+      Layer 2 Based
+    </label>
+    <nav class="md-nav" data-md-component="collapsible" data-md-level="3">
+      <label class="md-nav__title" for="nav-9-3-7">
+        Layer 2 Based
+      </label>
+      <ul class="md-nav__list" data-md-scrollfix>
+        
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../../built-on-ethereum/decentralized-exchanges/layer-2-based/what-is-layer-2-based/" title="What are layer 2 based decentralized exchanges?" class="md-nav__link">
+      What are layer 2 based decentralized exchanges?
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../../built-on-ethereum/decentralized-exchanges/layer-2-based/tex/" title="TEX" class="md-nav__link">
+      TEX
+    </a>
+  </li>
+
+        
+      </ul>
+    </nav>
+  </li>
+
+        
+      </ul>
+    </nav>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item md-nav__item--nested">
+    
+      <input class="md-toggle md-nav__toggle" data-md-toggle="nav-9-4" type="checkbox" id="nav-9-4">
+    
+    <label class="md-nav__link" for="nav-9-4">
+      Games
+    </label>
+    <nav class="md-nav" data-md-component="collapsible" data-md-level="2">
+      <label class="md-nav__title" for="nav-9-4">
+        Games
+      </label>
+      <ul class="md-nav__list" data-md-scrollfix>
+        
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../../built-on-ethereum/games/what-is-blockchain-gaming/" title="What is Blockchain Gaming?" class="md-nav__link">
+      What is Blockchain Gaming?
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../../built-on-ethereum/games/axie-infinity/" title="Axie Infinity" class="md-nav__link">
+      Axie Infinity
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../../built-on-ethereum/games/caesars-triumph/" title="Caesar`s Triumph" class="md-nav__link">
+      Caesar`s Triumph
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../../built-on-ethereum/games/chainmonsters/" title="Chainmonsters" class="md-nav__link">
+      Chainmonsters
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../../built-on-ethereum/games/chibi-fighters/" title="Chibi Fighters" class="md-nav__link">
+      Chibi Fighters
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../../built-on-ethereum/games/crypto-space-commander/" title="Crypto Space Commander" class="md-nav__link">
+      Crypto Space Commander
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../../built-on-ethereum/games/cryptokitties/" title="CryptoKitties" class="md-nav__link">
+      CryptoKitties
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../../built-on-ethereum/games/etherbots/" title="Etherbots" class="md-nav__link">
+      Etherbots
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../../built-on-ethereum/games/etheremon/" title="Etheremon" class="md-nav__link">
+      Etheremon
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../../built-on-ethereum/games/etheroll/" title="Etheroll" class="md-nav__link">
+      Etheroll
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../../built-on-ethereum/games/gods-unchained/" title="Gods Unchained" class="md-nav__link">
+      Gods Unchained
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../../built-on-ethereum/games/mlb-champions/" title="MLB Champions" class="md-nav__link">
+      MLB Champions
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../../built-on-ethereum/games/mycryptoheroes/" title="My Crypto Heroes" class="md-nav__link">
+      My Crypto Heroes
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../../built-on-ethereum/games/mythereum/" title="Mythereum" class="md-nav__link">
+      Mythereum
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../../built-on-ethereum/games/relentless/" title="Relentless" class="md-nav__link">
+      Relentless
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../../built-on-ethereum/games/world-war-goo/" title="World War Goo" class="md-nav__link">
+      World War Goo
+    </a>
+  </li>
+
+        
+      </ul>
+    </nav>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item md-nav__item--nested">
+    
+      <input class="md-toggle md-nav__toggle" data-md-toggle="nav-9-5" type="checkbox" id="nav-9-5">
+    
+    <label class="md-nav__link" for="nav-9-5">
+      Collectibles
+    </label>
+    <nav class="md-nav" data-md-component="collapsible" data-md-level="2">
+      <label class="md-nav__title" for="nav-9-5">
+        Collectibles
+      </label>
+      <ul class="md-nav__list" data-md-scrollfix>
+        
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../../built-on-ethereum/collectibles/cryptopunks/" title="CryptoPunks" class="md-nav__link">
+      CryptoPunks
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../../built-on-ethereum/collectibles/decentraland/" title="Decentraland" class="md-nav__link">
+      Decentraland
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../../built-on-ethereum/collectibles/nftkred/" title="NFT.Kred" class="md-nav__link">
+      NFT.Kred
+    </a>
+  </li>
+
+        
+      </ul>
+    </nav>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item md-nav__item--nested">
+    
+      <input class="md-toggle md-nav__toggle" data-md-toggle="nav-9-6" type="checkbox" id="nav-9-6">
+    
+    <label class="md-nav__link" for="nav-9-6">
+      Marketplaces
+    </label>
+    <nav class="md-nav" data-md-component="collapsible" data-md-level="2">
+      <label class="md-nav__title" for="nav-9-6">
+        Marketplaces
+      </label>
+      <ul class="md-nav__list" data-md-scrollfix>
+        
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../../built-on-ethereum/marketplaces/district0x/" title="District0x" class="md-nav__link">
+      District0x
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../../built-on-ethereum/marketplaces/opensea/" title="Opensea" class="md-nav__link">
+      Opensea
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../../built-on-ethereum/marketplaces/origin-protocol/" title="Origin Protocol" class="md-nav__link">
+      Origin Protocol
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../../built-on-ethereum/marketplaces/rarebits/" title="Rarebits" class="md-nav__link">
+      Rarebits
+    </a>
+  </li>
+
+        
+      </ul>
+    </nav>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item md-nav__item--nested">
+    
+      <input class="md-toggle md-nav__toggle" data-md-toggle="nav-9-7" type="checkbox" id="nav-9-7">
+    
+    <label class="md-nav__link" for="nav-9-7">
+      Supply Chain
+    </label>
+    <nav class="md-nav" data-md-component="collapsible" data-md-level="2">
+      <label class="md-nav__title" for="nav-9-7">
+        Supply Chain
+      </label>
+      <ul class="md-nav__list" data-md-scrollfix>
+        
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../../built-on-ethereum/supply-chain/shipchain/" title="Shipchain" class="md-nav__link">
+      Shipchain
+    </a>
+  </li>
+
+        
+      </ul>
+    </nav>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item md-nav__item--nested">
+    
+      <input class="md-toggle md-nav__toggle" data-md-toggle="nav-9-8" type="checkbox" id="nav-9-8">
+    
+    <label class="md-nav__link" for="nav-9-8">
+      Developer Tools
+    </label>
+    <nav class="md-nav" data-md-component="collapsible" data-md-level="2">
+      <label class="md-nav__title" for="nav-9-8">
+        Developer Tools
+      </label>
+      <ul class="md-nav__list" data-md-scrollfix>
+        
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../../built-on-ethereum/developer-tools/gitcoin/" title="Gitcoin" class="md-nav__link">
+      Gitcoin
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../../built-on-ethereum/developer-tools/kauri/" title="Kauri" class="md-nav__link">
+      Kauri
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../../built-on-ethereum/developer-tools/mintable/" title="Mintable" class="md-nav__link">
+      Mintable
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../../built-on-ethereum/developer-tools/oneclickdapp/" title="One Click dApp" class="md-nav__link">
+      One Click dApp
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../../built-on-ethereum/developer-tools/walletconnect/" title="Wallet Connect" class="md-nav__link">
+      Wallet Connect
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../../built-on-ethereum/developer-tools/blocknative/" title="Blocknative" class="md-nav__link">
+      Blocknative
+    </a>
+  </li>
+
+        
+      </ul>
+    </nav>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item md-nav__item--nested">
+    
+      <input class="md-toggle md-nav__toggle" data-md-toggle="nav-9-9" type="checkbox" id="nav-9-9">
+    
+    <label class="md-nav__link" for="nav-9-9">
+      Identity
+    </label>
+    <nav class="md-nav" data-md-component="collapsible" data-md-level="2">
+      <label class="md-nav__title" for="nav-9-9">
+        Identity
+      </label>
+      <ul class="md-nav__list" data-md-scrollfix>
+        
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../../built-on-ethereum/identity/identity-on-ethereum/" title="Identity on Ethereum" class="md-nav__link">
+      Identity on Ethereum
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../../built-on-ethereum/identity/ERC-EIP/" title="Identity Standards" class="md-nav__link">
+      Identity Standards
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../../built-on-ethereum/identity/bloom/" title="Bloom" class="md-nav__link">
+      Bloom
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../../built-on-ethereum/identity/civic/" title="Civic" class="md-nav__link">
+      Civic
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../../built-on-ethereum/identity/ERC725/" title="ERC725" class="md-nav__link">
+      ERC725
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../../built-on-ethereum/identity/jolocom/" title="Jolocom" class="md-nav__link">
+      Jolocom
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../../built-on-ethereum/identity/selfkey/" title="Selfkey" class="md-nav__link">
+      Selfkey
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../../built-on-ethereum/identity/uport/" title="uPort" class="md-nav__link">
+      uPort
+    </a>
+  </li>
+
+        
+      </ul>
+    </nav>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item md-nav__item--nested">
+    
+      <input class="md-toggle md-nav__toggle" data-md-toggle="nav-9-10" type="checkbox" id="nav-9-10">
+    
+    <label class="md-nav__link" for="nav-9-10">
+      Governance
+    </label>
+    <nav class="md-nav" data-md-component="collapsible" data-md-level="2">
+      <label class="md-nav__title" for="nav-9-10">
+        Governance
+      </label>
+      <ul class="md-nav__list" data-md-scrollfix>
+        
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../../built-on-ethereum/governance/aragon/" title="Aragon" class="md-nav__link">
+      Aragon
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../../built-on-ethereum/governance/colony/" title="Colony" class="md-nav__link">
+      Colony
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../../built-on-ethereum/governance/democracy-earth/" title="Democracy Earth" class="md-nav__link">
+      Democracy Earth
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../../built-on-ethereum/governance/govblocks/" title="Govblocks" class="md-nav__link">
+      Govblocks
+    </a>
+  </li>
+
+        
+      </ul>
+    </nav>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item md-nav__item--nested">
+    
+      <input class="md-toggle md-nav__toggle" data-md-toggle="nav-9-11" type="checkbox" id="nav-9-11">
+    
+    <label class="md-nav__link" for="nav-9-11">
+      Infrastructure
+    </label>
+    <nav class="md-nav" data-md-component="collapsible" data-md-level="2">
+      <label class="md-nav__title" for="nav-9-11">
+        Infrastructure
+      </label>
+      <ul class="md-nav__list" data-md-scrollfix>
+        
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../../built-on-ethereum/infrastructure/quiknode/" title="QuikNode" class="md-nav__link">
+      QuikNode
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../../built-on-ethereum/infrastructure/0xcert/" title="0xcert" class="md-nav__link">
+      0xcert
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../../built-on-ethereum/infrastructure/aztec-protocol/" title="Aztec Protocol" class="md-nav__link">
+      Aztec Protocol
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../../built-on-ethereum/infrastructure/bountiesnetwork/" title="Bounties Network" class="md-nav__link">
+      Bounties Network
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../../built-on-ethereum/infrastructure/ethereum-alarm-clock/" title="Ethereum Alarm Clock" class="md-nav__link">
+      Ethereum Alarm Clock
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../../built-on-ethereum/infrastructure/ethereum-name-service/" title="Ethereum Name Service" class="md-nav__link">
+      Ethereum Name Service
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../../built-on-ethereum/infrastructure/ethlance/" title="Ethlance" class="md-nav__link">
+      Ethlance
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../../built-on-ethereum/infrastructure/foam-protocol/" title="FOAM Protocol" class="md-nav__link">
+      FOAM Protocol
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../../built-on-ethereum/infrastructure/golem/" title="Golem" class="md-nav__link">
+      Golem
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../../built-on-ethereum/infrastructure/poa-network/" title="POA Network" class="md-nav__link">
+      POA Network
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../../built-on-ethereum/infrastructure/streamr/" title="Streamr" class="md-nav__link">
+      Streamr
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../../built-on-ethereum/infrastructure/ethpm/" title="ethPM" class="md-nav__link">
+      ethPM
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../../built-on-ethereum/infrastructure/dfuse/" title="dfuse" class="md-nav__link">
+      dfuse
+    </a>
+  </li>
+
+        
+      </ul>
+    </nav>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item md-nav__item--nested">
+    
+      <input class="md-toggle md-nav__toggle" data-md-toggle="nav-9-12" type="checkbox" id="nav-9-12">
+    
+    <label class="md-nav__link" for="nav-9-12">
+      Enterprise
+    </label>
+    <nav class="md-nav" data-md-component="collapsible" data-md-level="2">
+      <label class="md-nav__title" for="nav-9-12">
+        Enterprise
+      </label>
+      <ul class="md-nav__list" data-md-scrollfix>
+        
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../../built-on-ethereum/enterprise/enterprise/" title="Ethereum Enterprise" class="md-nav__link">
+      Ethereum Enterprise
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../../built-on-ethereum/enterprise/axa/" title="AXA" class="md-nav__link">
+      AXA
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../../built-on-ethereum/enterprise/axoni/" title="Axoni" class="md-nav__link">
+      Axoni
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../../built-on-ethereum/enterprise/cloudflare/" title="Cloudflare" class="md-nav__link">
+      Cloudflare
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../../built-on-ethereum/enterprise/deloitte/" title="Deloitte" class="md-nav__link">
+      Deloitte
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../../built-on-ethereum/enterprise/dtcc/" title="DTCC" class="md-nav__link">
+      DTCC
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../../built-on-ethereum/enterprise/eea/" title="Enterprise Ethereum Alliance" class="md-nav__link">
+      Enterprise Ethereum Alliance
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../../built-on-ethereum/enterprise/ey/" title="Ernst and Young (EY)" class="md-nav__link">
+      Ernst and Young (EY)
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../../built-on-ethereum/enterprise/fnality/" title="Fnality International" class="md-nav__link">
+      Fnality International
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../../built-on-ethereum/enterprise/foxconn/" title="Foxconn" class="md-nav__link">
+      Foxconn
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../../built-on-ethereum/enterprise/google/" title="Google" class="md-nav__link">
+      Google
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../../built-on-ethereum/enterprise/hyperledger/" title="Hyperledger" class="md-nav__link">
+      Hyperledger
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../../built-on-ethereum/enterprise/jpm/" title="JP Morgan" class="md-nav__link">
+      JP Morgan
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../../built-on-ethereum/enterprise/kaleido/" title="Kaleido" class="md-nav__link">
+      Kaleido
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../../built-on-ethereum/enterprise/metlife/" title="MetLife" class="md-nav__link">
+      MetLife
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../../built-on-ethereum/enterprise/microsoft/" title="Microsoft" class="md-nav__link">
+      Microsoft
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../../built-on-ethereum/enterprise/pegasys/" title="PegaSys" class="md-nav__link">
+      PegaSys
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../../built-on-ethereum/enterprise/unicef/" title="Unicef" class="md-nav__link">
+      Unicef
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../../built-on-ethereum/enterprise/projects/" title="Enterprise Projects" class="md-nav__link">
+      Enterprise Projects
+    </a>
+  </li>
+
+        
+      </ul>
+    </nav>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item md-nav__item--nested">
+    
+      <input class="md-toggle md-nav__toggle" data-md-toggle="nav-9-13" type="checkbox" id="nav-9-13">
+    
+    <label class="md-nav__link" for="nav-9-13">
+      Oracles
+    </label>
+    <nav class="md-nav" data-md-component="collapsible" data-md-level="2">
+      <label class="md-nav__title" for="nav-9-13">
+        Oracles
+      </label>
+      <ul class="md-nav__list" data-md-scrollfix>
+        
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../../built-on-ethereum/oracles/what-are-oracles/" title="What are Oracles?" class="md-nav__link">
+      What are Oracles?
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../../built-on-ethereum/oracles/tellor/" title="Tellor" class="md-nav__link">
+      Tellor
+    </a>
+  </li>
+
+        
+      </ul>
+    </nav>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item md-nav__item--nested">
+    
+      <input class="md-toggle md-nav__toggle" data-md-toggle="nav-9-14" type="checkbox" id="nav-9-14">
+    
+    <label class="md-nav__link" for="nav-9-14">
+      Token Curated Registries
+    </label>
+    <nav class="md-nav" data-md-component="collapsible" data-md-level="2">
+      <label class="md-nav__title" for="nav-9-14">
+        Token Curated Registries
+      </label>
+      <ul class="md-nav__list" data-md-scrollfix>
+        
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../../built-on-ethereum/tcrs/what-are-tcrs/" title="What are TCRs" class="md-nav__link">
+      What are TCRs
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../../built-on-ethereum/tcrs/types-of-tcrs/" title="Types of TCRs" class="md-nav__link">
+      Types of TCRs
+    </a>
+  </li>
+
+        
+      </ul>
+    </nav>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item md-nav__item--nested">
+    
+      <input class="md-toggle md-nav__toggle" data-md-toggle="nav-9-15" type="checkbox" id="nav-9-15">
+    
+    <label class="md-nav__link" for="nav-9-15">
+      ERC Token Standards
+    </label>
+    <nav class="md-nav" data-md-component="collapsible" data-md-level="2">
+      <label class="md-nav__title" for="nav-9-15">
+        ERC Token Standards
+      </label>
+      <ul class="md-nav__list" data-md-scrollfix>
+        
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../../built-on-ethereum/erc-token-standards/what-are-erc-tokens/" title="What are ERC Tokens?" class="md-nav__link">
+      What are ERC Tokens?
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../../built-on-ethereum/erc-token-standards/erc20/" title="ERC20" class="md-nav__link">
+      ERC20
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../../built-on-ethereum/erc-token-standards/erc621/" title="ERC621" class="md-nav__link">
+      ERC621
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../../built-on-ethereum/erc-token-standards/erc721/" title="ERC721" class="md-nav__link">
+      ERC721
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../../built-on-ethereum/erc-token-standards/erc721x/" title="ERC721x" class="md-nav__link">
+      ERC721x
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../../built-on-ethereum/erc-token-standards/erc777/" title="ERC777" class="md-nav__link">
+      ERC777
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../../built-on-ethereum/erc-token-standards/erc884/" title="ERC884" class="md-nav__link">
+      ERC884
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../../built-on-ethereum/erc-token-standards/erc918/" title="ERC918" class="md-nav__link">
+      ERC918
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../../built-on-ethereum/erc-token-standards/erc1155/" title="ERC1155" class="md-nav__link">
+      ERC1155
+    </a>
+  </li>
+
+        
+      </ul>
+    </nav>
+  </li>
+
+        
+      </ul>
+    </nav>
+  </li>
+
+    
+      
+      
+      
+
+
+  <li class="md-nav__item md-nav__item--nested">
+    
+      <input class="md-toggle md-nav__toggle" data-md-toggle="nav-10" type="checkbox" id="nav-10">
+    
+    <label class="md-nav__link" for="nav-10">
+      Guides
+    </label>
+    <nav class="md-nav" data-md-component="collapsible" data-md-level="1">
+      <label class="md-nav__title" for="nav-10">
+        Guides
+      </label>
+      <ul class="md-nav__list" data-md-scrollfix>
+        
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../../using-ethereum/ethereum-new-user-guide/" title="Ethereum New User Guide" class="md-nav__link">
+      Ethereum New User Guide
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../../guides/ethereum-high-yield-savings-account/" title="How to Get a High-Yield Savings Account on Ethereum" class="md-nav__link">
+      How to Get a High-Yield Savings Account on Ethereum
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../../guides/guide-to-ens/" title="The Ultimate Guide to the ENS" class="md-nav__link">
+      The Ultimate Guide to the ENS
+    </a>
+  </li>
+
+        
+      </ul>
+    </nav>
+  </li>
+
+    
+      
+      
+      
+
+
+  <li class="md-nav__item md-nav__item--nested">
+    
+      <input class="md-toggle md-nav__toggle" data-md-toggle="nav-11" type="checkbox" id="nav-11">
+    
+    <label class="md-nav__link" for="nav-11">
+      Ethereum FAQ
+    </label>
+    <nav class="md-nav" data-md-component="collapsible" data-md-level="1">
+      <label class="md-nav__title" for="nav-11">
+        Ethereum FAQ
+      </label>
+      <ul class="md-nav__list" data-md-scrollfix>
+        
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../../questions-about-ethereum/is-ethereum-more-expensive-to-use-as-price-rises/" title="Is Ethereum more expensive to use as price rises?" class="md-nav__link">
+      Is Ethereum more expensive to use as price rises?
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../../questions-about-ethereum/why-do-you-have-to-pay-to-use-ethereum/" title="Why do you have to pay to use Ethereum?" class="md-nav__link">
+      Why do you have to pay to use Ethereum?
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../../questions-about-ethereum/is-ether-a-security/" title="Is Ether a security?" class="md-nav__link">
+      Is Ether a security?
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../../questions-about-ethereum/is-ethereum-over-1tb-in-size/" title="Is Ethereum over 1TB in size?" class="md-nav__link">
+      Is Ethereum over 1TB in size?
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../../questions-about-ethereum/is-ethereum-immutable/" title="Is Ethereum immutable?" class="md-nav__link">
+      Is Ethereum immutable?
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../../questions-about-ethereum/is-ether-needed-for-transaction-fees/" title="Is Ether needed for transaction fees?" class="md-nav__link">
+      Is Ether needed for transaction fees?
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../../questions-about-ethereum/if-ethereum-is-open-source-why-cant-it-be-copied/" title="If Ethereum is open source why can't it be copied?" class="md-nav__link">
+      If Ethereum is open source why can't it be copied?
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../../questions-about-ethereum/what-is-the-difficulty-bomb/" title="What is the Ethereum difficulty bomb (Ice Age)?" class="md-nav__link">
+      What is the Ethereum difficulty bomb (Ice Age)?
+    </a>
+  </li>
+
+        
+      </ul>
+    </nav>
+  </li>
+
+    
+      
+      
+      
+
+
+  <li class="md-nav__item md-nav__item--nested">
+    
+      <input class="md-toggle md-nav__toggle" data-md-toggle="nav-12" type="checkbox" id="nav-12">
+    
+    <label class="md-nav__link" for="nav-12">
+      Other
+    </label>
+    <nav class="md-nav" data-md-component="collapsible" data-md-level="1">
+      <label class="md-nav__title" for="nav-12">
+        Other
+      </label>
+      <ul class="md-nav__list" data-md-scrollfix>
+        
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../../other/ethereum-branding-kit/" title="Ethereum Branding Kit" class="md-nav__link">
+      Ethereum Branding Kit
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../../other/ethereum-2.0-ama/" title="Ethereum 2.0 AMA" class="md-nav__link">
+      Ethereum 2.0 AMA
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../../other/ethereum-blog-archive/" title="Ethereum.org Blog Archive" class="md-nav__link">
+      Ethereum.org Blog Archive
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../../other/EF-COI-disclosures/" title="Ethereum Foundation COI Disclosures" class="md-nav__link">
+      Ethereum Foundation COI Disclosures
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../../other/grants-process/" title="Grants Process" class="md-nav__link">
+      Grants Process
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../../other/internationalization/" title="Internationalization" class="md-nav__link">
+      Internationalization
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item md-nav__item--nested">
+    
+      <input class="md-toggle md-nav__toggle" data-md-toggle="nav-12-7" type="checkbox" id="nav-12-7">
+    
+    <label class="md-nav__link" for="nav-12-7">
+      Funds
+    </label>
+    <nav class="md-nav" data-md-component="collapsible" data-md-level="2">
+      <label class="md-nav__title" for="nav-12-7">
+        Funds
+      </label>
+      <ul class="md-nav__list" data-md-scrollfix>
+        
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../../other/funds/0xeap/" title="0xeap" class="md-nav__link">
+      0xeap
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../../other/funds/aragon-nest/" title="Aragon Nest" class="md-nav__link">
+      Aragon Nest
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../../other/funds/consensys-labs/" title="Consensys Labs" class="md-nav__link">
+      Consensys Labs
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../../other/funds/ecf/" title="ECF" class="md-nav__link">
+      ECF
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../../other/funds/eth-prize/" title="Eth Prize" class="md-nav__link">
+      Eth Prize
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../../other/funds/geco/" title="Geco" class="md-nav__link">
+      Geco
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../../other/funds/gitcoin/" title="Gitcoin" class="md-nav__link">
+      Gitcoin
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../../other/funds/stable-fund/" title="Stable Fund" class="md-nav__link">
+      Stable Fund
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../../other/funds/status-incubate/" title="Status Incubate" class="md-nav__link">
+      Status Incubate
+    </a>
+  </li>
+
+        
+      </ul>
+    </nav>
+  </li>
+
+        
+      </ul>
+    </nav>
+  </li>
+
+    
+      
+      
+      
+
+
+  <li class="md-nav__item md-nav__item--nested">
+    
+      <input class="md-toggle md-nav__toggle" data-md-toggle="nav-13" type="checkbox" id="nav-13">
+    
+    <label class="md-nav__link" for="nav-13">
+      Glossary
+    </label>
+    <nav class="md-nav" data-md-component="collapsible" data-md-level="1">
+      <label class="md-nav__title" for="nav-13">
+        Glossary
+      </label>
+      <ul class="md-nav__list" data-md-scrollfix>
+        
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../../glossary/crypto-acronyms/" title="Acronyms" class="md-nav__link">
+      Acronyms
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../../glossary/ens-domains/" title="ENS Domain Directory" class="md-nav__link">
+      ENS Domain Directory
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item md-nav__item--nested">
+    
+      <input class="md-toggle md-nav__toggle" data-md-toggle="nav-13-3" type="checkbox" id="nav-13-3">
+    
+    <label class="md-nav__link" for="nav-13-3">
+      Sideways Dictionary
+    </label>
+    <nav class="md-nav" data-md-component="collapsible" data-md-level="2">
+      <label class="md-nav__title" for="nav-13-3">
+        Sideways Dictionary
+      </label>
+      <ul class="md-nav__list" data-md-scrollfix>
+        
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../../glossary/sideways-dictionary/what-is-the-sideways-dictionary/" title="What is the sideways dictionary?" class="md-nav__link">
+      What is the sideways dictionary?
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../../glossary/sideways-dictionary/2FA/" title="2FA" class="md-nav__link">
+      2FA
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../../glossary/sideways-dictionary/blockchain/" title="Blockchain" class="md-nav__link">
+      Blockchain
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../../glossary/sideways-dictionary/cold-storage/" title="Cold Storage" class="md-nav__link">
+      Cold Storage
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../../glossary/sideways-dictionary/cryptojacking/" title="Cryptojacking" class="md-nav__link">
+      Cryptojacking
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../../glossary/sideways-dictionary/ddos/" title="DDOS" class="md-nav__link">
+      DDOS
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../../glossary/sideways-dictionary/difficulty/" title="Difficulty" class="md-nav__link">
+      Difficulty
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../../glossary/sideways-dictionary/double-spend/" title="Double Spend" class="md-nav__link">
+      Double Spend
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../../glossary/sideways-dictionary/forks/" title="Forks" class="md-nav__link">
+      Forks
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../../glossary/sideways-dictionary/multi-sig/" title="Multi-Sig" class="md-nav__link">
+      Multi-Sig
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../../glossary/sideways-dictionary/smart-contract/" title="Smart Contract" class="md-nav__link">
+      Smart Contract
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../../glossary/sideways-dictionary/state-rent/" title="State Rent" class="md-nav__link">
+      State Rent
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../../glossary/sideways-dictionary/stateless-clients/" title="Stateless Clients" class="md-nav__link">
+      Stateless Clients
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../../glossary/sideways-dictionary/uncle-blocks/" title="Uncle Blocks" class="md-nav__link">
+      Uncle Blocks
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../../glossary/sideways-dictionary/wei/" title="Wei" class="md-nav__link">
+      Wei
+    </a>
+  </li>
+
+        
+      </ul>
+    </nav>
+  </li>
+
+        
+      </ul>
+    </nav>
+  </li>
+
+    
+  </ul>
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+            
+              <div class="md-sidebar md-sidebar--secondary" data-md-component="toc">
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+<nav class="md-nav md-nav--secondary">
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">Table of contents</label>
+    <ul class="md-nav__list" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#introduction" title="Introduction" class="md-nav__link">
+    Introduction
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#what-does-state-mean" title="What does state mean?" class="md-nav__link">
+    What does state mean?
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#state-defining-objects" title="State-defining Objects" class="md-nav__link">
+    State-defining Objects
+  </a>
+  
+    <nav class="md-nav">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#account-state" title="Account State" class="md-nav__link">
+    Account State
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#world-state" title="World State" class="md-nav__link">
+    World State
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#ethereum-stateless-client" title="Ethereum Stateless Client" class="md-nav__link">
+    Ethereum Stateless Client
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#applications-of-stateless-clients-in-ethereum" title="Applications of Stateless Clients in Ethereum" class="md-nav__link">
+    Applications of Stateless Clients in Ethereum
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#additional-benefits-of-stateless-clients" title="Additional Benefits of Stateless Clients" class="md-nav__link">
+    Additional Benefits of Stateless Clients
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#security-considerations" title="Security Considerations" class="md-nav__link">
+    Security Considerations
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#resources" title="Resources" class="md-nav__link">
+    Resources
+  </a>
+  
+</li>
+      
+      
+      
+      
+      
+    </ul>
+  
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+          
+          <div class="md-content">
+            <article class="md-content__inner md-typeset">
+              
+                
+                  <a href="https://github.com/ethhub-io/ethhub/edit/master/docs/ethereum-roadmap/ethereum-2.0/stateless-clients.md" title="Edit this page" class="md-icon md-content__icon">&#xE3C9;</a>
+                
+                
+                <p>workload on the Ethereum blockchain, improving performance and scalability.</p>
+<h1 id="stateless-clients">Stateless Clients</h1>
+<h2 id="introduction">Introduction</h2>
+<p>Ethereum is based on blockchain technology.  A blockchain is defined as a "cryptographically secure transactional singleton machine with shared-state."  </p>
+<ul>
+<li>
+<p>"Cryptographically secure" means that creation and movement of the digital currency is mathematically obscured by extremely complex algorithms nearly impossible to decode.  </p>
+</li>
+<li>
+<p>"Transaction singleton machine" means a single canonical instance of the machine is being created in the system to handle transactions.  This is a singular truth that all participants on the network believe in.  </p>
+</li>
+<li>
+<p>"With shared-state" means that the state of the machine is stored and shared with everyone.</p>
+</li>
+</ul>
+<p>This is an examination of the concept of state in a virtual machine which introduces the concept of a stateless client in Ethereum.</p>
+<h2 id="what-does-state-mean">What does state mean?</h2>
+<p>State defines the values contained in a block at any given time.  The state of the virtual machine changes after each set of transactions are processed.</p>
+<p><img alt="Flow of transactions causing a state change." src="https://miro.medium.com/max/1282/1*jZ-VRXBJtOnePofB0z2Q8A.png" title="State changes" /></p>
+<h2 id="state-defining-objects">State-defining Objects</h2>
+<h3 id="account-state">Account State</h3>
+<p>The global "shared-state" is comprised of many objects called accounts.  Two types of accounts exist, externally owned and contract accounts.  Externally owned accounts are  controlled by private keys and have no code associate with them.  Contract accounts are controlled by their contract code and have code associated with them.</p>
+<p>Account state is further broken down into:</p>
+<ul>
+<li>
+<p>nonce: For externally owned accounts this refers to number of transactions sent from the address.  Contract accounts would store the number of contracts created by the account.</p>
+</li>
+<li>
+<p>balance:  The amount of Ether stored on the account.</p>
+</li>
+<li>
+<p>storageRoot: A hash of the root node of a Merkle Patricia tree.  This encodes a hash of storage contents on the account.</p>
+</li>
+<li>
+<p>codeHash: The hash of the EVM (Ethereum Virtual Machine) code of this account.  Contract account code gets hashed and stored here.  Externally owned accounts contain the hash of an empty string.</p>
+</li>
+</ul>
+<h3 id="world-state">World State</h3>
+<p>World state is a mapping of account addresses between account states.  This mapping is stored as a Merkle Patricia tree.</p>
+<p><img alt="https://miro.medium.com/max/1488/1*N8YtAcAqdtHtzUaZAJgUJQ.png" src="https://miro.medium.com/max/1488/1*N8YtAcAqdtHtzUaZAJgUJQ.png" title="State Tree" /></p>
+<p>This same structure is used to store transactions and receipts.  This becomes a large amount of data which needs to be stored and processed if the entire state is stored and traversed when creating new blocks.</p>
+<h2 id="ethereum-stateless-client">Ethereum Stateless Client</h2>
+<p>The way a block is constructed on Ethereum offers a method to create a sort of stateless client.  It is important to know that as Ethereum evolves, statelessness is ultimately going to be a spectrum.  Some knowledge of data in surrounding nodes will be required in order to create valid hashes.</p>
+<p><img alt="Ethereum Block Header" src="https://miro.medium.com/max/1056/1*4EQFjXD2-dbiVgVv-8Si8g.png" title="Ethereum Block Header" /></p>
+<p>Statelessness allows the creation of light nodes.  A light node contains only the chain of headers without the execution of any transactions or associated states.</p>
+<p>When a node comes online it will be fully stateless since it will hold zero information regarding state.  Over time it will soak up the
+state as transactions touch upon it, putting together a more complete state with every change of state presented.  New nodes will be more stateless offering benefits of lower memory usage, disk, and I/O.  Bandwidth usage will be the highest because peers need to send larger
+proofs to the new node as it develops its own state data.  More stateful clients will have higher demands on memory, disk, and I/O while
+bandwidth requirements would decrease.  Nodes can become more stateful until a certain tradeoff point is reached and then halted from
+further acquisition of state information to optimize the trade off in computing power and bandwidth.</p>
+<h2 id="applications-of-stateless-clients-in-ethereum">Applications of Stateless Clients in Ethereum</h2>
+<p>Ethereum 1.X implements stateless clients but not stateless miners.  Fast sync initializes as a stateless node.<br />
+It creates what is called a launch-block and only records the input and output state of this block locally.  The launch block is
+a predetermined block number that is a certain amount of time in the future.  The future dated deadline is so that the node can work
+on constructing the launch-block.  Witness data is called by the node to construct blocks.  As long as the launch-block is created early
+or on time, the creation of blocks will continue and the node is active.  Use of witness data and input/output states only make this a
+stateless client.</p>
+<p>Ethereum 2.0 implements stateless clients and stateless miners in Sharding.  All nodes are stateless so that faster processing with less data
+increases scalability greatly.  Currently the Ethereum blockchain is a sequential chain of blocks where one is
+completed on top of another in a linear fashion.  This leads to traffic jams and an overall inefficency in data processing.   Sharding
+is a design where the Ethereum network is split into groups referred to a shards.  Each shard has its own independant state.  Transactions
+are delegated to different shards for processing, so rather than the entire network processing the same transaction, parallel computing
+increases efficiency by allowing the work to be split up and executed concurrently.</p>
+<h2 id="additional-benefits-of-stateless-clients">Additional Benefits of Stateless Clients</h2>
+<p>Mining new blocks will be moved from proof of work (PoW) to proof of stake (PoS).  A user can become a miner by staking a minimum
+amount of Ethereum live on the blockchain.  This allows a miner to vote on the next block to create.  Consensus comes very quickly,
+within one block of the evaluated block, because lengthy hash cryptography is no longer used to create blocks. This greatly reduces
+electricity requirements, therefore cost of running a node.  Additionally, the held stake is an economic incentive / punishement for
+any miner that performs nefarious activity.</p>
+<p>Disk I/O becomes less susceptable to DoS attacks, however still remains the best vector for a DoS attack.  Even for state-storing clients, the account lists allow clients to pre-fetch storage data from disk, possibly in parallel, greatly reducing their vulnerability to DoS attacks.</p>
+<p>In a sharded blockchain, security is increased by reshuffling clients between shards frequently.  In a state-storing client model, reshuffling involved clients download the full state of the new shard they are being reshuffled to. In a stateless client, this cost drops to zero, allowing clients to be reshuffled between every single block that they create.</p>
+<p>Transaction speed and scalablility will also improve.</p>
+<h2 id="security-considerations">Security Considerations</h2>
+<p>DoS attacks aimed at the disk I/O vector are still the greatest risk for DoS attacks.</p>
+<p>Casper is the proof of staking algorithm used in Ethereum 2.0.  The following are a list of theoretical attacks that could be executed
+on Casper for further research on your own.
+<em> <a href="https://ethstaking.io/guide-to-ethereum-proof-of-stake-and-casper/casper-weaknesses/">Casper Weaknesses</a>
+</em> <a href="https://ethstaking.io/guide-to-ethereum-proof-of-stake-and-casper/casper-sybil-attack/">Casper Sybil Attack</a>
+<em> <a href="https://ethstaking.io/guide-to-ethereum-proof-of-stake-and-casper/casper-51-attack/">Casper 51% Attack</a>
+</em> <a href="https://ethstaking.io/guide-to-ethereum-proof-of-stake-and-casper/casper-bribe-attack/">Casper Bribe Attack</a>
+<em> <a href="https://ethstaking.io/guide-to-ethereum-proof-of-stake-and-casper/casper-censorship-attack/">Casper Censorship Attack</a>
+</em> <a href="https://ethstaking.io/guide-to-ethereum-proof-of-stake-and-casper/casper-liveness-denial-attack/">Casper Liveness Denial Attack</a>
+* <a href="https://ethstaking.io/guide-to-ethereum-proof-of-stake-and-casper/casper-long-range-attack/">Casper Long Range Attack</a></p>
+<h2 id="resources">Resources</h2>
+<ul>
+<li><a href="https://blog.ethereum.org/2019/12/30/eth1x-files-state-of-stateless-ethereum/">The 1.x Files: The State of Stateless Ethereum</a></li>
+<li><a href="https://ethresear.ch/t/the-stateless-client-concept/172">The Stateless Client Concept</a></li>
+<li><a href="https://medium.com/@akhounov/the-shades-of-statefulness-in-ethereum-nodes-697b0f88cd04">The shades of statefulness (in Ethereum nodes)</a></li>
+<li><a href="https://medium.com/@akhounov/data-from-the-ethereum-stateless-prototype-8c69479c8abc">Data from the Ethereum stateless prototype</a></li>
+<li><a href="https://education.district0x.io/general-topics/understanding-ethereum/basics-state-channels/">The Basics of State Channels</a></li>
+<li><a href="https://education.district0x.io/general-topics/understanding-ethereum/ethereum-sha">Ethereum Sharding Explained</a></li>
+<li><a href="https://medium.com/@jason.carver/intro-to-beam-sync-a0fd168be14a">Intro to Beam Sync</a></li>
+<li><a href="https://ethstaking.io/guide-to-ethereum-proof-of-stake-and-casper/casper-51-attack/">Casper 51% Attack</a></li>
+<li><a href="http://www.smallake.kr/wp-content/uploads/2016/06/314477721-Ethereum-Platform-Review-Opportunities-and-Challenges-for-Private-and-Consortium-Blockchains.pdf">Ethereum Platform Review Opportunities and Challenges for Private and Consortium Blockchains</a></li>
+<li><a href="https://medium.com/@preethikasireddy/how-does-ethereum-work-anyway-22d1df506369">How Does Ethereum Work Anyway?</a></li>
+<li><a href="https://etherworld.co/2020/01/09/early-eth1-eth2-switch-is-official/">Early Eth1&lt;-&gt;Eth2 Switch is official!</a></li>
+</ul>
+                
+                  
+                
+              
+              
+                
+
+
+              
+            </article>
+          </div>
+        </div>
+      </main>
+      
+        
+<footer class="md-footer">
+  
+    <div class="md-footer-nav">
+      <nav class="md-footer-nav__inner md-grid">
+        
+          <a href="../../ethereum-1.x/" title="Ethereum 1.x" class="md-flex md-footer-nav__link md-footer-nav__link--prev" rel="prev">
+            <div class="md-flex__cell md-flex__cell--shrink">
+              <i class="md-icon md-icon--arrow-back md-footer-nav__button"></i>
+            </div>
+            <div class="md-flex__cell md-flex__cell--stretch md-footer-nav__title">
+              <span class="md-flex__ellipsis">
+                <span class="md-footer-nav__direction">
+                  Previous
+                </span>
+                Ethereum 1.x
+              </span>
+            </div>
+          </a>
+        
+        
+          <a href="../../layer-2-scaling/zk-rollups/" title="ZK-Rollups" class="md-flex md-footer-nav__link md-footer-nav__link--next" rel="next">
+            <div class="md-flex__cell md-flex__cell--stretch md-footer-nav__title">
+              <span class="md-flex__ellipsis">
+                <span class="md-footer-nav__direction">
+                  Next
+                </span>
+                ZK-Rollups
+              </span>
+            </div>
+            <div class="md-flex__cell md-flex__cell--shrink">
+              <i class="md-icon md-icon--arrow-forward md-footer-nav__button"></i>
+            </div>
+          </a>
+        
+      </nav>
+    </div>
+  
+  <div class="md-footer-meta md-typeset">
+    <div class="md-footer-meta__inner md-grid">
+      <div class="md-footer-copyright">
+        
+        <a href="https://etherscan.io/address/0xa19fcdad77c1f0fd184689aca88babcf68010347">Donate: 0xA19FCDaD77C1F0fd184689aca88BabCF68010347</a>
+      </div>
+      
+        
+  <div class="md-footer-social">
+    <link rel="stylesheet" href="../../../assets/fonts/font-awesome.css">
+    
+      <a href="https://github.com/ethhub-io/ethhub" class="md-footer-social__link fa fa-github"></a>
+    
+      <a href="https://twitter.com/ethhub_io" class="md-footer-social__link fa fa-twitter"></a>
+    
+      <a href="https://medium.com/ethhub" class="md-footer-social__link fa fa-medium"></a>
+    
+      <a href="https://discordapp.com/invite/gw8AM98" class="md-footer-social__link fa fa-comment"></a>
+    
+      <a href="https://www.instagram.com/ethhub_io/" class="md-footer-social__link fa fa-instagram"></a>
+    
+  </div>
+
+      
+    </div>
+  </div>
+</footer>
+      
+    </div>
+    
+      <script src="../../../assets/javascripts/application.3a8f445d.js"></script>
+      
+      <script>app.initialize({version:"1.0.4",url:{base:"../../.."}})</script>
+      
+    
+  </body>
+</html>
