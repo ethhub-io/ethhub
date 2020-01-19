@@ -4,7 +4,7 @@ description: Yeeth Ethereum 2.0 client implementation
 
 # Yeeth
 
-This project is no longer being actively worked on.
+*This project is no longer being actively worked on.*
 
 ## Background
 
