@@ -1,7 +1,6 @@
 title: Stateless-Clients - Ethhub
 
-description: Exploring the stateless client and how this implementation of data processing and storing could greatly reduce the
-workload on the Ethereum blockchain, improving performance and scalability.
+description: Exploring the stateless client and how this implementation of data processing and storing could greatly reduce the workload on the Ethereum blockchain, improving performance and scalability.
 
 # Stateless Clients
 
