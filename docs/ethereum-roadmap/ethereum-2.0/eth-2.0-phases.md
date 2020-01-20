@@ -6,6 +6,8 @@ description: A guide to the phases and implementation plans of Ethereum 2.0, aka
 
 _As Ethereum 2.0 is in heavy research and development, this page may become outdated spontaneously. It is kept up to date on a best-effort basis. Last updated 16th of November, 2019._
 
+This page is also available in [German](eth-2.0-phases-german.md) and [Portuguese](eth-2.0-phases-portuguese.md).
+
 ## Introduction
 
 Ethereum's major network upgrade, dubbed Ethereum 2.0, Eth2 or Serenity, will bring with it Sharding, Proof of Stake, a new virtual machine \(eWASM\) and more. It’s important to understand that this upgrade will not take place at a single point in time - instead, it will be rolled out in phases. This document attempts to be a reference point for these phases and what each one includes.
