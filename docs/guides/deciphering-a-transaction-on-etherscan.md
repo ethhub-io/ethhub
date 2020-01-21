@@ -21,8 +21,8 @@ If you have started to dip your toe into the Ethereum world, chances are you hav
 * **Input Data:** Information that is passed to a smart contract when a transaction is sent to its address or if the transaction is creating a contract, the input data is where the code for the contract is sent.
 
 *I recommend checking out this [article](https://blockgeeks.com/guides/ethereum-gas/) if you are not very familiar with how gas is used in Ethereum.*
-## Gas and Ethereum Transactions
 
+## Gas and Ethereum Transactions
 
 Reading data from the blockchain has no cost, however, when you want to change data recorded in the chain you are required to submit a transaction. In short, gas is a way of measuring the amount of computation required in order to execute a change.
 
@@ -44,41 +44,42 @@ There are two different types of accounts in Ethereum. The first are Externally 
 
 In the random transaction below, we can see that one externally owned account (EOA) is sending Ether to another EOA. We know this because the data input is empty, the To address isn’t labeled as a contract address, and the value field is filled out. 
 
-![](/assets/images/etherscan_guide/EOA_to_EOA_tx.png)
+![](/docs/assets/images/etherscan_guide/EOA_to_EOA_tx.png)
 
 When moving Ether, we are telling the Ethereum network please decrease my balance x amount and increase the other account’s balance by that amount. If the transaction is valid, then the global state of Ethereum updates the balances. In terms of Gas considerations, a standard transfer of Ether from one EOA to another EOA costs 21,000 gas, which we can see is the amount used.
 
-![](/assets/images/etherscan_guide/EOA_to_EOA_diagram.png)
+![](/docs/assets/images/etherscan_guide/EOA_to_EOA_diagram.png)
 
 ## Transferring ERC20 Tokens
 
 One of the biggest differences between transferring ERC20 tokens versus transferring Ether is that the transaction is addressed to the Token’s contract address rather than the account we want to send the tokens to. In the random transaction below, the input data field includes the function we would like to call (in this case transfer) as well as the inputs for the function, which includes the recipient's address along with the amount of tokens we want to send formatted in [hexadecimal](https://en.wikipedia.org/wiki/Hexadecimal). You can also see in the example transaction below that Etherscan marks the To account as the DAI contract and added a field called Tokens Transferred to display the input data in a more human readable format.
 
-![](/assets/images/etherscan_guide/token_transfer_tx.png)
+![](/docs/assets/images/etherscan_guide/token_transfer_tx.png)
 
 Typically, the value field is left empty for token transfers because we simply need to talk to the Token contract and don’t need to send Ether in the transaction. Lastly, the gas cost for transferring ERC20 tokens can vary depending on how to contract was implemented.
 
-![](/assets/images/etherscan_guide/token_transfer_diagram.png)
+![](/docs/assets/images/etherscan_guide/token_transfer_diagram.png)
 
 ## An Externally Owned Account (EOA) Creating a Contract
 
 Below is the transaction that created the Ethhub contract wallet. The most notable difference for contract creation transactions is that the input data contains the bytecode for the contract’s logic. We can see that contract’s address is displayed in the To field with “Created” next to it. 
 
-![](/assets/images/etherscan_guide/ethhub_creation_tx.png)
+![](/docs/assets/images/etherscan_guide/ethhub_creation_tx.png)
 
 ## Transferring Ether from an Externally Owned Account (EOA) to a Contract Account
 
 If you are sending Ether to a contract wallet, the gas cost can vary from the standard 21,000. 
 
-![](/assets/images/etherscan_guide/Eth_to_EthHub_tx.png)
+![](/docs/assets/images/etherscan_guide/Eth_to_EthHub_tx.png)
 
 Viewing the transaction above we can see that someone made an Ether deposit to the Ethhub contract wallet, which required 22,511 gas. This is because the contract wallet also emits a Deposit event when receiving Ether, which bumps the gas cost over 21,000. 
+
+![](/docs/assets/images/etherscan_guide/Eth_EOA_to_contract_diagram.png)
 
 It is important to know the kind of address that you are sending to before you assume that the gas cost will be 21,000 or else your transaction might run out of gas. In addition, there can be harmful side effects to sending a transaction to a contract that you aren’t familiar with because a contract is able to forward messages to other contracts. Calling a function on a malicious contract might forward the call to a different contract and yield a negative result. 
 
 Please always make sure that you trust the contract that you are about to submit a transaction to and set a reasonable gas limit.
 
-![](/assets/images/etherscan_guide/Eth_EOA_to_contract_diagram.png)
 
 Resources
 
