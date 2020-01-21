@@ -62,6 +62,7 @@ nav:
       - 'Ethereum 2.0 Economics': 'ethereum-roadmap/ethereum-2.0/eth-2.0-economics.md'
       - 'Ethereum 1.0 to 2.0 Migration': 'ethereum-roadmap/ethereum-2.0/eth-1.0-to-2.0-migration.md'
       - 'Ethereum 2.0 Client Architecture': 'ethereum-roadmap/ethereum-2.0/eth-2.0-client-architecture.md'
+      - 'Ethereum Account Abstraction': 'ethereum-roadmap/ethereum-2.0/account-abstraction.md'
       - Ethereum 2.0 Teams:
         - 'Teams Building Eth 2.0': 'ethereum-roadmap/ethereum-2.0/eth2.0-teams/teams-building-eth2.0.md'
         - 'Artemis': 'ethereum-roadmap/ethereum-2.0/eth2.0-teams/artemis.md'
