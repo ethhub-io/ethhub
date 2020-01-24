@@ -80,6 +80,9 @@ description: A list of essential Ethereum resources.
 * [Token Economy](https://tokeneconomy.co/)
 * [Token Daily](https://www.tokendaily.co/join-newsletter)
 
+### Videos
+* [DeFi Educational Videos by Chris Blec](https://youtube.com/chrisblec)
+
 ### Social Media
 
 * [Who to Follow on Twitter](https://hive.one/)
