@@ -80,10 +80,8 @@ That is why it is important to know what kind of account you are sending to befo
 
 Please always make sure that you trust the contract that you are about to submit a transaction to and set a reasonable gas limit.
 
-Resources
+## Resources
 
 * [Etherscan](https://etherscan.io/)
 * [What is Ethereum Gas?](https://blockgeeks.com/guides/ethereum-gas/)
 * [Transactions in Ethereum](https://medium.com/@kctheservant/transactions-in-ethereum-e85a73068f74)
-
-**DISCLAIMER: EthHub is a completely independent and open-source initiative founded by Ethereum community members. Nothing contained in this Github repository should be considered financial or investment advice - it is for informational purposes only.**
