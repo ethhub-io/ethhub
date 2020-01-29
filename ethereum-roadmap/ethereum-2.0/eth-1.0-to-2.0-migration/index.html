@@ -779,6 +779,26 @@
     State Migration
   </a>
   
+    <nav class="md-nav">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#old-proposal" title="Old Proposal" class="md-nav__link">
+    Old Proposal
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#new-proposal" title="New Proposal" class="md-nav__link">
+    New Proposal
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
 </li>
       
       
@@ -4585,6 +4605,26 @@
     State Migration
   </a>
   
+    <nav class="md-nav">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#old-proposal" title="Old Proposal" class="md-nav__link">
+    Old Proposal
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#new-proposal" title="New Proposal" class="md-nav__link">
+    New Proposal
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
 </li>
       
       
@@ -4666,25 +4706,61 @@
 This is a nice feature that will hopefully encourage more participants to feel comfortable committing to staking.</p>
 <p>Using BETH on shard chains (for smart contracts) will be available in phase 2.</p>
 <h2 id="state-migration">State Migration</h2>
-<p>The current proposal is that in <a href="../eth-2.0-phases/#phase-2-state-execution">phase 2</a>, the state of the current Eth 1.0 chain will be transferred into a shard on the Eth 2.0 chain. At this point, all information from the Eth 1.0 chain will be available on the Eth 2.0 chain.</p>
+<h3 id="old-proposal">Old Proposal</h3>
+<p>The old proposal is that in <a href="../eth-2.0-phases/#phase-2-state-execution">phase 2</a>, the state of the current Eth 1.0 chain will be transferred into a shard on the Eth 2.0 chain. At this point, all information from the Eth 1.0 chain will be available on the Eth 2.0 chain.</p>
 <p>Currently Lighthouse is working upon a state transition <a href="https://github.com/libp2p/go-libp2p-daemon">library</a>.</p>
-<p>Again, quoting Danny Ryan: <br/>
-"Once the state execution layer is in the new 1024 shards, users will be able to transfer ETH directly to the shards from the PoW chain. In the long term, the plan is to roll the PoW state into one of the shards."</p>
 <p><strong>Replacing EVM with eWASM?</strong></p>
 <p>Ethereum-flavoured web assembly is a deterministic smart contract execution engine built on the modern, standard WebAssembly virtual machine. It was first proposed in <a href="https://github.com/ethereum/EIPs/issues/48">EIP 48</a>. It may be the future execution engine for smart contracts on the Ethereum blockchain and is the primary candidate to replace EVM (the Ethereum virtual machine) as part of the phase 2 of Ethereum 2.0 roadmap.</p>
 <p>Buterin also thinks that the EVM should be retired soon and contracts should be on Ewasm with an EVM interpreter (<a href="https://medium.com/ethereum-magicians/demystifying-the-road-to-ethereum-2-0-8130ade8d00f#a32b">source</a>).</p>
 <p>Since EVM makes use of 256-bit bytecode, smaller computations have to be converted to 256-bit strings before the EVM can process them.
 The WASM code, however, has been designed with production in mind. The elimination of precompiling is an added advantage for eWASM. WASM is an open standard (backed by Google, Microsoft, Apple) and because of this it will allow more programming languages (C/C++, JS, Go) to be used for smart contract development (Solidity included).</p>
-<p><strong>Challenges</strong></p>
+<p><strong>Challenges of Old Proposal</strong></p>
 <ul>
-<li>There are speculations that phase 2 might be divided into sub-forks and there will be a fork during/after phase 2 to bring in the Eth 1.0 state into a contract.
- "A dapp will have to choose what shard it wants to be on and that decision will matter because cross-shard communication will definitely be slow at base layer," according to Buterin.</li>
+<li>
+<p>There are speculations that phase 2 might be divided into sub-forks and there will be a fork during/after phase 2 to bring in the Eth 1.0 state into a contract.</p>
+</li>
+<li>
+<p>Before we migrate the state there's going to be validators earning rewards, and overall the cumulative issuance of ether will go up. So what will be the economics of ETH throughout?</p>
+</li>
 </ul>
-<p>Raul put forward some good questions regarding migration during the <a href="https://github.com/ethereum/eth2.0-pm/blob/master/eth2.0-implementers-calls/call_008.md">implementers call</a>.</p>
-<p>Before we migrate the state there's going to be validators earning rewards, and overall the cumulative issuance of ether will go up. So what will be the economics of ETH throughout?
-<em> The issuance to validators is generally marginal compared to the issuance of miners. So we don't foresee it being a major concern.
-</em> Beyond that, <a href="https://ethereum-magicians.org/t/finality-gadget-for-ethereum1x-working-group/3177">there is a proposal floating around</a> to do this hybrid PoW/PoS proposal where you begin to utilize the beacon chain for finality,
-* Over time, ultimately, issuance will go down when the system is entirely PoS and during that time, validators can move stake over through this deposit contract. But when state execution exists on shard chains, there will likely be another enshrined transfer contract/deposit mechanism to move from Eth 1.0 &rarr; Eth 2.0,</p>
+<h3 id="new-proposal">New Proposal</h3>
+<p>An Alternative Proposal for early transition is proposed by Vitalik Buterin, Which is getting accepted by among the wider community.</p>
+<p><strong>Goals</strong></p>
+<ul>
+<li><strong>Getting rid of PoW chain</strong> &amp; moving everything onto the beacon chain.</li>
+<li>Development of Stateless clients.</li>
+</ul>
+<p><strong>Stateless Client Features</strong></p>
+<ul>
+<li>A pure function for verifying blocks and witnesses, Along with a method for generating witnesses for the block.</li>
+<li>Available with multiple implementations.</li>
+<li>Eth1-side protocol changes to bound witness size to ~1-2 MB.</li>
+<li>Development of Stateless Clients requires much less rearchitecting to accomplish as it neither requires stateless miners or webassembly.</li>
+<li>Stateless Client is an important feature for the switch as it stops the malicious actions, <a href="https://www.reddit.com/r/ethereum/comments/eemp28/vitalik_alternative_proposal_for_early_eth1_eth2/fbxon3w/?utm_source=share&amp;utm_medium=web2x">according to Buterin</a>.</li>
+</ul>
+<p><strong>New beacon chain features</strong></p>
+<ul>
+<li>State root of the eth1 system transfers to the state of shard 0</li>
+<li>New Validator list known as <code>eth1_friendly_validators</code> will be added. Any validator has the right to register themselves as eth1-friendly (and deregister) at any time.</li>
+<li>The proposer on shard 0 at any given slot is chosen randomly out of the eth1-friendly validators.</li>
+<li>Committee of shard 0 verifies the blocks of shard 0, which are expressed in this format <code>Block body(currently exists) &amp; stateless client witness</code>. All the other shard committees verify their shard blocks, where they would only be verifying data availability, not the state execution, as shard 0 is the only shard that would be running computation.</li>
+</ul>
+<p><strong>Operation</strong></p>
+<p>The eth1 system would “live” as shard 0 of eth2 (eventually, Will be one of the execution environments, but at the beginning, it can be the entire shard). Validators that want to participate in the eth1 system can register themselves as eth1-friendly validators and would be expected to maintain an eth1 full node in addition to their beacon node. The eth1 full node would download all blocks on shard 0 and maintain an updated full eth1 state.</p>
+<p><strong>Advantages of New Proposal over the Old Proposal</strong></p>
+<ul>
+<li>
+<p>Earlier proposal transfers the whole Eth1.0 chain to Eth2 shard, but now it will get rid of PoW, which solves the challenges faced during the Old proposal. As instead of Miners there will eth1_friendly_validators to validate the blocks.</p>
+</li>
+<li>
+<p>Development of Stateless Clients requires much less rearchitecting to accomplish.</p>
+</li>
+</ul>
+<p>According to Danny Ryan, the Eth2.0 lead:
+He thinks it only depends on a successful and stable phase 0 and Phase 1 release, which may be demonstrating the security instability.</p>
+<p>Core developers: 
+They seem to be in the consensus of the Alternative Proposal and agreed that there is a decent amount of work to be done on the Eth1.x statelessness and is going to be a huge priority this year. But this approach is a much cleaner way for Eth1 to utilize the scalable data layer of Phase 1. There's a lot to learn and figure out before it comes into action but most of them seem positive about it. </p>
+<p>It was made official that the 'Alternative proposal for early eth1 &lt;-&gt; eth2 merge' model will be followed for the switch and the transition would still be done using a procedure similar to the <a href="https://ethresear.ch/t/the-eth1-eth2-transition/6265">eth1 -&gt; eth2 transition</a>.</p>
                 
                   
                 
