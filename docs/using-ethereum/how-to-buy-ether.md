@@ -35,3 +35,8 @@ Dether is a global, p2p marketplace for buying and selling ETH in person with ca
 LocalCryptos is a global, p2p marketplace for buying and selling ETH. Over 30 payment methods are supported including in-person cash trades.
 
 [Buy ETH on LocalCryptos](https://localcryptos.com/)
+
+## Elbaite
+Elbaite is Australia's first non-custodial cryptocurrency exchange. Australian's can buy and sell ETH straight from own wallet in this unique p2p model. This means that clients do not experience any withdrawal delays and fees as Elbaite does not hold any cryptocurrency! Elbaite also has many whitelisted ERC20 tokens. 
+
+[Buy ETH on Elbaite](https://www.elbaite.io/)
