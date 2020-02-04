@@ -4678,7 +4678,7 @@
                 
                 <h1 id="eth-20-economics">Eth 2.0 Economics</h1>
 <h2 id="introduction">Introduction</h2>
-<p>The Ethereum Serenity upgrade will bring with it a switch from Proof of Work to Proof of Stake. This means that rather than pay miners to secure the network, we will be paying validators to secure the network. It's vitally important to get the economics of staking right so that the network stays healthy and secure.</p>
+<p>The Ethereum 2.0 upgrade will bring with it a switch from Proof of Work to Proof of Stake. This means that rather than pay miners to secure the network, we will be paying validators to secure the network. It's vitally important to get the economics of staking right so that the network stays healthy and secure.</p>
 <p>If the incentive to stake is too low, the network will not get the minimum amount of validators needed to keep many shards going. If the incentive is too high, the network is overpaying for security and inflating at a rate that is detrimental to the economics of the network as a whole.</p>
 <p>There are a few considerations when it comes to how many validators the network "needs". According to the latest spec, the recommended minimum validators per committee is 111. At 1024 shards that would be 113,664 validators and 3,637,248 total ETH staked.</p>
 <p>To achieve crosslinks on all shards within 1 epoch, the committee size would be 256. That equates to 8,388,608 total ETH at stake on the network. Having less is fine it just means crosslinks become rarer.</p>
@@ -4755,7 +4755,7 @@
 </ul>
 <p><a href="https://github.com/ethereum/eth2.0-specs/pull/971#issuecomment-485069932">According to Justin Drake</a>, this could result in the 30,000,000 staked figure about resulting in 0.5% network issuance and 5% staker return.</p>
 <h2 id="fees">Fees</h2>
-<p>Validators earn a cut of the transaction fees that people pay to use the network. This is one area that needs more research but currently, the Ethereum network is paying about 600 ETH a day in fees. At current rate that's 219,000 ETH a year. How this will scale up as we add shards and throughput to the network will be important because it goes into the reward calculation.</p>
+<p>Validators earn a cut of the transaction fees that people pay to use the network. However, due to a burn mechanism implemented in Phase 1, a majority of fees on the network will be burned and removed from total supply.</p>
 <h2 id="staking-costs-and-risks">Staking Costs and Risks</h2>
 <p>Validating and earning rewards is not a free lunch. There are many things to consider for one to become a validator. These factors will be considered by every validator when contemplating if the staking rewards are "worth it". They are:</p>
 <ul>
