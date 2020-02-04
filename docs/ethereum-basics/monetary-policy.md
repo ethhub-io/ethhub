@@ -45,6 +45,8 @@ Issuance rate is also impacted by the speed of blocks. There have been a few oth
 * In late 2016, the network was under DDoS attack. This increased the uncle rate, therefore causing a temporary rise in issuance rate.
 * In mid 2017, a mechanism called the difficulty bomb \(or "Ethereum Ice Age"\) started to kick in. This meant that the difficulty of mining a block rose, therefore slowing down blocks. This resulted in a dramatic decrease in issuance rate.
 * In late 2017, the Byzantium fork was released which delayed the difficulty bomb and also reduced block rewards from 5 to 3.
+* In early 2019, after a few months of difficulty bomb activation, the bomb was reset and block rewards were reduced from 3 to 2 in the Constantinople fork.
+* In early 2020, the Muir Glacier fork reset the difficulty bomb.
 
 ### Proof of Stake Impact
 
@@ -62,8 +64,8 @@ According to the current [Eth 2.0 spec](https://github.com/ethereum/eth2.0-specs
 
 There are two majors upcoming factors when it comes to Ethereum's issuance rate and supply curve. They are:
 
-* [Serenity Phase 0](https://github.com/ethhub-io/ethhub/tree/master/ethereum-roadmap/serenity-phases): Slight bump in issuance due to Beacon Chain launch.
-* [Serenity Phase 2](https://github.com/ethhub-io/ethhub/tree/master/ethereum-roadmap/serenity-phases): Strong drop in issuance due to the PoW chain fading away.
+* [Eth2 Phase 0](https://github.com/ethereum/eth2.0-specs/tree/dev/specs/phase0): Slight bump in issuance due to Beacon Chain launch.
+* [Eth2 Phase 1.5](https://github.com/ethereum/eth2.0-specs/tree/dev/specs/phase1): PoW rewards will be removed due to Eth1 PoW chain being [moved into a shard](https://docs.ethhub.io/ethereum-roadmap/ethereum-2.0/eth-1.0-to-2.0-migration/#new-proposal) on the Eth2 chain. This means that the only rewards on chain will be to PoS validators, using the chart above.
 
 ![](/assets/images/issuance_graph.png)
 

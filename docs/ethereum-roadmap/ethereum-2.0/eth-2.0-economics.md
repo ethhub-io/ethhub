@@ -6,7 +6,7 @@ description: A deep dive on the economics in Ethereum 2.0 including staking rewa
 
 ## Introduction
 
-The Ethereum Serenity upgrade will bring with it a switch from Proof of Work to Proof of Stake. This means that rather than pay miners to secure the network, we will be paying validators to secure the network. It's vitally important to get the economics of staking right so that the network stays healthy and secure.
+The Ethereum 2.0 upgrade will bring with it a switch from Proof of Work to Proof of Stake. This means that rather than pay miners to secure the network, we will be paying validators to secure the network. It's vitally important to get the economics of staking right so that the network stays healthy and secure.
 
 If the incentive to stake is too low, the network will not get the minimum amount of validators needed to keep many shards going. If the incentive is too high, the network is overpaying for security and inflating at a rate that is detrimental to the economics of the network as a whole.
 
@@ -57,7 +57,7 @@ In order to incentivize those that have ETH to stake in the network, there must 
 
 ## Fees
 
-Validators earn a cut of the transaction fees that people pay to use the network. This is one area that needs more research but currently, the Ethereum network is paying about 600 ETH a day in fees. At current rate that's 219,000 ETH a year. How this will scale up as we add shards and throughput to the network will be important because it goes into the reward calculation.
+Validators earn a cut of the transaction fees that people pay to use the network. However, due to a burn mechanism implemented in Phase 1, a majority of fees on the network will be burned and removed from total supply.
 
 ## Staking Costs and Risks
 

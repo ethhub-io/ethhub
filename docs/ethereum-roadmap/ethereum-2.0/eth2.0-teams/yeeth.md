@@ -1,8 +1,10 @@
 title: Yeeth - EthHub
 
-description: Dean & Eric Tu are building an Ethereum 2.0 client written in the Swift programming language.
+description: Yeeth Ethereum 2.0 client implementation
 
 # Yeeth
+
+*This project is no longer being actively worked on.*
 
 ## Background
 
@@ -10,11 +12,10 @@ Dean announced the Swift implementation on [Twitter](https://twitter.com/DeanEig
 
 ## Implementation Details
 
-Dean & Eric Tu are building an Ethereum 2.0 client written in the Swift programming language.
+Dean & Eric Tu were building an Ethereum 2.0 client written in the Swift programming language.
 
 ## Resources:
 
 * [Github](https://github.com/yeeth/BeaconChain.swift)
 * [Twitter](https://twitter.com/yeethaf)
 * [Website](https://yeeth.af)
-

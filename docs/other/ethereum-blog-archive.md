@@ -661,3 +661,60 @@ September 2019
 [Development Update #0 - Ethereum.org](https://blog.ethereum.org/2019/09/18/Development-Update-0-Ethereum.org/)
 
 [Eth2 Interop in Review](https://blog.ethereum.org/2019/09/19/eth2-interop-in-review/)
+
+[Devcon5 Schedule, Sponsors and Speakers are online NOW!](https://blog.ethereum.org/2019/09/26/Devcon-Speaker-Release/)
+
+October 2019
+
+[The Devcon5 Bible](https://blog.ethereum.org/2019/10/03/the-devcon5-bible/)
+
+[eth2 quick update](https://blog.ethereum.org/2019/10/23/eth2-quick-update/)
+
+[eth2 quick update no. 2](https://blog.ethereum.org/2019/10/31/eth2-quick-update-no-2/)
+
+November 2019
+
+[Eth2 at ETHWaterloo: Prizes for Eth2 education, tooling, and research](https://blog.ethereum.org/2019/11/04/Eth2-at-ETHWaterloo/)
+
+[eth2 quick update no. 3](https://blog.ethereum.org/2019/11/08/eth2-quick-update-no-3/)
+
+[Development Update #1 - Ethereum.org](https://blog.ethereum.org/2019/11/12/Ethereum.org-Development-Update-1/)
+
+[Announcing a Taiwan-specific Wave of Grants](https://blog.ethereum.org/2019/11/14/Announcing-a-Taiwan-specific-Wave/)
+
+[Ecosystem Support Program call for applications](https://blog.ethereum.org/2019/11/19/Ecosystem-Support-Program-call-for-applications/)
+
+[Ethereum Istanbul Upgrade Announcement](https://blog.ethereum.org/2019/11/20/ethereum-istanbul-upgrade-announcement/)
+
+[eth2 quick update no. 4](https://blog.ethereum.org/2019/11/21/eth2-quick-update-no-4/)
+
+[Validated: Staking on eth2 #0](https://blog.ethereum.org/2019/11/27/Validated-Staking-on-eth2-0/)
+
+December 2019
+
+[EF-Supported Teams: Research & Development Update](https://blog.ethereum.org/2019/12/03/ef-supported-teams-research-and-development-update-2019-pt-2/)
+
+[eth2 quick update no. 5](https://blog.ethereum.org/2019/12/05/eth2-quick-update-no-5/)
+
+[The 1.x Files: a fast-sync](https://blog.ethereum.org/2019/12/10/eth1x-files-fast-sync/)
+
+[eth2 quick update no. 6](https://blog.ethereum.org/2019/12/19/eth2-quick-update-no-6/)
+
+[The 1.x Files: December call digest](https://blog.ethereum.org/2019/12/20/eth1x-files-digest-no-1/)
+
+[Ethereum Muir Glacier Upgrade Announcement](https://blog.ethereum.org/2019/12/23/ethereum-muir-glacier-upgrade-announcement/)
+
+[The 1.x Files: The State of Stateless Ethereum](https://blog.ethereum.org/2019/12/30/eth1x-files-state-of-stateless-ethereum/)
+
+January 2020
+
+[Update on the Vyper Compiler](https://blog.ethereum.org/2020/01/08/update-on-the-vyper-compiler/)
+
+[Validated, staking on eth2: #1 - Incentives](https://blog.ethereum.org/2020/01/13/validated-staking-on-eth2-1-incentives/)
+
+[eth2 quick update no. 7](https://blog.ethereum.org/2020/01/16/eth2-quick-update-no-7/)
+
+[The 1.x Files: January call digest](https://blog.ethereum.org/2020/01/17/eth1x-files-digest-no-2/)
+
+## Archived Comments
+The Ethereum blog was redesigned at a point in time and historical comments no longer show up on the pages. The old comments can be found [here](https://disqus.com/home/forum/ethereumproject/). 

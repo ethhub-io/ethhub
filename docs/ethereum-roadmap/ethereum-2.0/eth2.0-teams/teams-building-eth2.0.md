@@ -17,5 +17,4 @@ There are currently nine independent development teams building Ethereum 2.0 cli
 | [Status](nimbus.md) | Nimbus | Nim | $650K - EF Co-funded ETH2 Grant <br/> $500k - EF Grant Wave 4 |
 | [Ethereum Foundation](trinity.md) | Trinity | Python | $80k - EF Funding |
 | [Nethermind](nethermind.md) | Cortex | .NET | EF Grant |
-| [Yeeth](yeeth.md) | Yeeth | Swift | Funded via [Gitcoin Grant](https://gitcoin.co/grants/41/yeeth) |
-
+| [Yeeth](yeeth.md) | Yeeth (No longer in development) | Swift | Funded via [Gitcoin Grant](https://gitcoin.co/grants/41/yeeth) |

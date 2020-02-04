@@ -61,6 +61,8 @@ nav:
       - 'Sharding': 'ethereum-roadmap/ethereum-2.0/sharding.md'
       - 'Ethereum 2.0 Economics': 'ethereum-roadmap/ethereum-2.0/eth-2.0-economics.md'
       - 'Ethereum 1.0 to 2.0 Migration': 'ethereum-roadmap/ethereum-2.0/eth-1.0-to-2.0-migration.md'
+      - 'Ethereum 2.0 Client Architecture': 'ethereum-roadmap/ethereum-2.0/eth-2.0-client-architecture.md'
+      - 'Ethereum Account Abstraction': 'ethereum-roadmap/ethereum-2.0/account-abstraction.md'
       - Ethereum 2.0 Teams:
         - 'Teams Building Eth 2.0': 'ethereum-roadmap/ethereum-2.0/eth2.0-teams/teams-building-eth2.0.md'
         - 'Artemis': 'ethereum-roadmap/ethereum-2.0/eth2.0-teams/artemis.md'
@@ -73,14 +75,16 @@ nav:
         - 'Trinity': 'ethereum-roadmap/ethereum-2.0/eth2.0-teams/trinity.md'
         - 'Nethermind': 'ethereum-roadmap/ethereum-2.0/eth2.0-teams/nethermind.md'
         - 'Yeeth': 'ethereum-roadmap/ethereum-2.0/eth2.0-teams/yeeth.md'
+  - 'Ethereum 1.x': 'ethereum-roadmap/ethereum-1.x.md'
+  - 'Stateless Clients': 'ethereum-roadmap/ethereum-2.0/stateless-clients.md'
   - Layer 2 Scaling:
+      - 'ZK-Rollups': 'ethereum-roadmap/layer-2-scaling/zk-rollups.md'
+      - 'Optimistic Rollups': 'ethereum-roadmap/layer-2-scaling/optimistic_rollups.md'
       - 'Plasma': 'ethereum-roadmap/layer-2-scaling/plasma.md'
       - 'State Channels': 'ethereum-roadmap/layer-2-scaling/state-channels.md'
       - 'Payment Channels': 'ethereum-roadmap/layer-2-scaling/payment-channels.md'
       - 'ZK-STARKs': 'ethereum-roadmap/layer-2-scaling/zk-starks.md'
       - 'Commit-Chains': 'ethereum-roadmap/layer-2-scaling/commit-chains.md'
-      - 'Optimistic Rollups': 'ethereum-roadmap/layer-2-scaling/optimistic_rollups.md'
-  - 'Ethereum 1.x': 'ethereum-roadmap/ethereum-1.x.md'
   - 'Privacy': 'ethereum-roadmap/privacy.md'
   - 'Istanbul': 'ethereum-roadmap/istanbul.md'
 - Using Ethereum:
@@ -229,6 +233,7 @@ nav:
     - 'Govblocks': 'built-on-ethereum/governance/govblocks.md'
   - Infrastructure:
     - 'QuikNode': 'built-on-ethereum/infrastructure/quiknode.md'
+    - 'Chainstack': 'built-on-ethereum/infrastructure/chainstack.md'
     - '0xcert': 'built-on-ethereum/infrastructure/0xcert.md'
     - 'Aztec Protocol': 'built-on-ethereum/infrastructure/aztec-protocol.md'
     - 'Bounties Network': 'built-on-ethereum/infrastructure/bountiesnetwork.md'
@@ -280,6 +285,7 @@ nav:
 - Guides:
   - 'Ethereum New User Guide': 'using-ethereum/ethereum-new-user-guide.md'
   - 'How to Get a High-Yield Savings Account on Ethereum': 'guides/ethereum-high-yield-savings-account.md'
+  - 'Deciphering a Transaction on Etherscan': 'guides/deciphering-a-transaction-on-etherscan.md'
   - 'The Ultimate Guide to the ENS': 'guides/guide-to-ens.md'
 - Ethereum FAQ:
   - 'Is Ethereum more expensive to use as price rises?': 'questions-about-ethereum/is-ethereum-more-expensive-to-use-as-price-rises.md'
