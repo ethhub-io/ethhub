@@ -1,4 +1,4 @@
-# Understanding Uniswap
+# A Graphical Guide for Understanding Uniswap
 
 ## Summary
 
@@ -59,7 +59,7 @@ Now let’s assume that there is a movement in the market that pushes the price 
 In response, someone can now put ETH into the pool, draw out DAI, then sell the DAI back for ETH on the centralized exchange, and repeat. They can do this until the pool has balanced out and reflects the current market price on a different exchange.
 
 !['scale 100 balanced'](/docs/assets/images/uniswap_guide/scale_100_balanced.png)
-<!-- <img src="../../docs/assets/images/uniswap_guide/scale_100_balanced.png" width="70%" /> -->
+
 As a result, third party arbitrages play a large role in maintaining the correct ratio of token to Ether in Uniswap pools.
 
 
