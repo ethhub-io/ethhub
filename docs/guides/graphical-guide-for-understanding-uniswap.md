@@ -24,16 +24,17 @@ ERC20s can be thought of as the most simple unit of account for a wide range of 
 
 When viewing Uniswap’s website, it is important to keep in mind that it is much more than just the interface. Uniswap starndaizes how ERC20s are exchanged with a set of smart contracts. Anyone can build an interface that connects to these contracts and instantly be able to start exchanging with everyone else that is using Uniswap.
 
-There are two different types of contracts that make up Uniswap. The first is known as an Exchange contract. Exchange contracts hold a pool of a specific token and Ether, which users can swap against. The second kind of contract is the Factory contract which is in charge of creating new Exchange contracts and registering the ERC20 token address to its Exchange contract address.
+There are two different types of contracts that make up Uniswap. The first is known as an Exchange contract. Exchange contracts hold a pool of a specific token and Ether that users can swap against. The second kind of contract is the Factory contract which is in charge of creating new Exchange contracts and registering the ERC20 token address to its Exchange contract address.
 
 !['uniswap contract overview'](/docs/assets/images/uniswap_guide/uniswap_contract_overview.png)
 
-There are no listing fees to add a token on Uniswap, instead anyone can call a function on the Factory contract to register a new token. The graphic below is an example of when DAI was added to Uniswap. Someone first called the createExchange function in the Factory contract with DAI’s contract address. Then the Factory contract checks it’s registry to see if an Exchange contract has been created for that token address. If there is no Exchange address listed, the factory contract deploys an exchange contract and records the Exchange address in its registry.
+There are no listing fees to add a token on Uniswap, instead anyone can call a function on the Factory contract to register a new token. The graphic below is an example of when DAI was added to Uniswap. Someone first called the createExchange function in the Factory contract with DAI’s contract address. Then the Factory contract checks it’s registry to see if an Exchange contract has been created for that token address. If no Exchange address is listed, the factory contract deploys an Exchange contract and records the Exchange address in its registry.
 
 !['creating new pool'](/docs/assets/images/uniswap_guide/new_pool_creation.png)
 
 
 ## Liquidity Pools
+
 Uniswap is unique in that it doesn’t use an order book to derive the price of an asset. In a centralized exchange, such as Coinbase Pro, the price of an asset listed on the exchange is determined by where the highest price someone is willing to pay and the lowest price someone is willing to sell an asset meet. We can see in the image below, that the highest bid price for BTC on Coinbase Pro at that point was $9301.36 and the lowest asking price was $9301.37.
 
 !['orderbook example'](/docs/assets/images/uniswap_guide/orderbook_example.png)
@@ -42,21 +43,21 @@ Instead Uniswap uses the Exchange contracts to pool both Ether and a specific ER
 
 !['swap example'](/docs/assets/images/uniswap_guide/swap_example.png)
 
-The amount that is returned from swapping is based on an automated market maker formula. The graph below helps illustrate how the formula works. Essentially, the amount that is returned to you is based on the ratio of Ether to token in in the pool. No matter the size, the user is guaranteed to have their swap executed because the more of an asset that you add to one side of the pool, the further along the curve it pushes you for the other asset. Meaning the larger the order relative to the pool, the worst rate you will receive as the ratio moves along the curve.
+The amount that is returned from swapping is based on an automated market maker formula. The graph below helps illustrate how the formula works. Essentially, the amount that is returned to you is based on the ratio of Ether to token in in the pool. No matter the size of a swap, the user is guaranteed to have their swap executed because the more of an asset that you add to one side of the pool, the further along the curve it pushes you for the other asset. Meaning the larger the order relative to the pool, the worst rate you will receive as the ratio moves along the curve.
 
 !['constant market maker graph'](/docs/assets/images/uniswap_guide/market_graph.png)
 
 *You can learn more about the formula [here](https://ethresear.ch/t/improving-front-running-resistance-of-x-y-k-market-makers/1281).*
 
-But if users are only just sending cryptocurrency, how does the ratio of Ether to token remain priced correctly? The answer is the pools maintain a ratio relative to the price of the rest of the market through people [arbitraging](https://en.wikipedia.org/wiki/Arbitrage) the pool. Imagine that the DAI:ETH pool is expressed in terms of a scale and when the scale is balanced, the pool is appropriately priced relative to the market price of a centralized exchange. Let’s say that the current price for ETH in USD on a centralized exchange is $150 and the ratio in the Uniswap DAI:ETH pool returns 150 DAI for 1 ETH. As a result, our scale is balanced because the pool matches the current market price on the centralized exchange. 
+But if users are only just sending cryptocurrency, how does the ratio of Ether to token remain priced correctly relative to external markets? The answer is the pools maintain a ratio relative to the price of the rest of the market through people [arbitraging](https://en.wikipedia.org/wiki/Arbitrage) the pool. Imagine that the DAI:ETH pool is expressed in terms of a scale and when the scale is balanced the pool is appropriately priced relative to the market price of a centralized exchange. Let’s say that the current price for ETH in USD on a centralized exchange is $150 and the ratio in the Uniswap DAI:ETH pool returns 150 DAI for 1 ETH. As a result, our scale is balanced because the pool matches the current market price on the centralized exchange. 
 
 !['scale 150 balanced'](/docs/assets/images/uniswap_guide/scale_150_balanced.png)
 
-Now let’s assume that there is a movement in the market that pushes the price of ETH to $100 on the centralized exchange. Due to the price movement, we can now see that our scale is off balance relative to the market price because people can now swap 1 ETH for 150 DAI when the market price on a centralized exchange is $100 for 1 ETH. 
+Now let’s assume that there is a movement in the market that pushes the price of ETH to $100 on the centralized exchange. Due to the price movement, we can now see that our scale is off balance relative to the market price because people can now swap 1 ETH for 150 DAI on Uniswap when the market price on a centralized exchange is $100 for 1 ETH. 
 
 !['scale 100 unbalanced'](/docs/assets/images/uniswap_guide/scale_100_unbalanced.png)
 
-In response, someone can now put ETH into the pool, draw out DAI, then sell the DAI back for ETH on the centralized exchange, and repeat. They can do this until the pool has balanced out and reflects the current market price on a different exchange.
+In response, someone can now put ETH into the pool, draw out DAI, then sell the DAI back for ETH on the centralized exchange for profit, and then repeat. They can do this until the pool has balanced out and reflects the current market price on a different exchange.
 
 !['scale 100 balanced'](/docs/assets/images/uniswap_guide/scale_100_balanced.png)
 
@@ -64,16 +65,16 @@ As a result, third party arbitrages play a large role in maintaining the correct
 
 
 ## Swapping ERC20 ⇄ ERC20
-When interacting with a single Exchange contract, a user is able to swap between Ether and a specific ERC20 token. However, Uniswap does allow users to directly swap an ERC20 to another ERC20 in a single transaction. In the example below, the user has DAI and would like to receive Maker. As a result, the user calls the tokenToTokenSwap function which adds DAI to the DAI pool and kicks ETH to the MKR pool and returns MKR to the user that initially sent the transaction. 
+When interacting with a single Exchange contract, a user is able to swap between Ether and a specific ERC20 token. However, Uniswap does allow users to directly swap an ERC20 to another ERC20 in a single transaction. In the example below, the user has DAI and would like to receive MKR. As a result, the user calls the tokenToTokenSwap function which adds DAI to the DAI pool and kicks ETH to the MKR pool and returns MKR to the address that initially sent the transaction. 
 
 !['swapping erc20s'](/docs/assets/images/uniswap_guide/swapping_erc20s.png)
 
 
 ## Liquidity Providers
 
-When an Exchange contract is first created for a token, both the pools are empty. The first person that deposits into the contract is the one that determines the ratio between the token and Ether. If they deposit a ratio that is different from what the current market rate is, then an arbitrage opportunity is available. When liquidity providers are adding to the pool, they should add a proportional amount of token and Ether to the pool. If they don’t, the liquidity they added is at risk of being arbitraged.
+When an Exchange contract is first created for a token, both the token and Ether pools are empty. The first person that deposits into the contract is the one that determines the ratio between the token and Ether. If they deposit a ratio that is different from what the current market rate is, then an arbitrage opportunity is available. When liquidity providers are adding to an established pool, they should add a proportional amount of token and Ether to the pool. If they don’t, the liquidity they added is at risk of being arbitraged as well.
 
-In addition, Larger liquidity pools are beneficial to users because they allow for larger swaps to happen without skewing the token to ETH ratio too far along the curve. Uniswap incentives users to add liquidity to pools by rewarding providers with fees that are collected by the protocol. A 0.03% fee is taken for swapping between Ether and a token and roughly a 0.06% is token for token to tokens swaps.
+In addition, larger liquidity pools are beneficial to users because they allow for larger swaps to happen without skewing the token to ETH ratio too far along the curve. Uniswap incentives users to add liquidity to pools by rewarding providers with fees that are collected by the protocol. A 0.3% fee is taken for swapping between Ether and a token and roughly a 0.6% is token for token to tokens swaps.
 
 Lastly, special ERC20 tokens known as liquidity tokens are minted to the provider’s address in proportion to how much liquidity they contributed to the pool. The tokens are burned when the user wants to receive the liquidity they contributed plus the fees that we accumulated while their liquidity was locked.
 
