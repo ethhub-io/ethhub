@@ -250,6 +250,7 @@ nav:
     - 'Ethereum Enterprise': 'built-on-ethereum/enterprise/enterprise.md'
     - 'AXA': 'built-on-ethereum/enterprise/axa.md'
     - 'Axoni': 'built-on-ethereum/enterprise/axoni.md'
+    - 'Chainstack': 'built-on-ethereum/enterprise/chainstack.md'
     - 'Cloudflare': 'built-on-ethereum/enterprise/cloudflare.md'
     - 'Deloitte': 'built-on-ethereum/enterprise/deloitte.md'
     - 'DTCC': 'built-on-ethereum/enterprise/dtcc.md'
