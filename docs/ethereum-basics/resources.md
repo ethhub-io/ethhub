@@ -130,7 +130,7 @@ description: A list of essential Ethereum resources.
 
 * [Loanscan - Ethereum Loan Explorer](https://loanscan.io/)
 * [State of the dApps](https://www.stateofthedapps.com/)
-* [Settle - Decentralized Finance OS](https://settle.finance/)
+* [DeFi Pulse - The Decentralized Finance Leaderboard](https://defipulse.com/)
 
 #### Ethereum Data Explorers
 
