@@ -24,6 +24,8 @@ Read more [here](https://consensys.net/enterprise-ethereum/best-blockchain-for-b
 
 * [AXA](axa.md)
 * [Axoni](axoni.md)
+* [BlockApps](blockapps.md)
+* [Clearmatics](clearmatics.md)
 * [Cloudflare](cloudflare.md)
 * [Deloitte](deloitte.md)
 * [DTCC](dtcc.md)
