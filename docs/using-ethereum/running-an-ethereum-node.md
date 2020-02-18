@@ -54,6 +54,19 @@ Both geth full and parity no-warp are to be considered a full Ethereum node beca
 * It keeps all historical blocks on the disk.
 * It keeps the most recent states on the disk and prunes ancient states.
 
+**besu**
+
+Besu's default sync mode is with [fastsync](https://besu.hyperledger.org/en/stable/Reference/CLI/CLI-Syntax/#sync-mode) enabled. This setting reduces sync time considerably compared to full sync.
+
+**besu --sync-mode=FULL**
+
+Besu can nontheless, be run with full sync mode, which will increase sync time and storage space needed.
+
+**besu --pruning-enabled**
+
+This setting enables [pruning](https://besu.hyperledger.org/en/stable/Reference/CLI/CLI-Syntax/#pruning-enabled) in order to reduce storage required for the world state. Pruning removes state trie nodes that aren’t required.
+
+
 ## Light nodes
 
 A light node:
