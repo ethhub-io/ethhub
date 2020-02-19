@@ -4797,6 +4797,12 @@
 <li>It keeps all historical blocks on the disk.</li>
 <li>It keeps the most recent states on the disk and prunes ancient states.</li>
 </ul>
+<p><strong>besu</strong></p>
+<p>Besu's default sync mode is with <a href="https://besu.hyperledger.org/en/stable/Reference/CLI/CLI-Syntax/#sync-mode">fastsync</a> enabled. This setting reduces sync time considerably compared to full sync.</p>
+<p><strong>besu --sync-mode=FULL</strong></p>
+<p>Besu can nontheless, be run with full sync mode, which will increase sync time and storage space needed.</p>
+<p><strong>besu --pruning-enabled</strong></p>
+<p>This setting enables <a href="https://besu.hyperledger.org/en/stable/Reference/CLI/CLI-Syntax/#pruning-enabled">pruning</a> in order to reduce storage required for the world state. Pruning removes state trie nodes that aren’t required.</p>
 <h2 id="light-nodes">Light nodes</h2>
 <p>A light node:</p>
 <ul>
