@@ -47,6 +47,7 @@ description: A list of essential Ethereum resources.
 
 * [Into the Ether](https://directory.libsyn.com/shows/view/id/intotheether)
 * [Epicenter](https://epicenter.tv/)
+* [The Block Experience](https://anchor.fm/theblockexperience/)
 * [Dose of Ether](https://thebitcoinpodcast.com/category/dose-of-ether/)
 * [Unchained](https://unchainedpodcast.com/)
 * [Unconfirmed](https://unconfirmed.libsyn.com/)
