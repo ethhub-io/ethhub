@@ -6,7 +6,7 @@ description: Parity is an implementation of the Ethereum protocol written in Rus
 
 ## Summary
 
-Parity is an implementation of the Ethereum protocol written in Rust, a systems programming language. It is developed and actively maintained by Parity Technologies.
+Parity is an implementation of the Ethereum protocol written in Rust, a systems programming language. It is developed and actively maintained by OpenEthereum DAO.
 
 ## Requirements
 
@@ -27,7 +27,7 @@ Light node:
 
 ## Setup
 
-* [Download parity from the official Github releases page](https://github.com/paritytech/parity-ethereum/releases/)
+* [Download parity from the official Github releases page](https://github.com/OpenEthereum/open-ethereum/releases)
 * If on Linux, make the parity binary executable with `chmod +x ./parity`
 
 For running a compiled binary downloaded from the official Github releases page, no system dependencies are required.
@@ -56,4 +56,4 @@ Many commands are available with the parity client.
 * **parity restore FILEPATH**: restore Blockchain from snapshot located at FILEPATH
 
 ## Resources
-* [Github](https://github.com/paritytech/parity-ethereum)
+* [Github](https://github.com/OpenEthereum/open-ethereum)
