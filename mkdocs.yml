@@ -127,6 +127,7 @@ nav:
       - 'Fulcrum': 'built-on-ethereum/open-finance/lending/fulcrum.md'
       - 'Maker': 'built-on-ethereum/open-finance/lending/maker.md'
       - 'Torque': 'built-on-ethereum/open-finance/lending/torque.md'
+      - 'Nuo Network': 'built-on-ethereum/open-finance/lending/NuoNetwork.md'
     - Investing:
       - 'Bskt': 'built-on-ethereum/open-finance/investing/bskt.md'
       - 'Digix': 'built-on-ethereum/open-finance/investing/digix.md'
