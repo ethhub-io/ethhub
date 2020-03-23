@@ -335,6 +335,3 @@ nav:
     - 'Stateless Clients': 'glossary/sideways-dictionary/stateless-clients.md'
     - 'Uncle Blocks': 'glossary/sideways-dictionary/uncle-blocks.md'
     - 'Wei': 'glossary/sideways-dictionary/wei.md'
-- ETH 2.0:
-  - Gitcoin:
-    - 'ETH 2.0 Gitcoin Overview Playlist': 'ETH2.0/gitcoin-tldr-overview-playlist/overview-playlist.md'
