@@ -1,4 +1,4 @@
-# **TLDR Gitcoin Overview Playlist**
+# **Gitcoin Overview Playlist**
 
 ## **Scaling throughput ETH 2.0**
 [![Scaling ETH2.0](http://i3.ytimg.com/vi/td750o3xf8k/maxresdefault.jpg)](https://youtu.be/td750o3xf8k?list=PLvTrX8LNPbPkOOTmVqjljLs2vk5-YZwLG)
