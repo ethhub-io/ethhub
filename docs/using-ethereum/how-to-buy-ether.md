@@ -6,6 +6,11 @@ description: In order to interact with the Ethereum network, you will need to ow
 
 In order to [interact](https://docs.ethhub.io/using-ethereum/transactions/) with the Ethereum network, you will need to own ether (ETH). Unless you are mining, the only way to acquire ETH is from someone that already owns it. Below is a list of cryptocurrency exchanges where you can acquire ETH with fiat or cryptocurrencies. It is highly recommended to store the ETH you own in a [hardware wallet](https://docs.ethhub.io/using-ethereum/wallets/hardware/)!
 
+## Xcoins.com
+Founded in 2016, Xcoins.com is a leading platform that lets you buy Ether online securely using a Visa or MasterCard debit card or credit card. Trusted by over 250,000 satisfied customers globally.
+
+[Buy ETH on Xcoins.com](https://www.xcoins.com)
+
 ## Binance
 Binance is headquartered in Malta and constantly has some of the highest trading volume. Users can buy ETH with fiat or cryptocurrencies.
 
