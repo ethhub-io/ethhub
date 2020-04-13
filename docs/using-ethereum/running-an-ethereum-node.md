@@ -34,6 +34,14 @@ The default sync mode. Synchronizes a full node doing a [fast synchronization](h
 
 Synchronizes a full node starting at genesis, verifying all blocks and executing all transactions. This mode is a bit slower than the fast sync mode but comes with increased security.
 
+**./Nethermind.Runner --config mainnet**
+
+The default sync mode. Synchronizes a full node doing a [fast synchronization](https://ethereum.stackexchange.com/questions/1161/what-is-geths-fast-sync-and-why-is-it-faster) by downloading the entire state database, requesting the headers first, and optionally filling in block bodies and receipts. Once the fast sync reaches the best block of the Ethereum network, it switches to full sync mode.
+
+**./Nethermind.Runner --config mainnet_archive**
+
+Synchronizes a full node starting at genesis, verifying all blocks and executing all transactions. This mode is much slower than the fast sync mode but comes with increased security.
+
 **parity**
 
 The default sync mode. Synchronizes a full Ethereum node using [warp synchronization](https://ethereum.stackexchange.com/questions/9991/what-is-paritys-warp-sync-and-why-is-it-faster-than-geth-fast) mode by downloading a snapshot of the 30,000 best blocks and the latest state database.
@@ -157,3 +165,4 @@ Warning: never plug into your LAN anything you cannot thoroughly inspect and ver
 * [Dispelling Myths About Ethereum's Disk Space](https://www.tokendaily.co/blog/dispelling-myths-about-ethereum-s-disk-space)
 * [What Comprises an Ethereum Fullnode Implementation?](https://medium.com/amentum/what-comprises-an-ethereum-fullnode-implementation-a9113ce3fe3a)
 * [Running an Ethereum Full Node on a RaspberryPi 4](https://kauri.io/article/9695fcca217f46feb355245275835fc0)
+* [Getting started with Nethermind](https://nethermind.readthedocs.io/en/latest/start.html)
