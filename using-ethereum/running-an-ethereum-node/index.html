@@ -4886,6 +4886,10 @@
 <p>The default sync mode. Synchronizes a full node doing a <a href="https://ethereum.stackexchange.com/questions/1161/what-is-geths-fast-sync-and-why-is-it-faster">fast synchronization</a> by downloading the entire state database, requesting the headers first, and filling in block bodies and receipts afterward. Once the fast sync reaches the best block of the Ethereum network, it switches to full sync mode.</p>
 <p><strong>geth --syncmode full</strong></p>
 <p>Synchronizes a full node starting at genesis, verifying all blocks and executing all transactions. This mode is a bit slower than the fast sync mode but comes with increased security.</p>
+<p><strong>./Nethermind.Runner --config mainnet</strong></p>
+<p>The default sync mode. Synchronizes a full node doing a <a href="https://ethereum.stackexchange.com/questions/1161/what-is-geths-fast-sync-and-why-is-it-faster">fast synchronization</a> by downloading the entire state database, requesting the headers first, and optionally filling in block bodies and receipts. Once the fast sync reaches the best block of the Ethereum network, it switches to full sync mode.</p>
+<p><strong>./Nethermind.Runner --config mainnet_archive</strong></p>
+<p>Synchronizes a full node starting at genesis, verifying all blocks and executing all transactions. This mode is much slower than the fast sync mode but comes with increased security.</p>
 <p><strong>parity</strong></p>
 <p>The default sync mode. Synchronizes a full Ethereum node using <a href="https://ethereum.stackexchange.com/questions/9991/what-is-paritys-warp-sync-and-why-is-it-faster-than-geth-fast">warp synchronization</a> mode by downloading a snapshot of the 30,000 best blocks and the latest state database.</p>
 <p>Once the snapshot is restored, the client switches to full sync and ancient blocks are synchronized from the network in background.</p>
@@ -4971,6 +4975,7 @@
 <li><a href="https://www.tokendaily.co/blog/dispelling-myths-about-ethereum-s-disk-space">Dispelling Myths About Ethereum's Disk Space</a></li>
 <li><a href="https://medium.com/amentum/what-comprises-an-ethereum-fullnode-implementation-a9113ce3fe3a">What Comprises an Ethereum Fullnode Implementation?</a></li>
 <li><a href="https://kauri.io/article/9695fcca217f46feb355245275835fc0">Running an Ethereum Full Node on a RaspberryPi 4</a></li>
+<li><a href="https://nethermind.readthedocs.io/en/latest/start.html">Getting started with Nethermind</a></li>
 </ul>
                 
                   
