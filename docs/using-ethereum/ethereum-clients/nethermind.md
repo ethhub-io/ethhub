@@ -16,7 +16,7 @@ Ethereum Client built on .NET Core, perfect for enterprise-grade systems and ben
 ## Setup
 
 * [Download Nethermind from the official page](http://downloads.nethermind.io/)
-* [Follow the instructions](https://nethermind.readthedocs.io/en/latest/download.html)
+* [Follow the instructions](https://nethermind.readthedocs.io/en/latest/start.html)
 
 ## Running
 
