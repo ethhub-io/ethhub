@@ -2,7 +2,7 @@
 
 ## Summary
 
-A token can be defined as something that serves as a visible or tangible representation of something else. An example of this could be arcade tokens, these pieces of metal are the physical representation of the amount of games that a person is able to play. However, unlike arcade tokens, tokens built on top of Ethereum are entirely virtual, but can still have representational value assigned in them in the same way. ERC20 tokens are by far the most used token on Ethereum and this guide will break down the ERC20 standard as well as what it means for something to be an ERC20 token.
+A token can be defined as something that serves as a visible or tangible representation of something else. An example of this could be arcade tokens, these pieces of metal are the physical representation of the amount of games that a person is able to play. However, unlike arcade tokens, tokens built on top of Ethereum are entirely virtual, but can still have representational value assigned to them in the same way. ERC20 tokens are by far the most used token on Ethereum and this guide will break down the ERC20 standard as well as what it means for something to be an ERC20 token.
 
 ![](../assets/images/erc20_guide/metal_token.png)
 
@@ -43,7 +43,8 @@ Even though they are optional, most ERC20 tokens implement these properties to g
 
 ![](../assets/images/erc20_guide/balance_of.png)
 
-* **transfer** - Only the address that has a valid balance can use the transfer function. Since the sender is calling the function from using their address with an amount less than or equal to their balance, they are able to move the amount of funds to the specified address. We can see that a transfer simply decreases the sender’s balance by 10 and increases the recipient's balance by 10. Once complete, the function returns a true value to show that the transfer was successful.
+* **transfer** - The transfer function will only work if the amount specified is less than or equal to their balance. We can see in the example below that the transfer simply decreases the sender’s balance by 10 and increases the recipient's balance by 10. Once complete, the function returns a true value to show that the transfer was successful.
+
 
 ![](../assets/images/erc20_guide/transfer.png)
 
@@ -65,15 +66,15 @@ Events in Ethereum are usually triggered when a transaction changes a contract�
 
 ![](../assets/images/erc20_guide/event_summary.png)
 
-* Transfer - The transfer event is fired when someone either successfully uses the transfer or transferFrom functions. It will give you the address of both the recipient and the sender as well as the amount of tokens that was sent in the transaction. 
-* Approval - The approval event is fired when the approve function is successfully called and will return the owner, spender, and the approved amount.
+* **Transfer** - The transfer event is fired when someone either successfully uses the transfer or transferFrom functions. It will give you the address of both the recipient and the sender as well as the amount of tokens that was sent in the transaction. 
+* **Approval** - The approval event is fired when the approve function is successfully called and will return the owner, spender, and the approved amount.
 
 
 ## Additional Features for ERC20 Tokens
 
-In addition to the required functions, there are additional features that ERC20 token contracts can add. The two primary ones are mintable and burnable tokens. Mintable tokens have a function that allows for the creation of additional tokens, meaning the total supply is not fixed. The minting functions are usually only allowed by a specific set of privileged addresses. While burnable tokens are the opposite in that they can be burned and the supply can be reduced. It is also possible to have a contract that includes both minting and burning functions. 
+In addition to the required functions, there are additional features that ERC20 token contracts can add. The two primary ones are mintable and burnable tokens. Mintable tokens have a minting function that allows for the creation of additional tokens, meaning the total supply is not fixed. The minting functions are usually only able to be called by a specific set of privileged addresses. While burnable tokens are the opposite in that they can be burned and the supply can be reduced. It is also possible to have a contract that includes both minting and burning functions. 
 
 ## Resources
 
-* [ERC20 EIP Github](https://github.com/ethereum/EIPs/blob/master/EIPS/eip-20.md)
+* [EIP20 ETH Github](https://github.com/ethereum/EIPs/blob/master/EIPS/eip-20.md)
 * [A Guide to Events and Logs in Ethereum Smart Contracts](https://consensys.net/blog/blockchain-development/guide-to-events-and-logs-in-ethereum-smart-contracts/)
