@@ -36,26 +36,33 @@ Even though they are optional, most ERC20 tokens implement these properties to g
 ### Required Functions
 
 * **totalSupply** - The totalSupply function returns what the current supply of tokens are for the contract. In this case the total supply is 100 tokens.
+
 ![](../assets/images/erc20_guide/total_supply.png)
 
 * **balanceOf** - If someone calls the balanceOf function with a specific address, it will return the token balance for that address. In this example, balanceOf is being called with 0x58c... and returns 100 tokens.
+
 ![](../assets/images/erc20_guide/balance_of.png)
 
 * **transfer** - Only the address that has a valid balance can use the transfer function. Since the sender is calling the function from using their address with an amount less than or equal to their balance, they are able to move the amount of funds to the specified address. We can see that a transfer simply decreases the sender’s balance by 10 and increases the recipient's balance by 10. Once complete, the function returns a true value to show that the transfer was successful.
+
 ![](../assets/images/erc20_guide/transfer.png)
 
 * **approve** - If an address has a balance, then it can use the approve function to allow a specific amount of it’s balance to be spent by another address. Below, address 0x123... is allowing 0x58c... to spend 10 of its tokens. Similar to transfer, the function returns a true value to show that the approval was successful. Note that this function doesn’t affect the balances directly, only the allowances.
+
 ![](../assets/images/erc20_guide/approve.png)
 
 * **allowance** - The allowance function is used to see how much an address is allowed to spend from another address. We can confirm that since the approve function has already been called and updated the allowance, that the current allowance for 0x58c... to spend from 0x123... is 10 tokens. 
+
 ![](../assets/images/erc20_guide/allowance.png)
 
 * **transferFrom** - The transferFrom function is used when an address with an allowance wants to transfer the balance from one account to another. So 0x58c... can now move its allotted 10 tokens to 0xa3b... by specifying the account they want to transfer from, the to address, and how much. Since 0x58c… has a valid allowance of 10 tokens from 0x123... the transaction is valid and the 10 tokens are sent to 0xa3b....
+
 ![](../assets/images/erc20_guide/transfer_from.png)
 
 ### Required Events
 
 Events in Ethereum are usually triggered when a transaction changes a contract’s state. They are important because they are able to provide information to things that are external to the Ethereum blockchain, which can then trigger other external things to happen. In ERC20 contracts, an event is fired when either the Balances or Allowances are updated.
+
 ![](../assets/images/erc20_guide/event_summary.png)
 
 * Transfer - The transfer event is fired when someone either successfully uses the transfer or transferFrom functions. It will give you the address of both the recipient and the sender as well as the amount of tokens that was sent in the transaction. 
