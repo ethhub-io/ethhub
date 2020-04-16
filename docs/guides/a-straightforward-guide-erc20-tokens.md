@@ -55,13 +55,13 @@ Even though they are optional, most ERC20 tokens implement these properties to g
 
 ![](../assets/images/erc20_guide/allowance.png)
 
-* **transferFrom** - The transferFrom function is used when an address with an allowance wants to transfer the balance from one account to another. So 0x58c... can now move its allotted 10 tokens to 0xa3b... by specifying the address that they want to transfer from, the to address, and how much. Since 0x58c… has a valid allowance of 10 tokens from 0x123... the transaction is valid and the 10 tokens are sent to 0xa3b....
+* **transferFrom** - The transferFrom function is used when an address with an allowance wants to transfer the balance from one address to another. So 0x58c... can now move its allotted 10 tokens to 0xa3b... by specifying the address that they want to transfer from, the to address, and how much. Since 0x58c… has a valid allowance of 10 tokens from 0x123... the transaction is valid and the 10 tokens are sent to 0xa3b....
 
 ![](../assets/images/erc20_guide/transfer_from.png)
 
 ### Required Events
 
-Events in Ethereum are usually triggered when a transaction changes a contract’s state. They are important because they are able to provide information to things that are external to the Ethereum blockchain, which can then trigger other external things to happen. In ERC20 contracts, an event is fired when either the Balances or Allowances are updated.
+Events in Ethereum are usually triggered when a transaction changes a contract’s state. They are important because they are able to provide information to things that are external to the Ethereum blockchain, which can then trigger other external things to happen. In ERC20 token contracts, an event is fired when either the Balances or Allowances are updated.
 
 ![](../assets/images/erc20_guide/event_summary.png)
 
