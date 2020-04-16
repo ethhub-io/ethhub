@@ -35,7 +35,7 @@ Even though they are optional, most ERC20 tokens implement these properties to g
 
 ### Required Functions
 
-* **totalSupply** - The totalSupply function returns what the current supply of tokens are for the contract. In this case the total supply is 100 tokens.
+* **totalSupply** - The totalSupply function returns the current supply of tokens for the contract. In this case the total supply is 100 tokens.
 
 ![](../assets/images/erc20_guide/total_supply.png)
 
@@ -43,8 +43,7 @@ Even though they are optional, most ERC20 tokens implement these properties to g
 
 ![](../assets/images/erc20_guide/balance_of.png)
 
-* **transfer** - The transfer function will only work if the amount specified is less than or equal to their balance. We can see in the example below that the transfer simply decreases the sender’s balance by 10 and increases the recipient's balance by 10. Once complete, the function returns a true value to show that the transfer was successful.
-
+* **transfer** - The transfer function requires a recipient address as well as an amount to send. The function will only work if the amount specified is less than or equal to the sender's balance. We can see in the example below that the transfer simply decreases the sender’s balance by 10 and increases the recipient's balance by 10. Once complete, the function returns a true value to show that the transfer was successful.
 
 ![](../assets/images/erc20_guide/transfer.png)
 
@@ -56,7 +55,7 @@ Even though they are optional, most ERC20 tokens implement these properties to g
 
 ![](../assets/images/erc20_guide/allowance.png)
 
-* **transferFrom** - The transferFrom function is used when an address with an allowance wants to transfer the balance from one account to another. So 0x58c... can now move its allotted 10 tokens to 0xa3b... by specifying the account they want to transfer from, the to address, and how much. Since 0x58c… has a valid allowance of 10 tokens from 0x123... the transaction is valid and the 10 tokens are sent to 0xa3b....
+* **transferFrom** - The transferFrom function is used when an address with an allowance wants to transfer the balance from one account to another. So 0x58c... can now move its allotted 10 tokens to 0xa3b... by specifying the address that they want to transfer from, the to address, and how much. Since 0x58c… has a valid allowance of 10 tokens from 0x123... the transaction is valid and the 10 tokens are sent to 0xa3b....
 
 ![](../assets/images/erc20_guide/transfer_from.png)
 
@@ -72,7 +71,7 @@ Events in Ethereum are usually triggered when a transaction changes a contract�
 
 ## Additional Features for ERC20 Tokens
 
-In addition to the required functions, there are additional features that ERC20 token contracts can add. The two primary ones are mintable and burnable tokens. Mintable tokens have a minting function that allows for the creation of additional tokens, meaning the total supply is not fixed. The minting functions are usually only able to be called by a specific set of privileged addresses. While burnable tokens are the opposite in that they can be burned and the supply can be reduced. It is also possible to have a contract that includes both minting and burning functions. 
+In addition to the required functions, there are additional features that ERC20 token contracts can add. The two primary ones are mintable and burnable tokens. Mintable tokens have a minting function that allows for the creation of additional tokens, meaning that the total supply is not fixed. The minting functions are usually only allowed to be called by a specific set of privileged addresses. While burnable tokens are the opposite in that they can be burned and the supply can be reduced when called by authorized addresses. It is also possible to have a contract that includes both minting and burning functionality.
 
 ## Resources
 
