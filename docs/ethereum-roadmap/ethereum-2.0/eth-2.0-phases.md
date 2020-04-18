@@ -104,6 +104,7 @@ From Phase 3 onwards any speculation made is subjected to change, you can go and
 
 ## Resources
 
+* [Ethereum Roadmap](https://ethos.dev/ethereum-2020-roadmap/)
 * [Ethereum 2.0 Info](https://hackmd.io/e4cNiocFTiS67j6yJ_XHPw?view)
 * [Eth 2.0 Specs](https://github.com/ethereum/eth2.0-specs)
 * [Phase 0 for Humans](https://notes.ethereum.org/jDcuUp3-T8CeFTv0YpAsHw?view)
