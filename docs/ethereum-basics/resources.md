@@ -34,8 +34,8 @@ description: A list of essential Ethereum resources.
 
 * Subreddits
   * [/r/Ethereum](https://www.reddit.com/r/ethereum/)
-  * [/r/EthTrader](https://www.reddit.com/r/ethtrader/)
   * [/r/EthFinance](https://www.reddit.com/r/ethfinance/)
+  * [/r/EthStaker](https://www.reddit.com/r/ethstaker/)
   * [/r/EtherMining](https://www.reddit.com/r/EtherMining/)
   * [/r/EthDev](https://www.reddit.com/r/ethdev/)
   * [/r/EthereumNoobies](https://www.reddit.com/r/ethereumnoobies/)
@@ -45,7 +45,9 @@ description: A list of essential Ethereum resources.
 
 ### Podcasts
 
-* [Into the Ether](https://directory.libsyn.com/shows/view/id/intotheether)
+* [Into the Ether](https://podcast.ethhub.io/)
+* [Bankless Podcast](http://podcast.banklesshq.com/)
+* [The Defiant Podcast](https://anchor.fm/camila-russo/)
 * [Epicenter](https://epicenter.tv/)
 * [The Block Experience](https://anchor.fm/theblockexperience/)
 * [Dose of Ether](https://thebitcoinpodcast.com/category/dose-of-ether/)
@@ -68,6 +70,7 @@ description: A list of essential Ethereum resources.
 * [The Defiant](https://thedefiant.substack.com/)
 * [Bankless](https://bankless.substack.com/)
 * [Our Network](https://ournetwork.substack.com/)
+* [Token Tuesdays](https://tokentuesdays.substack.com/)
 * [NFTY](https://flynnjamm.substack.com/)
 * [Messari](https://messari.io/)
 * [Coin Metrics](https://coinmetrics.substack.com/)
@@ -120,6 +123,11 @@ description: A list of essential Ethereum resources.
 * [BlockScout](https://blockscout.com/eth/mainnet)
 * [EnjinX](https://enjinx.io/)
 
+#### Eth2 Block Explorers
+
+* [Etherscan](https://beacon.etherscan.io/)
+* [Etherchain](https://beaconcha.in/)
+
 #### Wallets
 
 * [EthHub Wallets Section](https://docs.ethhub.io/using-ethereum/wallets/intro-to-ethereum-wallets/)
@@ -129,12 +137,14 @@ description: A list of essential Ethereum resources.
 
 #### Dapp Explorers
 
+* [Dap.ps](https://dap.ps/)
 * [Loanscan - Ethereum Loan Explorer](https://loanscan.io/)
 * [State of the dApps](https://www.stateofthedapps.com/)
 * [DeFi Pulse - The Decentralized Finance Leaderboard](https://defipulse.com/)
 
 #### Ethereum Data Explorers
 
+* [Dune Analytics](https://explore.duneanalytics.com/)
 * [Ethtective](https://www.ethtective.com/)
 * [Ethereum Network Statistics](https://ethstats.net)
 * [Ethereum Network Statistics (New)](https://ethstats.io)
@@ -152,12 +162,11 @@ description: A list of essential Ethereum resources.
 ### Run an Ethereum node
 
 * [Run an Ethereum Node](https://medium.com/@JustinMLeroux/running-ethereum-full-nodes-a-guide-for-the-barely-motivated-a8a13e7a0d31)
+* [AVADO](https://ava.do/)
 * [DAppNode](https://dappnode.io/)
 * [QuikNode](https://quiknode.io/)
 * [Blockdaemon](https://blockdaemon.com/)
 * [Vipnode](https://vipnode.org/)
-* [NanoPC-T4 plug-and-play](https://blockandmortar.io)
-* [AVADO](https://ava.do/)
 
 ### Ethereum Development
 
@@ -211,17 +220,16 @@ description: A list of essential Ethereum resources.
 
 ### Market Data
 
+* [DeFi Market Cap](https://defimarketcap.io/)
+* [CoinGecko](https://www.coingecko.com/)
 * [Nomics](https://nomics.com/)
 * [Messari Screener](https://messari.io/screener)
 * [Coinlib](https://coinlib.io/)
 * [CoinMarketCap](https://coinmarketcap.com/)
-* [BitInfoCharts](https://bitinfocharts.com/)
-* [Woobull Charts](https://charts.woobull.com/)
 * [Cryptowat.ch](https://cryptowat.ch/)
 * [All-time-high Coin Index](https://athcoinindex.com/)
 * [Bitgur](https://bitgur.com/)
 * [Cryptofinance](https://cryptofinance.ai/)
-* [Cryptoradar](https://cryptoradar.co/buy-ethereum)
 
 ### Portfolio Tracking
 
