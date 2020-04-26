@@ -288,6 +288,7 @@ nav:
 - Guides:
   - 'Ethereum New User Guide': 'using-ethereum/ethereum-new-user-guide.md'
   - 'How to Get a High-Yield Savings Account on Ethereum': 'guides/ethereum-high-yield-savings-account.md'
+  - 'A Straightforward Guide to ERC20 Tokens': 'guides/a-straightforward-guide-erc20-tokens.md'
   - 'Deciphering a Transaction on Etherscan': 'guides/deciphering-a-transaction-on-etherscan.md'
   - 'Graphical Guide to Understanding Uniswap': 'guides/graphical-guide-for-understanding-uniswap.md'
   - 'The Ultimate Guide to the ENS': 'guides/guide-to-ens.md'
