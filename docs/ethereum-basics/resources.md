@@ -263,6 +263,7 @@ description: A list of essential Ethereum resources.
 
 * [Awesome Crypto Trackers](https://github.com/denisnazarov/awesome-crypto-trackers)
 * [Universal dApp Store](https://app.co/)
+* [Awesome DeFi Trackers](https://github.com/colekennelly1/awesome-defi-trackers)
 
 #### Dapp Trackers
 
