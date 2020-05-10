@@ -21,4 +21,5 @@ Wallets allow Ethereum users to store Ether and to interact with smart contracts
 ## Web Wallets
 [Web wallets](web.md) are wallets hosted on a website, they may be custodial or act as an interface for users to generate and interact with their accounts.
 
-
+## Resources
+* [Best Non-Custodial Wallets](https://cryptotesters.com/best-non-custodial-wallets)
