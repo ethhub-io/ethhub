@@ -21,7 +21,7 @@ There are also some basic guidelines that need to be followed when contributing 
 * No promotion of ICOs/token sales
 * No inappropriate content
 
-Join the discussion on our Discord server: [https://discord.gg/VDMBe4c](https://discord.gg/VDMBe4c)
+Join the discussion on our Discord server: [https://discord.gg/Fv2F3a7](https://discord.gg/Fv2F3a7)
 
 Donations: [0xa19fcdad77c1f0fd184689aca88babcf68010347](https://etherscan.io/address/0xa19fcdad77c1f0fd184689aca88babcf68010347)
 
