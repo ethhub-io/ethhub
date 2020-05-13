@@ -148,6 +148,7 @@ nav:
     - Synthetics:
       - 'Synthetix': 'built-on-ethereum/open-finance/synthetics/synthetix.md'
     - DeFi Dashboards:
+      - 'Zapper': 'built-on-ethereum/open-finance/defi-dashboards/zapper.md'
       - 'Zerion': 'built-on-ethereum/open-finance/defi-dashboards/zerion.md'
     - Tokenized Securities:
       - 'What are Tokenized Securities?': 'built-on-ethereum/open-finance/securities/what-are-tokenized-securities.md'
