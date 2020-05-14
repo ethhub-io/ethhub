@@ -10,7 +10,7 @@ Privacy on Ethereum is being actively worked on by a number of different teams.
 
 ### There are a couple of key technologies to know about:
 
-The main technology used for privacy are zero knowledge proofs. This technology allows for privacy by mathematically preventing certain information (such as amount, sender, recipient, etc.) from being revealed to the public while the protocol can still guarantee the transaction execute correctly. An older technology called Mixers have some benefits for privacy as well. Mixers serve to obfuscate the data, often making it confusing (or even empirically impossible) to matchup information correctly.
+The main technology used for privacy are called 'zero knowledge proofs'. This technology allows for privacy by mathematically preventing certain information (such as amount, sender, recipient, etc.) from being revealed to the public while the protocol can still guarantee the transaction executes correctly. An older technology called 'Mixers' have some benefits for privacy as well as they serve to obfuscate the data, often making it confusing (or even empirically impossible) to correlate the information correctly.
 
 #### Zero Knowledge-based
   * zk-SNARKs \(used in Zcash\) 
@@ -38,7 +38,7 @@ Both STARKs and SNARKs require a non-0 amount of computation and so if they are 
 
 #### Mixers
 
-Mixers work a bit different than zero-knowledge proof. In truth, both technologies work by scrambling transactions together. But Mixers only work with transactions happening at that moment-- a set of fake transactions (called "Mix-ins") plus several real transactions all which sum to approximated the same number of units of Ether. Basically, when you send a transaction for 5 units of Ether, you need to wait for 1 or 2 other people to also send 5 Ethers so that you can scramble all 3 transactions together. Mixers send the outputs to a bunch of addresses with smaller amounts which sum to your original units. This way it can be very confusing to line up who sent what to where when you are actively trying to make transactions look similar. The system works better the more people who are using it at that moment.
+Mixers work a bit differently to zero-knowledge proof technology. In truth, both technologies work by scrambling transactions together. But Mixers only work with transactions happening at that moment by using a set of fake transactions (called "Mix-ins") plus several real transactions all which sum to approximated the same number of units of ETH. Basically, when you send a transaction for 5 units of ETH, you need to wait for 1 or 2 other people to also send 5 ETH so that you can scramble all 3 transactions together. Mixers send the outputs to a bunch of addresses with smaller amounts which sum to your original units. This way it can be very confusing to line up who sent what to where when you are actively trying to make transactions look similar. The system works better the more people who are using it at that moment.
 
 [Tornado](https://tornado.cash/) is mixer, which uses zk-SNARKS.
 
