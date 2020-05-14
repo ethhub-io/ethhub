@@ -10,9 +10,22 @@ Privacy on Ethereum is being actively worked on by a number of different teams.
 
 ### There are a couple of key technologies to know about:
 
+The main technology used for privacy are called 'zero knowledge proofs'. This technology allows for privacy by mathematically preventing certain information (such as amount, sender, recipient, etc.) from being revealed to the public while the protocol can still guarantee the transaction executes correctly. An older technology called 'Mixers' have some benefits for privacy as well as they serve to obfuscate the data, often making it confusing (or even empirically impossible) to correlate the information correctly.
+
 #### Zero Knowledge-based
   * zk-SNARKs \(used in Zcash\) 
   * zk-STARKs
+
+zk-SNARKs are the more studied type of zero-knowledge proof. Due to their widespread usage, the community is reletively certain of their effectiveness. However, they come with a notable downside. zk-SNARKs rely on a polynomial for determining certain computations in the algorithm. If the full factorization of this polynomial is known by someone, then it is trivial for that person to make proofs for that specific zk-SNARK to say incorrect statements. Therefore, it is required that no single person or entity know the entire factorization of the polynomial.
+
+The main way this has been achieved is by opening up the polynomial creation process publicly. When Zcash did their last fork, they updated their polynomial and underwent a public polynomial creation ("powers of tau ceremony"). If each person privately submits a factor and then destroys that information - so long as a single person in the whole process did it correctly, then no single entity will know the complete factorization. This part is generally called the "trusted setup" of a zk-SNARK. So long as you participated, then you can be 100% certain that this issue is not present.
+
+There are other studied methods to handle this issue. One of the most interesting is to use a specific type of polynomial that only has complex (imaginary) factors. This prevents there from even existing a factorization which could fool the system. However, it is generally accepted that this method is understudied and needs more research before it is ready to secure significant money.
+
+zk-STARKs are a second type of zero-knowledge proof. STARKs rely on slightly different mathematics and dont need a trusted setup. The biggest issue with STARKs is that they require a lot of space (a lot of data for proofs). SNARKs also require a lot of space but more optimizations have been found, making them smaller at the moment. As blockchains are particularly space constrained, the large size of STARKs is a significant issue. There is continued research into reducing the size requirements. But at the moment they are prohibitively large.
+
+Both STARKs and SNARKs require a non-0 amount of computation and so if they are to be implemented at large scale, computation can also become a limiting factor.
+
 
 [Aztec Protocol](../built-on-ethereum/infrastructure/aztec-protocol.md) is building an efficient zero-knowledge privacy protocol and decentralised exchange. The protocol is already live on Ethereum's mainnet.
 
@@ -25,6 +38,7 @@ Privacy on Ethereum is being actively worked on by a number of different teams.
 
 #### Mixers
 
+Mixers work a bit differently to zero-knowledge proof technology. In truth, both technologies work by scrambling transactions together. But Mixers only work with transactions happening at that moment by using a set of fake transactions (called "Mix-ins") plus several real transactions all which sum to approximated the same number of units of ETH. Basically, when you send a transaction for 5 units of ETH, you need to wait for 1 or 2 other people to also send 5 ETH so that you can scramble all 3 transactions together. Mixers send the outputs to a bunch of addresses with smaller amounts which sum to your original units. This way it can be very confusing to line up who sent what to where when you are actively trying to make transactions look similar. The system works better the more people who are using it at that moment.
 
 [Tornado](https://tornado.cash/) is mixer, which uses zk-SNARKS.
 
