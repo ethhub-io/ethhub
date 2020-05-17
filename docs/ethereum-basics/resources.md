@@ -153,6 +153,8 @@ description: A list of essential Ethereum resources.
 * [Ethereum Blockchain on Kaggle](https://www.kaggle.com/bigquery/ethereum-blockchain)
 * [Ethereum Network Hashrate](https://2miners.com/eth-network-hashrate)
 * [Ethereum Network Difficulty](https://2miners.com/eth-network-difficulty)
+* [BTC on Ethereum](https://btconethereum.com/)
+* [USD on Ethereum](https://usdonethereum.com/)
 
 #### Miscellaneous
 
