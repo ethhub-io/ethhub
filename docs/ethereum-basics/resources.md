@@ -230,6 +230,7 @@ description: A list of essential Ethereum resources.
 * [All-time-high Coin Index](https://athcoinindex.com/)
 * [Bitgur](https://bitgur.com/)
 * [Cryptofinance](https://cryptofinance.ai/)
+* [LootCap](https://lootcap.com/)
 
 ### Portfolio Tracking
 
