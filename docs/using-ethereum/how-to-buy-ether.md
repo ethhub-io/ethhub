@@ -35,3 +35,8 @@ Dether is a global, p2p marketplace for buying and selling ETH in person with ca
 LocalCryptos is a global, p2p marketplace for buying and selling ETH. Over 30 payment methods are supported including in-person cash trades.
 
 [Buy ETH on LocalCryptos](https://localcryptos.com/)
+
+## BuyCoins
+BuyCoins is based in Lagos, Nigeria and is a good option for people living in Africa to buy ETH using fiat.
+
+[Buy ETH on BuyCoins](https://www.buycoins.africa)
