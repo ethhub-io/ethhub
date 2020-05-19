@@ -16,11 +16,6 @@ Coinbase is based in San Fransisco and is one of the most reputable and well kno
 
 [Buy ETH on Coinbase](https://www.coinbase.com/join/527bbccd0c46660a8a00003b)
 
-## BuyCoins
-BuyCoins is based in Lagos, Nigeria and is a good option for people living in Africa to buy ETH using fiat.
-
-[Buy ETH on BuyCoins](https://www.buycoins.africa)
-
 ## Gemini
 Gemini is based in New York and has a great history of security and reliability. Users can buy ETH with fiat or cryptocurrencies.
 
@@ -40,3 +35,8 @@ Dether is a global, p2p marketplace for buying and selling ETH in person with ca
 LocalCryptos is a global, p2p marketplace for buying and selling ETH. Over 30 payment methods are supported including in-person cash trades.
 
 [Buy ETH on LocalCryptos](https://localcryptos.com/)
+
+## BuyCoins
+BuyCoins is based in Lagos, Nigeria and is a good option for people living in Africa to buy ETH using fiat.
+
+[Buy ETH on BuyCoins](https://www.buycoins.africa)
