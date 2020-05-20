@@ -339,5 +339,5 @@ nav:
     - 'Stateless Clients': 'glossary/sideways-dictionary/stateless-clients.md'
     - 'Uncle Blocks': 'glossary/sideways-dictionary/uncle-blocks.md'
     - 'Wei': 'glossary/sideways-dictionary/wei.md'
--Translations:
+- Translations:
   - 'Chinese': 'translations/zh.md'
