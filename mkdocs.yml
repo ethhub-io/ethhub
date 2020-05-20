@@ -63,6 +63,7 @@ nav:
       - 'Ethereum 1.0 to 2.0 Migration': 'ethereum-roadmap/ethereum-2.0/eth-1.0-to-2.0-migration.md'
       - 'Ethereum 2.0 Client Architecture': 'ethereum-roadmap/ethereum-2.0/eth-2.0-client-architecture.md'
       - 'Ethereum Account Abstraction': 'ethereum-roadmap/ethereum-2.0/account-abstraction.md'
+      - 'ETH 2.0 Gitcoin Overview Playlist': 'ethereum-roadmap/ethereum-2.0/overview-playlist.md'
       - Ethereum 2.0 Teams:
         - 'Teams Building Eth 2.0': 'ethereum-roadmap/ethereum-2.0/eth2.0-teams/teams-building-eth2.0.md'
         - 'Artemis': 'ethereum-roadmap/ethereum-2.0/eth2.0-teams/artemis.md'
@@ -338,6 +339,5 @@ nav:
     - 'Stateless Clients': 'glossary/sideways-dictionary/stateless-clients.md'
     - 'Uncle Blocks': 'glossary/sideways-dictionary/uncle-blocks.md'
     - 'Wei': 'glossary/sideways-dictionary/wei.md'
-- ETH 2.0:
-  - Gitcoin:
-    - 'ETH 2.0 Gitcoin Overview Playlist': 'ETH2.0/gitcoin-overview-playlist/overview-playlist.md'
+-Translations:
+  - 'Chinese': 'translations/chinese.md'
