@@ -34,7 +34,7 @@
         <meta name="lang:search.tokenizer" content="[\s\-]+">
       
       <link rel="shortcut icon" href="../../../assets/images/favicon.ico">
-      <meta name="generator" content="mkdocs-1.1.2, mkdocs-material-3.3.0">
+      <meta name="generator" content="mkdocs-1.0.4, mkdocs-material-3.3.0">
     
     
       
@@ -743,8 +743,8 @@
       <ul class="md-nav__list">
         
           <li class="md-nav__item">
-  <a href="#eth2-the-new-ether" title="ETH2: The New Ether" class="md-nav__link">
-    ETH2: The New Ether
+  <a href="#getting-ether-onto-the-beacon-chain" title="Getting ether onto the beacon chain" class="md-nav__link">
+    Getting ether onto the beacon chain
   </a>
   
 </li>
@@ -4782,8 +4782,8 @@
       <ul class="md-nav__list">
         
           <li class="md-nav__item">
-  <a href="#eth2-the-new-ether" title="ETH2: The New Ether" class="md-nav__link">
-    ETH2: The New Ether
+  <a href="#getting-ether-onto-the-beacon-chain" title="Getting ether onto the beacon chain" class="md-nav__link">
+    Getting ether onto the beacon chain
   </a>
   
 </li>
@@ -4911,29 +4911,22 @@
 <p>Phase 0 is the name given to the launch of the Beacon Chain. The Beacon Chain will manage the Casper Proof of Stake protocol for itself and all of the shard chains. As Ben Edgington <a href="https://media.consensys.net/state-of-ethereum-protocol-2-the-beacon-chain-c6b6a9a69129">puts it</a>, “There are a number of aspects to this: managing validators and their stakes; nominating the chosen block proposer for each shard at each step; organizing validators into committees to vote on the proposed blocks; applying the consensus rules; applying rewards and penalties to validators; and, being an anchor point on which the shards register their states to facilitate cross-shard transactions.”</p>
 <p>The primary source of load on the Beacon Chain will be "attestations". Attestations are availability votes for a shard block and, simultaneously, proof of stake votes for a beacon block. A sufficient number of attestations for the same shard block will create a "crosslink" which confirms the shard segment up to that shard block into the Beacon Chain.</p>
 <p>Phase 0 will use Casper the Friendly Finality Gadget (FFG) for finality. Finality, in very loose terms, means that once a particular operation has been done, it will forever be etched in history and nothing can revert that operation.</p>
-<h4 id="eth2-the-new-ether"><strong>ETH2: The New Ether</strong></h4>
-<p>Phase 0 will introduce ETH2 which will be a new asset for stakers (validators) to be used on the Beacon Chain. It will be created using two methods:</p>
-<ul>
-<li>As a reward for validating the Beacon Chain (and shards after Phase 1).</li>
-<li>Purchasing it for 1 ETH by any ETH1.X user via a <a href="https://github.com/ethereum/beacon_chain/blob/master/contracts/validator_registration.v.py">registration contract</a>. The contract refers to it as a deposit.</li>
-</ul>
-<p>There is currently no way to withdraw or transfer ETH2 from the Beacon Chain in Phase 0. Once deposited in the ETH1.x validator registration contract, the ETH1 is effectively burned. Beacon Chain validators watch this contract and submit deposit information to the Beacon Chain, which then issues ETH2 to the depositors.</p>
-<p>Lastly, the Beacon Chain will generate good quality (distributed, verifiable, unpredictable, and (reasonably) unbiasable) randomness for the rest of the system. It will use RANDAO which is simply a way to combine contributions (individual random numbers) provided by many participants into a single output number.</p>
-<p>This will be used to organize validators into block proposers and committees.</p>
+<h4 id="getting-ether-onto-the-beacon-chain"><strong>Getting ether onto the beacon chain</strong></h4>
+<p>All ether on the beacon chain in phase 0 will be from a one-way transaction to the deposit contract. A deposit is made to this contract with transaction data indicating the validator the deposit is for. The deposit contract is watched by every validator on the network, who will submit the deposits to the beacon chain.</p>
+<p>After a validator public key reaches a balance of 32 ETH, it is registered as active validator and entered into queue for activation.</p>
+<p><strong>Please note:</strong> this transfer to the deposit contract is only one-way, for phase 0 there is no way for the deposited eth to return to Eth1.x. This is expected to change as part of phase 1.</p>
 <h3 id="what-will-the-network-look-like"><strong>What will the network look like?</strong></h3>
-<p>Once Phase 0 is complete, there will be two active Ethereum chains. For the sake of clarity let’s call them the Eth1 chain (current, PoW main chain) and the Eth2 chain (new Beacon Chain). During this phase, users will be able to migrate their ETH from the Eth1 chain to the Eth2 chain and become validators. However, they will NOT be able to migrate this ETH back (for now). The reason someone may want to do this is that they could be earning interest paid in ETH on the Eth2 chain.</p>
-<p>In order to run the Beacon Chain, you’re going to need a Beacon Chain client. These are currently being developed separately from the familiar suite of standard Ethereum clients (Geth, Parity, Pantheon, et al.) by a number of <a href="/ethereum-roadmap/ethereum-2.0/eth2.0-teams/teams-building-eth2.0/">teams</a>. Most of the teams are putting out periodic updates on their client development progress, and some of the teams are offering bounties to contributors to include more and more developers in building 2.0. You can contribute on Gitcoin grants <a href="https://gitcoin.co/grants/">here</a></p>
+<p>Once Phase 0 is complete, there will be two active Ethereum chains. For the sake of clarity let’s call them the Eth1 chain (current, PoW main chain) and the Eth2 chain (new Beacon Chain). During this phase, users will be able to send their ETH from the Eth1 chain to the Eth2 chain and become validators. They will NOT be able to migrate this ETH back to Eth1 (for now).</p>
+<p>In order to run the Beacon Chain, you’re going to need a Beacon Chain client. These are currently being developed separately from the familiar suite of standard Ethereum clients (Geth, Nethermind, Pantheon, et al.) by a number of <a href="/ethereum-roadmap/ethereum-2.0/eth2.0-teams/teams-building-eth2.0/">teams</a>. Most of the teams are putting out periodic updates on their client development progress, and some of the teams are offering bounties to contributors to include more and more developers in building 2.0. You can contribute on Gitcoin grants <a href="https://gitcoin.co/grants/">here</a></p>
 <p>On its own, the Beacon Chain might not seem particularly useful. But, as the first component of Ethereum 2.0 to be delivered, it is the foundation of the entire system.</p>
 <p><strong>Important Considerations</strong></p>
 <ul>
-<li>ETH2 is transferable to and from shards once Phase 2 is complete (though this may change in the future).</li>
-<li>There will be a minimum amount of ETH stake needed in order to first bootstrap the beacon chain. This is defined as <code>CHAIN_START_FULL_DEPOSIT_THRESHOLD</code> in the <a href="https://github.com/ethereum/deposit_contract/blob/master/deposit_contract/contracts/validator_registration.v.py#L3">deposit contract that will live on the Eth 1.0 chain</a>.</li>
-<li>To become a validator, you'll need to stake 32 ETH2.</li>
-<li>During Phase 0, all user transactions and smart contract computations will still occur on the Eth1 chain.</li>
+<li>There will be a minimum amount of ETH stake needed in order to first bootstrap the beacon chain. This is defined as <code>MIN_GENESIS_VALIDATOR_ACTIVE_COUNT</code> in the <a href="https://github.com/ethereum/eth2.0-specs/blob/dev/specs/phase0/beacon-chain.md">beacon chain specification</a>.</li>
+<li>During Phase 0, the Eth1 chain will live uninterrupted. Nothing will change for Eth1.</li>
 </ul>
 <h2 id="phase-1-shard-chains">Phase 1 - Shard Chains</h2>
 <h3 id="what-is-included_1">What is included?</h3>
-<p>Shard chains are the key to future scalability as they allow parallel transaction throughput and there will be 64 of them deployed in Phase 1 (with the option of adding more over time).</p>
+<p>Shard chains are the key to future scalability as they allow parallel transaction throughput and there will be 64 of them deployed in Phase 1 (with the possibility of adding more over time as hardware scales).</p>
 <p>Phase 1 is primarily concerned with the construction, validity, and consensus on the data of these shard chains. Phase 1 does not specify shard chain state execution or account balances. It'll be like a trial run for the sharding structure rather than an attempt to use shards to scale. The Beacon Chain will treat shard chain blocks as simple collections of bits with no structure or meaning.</p>
 <p><strong>Crosslinks</strong> <br/>
 Periodically, the current state (the “combined data root”) of each shard gets recorded in a Beacon Chain block as a crosslink. When the Beacon Chain block has been finalised, the corresponding shard block is considered finalised, and other shards know that they can rely on it for cross-shard transactions. <br/></p>
@@ -5052,7 +5045,7 @@ Periodically, the current state (the “combined data root”) of each shard get
     
       <script src="../../../assets/javascripts/application.3a8f445d.js"></script>
       
-      <script>app.initialize({version:"1.1.2",url:{base:"../../.."}})</script>
+      <script>app.initialize({version:"1.0.4",url:{base:"../../.."}})</script>
       
     
   </body>
