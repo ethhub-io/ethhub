@@ -19,24 +19,14 @@ Coinbase is based in San Fransisco and is one of the most reputable and well kno
 ## Gemini
 Gemini is based in New York and has a great history of security and reliability. Users can buy ETH with fiat or cryptocurrencies.
 
-[Buy ETH on Gemini](https://exchange.gemini.com)
+[Buy ETH on Gemini](https://gemini.com/share/bgw7efxb)
 
 ## Kraken
 Kraken is a great option for those living in Canada, Europe, and the United States, and supports accounts for users from [other countries](https://support.kraken.com/hc/en-us/articles/360001368823-Geographic-Restrictions-Can-I-use-Kraken-if-I-m-from-) as well. Users can buy ETH with any of the supported [fiat](https://support.kraken.com/hc/en-us/articles/360000381846-Fiat-currency-deposit-methods-fees-and-minimums) or [cryptocurrencies](https://support.kraken.com/hc/en-us/articles/360001389303-Summary-of-digital-assets-cryptocurrency-minimums-and-fees).
 
 [Buy ETH on Kraken](https://www.kraken.com)
 
-## Dether
-Dether is a global, p2p marketplace for buying and selling ETH in person with cash.
-
-[Buy ETH on Dether](https://dether.io)
-
 ## LocalCryptos
 LocalCryptos is a global, p2p marketplace for buying and selling ETH. Over 30 payment methods are supported including in-person cash trades.
 
 [Buy ETH on LocalCryptos](https://localcryptos.com/)
-
-## BuyCoins
-BuyCoins is based in Lagos, Nigeria and is a good option for people living in Africa to buy ETH using fiat.
-
-[Buy ETH on BuyCoins](https://www.buycoins.africa)
