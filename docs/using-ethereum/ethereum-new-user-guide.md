@@ -1,6 +1,8 @@
+---
 title: New to Ethereum? - EthHub
 
 description: You're in the right place! This guide will walk you through the necessary steps of getting onboarded to the Ethereum network.
+---
 
 # Ethereum New User Guide
 

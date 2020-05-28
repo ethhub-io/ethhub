@@ -1,6 +1,8 @@
+---
 title: Py-EVM (Trinity) - EthHub
 
 description: Trinity is the client software that connects to the Ethereum network and runs on top of Py-EVM, an implementation of the EVM in Python.
+---
 
 # Py-EVM (Trinity)
 

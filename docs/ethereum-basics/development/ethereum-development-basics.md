@@ -1,6 +1,8 @@
+---
 title: Ethereum Development Basics - EthHub
 
 description: Ethereum is a blockchain running the Ethereum Virtual Machine (EVM). Applications can be developed with scripting languages, including Solidity and Vyper.
+---
 
 # Development
 

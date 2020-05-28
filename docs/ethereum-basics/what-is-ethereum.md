@@ -1,6 +1,8 @@
+---
 title: What is Ethereum? - EthHub
 
 description: Ethereum is an open-source, permissionless blockchain-based distributed ledger providing infrastructure for distributed computing and economic activities.
+---
 
 # What is Ethereum?
 

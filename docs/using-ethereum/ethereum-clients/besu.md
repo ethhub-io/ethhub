@@ -1,6 +1,8 @@
+---
 title: Besu - EthHub
 
 description: Besu is an open-source Ethereum client developed under the Apache 2.0 license and written in Java.
+---
 
 # Besu
 

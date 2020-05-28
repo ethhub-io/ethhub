@@ -1,6 +1,8 @@
-title: Commit-Chains  - EthHub
+---
+title: Commit-Chains - EthHub
 
 description: Commit-chains a layer 2 scaling solution for Ethereum.
+---
 
 # Commit-Chains
 

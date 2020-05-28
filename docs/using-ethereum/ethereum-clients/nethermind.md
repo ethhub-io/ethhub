@@ -1,6 +1,8 @@
+---
 title: Nethermind - EthHub
 
 description: Nethermind is the .NET Core implementation of the Ethereum protocol. It is fast, open source software that is actively maintained.
+---
 
 # Nethermind
 

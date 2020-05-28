@@ -1,6 +1,8 @@
+---
 title: Plasma - EthHub
 
 description: Plasma a layer 2 scaling solution for Ethereum.
+---
 
 # Plasma
 

@@ -1,6 +1,8 @@
+---
 title: Key Ethereum Resources - EthHub
 
 description: A list of essential Ethereum resources.
+---
 
 # Resources
 

@@ -1,6 +1,8 @@
+---
 title: Optimistic Rollups - EthHub
 
 description: Optimistic Rollups (ORs) are one type of layer 2 constructions that do not run on Ethereum's base layer but on top of it.
+---
 
 # Optimistic Rollups
 

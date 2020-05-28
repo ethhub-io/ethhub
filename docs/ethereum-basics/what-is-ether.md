@@ -1,6 +1,8 @@
-title: What is Ether? - EthHub
+---
+title: What is Ether (ETH)? - EthHub
 
-description: Ether is the native cryptocurrency used on the Ethereum network.
+description: Ether (ETH) is the native cryptocurrency used on the Ethereum network.
+---
 
 # What is Ether?
 

@@ -1,6 +1,8 @@
+---
 title: Intro to Ethereum Wallets - EthHub
 
 description: Wallets allow Ethereum users to store Ether and to interact with smart contracts on the Ethereum network. 
+---
 
 # Intro to Ethereum Wallets
 

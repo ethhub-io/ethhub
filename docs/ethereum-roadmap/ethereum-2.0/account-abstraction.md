@@ -1,6 +1,8 @@
+---
 title:  Account Abstraction
 
 description:  An explanation of account abstraction on the Ethereum network and the steps being made to achieve this goal.
+---
 
 # Account Abstraction
 

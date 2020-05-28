@@ -1,6 +1,8 @@
+---
 title: Is Ethereum more expensive to use as price rises? - EthHub
 
 description: The Ethereum fee market is independent of fiat prices.
+---
 
 # Is Ethereum more expensive to use as price rises?
 

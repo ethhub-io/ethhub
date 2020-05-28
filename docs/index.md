@@ -1,5 +1,8 @@
+---
 title: Welcome to EthHub - EthHub
-description: EthHub provides a single source for essential Ethereum information through documentation, a podcast and a newsletter.
+
+description: Learn about Ethereum through open-source documentation, podcast and newsletter.
+---
 
 # Welcome to EthHub
 

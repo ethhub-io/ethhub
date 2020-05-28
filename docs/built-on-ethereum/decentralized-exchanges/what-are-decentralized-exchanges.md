@@ -1,6 +1,8 @@
+---
 title: Ethereum Decentralized Exchanges - EthHub
 
-description: A dive into what decentralized exchanges on Ethereum are as well as the different types.
+description: The different types of decentralized exchanges built on Ethereum.
+---
 
 # Decentralized Exchanges
 

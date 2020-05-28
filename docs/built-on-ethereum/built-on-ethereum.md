@@ -1,13 +1,15 @@
+---
 title: Built on Ethereum - EthHub
 
-description: There are many different types of applications that can be built on Ethereum. Most applications today fall into the following categories. 
+description: A summarry of different application types build on Ethereum.
+---
 
 # Built on Ethereum
 
 There are many different types of applications that can be built on Ethereum. Most applications today fall into the following categories. 
 
-## Open Finance
-[Open finance](open-finance/what-is-open-finance.md) refers to a number of decentralized protocols building open financial infrastructure. These protocols are valuable because they're creating the necessary plumbing to enable anyone in the world with an internet connection to access self-sovereign, censorship resistant financial services.
+## Decentralized Finance
+[Decentralized finance](open-finance/what-is-open-finance.md) refers to a number of decentralized protocols building open financial infrastructure. These protocols are valuable because they're creating the necessary plumbing to enable anyone in the world with an internet connection to access self-sovereign, censorship resistant financial services.
 
 ## Oracles
 [Oracles](oracles/what-are-oracles.md) refers to a protocols or services to connect Ethereum to offchain information.  They can be utilized for querying information from the internet (e.g. API calls), information about other chains (e.g. BTC transactions), or even as dispute resolution mechanisms concerning non-native assets.

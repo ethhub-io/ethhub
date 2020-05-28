@@ -1,3 +1,9 @@
+---
+title: Ethereum 2.0 Client Architecture - EthHub
+
+description: How will Ethereum clients work in Ethereum 2.0?
+---
+
 # Eth 2.0 Client Architecture
 
 With Ethereum 2.0, we move away from the concept of a single full node to maintain the security of the network to two separate clients, the beacon node and the validator client.

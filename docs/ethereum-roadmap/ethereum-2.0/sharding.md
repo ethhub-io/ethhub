@@ -1,6 +1,8 @@
+---
 title: Sharding on Ethereum - EthHub
 
 description: Information on sharding and how it will work on Ethereum.
+---
 
 # Sharding
 

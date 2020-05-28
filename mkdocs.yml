@@ -87,13 +87,12 @@ nav:
       - 'ZK-STARKs': 'ethereum-roadmap/layer-2-scaling/zk-starks.md'
       - 'Commit-Chains': 'ethereum-roadmap/layer-2-scaling/commit-chains.md'
   - 'Privacy': 'ethereum-roadmap/privacy.md'
-  - 'Istanbul': 'ethereum-roadmap/istanbul.md'
 - Using Ethereum:
   - 'How to Buy Ether': 'using-ethereum/how-to-buy-ether.md'
   - 'Running an Ethereum Node': 'using-ethereum/running-an-ethereum-node.md'
   - Ethereum Clients:
     - 'Geth': 'using-ethereum/ethereum-clients/geth.md'
-    - 'Parity': 'using-ethereum/ethereum-clients/parity.md'
+    - 'OpenEthereum': 'using-ethereum/ethereum-clients/openethereum.md'
     - 'Nethermind': 'using-ethereum/ethereum-clients/nethermind.md'
     - 'Besu': 'using-ethereum/ethereum-clients/besu.md'
     - 'Py-EVM (Trinity)': 'using-ethereum/ethereum-clients/py-evm.md'

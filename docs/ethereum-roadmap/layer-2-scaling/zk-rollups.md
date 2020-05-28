@@ -1,6 +1,8 @@
+---
 title: ZK-Rollups - Ethhub
 
 description:  ZK-Rollups are a type of layer 2 construction that runs on top of the Ethereum to improve scalability.
+---
 
 # ZK-Rollups
 

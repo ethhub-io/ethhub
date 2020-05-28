@@ -1,6 +1,8 @@
+---
 title: Ethereum 1.x - EthHub
 
 description: Ethereum 1.x is an effort to improve performance and storage of the current Ethereum mainnet.
+---
 
 # Ethereum 1.x
 

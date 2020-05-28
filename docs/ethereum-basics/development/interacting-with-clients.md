@@ -1,6 +1,8 @@
+---
 title: Interacting with Clients - EthHub
 
-description: This page provides information and resources to help you programmatically interface with an ethereum client.
+description: This page provides information and resources to help you programmatically interface with an Ethereum client.
+---
 
 # Interacting with an Ethereum Client: JSON-RPC
 

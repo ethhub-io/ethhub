@@ -1,6 +1,8 @@
+---
 title: Ethereum Foundation Conflict of Interest Disclosures - EthHub
 
 description: The following disclosures were voluntarily provided by EF members in an AMA about Ethereum Leadership and Accountability.
+---
 
 # Conflict of Interest (COI) Disclosures from Ethereum Foundation members
 

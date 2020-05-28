@@ -1,6 +1,8 @@
+---
 title: Ethereum Branding Kit - EthHub
 
 description: The following branding kits are built by the Ethereum community for Ethereum based companies to use on their website and application where necessary.
+---
 
 # Ethereum Branding Kit
 

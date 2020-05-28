@@ -1,6 +1,8 @@
+---
 title: Ethereum Development Patterns - EthHub
 
 description: There are several development patterns that have emerged throughout the ecosystem to maintain safe and readable contract code.
+---
 
 # Patterns
 

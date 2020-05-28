@@ -1,6 +1,8 @@
+---
 title: ERC Token Standards - EthHub
 
-description: Ethereum Request for Comments, ERCs, are technical documents used by smart contract developers to implement new rules for the Ethereum protocol.
+description: What is an ERC (Ethereum Request for Comments) token?
+---
 
 # ERC Token Standards
 

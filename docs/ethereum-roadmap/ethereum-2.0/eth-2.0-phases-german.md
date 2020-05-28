@@ -1,6 +1,8 @@
+---
 title: Ethereum 2.0 Phasen - EthHub
 
 description: Ein Leitfaden der Phasen und Implementierungspläne von Ethereum 2.0, auch Serenity genannt.
+---
 
 # Phasen in Ethereum 2.0
 

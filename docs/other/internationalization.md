@@ -1,6 +1,8 @@
+---
 title: Internationalization of EthHub - EthHub
 
-description: The purpose of Ethereum is to be a decentralized network that is open to anyone to use, build upon, develop, and maintain. 
+description: The purpose of Ethereum is to be a decentralized network that is open to anyone to use, build upon, develop, and maintain.
+---
 
 # Internationalization of EthHub
 

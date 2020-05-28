@@ -1,6 +1,8 @@
+---
 title: Ethereum 2.0 Fases - EthHub
 
 description: Um guia para as fases e planos de implementação da Ethereum 2.0, que se chama Serenidade.
+---
 
 # Fases da Ethereum 2.0
 

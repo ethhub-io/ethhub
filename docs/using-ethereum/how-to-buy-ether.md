@@ -1,6 +1,8 @@
+---
 title: How to Buy Ether - EthHub
 
-description: In order to interact with the Ethereum network, you will need to own ether (ETH). The quickest way to acquire ETH is from someone that already owns it.
+description: Best ways to buy ETH (Ether), the currency needed to use the Ethereum network.
+---
 
 # How to Buy Ether
 

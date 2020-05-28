@@ -1,6 +1,8 @@
-title: Decentralized Finance on Ethereum - EthHub
+---
+title: Decentralized Finance (DeFi) on Ethereum - EthHub
 
-description: Decentralized Finance refers to a number of decentralized protocols building open financial infrastructure.
+description: Decentralized Finance (DeFi) refers to a number of decentralized protocols building open financial infrastructure on Ethereum.
+---
 
 # Decentralized Finance
 
