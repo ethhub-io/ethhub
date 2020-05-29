@@ -1,14 +1,23 @@
-# Welcome to EthHub
+---
+title: Welcome to EthHub - EthHub
 
-## Welcome to EthHub
+description: Learn about Ethereum through open-source documentation, podcast and newsletter.
+---
+
+# Welcome to EthHub
 
 The goal of EthHub is to provide a single source for essential Ethereum information. We attempt to accomplish this goal through three main areas:
 
-1. [Docs](https://docs.ethhub.io) - Open source, easy to understand documentation
-2. [Podcast](https://ethhub.substack.com) - Into the Ether podcast
-3. [Newsletter](https://ethhub.substack.com) - EthHub on Medium
+1. [EthHub Docs](https://docs.ethhub.io/ethereum-basics/what-is-ethereum/)
+2. [Into the Ether Podcast](https://podcast.ethhub.io)
+3. [EthHub Weekly Newsletter](https://ethhub.substack.com)
 
-The Docs section, where you are now, is the core of EthHub. This documentation is open source and hosted on GitHub which means that anyone has the ability to contribute. The goal is to make sure the information is available, clear, concise and up to date.
+The Docs section, where you are now, is the core of EthHub. This documentation is open source and hosted on GitHub which means that anyone has the ability to contribute. The goal is to make sure the information is available, clear, concise, and up to date.
+
+## How to make changes to EthHub pages
+1. Head on over to the [EthHub's Github repo](https://github.com/ethhub-io/ethhub).
+2. Create a new Github account or login into your existing account
+3. [Follow this great guide to learn how to make your first pull request](https://www.youtube.com/watch?v=YTbRzhQju4c&t=1s)
 
 ## Contribution Guidelines
 
@@ -20,8 +29,6 @@ There are also some basic guidelines that need to be followed when contributing 
 * No marketing or sponsored posts
 * No promotion of ICOs/token sales
 * No inappropriate content
-
-Join the discussion on our Discord server: [https://discord.gg/Fv2F3a7](https://discord.gg/Fv2F3a7)
 
 Donations: [0xa19fcdad77c1f0fd184689aca88babcf68010347](https://etherscan.io/address/0xa19fcdad77c1f0fd184689aca88babcf68010347)
 
