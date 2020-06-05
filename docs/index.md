@@ -14,6 +14,8 @@ The goal of EthHub is to provide a single source for essential Ethereum informat
 
 The Docs section, where you are now, is the core of EthHub. This documentation is open source and hosted on GitHub which means that anyone has the ability to contribute. The goal is to make sure the information is available, clear, concise, and up to date.
 
+If you're new to Ethereum, [start at this guide](https://docs.ethhub.io/using-ethereum/ethereum-new-user-guide/).
+
 ## How to make changes to EthHub pages
 1. Head on over to the [EthHub's Github repo](https://github.com/ethhub-io/ethhub).
 2. Create a new Github account or login into your existing account
