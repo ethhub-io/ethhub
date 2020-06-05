@@ -10,7 +10,7 @@ New to Ethereum? You're in the right place! This guide will walk you through the
 
 ## Buy ETH
 
-In order to interact with the Ethereum network, you will need to own Ether (ETH). The easiest way to acquire ETH is to [buy it on Coinbase.](https://www.coinbase.com/price/ethereum?r=conner_k3) or on any of [these exchanges](https://docs.ethhub.io/using-ethereum/how-to-buy-ether/).
+In order to interact with the Ethereum network, you will need to own Ether (ETH). The easiest way to acquire ETH is to [buy it on Coinbase](https://www.coinbase.com/price/ethereum?r=conner_k3) or on any of [these exchanges](https://docs.ethhub.io/using-ethereum/how-to-buy-ether/).
 
 One important note is that you do not need to buy 1 full ETH. Ether is divisible down to 18 decimal places so you can buy fractions of it.
 
