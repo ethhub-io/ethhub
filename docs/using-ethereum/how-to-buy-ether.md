@@ -26,7 +26,7 @@ Gemini is based in New York and has a great history of security and reliability.
 ## Kraken
 Kraken is a great option for those living in Canada, Europe, and the United States, and supports accounts for users from [other countries](https://support.kraken.com/hc/en-us/articles/360001368823-Geographic-Restrictions-Can-I-use-Kraken-if-I-m-from-) as well. Users can buy ETH with any of the supported [fiat](https://support.kraken.com/hc/en-us/articles/360000381846-Fiat-currency-deposit-methods-fees-and-minimums) or [cryptocurrencies](https://support.kraken.com/hc/en-us/articles/360001389303-Summary-of-digital-assets-cryptocurrency-minimums-and-fees).
 
-[Buy ETH on Kraken](https://www.kraken.com)
+[Buy ETH on Kraken](https://r.kraken.com/nYdo7)
 
 ## LocalCryptos
 LocalCryptos is a global, p2p marketplace for buying and selling ETH. Over 30 payment methods are supported including in-person cash trades.
