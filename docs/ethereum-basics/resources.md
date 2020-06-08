@@ -68,6 +68,7 @@ description: A list of essential Ethereum resources.
 ### Newsletters
 
 * [EthHub Weekly Newsletter](https://ethhub.substack.com/)
+* [The Daily Gwei](https://thedailygwei.substack.com/)
 * [Week In Ethereum](https://weekinethereumnews.com/)
 * [The Defiant](https://thedefiant.substack.com/)
 * [Bankless](https://bankless.substack.com/)
