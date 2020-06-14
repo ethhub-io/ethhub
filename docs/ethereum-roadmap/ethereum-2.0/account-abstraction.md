@@ -137,15 +137,10 @@ To pay for the computing resources of nodes and miners and to incentivize the us
 One of the attack vectors for the Ethereum blockchain is DoS (denial of service) by creating transactions that are computationally intensive.  The efforts seen above are intended to be able to charge the correct amount of Gas without allowing an attack vector for DoS.
 
 ## Resources
-
+* [Account Abstraction Link Tree](https://hackmd.io/@matt/r1neQ_B38)
 * [Abstraction in Computer Science](https://link.springer.com/article/10.1007/s11023-007-9061-7)
-
 * [Tradeoffs in Account Abstraction Proposals](https://ethresear.ch/t/tradeoffs-in-account-abstraction-proposals/263)
-
 * [A recap of where we are at on account abstraction](https://ethresear.ch/t/a-recap-of-where-we-are-at-on-account-abstraction/1721)
-
 * [Maximally Simple Account Abstraction without Gas Refund](https://ethresear.ch/t/maximally-simple-account-abstraction-without-gas-refunds/5007)
-
 * [Work to Natively Integrate Eth1 into Eth2](https://ethresear.ch/t/work-to-natively-integrate-eth1-into-eth2/5573)
-
 * [The Ethereum Virtual Machine - How does it work?](https://medium.com/mycrypto/the-ethereum-virtual-machine-how-does-it-work-9abac2b7c9e)
