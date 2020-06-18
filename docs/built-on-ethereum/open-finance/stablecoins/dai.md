@@ -12,7 +12,7 @@ MakerDAO is one of the earliest projects in the Ethereum ecosystem.
 
 ## Importance
 
-Crypto assets are known for their high volatity which renders them unsuitable for medium of exchange. A stable cryptocurrency strives to become a medium of exchange by suppressing volatility and maintaining a consistant value through time. This innovation allows for individuals and business to enter into future agreements at a known cost. Just as one US Dollar today is equal to one dollar tomorrow, people can transact knowing they will have a certain fixed cost.
+Crypto assets are known for their high volatility which renders them unsuitable for medium of exchange. A stable cryptocurrency strives to become a medium of exchange by suppressing volatility and maintaining a consistant value through time. This innovation allows for individuals and business to enter into future agreements at a known cost. Just as one US Dollar today is equal to one dollar tomorrow, people can transact knowing they will have a certain fixed cost.
 
 ## Accomplishments
 
