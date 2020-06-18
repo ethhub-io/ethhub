@@ -86,6 +86,7 @@ description: A list of essential Ethereum resources.
 * [DeFi Weekly](https://defiweekly.substack.com/)
 * [Token Economy](https://tokeneconomy.co/)
 * [Token Daily](https://www.tokendaily.co/join-newsletter)
+* [#Web3Vibes](https://www.getrevue.co/profile/quiknode)
 
 ### Videos
 * [DeFi Educational Videos by Chris Blec](https://youtube.com/chrisblec)
