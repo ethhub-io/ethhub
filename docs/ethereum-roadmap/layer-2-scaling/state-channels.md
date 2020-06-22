@@ -10,14 +10,15 @@ description: State channels are a layer 2 scaling solution for Ethereum.
 
 State channels are a very broad and simple way to think about blockchain interactions which could occur on the blockchain, but instead get conducted off of the blockchain, without significantly increasing the risk of any participant. The most well known example of this strategy is the idea of payment channels in Bitcoin, which allow for instant fee-less payments to be sent directly between two parties.
 
-State channels are very similar to the concept of payment channels in Bitcoin’s Lightning Network, but instead of only supporting payments, they also support general ‘state updates.’ For example, moves conducted in a game of Chess could be updated in a state channel and only broadcasted to the Ethereum network once the game is finished. This allows ethereum applications to "move" transactions off-chain, increasing the usefulness of the network as a whole.
+State channels are very similar to the concept of payment channels in Bitcoin’s Lightning Network, but instead of only supporting payments, they also support general ‘state updates.’ For example, users could deposit funds into a contract and sign state updates representing moves conducted in a game of Chess. Later, only the final outcome of the game would be broadcasted to the Ethereum network once it's finished. This allows ethereum applications to "move" transactions off-chain, increasing the usefulness of the network as a whole.
 
 
 ## Who is working on State Channels?
 Teams currently working on State Channels are:
 * [CelerX](https://celerx.app)
 * [Connext Network](https://connext.network/)
-* [Counterfactual](https://specs.counterfactual.com/en/latest/)
+* [State Channels](https://statechannels.org/)
+* [Perun](https://perun.network/)
 
 ## How do State Channels work?
 
@@ -65,6 +66,5 @@ If the “state” being updated between participants was a digital currency bal
 
 * [State Channels - an explanation](https://www.jeffcoleman.ca/state-channels/)
 * [Making Sense of Ethereum's Layer 2 Scaling Solutions \(Josh Stark\)](https://medium.com/l4-media/making-sense-of-ethereums-layer-2-scaling-solutions-state-channels-plasma-and-truebit-22cb40dcc2f4)
-* [Generalized State Channels on Ethereum \(Jeff Coleman, Liam Horne, and Xuanji Li\)](https://www.counterfactual.com/statechannels/)
-* [State Channel Applications \(Liam Horne\)](https://medium.com/statechannels/state-channel-applications-1f170e7d542e)
+* [State Channels Blog](https://blog.statechannels.org/)
 
