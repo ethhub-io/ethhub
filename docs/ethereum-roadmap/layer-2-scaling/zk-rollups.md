@@ -45,9 +45,9 @@ Cons:
 * The security scheme assumes a level of unverifiable trust
 * Quantum computing poses a threat to hacking the blockchain
 
-## Demo
+## Example
 
-* [ZK Sync Network](https://demo.zksync.dev/explorer/) is a demonstration ZK-Rollup blockchain.
+* [zkSync](https://zksync.io) is a ZK-Rollup live on Ethereum mainnet.
 
 ## Security Considerations
 
