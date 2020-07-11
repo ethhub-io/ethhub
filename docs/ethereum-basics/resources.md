@@ -72,6 +72,7 @@ description: A list of essential Ethereum resources.
 * [Week In Ethereum](https://weekinethereumnews.com/)
 * [The Defiant](https://thedefiant.substack.com/)
 * [Bankless](https://bankless.substack.com/)
+* [The Ethernaut Diaries](https://theethernaut.substack.com/)
 * [DeFi Rate](https://defirate.com/newsletter/)
 * [Our Network](https://ournetwork.substack.com/)
 * [Token Tuesdays](https://tokentuesdays.substack.com/)
