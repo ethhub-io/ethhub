@@ -51,5 +51,3 @@ _Note on Private Sidechains:  Sidechains may also be deployed in an enterprise c
 
 - [Enabling Blockchain Innovations with Pegged Sidechains](https://blockstream.com/sidechains.pdf)
 - [Sidechain technologies in blockchain networks: An examination and state-of-the-art review](https://www.sciencedirect.com/science/article/pii/S1084804519303315)
-
-# [Template End]
