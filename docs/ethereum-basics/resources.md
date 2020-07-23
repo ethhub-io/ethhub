@@ -252,6 +252,7 @@ description: A list of essential Ethereum resources.
 * [Coin 360 \(CryptoMaps\)](https://coin360.com/)
 * [Real time Ethereum transactions](http://www.ethviewer.live/)
 * [Security Tracker Infrastructure](https://research.algalon.com/security-tokens-infrastructure/)
+* [TxStreet live visualizer](https://txstreet.com/v/eth)
 
 ## Dapp Resources
 
