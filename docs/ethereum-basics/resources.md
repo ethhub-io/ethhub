@@ -246,7 +246,7 @@ description: A list of essential Ethereum resources.
 * [Blockfolio](https://www.blockfolio.com/)
 * [Coink](https://apps.apple.com/us/app/id1336700026) (iOS)
 
-### Vizualizations
+### Visualizations
 
 * [Token Sale History](https://elementus.io/token-sales-history)
 * [Coin 360 \(CryptoMaps\)](https://coin360.com/)
