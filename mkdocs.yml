@@ -87,6 +87,7 @@ nav:
       - 'Payment Channels': 'ethereum-roadmap/layer-2-scaling/payment-channels.md'
       - 'ZK-STARKs': 'ethereum-roadmap/layer-2-scaling/zk-starks.md'
       - 'Commit-Chains': 'ethereum-roadmap/layer-2-scaling/commit-chains.md'
+      - 'Sidechains': 'ethereum-roadmap/layer-2-scaling/sidechains.md'
   - 'Privacy': 'ethereum-roadmap/privacy.md'
 - Using Ethereum:
   - 'How to Buy Ether': 'using-ethereum/how-to-buy-ether.md'
@@ -293,6 +294,7 @@ nav:
   - 'A Straightforward Guide to ERC20 Tokens': 'guides/a-straightforward-guide-erc20-tokens.md'
   - 'Deciphering a Transaction on Etherscan': 'guides/deciphering-a-transaction-on-etherscan.md'
   - 'Graphical Guide to Understanding Uniswap': 'guides/graphical-guide-for-understanding-uniswap.md'
+  - 'A Graphical Guide to Compound': 'guides/graphical-guide-to-compound.md'
   - 'The Ultimate Guide to the ENS': 'guides/guide-to-ens.md'
 - Ethereum FAQ:
   - 'Is Ethereum more expensive to use as price rises?': 'questions-about-ethereum/is-ethereum-more-expensive-to-use-as-price-rises.md'
