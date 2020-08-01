@@ -58,7 +58,7 @@ Slashing is defined as when a validator is ejected from the active validator set
 
 ## Differences between beacon nodes and validator clients
 
-* Networking - Beacon nodes are connected via p2p to other beacon nodes while validator clients maintain a dedicated connectionn with a single beacon node
+* Networking - Beacon nodes are connected via p2p to other beacon nodes while validator clients maintain a dedicated connection with a single beacon node
 * Staking - Only validator clients are required to stake Eth to be able to participate in the network
 * Block creation - Only validator clients may propose/sign blocks and beacon nodes merely validate attestations and propogate blocks across the beacon chain
 
