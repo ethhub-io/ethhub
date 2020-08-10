@@ -36,7 +36,7 @@
         <meta name="lang:search.tokenizer" content="[\s\-]+">
       
       <link rel="shortcut icon" href="../../assets/images/favicon.ico">
-      <meta name="generator" content="mkdocs-1.0.4, mkdocs-material-3.3.0">
+      <meta name="generator" content="mkdocs-1.1.2, mkdocs-material-3.3.0">
     
     
       
@@ -5372,8 +5372,8 @@ The stub is expected to be a 32 byte hash which is a commitment to what the cont
 <p>Watch the whole <a href="https://epicenter.tv/episode/274/">talk</a> where Alexey explains state rent and more about Eth 1.x.</p>
 <h4 id="current-proposals">Current proposals</h4>
 <p>There are currently three proposals being worked upon: <br/> 
-<em> Introduce rent on all accounts (contracts and non-contracts), existing and newly created ones, with the ability to restore evicted contracts. <a href="https://github.com/ledgerwatch/eth_state/blob/master/State_rent.pdf">Current location</a>
-</em> Introduce fund lock-up when state is expanded (creation of accounts, adding store items), which is partially released when the state is cleared. Apply rent only on the pre-existing state. <a href="https://github.com/ledgerwatch/eth_state/blob/master/State_Rent_2.pdf">Current location</a>
+* Introduce rent on all accounts (contracts and non-contracts), existing and newly created ones, with the ability to restore evicted contracts. <a href="https://github.com/ledgerwatch/eth_state/blob/master/State_rent.pdf">Current location</a>
+* Introduce fund lock-up when state is expanded (creation of accounts, adding store items), which is partially released when the state is cleared. Apply rent only on the pre-existing state. <a href="https://github.com/ledgerwatch/eth_state/blob/master/State_Rent_2.pdf">Current location</a>
 * Increase the cost of state expansion in “short term”, to enable block gas limit increase before state rent is implemented</p>
 <h4 id="challenges-inherent-to-most-proposals">Challenges inherent to most proposals</h4>
 <ul>
@@ -5482,8 +5482,8 @@ Storage Pruning is necessary and seeks to place a cap on Ethereum's data storage
 <p>What are the tools that we can use to support the other groups like State Rent and the chain pruning group, to run some test scenarios and try to predict what problems that we’re going to face in the future?</p>
 <p>Simulation and Emulation group produces data for making projections, benchmarks, and parameter calibrations for other groups.</p>
 <p>The working group is tasked with developing three setups:
-<em> A simulation framework that, when a dataset is entered, produces an output to estimate properties of proposed changes (such as uncle rate reduction and gas limit increases). Currently <a href="https://github.com/ConsenSys/wittgenstein">Wittgenstein</a> is suggested.
-</em> An emulation framework that alters environment conditions to test properties of launched changes
+* A simulation framework that, when a dataset is entered, produces an output to estimate properties of proposed changes (such as uncle rate reduction and gas limit increases). Currently <a href="https://github.com/ConsenSys/wittgenstein">Wittgenstein</a> is suggested.
+* An emulation framework that alters environment conditions to test properties of launched changes
 * A testnet that launches these changes together on the same network</p>
 <p><strong>Simulation</strong> handles models of the software agents (in our case Ethereum client software instances), coarse enough to be performant, and fine enough to capture the important facets of the agents. <br/></p>
 <p><strong>Emulation</strong> handles the actual software agents (in our case the actual implementations of Ethereum like geth and parity), placed into the virtual environments with lots of freedom to change parameters of virtual machines and the network connecting them.</p>
@@ -5609,7 +5609,7 @@ Storage Pruning is necessary and seeks to place a cap on Ethereum's data storage
     
       <script src="../../assets/javascripts/application.3a8f445d.js"></script>
       
-      <script>app.initialize({version:"1.0.4",url:{base:"../.."}})</script>
+      <script>app.initialize({version:"1.1.2",url:{base:"../.."}})</script>
       
     
   </body>
