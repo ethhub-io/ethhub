@@ -10,17 +10,6 @@ description: Explanation of Ethereum hardware wallets pros and cons as well as a
 
 Hardware wallets are the most-secure method for accessing your funds while online, as they do not expose your private key to the internet when signing transactions.
 
-## Pros and Cons
-
-### Pros
-
-* Most-secure method for accessing your funds while online
-* Non-custodial, and private than most other methods of interacting with your funds.
-
-### Cons
-
-* Cost money
-
 ## Wallets
 
 * [Ledger](https://shop.ledger.com/pages/ledger-nano-x?r=0fcb4288e45f) - Support for multiple cryptocurrencies and tokens

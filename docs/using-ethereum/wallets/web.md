@@ -28,9 +28,7 @@ Web wallets are wallets hosted on a website, they may be custodial or act as an 
 * [Torus](https://tor.us/) - OAuth Single-sign ons to Dapps with email (and other) account resolvers
 * [Portis](https://portis.io/) - Web-based wallet for easy user on-boarding to your DApp
 * [Eth lightwallet](https://github.com/ConsenSys/eth-lightwallet) - Lightweight JS Wallet for Node and the browser
-* [SpankCard](https://github.com/SpankChain/SpankCard) - An in-browser Ethereum wallet with support for payment channels
 * [Mnemonic generator](https://iancoleman.io/bip39/) - generate word mnemonic and associated public/private key pairs. Select "Ethereum" as coin to generate Ethereum addresses. Useful for truffle-hd-wallet.
-* [Fetch](https://hellofetch.co/download) - Web-based \(and desktop\) wallet supporting Ethereum and ERC-20 tokens. Integrated with 20 exchanges for real time trading rates and one-click trading.
 * [Zapper](https://zapper.fi/) - Manage your DeFi assets & liabilities in one simple interface. Ability to combine different DeFi building blocks to create your own instruments, strategies or even entirely new use-cases.
 * [Zerion](https://zerion.io/) - Web-based wallet interface with native DeFi integrations for trading, borrowing and investing. Features historical portfolio, Metamask, WalletConnect and Uniswap integrations. 
 * [Tokenary](https://tokenary.io/macos/) - macOS Safari extension that enables interaction with DApps.
