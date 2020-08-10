@@ -33,6 +33,7 @@ Phone and other mobile device-based wallets are mobile alternatives to desktop a
 * [eth-wallet-light](https://github.com/NoahZinsmeister/eth-wallet-light) - Lightweight JS Wallet optimized for mobile
 * [imToken](https://token.im/) - Feature-rich digital asset mobile wallet enabling multi-chain asset management, DApp browsing and secure, private exchange of value.
 * [Jaxx](https://jaxx.io) - Both a mobile and a desktop wallet. Has integrated Shapeshift support.
+* [MEW wallet](https://www.mewwallet.com/) - A mobile wallet built by the MyEtherWallet team.
 * [Status](https://status.im/) - A free open-source, mobile OS for Ethereum
 * [Trust](https://trustwallet.com/) - Mobile wallet for ERC tokens
 * [WallETH](https://walleth.org) - Native Android Ethereum Wallet.
