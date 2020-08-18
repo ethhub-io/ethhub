@@ -8,7 +8,7 @@ description: Oracles refers to a number of decentralized protocols building mean
 
 Smart contracts on Ethereum are fully self-contained and any information or access to off-chain data is restricted. This is required for security reasons as execution in blockchains must be deterministic and the response to subsequent calls to outside API's could change in unknown ways. Nevertheless, certain desirable types of smart contracts are only possible with additional outside data.
 
-An Oracle is a conceptual solution which takes real-world off-chain data and submits an immutable copy of this information into blocks – thereby making it available for future smart contract use.
+An [Oracle](https://ethereum.stackexchange.com/questions/85178/what-is-a-blockchain-oracle) is a conceptual solution which takes real-world off-chain data and submits an immutable copy of this information into blocks – thereby making it available for future smart contract use.
 
 ## The Oracle Problem 
 
