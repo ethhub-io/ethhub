@@ -140,6 +140,7 @@ description: A list of essential Ethereum resources.
 
 * [EthHub Wallets Section](https://docs.ethhub.io/using-ethereum/wallets/intro-to-ethereum-wallets/)
 * [MyEtherWallet](https://www.myetherwallet.com/)
+* [MEW wallet](https://www.mewwallet.com)
 * [MyCrypto](https://mycrypto.com/)
 * [MetaMask](https://metamask.io/)
 
