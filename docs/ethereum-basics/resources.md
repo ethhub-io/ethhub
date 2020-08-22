@@ -11,6 +11,7 @@ description: A list of essential Ethereum resources.
 ### Intro to Ethereum
 
 * [Complete Beginners Guide to Cryptocurrency](https://hackernoon.com/a-beginners-guide-to-getting-started-with-cryptocurrencies-76027bebb1b1)
+* [What is Ethereum? An absolute beginner’s guide. (Animated comic.)](https://www.mewwallet.com/what-is-ethereum/)
 * [Decrypt - Ethereum](https://decrypt.co/resources/ethereum)
 * [Ethereum Explained](https://www.upfolio.com/ultimate-ethereum-guide)
 * [Ethereum Syllabus](https://novicedock.com/learn/cryptocurrency/ethereum)
