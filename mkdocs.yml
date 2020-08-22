@@ -274,6 +274,7 @@ nav:
     - 'Enterprise Projects': 'built-on-ethereum/enterprise/projects.md'
   - Oracles:
     - 'What are Oracles?': 'built-on-ethereum/oracles/what-are-oracles.md'
+    - 'Chainlink': 'built-on-ethereum/oracles/chainlink.md'
     - 'Tellor': 'built-on-ethereum/oracles/tellor.md'
   - Token Curated Registries:
     - 'What are TCRs': 'built-on-ethereum/tcrs/what-are-tcrs.md'
