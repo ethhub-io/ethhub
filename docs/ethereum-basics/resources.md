@@ -129,6 +129,7 @@ description: A list of essential Ethereum resources.
 * [Ethplorer](https://ethplorer.io/)
 * [BlockScout](https://blockscout.com/eth/mainnet)
 * [EnjinX](https://enjinx.io/)
+* [Epirus Explorer](https://www.web3labs.com/epirus-explorer)
 
 #### Eth2 Block Explorers
 
