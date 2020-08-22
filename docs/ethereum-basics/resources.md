@@ -30,6 +30,7 @@ description: A list of essential Ethereum resources.
 * [Circle Research](https://research.circle.com/)
 * [Cryptoeconomics.study](https://cryptoeconomics.study/)
 * [Binance Academy](https://www.binance.vision)
+* [Coinmonks](https://medium.com/coinmonks/ethereum/home)
 
 ## Media
 
@@ -130,6 +131,8 @@ description: A list of essential Ethereum resources.
 * [Ethplorer](https://ethplorer.io/)
 * [BlockScout](https://blockscout.com/eth/mainnet)
 * [EnjinX](https://enjinx.io/)
+* [Bloxy](http://bloxy.info/)
+* [Bitquery](https://explorer.bitquery.io/ethereum/)
 
 #### Eth2 Block Explorers
 
@@ -164,6 +167,7 @@ description: A list of essential Ethereum resources.
 * [Ethereum Network Difficulty](https://2miners.com/eth-network-difficulty)
 * [BTC on Ethereum](https://btconethereum.com/)
 * [USD on Ethereum](https://usdonethereum.com/)
+* [Bloxy Analytics Reports](https://bloxy.info/analytics)
 
 #### Miscellaneous
 
