@@ -36,7 +36,7 @@
         <meta name="lang:search.tokenizer" content="[\s\-]+">
       
       <link rel="shortcut icon" href="../../../assets/images/favicon.ico">
-      <meta name="generator" content="mkdocs-1.1.2, mkdocs-material-3.3.0">
+      <meta name="generator" content="mkdocs-1.0.4, mkdocs-material-3.3.0">
     
     
       
@@ -4855,10 +4855,10 @@
 <p>State channels are very similar to the concept of payment channels in Bitcoin’s Lightning Network, but instead of only supporting payments, they also support general ‘state updates.’ For example, users could deposit funds into a contract and sign state updates representing moves conducted in a game of Chess. Later, only the final outcome of the game would be broadcasted to the Ethereum network once it's finished. This allows ethereum applications to "move" transactions off-chain, increasing the usefulness of the network as a whole.</p>
 <h2 id="who-is-working-on-state-channels">Who is working on State Channels?</h2>
 <p>Teams currently working on State Channels are:
-* <a href="https://celerx.app">CelerX</a>
-* <a href="https://connext.network/">Connext Network</a>
-* <a href="https://statechannels.org/">State Channels</a>
-* <a href="https://perun.network/">Perun</a></p>
+<em> <a href="https://celerx.app">CelerX</a>
+</em> <a href="https://connext.network/">Connext Network</a>
+<em> <a href="https://statechannels.org/">State Channels</a>
+</em> <a href="https://perun.network/">Perun</a></p>
 <h2 id="how-do-state-channels-work">How do State Channels work?</h2>
 <p>State channels work by “locking up” some portion of blockchain state into a multisig contract, controlled by a defined set of participants. The state that is “locked up” is called a state deposit. For instance, this might be an amount of ether or an ERC20 token, but could also be a cryptokitty or an ENS domain name.</p>
 <p>After the state deposit is locked, channel participants use off-chain messaging to exchange and sign valid ethereum transactions without deploying them to chain. These are transactions that could be put on chain anytime, but are not.</p>
@@ -4984,7 +4984,7 @@
     
       <script src="../../../assets/javascripts/application.3a8f445d.js"></script>
       
-      <script>app.initialize({version:"1.1.2",url:{base:"../../.."}})</script>
+      <script>app.initialize({version:"1.0.4",url:{base:"../../.."}})</script>
       
     
   </body>
