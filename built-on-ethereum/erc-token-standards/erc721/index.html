@@ -3699,6 +3699,18 @@
 
 
   <li class="md-nav__item">
+    <a href="../../oracles/chainlink/" title="Chainlink" class="md-nav__link">
+      Chainlink
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
     <a href="../../oracles/tellor/" title="Tellor" class="md-nav__link">
       Tellor
     </a>
@@ -4812,7 +4824,7 @@
 <p>ERC-721 is a free, open standard that describes how to build non-fungible or unique tokens on the Ethereum blockchain. While most tokens are fungible (every token is the same as every other token), ERC-721 tokens are all unique.</p>
 <p>Each NFT is identified through an <code>uint256</code> ID. They may be transferred through two different funcions:</p>
 <ul>
-<li>A safe transfer function <code>safeTansferFrom()</code> which verifies that the <code>msg.sender</code>,i.e. the user that triggered the function, is the owner of the token or an authorized user allowed to transfer the token.</li>
+<li>A safe transfer function <code>safeTransferFrom()</code> which verifies that the <code>msg.sender</code>,i.e. the user that triggered the function, is the owner of the token or an authorized user allowed to transfer the token.</li>
 <li>A non-secure trasfer <code>transferFrom()</code>, where there is no preliminary authorization verification. The token developer is responsible for implementing a piece of code in this function that verifies that the responsible for calling the function is authorized to do so. In this function, the user calling it must also verify that the receiver is entitle for receiving the token. If these verifications are not performed, the tokens could be lost forever.</li>
 </ul>
 <p>ERC721 tokens must implement the proposed ERC165 interface. This standard allows the detection of the interfaces implemented by a contract. This is really useful, as it allows to detect the interface that a token implements and, consequently, adapt the method/code to interact with it.</p>
