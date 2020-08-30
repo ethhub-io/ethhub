@@ -102,3 +102,14 @@ Phase 2 also introduces the concept of 'Execution Environments (EEs)'. EEs withi
 * [Ethereum 2.0 Design Goals](https://media.consensys.net/exploring-the-ethereum-2-0-design-goals-fd2d901b4c01)
 * [Q&A Session ETHMagicians](https://medium.com/ethereum-magicians/demystifying-the-road-to-ethereum-2-0-8130ade8d00f)
 * [eWASM](https://www.coindesk.com/open-heart-surgery-inside-ethereums-crucial-replacement-of-the-evm)
+ # Step 1: Authentication
+
+ $ Cat ~ / GH_TOKEN.txt | docker login docker.pkg.github.com -u tex 101 -password -stdin
+
+#Step 2: tag
+
+ $ Docker tag IMAGE_ID docker.pkg.github.com/101/ eth hub / IMAGE_NAME: version
+
+ #Step 3: Publish
+
+ $ Docker.pkg.github.com/101/ eth hub / IMAGE_NAME: version
