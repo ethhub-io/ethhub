@@ -22,7 +22,7 @@ ERC20s can be thought of as the most simple unit of account for a wide range of 
 
 ## Overview of Uniswap’s Contracts
 
-When viewing Uniswap’s website, it is important to keep in mind that it is much more than just the interface. Uniswap starndaizes how ERC20s are exchanged with a set of smart contracts. Anyone can build an interface that connects to these contracts and instantly be able to start exchanging with everyone else that is using Uniswap.
+When viewing Uniswap’s website, it is important to keep in mind that it is much more than just the interface. Uniswap standardizes how ERC20s are exchanged with a set of smart contracts. Anyone can build an interface that connects to these contracts and instantly be able to start exchanging with everyone else that is using Uniswap.
 
 There are two different types of contracts that make up Uniswap. The first is known as an Exchange contract. Exchange contracts hold a pool of a specific token and Ether that users can swap against. The second kind of contract is the Factory contract which is in charge of creating new Exchange contracts and registering the ERC20 token address to its Exchange contract address.
 
