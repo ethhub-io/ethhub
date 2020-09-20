@@ -48,7 +48,7 @@ Cons:
 * Some additional security issues are raised (discussed below)
 
 ## Demo
-A Uniswap-like exchange called Unipig was developed by both Uniswap and Plasma Group teams as a Proof of Concept application and demonstrated at Devcon5, which you can try for free at [unipig.exchange](unipig.exchange).
+A Uniswap-like exchange called Unipig was developed by both Uniswap and Plasma Group teams as a Proof of Concept application and demonstrated at Devcon5, which you can try for free at [unipig.exchange](https://unipig.exchange).
 
 ## Security Overview
 For Optimistic Rollups to work, we must assume that there exists a honest majority of Ethereum validators (miners in Eth1, stakers in Eth2), and that there is at least one aggregator that is not censoring transactions.
