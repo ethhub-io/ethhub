@@ -10,6 +10,24 @@ description: Payment channels are a layer 2 scaling solution for Ethereum.
 
 Payment Channels are one implementation of State Channel technology. Payment channels allow for practically unlimited, bidirectional transfers between two participants, as long as the net sum of their transfers does not exceed the deposited tokens. These transfers can be performed instantaneously and without any involvement of the actual blockchain itself, except for an initial one-time on-chain creation and an eventual closing of the channel.
 
+## Kchannels
+
+Kchannels is a new payment channel platform for Ethereum. It is non-custodial and trust-minimized, and its primary focus is on great UX.  It's avaiable on Mainnet and a number of testnets as well as on the Xdai Chain.
+
+Kchannels uses a powerful channel design:
+* a channel can hold multiple assets (and transfer multiple assets in a transaction)
+* an unattended channel can receive transactions
+* fast and easy deposits/withdrawals at an open channel
+* most users only need a single channel--ever--for all their needs!
+
+Kchannels provides the standard payment channel features (fast transactions, low fees, and privacy), and it also has the following features:
+* minimal infrastructure requirements
+* immediate transaction finality (unique in the L2 space)
+* no special token
+* no network
+* no capital required to maintain channels
+* high scalability
+
 ## The Raiden Network
 
 The Raiden Network is an off-chain scaling solution for performing ERC20-compliant token transfers on the Ethereum blockchain. It is Ethereum's version of Bitcoin's Lightning Network, enabling near-instant, low-fee, scalable, and privacy-preserving payments.
@@ -24,5 +42,6 @@ In addition, payment channel transfers, in contrast to on-chain transactions, do
 
 ## Resources
 
+* [Kchannels](https://docs.kchannels.io)
 * [Raiden Network](https://raiden.network/101.html)
 
