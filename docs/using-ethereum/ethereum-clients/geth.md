@@ -15,16 +15,16 @@ Geth is the Golang implementation of the Ethereum protocol. It is fast, open sou
 Minimum:
 
 * CPU with 2+ cores
-* At least 80GB free storage space
-* 4GB RAM minimum with a SSD, 8GB+ if you have an HDD
+* 4GB RAM
+* 320GB free storage space to sync the Mainnet
 * 8 MBit/sec download Internet service
 
 Recommended:
 
-* Fast CPU with 4+ cores.
-* 16GB+ RAM.
-* Fast SSD with at least 500GB free space.
-* 25+ MBit/sec download Internet service.
+* Fast CPU with 4+ cores
+* 16GB+ RAM
+* Fast SSD with at least 500GB free space
+* 25+ MBit/sec download Internet service
 
 For light nodes, the requirements are much lower, as you will only be storing block headers and receive small state updates.
 
