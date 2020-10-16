@@ -12,5 +12,8 @@ This page provides the details of the deposit contract address that is used to s
 
 ## Resources
 
-* Deposit contract address: [0x94fce6c90537f04b97253d649c15dbbccb5079c2](https://etherscan.io/address/0x94fce6c90537f04b97253d649c15dbbccb5079c2)
 * 
+
+## Check other sources
+
+* Ethereum.org
