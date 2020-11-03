@@ -1,3 +1,7 @@
+title: GovBlocks - EthHub
+
+description: GovBlocks is an open, permissionless decision protocol that empowers dApps to define and operate any governance model at scale.
+
 # GovBlocks
 
 ## What is GovBlocks?

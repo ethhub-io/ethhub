@@ -1,5 +1,8 @@
+---
 title: State Channels - EthHub
+
 description: State channels are a layer 2 scaling solution for Ethereum.
+---
 
 # State Channels
 
@@ -8,6 +11,13 @@ description: State channels are a layer 2 scaling solution for Ethereum.
 State channels are a very broad and simple way to think about blockchain interactions which could occur on the blockchain, but instead get conducted off of the blockchain, without significantly increasing the risk of any participant. The most well known example of this strategy is the idea of payment channels in Bitcoin, which allow for instant fee-less payments to be sent directly between two parties.
 
 State channels are very similar to the concept of payment channels in Bitcoin’s Lightning Network, but instead of only supporting payments, they also support general ‘state updates.’ For example, moves conducted in a game of Chess could be updated in a state channel and only broadcasted to the Ethereum network once the game is finished. This allows ethereum applications to "move" transactions off-chain, increasing the usefulness of the network as a whole.
+
+
+## Who is working on State Channels?
+Teams currently working on State Channels are:
+* [CelerX](https://celerx.app)
+* [Connext Network](https://connext.network/)
+* [Counterfactual](https://specs.counterfactual.com/en/latest/)
 
 ## How do State Channels work?
 
@@ -32,7 +42,7 @@ If the “state” being updated between participants was a digital currency bal
 ### State Channel pros
 
 * State channels have strong privacy properties: This is because everything is happening “inside” a channel between participants, rather than broadcast publicly and recorded on-chain. Only the opening and closing transactions must be public. Whereas in sidechains every transaction is published on the sidechain which is received by every participant on the sidechain irrespective of the fact that you are not interacting with all of the participants on the sidechain.
-* State channels have instant finality, meaning that as soon as both parties sign a state update, it can be considered final. Both parties have a very high guarantee that, if necessary, they can “enforce” that state on-chain. 
+* State channels have instant finality, meaning that as soon as both parties sign a state update, it can be considered final. Both parties have a very high guarantee that, if necessary, they can “enforce” that state on-chain.
 
 ### State Channel cons
 
@@ -47,14 +57,14 @@ If the “state” being updated between participants was a digital currency bal
 
 ### Sidechain cons
 
-* Sidechains do not benefit from the security of the main-chain. A user interacting on a side-chain must trust the security properties of that sidechain, because if it compromised or malevolent, a user has no guarantee of withdrawl to mainchain. In contrast, participants in a state channel can always return to main-chain so long as they follow the protocol.
+* Sidechains do not benefit from the security of the main-chain. A user interacting on a side-chain must trust the security properties of that sidechain, because if it compromised or malevolent, a user has no guarantee of withdrawal to the main-chain. In contrast, participants in a state channel can always return to the main-chain so long as they follow the protocol.
 * Sidechains need a lot of initial investment to start off: To create a sidechain we need to have enough miners so that the network is safe from attackers. Also, we have to make sure that they are up and running. Whereas there is no blockchain involved in state channels. So, no such requirement is needed.
 * A Federation is needed for sidechains: This adds another layer between the mainchain and the sidechain. This could prove as another weak point for the attackers to attack by bribing or attacking the federation. Whereas in state channel we just need a smart contract to do this for us.
 
 ## Resources
 
+* [State Channels - an explanation](https://www.jeffcoleman.ca/state-channels/)
 * [Making Sense of Ethereum's Layer 2 Scaling Solutions \(Josh Stark\)](https://medium.com/l4-media/making-sense-of-ethereums-layer-2-scaling-solutions-state-channels-plasma-and-truebit-22cb40dcc2f4)
 * [Generalized State Channels on Ethereum \(Jeff Coleman, Liam Horne, and Xuanji Li\)](https://www.counterfactual.com/statechannels/)
-* [Difference Between SideChains and State Channels \(Vasa\)](https://hackernoon.com/difference-between-sidechains-and-state-channels-2f5dfbd10707)
 * [State Channel Applications \(Liam Horne\)](https://medium.com/statechannels/state-channel-applications-1f170e7d542e)
 

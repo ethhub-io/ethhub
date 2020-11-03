@@ -1,5 +1,8 @@
+---
 title: Governance on Ethereum - EthHub
+
 description: The core components of Ethereum’s governance system.
+---
 
 # Governance
 
@@ -52,7 +55,7 @@ If the change is accepted, it is included in the blockchain and baselined. In so
 
 ### What is off-chain governance?
 
-Off-chain governance looks and behaves a lot similar to politics in the existing world. Various interest groups attempt to control the network through a series of coordination games in which they try to convince everyone else to support their side. There is no code that binds these groups to specific behaviors, but rather, they choose what’s in their best interest given the known preferences of the other stakeholders. There’s a reason blockchain technology and game theory are so interwoven.
+Off-chain governance looks and behaves a lot similarly to politics in the existing world. Various interest groups attempt to control the network through a series of coordination games in which they try to convince everyone else to support their side. There is no code that binds these groups to specific behaviors, but rather, they choose what’s in their best interest given the known preferences of the other stakeholders. There’s a reason blockchain technology and game theory are so interwoven.
 
 ### How does it work?
 

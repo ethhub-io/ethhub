@@ -1,5 +1,8 @@
+---
 title: ZK-STARKs - EthHub
+
 description: ZK-STARKs are a layer 2 scaling and privacy solution for Ethereum.
+---
 
 # ZK-STARKs
 
@@ -11,7 +14,7 @@ Prior to the creation of ZK-STARKs, ZK-SNARKs were used to create ZK proof syste
 
 ## Scaling benefits of using STARKs
 
-STARKs improve two of problems of permissionless blockchains: scalability and privacy. The pioneer in STARK technology StarkWare Industries' current ZK-STARK research is focusing on scalability first and then privacy later on.
+STARKs improve two of the problems of permissionless blockchains: scalability and privacy. The pioneer in STARK technology StarkWare Industries' current ZK-STARK research is focusing on scalability first and then privacy later on.
 
 STARKs improve scalability by allowing developers to move computations and storage off-chain. Off-chain services will be able to generate STARK proofs that attest the integrity of off-chain computations. These proofs are then placed back on chain for any interested party to validate the computation. Moving the bulk of computational work off-chain using STARKs allows existing blockchain infrastructure to scale exponentially while trustlessly maintaining computational integrity.
 

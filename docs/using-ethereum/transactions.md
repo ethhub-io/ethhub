@@ -1,5 +1,8 @@
+---
 title: Ethereum Transactions - EthHub
+
 description: Explanation of Ethereum transactions including gas and the fee market.
+---
 
 # Transactions
 
@@ -7,7 +10,7 @@ description: Explanation of Ethereum transactions including gas and the fee mark
 
 ### Summary
 
-Understanding 'gas' is fundamental to understand how the Ethereum network functions.
+Understanding 'gas' is fundamental to understanding how the Ethereum network functions.
 
 The EVM - the Ethereum Virtual Machine \(EVM\) running on each Ethereum node - is an emulation of a computer system. One example of a regular, non-blockchain virtual machine is the VirtualBox software, which allows you to emulate computer systems \(guests\) on your physical hardware \(hosts\). Any operation in the EVM consumes CPU cycles, disk access, memory, of the hosting machine \(which carries a cost\). This cost is paid via Ethereum 'gas'.
 
@@ -38,8 +41,41 @@ The Ethereum gas block limit means that there is a limit to how many computation
 | Standard Gas Price | The average gas price being paid by the network |
 | Fast Gas Price | A price that will be mined within the next few blocks |
 
+## Signing Transactions on Ethereum
+
+### Interacting with Smart Contracts via Etherscan and MetaMask
+1. Navigate to the Etherscan page for the Contract Address
+2. If the code and ABI have been uploaded to Etherscan, you should be able to access the 'Write Contract' tab
+3. Click the connect with MetaMask button
+4. Follow the documentation provided by the Contract's author to complete your transaction.
+
+### Interacting with Smart Contracts via MyCrypto
+1. Navigate to **[MyCrypto](https://mycrypto.com/).** *Verify the SSL (little green lock next to URL) to avoid phishing sites.* 
+2. Click the **'Contracts'** tab
+3. Enter the Ethereum address of your desired contract in the **'Contract Address'** field
+Enter the **'ABI / JSON Interface'** provided by the contract author into the **'Contract ABI'** filed.
+*The ABI allows MyCrypto to display named functions that are invokable for the provided contract address. This code can sometimes be found on the Etherscan page for the contract address under the 'Code' tab.*
+4. Click **'Access'**
+5. Follow the contract documentation provided by the contract author to use the desired contract function in the **'Read / Write Contract'** dropdown.
+6. Follow the MyCrypto prompts to access your wallet in order to sign and submit your transaction.
+
+#### Important notes
+* If you are experiencing troubles, be sure that you are using the 'Ethereum' (mainnet) from the dropdown in the top right hand corner
+* It never hurts to cross reference the average gas limit and gas price on either [Etherscan](https://etherscan.io/) or [EthGasStation](https://ethgasstation.info/)
+
+### How To Make An Offline Transaction via MyCrypto
+To learn how to generate, sign, and broadcast a transaction locally and offline via MyCrypto, see [this guide](https://support.mycrypto.com/offline/making-offline-transaction-on-mycrypto.html). 
+
+## Signing & Verifying Messages on Ethereum
+
+Ethereum private keys can be used to sign messages. Signatures can be used to verify that a given user owns an Ethereum address.
+
+To learn how to sign and verify signatures via MyCrypto, see [this guide](https://support.mycrypto.com/addresses/signing-and-verifying-messages.html). 
+
+
 ## Resources
 
+* [Understanding Ethereum Gas, Blocks and the Fee Market](https://medium.com/@eric.conner/understanding-ethereum-gas-blocks-and-the-fee-market-d5e268bf0a0e)
 * [How does Ethereum work, anyway?](https://medium.com/@preethikasireddy/how-does-ethereum-work-anyway-22d1df506369)
 * [EthGasStation](https://ethgasstation.info/)
 

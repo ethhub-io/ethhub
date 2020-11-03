@@ -1,3 +1,9 @@
+---
+title: What is the Foundation's grant process? - EthHub
+
+description: Members of the Ethereum community came together to create a document aimed at disscussing ideas for new methods and processes that the Foundation.
+---
+
 # Grants Process
 
 NOTE: This is a working draft. All the ideas presented below are just that - ideas. We encourage everyone to submit their own ideas and start discussions around what can be done to improve the Grants Process within Ethereum.

@@ -1,5 +1,8 @@
+---
 title: Ethereum Desktop Wallets - EthHub
+
 description: Explanation of Ethereum desktop wallets pros and cons as well as a list of applications.
+---
 
 # Desktop
 
@@ -21,11 +24,14 @@ Desktop wallets are downloadable apps capable of operating on Windows, MacOS, or
 ## Wallets
 
 * [MyCrypto](https://github.com/MyCryptoHQ) - Open-source, client-side tool downloadable from [https://download.mycrypto.com](https://download.mycrypto.com) for generating Ethereum wallets, handling ERC-20 tokens, and interacting with the blockchain easily.
+* [Atomic Wallet](https://atomicwallet.io) - Desktop and mobile wallet that allows you to buy, manage and exchange Bitcoin, Ethereum, XRP and over 300 coins and tokens in one secure interface.
+* [Eidoo](https://eidoo.io/) - Multicurrency and Multiplatform \(Windows, Mac, Linux, Andorid, iOs\) wallet with a DEX and a DeFI gateway
 * [Exodus](https://exodus.io) - Closed-source wallet that allows for multi-currency interaction/transacting \(requires you to be online to generate transactions\).
-* [Mist](https://github.com/ethereum/mist) - Browse and use Dapps on the Ethereum network
 * [Fetch](https://hellofetch.co/download) - Desktop \(and web\) wallet supporting Ethereum and ERC-20 tokens. Integrated with 20 exchanges for real time trading rates and one-click trading.
+* [Tokenary](https://tokenary.io/masos) - a macOS Ethereum and ERC-20 tokens wallet and Safari extension that lets you store your assets and interact with DApps.
+* [HUT34](https://wallet.hut34.io/) - An Ethereum web-based wallet.
+
 
 ## Resources
 
 * [Ethereum Developer Tools List](https://github.com/ConsenSys/ethereum-developer-tools-list/blob/master/EcosystemResources.md)
-

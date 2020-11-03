@@ -1,3 +1,7 @@
+title: Ren - Ethhub
+
+description: The Ren protocol defines a way to create a dark pool of orders where they can be matched with each other without revealing any information about them.
+
 # Ren
 
 ## Description

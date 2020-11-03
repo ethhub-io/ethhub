@@ -1,5 +1,8 @@
+---
 title: Ethereum Mobile Wallets - EthHub
+
 description: Explanation of Ethereum mobile wallets pros and cons as well as a list of applications.
+---
 
 # Mobile
 
@@ -18,18 +21,21 @@ Phone and other mobile device-based wallets are mobile alternatives to desktop a
 * Rely on the security of your mobile device.
 
 ## Wallets
-
-* [Coinbase Wallet](https://wallet.coinbase.com/)
-* [Status](https://github.com/status-im/status-react) - A free open-source, mobile OS for Ethereum
-* [Trust](https://github.com/TrustWallet/trust-wallet-ios) - Mobile [wallet](https://trustwalletapp.com/) for ERC tokens
-* [imToken](https://token.im/) - Feature-rich digital asset mobile wallet enabling multi-chain asset management, DApp browsing and secure, private exchange of value.
+* [AlphaWallet](https://alphawallet.com/) - No nonsense ethereum wallet with native dapp support
+* [Ambo](https://Ambo.io/) - A Mobile Ethereum wallet targeted for the mainstream audience.
+* [Argent](https://www.argent.xyz/) - No transaction fee wallet
+* [Atomic Wallet](https://atomicwallet.io) - a new multiple currency Android and iOS wallet that allows you to manage Bitcoin, Ethereum, XRP and over 300 coins and tokens easily.
 * [Balance](https://balance.io/) - A Mobile Ethereum wallet for iOS and Android.
 * [Coinomi](https://www.coinomi.com/en/) - Multicurrency wallet
-* [Argent](https://www.argent.xyz/) - No transaction fee wallet
+* [Coinbase Wallet](https://wallet.coinbase.com/)
 * [Cypher](https://www.cipherbrowser.com/) - Mobile Dapp explorer
-* [WallETH](https://walleth.org) - Native Android Ethereum Wallet.
+* [Eidoo](https://eidoo.io/) - Multicurrency and Multiplatform wallet with a DEX and a DeFI gateway
+* [eth-wallet-light](https://github.com/NoahZinsmeister/eth-wallet-light) - Lightweight JS Wallet optimized for mobile
+* [imToken](https://token.im/) - Feature-rich digital asset mobile wallet enabling multi-chain asset management, DApp browsing and secure, private exchange of value.
 * [Jaxx](https://jaxx.io) - Both a mobile and a desktop wallet. Has integrated Shapeshift support.
-* [eth-wallet-light](https://github.com/NoahHydro/eth-wallet-light) - Lightweight JS Wallet optimized for mobile
+* [Status](https://status.im/) - A free open-source, mobile OS for Ethereum
+* [Trust](https://trustwallet.com/) - Mobile wallet for ERC tokens
+* [WallETH](https://walleth.org) - Native Android Ethereum Wallet.
 
 ## Resources
 

@@ -1,3 +1,7 @@
+title: Harbor - EthHub
+
+description: Harbor works on the R-Token - a token standard for regulated trading of tokenized securities.
+
 # Harbor
 
 ## Summary

@@ -1,3 +1,7 @@
+title: What is blockchain-based gaming? - EthHub
+
+description: Blockchain in games generally consists of storing collectible items as tokens on the blockchain making them interoperable and permanently your own.
+
 # Games
 
 ## What is blockchain-based gaming?

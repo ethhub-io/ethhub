@@ -1,4 +1,5 @@
 title: Stablecoins on Ethereum - EthHub
+
 description: Stablecoins are cryptocurrencies designed to minimize the effects of price volatility, thus they seek to function as a store of value and a unit of account.
 
 # Stablecoins
@@ -39,7 +40,7 @@ For example, MakerDAO's DAI stablecoin is generated when someone opens a collate
 
 * MakerDAO - DAI
 * Bitshares - BitUSD
-* Havven - NUSD
+* Synthetix - SUSD
 
 ### Seigniorage \(algorithmic\)
 
@@ -48,7 +49,7 @@ Seigniorage \(or algorithmic\) stablecoins can be linked to a decentralized auto
 #### Notable algorithmic stablecoins:
 
 * Basis \(project was cancelled\)
-* Fragments
+* Ampleforth
 
 ### Tethered \(sub-type of algorithmic\)
 
@@ -59,6 +60,5 @@ Tethered cryptocurrency assets are issued on-chain, by holders of the native cry
 ## Resources
 
 * [https://www.tokendaily.co/blog/a-taxonomy-of-stablecoins](https://www.tokendaily.co/blog/a-taxonomy-of-stablecoins)
-* [http://stablecoinindex.com](http://stablecoinindex.com)
+* [https://stablecoinindex.com](https://stablecoinindex.com)
 * [https://en.wikipedia.org/wiki/Stablecoin](https://en.wikipedia.org/wiki/Stablecoin)
-

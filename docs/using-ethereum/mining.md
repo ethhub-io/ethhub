@@ -1,5 +1,8 @@
+---
 title: Ethereum Mining - EthHub
+
 description: A deep dive into all aspects of Ethereum mining, including how blocks are formed and what are uncle blocks.
+---
 
 # Mining
 
@@ -27,7 +30,7 @@ Mining profitability calculators, such as [CoinWarz](https://www.coinwarz.com/ca
 
 ## How much longer will Ethereum mining be around?
 
-See [Serenity phases](https://docs.ethhub.io/ethereum-roadmap/serenity-phases) for more information.
+See [Serenity phases](https://docs.ethhub.io/ethereum-roadmap/ethereum-2.0/eth-2.0-phases/) for more information.
 
 # Block Generation
 
@@ -47,7 +50,7 @@ All of the following examples are based on [this block](https://etherscan.io/blo
 
 ### Height:
 
-This number current number of blocks that exist in the Ethereum blockchain
+This number is the current number of blocks that exist in the Ethereum blockchain
 
 _Example: 6969122_
 
@@ -77,7 +80,7 @@ _Example: 0xa48e2ad13de011f127b345a81a91933d221f5a60d45852e7d7c2b5a07fda9fe2_
 
 ### Sha3Uncles:
 
-A SHA3 hash of the uncle block data included the block
+A SHA3 hash of the uncle block data included in the block
 
 _Example: 0x1dcc4de8dec75d7aab85b567b6ccd41ad312451b948a7413f0a142fd40d49347_
 
@@ -166,3 +169,5 @@ This limited version of GHOST, with uncles includable only up to 7 generations, 
 * [https://ethereum.stackexchange.com/questions/10548/what-does-every-field-in-block-means](https://ethereum.stackexchange.com/questions/10548/what-does-every-field-in-block-means)
 * [How does Ethereum work, anyway?](https://medium.com/@preethikasireddy/how-does-ethereum-work-anyway-22d1df506369)
 * [Ethereum Whitepaper](https://github.com/ethereum/wiki/wiki/White-Paper)
+* [Ethereum Mining Pools List](https://miningpoolstats.stream/ethereum)
+* [Ethereum Mining Calculator](https://whattomine.com/coins/151-eth-ethash)

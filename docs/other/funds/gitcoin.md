@@ -1,3 +1,7 @@
+title: Gitcoin Grants - EthHub
+
+description: Fast, easy, and secure way to provide recurring token contributions to the best OSS maintainers in your community.
+
 # Gitcoin Grants
 
 Fast, easy, and secure way to provide recurring token contributions to the best OSS maintainers in your community. Your contribution is amplified by the signal it provides to other (potentially, larger) funders on important infrastructure projects.
@@ -6,5 +10,5 @@ Grants utilizes the EIP-1337 standard for subscriptions on Ethereum. The standar
 
 ## Important Links
 
-* Website: https://gitcoin.co/grants/
-* Announcement: https://medium.com/gitcoin/gitcoin-grants-b91596191c0b
+* Website: [https://gitcoin.co/grants/](https://gitcoin.co/grants/)
+* Announcement: [https://medium.com/gitcoin/gitcoin-grants-b91596191c0b](https://medium.com/gitcoin/gitcoin-grants-b91596191c0b)

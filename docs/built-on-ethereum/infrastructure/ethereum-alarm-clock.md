@@ -1,3 +1,7 @@
+title: Ethereum Alarm Clock - EthHub
+
+description: Ethereum Alarm Clock is a protocol that defines financial incentives for miners to include a transaction at a specified time.
+
 # Ethereum Alarm Clock
 
 ## Description

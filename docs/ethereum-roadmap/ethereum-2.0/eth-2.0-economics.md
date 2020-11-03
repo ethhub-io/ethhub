@@ -1,116 +1,87 @@
+---
 title: Ethereum 2.0 Economics - EthHub
-description: A deep dive on the economics in Ethereum 2.0 including staking interest and issuance rate.
+
+description: A deep dive on the economics in Ethereum 2.0 including staking rewards and issuance rate.
+---
 
 # Eth 2.0 Economics
 
 ## Introduction
 
-The Ethereum Serenity upgrade will bring with it a switch from Proof of Work to Proof of Stake. This means that rather than pay miners to secure the network, we will be paying validators to secure the network. It's vitally important to get the economics of staking right so that the network stays healthy and secure.
+The Ethereum 2.0 upgrade will bring with it a switch from Proof of Work to Proof of Stake. This means instead of miners competing for a block reward, validators will be paid to perform assigned rules and secure the network. It's vitally important to get the economics of staking right so that the network stays healthy and secure.
 
-If the incentive to stake is too low, the network will not get the minimum amount of validators needed to keep many shards going. If the incentive is too high, the network is overpaying for security and inflating at a rate that is detrimental to the economics of the network as a whole.
+If the incentive to stake is too low, the network will not get the minimum amount of validators needed to maintain consistent cross-shard communication. If the incentive is too high, the network is overpaying for security and inflating at a rate that is detrimental to the economics of the network as a whole.
 
-There are a few considerations when it comes to how many validators the network "needs". According to the latest spec, the recommended minimum validators per committee is 111. At 1024 shards that would be 113,664 validators and 3,637,248 total ETH staked.
-
-To achieve crosslinks on all shards within 1 epoch, the committee size would be 256. That equates to 8,388,608 total ETH at stake on the network. Having less is fine it just means crosslinks become rarer.
+There are a few considerations when it comes to how many validators the network "needs". According to the latest spec, for phase 0 there is a 16,384 validator count requirement for the chain to begin. For phase 1+ the recommended minimum validators per committee is 128. In order for all shards to crosslink (learn eachothers state) on every slot, for 64 shards that would be 262,144 validators and 8,388,608 total ETH staked.
 
 ## Terms
 
-NOTE: Some of these are taken from [https://github.com/ethereum/eth2.0-specs/blob/master/specs/core/0\_beacon-chain.md](https://github.com/ethereum/eth2.0-specs/blob/master/specs/core/0_beacon-chain.md)
+NOTE: Some of these are taken from [https://github.com/ethereum/eth2.0-specs/blob/master/specs/phase0/beacon-chain.md](https://github.com/ethereum/eth2.0-specs/blob/master/specs/phase0/beacon-chain.md)
 
-* **Validator** - a participant in the Casper/sharding consensus system. You can become one by depositing 32 ETH into the Casper mechanism.
-* **Committee** - a \(pseudo-\) randomly sampled subset of active validators. When a committee is referred to collectively, as in "this committee attests to X", this is assumed to mean "some subset of that committee that contains enough validators that the protocol recognizes it as representing the committee".
+* **Validator** - a participant in the Ethereum 2.0 consensus. You can become one by depositing 32 ETH into the deposit contract.
+* **Committee** - a \(pseudo-\) randomly sampled subset of active validators, chosen to perform duties for a given slot on a selected shard.
 * **Issuance Rate** - The annualized rate at which ETH supply grows.
-* **Interest** - The annualized rate at which validators are rewarded \(in ETH\).
-
-## Validator Economic Incentive
-
-There are many things that a user will consider when wanting to become a validator. In the base case, some users may believe in the Ethereum network so much that they would stake at a loss if need be. A good example of this is the 12,000 Ethereum nodes running today. However, in the simplest case we can break down the thought process as follows:
-
-Total Incentive to Stake = Validator Rewards + Network Fees - Cost to run a Validator
-
-\*One factor discussed later that validators will consider as well is competition.
+* **Return Rate** - The annualized rate at which validators are rewarded \(in ETH\).
 
 ## Staking Rewards
 
-In order to incentivize those that have ETH to stake in the network, there must be some type of reward. It's unlikely that many people would stake their ETH for no reward. Serenity accomplishes this by paying validators a reward for every block they successfully propose. In the [latest spec](https://github.com/ethereum/eth2.0-specs/blob/master/specs/core/0_beacon-chain.md) this is a sliding scale based on total network stake. So if total ETH stake is low, the interest rate goes up and as stake rises, it starts to fall.
+In order to incentivize those that have ETH to stake in the network, validators will be rewarded for performing their assigned duties. Every 6 minutes, a validator is assigned a duty and is rewarded if it is performed. This reward is a sliding scale based on total network stake. So if total ETH staked is very low, the return rate per validator increases, but as stake rises, total annual issuance increases to fund those validators, while they individually will receive less rewards. The current [suggested payouts](https://github.com/ethereum/eth2.0-specs/pull/971) are as follows:
 
-We can calculate this scale using the spec. There are a lot of variables in doing this. First up are the **constants**:
+| ETH validating | Max annual issuance | Max annual network issuance % | Max annual return rate  (for validators) |
+| :--- | :--- | :--- | :--- |
+| 1,000,000 | 181,019 | 0.17% | 18.10% |
+| 3,000,000 | 313,534 | 0.30% | 10.45% |
+| 10,000,000 | 572,433 | 0.54% | 5.72% |
+| 30,000,000 | 991,483 | 0.94% | 3.30% |
+| 100,000,000 | 1,810,193 | 1.71% | 1.81% |
 
-| **Constant** | Value |
-| :--- | :--- |
-| ETH stake | 32 |
-| Shards | 1024 |
-| Slot time \(in seconds\) | 6 |
-| Epoch Length \(in slots\) | 64 |
-| Base Reward Quotient | 1024 |
+[According to Vitalik Buterin](https://www.reddit.com/r/ethtrader/comments/bffp0n/higher_pos_rewards_proposed/elen71t?utm_source=share&utm_medium=web2x), these are maximum numbers and there are many factors that can decrease the total issuance amounts. They are:
 
-From here we can start to calculate the **outputs** using a single **assumption** which is **total network stake.** \(Let's assume 10,000,000 in the example\)
+* Validators going offline. Combining the individual and collective penalties, every 1% of validators offline cuts total issuance by around 3%, and if more than 33% ever go offline at once, this will lead to finality leaking which will incur extra penalties for offline validators.
 
-| **Output** | Calculation |
-| :--- | :--- |
-| Network Validators | 10000000/32 = 312,500 |
-| Validators/Shard | 10000000/\(32\*1024\) = 305 |
-| Epoch/year | 31536000/\(6\*64\) = 82125 |
-| Reward Quotient | 1024\*INT\(SQRT\(10000000\)\) = 3,237,888 |
-| Reward/epoch | 10000000/3237888 = 3.088 |
-| Generated ETH/Year | 82125\*3.088 = 253638 |
-| Validator Interest/Year | 253638/10000000 = 2.54% |
-| Issuance Rate/Year | 253638/104000000 = 0.24% |
+* Validators getting slashed. Probably will happen infrequently in practice.
 
-So here we can see that with 10,000,000 total network stake, validators are gaining 2.54% a year and the network is inflating at 0.24% a year. We can now take these formulas and generate the sliding scale:
-
-| Total Network Stake | Validator Interest | Network Issuance |
-| :--- | :--- | :--- |
-| 1,000,000 | 8.02% | 0.08% |
-| 2,000,000 | 5.67% | 0.11% |
-| 3,000,000 | 4.63% | 0.13% |
-| 5,000,000 | 3.59% | 0.17% |
-| 10,000,000 | 2.54% | 0.24% |
-| 20,000,000 | 1.79% | 0.34% |
-| 30,000,000 | 1.46% | 0.42% |
-| 50,000,000 | 1.13% | 0.55% |
-| 100,000,000 | 0.80% | 0.77% |
-
-## Fees
-
-Validators earn a cut of the transaction fees that people pay to use the network. This is one area that needs more research but currently, the Ethereum network is paying about 600 ETH a day in fees. At current rate that's 219,000 ETH a year. How this will scale up as we add shards and throughput to the network will be important because it goes into the reward calculation.
+* Transaction fees being burned due to [EIP 1559](https://medium.com/@TrustlessState/eip-1559-the-final-puzzle-piece-to-ethereums-monetary-policy-58802ab28a27) (estimate ~10k ETH/year initially while usage is still low, ramping up to hopefully hundreds of thousands of ETH/year eventually)
 
 ## Staking Costs and Risks
 
 Validating and earning rewards is not a free lunch. There are many things to consider for one to become a validator. These factors will be considered by every validator when contemplating if the staking rewards are "worth it". They are:
 
 * Computing cost
-  * Users will need to run validators clients at a minimum and likely a beacon node as well. This requires computing resources. The specifics around how much as far as HDD, [bandwidth and more are still being figured out](https://github.com/ethereum/eth2.0-specs/issues/251#issuecomment-445438093).
-    * Beacon Node: similar to running geth/parity today
-    * Validator client: lightweight and need one per 32 ETH stake
-* Capital acquisition and lockup
-  * The user must acquire the necessary 32 Ether either via purchase or mining.
-  * Stakers can't directly sell staked Ether while it's staked. 
-  * If the user wants to withdraw funds, there is a set amount of time they must wait to get their ETH back. However, this time has come down considerably in the latest versions of the spec. The minimum withdraw queue wait is 18 hours. This could go up if a lot of people are exiting at the same time but 18 hours will likely be the norm.
-* Code Risk
-  * There is some code risk involved in staking that users will take into account. This will be more of a concern early on and likely dissipate over time. It's important to distinguish between client side code risk and consensus code risk. If the network runs into a consensus code break, the network will hard fork and fix it, so that's less of a concern. However, client side code risk is more serious because it'll be hard to distinguish that from a malicious fault.
-* General uptime and maintenance cost
-  * Users need to make sure their validator doesn't have downtime or they risk a quadratic leak on their stake.
-  * If a user has multiple validators, maintenance cost and worry of the infrastructure comes into play.
-* Security risk
-  * Beyond failures in the client code, stakers are responsible for the security environment of their validator clients \(internet connection, operating system, hardware, etc.\). If their validator client gets hacked due to a security failure, leading to forced downtime and/or misbehavior, there's currently no way to recover funds.
-  * This risk is similar to the risk of getting Ether stolen from a wallet due to a hacked laptop or smartphone. With decentralized autonomy comes responsibility.
+	* Users will need to run a validators client at a minimum and likely a beacon node as well. This requires computing resources.
+	* Beacon Node: capable of running on a raspberry pi 4 in phase 0, will want to run 1 of these.
+	* Validator client: lightweight and 1000s of validators can run on one client.
+	* Rough estimates on costs are $120/year for a beacon node and validator client.
 
+* Capital acquisition and lockup
+	* The user must acquire the necessary 32 Ether and send a one-way transaction to the deposit contract.
+	* Stakers can't directly sell staked Ether while it's staked. 
+	* For phase 0, funds will be locked on the beacon chain until phase 1. It is possible to stop validating, but after submitting an exit you cannot resume or withdraw until after phase 1.
+
+* Code Risk
+	* By staking your ETH, you are trusting the staking software you are running on to perform its duties accurately. However, with block explorers and validator dashboards, it will be easy to see if anything is going wrong. It is the implementors role to create functional software that can work reliably. 
+	* There is also a risk of network-wide flaws, however these can mostly be solved socially through hard forks if needed.
+
+* General uptime and maintenance cost
+	* Users can stay net-positive in earnings if they are online >50% of the time (assuming normal network conditions). However, you should not stake if you're not able to commit to strong uptime in some form.
+	* If greater than 1/3rd of the network goes offline at once, finality cannot be reached. If this continues for over 4 epochs (25 minutes), all offline validators will incur finality leak penalties.  
+	* If a user wishes to distribute their validators among multiple setups, maintenance cost and worry of the infrastructure comes into play.
+
+* Security risk
+	* Beyond failures in the client code, stakers are responsible for the security environment of their validator clients \(internet connection, operating system, hardware, etc.\). If their validator client gets hacked due to a security failure, leading to forced downtime and/or misbehavior, there's currently no way to recover funds.
+	* This risk is similar to the risk of getting Ether stolen from a wallet due to a hacked laptop or smartphone. With decentralized autonomy comes responsibility.
+
+A recommended read for those interested in validating is: [8 Things Every Validator Should Know Before Staking](https://medium.com/chainsafe-systems/8-things-every-eth2-validator-should-know-before-staking-94df41701487).
 ## Competition
 
-A very important factor in determining if staking ETH is worth it is comparing the net reward versus competition. We should assume that stakers do not necessarily care about securing the Ethereum network but rather they are motivated by profit. There are many different categories of competition to consider:
+A very important factor in determining if staking ETH is worth it is comparing the net reward versus competition.
 
 **Decentralized Finance**  
-Decentralized finance applications such as [Compound Finance](https://compound.finance/), [Dharma](https://dharma.io/) and [Maker](https://makerdao.com/). These applications offer ways for users to lock up ETH and gain a reward \(interest\). Trying to understand what these offerings are or will be is something that should be considered.
+Decentralized finance applications such as [Compound Finance](https://compound.finance/), [Dharma](https://dharma.io/) and [Maker](https://makerdao.com/). These applications offer ways for users to lock up ETH and gain a reward. Trying to understand what these offerings are or will be is something that should be considered.
 
 **Other Investment Vehicles**  
 More traditional investment alternatives such as bonds, certificates of deposit, savings account, etc. can be considered competition to staking as well. While not as directly influential to the decent as DeFi apps, they need to be considered.
 
-**Alternative Staking Coins**  
-There is over [500 alternative PoS coins](https://masternodes.online/), with a reward structure. Why stake ETH, when one can earn more, with potentially less infrastructure and risk, on another coin?
-
-## Spreadsheet Examples
-
-* Basic: Click [here](https://docs.google.com/spreadsheets/d/1SZBJsTHBFmRlo6aLZ0ex_bnTO3MqQrsZK9yLWqL4r68/edit?usp=sharing) to see calculations of network and personal staking variables given the latest spec.
-* Advanced: Building on the above, this [sheet](https://docs.google.com/spreadsheets/d/1rfuWnfg42mBcaHEPr-b0gvXofHfl3fC7ldmKQ8JjfMU/edit?usp=sharing) analyzes the financial return when utilizing different validator architectures.
-
+## Resources
+* [ETH2 Staking Calculator](https://docs.google.com/spreadsheets/d/15tmPOvOgi3wKxJw7KQJKoUe-uonbYR6HF7u83LR5Mj4/edit#gid=1446566120)
+* [8 Things Every Validator Should Know Before Staking](https://medium.com/chainsafe-systems/8-things-every-eth2-validator-should-know-before-staking-94df41701487)

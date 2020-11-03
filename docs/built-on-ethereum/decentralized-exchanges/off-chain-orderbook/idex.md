@@ -1,3 +1,7 @@
+title: IDEX - Ethhub
+
+description: IDEX is a decentralized exchange. It processes orders in a centralized order book and settles the trades on chain.
+
 # IDEX
 
 ## Description

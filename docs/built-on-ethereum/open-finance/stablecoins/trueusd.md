@@ -1,3 +1,7 @@
+title: True USD - EthHub
+
+description: TrueUSD is a stablecoin that you can redeem 1-for-1 for US dollars. TUSD is the first asset token created on the TrustToken Platform.
+
 # True USD
 
 ## Summary
@@ -6,5 +10,5 @@ TrueUSD \(TUSD\) is a stablecoin that you can redeem 1-for-1 for US dollars. TUS
 
 ## Resources
 
-* [Website](https://www.trusttoken.com/)
+* [Website](https://www.trusttoken.com/trueusd)
 

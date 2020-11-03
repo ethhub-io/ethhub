@@ -1,3 +1,7 @@
+title: Gnosis - EthHub
+
+description: Gnosis creates a global forecasting and information discovery tool by building a prediction market platform on Ethereum.
+
 # Gnosis
 
 ## Summary
@@ -22,6 +26,6 @@ slow.trade is an UI for DutchX. It is a user-friendly way to trade tokens withou
 
 ## Resources
 
-* [Website](https://gnosis.pm)
+* [Website](https://gnosis.io)
 * [Gnosis Safe](https://safe.gnosis.io)
 * [slow.trade](https://slow.trade)

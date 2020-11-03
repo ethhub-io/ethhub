@@ -1,3 +1,7 @@
+title: Uniswap
+
+description: Uniswap is a fully decentralized on-chain protocol for token exchange on Ethereum
+
 # Uniswap
 
 ## Description
@@ -12,8 +16,10 @@ Anyone can send their tokens and ether to the liquidity pool. There is a small f
 
 ## Resources
 
+* [DeFi Pulse](https://defipulse.com/uniswap)
 * [Website](https://uniswap.io/)
 * [Exchange](https://uniswap.exchange/)
+* [Uniswap Analytics](https://uniswap.info/)
+* [Liquidity Chart](https://zumzoom.github.io/analytics/uniswap/liquidity.html)
 * [Uniswap — A Unique Exchange \(blog post\)](https://medium.com/@cyrus.younessi/uniswap-a-unique-exchange-f4ef44f807bf)
-* \[Uniswap: How to add Liquidity to a pool\]\([https://settle.finance/blog/uniswap-adding-liquidity/](https://settle.finance/blog/uniswap-adding-liquidity/)\)
-
+* [Uniswap: How to add Liquidity to a pool](https://settle.finance/blog/uniswap-adding-liquidity/)

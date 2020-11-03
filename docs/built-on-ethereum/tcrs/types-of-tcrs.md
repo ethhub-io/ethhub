@@ -1,3 +1,7 @@
+title: Types of TCRs - EthHub
+
+description: Examples of the different types of Token Curated Registries.
+
 # Types of TCRs
 
 ## Unordered TCR

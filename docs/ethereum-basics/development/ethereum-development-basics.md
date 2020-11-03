@@ -1,3 +1,9 @@
+---
+title: Ethereum Development Basics - EthHub
+
+description: Ethereum is a blockchain running the Ethereum Virtual Machine (EVM). Applications can be developed with scripting languages, including Solidity and Vyper.
+---
+
 # Development
 
 ## Summary
@@ -6,13 +12,13 @@ Ethereum is a blockchain, first-and-foremost. Its primary artifact is the smart 
 
 ### Languages
 
-Solidity - Most commonly used language
+Solidity - Most commonly used language.
 
-- [Docs](https://solidity.readthedocs.io/en/v0.5.3/)
+- [Docs](https://solidity.readthedocs.io/en/latest/)
 - [GitHub](https://github.com/ethereum/solidity)
-- [Community Audited Contracts](https://github.com/OpenZeppelin/openzeppelin-solidity) by OpenZeppelin
+- [Community Audited Contracts](https://github.com/OpenZeppelin/openzeppelin-contracts) by OpenZeppelin
 
-Vyper - Newer language focused on security on auditability
+Vyper - Newer language focused on security and auditability.
 
 - [Docs](https://vyper.readthedocs.io/en/latest/)
 - [GitHub](https://github.com/ethereum/vyper)
@@ -36,7 +42,7 @@ Parity Ethereum - Rust Implementation
 - [Web3.js Gitter](https://gitter.im/ethereum/web3.js)
 - [ETH 2.0 Gitter](https://gitter.im/ethereum/sharding)
 - [ETH Research Discourse](https://ethresear.ch/)
-- [Ethereum Developer Discord](https://discord.gg/hbtA9ex)
+- [Ethereum Developer Discord](https://discord.gg/5W5tVb3)
 
 ## Resources
 
@@ -45,6 +51,6 @@ Parity Ethereum - Rust Implementation
 - [Awesome Solidity List](https://github.com/bkrem/awesome-solidity)
 - [Awesome Ethereum Security List](https://github.com/trailofbits/awesome-ethereum-security)
 - [Best Practices by Consensys](https://consensys.github.io/smart-contract-best-practices/)
-- [Ethereum Development with Golang](https://goethereumbook.org/en/)
 - [Awesome Ethereum Virtual Machine List](<https://github.com/ethereum/wiki/wiki/Ethereum-Virtual-Machine-(EVM)-Awesome-List>)
+- [Ethereum Development with Golang](https://goethereumbook.org/en/)
 - [More resources can be found here](https://docs.ethhub.io/ethereum-basics/resources#ethereum-development)
