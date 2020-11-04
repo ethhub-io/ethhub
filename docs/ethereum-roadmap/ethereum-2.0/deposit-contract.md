@@ -19,5 +19,5 @@ There will likely be many scam campaigns that will try to get you to send your E
 ## Trusted Sources
 
 * [Ethereum.org Launchpad](https://launchpad.ethereum.org/)
-* [Ethereum.org Eth2 Section](https://ethereum.org/en/eth2/staking-address)
+* [Ethereum.org Announcement](https://blog.ethereum.org/2020/11/04/eth2-quick-update-no-19/)
 * [Etherscan Link for the Deposit Contract](https://etherscan.io/address/0x00000000219ab540356cBB839Cbe05303d7705Fa)
