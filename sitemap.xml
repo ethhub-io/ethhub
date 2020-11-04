@@ -1,1313 +1,1043 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
-    <url>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"><url>
      <loc>https://docs.ethhub.io/</loc>
-     <lastmod>2020-10-11</lastmod>
+     <lastmod>2020-11-04</lastmod>
      <changefreq>daily</changefreq>
-    </url>
-    <url>
+    </url><url>
      <loc>https://docs.ethhub.io/ethereum-basics/what-is-ethereum/</loc>
-     <lastmod>2020-10-11</lastmod>
+     <lastmod>2020-11-04</lastmod>
      <changefreq>daily</changefreq>
-    </url>
-    <url>
-     <loc></loc>
-     
-     <changefreq>daily</changefreq>
-    </url>
-    <url>
-     <loc></loc>
-     
-     <changefreq>daily</changefreq>
-    </url>
-    <url>
-     <loc></loc>
-     
-     <changefreq>daily</changefreq>
-    </url>
-    <url>
+    </url><url>
      <loc>https://docs.ethhub.io/ethereum-basics/what-is-ethereum/</loc>
-     <lastmod>2020-10-11</lastmod>
+     <lastmod>2020-11-04</lastmod>
      <changefreq>daily</changefreq>
-    </url>
-    <url>
+    </url><url>
      <loc>https://docs.ethhub.io/ethereum-basics/what-is-ether/</loc>
-     <lastmod>2020-10-11</lastmod>
+     <lastmod>2020-11-04</lastmod>
      <changefreq>daily</changefreq>
-    </url>
-    <url>
+    </url><url>
      <loc>https://docs.ethhub.io/ethereum-basics/history-and-forks/</loc>
-     <lastmod>2020-10-11</lastmod>
+     <lastmod>2020-11-04</lastmod>
      <changefreq>daily</changefreq>
-    </url>
-    <url>
+    </url><url>
      <loc>https://docs.ethhub.io/ethereum-basics/monetary-policy/</loc>
-     <lastmod>2020-10-11</lastmod>
+     <lastmod>2020-11-04</lastmod>
      <changefreq>daily</changefreq>
-    </url>
-    <url>
+    </url><url>
      <loc>https://docs.ethhub.io/ethereum-basics/ethereum-foundation/</loc>
-     <lastmod>2020-10-11</lastmod>
+     <lastmod>2020-11-04</lastmod>
      <changefreq>daily</changefreq>
-    </url>
-    <url>
+    </url><url>
      <loc>https://docs.ethhub.io/ethereum-basics/governance/</loc>
-     <lastmod>2020-10-11</lastmod>
+     <lastmod>2020-11-04</lastmod>
      <changefreq>daily</changefreq>
-    </url>
-    <url>
+    </url><url>
      <loc>https://docs.ethhub.io/ethereum-basics/development/interacting-with-clients/</loc>
-     <lastmod>2020-10-11</lastmod>
+     <lastmod>2020-11-04</lastmod>
      <changefreq>daily</changefreq>
-    </url>
-    <url>
+    </url><url>
      <loc>https://docs.ethhub.io/ethereum-basics/development/ethereum-development-basics/</loc>
-     <lastmod>2020-10-11</lastmod>
+     <lastmod>2020-11-04</lastmod>
      <changefreq>daily</changefreq>
-    </url>
-    <url>
+    </url><url>
      <loc>https://docs.ethhub.io/ethereum-basics/development/patterns/</loc>
-     <lastmod>2020-10-11</lastmod>
+     <lastmod>2020-11-04</lastmod>
      <changefreq>daily</changefreq>
-    </url>
-    <url>
+    </url><url>
      <loc>https://docs.ethhub.io/ethereum-basics/development/testing/</loc>
-     <lastmod>2020-10-11</lastmod>
+     <lastmod>2020-11-04</lastmod>
      <changefreq>daily</changefreq>
-    </url>
-    <url>
+    </url><url>
      <loc>https://docs.ethhub.io/ethereum-basics/development/tooling/</loc>
-     <lastmod>2020-10-11</lastmod>
+     <lastmod>2020-11-04</lastmod>
      <changefreq>daily</changefreq>
-    </url>
-    <url>
+    </url><url>
      <loc>https://docs.ethhub.io/ethereum-basics/resources/</loc>
-     <lastmod>2020-10-11</lastmod>
+     <lastmod>2020-11-04</lastmod>
      <changefreq>daily</changefreq>
-    </url>
-    <url>
+    </url><url>
+     <loc>https://docs.ethhub.io/ethereum-roadmap/ethereum-2.0/deposit-contract/</loc>
+     <lastmod>2020-11-04</lastmod>
+     <changefreq>daily</changefreq>
+    </url><url>
      <loc>https://docs.ethhub.io/ethereum-roadmap/ethereum-2.0/eth-2.0-phases/</loc>
-     <lastmod>2020-10-11</lastmod>
+     <lastmod>2020-11-04</lastmod>
      <changefreq>daily</changefreq>
-    </url>
-    <url>
+    </url><url>
      <loc>https://docs.ethhub.io/ethereum-roadmap/ethereum-2.0/proof-of-stake/</loc>
-     <lastmod>2020-10-11</lastmod>
+     <lastmod>2020-11-04</lastmod>
      <changefreq>daily</changefreq>
-    </url>
-    <url>
+    </url><url>
      <loc>https://docs.ethhub.io/ethereum-roadmap/ethereum-2.0/sharding/</loc>
-     <lastmod>2020-10-11</lastmod>
+     <lastmod>2020-11-04</lastmod>
      <changefreq>daily</changefreq>
-    </url>
-    <url>
+    </url><url>
      <loc>https://docs.ethhub.io/ethereum-roadmap/ethereum-2.0/eth-2.0-economics/</loc>
-     <lastmod>2020-10-11</lastmod>
+     <lastmod>2020-11-04</lastmod>
      <changefreq>daily</changefreq>
-    </url>
-    <url>
+    </url><url>
      <loc>https://docs.ethhub.io/ethereum-roadmap/ethereum-2.0/eth-1.0-to-2.0-migration/</loc>
-     <lastmod>2020-10-11</lastmod>
+     <lastmod>2020-11-04</lastmod>
      <changefreq>daily</changefreq>
-    </url>
-    <url>
+    </url><url>
      <loc>https://docs.ethhub.io/ethereum-roadmap/ethereum-2.0/eth-2.0-client-architecture/</loc>
-     <lastmod>2020-10-11</lastmod>
+     <lastmod>2020-11-04</lastmod>
      <changefreq>daily</changefreq>
-    </url>
-    <url>
+    </url><url>
      <loc>https://docs.ethhub.io/ethereum-roadmap/ethereum-2.0/account-abstraction/</loc>
-     <lastmod>2020-10-11</lastmod>
+     <lastmod>2020-11-04</lastmod>
      <changefreq>daily</changefreq>
-    </url>
-    <url>
+    </url><url>
      <loc>https://docs.ethhub.io/ethereum-roadmap/ethereum-2.0/overview-playlist/</loc>
-     <lastmod>2020-10-11</lastmod>
+     <lastmod>2020-11-04</lastmod>
      <changefreq>daily</changefreq>
-    </url>
-    <url>
+    </url><url>
      <loc>https://docs.ethhub.io/ethereum-roadmap/ethereum-2.0/eth2.0-teams/teams-building-eth2.0/</loc>
-     <lastmod>2020-10-11</lastmod>
+     <lastmod>2020-11-04</lastmod>
      <changefreq>daily</changefreq>
-    </url>
-    <url>
+    </url><url>
      <loc>https://docs.ethhub.io/ethereum-roadmap/ethereum-2.0/eth2.0-teams/artemis/</loc>
-     <lastmod>2020-10-11</lastmod>
+     <lastmod>2020-11-04</lastmod>
      <changefreq>daily</changefreq>
-    </url>
-    <url>
+    </url><url>
      <loc>https://docs.ethhub.io/ethereum-roadmap/ethereum-2.0/eth2.0-teams/harmony/</loc>
-     <lastmod>2020-10-11</lastmod>
+     <lastmod>2020-11-04</lastmod>
      <changefreq>daily</changefreq>
-    </url>
-    <url>
+    </url><url>
      <loc>https://docs.ethhub.io/ethereum-roadmap/ethereum-2.0/eth2.0-teams/lighthouse/</loc>
-     <lastmod>2020-10-11</lastmod>
+     <lastmod>2020-11-04</lastmod>
      <changefreq>daily</changefreq>
-    </url>
-    <url>
+    </url><url>
      <loc>https://docs.ethhub.io/ethereum-roadmap/ethereum-2.0/eth2.0-teams/lodestar/</loc>
-     <lastmod>2020-10-11</lastmod>
+     <lastmod>2020-11-04</lastmod>
      <changefreq>daily</changefreq>
-    </url>
-    <url>
+    </url><url>
      <loc>https://docs.ethhub.io/ethereum-roadmap/ethereum-2.0/eth2.0-teams/nimbus/</loc>
-     <lastmod>2020-10-11</lastmod>
+     <lastmod>2020-11-04</lastmod>
      <changefreq>daily</changefreq>
-    </url>
-    <url>
+    </url><url>
      <loc>https://docs.ethhub.io/ethereum-roadmap/ethereum-2.0/eth2.0-teams/prysm/</loc>
-     <lastmod>2020-10-11</lastmod>
+     <lastmod>2020-11-04</lastmod>
      <changefreq>daily</changefreq>
-    </url>
-    <url>
+    </url><url>
      <loc>https://docs.ethhub.io/ethereum-roadmap/ethereum-2.0/eth2.0-teams/shasper/</loc>
-     <lastmod>2020-10-11</lastmod>
+     <lastmod>2020-11-04</lastmod>
      <changefreq>daily</changefreq>
-    </url>
-    <url>
+    </url><url>
      <loc>https://docs.ethhub.io/ethereum-roadmap/ethereum-2.0/eth2.0-teams/trinity/</loc>
-     <lastmod>2020-10-11</lastmod>
+     <lastmod>2020-11-04</lastmod>
      <changefreq>daily</changefreq>
-    </url>
-    <url>
+    </url><url>
      <loc>https://docs.ethhub.io/ethereum-roadmap/ethereum-2.0/eth2.0-teams/nethermind/</loc>
-     <lastmod>2020-10-11</lastmod>
+     <lastmod>2020-11-04</lastmod>
      <changefreq>daily</changefreq>
-    </url>
-    <url>
+    </url><url>
      <loc>https://docs.ethhub.io/ethereum-roadmap/ethereum-2.0/eth2.0-teams/yeeth/</loc>
-     <lastmod>2020-10-11</lastmod>
+     <lastmod>2020-11-04</lastmod>
      <changefreq>daily</changefreq>
-    </url>
-    <url>
+    </url><url>
      <loc>https://docs.ethhub.io/ethereum-roadmap/ethereum-1.x/</loc>
-     <lastmod>2020-10-11</lastmod>
+     <lastmod>2020-11-04</lastmod>
      <changefreq>daily</changefreq>
-    </url>
-    <url>
+    </url><url>
      <loc>https://docs.ethhub.io/ethereum-roadmap/ethereum-2.0/stateless-clients/</loc>
-     <lastmod>2020-10-11</lastmod>
+     <lastmod>2020-11-04</lastmod>
      <changefreq>daily</changefreq>
-    </url>
-    <url>
+    </url><url>
      <loc>https://docs.ethhub.io/ethereum-roadmap/layer-2-scaling/zk-rollups/</loc>
-     <lastmod>2020-10-11</lastmod>
+     <lastmod>2020-11-04</lastmod>
      <changefreq>daily</changefreq>
-    </url>
-    <url>
+    </url><url>
      <loc>https://docs.ethhub.io/ethereum-roadmap/layer-2-scaling/optimistic_rollups/</loc>
-     <lastmod>2020-10-11</lastmod>
+     <lastmod>2020-11-04</lastmod>
      <changefreq>daily</changefreq>
-    </url>
-    <url>
+    </url><url>
      <loc>https://docs.ethhub.io/ethereum-roadmap/layer-2-scaling/plasma/</loc>
-     <lastmod>2020-10-11</lastmod>
+     <lastmod>2020-11-04</lastmod>
      <changefreq>daily</changefreq>
-    </url>
-    <url>
+    </url><url>
      <loc>https://docs.ethhub.io/ethereum-roadmap/layer-2-scaling/state-channels/</loc>
-     <lastmod>2020-10-11</lastmod>
+     <lastmod>2020-11-04</lastmod>
      <changefreq>daily</changefreq>
-    </url>
-    <url>
+    </url><url>
      <loc>https://docs.ethhub.io/ethereum-roadmap/layer-2-scaling/payment-channels/</loc>
-     <lastmod>2020-10-11</lastmod>
+     <lastmod>2020-11-04</lastmod>
      <changefreq>daily</changefreq>
-    </url>
-    <url>
+    </url><url>
      <loc>https://docs.ethhub.io/ethereum-roadmap/layer-2-scaling/zk-starks/</loc>
-     <lastmod>2020-10-11</lastmod>
+     <lastmod>2020-11-04</lastmod>
      <changefreq>daily</changefreq>
-    </url>
-    <url>
+    </url><url>
      <loc>https://docs.ethhub.io/ethereum-roadmap/layer-2-scaling/commit-chains/</loc>
-     <lastmod>2020-10-11</lastmod>
+     <lastmod>2020-11-04</lastmod>
      <changefreq>daily</changefreq>
-    </url>
-    <url>
+    </url><url>
      <loc>https://docs.ethhub.io/ethereum-roadmap/layer-2-scaling/sidechains/</loc>
-     <lastmod>2020-10-11</lastmod>
+     <lastmod>2020-11-04</lastmod>
      <changefreq>daily</changefreq>
-    </url>
-    <url>
+    </url><url>
      <loc>https://docs.ethhub.io/ethereum-roadmap/privacy/</loc>
-     <lastmod>2020-10-11</lastmod>
+     <lastmod>2020-11-04</lastmod>
      <changefreq>daily</changefreq>
-    </url>
-    <url>
+    </url><url>
      <loc>https://docs.ethhub.io/using-ethereum/how-to-buy-ether/</loc>
-     <lastmod>2020-10-11</lastmod>
+     <lastmod>2020-11-04</lastmod>
      <changefreq>daily</changefreq>
-    </url>
-    <url>
+    </url><url>
      <loc>https://docs.ethhub.io/using-ethereum/running-an-ethereum-node/</loc>
-     <lastmod>2020-10-11</lastmod>
+     <lastmod>2020-11-04</lastmod>
      <changefreq>daily</changefreq>
-    </url>
-    <url>
+    </url><url>
      <loc>https://docs.ethhub.io/using-ethereum/ethereum-clients/geth/</loc>
-     <lastmod>2020-10-11</lastmod>
+     <lastmod>2020-11-04</lastmod>
      <changefreq>daily</changefreq>
-    </url>
-    <url>
+    </url><url>
      <loc>https://docs.ethhub.io/using-ethereum/ethereum-clients/openethereum/</loc>
-     <lastmod>2020-10-11</lastmod>
+     <lastmod>2020-11-04</lastmod>
      <changefreq>daily</changefreq>
-    </url>
-    <url>
+    </url><url>
      <loc>https://docs.ethhub.io/using-ethereum/ethereum-clients/nethermind/</loc>
-     <lastmod>2020-10-11</lastmod>
+     <lastmod>2020-11-04</lastmod>
      <changefreq>daily</changefreq>
-    </url>
-    <url>
+    </url><url>
      <loc>https://docs.ethhub.io/using-ethereum/ethereum-clients/besu/</loc>
-     <lastmod>2020-10-11</lastmod>
+     <lastmod>2020-11-04</lastmod>
      <changefreq>daily</changefreq>
-    </url>
-    <url>
+    </url><url>
      <loc>https://docs.ethhub.io/using-ethereum/ethereum-clients/py-evm/</loc>
-     <lastmod>2020-10-11</lastmod>
+     <lastmod>2020-11-04</lastmod>
      <changefreq>daily</changefreq>
-    </url>
-    <url>
+    </url><url>
      <loc>https://docs.ethhub.io/using-ethereum/transactions/</loc>
-     <lastmod>2020-10-11</lastmod>
+     <lastmod>2020-11-04</lastmod>
      <changefreq>daily</changefreq>
-    </url>
-    <url>
+    </url><url>
      <loc>https://docs.ethhub.io/using-ethereum/mining/</loc>
-     <lastmod>2020-10-11</lastmod>
+     <lastmod>2020-11-04</lastmod>
      <changefreq>daily</changefreq>
-    </url>
-    <url>
+    </url><url>
      <loc>https://docs.ethhub.io/using-ethereum/test-networks/</loc>
-     <lastmod>2020-10-11</lastmod>
+     <lastmod>2020-11-04</lastmod>
      <changefreq>daily</changefreq>
-    </url>
-    <url>
+    </url><url>
      <loc>https://docs.ethhub.io/using-ethereum/wallets/intro-to-ethereum-wallets/</loc>
-     <lastmod>2020-10-11</lastmod>
+     <lastmod>2020-11-04</lastmod>
      <changefreq>daily</changefreq>
-    </url>
-    <url>
+    </url><url>
      <loc>https://docs.ethhub.io/using-ethereum/wallets/smart-contract-wallets/</loc>
-     <lastmod>2020-10-11</lastmod>
+     <lastmod>2020-11-04</lastmod>
      <changefreq>daily</changefreq>
-    </url>
-    <url>
+    </url><url>
      <loc>https://docs.ethhub.io/using-ethereum/wallets/hardware/</loc>
-     <lastmod>2020-10-11</lastmod>
+     <lastmod>2020-11-04</lastmod>
      <changefreq>daily</changefreq>
-    </url>
-    <url>
+    </url><url>
      <loc>https://docs.ethhub.io/using-ethereum/wallets/mobile/</loc>
-     <lastmod>2020-10-11</lastmod>
+     <lastmod>2020-11-04</lastmod>
      <changefreq>daily</changefreq>
-    </url>
-    <url>
+    </url><url>
      <loc>https://docs.ethhub.io/using-ethereum/wallets/desktop/</loc>
-     <lastmod>2020-10-11</lastmod>
+     <lastmod>2020-11-04</lastmod>
      <changefreq>daily</changefreq>
-    </url>
-    <url>
+    </url><url>
      <loc>https://docs.ethhub.io/using-ethereum/wallets/web/</loc>
-     <lastmod>2020-10-11</lastmod>
+     <lastmod>2020-11-04</lastmod>
      <changefreq>daily</changefreq>
-    </url>
-    <url>
+    </url><url>
      <loc>https://docs.ethhub.io/built-on-ethereum/built-on-ethereum/</loc>
-     <lastmod>2020-10-11</lastmod>
+     <lastmod>2020-11-04</lastmod>
      <changefreq>daily</changefreq>
-    </url>
-    <url>
+    </url><url>
      <loc>https://docs.ethhub.io/built-on-ethereum/open-finance/what-is-open-finance/</loc>
-     <lastmod>2020-10-11</lastmod>
+     <lastmod>2020-11-04</lastmod>
      <changefreq>daily</changefreq>
-    </url>
-    <url>
+    </url><url>
      <loc>https://docs.ethhub.io/built-on-ethereum/open-finance/stablecoins/what-are-stablecoins/</loc>
-     <lastmod>2020-10-11</lastmod>
+     <lastmod>2020-11-04</lastmod>
      <changefreq>daily</changefreq>
-    </url>
-    <url>
+    </url><url>
      <loc>https://docs.ethhub.io/built-on-ethereum/open-finance/stablecoins/dai/</loc>
-     <lastmod>2020-10-11</lastmod>
+     <lastmod>2020-11-04</lastmod>
      <changefreq>daily</changefreq>
-    </url>
-    <url>
+    </url><url>
      <loc>https://docs.ethhub.io/built-on-ethereum/open-finance/stablecoins/gusd/</loc>
-     <lastmod>2020-10-11</lastmod>
+     <lastmod>2020-11-04</lastmod>
      <changefreq>daily</changefreq>
-    </url>
-    <url>
+    </url><url>
      <loc>https://docs.ethhub.io/built-on-ethereum/open-finance/stablecoins/usdc/</loc>
-     <lastmod>2020-10-11</lastmod>
+     <lastmod>2020-11-04</lastmod>
      <changefreq>daily</changefreq>
-    </url>
-    <url>
+    </url><url>
      <loc>https://docs.ethhub.io/built-on-ethereum/open-finance/stablecoins/trueusd/</loc>
-     <lastmod>2020-10-11</lastmod>
+     <lastmod>2020-11-04</lastmod>
      <changefreq>daily</changefreq>
-    </url>
-    <url>
+    </url><url>
      <loc>https://docs.ethhub.io/built-on-ethereum/open-finance/stablecoins/tether/</loc>
-     <lastmod>2020-10-11</lastmod>
+     <lastmod>2020-11-04</lastmod>
      <changefreq>daily</changefreq>
-    </url>
-    <url>
+    </url><url>
      <loc>https://docs.ethhub.io/built-on-ethereum/open-finance/stablecoins/paxos/</loc>
-     <lastmod>2020-10-11</lastmod>
+     <lastmod>2020-11-04</lastmod>
      <changefreq>daily</changefreq>
-    </url>
-    <url>
+    </url><url>
      <loc>https://docs.ethhub.io/built-on-ethereum/open-finance/lending/bzx/</loc>
-     <lastmod>2020-10-11</lastmod>
+     <lastmod>2020-11-04</lastmod>
      <changefreq>daily</changefreq>
-    </url>
-    <url>
+    </url><url>
      <loc>https://docs.ethhub.io/built-on-ethereum/open-finance/lending/compound/</loc>
-     <lastmod>2020-10-11</lastmod>
+     <lastmod>2020-11-04</lastmod>
      <changefreq>daily</changefreq>
-    </url>
-    <url>
+    </url><url>
      <loc>https://docs.ethhub.io/built-on-ethereum/open-finance/lending/dharma/</loc>
-     <lastmod>2020-10-11</lastmod>
+     <lastmod>2020-11-04</lastmod>
      <changefreq>daily</changefreq>
-    </url>
-    <url>
+    </url><url>
      <loc>https://docs.ethhub.io/built-on-ethereum/open-finance/lending/dydx/</loc>
-     <lastmod>2020-10-11</lastmod>
+     <lastmod>2020-11-04</lastmod>
      <changefreq>daily</changefreq>
-    </url>
-    <url>
+    </url><url>
      <loc>https://docs.ethhub.io/built-on-ethereum/open-finance/lending/expo/</loc>
-     <lastmod>2020-10-11</lastmod>
+     <lastmod>2020-11-04</lastmod>
      <changefreq>daily</changefreq>
-    </url>
-    <url>
+    </url><url>
      <loc>https://docs.ethhub.io/built-on-ethereum/open-finance/lending/fulcrum/</loc>
-     <lastmod>2020-10-11</lastmod>
+     <lastmod>2020-11-04</lastmod>
      <changefreq>daily</changefreq>
-    </url>
-    <url>
+    </url><url>
      <loc>https://docs.ethhub.io/built-on-ethereum/open-finance/lending/maker/</loc>
-     <lastmod>2020-10-11</lastmod>
+     <lastmod>2020-11-04</lastmod>
      <changefreq>daily</changefreq>
-    </url>
-    <url>
+    </url><url>
      <loc>https://docs.ethhub.io/built-on-ethereum/open-finance/lending/torque/</loc>
-     <lastmod>2020-10-11</lastmod>
+     <lastmod>2020-11-04</lastmod>
      <changefreq>daily</changefreq>
-    </url>
-    <url>
+    </url><url>
      <loc>https://docs.ethhub.io/built-on-ethereum/open-finance/lending/NuoNetwork/</loc>
-     <lastmod>2020-10-11</lastmod>
+     <lastmod>2020-11-04</lastmod>
      <changefreq>daily</changefreq>
-    </url>
-    <url>
+    </url><url>
      <loc>https://docs.ethhub.io/built-on-ethereum/open-finance/investing/bskt/</loc>
-     <lastmod>2020-10-11</lastmod>
+     <lastmod>2020-11-04</lastmod>
      <changefreq>daily</changefreq>
-    </url>
-    <url>
+    </url><url>
      <loc>https://docs.ethhub.io/built-on-ethereum/open-finance/investing/digix/</loc>
-     <lastmod>2020-10-11</lastmod>
+     <lastmod>2020-11-04</lastmod>
      <changefreq>daily</changefreq>
-    </url>
-    <url>
+    </url><url>
      <loc>https://docs.ethhub.io/built-on-ethereum/open-finance/investing/set-protocol/</loc>
-     <lastmod>2020-10-11</lastmod>
+     <lastmod>2020-11-04</lastmod>
      <changefreq>daily</changefreq>
-    </url>
-    <url>
+    </url><url>
      <loc>https://docs.ethhub.io/built-on-ethereum/open-finance/investing/settle/</loc>
-     <lastmod>2020-10-11</lastmod>
+     <lastmod>2020-11-04</lastmod>
      <changefreq>daily</changefreq>
-    </url>
-    <url>
+    </url><url>
      <loc>https://docs.ethhub.io/built-on-ethereum/open-finance/investing/wbtc/</loc>
-     <lastmod>2020-10-11</lastmod>
+     <lastmod>2020-11-04</lastmod>
      <changefreq>daily</changefreq>
-    </url>
-    <url>
+    </url><url>
      <loc>https://docs.ethhub.io/built-on-ethereum/open-finance/payments/burner-wallet/</loc>
-     <lastmod>2020-10-11</lastmod>
+     <lastmod>2020-11-04</lastmod>
      <changefreq>daily</changefreq>
-    </url>
-    <url>
+    </url><url>
      <loc>https://docs.ethhub.io/built-on-ethereum/open-finance/payments/daicard/</loc>
-     <lastmod>2020-10-11</lastmod>
+     <lastmod>2020-11-04</lastmod>
      <changefreq>daily</changefreq>
-    </url>
-    <url>
+    </url><url>
      <loc>https://docs.ethhub.io/built-on-ethereum/open-finance/payments/stablepay/</loc>
-     <lastmod>2020-10-11</lastmod>
+     <lastmod>2020-11-04</lastmod>
      <changefreq>daily</changefreq>
-    </url>
-    <url>
+    </url><url>
      <loc>https://docs.ethhub.io/built-on-ethereum/open-finance/insurance/etherisc/</loc>
-     <lastmod>2020-10-11</lastmod>
+     <lastmod>2020-11-04</lastmod>
      <changefreq>daily</changefreq>
-    </url>
-    <url>
+    </url><url>
      <loc>https://docs.ethhub.io/built-on-ethereum/open-finance/insurance/nexus-mutual/</loc>
-     <lastmod>2020-10-11</lastmod>
+     <lastmod>2020-11-04</lastmod>
      <changefreq>daily</changefreq>
-    </url>
-    <url>
+    </url><url>
      <loc>https://docs.ethhub.io/built-on-ethereum/open-finance/prediction-markets/what-are-prediction-markets/</loc>
-     <lastmod>2020-10-11</lastmod>
+     <lastmod>2020-11-04</lastmod>
      <changefreq>daily</changefreq>
-    </url>
-    <url>
+    </url><url>
      <loc>https://docs.ethhub.io/built-on-ethereum/open-finance/prediction-markets/augur/</loc>
-     <lastmod>2020-10-11</lastmod>
+     <lastmod>2020-11-04</lastmod>
      <changefreq>daily</changefreq>
-    </url>
-    <url>
+    </url><url>
      <loc>https://docs.ethhub.io/built-on-ethereum/open-finance/prediction-markets/gnosis/</loc>
-     <lastmod>2020-10-11</lastmod>
+     <lastmod>2020-11-04</lastmod>
      <changefreq>daily</changefreq>
-    </url>
-    <url>
+    </url><url>
      <loc>https://docs.ethhub.io/built-on-ethereum/open-finance/synthetics/synthetix/</loc>
-     <lastmod>2020-10-11</lastmod>
+     <lastmod>2020-11-04</lastmod>
      <changefreq>daily</changefreq>
-    </url>
-    <url>
+    </url><url>
      <loc>https://docs.ethhub.io/built-on-ethereum/open-finance/defi-dashboards/zapper/</loc>
-     <lastmod>2020-10-11</lastmod>
+     <lastmod>2020-11-04</lastmod>
      <changefreq>daily</changefreq>
-    </url>
-    <url>
+    </url><url>
      <loc>https://docs.ethhub.io/built-on-ethereum/open-finance/defi-dashboards/zerion/</loc>
-     <lastmod>2020-10-11</lastmod>
+     <lastmod>2020-11-04</lastmod>
      <changefreq>daily</changefreq>
-    </url>
-    <url>
+    </url><url>
      <loc>https://docs.ethhub.io/built-on-ethereum/open-finance/securities/what-are-tokenized-securities/</loc>
-     <lastmod>2020-10-11</lastmod>
+     <lastmod>2020-11-04</lastmod>
      <changefreq>daily</changefreq>
-    </url>
-    <url>
+    </url><url>
      <loc>https://docs.ethhub.io/built-on-ethereum/open-finance/securities/abacus/</loc>
-     <lastmod>2020-10-11</lastmod>
+     <lastmod>2020-11-04</lastmod>
      <changefreq>daily</changefreq>
-    </url>
-    <url>
+    </url><url>
      <loc>https://docs.ethhub.io/built-on-ethereum/open-finance/securities/harbor/</loc>
-     <lastmod>2020-10-11</lastmod>
+     <lastmod>2020-11-04</lastmod>
      <changefreq>daily</changefreq>
-    </url>
-    <url>
+    </url><url>
      <loc>https://docs.ethhub.io/built-on-ethereum/open-finance/securities/polymath/</loc>
-     <lastmod>2020-10-11</lastmod>
+     <lastmod>2020-11-04</lastmod>
      <changefreq>daily</changefreq>
-    </url>
-    <url>
+    </url><url>
      <loc>https://docs.ethhub.io/built-on-ethereum/open-finance/securities/securitize/</loc>
-     <lastmod>2020-10-11</lastmod>
+     <lastmod>2020-11-04</lastmod>
      <changefreq>daily</changefreq>
-    </url>
-    <url>
+    </url><url>
      <loc>https://docs.ethhub.io/built-on-ethereum/open-finance/securities/templum/</loc>
-     <lastmod>2020-10-11</lastmod>
+     <lastmod>2020-11-04</lastmod>
      <changefreq>daily</changefreq>
-    </url>
-    <url>
+    </url><url>
      <loc>https://docs.ethhub.io/built-on-ethereum/decentralized-exchanges/what-are-decentralized-exchanges/</loc>
-     <lastmod>2020-10-11</lastmod>
+     <lastmod>2020-11-04</lastmod>
      <changefreq>daily</changefreq>
-    </url>
-    <url>
+    </url><url>
      <loc>https://docs.ethhub.io/built-on-ethereum/decentralized-exchanges/auction-based/dutchx/</loc>
-     <lastmod>2020-10-11</lastmod>
+     <lastmod>2020-11-04</lastmod>
      <changefreq>daily</changefreq>
-    </url>
-    <url>
+    </url><url>
      <loc>https://docs.ethhub.io/built-on-ethereum/decentralized-exchanges/off-chain-orderbook/what-is-off-chain-orderbook/</loc>
-     <lastmod>2020-10-11</lastmod>
+     <lastmod>2020-11-04</lastmod>
      <changefreq>daily</changefreq>
-    </url>
-    <url>
+    </url><url>
      <loc>https://docs.ethhub.io/built-on-ethereum/decentralized-exchanges/off-chain-orderbook/0x-protocol/</loc>
-     <lastmod>2020-10-11</lastmod>
+     <lastmod>2020-11-04</lastmod>
      <changefreq>daily</changefreq>
-    </url>
-    <url>
+    </url><url>
      <loc>https://docs.ethhub.io/built-on-ethereum/decentralized-exchanges/off-chain-orderbook/0x-instant/</loc>
-     <lastmod>2020-10-11</lastmod>
+     <lastmod>2020-11-04</lastmod>
      <changefreq>daily</changefreq>
-    </url>
-    <url>
+    </url><url>
      <loc>https://docs.ethhub.io/built-on-ethereum/decentralized-exchanges/off-chain-orderbook/0x-relayers/</loc>
-     <lastmod>2020-10-11</lastmod>
+     <lastmod>2020-11-04</lastmod>
      <changefreq>daily</changefreq>
-    </url>
-    <url>
+    </url><url>
      <loc>https://docs.ethhub.io/built-on-ethereum/decentralized-exchanges/off-chain-orderbook/etherdelta/</loc>
-     <lastmod>2020-10-11</lastmod>
+     <lastmod>2020-11-04</lastmod>
      <changefreq>daily</changefreq>
-    </url>
-    <url>
+    </url><url>
      <loc>https://docs.ethhub.io/built-on-ethereum/decentralized-exchanges/off-chain-orderbook/hydro/</loc>
-     <lastmod>2020-10-11</lastmod>
+     <lastmod>2020-11-04</lastmod>
      <changefreq>daily</changefreq>
-    </url>
-    <url>
+    </url><url>
      <loc>https://docs.ethhub.io/built-on-ethereum/decentralized-exchanges/off-chain-orderbook/idex/</loc>
-     <lastmod>2020-10-11</lastmod>
+     <lastmod>2020-11-04</lastmod>
      <changefreq>daily</changefreq>
-    </url>
-    <url>
+    </url><url>
      <loc>https://docs.ethhub.io/built-on-ethereum/decentralized-exchanges/off-chain-orderbook/loopring/</loc>
-     <lastmod>2020-10-11</lastmod>
+     <lastmod>2020-11-04</lastmod>
      <changefreq>daily</changefreq>
-    </url>
-    <url>
+    </url><url>
      <loc>https://docs.ethhub.io/built-on-ethereum/decentralized-exchanges/peer-to-peer/what-is-peer-to-peer/</loc>
-     <lastmod>2020-10-11</lastmod>
+     <lastmod>2020-11-04</lastmod>
      <changefreq>daily</changefreq>
-    </url>
-    <url>
+    </url><url>
      <loc>https://docs.ethhub.io/built-on-ethereum/decentralized-exchanges/peer-to-peer/airswap/</loc>
-     <lastmod>2020-10-11</lastmod>
+     <lastmod>2020-11-04</lastmod>
      <changefreq>daily</changefreq>
-    </url>
-    <url>
+    </url><url>
      <loc>https://docs.ethhub.io/built-on-ethereum/decentralized-exchanges/peer-to-peer/ren/</loc>
-     <lastmod>2020-10-11</lastmod>
+     <lastmod>2020-11-04</lastmod>
      <changefreq>daily</changefreq>
-    </url>
-    <url>
+    </url><url>
      <loc>https://docs.ethhub.io/built-on-ethereum/decentralized-exchanges/pool-based/what-is-pool-based/</loc>
-     <lastmod>2020-10-11</lastmod>
+     <lastmod>2020-11-04</lastmod>
      <changefreq>daily</changefreq>
-    </url>
-    <url>
+    </url><url>
      <loc>https://docs.ethhub.io/built-on-ethereum/decentralized-exchanges/pool-based/bancor/</loc>
-     <lastmod>2020-10-11</lastmod>
+     <lastmod>2020-11-04</lastmod>
      <changefreq>daily</changefreq>
-    </url>
-    <url>
+    </url><url>
      <loc>https://docs.ethhub.io/built-on-ethereum/decentralized-exchanges/pool-based/kyber/</loc>
-     <lastmod>2020-10-11</lastmod>
+     <lastmod>2020-11-04</lastmod>
      <changefreq>daily</changefreq>
-    </url>
-    <url>
+    </url><url>
      <loc>https://docs.ethhub.io/built-on-ethereum/decentralized-exchanges/pool-based/uniswap/</loc>
-     <lastmod>2020-10-11</lastmod>
+     <lastmod>2020-11-04</lastmod>
      <changefreq>daily</changefreq>
-    </url>
-    <url>
+    </url><url>
      <loc>https://docs.ethhub.io/built-on-ethereum/decentralized-exchanges/aggregators/totle/</loc>
-     <lastmod>2020-10-11</lastmod>
+     <lastmod>2020-11-04</lastmod>
      <changefreq>daily</changefreq>
-    </url>
-    <url>
+    </url><url>
      <loc>https://docs.ethhub.io/built-on-ethereum/decentralized-exchanges/layer-2-based/what-is-layer-2-based/</loc>
-     <lastmod>2020-10-11</lastmod>
+     <lastmod>2020-11-04</lastmod>
      <changefreq>daily</changefreq>
-    </url>
-    <url>
+    </url><url>
      <loc>https://docs.ethhub.io/built-on-ethereum/decentralized-exchanges/layer-2-based/tex/</loc>
-     <lastmod>2020-10-11</lastmod>
+     <lastmod>2020-11-04</lastmod>
      <changefreq>daily</changefreq>
-    </url>
-    <url>
+    </url><url>
      <loc>https://docs.ethhub.io/built-on-ethereum/games/what-is-blockchain-gaming/</loc>
-     <lastmod>2020-10-11</lastmod>
+     <lastmod>2020-11-04</lastmod>
      <changefreq>daily</changefreq>
-    </url>
-    <url>
+    </url><url>
      <loc>https://docs.ethhub.io/built-on-ethereum/games/axie-infinity/</loc>
-     <lastmod>2020-10-11</lastmod>
+     <lastmod>2020-11-04</lastmod>
      <changefreq>daily</changefreq>
-    </url>
-    <url>
+    </url><url>
      <loc>https://docs.ethhub.io/built-on-ethereum/games/caesars-triumph/</loc>
-     <lastmod>2020-10-11</lastmod>
+     <lastmod>2020-11-04</lastmod>
      <changefreq>daily</changefreq>
-    </url>
-    <url>
+    </url><url>
      <loc>https://docs.ethhub.io/built-on-ethereum/games/chainmonsters/</loc>
-     <lastmod>2020-10-11</lastmod>
+     <lastmod>2020-11-04</lastmod>
      <changefreq>daily</changefreq>
-    </url>
-    <url>
+    </url><url>
      <loc>https://docs.ethhub.io/built-on-ethereum/games/chibi-fighters/</loc>
-     <lastmod>2020-10-11</lastmod>
+     <lastmod>2020-11-04</lastmod>
      <changefreq>daily</changefreq>
-    </url>
-    <url>
+    </url><url>
      <loc>https://docs.ethhub.io/built-on-ethereum/games/crypto-space-commander/</loc>
-     <lastmod>2020-10-11</lastmod>
+     <lastmod>2020-11-04</lastmod>
      <changefreq>daily</changefreq>
-    </url>
-    <url>
+    </url><url>
      <loc>https://docs.ethhub.io/built-on-ethereum/games/cryptokitties/</loc>
-     <lastmod>2020-10-11</lastmod>
+     <lastmod>2020-11-04</lastmod>
      <changefreq>daily</changefreq>
-    </url>
-    <url>
+    </url><url>
      <loc>https://docs.ethhub.io/built-on-ethereum/games/etherbots/</loc>
-     <lastmod>2020-10-11</lastmod>
+     <lastmod>2020-11-04</lastmod>
      <changefreq>daily</changefreq>
-    </url>
-    <url>
+    </url><url>
      <loc>https://docs.ethhub.io/built-on-ethereum/games/etheremon/</loc>
-     <lastmod>2020-10-11</lastmod>
+     <lastmod>2020-11-04</lastmod>
      <changefreq>daily</changefreq>
-    </url>
-    <url>
+    </url><url>
      <loc>https://docs.ethhub.io/built-on-ethereum/games/etheroll/</loc>
-     <lastmod>2020-10-11</lastmod>
+     <lastmod>2020-11-04</lastmod>
      <changefreq>daily</changefreq>
-    </url>
-    <url>
+    </url><url>
      <loc>https://docs.ethhub.io/built-on-ethereum/games/gods-unchained/</loc>
-     <lastmod>2020-10-11</lastmod>
+     <lastmod>2020-11-04</lastmod>
      <changefreq>daily</changefreq>
-    </url>
-    <url>
+    </url><url>
      <loc>https://docs.ethhub.io/built-on-ethereum/games/mlb-champions/</loc>
-     <lastmod>2020-10-11</lastmod>
+     <lastmod>2020-11-04</lastmod>
      <changefreq>daily</changefreq>
-    </url>
-    <url>
+    </url><url>
      <loc>https://docs.ethhub.io/built-on-ethereum/games/mycryptoheroes/</loc>
-     <lastmod>2020-10-11</lastmod>
+     <lastmod>2020-11-04</lastmod>
      <changefreq>daily</changefreq>
-    </url>
-    <url>
+    </url><url>
      <loc>https://docs.ethhub.io/built-on-ethereum/games/mythereum/</loc>
-     <lastmod>2020-10-11</lastmod>
+     <lastmod>2020-11-04</lastmod>
      <changefreq>daily</changefreq>
-    </url>
-    <url>
+    </url><url>
      <loc>https://docs.ethhub.io/built-on-ethereum/games/relentless/</loc>
-     <lastmod>2020-10-11</lastmod>
+     <lastmod>2020-11-04</lastmod>
      <changefreq>daily</changefreq>
-    </url>
-    <url>
+    </url><url>
      <loc>https://docs.ethhub.io/built-on-ethereum/games/world-war-goo/</loc>
-     <lastmod>2020-10-11</lastmod>
+     <lastmod>2020-11-04</lastmod>
      <changefreq>daily</changefreq>
-    </url>
-    <url>
+    </url><url>
      <loc>https://docs.ethhub.io/built-on-ethereum/collectibles/cryptopunks/</loc>
-     <lastmod>2020-10-11</lastmod>
+     <lastmod>2020-11-04</lastmod>
      <changefreq>daily</changefreq>
-    </url>
-    <url>
+    </url><url>
      <loc>https://docs.ethhub.io/built-on-ethereum/collectibles/decentraland/</loc>
-     <lastmod>2020-10-11</lastmod>
+     <lastmod>2020-11-04</lastmod>
      <changefreq>daily</changefreq>
-    </url>
-    <url>
+    </url><url>
      <loc>https://docs.ethhub.io/built-on-ethereum/collectibles/nftkred/</loc>
-     <lastmod>2020-10-11</lastmod>
+     <lastmod>2020-11-04</lastmod>
      <changefreq>daily</changefreq>
-    </url>
-    <url>
+    </url><url>
      <loc>https://docs.ethhub.io/built-on-ethereum/marketplaces/district0x/</loc>
-     <lastmod>2020-10-11</lastmod>
+     <lastmod>2020-11-04</lastmod>
      <changefreq>daily</changefreq>
-    </url>
-    <url>
+    </url><url>
      <loc>https://docs.ethhub.io/built-on-ethereum/marketplaces/opensea/</loc>
-     <lastmod>2020-10-11</lastmod>
+     <lastmod>2020-11-04</lastmod>
      <changefreq>daily</changefreq>
-    </url>
-    <url>
+    </url><url>
      <loc>https://docs.ethhub.io/built-on-ethereum/marketplaces/origin-protocol/</loc>
-     <lastmod>2020-10-11</lastmod>
+     <lastmod>2020-11-04</lastmod>
      <changefreq>daily</changefreq>
-    </url>
-    <url>
+    </url><url>
      <loc>https://docs.ethhub.io/built-on-ethereum/marketplaces/rarebits/</loc>
-     <lastmod>2020-10-11</lastmod>
+     <lastmod>2020-11-04</lastmod>
      <changefreq>daily</changefreq>
-    </url>
-    <url>
+    </url><url>
      <loc>https://docs.ethhub.io/built-on-ethereum/supply-chain/shipchain/</loc>
-     <lastmod>2020-10-11</lastmod>
+     <lastmod>2020-11-04</lastmod>
      <changefreq>daily</changefreq>
-    </url>
-    <url>
+    </url><url>
      <loc>https://docs.ethhub.io/built-on-ethereum/developer-tools/gitcoin/</loc>
-     <lastmod>2020-10-11</lastmod>
+     <lastmod>2020-11-04</lastmod>
      <changefreq>daily</changefreq>
-    </url>
-    <url>
+    </url><url>
      <loc>https://docs.ethhub.io/built-on-ethereum/developer-tools/kauri/</loc>
-     <lastmod>2020-10-11</lastmod>
+     <lastmod>2020-11-04</lastmod>
      <changefreq>daily</changefreq>
-    </url>
-    <url>
+    </url><url>
      <loc>https://docs.ethhub.io/built-on-ethereum/developer-tools/mintable/</loc>
-     <lastmod>2020-10-11</lastmod>
+     <lastmod>2020-11-04</lastmod>
      <changefreq>daily</changefreq>
-    </url>
-    <url>
+    </url><url>
      <loc>https://docs.ethhub.io/built-on-ethereum/developer-tools/oneclickdapp/</loc>
-     <lastmod>2020-10-11</lastmod>
+     <lastmod>2020-11-04</lastmod>
      <changefreq>daily</changefreq>
-    </url>
-    <url>
+    </url><url>
      <loc>https://docs.ethhub.io/built-on-ethereum/developer-tools/walletconnect/</loc>
-     <lastmod>2020-10-11</lastmod>
+     <lastmod>2020-11-04</lastmod>
      <changefreq>daily</changefreq>
-    </url>
-    <url>
+    </url><url>
      <loc>https://docs.ethhub.io/built-on-ethereum/developer-tools/blocknative/</loc>
-     <lastmod>2020-10-11</lastmod>
+     <lastmod>2020-11-04</lastmod>
      <changefreq>daily</changefreq>
-    </url>
-    <url>
+    </url><url>
      <loc>https://docs.ethhub.io/built-on-ethereum/developer-tools/biconomy/</loc>
-     <lastmod>2020-10-11</lastmod>
+     <lastmod>2020-11-04</lastmod>
      <changefreq>daily</changefreq>
-    </url>
-    <url>
+    </url><url>
      <loc>https://docs.ethhub.io/built-on-ethereum/identity/identity-on-ethereum/</loc>
-     <lastmod>2020-10-11</lastmod>
+     <lastmod>2020-11-04</lastmod>
      <changefreq>daily</changefreq>
-    </url>
-    <url>
+    </url><url>
      <loc>https://docs.ethhub.io/built-on-ethereum/identity/ERC-EIP/</loc>
-     <lastmod>2020-10-11</lastmod>
+     <lastmod>2020-11-04</lastmod>
      <changefreq>daily</changefreq>
-    </url>
-    <url>
+    </url><url>
      <loc>https://docs.ethhub.io/built-on-ethereum/identity/bloom/</loc>
-     <lastmod>2020-10-11</lastmod>
+     <lastmod>2020-11-04</lastmod>
      <changefreq>daily</changefreq>
-    </url>
-    <url>
+    </url><url>
      <loc>https://docs.ethhub.io/built-on-ethereum/identity/civic/</loc>
-     <lastmod>2020-10-11</lastmod>
+     <lastmod>2020-11-04</lastmod>
      <changefreq>daily</changefreq>
-    </url>
-    <url>
+    </url><url>
      <loc>https://docs.ethhub.io/built-on-ethereum/identity/ERC725/</loc>
-     <lastmod>2020-10-11</lastmod>
+     <lastmod>2020-11-04</lastmod>
      <changefreq>daily</changefreq>
-    </url>
-    <url>
+    </url><url>
      <loc>https://docs.ethhub.io/built-on-ethereum/identity/jolocom/</loc>
-     <lastmod>2020-10-11</lastmod>
+     <lastmod>2020-11-04</lastmod>
      <changefreq>daily</changefreq>
-    </url>
-    <url>
+    </url><url>
      <loc>https://docs.ethhub.io/built-on-ethereum/identity/selfkey/</loc>
-     <lastmod>2020-10-11</lastmod>
+     <lastmod>2020-11-04</lastmod>
      <changefreq>daily</changefreq>
-    </url>
-    <url>
+    </url><url>
      <loc>https://docs.ethhub.io/built-on-ethereum/identity/uport/</loc>
-     <lastmod>2020-10-11</lastmod>
+     <lastmod>2020-11-04</lastmod>
      <changefreq>daily</changefreq>
-    </url>
-    <url>
+    </url><url>
      <loc>https://docs.ethhub.io/built-on-ethereum/governance/aragon/</loc>
-     <lastmod>2020-10-11</lastmod>
+     <lastmod>2020-11-04</lastmod>
      <changefreq>daily</changefreq>
-    </url>
-    <url>
+    </url><url>
      <loc>https://docs.ethhub.io/built-on-ethereum/governance/colony/</loc>
-     <lastmod>2020-10-11</lastmod>
+     <lastmod>2020-11-04</lastmod>
      <changefreq>daily</changefreq>
-    </url>
-    <url>
+    </url><url>
      <loc>https://docs.ethhub.io/built-on-ethereum/governance/democracy-earth/</loc>
-     <lastmod>2020-10-11</lastmod>
+     <lastmod>2020-11-04</lastmod>
      <changefreq>daily</changefreq>
-    </url>
-    <url>
+    </url><url>
      <loc>https://docs.ethhub.io/built-on-ethereum/governance/govblocks/</loc>
-     <lastmod>2020-10-11</lastmod>
+     <lastmod>2020-11-04</lastmod>
      <changefreq>daily</changefreq>
-    </url>
-    <url>
+    </url><url>
      <loc>https://docs.ethhub.io/built-on-ethereum/infrastructure/quiknode/</loc>
-     <lastmod>2020-10-11</lastmod>
+     <lastmod>2020-11-04</lastmod>
      <changefreq>daily</changefreq>
-    </url>
-    <url>
+    </url><url>
      <loc>https://docs.ethhub.io/built-on-ethereum/infrastructure/chainstack/</loc>
-     <lastmod>2020-10-11</lastmod>
+     <lastmod>2020-11-04</lastmod>
      <changefreq>daily</changefreq>
-    </url>
-    <url>
+    </url><url>
      <loc>https://docs.ethhub.io/built-on-ethereum/infrastructure/0xcert/</loc>
-     <lastmod>2020-10-11</lastmod>
+     <lastmod>2020-11-04</lastmod>
      <changefreq>daily</changefreq>
-    </url>
-    <url>
+    </url><url>
      <loc>https://docs.ethhub.io/built-on-ethereum/infrastructure/aztec-protocol/</loc>
-     <lastmod>2020-10-11</lastmod>
+     <lastmod>2020-11-04</lastmod>
      <changefreq>daily</changefreq>
-    </url>
-    <url>
+    </url><url>
      <loc>https://docs.ethhub.io/built-on-ethereum/infrastructure/bountiesnetwork/</loc>
-     <lastmod>2020-10-11</lastmod>
+     <lastmod>2020-11-04</lastmod>
      <changefreq>daily</changefreq>
-    </url>
-    <url>
+    </url><url>
      <loc>https://docs.ethhub.io/built-on-ethereum/infrastructure/ethereum-alarm-clock/</loc>
-     <lastmod>2020-10-11</lastmod>
+     <lastmod>2020-11-04</lastmod>
      <changefreq>daily</changefreq>
-    </url>
-    <url>
+    </url><url>
      <loc>https://docs.ethhub.io/built-on-ethereum/infrastructure/ethereum-name-service/</loc>
-     <lastmod>2020-10-11</lastmod>
+     <lastmod>2020-11-04</lastmod>
      <changefreq>daily</changefreq>
-    </url>
-    <url>
+    </url><url>
      <loc>https://docs.ethhub.io/built-on-ethereum/infrastructure/ethlance/</loc>
-     <lastmod>2020-10-11</lastmod>
+     <lastmod>2020-11-04</lastmod>
      <changefreq>daily</changefreq>
-    </url>
-    <url>
+    </url><url>
      <loc>https://docs.ethhub.io/built-on-ethereum/infrastructure/foam-protocol/</loc>
-     <lastmod>2020-10-11</lastmod>
+     <lastmod>2020-11-04</lastmod>
      <changefreq>daily</changefreq>
-    </url>
-    <url>
+    </url><url>
      <loc>https://docs.ethhub.io/built-on-ethereum/infrastructure/golem/</loc>
-     <lastmod>2020-10-11</lastmod>
+     <lastmod>2020-11-04</lastmod>
      <changefreq>daily</changefreq>
-    </url>
-    <url>
+    </url><url>
      <loc>https://docs.ethhub.io/built-on-ethereum/infrastructure/poa-network/</loc>
-     <lastmod>2020-10-11</lastmod>
+     <lastmod>2020-11-04</lastmod>
      <changefreq>daily</changefreq>
-    </url>
-    <url>
+    </url><url>
      <loc>https://docs.ethhub.io/built-on-ethereum/infrastructure/streamr/</loc>
-     <lastmod>2020-10-11</lastmod>
+     <lastmod>2020-11-04</lastmod>
      <changefreq>daily</changefreq>
-    </url>
-    <url>
+    </url><url>
      <loc>https://docs.ethhub.io/built-on-ethereum/infrastructure/ethpm/</loc>
-     <lastmod>2020-10-11</lastmod>
+     <lastmod>2020-11-04</lastmod>
      <changefreq>daily</changefreq>
-    </url>
-    <url>
+    </url><url>
      <loc>https://docs.ethhub.io/built-on-ethereum/infrastructure/dfuse/</loc>
-     <lastmod>2020-10-11</lastmod>
+     <lastmod>2020-11-04</lastmod>
      <changefreq>daily</changefreq>
-    </url>
-    <url>
+    </url><url>
      <loc>https://docs.ethhub.io/built-on-ethereum/enterprise/enterprise/</loc>
-     <lastmod>2020-10-11</lastmod>
+     <lastmod>2020-11-04</lastmod>
      <changefreq>daily</changefreq>
-    </url>
-    <url>
+    </url><url>
      <loc>https://docs.ethhub.io/built-on-ethereum/enterprise/axa/</loc>
-     <lastmod>2020-10-11</lastmod>
+     <lastmod>2020-11-04</lastmod>
      <changefreq>daily</changefreq>
-    </url>
-    <url>
+    </url><url>
      <loc>https://docs.ethhub.io/built-on-ethereum/enterprise/axoni/</loc>
-     <lastmod>2020-10-11</lastmod>
+     <lastmod>2020-11-04</lastmod>
      <changefreq>daily</changefreq>
-    </url>
-    <url>
+    </url><url>
      <loc>https://docs.ethhub.io/built-on-ethereum/enterprise/chainstack/</loc>
-     <lastmod>2020-10-11</lastmod>
+     <lastmod>2020-11-04</lastmod>
      <changefreq>daily</changefreq>
-    </url>
-    <url>
+    </url><url>
      <loc>https://docs.ethhub.io/built-on-ethereum/enterprise/cloudflare/</loc>
-     <lastmod>2020-10-11</lastmod>
+     <lastmod>2020-11-04</lastmod>
      <changefreq>daily</changefreq>
-    </url>
-    <url>
+    </url><url>
      <loc>https://docs.ethhub.io/built-on-ethereum/enterprise/deloitte/</loc>
-     <lastmod>2020-10-11</lastmod>
+     <lastmod>2020-11-04</lastmod>
      <changefreq>daily</changefreq>
-    </url>
-    <url>
+    </url><url>
      <loc>https://docs.ethhub.io/built-on-ethereum/enterprise/dtcc/</loc>
-     <lastmod>2020-10-11</lastmod>
+     <lastmod>2020-11-04</lastmod>
      <changefreq>daily</changefreq>
-    </url>
-    <url>
+    </url><url>
      <loc>https://docs.ethhub.io/built-on-ethereum/enterprise/eea/</loc>
-     <lastmod>2020-10-11</lastmod>
+     <lastmod>2020-11-04</lastmod>
      <changefreq>daily</changefreq>
-    </url>
-    <url>
+    </url><url>
      <loc>https://docs.ethhub.io/built-on-ethereum/enterprise/ey/</loc>
-     <lastmod>2020-10-11</lastmod>
+     <lastmod>2020-11-04</lastmod>
      <changefreq>daily</changefreq>
-    </url>
-    <url>
+    </url><url>
      <loc>https://docs.ethhub.io/built-on-ethereum/enterprise/fnality/</loc>
-     <lastmod>2020-10-11</lastmod>
+     <lastmod>2020-11-04</lastmod>
      <changefreq>daily</changefreq>
-    </url>
-    <url>
+    </url><url>
      <loc>https://docs.ethhub.io/built-on-ethereum/enterprise/foxconn/</loc>
-     <lastmod>2020-10-11</lastmod>
+     <lastmod>2020-11-04</lastmod>
      <changefreq>daily</changefreq>
-    </url>
-    <url>
+    </url><url>
      <loc>https://docs.ethhub.io/built-on-ethereum/enterprise/google/</loc>
-     <lastmod>2020-10-11</lastmod>
+     <lastmod>2020-11-04</lastmod>
      <changefreq>daily</changefreq>
-    </url>
-    <url>
+    </url><url>
      <loc>https://docs.ethhub.io/built-on-ethereum/enterprise/hyperledger/</loc>
-     <lastmod>2020-10-11</lastmod>
+     <lastmod>2020-11-04</lastmod>
      <changefreq>daily</changefreq>
-    </url>
-    <url>
+    </url><url>
      <loc>https://docs.ethhub.io/built-on-ethereum/enterprise/jpm/</loc>
-     <lastmod>2020-10-11</lastmod>
+     <lastmod>2020-11-04</lastmod>
      <changefreq>daily</changefreq>
-    </url>
-    <url>
+    </url><url>
      <loc>https://docs.ethhub.io/built-on-ethereum/enterprise/kaleido/</loc>
-     <lastmod>2020-10-11</lastmod>
+     <lastmod>2020-11-04</lastmod>
      <changefreq>daily</changefreq>
-    </url>
-    <url>
+    </url><url>
      <loc>https://docs.ethhub.io/built-on-ethereum/enterprise/metlife/</loc>
-     <lastmod>2020-10-11</lastmod>
+     <lastmod>2020-11-04</lastmod>
      <changefreq>daily</changefreq>
-    </url>
-    <url>
+    </url><url>
      <loc>https://docs.ethhub.io/built-on-ethereum/enterprise/microsoft/</loc>
-     <lastmod>2020-10-11</lastmod>
+     <lastmod>2020-11-04</lastmod>
      <changefreq>daily</changefreq>
-    </url>
-    <url>
+    </url><url>
      <loc>https://docs.ethhub.io/built-on-ethereum/enterprise/pegasys/</loc>
-     <lastmod>2020-10-11</lastmod>
+     <lastmod>2020-11-04</lastmod>
      <changefreq>daily</changefreq>
-    </url>
-    <url>
+    </url><url>
      <loc>https://docs.ethhub.io/built-on-ethereum/enterprise/unicef/</loc>
-     <lastmod>2020-10-11</lastmod>
+     <lastmod>2020-11-04</lastmod>
      <changefreq>daily</changefreq>
-    </url>
-    <url>
+    </url><url>
      <loc>https://docs.ethhub.io/built-on-ethereum/enterprise/projects/</loc>
-     <lastmod>2020-10-11</lastmod>
+     <lastmod>2020-11-04</lastmod>
      <changefreq>daily</changefreq>
-    </url>
-    <url>
+    </url><url>
      <loc>https://docs.ethhub.io/built-on-ethereum/oracles/what-are-oracles/</loc>
-     <lastmod>2020-10-11</lastmod>
+     <lastmod>2020-11-04</lastmod>
      <changefreq>daily</changefreq>
-    </url>
-    <url>
+    </url><url>
      <loc>https://docs.ethhub.io/built-on-ethereum/oracles/chainlink/</loc>
-     <lastmod>2020-10-11</lastmod>
+     <lastmod>2020-11-04</lastmod>
      <changefreq>daily</changefreq>
-    </url>
-    <url>
+    </url><url>
      <loc>https://docs.ethhub.io/built-on-ethereum/oracles/tellor/</loc>
-     <lastmod>2020-10-11</lastmod>
+     <lastmod>2020-11-04</lastmod>
      <changefreq>daily</changefreq>
-    </url>
-    <url>
+    </url><url>
      <loc>https://docs.ethhub.io/built-on-ethereum/tcrs/what-are-tcrs/</loc>
-     <lastmod>2020-10-11</lastmod>
+     <lastmod>2020-11-04</lastmod>
      <changefreq>daily</changefreq>
-    </url>
-    <url>
+    </url><url>
      <loc>https://docs.ethhub.io/built-on-ethereum/tcrs/types-of-tcrs/</loc>
-     <lastmod>2020-10-11</lastmod>
+     <lastmod>2020-11-04</lastmod>
      <changefreq>daily</changefreq>
-    </url>
-    <url>
+    </url><url>
      <loc>https://docs.ethhub.io/built-on-ethereum/erc-token-standards/what-are-erc-tokens/</loc>
-     <lastmod>2020-10-11</lastmod>
+     <lastmod>2020-11-04</lastmod>
      <changefreq>daily</changefreq>
-    </url>
-    <url>
+    </url><url>
      <loc>https://docs.ethhub.io/built-on-ethereum/erc-token-standards/erc20/</loc>
-     <lastmod>2020-10-11</lastmod>
+     <lastmod>2020-11-04</lastmod>
      <changefreq>daily</changefreq>
-    </url>
-    <url>
+    </url><url>
      <loc>https://docs.ethhub.io/built-on-ethereum/erc-token-standards/erc621/</loc>
-     <lastmod>2020-10-11</lastmod>
+     <lastmod>2020-11-04</lastmod>
      <changefreq>daily</changefreq>
-    </url>
-    <url>
+    </url><url>
      <loc>https://docs.ethhub.io/built-on-ethereum/erc-token-standards/erc721/</loc>
-     <lastmod>2020-10-11</lastmod>
+     <lastmod>2020-11-04</lastmod>
      <changefreq>daily</changefreq>
-    </url>
-    <url>
+    </url><url>
      <loc>https://docs.ethhub.io/built-on-ethereum/erc-token-standards/erc721x/</loc>
-     <lastmod>2020-10-11</lastmod>
+     <lastmod>2020-11-04</lastmod>
      <changefreq>daily</changefreq>
-    </url>
-    <url>
+    </url><url>
      <loc>https://docs.ethhub.io/built-on-ethereum/erc-token-standards/erc777/</loc>
-     <lastmod>2020-10-11</lastmod>
+     <lastmod>2020-11-04</lastmod>
      <changefreq>daily</changefreq>
-    </url>
-    <url>
+    </url><url>
      <loc>https://docs.ethhub.io/built-on-ethereum/erc-token-standards/erc884/</loc>
-     <lastmod>2020-10-11</lastmod>
+     <lastmod>2020-11-04</lastmod>
      <changefreq>daily</changefreq>
-    </url>
-    <url>
+    </url><url>
      <loc>https://docs.ethhub.io/built-on-ethereum/erc-token-standards/erc918/</loc>
-     <lastmod>2020-10-11</lastmod>
+     <lastmod>2020-11-04</lastmod>
      <changefreq>daily</changefreq>
-    </url>
-    <url>
+    </url><url>
      <loc>https://docs.ethhub.io/built-on-ethereum/erc-token-standards/erc1155/</loc>
-     <lastmod>2020-10-11</lastmod>
+     <lastmod>2020-11-04</lastmod>
      <changefreq>daily</changefreq>
-    </url>
-    <url>
+    </url><url>
      <loc>https://docs.ethhub.io/using-ethereum/ethereum-new-user-guide/</loc>
-     <lastmod>2020-10-11</lastmod>
+     <lastmod>2020-11-04</lastmod>
      <changefreq>daily</changefreq>
-    </url>
-    <url>
+    </url><url>
      <loc>https://docs.ethhub.io/guides/ethereum-high-yield-savings-account/</loc>
-     <lastmod>2020-10-11</lastmod>
+     <lastmod>2020-11-04</lastmod>
      <changefreq>daily</changefreq>
-    </url>
-    <url>
+    </url><url>
      <loc>https://docs.ethhub.io/guides/a-straightforward-guide-erc20-tokens/</loc>
-     <lastmod>2020-10-11</lastmod>
+     <lastmod>2020-11-04</lastmod>
      <changefreq>daily</changefreq>
-    </url>
-    <url>
+    </url><url>
      <loc>https://docs.ethhub.io/guides/deciphering-a-transaction-on-etherscan/</loc>
-     <lastmod>2020-10-11</lastmod>
+     <lastmod>2020-11-04</lastmod>
      <changefreq>daily</changefreq>
-    </url>
-    <url>
+    </url><url>
      <loc>https://docs.ethhub.io/guides/graphical-guide-for-understanding-uniswap/</loc>
-     <lastmod>2020-10-11</lastmod>
+     <lastmod>2020-11-04</lastmod>
      <changefreq>daily</changefreq>
-    </url>
-    <url>
+    </url><url>
      <loc>https://docs.ethhub.io/guides/graphical-guide-to-compound/</loc>
-     <lastmod>2020-10-11</lastmod>
+     <lastmod>2020-11-04</lastmod>
      <changefreq>daily</changefreq>
-    </url>
-    <url>
+    </url><url>
      <loc>https://docs.ethhub.io/guides/guide-to-ens/</loc>
-     <lastmod>2020-10-11</lastmod>
+     <lastmod>2020-11-04</lastmod>
      <changefreq>daily</changefreq>
-    </url>
-    <url>
+    </url><url>
      <loc>https://docs.ethhub.io/questions-about-ethereum/is-ethereum-more-expensive-to-use-as-price-rises/</loc>
-     <lastmod>2020-10-11</lastmod>
+     <lastmod>2020-11-04</lastmod>
      <changefreq>daily</changefreq>
-    </url>
-    <url>
+    </url><url>
      <loc>https://docs.ethhub.io/questions-about-ethereum/why-do-you-have-to-pay-to-use-ethereum/</loc>
-     <lastmod>2020-10-11</lastmod>
+     <lastmod>2020-11-04</lastmod>
      <changefreq>daily</changefreq>
-    </url>
-    <url>
+    </url><url>
      <loc>https://docs.ethhub.io/questions-about-ethereum/is-ether-a-security/</loc>
-     <lastmod>2020-10-11</lastmod>
+     <lastmod>2020-11-04</lastmod>
      <changefreq>daily</changefreq>
-    </url>
-    <url>
+    </url><url>
      <loc>https://docs.ethhub.io/questions-about-ethereum/is-ethereum-over-1tb-in-size/</loc>
-     <lastmod>2020-10-11</lastmod>
+     <lastmod>2020-11-04</lastmod>
      <changefreq>daily</changefreq>
-    </url>
-    <url>
+    </url><url>
      <loc>https://docs.ethhub.io/questions-about-ethereum/is-ethereum-immutable/</loc>
-     <lastmod>2020-10-11</lastmod>
+     <lastmod>2020-11-04</lastmod>
      <changefreq>daily</changefreq>
-    </url>
-    <url>
+    </url><url>
      <loc>https://docs.ethhub.io/questions-about-ethereum/is-ether-needed-for-transaction-fees/</loc>
-     <lastmod>2020-10-11</lastmod>
+     <lastmod>2020-11-04</lastmod>
      <changefreq>daily</changefreq>
-    </url>
-    <url>
+    </url><url>
      <loc>https://docs.ethhub.io/questions-about-ethereum/if-ethereum-is-open-source-why-cant-it-be-copied/</loc>
-     <lastmod>2020-10-11</lastmod>
+     <lastmod>2020-11-04</lastmod>
      <changefreq>daily</changefreq>
-    </url>
-    <url>
+    </url><url>
      <loc>https://docs.ethhub.io/questions-about-ethereum/what-is-the-difficulty-bomb/</loc>
-     <lastmod>2020-10-11</lastmod>
+     <lastmod>2020-11-04</lastmod>
      <changefreq>daily</changefreq>
-    </url>
-    <url>
+    </url><url>
      <loc>https://docs.ethhub.io/other/ethereum-branding-kit/</loc>
-     <lastmod>2020-10-11</lastmod>
+     <lastmod>2020-11-04</lastmod>
      <changefreq>daily</changefreq>
-    </url>
-    <url>
+    </url><url>
      <loc>https://docs.ethhub.io/other/ethereum-2.0-ama/</loc>
-     <lastmod>2020-10-11</lastmod>
+     <lastmod>2020-11-04</lastmod>
      <changefreq>daily</changefreq>
-    </url>
-    <url>
+    </url><url>
      <loc>https://docs.ethhub.io/other/ethereum-blog-archive/</loc>
-     <lastmod>2020-10-11</lastmod>
+     <lastmod>2020-11-04</lastmod>
      <changefreq>daily</changefreq>
-    </url>
-    <url>
+    </url><url>
      <loc>https://docs.ethhub.io/other/EF-COI-disclosures/</loc>
-     <lastmod>2020-10-11</lastmod>
+     <lastmod>2020-11-04</lastmod>
      <changefreq>daily</changefreq>
-    </url>
-    <url>
+    </url><url>
      <loc>https://docs.ethhub.io/other/grants-process/</loc>
-     <lastmod>2020-10-11</lastmod>
+     <lastmod>2020-11-04</lastmod>
      <changefreq>daily</changefreq>
-    </url>
-    <url>
+    </url><url>
      <loc>https://docs.ethhub.io/other/internationalization/</loc>
-     <lastmod>2020-10-11</lastmod>
+     <lastmod>2020-11-04</lastmod>
      <changefreq>daily</changefreq>
-    </url>
-    <url>
+    </url><url>
      <loc>https://docs.ethhub.io/other/funds/0xeap/</loc>
-     <lastmod>2020-10-11</lastmod>
+     <lastmod>2020-11-04</lastmod>
      <changefreq>daily</changefreq>
-    </url>
-    <url>
+    </url><url>
      <loc>https://docs.ethhub.io/other/funds/aragon-nest/</loc>
-     <lastmod>2020-10-11</lastmod>
+     <lastmod>2020-11-04</lastmod>
      <changefreq>daily</changefreq>
-    </url>
-    <url>
+    </url><url>
      <loc>https://docs.ethhub.io/other/funds/consensys-labs/</loc>
-     <lastmod>2020-10-11</lastmod>
+     <lastmod>2020-11-04</lastmod>
      <changefreq>daily</changefreq>
-    </url>
-    <url>
+    </url><url>
      <loc>https://docs.ethhub.io/other/funds/ecf/</loc>
-     <lastmod>2020-10-11</lastmod>
+     <lastmod>2020-11-04</lastmod>
      <changefreq>daily</changefreq>
-    </url>
-    <url>
+    </url><url>
      <loc>https://docs.ethhub.io/other/funds/eth-prize/</loc>
-     <lastmod>2020-10-11</lastmod>
+     <lastmod>2020-11-04</lastmod>
      <changefreq>daily</changefreq>
-    </url>
-    <url>
+    </url><url>
      <loc>https://docs.ethhub.io/other/funds/geco/</loc>
-     <lastmod>2020-10-11</lastmod>
+     <lastmod>2020-11-04</lastmod>
      <changefreq>daily</changefreq>
-    </url>
-    <url>
+    </url><url>
      <loc>https://docs.ethhub.io/other/funds/gitcoin/</loc>
-     <lastmod>2020-10-11</lastmod>
+     <lastmod>2020-11-04</lastmod>
      <changefreq>daily</changefreq>
-    </url>
-    <url>
+    </url><url>
      <loc>https://docs.ethhub.io/other/funds/stable-fund/</loc>
-     <lastmod>2020-10-11</lastmod>
+     <lastmod>2020-11-04</lastmod>
      <changefreq>daily</changefreq>
-    </url>
-    <url>
+    </url><url>
      <loc>https://docs.ethhub.io/other/funds/status-incubate/</loc>
-     <lastmod>2020-10-11</lastmod>
+     <lastmod>2020-11-04</lastmod>
      <changefreq>daily</changefreq>
-    </url>
-    <url>
+    </url><url>
      <loc>https://docs.ethhub.io/glossary/crypto-acronyms/</loc>
-     <lastmod>2020-10-11</lastmod>
+     <lastmod>2020-11-04</lastmod>
      <changefreq>daily</changefreq>
-    </url>
-    <url>
+    </url><url>
      <loc>https://docs.ethhub.io/glossary/ens-domains/</loc>
-     <lastmod>2020-10-11</lastmod>
+     <lastmod>2020-11-04</lastmod>
      <changefreq>daily</changefreq>
-    </url>
-    <url>
+    </url><url>
      <loc>https://docs.ethhub.io/glossary/sideways-dictionary/what-is-the-sideways-dictionary/</loc>
-     <lastmod>2020-10-11</lastmod>
+     <lastmod>2020-11-04</lastmod>
      <changefreq>daily</changefreq>
-    </url>
-    <url>
+    </url><url>
      <loc>https://docs.ethhub.io/glossary/sideways-dictionary/2FA/</loc>
-     <lastmod>2020-10-11</lastmod>
+     <lastmod>2020-11-04</lastmod>
      <changefreq>daily</changefreq>
-    </url>
-    <url>
+    </url><url>
      <loc>https://docs.ethhub.io/glossary/sideways-dictionary/blockchain/</loc>
-     <lastmod>2020-10-11</lastmod>
+     <lastmod>2020-11-04</lastmod>
      <changefreq>daily</changefreq>
-    </url>
-    <url>
+    </url><url>
      <loc>https://docs.ethhub.io/glossary/sideways-dictionary/cold-storage/</loc>
-     <lastmod>2020-10-11</lastmod>
+     <lastmod>2020-11-04</lastmod>
      <changefreq>daily</changefreq>
-    </url>
-    <url>
+    </url><url>
      <loc>https://docs.ethhub.io/glossary/sideways-dictionary/cryptojacking/</loc>
-     <lastmod>2020-10-11</lastmod>
+     <lastmod>2020-11-04</lastmod>
      <changefreq>daily</changefreq>
-    </url>
-    <url>
+    </url><url>
      <loc>https://docs.ethhub.io/glossary/sideways-dictionary/ddos/</loc>
-     <lastmod>2020-10-11</lastmod>
+     <lastmod>2020-11-04</lastmod>
      <changefreq>daily</changefreq>
-    </url>
-    <url>
+    </url><url>
      <loc>https://docs.ethhub.io/glossary/sideways-dictionary/difficulty/</loc>
-     <lastmod>2020-10-11</lastmod>
+     <lastmod>2020-11-04</lastmod>
      <changefreq>daily</changefreq>
-    </url>
-    <url>
+    </url><url>
      <loc>https://docs.ethhub.io/glossary/sideways-dictionary/double-spend/</loc>
-     <lastmod>2020-10-11</lastmod>
+     <lastmod>2020-11-04</lastmod>
      <changefreq>daily</changefreq>
-    </url>
-    <url>
+    </url><url>
      <loc>https://docs.ethhub.io/glossary/sideways-dictionary/forks/</loc>
-     <lastmod>2020-10-11</lastmod>
+     <lastmod>2020-11-04</lastmod>
      <changefreq>daily</changefreq>
-    </url>
-    <url>
+    </url><url>
      <loc>https://docs.ethhub.io/glossary/sideways-dictionary/multi-sig/</loc>
-     <lastmod>2020-10-11</lastmod>
+     <lastmod>2020-11-04</lastmod>
      <changefreq>daily</changefreq>
-    </url>
-    <url>
+    </url><url>
      <loc>https://docs.ethhub.io/glossary/sideways-dictionary/smart-contract/</loc>
-     <lastmod>2020-10-11</lastmod>
+     <lastmod>2020-11-04</lastmod>
      <changefreq>daily</changefreq>
-    </url>
-    <url>
+    </url><url>
      <loc>https://docs.ethhub.io/glossary/sideways-dictionary/state-rent/</loc>
-     <lastmod>2020-10-11</lastmod>
+     <lastmod>2020-11-04</lastmod>
      <changefreq>daily</changefreq>
-    </url>
-    <url>
+    </url><url>
      <loc>https://docs.ethhub.io/glossary/sideways-dictionary/stateless-clients/</loc>
-     <lastmod>2020-10-11</lastmod>
+     <lastmod>2020-11-04</lastmod>
      <changefreq>daily</changefreq>
-    </url>
-    <url>
+    </url><url>
      <loc>https://docs.ethhub.io/glossary/sideways-dictionary/uncle-blocks/</loc>
-     <lastmod>2020-10-11</lastmod>
+     <lastmod>2020-11-04</lastmod>
      <changefreq>daily</changefreq>
-    </url>
-    <url>
+    </url><url>
      <loc>https://docs.ethhub.io/glossary/sideways-dictionary/wei/</loc>
-     <lastmod>2020-10-11</lastmod>
+     <lastmod>2020-11-04</lastmod>
      <changefreq>daily</changefreq>
-    </url>
-    <url>
+    </url><url>
      <loc>https://docs.ethhub.io/languages/translations/</loc>
-     <lastmod>2020-10-11</lastmod>
+     <lastmod>2020-11-04</lastmod>
      <changefreq>daily</changefreq>
     </url>
 </urlset>
