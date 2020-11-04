@@ -57,6 +57,7 @@ nav:
   - 'Resources': 'ethereum-basics/resources.md'
 - Ethereum Roadmap:
   - Ethereum 2.0:
+      - 'Deposit Contract': 'ethereum-roadmap/ethereum-2.0/deposit-contract.md'
       - 'Ethereum 2.0 Phases': 'ethereum-roadmap/ethereum-2.0/eth-2.0-phases.md'
       - 'Proof of Stake': 'ethereum-roadmap/ethereum-2.0/proof-of-stake.md'
       - 'Sharding': 'ethereum-roadmap/ethereum-2.0/sharding.md'
