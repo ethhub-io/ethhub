@@ -29,3 +29,4 @@ The scripting language used by Ethereum is Turing-complete, essentially meaning 
 * [Bitfalls - What is Ethereum and how does it compare to something like Bitcoin?](https://bitfalls.com/2017/09/19/what-ethereum-compare-to-bitcoin/)
 * [Wikipedia - Ethereum](https://en.wikipedia.org/wiki/Ethereum)
 * [The Ethereum Whitepaper](https://github.com/ethereum/wiki/wiki/White-Paper)
+* [What is Ethereum? An absolute beginner’s guide. (Animated comic.)](https://www.mewwallet.com/what-is-ethereum/)
