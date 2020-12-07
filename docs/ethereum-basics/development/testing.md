@@ -61,7 +61,7 @@ You might be tempted to set `gasLimit` to something like `1000000000000000`. Thi
 
 ## Debugging
 
-Testing is important, but you will never ascertain as much information as to the execution of a contract as by using the official debugger tooling, the Remix IDE \([demo](https://remix.ethereum.org/), [docs](https://remix.readthedocs.io/en/latest/)\).
+Testing is important, but you will never ascertain as much information as to the execution of a contract as by using the official debugger tooling, the Remix IDE \([demo](https://remix.ethereum.org/), [docs](https://remix-ide.readthedocs.io/en/latest/)\).
 
 Remix is a bit of a hack piece put together, but it works very well once you're using it correctly. It can run Solidity in a JavaScript VM, an injected Web3 provider \(e.g. Metamask\) or connect to your local Ganache / other setup on `http://localhost:8545`.
 

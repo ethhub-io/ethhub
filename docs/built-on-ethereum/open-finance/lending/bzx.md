@@ -12,14 +12,14 @@ To provide fair pricing of assets, bZx uses oracle providers to send price data 
 
 ## Products built on bZx protocol
 
-- [Fulcrum](https://docs.ethhub.io/built-on-ethereum/open-finance/fulcrum) - margin trading platform
-- [Torque](https://docs.ethhub.io/built-on-ethereum/open-finance/torque) - crypto borrowing platform
+- [Fulcrum](https://docs.ethhub.io/built-on-ethereum/open-finance/lending/fulcrum) - margin trading platform
+- [Torque](https://docs.ethhub.io/built-on-ethereum/open-finance/lending/torque) - crypto borrowing platform
 
 ## Resources
 
 * [Website](https://bzx.network)
 * [Protocol documentation](https://docs.bzx.network/)
 * [DeFi Pulse](https://defipulse.com/bzx)
-* [Twitter](https://twitter.com/b0xNet)
+* [Twitter](https://twitter.com/bZxHQ)
 * [Telegram](https://t.me/b0xNet)
 * [Discord](https://discord.gg/ZxpKrs)

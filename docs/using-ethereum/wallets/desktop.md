@@ -13,9 +13,9 @@ Desktop wallets are downloadable apps capable of operating on Windows, MacOS, or
 ## Wallets
 
 * [MyCrypto](https://download.mycrypto.com) - Open-source, client-side toolfor generating Ethereum wallets, handling ERC-20 tokens, and interacting with the blockchain easily.
-* [Gnosis Safe Desktop](https://github.com/gnosis/safe-react/releases) - Desktop app for accessing Gnosis Safe Multisig
+* [Gnosis Safe Desktop](https://github.com/gnosis/safe-react/releases) - Desktop app for accessing Gnosis Safe Multisig.
 * [Atomic Wallet](https://atomicwallet.io) - Desktop and mobile wallet that allows you to buy, manage and exchange Bitcoin, Ethereum, XRP and over 300 coins and tokens in one secure interface.
-* [Eidoo](https://eidoo.io/) - Multicurrency and Multiplatform \(Windows, Mac, Linux, Andorid, iOs\) wallet with a DEX and a DeFI gateway
+* [Eidoo](https://eidoo.io/) - Multicurrency and Multiplatform \(Windows, Mac, Linux, Andorid, iOs\) wallet with a DEX and a DeFI gateway.
 * [Exodus](https://exodus.io) - Closed-source wallet that allows for multi-currency interaction/transacting \(requires you to be online to generate transactions\).
 * [Tokenary](https://tokenary.io/masos) - a macOS Ethereum and ERC-20 tokens wallet and Safari extension that lets you store your assets and interact with DApps.
 

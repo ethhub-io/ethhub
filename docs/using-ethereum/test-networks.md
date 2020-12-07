@@ -15,8 +15,6 @@ The Ropsten test network is a Proof-of-Work testnet for Ethereum. To acquire ETH
 ### Resources
 
 * [Block Explorer](https://ropsten.etherscan.io/)
-* [Ethstats for Ropsten](https://ropsten-stats.parity.io/)
-* [Monitor](https://ropsten-stats.parity.io/)
 
 ## Kovan
 
@@ -29,7 +27,6 @@ The Kovan test network is a Proof-of-Authority testnet for Ethereum, originally 
 * [Website](https://kovan-testnet.github.io/website/)  
 * [Block Explorer](https://kovan.etherscan.io/)  
 * [Faucet](https://faucet.kovan.network/)
-* [Monitor](https://kovan-stats.parity.io/)
 
 ## Rinkeby
 

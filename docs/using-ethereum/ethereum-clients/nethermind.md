@@ -12,13 +12,13 @@ Ethereum Client built on .NET Core, perfect for enterprise-grade systems and ben
 
 ## Requirements
 
-[Hardware Requirements](https://nethermind.readthedocs.io/en/latest/hardware_requirements.html)
+[Hardware Requirements](https://docs.nethermind.io/nethermind/first-steps-with-nethermind/hardware-requirements)
 
 
 ## Setup
 
 * [Download Nethermind from the official page](http://downloads.nethermind.io/)
-* [Follow the instructions](https://nethermind.readthedocs.io/en/latest/start.html)
+* [Follow the instructions](https://docs.nethermind.io/nethermind/first-steps-with-nethermind/getting-started)
 
 ## Running
 
@@ -27,7 +27,7 @@ There are two methods to run the Nethermind client.
 * Nethermind.Launcher
 * Nethermind.Runner
 
-Nethermind ships with a set of default configuration files located in the configs folder. These config files are used by Nethermind.Launcher. You can customize them following the documentation [here](https://nethermind.readthedocs.io/en/latest/configuration.html). It is recommended to not overwrite the default configs as they will be replaced when upgrading. Instead, copy the one that closest meets your needs and save it to a known location.
+Nethermind ships with a set of default configuration files located in the configs folder. These config files are used by Nethermind.Launcher. You can customize them following the documentation [here](https://docs.nethermind.io/nethermind/ethereum-client/configuration). It is recommended to not overwrite the default configs as they will be replaced when upgrading. Instead, copy the one that closest meets your needs and save it to a known location.
 
 ### Nethermind.Launcher
 Nethermind.Launcher is an interactive prompt that allows you to choose the network which then calls Nethermind.Runner with the appropriate config file. This is the quickest way to get up and running.
@@ -41,9 +41,9 @@ By default Nethermind will use the binary's location as its home and will create
 
 ## Using
 
-Nethermind.Launcher can be used as a [CLI](https://nethermind.readthedocs.io/en/latest/cli.html) tool similar to that of the geth cli. If you have enabled WebSockets and/or [JSON RPC](https://nethermind.readthedocs.io/en/latest/jsonrpc.html) then most RPC endpoints have been implimented and can be accessed in the same manner as geth.
+Nethermind.Launcher can be used as a [CLI](https://docs.nethermind.io/nethermind/nethermind-utilities/cli) tool similar to that of the geth cli. If you have enabled WebSockets and/or [JSON RPC](https://docs.nethermind.io/nethermind/ethereum-client/json-rpc) then most RPC endpoints have been implimented and can be accessed in the same manner as geth.
 
 ## Resources
 * [Website](https://nethermind.io/client)
 * [Github](https://github.com/NethermindEth/nethermind)
-* [Read The Docs](https://nethermind.readthedocs.io/en/latest/index.html)
+* [Docs](https://docs.nethermind.io/nethermind/)

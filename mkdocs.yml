@@ -68,7 +68,7 @@ nav:
       - 'ETH 2.0 Gitcoin Overview Playlist': 'ethereum-roadmap/ethereum-2.0/overview-playlist.md'
       - Ethereum 2.0 Teams:
         - 'Teams Building Eth 2.0': 'ethereum-roadmap/ethereum-2.0/eth2.0-teams/teams-building-eth2.0.md'
-        - 'Artemis': 'ethereum-roadmap/ethereum-2.0/eth2.0-teams/artemis.md'
+        - 'Teku': 'ethereum-roadmap/ethereum-2.0/eth2.0-teams/teku.md'
         - 'Harmony': 'ethereum-roadmap/ethereum-2.0/eth2.0-teams/harmony.md'
         - 'Lighthouse': 'ethereum-roadmap/ethereum-2.0/eth2.0-teams/lighthouse.md'
         - 'Lodestar': 'ethereum-roadmap/ethereum-2.0/eth2.0-teams/lodestar.md'
@@ -126,16 +126,13 @@ nav:
       - 'Compound': 'built-on-ethereum/open-finance/lending/compound.md'
       - 'Dharma': 'built-on-ethereum/open-finance/lending/dharma.md'
       - 'dydx': 'built-on-ethereum/open-finance/lending/dydx.md'
-      - 'Expo': 'built-on-ethereum/open-finance/lending/expo.md'
       - 'Fulcrum': 'built-on-ethereum/open-finance/lending/fulcrum.md'
       - 'Maker': 'built-on-ethereum/open-finance/lending/maker.md'
       - 'Torque': 'built-on-ethereum/open-finance/lending/torque.md'
-      - 'Nuo Network': 'built-on-ethereum/open-finance/lending/NuoNetwork.md'
     - Investing:
       - 'Bskt': 'built-on-ethereum/open-finance/investing/bskt.md'
       - 'Digix': 'built-on-ethereum/open-finance/investing/digix.md'
       - 'Set Protocol': 'built-on-ethereum/open-finance/investing/set-protocol.md'
-      - 'Settle': 'built-on-ethereum/open-finance/investing/settle.md'
       - 'WBTC': 'built-on-ethereum/open-finance/investing/wbtc.md'
     - Payments:
       - 'Burner Wallet': 'built-on-ethereum/open-finance/payments/burner-wallet.md'

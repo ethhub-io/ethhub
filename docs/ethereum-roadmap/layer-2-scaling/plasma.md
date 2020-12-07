@@ -102,7 +102,7 @@ Let's compare pros, cons and use cases for each model now
 ## Resources
 
 * [Plasma Group](https://plasma.group/)
-* [What is Ethereum Plasma](https://www.binance.vision/blockchain/what-is-ethereum-plasma)
+* [What is Ethereum Plasma](https://academy.binance.com/en/articles/what-is-ethereum-plasma)
 * [The State of Plasma](https://media.consensys.net/the-state-of-plasma-1-6b48c1e4b295)
 * [How Plasma Work](https://medium.com/applicature/what-is-plasma-and-how-does-it-work-15641c95825f)
 * [Learn Plasma](https://www.learnplasma.org/en/learn/framework.html)

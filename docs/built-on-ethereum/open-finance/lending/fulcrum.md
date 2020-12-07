@@ -17,6 +17,6 @@ DAI, ETH, WBTC, LINK, ZRX, REP and KNC tokens could be used as collateral.
 * [Website](https://fulcrum.trade)
 * [DeFi Pulse](https://defipulse.com/bzx)
 * [Introducing Fulcrum: Tokenized Margin Made Dead Simple](https://medium.com/bzxnetwork/introducing-fulcrum-tokenized-margin-made-dead-simple-e65ccc82393f)
-* [Twitter](https://twitter.com/b0xNet)
+* [Twitter](https://twitter.com/bZxHQ)
 * [Telegram](https://t.me/b0xNet)
 * [Discord](https://discord.gg/ZxpKrs)

@@ -21,19 +21,19 @@ Solidity - Most commonly used language.
 Vyper - Newer language focused on security and auditability.
 
 - [Docs](https://vyper.readthedocs.io/en/latest/)
-- [GitHub](https://github.com/ethereum/vyper)
+- [GitHub](https://github.com/vyperlang/vyper)
 
 ### Clients
 
 go-ethereum - Official Go Implementation
 
-- [Docs](https://github.com/ethereum/go-ethereum/wiki)
+- [Docs](https://geth.ethereum.org/docs/)
 - [GitHub](https://github.com/ethereum/go-ethereum)
 
-Parity Ethereum - Rust Implementation
+OpenEthereum - Rust Implementation
 
-- [Docs](https://wiki.parity.io/Setup)
-- [GitHub](https://github.com/paritytech/parity-ethereum)
+- [Docs](https://openethereum.github.io/)
+- [GitHub](https://github.com/openethereum/openethereum)
 
 ## Development Chats/Forums
 
@@ -51,6 +51,6 @@ Parity Ethereum - Rust Implementation
 - [Awesome Solidity List](https://github.com/bkrem/awesome-solidity)
 - [Awesome Ethereum Security List](https://github.com/trailofbits/awesome-ethereum-security)
 - [Best Practices by Consensys](https://consensys.github.io/smart-contract-best-practices/)
-- [Awesome Ethereum Virtual Machine List](<https://github.com/ethereum/wiki/wiki/Ethereum-Virtual-Machine-(EVM)-Awesome-List>)
+- [Awesome Ethereum Virtual Machine List](https://github.com/pirapira/awesome-ethereum-virtual-machine)
 - [Ethereum Development with Golang](https://goethereumbook.org/en/)
 - [More resources can be found here](https://docs.ethhub.io/ethereum-basics/resources#ethereum-development)

@@ -19,7 +19,7 @@ Layer 2 sidechains are distributed ledgers which operate independently and in a 
 
 Sidechains are responsible for their own security and consensus processes. This allows for innovation and optimization, with the opportunity for increased transaction throughput and higher speed/lower cost transactions for users. Sidechains use a variety of validator selection methods to achieve these goals while maintaining security. Smaller validator sets are more susceptible to collusion-based attacks, so strong incentives must be in place to encourage honest validation and discourage malicious behavior. Examples include:
 
-*Proof-of-Authority*: Validators (network nodes responsible for signing transactions and maintaing a consistent ledger) are pre-selected for the protocol. An example is the[POA Network](https://poa.network). POA uses an [Authority Round](https://openethereum.github.io/wiki/Aura) consensus where selected validators, in this case US Notary Publics with public reputations at stake, take turns signing transactions and sealing blocks. The POA model improves scalability (5 second block times, low transaction fees) while sacrificing a degree of decentralization (validators are pre-selected and the protocol has a limited validator set).
+*Proof-of-Authority*: Validators (network nodes responsible for signing transactions and maintaing a consistent ledger) are pre-selected for the protocol. An example is the [POA Network](https://poa.network). POA uses an Authority Round consensus where selected validators, in this case US Notary Publics with public reputations at stake, take turns signing transactions and sealing blocks. The POA model improves scalability (5 second block times, low transaction fees) while sacrificing a degree of decentralization (validators are pre-selected and the protocol has a limited validator set).
 
 *Proof-of-Stake*: A set of validators are selected based on the staking amount they commit to the protocol. Nodes which have placed more stake are more likely to be selected as validators. With delegated proof-of-stake, users can add additional staking amounts to a node, serving to increase that node's likelihood of becoming a validator. An example is the [xDai chain](https://xdaichain.com), where nodes who commit a higher amount of STAKE (the xDai governance token, staked by both validator candidates and delegators) into the protocol have a higher probability of selection to a dynamic validator set. Once selected, staking incentives promote honest validation. 
 
@@ -44,7 +44,7 @@ The [TokenBridge](https://docs.tokenbridge.net/) application exemplifies this ar
 * [Matic](https://matic.network/) 
 
 
-_Note on Private Sidechains:  Sidechains may also be deployed in an enterprise capacity designed for private smart contracts and internal transactions. [Quorum](https://www.goquorum.com/) is an example of a private sidechain run by permissioned validators within JP Morgan._
+_Note on Private Sidechains:  Sidechains may also be deployed in an enterprise capacity designed for private smart contracts and internal transactions.
 
 
 ## Resources

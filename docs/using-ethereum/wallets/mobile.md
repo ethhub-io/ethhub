@@ -18,7 +18,6 @@ Phone and other mobile device-based wallets are mobile alternatives to desktop a
 * [Coinomi](https://www.coinomi.com/en/) - Multicurrency wallet
 * [Coinbase Wallet](https://wallet.coinbase.com/)
 * [Eidoo](https://eidoo.io/) - Multicurrency and Multiplatform wallet with a DEX and a DeFI gateway
-* [eth-wallet-light](https://github.com/NoahZinsmeister/eth-wallet-light) - Lightweight JS Wallet optimized for mobile
 * [Gnosis Safe Mobile](https://gnosis-safe.io/#mobile) - A companion app for Gnosis Safe Multisig
 * [imToken](https://token.im/) - Feature-rich digital asset mobile wallet enabling multi-chain asset management, DApp browsing and secure, private exchange of value.
 * [MetaMask Mobile](https://metamask.io/download.html) - A crypto wallet & gateway to blockchain apps.

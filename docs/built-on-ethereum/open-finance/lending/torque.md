@@ -17,6 +17,6 @@ DAI, ETH, WBTC, LINK, ZRX, REP and KNC tokens could be used as collateral.
 * [Website](https://torque.loans)
 * [DeFi Pulse](https://defipulse.com/bzx)
 * [Introducing Torque: Borrowing Made Simple](https://medium.com/bzxnetwork/introducing-torque-borrowing-made-simple-8eb494925d16)
-* [Twitter](https://twitter.com/b0xNet)
+* [Twitter](https://twitter.com/bZxHQ)
 * [Telegram](https://t.me/b0xNet)
 * [Discord](https://discord.gg/ZxpKrs)

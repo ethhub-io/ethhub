@@ -8,7 +8,7 @@ description: Proper ways to run a Parity or Geth Ethereum node.
 
 ## Summary
 
-Anyone is able to run an Ethereum node on their computer. This means that you can participate in validating transactions and blocks on the Ethereum blockchain. The two most common clients for running nodes are [Geth](https://geth.ethereum.org/downloads/) and [Parity](https://github.com/paritytech/parity-ethereum/releases/). Depending on the type of node run and the hardware specifications of the system, the initial syncronization time and storage requirements vary. For information related to the current Full Node chaindata and state storage size check out:
+Anyone is able to run an Ethereum node on their computer. This means that you can participate in validating transactions and blocks on the Ethereum blockchain. The two most common clients for running nodes are [Geth](https://geth.ethereum.org/downloads/) and [OpenEthereum](https://github.com/openethereum/openethereum/releases/). Depending on the type of node run and the hardware specifications of the system, the initial syncronization time and storage requirements vary. For information related to the current Full Node chaindata and state storage size check out:
 [https://etherscan.io/chartsync/chaindefault](https://etherscan.io/chartsync/chaindefault)
 
 For an easy guide on running your own node, please see this [blog post](https://medium.com/@JustinMLeroux/running-ethereum-full-nodes-a-guide-for-the-barely-motivated-a8a13e7a0d31).
@@ -44,25 +44,13 @@ The default sync mode. Synchronizes a full node doing a [fast synchronization](h
 
 Synchronizes a full node starting at genesis, verifying all blocks and executing all transactions. This mode is much slower than the fast sync mode but comes with increased security.
 
-**parity**
+**openethereum**
 
 The default sync mode. Synchronizes a full Ethereum node using [warp synchronization](https://ethereum.stackexchange.com/questions/9991/what-is-paritys-warp-sync-and-why-is-it-faster-than-geth-fast) mode by downloading a snapshot of the 30,000 best blocks and the latest state database.
 
 Once the snapshot is restored, the client switches to full sync and ancient blocks are synchronized from the network in background.
 
-A parity default node serves the network as a full node after it has finished synchronizing.
-
-**parity --no-warp**
-
-Synchronizes a full node starting at genesis, verifying all blocks and executing all transactions. This mode is a bit slower than the warp sync mode but comes with increased security.
-
-Both geth full and parity no-warp are to be considered a full Ethereum node because:
-
-* It runs a full blockchain synchronization starting at genesis.
-* It replays all transactions and executes all contracts.
-* It recomputes the state for each block.
-* It keeps all historical blocks on the disk.
-* It keeps the most recent states on the disk and prunes ancient states.
+A openethereum default node serves the network as a full node after it has finished synchronizing.
 
 **besu**
 
@@ -92,39 +80,6 @@ Light nodes are useful for low capacity devices, such as embedded devices or mob
 
 Waits for around 200 seconds before beginning to sync from 2,300 blocks in the past, then periodically receives small bundles of 1 to 10 blocks. The initial sync takes very little time.
 
-**parity --light**
-
-Begins syncing from a hardcoded value \(block \#6219777\) almost immediately, at a rate of approximately 23,500 blocks per minute. With a height at 6,500,000, this takes 15 minutes. Once synced, the light node receives blocks as they get mined and validated by full nodes.
-
-**parity --light --no-hardcoded-sync**
-
-Same as --light but syncs from genesis block.
-
-### Connecting Parity light node to MetaMask (MacOS)
-
-1. Download [homebrew](https://brew.sh) (you will have to go through apple dev terms first)
-
-2. Find and open the application Terminal (utilties/terminal)
-
-3. Enter the following commands one by one into the Terminal:
-
-**brew tap paritytech/paritytech**
-*(this adds parity to list of brew taps)*
-
-**brew install parity**
-*(installs parity - stable version)*
-
-**parity --light  --jsonrpc-cors="chrome-extension://nkbihfbeogaeaoehlefnkodbefgpgknn" &**
-*(syncs light node, connects to peers and imports blockheaders)*
-
-Press ctrl+C and then type:
-
-**tail -f nohup.out**
-*(this will show you logs to ensure its all working)*
-
-4. Open metamask on web browser, drop down network, connect to localhost.
-
-
 
 ## Archive Nodes
 
@@ -145,12 +100,6 @@ Synchronizes an archive node starting at genesis, thoroughly verifying all block
 
 In Geth, this is called gcmode which refers to the concept of [garbage collection](https://en.wikipedia.org/wiki/Garbage_collection_(computer_science)). Setting it to archive basically turns it off.
 
-**parity --no-warp --pruning archive**
-
-Synchronizes an archive node starting at genesis, thoroughly verifying all blocks, executing all transactions, and writing all intermediate states to disk ("archive").
-
-In Parity, this is called pruning which refers to the concept of [state trie pruning](https://ethereum.stackexchange.com/questions/174/what-is-state-trie-pruning-and-how-does-it-work). Setting it to archive basically turns it off.
-
 ## Hardware
 
 A consumer-grade laptop will be enough to run a full node, but not an archive node. An archive node does need 2+ TB of disk space, and that disk space cannot be HDD - it must be SSD for both full and archive nodes. Light nodes run fine on SD cards and HDDs.
@@ -167,4 +116,4 @@ Warning: never plug into your LAN anything you cannot thoroughly inspect and ver
 * [Dispelling Myths About Ethereum's Disk Space](https://www.tokendaily.co/blog/dispelling-myths-about-ethereum-s-disk-space)
 * [What Comprises an Ethereum Fullnode Implementation?](https://medium.com/amentum/what-comprises-an-ethereum-fullnode-implementation-a9113ce3fe3a)
 * [Running an Ethereum Full Node on a RaspberryPi 4](https://kauri.io/article/9695fcca217f46feb355245275835fc0)
-* [Getting started with Nethermind](https://nethermind.readthedocs.io/en/latest/start.html)
+* [Getting started with Nethermind](https://docs.nethermind.io/nethermind/)

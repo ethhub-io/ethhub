@@ -42,7 +42,7 @@ However, this poses a question: are there ways to create a new mechanism, where 
 ## What is the basic idea behind sharding?
 
 We split the state and history of Ethereum up into partitions that we call “shards”. For example, a sharding scheme on Ethereum might put all addresses starting with 0x00 into one shard, all addresses starting with 0x01 into another shard, etc. In the simplest form of sharding, each shard also has its own transaction history, and the effect of transactions in some shard are limited to the state of shard of that same shard. One simple example would be a multi-asset blockchain, where there are many shards and where each shard stores the balances and processes the transactions associated with one particular asset. In more advanced forms of sharding, there exists some form of cross-shard communication capability, where transactions on one shard can trigger events on other shards.
-/
+
 ## What might a basic design of a sharded blockchain look like?
 
 There exists a set of validators \(ie. proof of stake nodes\), who randomly get assigned the right to create shard blocks. During each slot \(eg. an 8-second period of time\), for each shard in \[0...999\] a random validator gets selected, and given the right to create a block on a shard, which might contain up to, say, 32 kb of data. Also, for each shard, a set of 100 validators get selected as attestors. The header of a block, together with at least 67 of the attesting signatures, can be published as an object that gets included in the "main chain" \(also called the beacon chain\).
@@ -56,7 +56,7 @@ Note that there are now several "levels" of nodes that can exist in such a syste
 
 ## Resources
 
-* [Sharding FAQ](https://github.com/ethereum/wiki/wiki/Sharding-FAQ)
-* [Sharding Roadmap](https://github.com/ethereum/wiki/wiki/Sharding-roadmap)
+* [Sharding FAQ](https://eth.wiki/sharding/Sharding-FAQs)
+* [Sharding Roadmap](https://eth.wiki/en/sharding/sharding-roadmap)
 * [DCS Triangle](https://blog.bigchaindb.com/the-dcs-triangle-5ce0e9e0f1dc)
 

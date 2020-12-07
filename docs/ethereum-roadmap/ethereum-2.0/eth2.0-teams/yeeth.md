@@ -8,7 +8,7 @@ description: Yeeth Ethereum 2.0 client implementation
 
 ## Background
 
-Dean announced the Swift implementation on [Twitter](https://twitter.com/DeanEigenmann/status/1085345542916526080).
+Dean announced the Swift implementation on Twitter.
 
 ## Implementation Details
 
@@ -17,5 +17,4 @@ Dean & Eric Tu were building an Ethereum 2.0 client written in the Swift program
 ## Resources:
 
 * [Github](https://github.com/yeeth/BeaconChain.swift)
-* [Twitter](https://twitter.com/yeethaf)
 * [Website](https://yeeth.af)
