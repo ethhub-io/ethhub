@@ -33,7 +33,7 @@ Both STARKs and SNARKs require a non-0 amount of computation and so if they are 
 
 [Starkware Industries](https://www.starkware.co/) is using STARK technology to improve scalability and privacy on Ethereum.
 
-[Enigma Protocol](https://blog.enigma.co/welcome-to-enigma-start-here-e65c8c9125ef) are building ['secret contracts'](https://blog.enigma.co/defining-secret-contracts-f40ddee67ef2) which enable [computation over encrypted data](https://blog.enigma.co/computing-over-encrypted-data-d36621458447).
+[Secret Network](https://scrt.network/blog/introducing-secret-network) are building ['secret contracts'](https://scrt.network/blog/upgrade-complete-secret-contracts-live-mainnet) which enable computation over encrypted data.
 
 [Zether](https://ethresear.ch/t/zether-the-first-privacy-mechanism-designed-for-ethereum/5029) is a confidential (transaction amounts are hidden) and anonymous (transaction sender and receiver are hidden) payment mechanism on blockchains with the account model like Ethereum. [More info on Zether](https://medium.com/@loveshharchandani/notes-on-zether-towards-privacy-in-a-smart-contract-world-6c4333f975d).
 
@@ -44,7 +44,6 @@ Mixers work a bit differently to zero-knowledge proof technology. In truth, both
 
 [Tornado](https://tornado.cash/) is mixer, which uses zk-SNARKS.
 
-[Heiswap](https://heiswap.exchange/) uses [stealth addresses and linkable ring signatures](https://kndrck.co/posts/heiswap_internal_arch_tour/). Currently lives on Ropsten.
 
 Vitalik Buterin created [a post](https://ethereum-magicians.org/t/meta-we-should-value-privacy-more/2475) on EthMagicians calling for more attention towards privacy solutions:
 > Mixers

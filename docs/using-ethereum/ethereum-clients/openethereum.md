@@ -29,7 +29,7 @@ Light node:
 
 ## Setup
 
-* [Download OpenEthereum from the official Github releases page](https://github.com/OpenEthereum/open-ethereum/releases)
+* [Download OpenEthereum from the official Github releases page](https://github.com/openethereum/openethereum/releases)
 * If on Linux, make the OpenEthereum binary executable with `chmod +x ./OpenEthereum`
 
 For running a compiled binary downloaded from the official Github releases page, no system dependencies are required.
@@ -58,4 +58,4 @@ Many commands are available with the OpenEthereum client.
 * **OpenEthereum restore FILEPATH**: restore Blockchain from snapshot located at FILEPATH
 
 ## Resources
-* [Github](https://github.com/OpenEthereum/open-ethereum)
+* [Github](https://github.com/openethereum/openethereum/)

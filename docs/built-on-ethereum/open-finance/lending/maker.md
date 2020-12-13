@@ -20,7 +20,7 @@ As of June 2019, only ETH can be used as collateral. A planned upgrade to Multi-
 
 * [DeFi Pulse](https://defipulse.com/maker)
 * [Website](https://makerdao.com/en/)
-* [Official CDP Portal](https://cdp.makerdao.com/)
+* [Official CDP Portal](https://oasis.app/borrow)
 * [Introduction to Burner Wallet](https://medium.com/gitcoin/ethereum-in-emerging-economies-b235f8dac2f2)
 * [Subreddit](https://old.reddit.com/r/MakerDAO/)
 * [Twitter](https://twitter.com/MakerDAO)

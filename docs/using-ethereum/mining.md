@@ -163,11 +163,11 @@ This limited version of GHOST, with uncles includable only up to 7 generations, 
 
 ## Resources
 
-* [https://github.com/ethereum/wiki/wiki/Design-Rationale](https://github.com/ethereum/wiki/wiki/Design-Rationale)
+* [https://eth.wiki/en/fundamentals/design-rationale](https://eth.wiki/en/fundamentals/design-rationale)
 * [https://ethereum.stackexchange.com/questions/268/ethereum-block-architecture](https://ethereum.stackexchange.com/questions/268/ethereum-block-architecture)
-* [https://github.com/ethereum/wiki/wiki/JSON-RPC](https://github.com/ethereum/wiki/wiki/JSON-RPC)
+* [https://eth.wiki/json-rpc/API](https://eth.wiki/json-rpc/API)
 * [https://ethereum.stackexchange.com/questions/10548/what-does-every-field-in-block-means](https://ethereum.stackexchange.com/questions/10548/what-does-every-field-in-block-means)
 * [How does Ethereum work, anyway?](https://medium.com/@preethikasireddy/how-does-ethereum-work-anyway-22d1df506369)
-* [Ethereum Whitepaper](https://github.com/ethereum/wiki/wiki/White-Paper)
+* [Ethereum Whitepaper](https://ethereum.org/en/whitepaper/)
 * [Ethereum Mining Pools List](https://miningpoolstats.stream/ethereum)
 * [Ethereum Mining Calculator](https://whattomine.com/coins/151-eth-ethash)

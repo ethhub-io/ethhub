@@ -100,7 +100,7 @@ There is a withdraw queue that you are placed into when wanting to withdraw ETH 
 
 ### Resources
 
-* [Proof of Stake FAQ](https://github.com/ethereum/wiki/wiki/Proof-of-Stake-FAQ)
+* [Proof of Stake FAQ](https://eth.wiki/en/concepts/proof-of-stake-faqs)
 * [CBC Casper Resources](https://docs.google.com/document/d/1Iz4d5qhb5OeIajTwfmdE0DZeWjxq7ebD70_0WWOqGa8/edit#)
 * [Beacon and Validator explanations](https://twitter.com/terencechain/status/1070738081337106432)
 * [Some details around staking from Vitalik](https://www.reddit.com/r/ethereum/comments/a41u9k/_/ebbm03t/?context=1)

@@ -94,10 +94,10 @@ Phase 2 also introduces the concept of 'Execution Environments (EEs)'. EEs withi
 ## Resources
 
 * [Ethereum Roadmap](https://ethos.dev/ethereum-2020-roadmap/)
-* [Ethereum 2.0 Info](https://hackmd.io/e4cNiocFTiS67j6yJ_XHPw?view)
+* [Ethereum 2.0 Info](https://hackmd.io/@benjaminion/eth2_info)
 * [Eth 2.0 Specs](https://github.com/ethereum/eth2.0-specs)
 * [Phase 0 for Humans](https://notes.ethereum.org/jDcuUp3-T8CeFTv0YpAsHw?view)
-* [Sharding Roadmap](https://github.com/ethereum/wiki/wiki/Sharding-roadmap#strongphase-3strong-light-client-state-protocol)
+* [Sharding Roadmap](https://eth.wiki/en/sharding/sharding-roadmap)
 * [State of Ethereum Protocol](https://media.consensys.net/state-of-ethereum-protocol-2-the-beacon-chain-c6b6a9a69129)
 * [Ethereum 2.0 Design Goals](https://media.consensys.net/exploring-the-ethereum-2-0-design-goals-fd2d901b4c01)
 * [Q&A Session ETHMagicians](https://medium.com/ethereum-magicians/demystifying-the-road-to-ethereum-2-0-8130ade8d00f)

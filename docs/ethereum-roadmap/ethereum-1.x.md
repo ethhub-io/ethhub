@@ -83,7 +83,7 @@ The stub is expected to be a 32 byte hash which is a commitment to what the cont
 
 *How is this different from stateless contracts?*
 
-The difference is that in stateless contracts we assume that when the contract is represented as a stub it’s still accessible by the normal operations. In this proposal, when the contract is in hibernation state (ie when it’s a stub) it’s not accessible by anything. It’s basically invisible to the Ethereum Virtual Machine\([EVM](https://github.com/ethereum/wiki/wiki/Ethereum-Virtual-Machine-(EVM)-Awesome-List)\) with the exception of this special opcode, which it’s restored to, and only that opcode can see that stub - nothing else can.
+The difference is that in stateless contracts we assume that when the contract is represented as a stub it’s still accessible by the normal operations. In this proposal, when the contract is in hibernation state (ie when it’s a stub) it’s not accessible by anything. It’s basically invisible to the Ethereum Virtual Machine\([EVM](https://github.com/pirapira/awesome-ethereum-virtual-machine)\) with the exception of this special opcode, which it’s restored to, and only that opcode can see that stub - nothing else can.
 
 *Is this the best solution?*
 
@@ -121,7 +121,7 @@ Part of the state rent research is to identify main classes of contracts that ar
 
 ### eWASM
 
-Enhancement to the Ethereum protocol is currently hindered by the inflexibility of the Ethereum Virtual Machine\([EVM](https://github.com/ethereum/wiki/wiki/Ethereum-Virtual-Machine-(EVM)-Awesome-List)\) architecture. The method of extending the execution layer has been the introduction of special “precompile” contracts. The use of WebAssembly as a virtual machine specification for executing high-performance “precompile” contracts promises to streamline the process of introducing such contracts.
+Enhancement to the Ethereum protocol is currently hindered by the inflexibility of the Ethereum Virtual Machine\([EVM](https://github.com/pirapira/awesome-ethereum-virtual-machine)\) architecture. The method of extending the execution layer has been the introduction of special “precompile” contracts. The use of WebAssembly as a virtual machine specification for executing high-performance “precompile” contracts promises to streamline the process of introducing such contracts.
 
 eWASM is a subset of Wasm, Wasm has a couple of features which are non-deterministic, we need to eliminate them by validating contract while deploying. If contract uses non-deterministic features then it's rejected.
 

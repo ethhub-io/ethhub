@@ -17,5 +17,3 @@ As of Fall 2018, Digix converted approximately $20 Million USD worth of ETH from
 ## Resources
 
 * [Website](https://digix.global/)
-* [Asset Explorer](https://digix.global/app/#/provenance/assets-explorer/assets-list)
-

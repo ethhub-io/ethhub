@@ -31,7 +31,7 @@ Ethereum Foundation is the [owner of trademarks](https://trademarks.justia.com/o
 
 ## Funding and Burn Rate
 
-The Ethereum Foundation’s [multisig wallet](https://etherscan.io/address/0xde0b295669a9fd93d5f28d9ec85e40f4cb697bae) is known and as of 4/10/19 holds 645,137 Ether. That equates to ~$118,000,000.
+The Ethereum Foundation’s [multisig wallet](https://etherscan.io/address/0xde0b295669a9fd93d5f28d9ec85e40f4cb697bae) is known and as of 7/12/20 holds 562,438 Ether. That equates to ~$330,000,000.
 
 It is currently not known how much the Ethereum Foundation spends on its organization and grants every year.
 
