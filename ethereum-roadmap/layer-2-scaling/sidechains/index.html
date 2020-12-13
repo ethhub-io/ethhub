@@ -36,7 +36,7 @@
         <meta name="lang:search.tokenizer" content="[\s\-]+">
       
       <link rel="shortcut icon" href="../../../assets/images/favicon.ico">
-      <meta name="generator" content="mkdocs-1.1.2, mkdocs-material-3.3.0">
+      <meta name="generator" content="mkdocs-1.0.4, mkdocs-material-3.3.0">
     
     
       
@@ -838,8 +838,8 @@
 
 
   <li class="md-nav__item">
-    <a href="../../ethereum-2.0/eth2.0-teams/artemis/" title="Artemis" class="md-nav__link">
-      Artemis
+    <a href="../../ethereum-2.0/eth2.0-teams/teku/" title="Teku" class="md-nav__link">
+      Teku
     </a>
   </li>
 
@@ -1711,18 +1711,6 @@
 
 
   <li class="md-nav__item">
-    <a href="../../../built-on-ethereum/open-finance/lending/expo/" title="Expo" class="md-nav__link">
-      Expo
-    </a>
-  </li>
-
-        
-          
-          
-          
-
-
-  <li class="md-nav__item">
     <a href="../../../built-on-ethereum/open-finance/lending/fulcrum/" title="Fulcrum" class="md-nav__link">
       Fulcrum
     </a>
@@ -1749,18 +1737,6 @@
   <li class="md-nav__item">
     <a href="../../../built-on-ethereum/open-finance/lending/torque/" title="Torque" class="md-nav__link">
       Torque
-    </a>
-  </li>
-
-        
-          
-          
-          
-
-
-  <li class="md-nav__item">
-    <a href="../../../built-on-ethereum/open-finance/lending/NuoNetwork/" title="Nuo Network" class="md-nav__link">
-      Nuo Network
     </a>
   </li>
 
@@ -1821,18 +1797,6 @@
   <li class="md-nav__item">
     <a href="../../../built-on-ethereum/open-finance/investing/set-protocol/" title="Set Protocol" class="md-nav__link">
       Set Protocol
-    </a>
-  </li>
-
-        
-          
-          
-          
-
-
-  <li class="md-nav__item">
-    <a href="../../../built-on-ethereum/open-finance/investing/settle/" title="Settle" class="md-nav__link">
-      Settle
     </a>
   </li>
 
@@ -4838,7 +4802,7 @@
 <p>Layer 2 sidechains are distributed ledgers which operate independently and in a parallel capacity to the Ethereum mainnet. Nodes within a sidechain network are responsible for confirming &amp; processing transactions, writing transactions to blocks, and maintaining consensus across the network. Security is the responsibility of each sidechain; it is not directly inherited from Ethereum. Sidechains often incorporate alternate validator selection and consensus mechanisms to provide faster transaction times.</p>
 <h3 id="security-consensus">Security &amp; Consensus</h3>
 <p>Sidechains are responsible for their own security and consensus processes. This allows for innovation and optimization, with the opportunity for increased transaction throughput and higher speed/lower cost transactions for users. Sidechains use a variety of validator selection methods to achieve these goals while maintaining security. Smaller validator sets are more susceptible to collusion-based attacks, so strong incentives must be in place to encourage honest validation and discourage malicious behavior. Examples include:</p>
-<p><em>Proof-of-Authority</em>: Validators (network nodes responsible for signing transactions and maintaing a consistent ledger) are pre-selected for the protocol. An example is the<a href="https://poa.network">POA Network</a>. POA uses an <a href="https://openethereum.github.io/wiki/Aura">Authority Round</a> consensus where selected validators, in this case US Notary Publics with public reputations at stake, take turns signing transactions and sealing blocks. The POA model improves scalability (5 second block times, low transaction fees) while sacrificing a degree of decentralization (validators are pre-selected and the protocol has a limited validator set).</p>
+<p><em>Proof-of-Authority</em>: Validators (network nodes responsible for signing transactions and maintaing a consistent ledger) are pre-selected for the protocol. An example is the <a href="https://poa.network">POA Network</a>. POA uses an Authority Round consensus where selected validators, in this case US Notary Publics with public reputations at stake, take turns signing transactions and sealing blocks. The POA model improves scalability (5 second block times, low transaction fees) while sacrificing a degree of decentralization (validators are pre-selected and the protocol has a limited validator set).</p>
 <p><em>Proof-of-Stake</em>: A set of validators are selected based on the staking amount they commit to the protocol. Nodes which have placed more stake are more likely to be selected as validators. With delegated proof-of-stake, users can add additional staking amounts to a node, serving to increase that node's likelihood of becoming a validator. An example is the <a href="https://xdaichain.com">xDai chain</a>, where nodes who commit a higher amount of STAKE (the xDai governance token, staked by both validator candidates and delegators) into the protocol have a higher probability of selection to a dynamic validator set. Once selected, staking incentives promote honest validation. </p>
 <p>Sidechains also rely on different Byzantine Fault Tolerant methods to ensure consensus. Examples include Peppermint BFT used by the <a href="https://matic.network/">Matic Network</a> and Asynchronous Binary Byzantine Agreement by <a href="https://skale.network/">Skale</a>.</p>
 <p>Ultimately, application-specific transactions may be better suited for sidechain adoption. Examples include DAO voting, small cash transfers, crypto art and NFTs, community currencies, small-cap exchanges, and many other use-cases which may not require the same security guarantees as high-value financial transactions. On a sidechain, transactions can be optimized for speed and cost. After they are processed, they can then be moved and stored on Ethereum through interoperability mechanisms.</p>
@@ -4852,7 +4816,7 @@
 <li><a href="https://skale.network/">SKALE</a></li>
 <li><a href="https://matic.network/">Matic</a> </li>
 </ul>
-<p><em>Note on Private Sidechains:  Sidechains may also be deployed in an enterprise capacity designed for private smart contracts and internal transactions. <a href="https://www.goquorum.com/">Quorum</a> is an example of a private sidechain run by permissioned validators within JP Morgan.</em></p>
+<p>_Note on Private Sidechains:  Sidechains may also be deployed in an enterprise capacity designed for private smart contracts and internal transactions.</p>
 <h2 id="resources">Resources</h2>
 <ul>
 <li><a href="https://blockstream.com/sidechains.pdf">Enabling Blockchain Innovations with Pegged Sidechains</a></li>
@@ -4942,7 +4906,7 @@
     
       <script src="../../../assets/javascripts/application.3a8f445d.js"></script>
       
-      <script>app.initialize({version:"1.1.2",url:{base:"../../.."}})</script>
+      <script>app.initialize({version:"1.0.4",url:{base:"../../.."}})</script>
       
     
   </body>

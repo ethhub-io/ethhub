@@ -36,7 +36,7 @@
         <meta name="lang:search.tokenizer" content="[\s\-]+">
       
       <link rel="shortcut icon" href="../../../assets/images/favicon.ico">
-      <meta name="generator" content="mkdocs-1.1.2, mkdocs-material-3.3.0">
+      <meta name="generator" content="mkdocs-1.0.4, mkdocs-material-3.3.0">
     
     
       
@@ -836,8 +836,8 @@
 
 
   <li class="md-nav__item">
-    <a href="../../../ethereum-roadmap/ethereum-2.0/eth2.0-teams/artemis/" title="Artemis" class="md-nav__link">
-      Artemis
+    <a href="../../../ethereum-roadmap/ethereum-2.0/eth2.0-teams/teku/" title="Teku" class="md-nav__link">
+      Teku
     </a>
   </li>
 
@@ -1725,18 +1725,6 @@
 
 
   <li class="md-nav__item">
-    <a href="../../../built-on-ethereum/open-finance/lending/expo/" title="Expo" class="md-nav__link">
-      Expo
-    </a>
-  </li>
-
-        
-          
-          
-          
-
-
-  <li class="md-nav__item">
     <a href="../../../built-on-ethereum/open-finance/lending/fulcrum/" title="Fulcrum" class="md-nav__link">
       Fulcrum
     </a>
@@ -1763,18 +1751,6 @@
   <li class="md-nav__item">
     <a href="../../../built-on-ethereum/open-finance/lending/torque/" title="Torque" class="md-nav__link">
       Torque
-    </a>
-  </li>
-
-        
-          
-          
-          
-
-
-  <li class="md-nav__item">
-    <a href="../../../built-on-ethereum/open-finance/lending/NuoNetwork/" title="Nuo Network" class="md-nav__link">
-      Nuo Network
     </a>
   </li>
 
@@ -1835,18 +1811,6 @@
   <li class="md-nav__item">
     <a href="../../../built-on-ethereum/open-finance/investing/set-protocol/" title="Set Protocol" class="md-nav__link">
       Set Protocol
-    </a>
-  </li>
-
-        
-          
-          
-          
-
-
-  <li class="md-nav__item">
-    <a href="../../../built-on-ethereum/open-finance/investing/settle/" title="Settle" class="md-nav__link">
-      Settle
     </a>
   </li>
 
@@ -4863,11 +4827,11 @@
 <h2 id="summary">Summary</h2>
 <p>Ethereum Client built on .NET Core, perfect for enterprise-grade systems and benefiting from a huge pool of developers. Extend it, customise it - the sky’s the limit.</p>
 <h2 id="requirements">Requirements</h2>
-<p><a href="https://nethermind.readthedocs.io/en/latest/hardware_requirements.html">Hardware Requirements</a></p>
+<p><a href="https://docs.nethermind.io/nethermind/first-steps-with-nethermind/hardware-requirements">Hardware Requirements</a></p>
 <h2 id="setup">Setup</h2>
 <ul>
 <li><a href="http://downloads.nethermind.io/">Download Nethermind from the official page</a></li>
-<li><a href="https://nethermind.readthedocs.io/en/latest/start.html">Follow the instructions</a></li>
+<li><a href="https://docs.nethermind.io/nethermind/first-steps-with-nethermind/getting-started">Follow the instructions</a></li>
 </ul>
 <h2 id="running">Running</h2>
 <p>There are two methods to run the Nethermind client.</p>
@@ -4875,7 +4839,7 @@
 <li>Nethermind.Launcher</li>
 <li>Nethermind.Runner</li>
 </ul>
-<p>Nethermind ships with a set of default configuration files located in the configs folder. These config files are used by Nethermind.Launcher. You can customize them following the documentation <a href="https://nethermind.readthedocs.io/en/latest/configuration.html">here</a>. It is recommended to not overwrite the default configs as they will be replaced when upgrading. Instead, copy the one that closest meets your needs and save it to a known location.</p>
+<p>Nethermind ships with a set of default configuration files located in the configs folder. These config files are used by Nethermind.Launcher. You can customize them following the documentation <a href="https://docs.nethermind.io/nethermind/ethereum-client/configuration">here</a>. It is recommended to not overwrite the default configs as they will be replaced when upgrading. Instead, copy the one that closest meets your needs and save it to a known location.</p>
 <h3 id="nethermindlauncher">Nethermind.Launcher</h3>
 <p>Nethermind.Launcher is an interactive prompt that allows you to choose the network which then calls Nethermind.Runner with the appropriate config file. This is the quickest way to get up and running.</p>
 <h3 id="nethermindrunner">Nethermind.Runner</h3>
@@ -4883,12 +4847,12 @@
 <p>By default Nethermind will use the binary's location as its home and will create keystore, database, etc in that home location. You can overwrite this behavior with a custom configuration file or via the command line options.</p>
 <p><code>Nethermind.Runner --config &lt;path_to_config&gt;</code></p>
 <h2 id="using">Using</h2>
-<p>Nethermind.Launcher can be used as a <a href="https://nethermind.readthedocs.io/en/latest/cli.html">CLI</a> tool similar to that of the geth cli. If you have enabled WebSockets and/or <a href="https://nethermind.readthedocs.io/en/latest/jsonrpc.html">JSON RPC</a> then most RPC endpoints have been implimented and can be accessed in the same manner as geth.</p>
+<p>Nethermind.Launcher can be used as a <a href="https://docs.nethermind.io/nethermind/nethermind-utilities/cli">CLI</a> tool similar to that of the geth cli. If you have enabled WebSockets and/or <a href="https://docs.nethermind.io/nethermind/ethereum-client/json-rpc">JSON RPC</a> then most RPC endpoints have been implimented and can be accessed in the same manner as geth.</p>
 <h2 id="resources">Resources</h2>
 <ul>
 <li><a href="https://nethermind.io/client">Website</a></li>
 <li><a href="https://github.com/NethermindEth/nethermind">Github</a></li>
-<li><a href="https://nethermind.readthedocs.io/en/latest/index.html">Read The Docs</a></li>
+<li><a href="https://docs.nethermind.io/nethermind/">Docs</a></li>
 </ul>
                 
                   
@@ -4974,7 +4938,7 @@
     
       <script src="../../../assets/javascripts/application.3a8f445d.js"></script>
       
-      <script>app.initialize({version:"1.1.2",url:{base:"../../.."}})</script>
+      <script>app.initialize({version:"1.0.4",url:{base:"../../.."}})</script>
       
     
   </body>
