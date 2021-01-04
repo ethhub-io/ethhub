@@ -96,7 +96,8 @@ If at any point your deposit drops below 16 ETH you will be removed from the val
 
 ### How long is my Ether locked up if I stake?
 
-There is a withdraw queue that you are placed into when wanting to withdraw ETH from your validator. If there is no queue, then the minimum withdraw time is 18 hours and adjusts dynamically depending on how many people are withdrawing at that time.
+You won't be able to withdraw your stake until Eth1 mainnet has docked with the Eth2 Beacon Chain and sharding system. This is known as "Phase 1.5" on technical roadmaps an will ship 2021/22.
+Once that happened, there will be a withdrawal queue that you are placed into when wanting to withdraw ETH from your validator. If there is no queue, then the minimum withdraw time is 18 hours and adjusts dynamically depending on how many people are withdrawing at that time.
 
 ### Resources
 
@@ -104,4 +105,5 @@ There is a withdraw queue that you are placed into when wanting to withdraw ETH 
 * [CBC Casper Resources](https://docs.google.com/document/d/1Iz4d5qhb5OeIajTwfmdE0DZeWjxq7ebD70_0WWOqGa8/edit#)
 * [Beacon and Validator explanations](https://twitter.com/terencechain/status/1070738081337106432)
 * [Some details around staking from Vitalik](https://www.reddit.com/r/ethereum/comments/a41u9k/_/ebbm03t/?context=1)
+* [More on Docking Mainnet with Eth2](https://ethereum.org/en/eth2/docking/)
 
