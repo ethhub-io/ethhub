@@ -135,6 +135,7 @@ description: A list of essential Ethereum resources.
 
 * [Etherscan](https://beacon.etherscan.io/)
 * [Etherchain](https://beaconcha.in/)
+* [Ethscan](https://ethscan.org/)
 
 #### Wallets
 
