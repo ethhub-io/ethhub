@@ -1,0 +1,28 @@
+title: GetBlock - Ethhub
+
+# GetBlock
+
+## About
+
+GetBlock is a Blockchain-as-a-Service (BaaS) platform that provides a fast and easy API connection to full nodes from many leading blockchain platforms. It allows you to request on-chain information from a node without the need to set up one manually with JSON-RPC, REST, and WebSockets.
+GetBlock provides access to the Ethereum (ETH) node with JSON-RPC and WebSockets. Available clients: OpenEthereum(Parity), Hyperledger Besu.
+
+
+### Main products & Documentation:
+
+* [GetBlock](https://getblock.io)
+* [GetBlock API key](https://getblock.io/#access)
+* [Documentation](https://getblock.io/docs/get-started/authentication-with-api-key)
+
+
+## Resources
+
+* [Website](https://getblock.io)
+* [Twitter](https://twitter.com/getblockio)
+* [Telegram](https://t.me/getblockio_eng)
+* [Facebook](https://www.facebook.com/getblockio/)
+* [LinkedIn](https://www.linkedin.com/company/getblock/)
+* [Reddit](https://www.reddit.com/user/getblockio)
+* [Instagram](https://www.instagram.com/getblock.io/)
+
+
