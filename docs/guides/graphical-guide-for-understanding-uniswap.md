@@ -43,7 +43,7 @@ Instead Uniswap uses the Exchange contracts to pool both Ether and a specific ER
 
 ![swap example](/assets/images/uniswap_guide/swap_example.png)
 
-The amount that is returned from swapping is based on an automated market maker formula. The graph below helps illustrate how the formula works. Essentially, the amount that is returned to you is based on the ratio of Ether to token in in the pool. No matter the size of a swap, the user is guaranteed to have their trade execute because the more of an asset that you add to one side of the pool, the further along the curve it pushes you for the other asset. Meaning the larger the order relative to the pool, the worst rate you will receive as the ratio moves along the curve.
+The amount that is returned from swapping is based on an automated market maker formula. The graph below helps illustrate how the formula works. Essentially, the amount that is returned to you is based on the ratio of Ether to token in the pool. No matter the size of a swap, the user is guaranteed to have their trade execute because the more of an asset that you add to one side of the pool, the further along the curve it pushes you for the other asset. Meaning the larger the order relative to the pool, the worst rate you will receive as the ratio moves along the curve.
 
 ![constant market maker graph](/assets/images/uniswap_guide/market_graph.png)
 
@@ -74,7 +74,7 @@ When interacting with a single Exchange contract, a user is able to swap between
 
 When an Exchange contract is first created for a token, both the token and Ether pools are empty. The first person that deposits into the contract is the one that determines the ratio between the token and Ether. If they deposit a ratio that is different from what the current market rate is, then an arbitrage opportunity is available. When liquidity providers are adding to an established pool, they should add a proportional amount of token and Ether to the pool. If they don’t, the liquidity they added is at risk of being arbitraged as well.
 
-In addition, larger liquidity pools are beneficial to users because they allow for larger swaps to happen without skewing the token to ETH ratio too far along the curve. Uniswap incentives users to add liquidity to pools by rewarding providers with fees that are collected by the protocol. A 0.3% fee is taken for swapping between Ether and a token and roughly a 0.6% is token for token to tokens swaps.
+In addition, larger liquidity pools are beneficial to users because they allow for larger swaps to happen without skewing the token to ETH ratio too far along the curve. Uniswap incentivises users to add liquidity to pools by rewarding liquidity providers with fees that are collected by the protocol. A 0.3% fee is taken for swapping between Ether and a token and roughly 0.6% is token for token to tokens swaps.
 
 Lastly, special ERC20 tokens known as liquidity tokens are minted to the provider’s address in proportion to how much liquidity they contributed to the pool. The tokens are burned when the user wants to receive the liquidity they contributed plus the fees that we accumulated while their liquidity was locked.
 
