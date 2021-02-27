@@ -37,3 +37,25 @@ Web wallets are wallets hosted on a website, they may be custodial or act as an 
 
 * [Consensys's ethereum-developer-tools-list](https://github.com/ConsenSys/ethereum-developer-tools-list/blob/master/EcosystemResources.md)
 
+Let's assume you want to prepopulate JIRA with a few projects and issues for testing on every clean startup. First, run the application as you normally would using atlas-run. Next, use the JIRA web interface to create your projects and issues. Stop JIRA (CTRL+C). Finally, go to the root directory of your plugin and type:
+My Atlassian
+Getting started with your new add-on
+
+1. Copy your license key to the clipboard:
+
+2. Download add-on
+Download the Microsoft Teams Bitbucket Connector add-on to your local system:
+
+Download
+3. Install add-on
+Note: You must have administrative rights to install an add-on.
+
+Open your Atlassian application and log in.
+Navigate to the administration section. You may need to log in again (we're super secure).
+Choose "Add-Ons", then navigate to "Manage Add-Ons" (the "Install" section in older versions).
+Click the "Upload Add-On" link and upload this file.
+4. Apply your license
+Navigate to the "Manage Add-Ons" page of your instance (the "Install" section in older versions).
+Locate your installed Microsoft Teams Bitbucket Connector add-on in the list.
+Click the add-on entry and copy and paste the license key into the license box for your add-on. All done!
+Learn more about installing add-ons »
