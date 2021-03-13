@@ -38,11 +38,8 @@ Synchronizes a full node starting at genesis, verifying all blocks and executing
 
 **./Nethermind.Runner --config mainnet**
 
-The default sync mode. Synchronizes a full node doing a [fast synchronization](https://ethereum.stackexchange.com/questions/1161/what-is-geths-fast-sync-and-why-is-it-faster) by downloading the entire state database, requesting the headers first, and optionally filling in block bodies and receipts. Once the fast sync reaches the best block of the Ethereum network, it switches to full sync mode.
+The default [sync mode](https://docs.nethermind.io/nethermind/ethereum-client/sync-modes). Synchronizes a full node doing a [fast synchronization](https://ethereum.stackexchange.com/questions/1161/what-is-geths-fast-sync-and-why-is-it-faster) by downloading the entire state database, requesting the headers first, and optionally filling in block bodies and receipts. Once the fast sync reaches the best block of the Ethereum network, it switches to full sync mode.
 
-**./Nethermind.Runner --config mainnet_archive**
-
-Synchronizes a full node starting at genesis, verifying all blocks and executing all transactions. This mode is much slower than the fast sync mode but comes with increased security.
 
 **openethereum**
 
@@ -56,11 +53,7 @@ A openethereum default node serves the network as a full node after it has finis
 
 Besu's default sync mode is with [fastsync](https://besu.hyperledger.org/en/stable/Reference/CLI/CLI-Syntax/#sync-mode) enabled. This setting reduces sync time considerably compared to full sync.
 
-**besu --sync-mode=FULL**
-
-Besu can nontheless, be run with full sync mode, which will increase sync time and storage space needed.
-
-**besu --pruning-enabled**
+**besu --pruning-enabled=true**
 
 This setting enables [pruning](https://besu.hyperledger.org/en/stable/Reference/CLI/CLI-Syntax/#pruning-enabled) in order to reduce storage required for the world state. Pruning removes state trie nodes that aren’t required.
 
@@ -80,7 +73,6 @@ Light nodes are useful for low capacity devices, such as embedded devices or mob
 
 Waits for around 200 seconds before beginning to sync from 2,300 blocks in the past, then periodically receives small bundles of 1 to 10 blocks. The initial sync takes very little time.
 
-
 ## Archive Nodes
 
 An archive node:
@@ -94,11 +86,25 @@ They are commonly only used for services such as block explorers and infrastruct
 
 ### Client Settings
 
-**geth --syncmode full --gcmode archive**
+**geth --syncmode full --gcmode archive --txlookuplimit=0 --cache.preimages**
 
 Synchronizes an archive node starting at genesis, thoroughly verifying all blocks, executing all transactions, and writing all intermediate states to disk ("archive").
 
 In Geth, this is called gcmode which refers to the concept of [garbage collection](https://en.wikipedia.org/wiki/Garbage_collection_(computer_science)). Setting it to archive basically turns it off.
+
+**./Nethermind.Runner --config mainnet_archive**
+
+Synchronizes a full node starting at genesis, verifying all blocks and executing all transactions. This mode is much slower than the fast sync mode but comes with increased security.
+
+**openethereum --pruning="archive" --no-warp**
+
+[Pruning](https://besu.hyperledger.org/en/stable/Concepts/Pruning/) is enabled by default, setting it to archive while turning off warp will build all historical data from genesis. 
+
+
+**besu --sync-mode=FULL**
+
+To run an archive node, enable full synchronization using --sync-mode=FULL, which by default also disables pruning (--pruning-enabled=false).
+
 
 ## Hardware
 
@@ -110,6 +116,7 @@ Warning: never plug into your LAN anything you cannot thoroughly inspect and ver
 
 ## Resources
 
+* [Spin up your own Ethereum node](https://ethereum.org/sk/developers/docs/nodes-and-clients/run-a-node/)
 * [Running Ethereum Full Nodes: A Complete Guide](https://medium.com/@JustinMLeroux/running-ethereum-full-nodes-a-guide-for-the-barely-motivated-a8a13e7a0d31)
 * Huge shout out and thanks to Afri Schoedon's blogs [here](https://dev.to/5chdn/ethereum-node-configuration-modes-cheat-sheet-25l8) and [here](https://dev.to/5chdn/the-ethereum-blockchain-size-will-not-exceed-1tb-anytime-soon-58a) which is where a lot of the information on this page came from.
 * [Run an Ethereum Node on Debian](https://medium.com/better-programming/run-an-ethereum-node-on-linux-late-2019-b37a1d35800e)
