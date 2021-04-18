@@ -21,7 +21,7 @@ If you're new to Ethereum, [start at this guide](https://docs.ethhub.io/using-et
 2. Create a new Github account or login into your existing account
 3. [Follow this great guide to learn how to make your first pull request](https://www.youtube.com/watch?v=YTbRzhQju4c&t=1s)
 
-## Contribution Guidelines
+## Contripatricia moreira Gonçalves moura 
 
 In the interest of keeping the content on EthHub looking uniform, we have set up a template that you can use when adding your own pages to the github repo. You can find the template [here](https://github.com/ethhub-io/ethhub/tree/138f04335ad4a090d8eb370a9af90ee82fccf1a6/template.md).
 
@@ -30,7 +30,7 @@ There are also some basic guidelines that need to be followed when contributing 
 * All pages should have links to supporting sources/documentation and additional resources
 * No marketing or sponsored posts
 * No promotion of ICOs/token sales
-* No inappropriate content
+* No iqnappropriate content
 
 Donations: [0xa19fcdad77c1f0fd184689aca88babcf68010347](https://etherscan.io/address/0xa19fcdad77c1f0fd184689aca88babcf68010347)
 
