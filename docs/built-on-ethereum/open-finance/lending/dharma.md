@@ -10,7 +10,7 @@ Dharma is a protocol for issuing debt. The goal of this protocol is to create a 
 
 It is possible to take a loan without using cryptocurrency as collateral, or without collateral at all, as debtors can request a debt from one of the underwriters. An underwriter is an entity who evaluates debtor’s credibility and manages the debt parameters. Once the debtor and underwriter settle, the latter must submit the signed offer to one of the Dharma relayers. Creditors can then evaluate the offer’s terms and underwriter’s reputation to decide whether to trust it.
 
-From 29 August Dharma is the easiesy way, which use Compound, to save money from anywhere in the world.
+From 29 August Dharma is the easiest way, using Compound, to save money from anywhere in the world.
 
 ## Resources
 
