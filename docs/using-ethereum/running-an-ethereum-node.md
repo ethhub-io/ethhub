@@ -40,7 +40,6 @@ Synchronizes a full node starting at genesis, verifying all blocks and executing
 
 The default [sync mode](https://docs.nethermind.io/nethermind/ethereum-client/sync-modes). Synchronizes a full node doing a [fast synchronization](https://ethereum.stackexchange.com/questions/1161/what-is-geths-fast-sync-and-why-is-it-faster) by downloading the entire state database, requesting the headers first, and optionally filling in block bodies and receipts. Once the fast sync reaches the best block of the Ethereum network, it switches to full sync mode.
 
-
 **openethereum**
 
 The default sync mode. Synchronizes a full Ethereum node using [warp synchronization](https://ethereum.stackexchange.com/questions/9991/what-is-paritys-warp-sync-and-why-is-it-faster-than-geth-fast) mode by downloading a snapshot of the 30,000 best blocks and the latest state database.
@@ -57,6 +56,9 @@ Besu's default sync mode is with [fastsync](https://besu.hyperledger.org/en/stab
 
 This setting enables [pruning](https://besu.hyperledger.org/en/stable/Reference/CLI/CLI-Syntax/#pruning-enabled) in order to reduce storage required for the world state. Pruning removes state trie nodes that aren’t required.
 
+**erigon --storage-mode=**
+
+Erigon only has one mode of operation at this time, which is "Full Sync" however, it can be configured with "Pruning" by setting `--storage=mode` to empty. However, this may result in unexpected behavior. Proceed with caution.
 
 ## Light nodes
 
@@ -105,7 +107,9 @@ Synchronizes a full node starting at genesis, verifying all blocks and executing
 
 To run an archive node, enable full synchronization using --sync-mode=FULL, which by default also disables pruning (--pruning-enabled=false).
 
+**erigon --storage-mode=hrtc**
 
+Erigon's default mode as of this writing is Full Archive, which is the equivalent of `--storage-mode=hrtc`
 ## Hardware
 
 A consumer-grade laptop will be enough to run a full node, but not an archive node. An archive node does need 2+ TB of disk space, and that disk space cannot be HDD - it must be SSD for both full and archive nodes. Light nodes run fine on SD cards and HDDs.

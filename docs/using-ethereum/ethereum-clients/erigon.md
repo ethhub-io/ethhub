@@ -16,7 +16,7 @@ Erigon's biggest selling points are:
 * Staged Sync
     * Full Archive Node in less than 3 Days on NVMe (as of 2021-06-01)
 * More Modular Design
-    * Core/Execution
+    * Core & Execution
     * Peering (sentry) (coming soon)
     * JSON-RPC Server (rpcdaemon)
 * Selective Pruning with Storage-Mode:
@@ -60,17 +60,17 @@ cd erigon
 ./win-build.ps1
 ```
 
-Binaries should be available in the build/bin folder once build is complete if successful.
+Binaries should be available in the `build/bin` folder once build is complete if successful.
 
 ## Running
 
 At this time, Erigon only has one mode of operation and that is "Full Sync"
 
 There are 2 primary components to be concerned with at this time.
-1. erigon
+1. `erigon`
     * This is the core component that is responsible for downloading blocks and processing them
     * Eventually the peering will be removed into a separate process (sentry) but for now it's all in `erigon`
-2. rpcdaemon
+2. `rpcdaemon`
     * This is the JSON-RPC Server that lets you query the node for data
 
 ## Using
