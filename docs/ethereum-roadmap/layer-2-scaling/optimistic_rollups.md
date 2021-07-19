@@ -12,7 +12,7 @@ Optimistic Rollups (ORs) are one type of layer 2 constructions that do not run o
 The name Optimistic Rollups originates from how the solution works. 'Optimistic' is used because aggregators publish only the bare minimum information needed with no proofs, assuming the aggregators run without commiting frauds, and only providing proofs in case of fraud. 'Rollups' is used because transactions are commited to main chain in bundles (that is, they are rolled-up).
 
 ## A Simple Overview
-Much like most Layer-2 solutions, the funds transacted on Optimistic Rollups are stored in a smart-contract on Ethereum, where users deposit funds, aggregators sign up and fraud proofs are commited. The usual process one can interact with such solutions are as follows:
+Much like most Layer-2 solutions, the funds transacted on Optimistic Rollups are stored in a smart-contract on Ethereum, where users deposit funds, aggregators sign up and fraud proofs are committed. The usual process one can interact with such solutions are as follows:
 
 1. A user sends a deploy transaction of a smart contract off-chain to an aggregator (a block producer in this construction)
 
@@ -24,7 +24,7 @@ Much like most Layer-2 solutions, the funds transacted on Optimistic Rollups are
 
 5. Any user that sees an aggregator deploying an invalid state root (a state root created by including invalid transactions) can challenge that aggregator by posting the valid state root along with the merkle proofs required to prove it, slashing (removing a portion of the bond) and the aggregator that commited such fraud and any that built blocks on top of the fraudulent one and claiming those rewards.
 
-6. After an invalid block has been commited and a fraud proof is finalized, the chain in layer 2 can be rolled back and resume from the previous non-fraudelent block.
+6. After an invalid block has been committed and a fraud proof is finalized, the chain in layer 2 can be rolled back and resume from the previous non-fraudulent block.
 
 Note: Anyone can become an aggregator as long as they lock a bond in the smart contract.
 
