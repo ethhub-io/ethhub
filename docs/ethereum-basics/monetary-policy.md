@@ -1,29 +1,27 @@
 ---
 title: Ethereum’s Monetary Policy - EthHub
 
-description: A description of Ethereum’s monetary (issuance) policy in the past, present and future.
+description: A description of Ethereum’s monetary policy in the past, present and future.
 ---
 
 # Monetary Policy
 
-## Summary: Minimum Necessary Issuance
+## Deflationary Ether (aka Ultrasound Money)
 
-Ethereum's Monetary Policy is defined by the rewards that are paid out by the protocol at any given time. Ethereum's current yearly network issuance is approximately 4.5% with 2 Ether per block and an additional 1.75 Ether per uncle block \(plus fees\) being rewarded to miners.
+Ethereum's Monetary Policy has two distinct components with opposite effects. The first component is *issuance* and the second is *fee burning*. Issuance refers to the new Ether that is minted by the protocol on every block in order to reward proof-of-work miners and proof-of-stake validators for the security they provide to the Ethereum network. Therefore, issuance has an inflationary effect, as it increases the total supply of Ether. On the other hand, fee burning refers to the burning of most of the Ether that users pay via transaction fees for using Ethereum. Therefore, fee burning has a deflationary effect, as it decreases the total supply of Ether.
 
-Ethereum does not have a fixed supply because a fixed supply would also require a fixed security budget for the Ethereum network. Rather than arbitrarily fix Ethereum's security, Ethereum's monetary policy is best described as "minimum issuance to secure the network". 
+The goal of Ethereum's monetary policy has always been to reduce issuance to the minimum necessary to secure the network. This is commonly referred to as Minimum Necessary Issuance and was the pillar of Ethereum's monetary policy for several years. During that time, inflation was solely dictated by issuance, so the two terms were indistinguishable from each other. In order to minimize inflation, issuance has only gone down to the estimated minimun necessary to guarantee the network's security, and never increased throughout Ethereum's history. Nevertheless, with issuance as the only instrument for monetary policy, and limited by the need to pay for network security, inflation could only be reduced, but never eliminated.
 
-Ethereum has had a history of reducing issuance to these estimated minimums and the network has never increased issuance. The move to proof-of-stake is also part of Ethereum's effort to reduce issuance to minimum amounts without sacrificing security. 
+In the last two years, though, an Ethereum improvement porposal (EIP-1559) was researched, developed and recently launched to improve Ethereum's fee market. This EIP included a fee-burning mechanism, which gave Ethereum's monetary policy an instrument to offset issuance and potentially reverse inflation. Since then, the new goal of Ethereum's monetary policy has become to turn Ether into a deflationary asset. And, in fact, early fee burning data suggests that Ether will become net deflationary as soon as the proof-of-work network is removed and replaced by the proof-of-stake network, a move that was planned many years ago to drastically reduce issuance without sacrificing security (see The Merge below).
 
-Ethereum's minimum necessary issuance policy is enforced by a wide range of stakeholders within the ecosystem - including:
+Ethereum's monetary policy is strongly supported and enforced by a wide range of stakeholders within the ecosystem - including:
 
 * Developers
 * Community members
 * Ecosystem spokes/projects
-* Miners and other network participants
+* Validators and other network participants
 
 As Ethereum is a decentralized network, the Monetary Policy cannot be successfully modified unless there is overwhelming consensus from the aforementioned stakeholders. Ethereum follows an [off-chain governance](governance.md) process meaning that any and all decisions on changes to the network happen extra-protocol.
-
-That said, due to natural incentives, Ether's issuance is unlikely to ever increase unless the security of the network is at risk. Additionally, the upcoming Ethereum 2.0 proof-of-stake transition will progressively allow for a drastic reduction of Ether issuance while maintaining the same level of network security.
 
 ## Important Events
 
@@ -40,6 +38,19 @@ Every block produced on the Ethereum network has an associated block reward whic
 * Block 4,370,000 to 7,280,000: 3 Ether \(changed via [EIP-649](https://github.com/ethereum/EIPs/blob/master/EIPS/eip-649.md)\)
 * Block 7,280,000 to now: 2 Ether \(changed via [EIP-1234](https://github.com/ethereum/EIPs/blob/master/EIPS/eip-1234.md)\)
 
+**Beacon Chain Launch**  
+The Beacon Chain proof-of-stake network was launched in December 2020. Issuance on the Beacon Chain follows a sliding scale between total amount of Ether at stake and annual interest earned by stakers (or validators), as follows:
+
+| ETH validating | Max annual issuance | Max annual network issuance % | Max annual return rate  (for validators) |
+| :--- | :--- | :--- | :--- |
+| 1,000,000 | 181,019 | 0.17% | 18.10% |
+| 3,000,000 | 313,534 | 0.30% | 10.45% |
+| 10,000,000 | 572,433 | 0.54% | 5.72% |
+| 30,000,000 | 991,483 | 0.94% | 3.30% |
+| 100,000,000 | 1,810,193 | 1.71% | 1.81% |
+
+The Beacon Chain launch had the effect of a slight bump in issuance.
+
 **Other Events**  
 Issuance rate is also impacted by the speed of blocks. There have been a few other events in Ethereum's history which has impacted the issuance rate. Some planned and some not planned.
 
@@ -50,24 +61,13 @@ Issuance rate is also impacted by the speed of blocks. There have been a few oth
 * In early 2019, after a few months of difficulty bomb activation, the bomb was reset and block rewards were reduced from 3 to 2 in the Constantinople fork.
 * In early 2020, the Muir Glacier fork reset the difficulty bomb.
 
-### Proof of Stake Impact
+### Historical, Current and Future Supply Forecast
 
-According to the current [Eth 2.0 spec](https://github.com/ethereum/eth2.0-specs), issuance rate will be greatly reduced as a part of Proof of Stake. There will be a sliding scale between total amount of Ether at stake and annual interest earned by stakers. The current spec would produce the following annual interest and inflation numbers based on total network stake:
+Ether's yearly inflation rate currently hovers around 3%. This is calculated by subtracting burned fees from issuance. Ethereum's current yearly network issuance is approximately 4.6%, with 2 Ether per block and an additional 1.75 Ether per uncle block (plus fees) being rewarded to miners in the proof-of-work network, and ~1,130 Ether per day awarded to validators in the Beacon Chain proof-of-stake network. Meanwhile, the burned fees currently oscillate in the 4,000 to 6,000 Ether range, depending on gas prices. This amounts to a yearly reduction of Ether's supply by 1.5-1.6%.
 
-| ETH validating | Max annual issuance | Max annual network issuance % | Max annual return rate  (for validators) |
-| :--- | :--- | :--- | :--- |
-| 1,000,000 | 181,019 | 0.17% | 18.10% |
-| 3,000,000 | 313,534 | 0.30% | 10.45% |
-| 10,000,000 | 572,433 | 0.54% | 5.72% |
-| 30,000,000 | 991,483 | 0.94% | 3.30% |
-| 100,000,000 | 1,810,193 | 1.71% | 1.81% |
+There is one last major upgrade that will affect Ethereum's issuance rate and supply curve:
 
-### Historical and Future Supply Forecast
-
-There are two majors upcoming factors when it comes to Ethereum's issuance rate and supply curve. They are:
-
-* [Eth2 Phase 0](https://github.com/ethereum/eth2.0-specs/tree/dev/specs/phase0): Slight bump in issuance due to Beacon Chain launch.
-* [Eth2 Phase 1.5](https://github.com/ethereum/eth2.0-specs/tree/dev/specs/phase1): PoW rewards will be removed due to Eth1 PoW chain being [moved into a shard](https://docs.ethhub.io/ethereum-roadmap/ethereum-2.0/eth-1.0-to-2.0-migration/#new-proposal) on the Eth2 chain. This means that the only rewards on chain will be to PoS validators, using the chart above.
+* [The Merge](https://github.com/ethereum/EIPs/pull/3675): The proof-of-work network and all associated rewards will be removed and effectively replaced by the Beacon Chain through the migration of Ethereum's execution layer from the proof-of-work chain to the (now executable) Beacon Chain. This means that the only rewards on chain will go to proof-of-stake validators, which translates into a ~90% reduction in issuance.
 
 ![](/assets/images/issuance_graph.png)
 
