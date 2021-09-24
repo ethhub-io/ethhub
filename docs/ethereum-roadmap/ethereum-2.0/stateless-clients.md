@@ -28,7 +28,7 @@ State defines the values contained in a block at any given time.  The state of t
 
 ###  Account State
 
-The global "shared-state" is comprised of many objects called accounts.  Two types of accounts exist, externally owned and contract accounts.  Externally owned accounts are  controlled by private keys and have no code associate with them.  Contract accounts are controlled by their contract code and have code associated with them.
+The global "shared-state" is comprised of many objects called accounts.  Two types of accounts exist, externally owned and contract accounts.  Externally owned accounts are  controlled by private keys and have no code associated with them.  Contract accounts are controlled by their contract code and have code associated with them.
 
 Account state is further broken down into:
 
