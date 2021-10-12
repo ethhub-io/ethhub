@@ -41,7 +41,8 @@ The [TokenBridge](https://docs.tokenbridge.net/) application exemplifies this ar
 * [POA Network](https://poa.network)
 * [xDai Stable Chain](https://xdaichain.com)
 * [SKALE](https://skale.network/)
-* [Matic](https://matic.network/) 
+* [Matic](https://matic.network/)
+* [Fuse Network](https://fuse.io) 
 
 
 _Note on Private Sidechains:  Sidechains may also be deployed in an enterprise capacity designed for private smart contracts and internal transactions.
