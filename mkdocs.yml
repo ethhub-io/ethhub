@@ -235,6 +235,7 @@ nav:
     - 'Democracy Earth': 'built-on-ethereum/governance/democracy-earth.md'
     - 'Govblocks': 'built-on-ethereum/governance/govblocks.md'
   - Infrastructure:
+    - 'Alchemy': 'built-on-ethereum/infrastructure/alchemy.md'
     - 'QuikNode': 'built-on-ethereum/infrastructure/quiknode.md'
     - 'Chainstack': 'built-on-ethereum/infrastructure/chainstack.md'
     - '0xcert': 'built-on-ethereum/infrastructure/0xcert.md'
