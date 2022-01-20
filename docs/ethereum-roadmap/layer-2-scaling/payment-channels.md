@@ -12,7 +12,7 @@ Payment Channels are one implementation of State Channel technology. Payment cha
 
 ## Kchannels
 
-Kchannels is a new payment channel platform for Ethereum. It is non-custodial and trust-minimized, and its primary focus is on great UX.  It's avaiable on Mainnet and a number of testnets as well as on the Xdai Chain.
+Kchannels is a new payment channel platform for Ethereum. It is non-custodial and trust-minimized, and its primary focus is on great UX.  It's available on Mainnet and a number of testnets as well as on the Xdai Chain.
 
 Kchannels uses a powerful channel design:
 * a channel can hold multiple assets (and transfer multiple assets in a transaction)
