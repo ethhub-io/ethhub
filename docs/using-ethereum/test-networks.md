@@ -6,50 +6,40 @@ description: A list of all test networks currently live for Ethereum.
 
 # Test Networks
 
-## Ropsten
+## Sepolia
 
-### Summary
+The Sepolia test network is a proof-of-work testnet. This means it's the best like-for-like representation of Ethereum.
 
-The Ropsten test network is a Proof-of-Work testnet for Ethereum. To acquire ETH on Ropsten, one can mine on the network.
-
-### Resources
-
-* [Block Explorer](https://ropsten.etherscan.io/)
-
-## Kovan
-
-### Summary
-
-The Kovan test network is a Proof-of-Authority testnet for Ethereum, originally started by the Parity team. To acquire ETH on Kovan, one can request it from a faucet.
-
-### Resources
-
-* [Website](https://kovan-testnet.github.io/website/)  
-* [Block Explorer](https://kovan.etherscan.io/)  
-* [Faucet](https://faucet.kovan.network/)
-
-## Rinkeby
-
-### Summary
-
-The Rinkeby test network is a Proof-of-Authority testnet for Ethereum, originally started by the Geth team. To acquire ETH on Rinkeby, one can request it from a faucet.
-
-### Resources
-
-* [Website](https://www.rinkeby.io/#stats)
-* [Block Explorer](https://rinkeby.etherscan.io/)
-* [Faucet](https://faucet.rinkeby.io/)
+* [Website](https://sepolia.dev/)
+* [Github](https://github.com/goerli/sepolia)
+* [Etherscan](https://sepolia.etherscan.io/)
 
 ## Görli
 
-### Summary
-
-The Görli test network is a Proof-of-Authority testnet for Ethereum, originally proposed by Chainsafe and Afri Schoedon. To acquire ETH on Görli, one can use the one-way throttled bridge from any of the other three test networks.
-
-### Resources
+The Görli test network is a stable proof-of-authority testnet for Ethereum. This means it's the best for application developers.
 
 * [Website](https://goerli.net/)
-* [Block Explorer](https://goerli.etherscan.io/)
 * [GitHub](https://github.com/goerli/testnet)
-* [Testnet proposal](https://dev.to/5chdn/the-grli-testnet-proposal---a-call-for-participation-58pf)
+* [Etherscan](https://goerli.etherscan.io/)
 * [Ethstats for Görli](https://stats.goerli.net/)
+
+## Ropsten _(deprecated)_
+
+The Ropsten test network was a proof-of-work testnet for Ethereum. It was replaced by Sepolia in 2022.
+
+* [GitHub](https://github.com/ethereum/ropsten)
+* [Etherscan](https://ropsten.etherscan.io/)
+
+## Rinkeby _(deprecated)_
+
+The Rinkeby test network was a proof-of-authority testnet for Ethereum, originally started by the Geth team. It was abandoned in 2022 in favor of Goerli and Sepolia.
+
+* [Website](https://www.rinkeby.io/#stats)
+* [Etherscan](https://rinkeby.etherscan.io/)
+
+## Kovan _(deprecated)_
+
+The Kovan test network was a proof-of-authority testnet for Ethereum, originally started by the Parity team. It was abandoned in 2019 along with the Parity Ethereum client.
+
+* [Website](https://kovan-testnet.github.io/website/)  
+* [Etherscan](https://kovan.etherscan.io/)  
