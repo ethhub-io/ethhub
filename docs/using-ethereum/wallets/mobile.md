@@ -26,3 +26,4 @@ Phone and other mobile device-based wallets are mobile alternatives to desktop a
 * [Status](https://status.im/) - A free open-source, mobile OS for Ethereum
 * [Trust](https://trustwallet.com/) - Mobile wallet for ERC tokens
 * [WallETH](https://walleth.org) - Native Android Ethereum Wallet.
+* [Minke](https://www.minke.app) - Gasless DeFi wallet available on Polygon and Ethereum. Save with Aave, swap with 0x and more.
