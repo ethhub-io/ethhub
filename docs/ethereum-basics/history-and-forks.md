@@ -39,7 +39,7 @@ Ether was not usable or transferable until the launch of the genesis block which
 
 ## History Timeline
 
-For a digital history book on Ethereum, visit ["The History of Ethereum" timeline](https://thehistoryofethereum.com/).
+For a brief history of Ethereum, visit ["The History of Ethereum"](https://ethdocs.org/en/latest/introduction/history-of-ethereum.html#the-ethereum-frontier-launch).
 
 ## Resources
 
