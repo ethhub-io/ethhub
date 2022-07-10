@@ -8,13 +8,13 @@ description:  ZK-Rollups are a type of layer 2 construction that runs on top of 
 
 ## Background
 
-Plasma is the name given to the construction scalability method that places layer 2 blocks on top of the Ethereum blockchain in the form of a side chain.  The implementation of Plasma gives the ability of hundreds of side chain transactions to be processed offline with only a single hash of the side chain block being added to the Ethereum blockchain.  Fundamental flaws exist preventing further scalability.  An exit game must be played for a user to withdraw from the side chain which requires side chain users to retain a high amount of data so that enough exists for validation.  Also, a lengthy challenge period requires users to stay online or lose reward.  Solutions that are more user friendly and less resource intensive are in development to improve layer 2 scalability.  ZK-Rollups are one of the solutions in development to achieve this goal.
+Plasma is a construction scalability method that places layer 2 blocks on top of the Ethereum blockchain in the form of a side chain.  The implementation of Plasma enables hundreds of side chain transactions to be processed offline with only a single hash of the side chain block being added to the Ethereum blockchain.  Fundamental flaws exist preventing further scalability.  An exit game must be played for a user to withdraw from the side chain which requires side chain users to retain a high amount of data so that enough exists for validation.  Also, a lengthy challenge period requires users to stay online or lose their rewards.  More user friendly and less resource intensive solutions are in development to improve layer 2 scalability.
 
 ## Introduction
 
-ZK-Rollups are one of the options being developed for layer 2 construction that increases scalability through mass transfer processing rolled into a single transaction.  Where Plasma creates one transaction per transfer, ZK-Rollups bundle hundreds of transfers into a single transaction.  The smart contract will deconstruct and verify all of the transfers held in a single transaction.
+ZK-Rollups are one layer 2 construction option that increases scalability through mass transfer processing rolled into a single transaction.  Where Plasma creates one transaction per transfer, ZK-Rollups bundle hundreds of transfers into a single transaction.  The smart contract will deconstruct and verify all of the transfers held in a single transaction.
 
-A "zero knowledge proof" approach is used to present and publicly record the validity of the block on the Ethereum blockchain.  ZK reduces computing and storage resources for validating the block by reducing the amount of data held in a transaction; zero knowledge of the entire data is needed.  
+A "zero knowledge proof" approach is used to present and publicly record the validity of the block on the Ethereum blockchain.  ZK reduces computing and storage resources for validating the block by reducing the amount of data held in a transaction. Zero knowledge of the entire data is needed.  
 
 ## Simple Overview
 
@@ -48,6 +48,7 @@ Cons:
 ## Example
 
 * [zkSync](https://zksync.io) is a ZK-Rollup live on Ethereum mainnet.
+* [Scroll](https://scroll.io/) is a ZK-Rollup in active development.
 
 ## Security Considerations
 
