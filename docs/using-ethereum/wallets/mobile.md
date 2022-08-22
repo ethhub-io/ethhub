@@ -26,3 +26,4 @@ Phone and other mobile device-based wallets are mobile alternatives to desktop a
 * [Status](https://status.im/) - A free open-source, mobile OS for Ethereum
 * [Trust](https://trustwallet.com/) - Mobile wallet for ERC tokens
 * [WallETH](https://walleth.org) - Native Android Ethereum Wallet.
+* [Zerion Wallet](https://zerion.io/) - Smart, social wallet for Web3
