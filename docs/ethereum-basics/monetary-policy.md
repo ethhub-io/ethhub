@@ -41,7 +41,7 @@ Every block produced on the Ethereum network has an associated block reward whic
 * Block 7,280,000 to now: 2 Ether \(changed via [EIP-1234](https://github.com/ethereum/EIPs/blob/master/EIPS/eip-1234.md)\)
 
 **Other Events**  
-Issuance rate is also impacted by the speed of blocks. There have been a few other events in Ethereum's history which has impacted the issuance rate. Some planned and some not planned.
+Issuance rate is also impacted by the speed of blocks. There have been a few other events in Ethereum's history which have impacted the issuance rate. Some planned and some not planned.
 
 * The Homestead fork in March 2016 saw a decrease in block times and therefore a temporary increase in issuance rate.
 * In late 2016, the network was under DDoS attack. This increased the uncle rate, therefore causing a temporary rise in issuance rate.
@@ -64,7 +64,7 @@ According to the current [Eth 2.0 spec](https://github.com/ethereum/eth2.0-specs
 
 ### Historical and Future Supply Forecast
 
-There are two majors upcoming factors when it comes to Ethereum's issuance rate and supply curve. They are:
+There are two major upcoming factors when it comes to Ethereum's issuance rate and supply curve. They are:
 
 * [Eth2 Phase 0](https://github.com/ethereum/eth2.0-specs/tree/dev/specs/phase0): Slight bump in issuance due to Beacon Chain launch.
 * [Eth2 Phase 1.5](https://github.com/ethereum/eth2.0-specs/tree/dev/specs/phase1): PoW rewards will be removed due to Eth1 PoW chain being [moved into a shard](https://docs.ethhub.io/ethereum-roadmap/ethereum-2.0/eth-1.0-to-2.0-migration/#new-proposal) on the Eth2 chain. This means that the only rewards on chain will be to PoS validators, using the chart above.
