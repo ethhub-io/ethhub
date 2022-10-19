@@ -40,7 +40,7 @@ In Proof of Work systems, miners compete with each other to find a block and thu
 
 It would currently cost an individual or group a large amount of money to successfully attack or take control of either the Bitcoin or Ethereum PoW blockchains
 
-When Ethereum transitions to Proof of stake under Ethereum 2.0, it is expected that users will be able to stake 32 Ether per validator and receive rewards for their work in the form of additional Ether \(at a dynamic issuance rate , discussed later in this essay\).
+When Ethereum transitions to Proof of stake under Ethereum 2.0, it is expected that users will be able to stake 32 Ether per validator and receive rewards for their work in the form of additional Ether \(at a dynamic issuance rate, discussed later in this essay\).
 
 Under Proof of Stake, the cost of attacking Ethereum will be tied to the cost of Ether. Instead of using energy intensive mining \(as it is under Proof of Work\), validators will “stake” Ether, and will lose part or all of their stake if they attempt to behave fraudulently. The more validators with staked Ether securing the network, the more Ether an attacker would need to purchase in order to carry out an attack. Such an attack would likely rapidly increase the price of Ether and thus make it prohibitively more expensive for the attacker.
 
