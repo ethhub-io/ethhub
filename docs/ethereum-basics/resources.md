@@ -122,6 +122,22 @@ description: A list of essential Ethereum resources.
 
 ### Ethereum Tools
 
+#### Dapp Tooling
+
+- [Alchemy](https://www.alchemy.com/)
+- [ethers.js](https://docs.ethers.io/v5/)
+- [Hardhat](https://hardhat.org/tutorial/deploying-to-a-live-network)
+- [Solidity](https://soliditylang.org/)
+- [Truffle](https://trufflesuite.com/guides/web3-development-stack/)
+
+#### Developer Docs & Tutorials
+
+- [Alchemy University](https://university.alchemy.com/#starter_code)
+- [Chainlink](https://blog.chain.link/learn-blockchain-full-stack-web3-javascript-smart-contract-development/)
+- [Ethereum StackExchange](https://ethereum.stackexchange.com/)
+- [Nader Dabit](https://naderdabit.notion.site/Nader-s-web3-Resources-for-Developers)
+- [Web3 University](https://www.web3.university/)
+
 #### Block Explorers
 
 * [Etherscan](https://etherscan.io/)
