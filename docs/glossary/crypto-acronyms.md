@@ -9,9 +9,14 @@ description: A list of commonly used acronyms for crypto and blockchain.
 * PoW - Proof of Work
 * PoS - Proof of Stake
 * PoA - Proof of Authority
+* PoH - Proof of History
+* PoET - Proof of Elapsed Time
+* PoB - Proof of Burn
+* PoC -  Proof of Capacity 
 * DPoS - Delegated Proof of Stake
 * LPoS - Liquid Proof of Stake
 * NPoS - Nominated Proof of Stake
+* OCA - Obelisk Consensus Algorithm
 * BFT - Byzantine Fault Tolerance
 * dBFT - Delegated Byzantine Fault Tolerance
 * pBFT - Practical Byzantine Fault Tolerance
