@@ -28,6 +28,11 @@ Kraken is a great option for those living in Canada, Europe, and the United Stat
 
 [Buy ETH on Kraken](https://r.kraken.com/nYdo7)
 
+## Gate.io
+Gate.io is a full-service digital asset exchange platform [covering](https://www.gate.io/about-us) millions of users around the world. The company prides itself on providing industry-leading security in addition to having been audited to show 100% proof of reserves. Users can buy ETH with debit/credit card, P2P transfer, fiat or cryptocurrencies.
+
+[Buy ETH on Gate.io](https://www.gate.io/trade/ETH_USDT)
+
 ## LocalCryptos
 LocalCryptos is a global, p2p marketplace for buying and selling ETH. Over 30 payment methods are supported including in-person cash trades.
 
