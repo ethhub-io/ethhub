@@ -1,0 +1,13 @@
+title: ERC4626  - EthHub
+
+description: ERC4626 is a tokenized vault standard designed to optimize  the technical parameters of yield-bearing vaults.
+
+#ERC4626
+
+##Summary
+A tokenize standard for managing yeild bearing vaults process. This standard also allows Developers to create shared interfaces for the tokens in the vaulting process.
+The ERC-4626 token standard is an interface that extends the existing ERC-20, hence the participating tokens must comply with ERC-20 token standard. the token also offers basic functionality such as reading balance, depositing, withdrawing.
+
+Motivation
+The ERC-4626 standard was issued through the Ethereum Improvement Proposals and co-created by Joey Santoro. The ERC-4626 differ from ERC-721 in fungibility; While the former deals with fungible tokens, the latter deals with NFTs (Non-Fungible Tokens).
+The ERC-4626 token vaults was developed to lower the integration effort and unlock access to yield in various applications.
