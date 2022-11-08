@@ -11,3 +11,9 @@ The ERC-4626 token standard is an interface that extends the existing ERC-20, he
 Motivation
 The ERC-4626 standard was issued through the Ethereum Improvement Proposals and co-created by Joey Santoro. The ERC-4626 differ from ERC-721 in fungibility; While the former deals with fungible tokens, the latter deals with NFTs (Non-Fungible Tokens).
 The ERC-4626 token vaults was developed to lower the integration effort and unlock access to yield in various applications.
+
+
+## Resources
+
+* [Ethereum.org](https://ethereum.org/en/developers/docs/standards/tokens/)
+* [Gate.io](https://www.gate.io/blog_detail/920/What-is-ERC-4626)
