@@ -23,7 +23,7 @@ Web wallets are wallets hosted on a website, they may be custodial or act as an 
 ## Wallets
 
 * [Metamask](https://metamask.io/) - Chrome extension Ether wallet with ERC tokens support
-* [Coinbase Wallet](https://wallet.coinbase.com/) - A self-custody crypto wallet browser extension that lets you take control of your crypto, NFTs, DeFi activity, and digital assets.
+* [Coinbase Wallet](https://wallet.coinbase.com/) - A self-custody, browser extension crypto wallet that lets you take control of your crypto, NFTs, DeFi activity, and digital assets.
 * [MyEtherWallet](https://github.com/MyEtherWallet) - Open-source [tool](https://www.myetherwallet.com/) for interacting with the blockchains easily & securely
 * [MyCrypto](https://github.com/MyCryptoHQ) - Open-source, client-side [tool](https://mycrypto.com/account) for generating ether wallets, handling ERC-20 tokens, and interacting with the blockchain more easily
 * [Torus](https://tor.us/) - OAuth Single-sign ons to Dapps with email (and other) account resolvers
