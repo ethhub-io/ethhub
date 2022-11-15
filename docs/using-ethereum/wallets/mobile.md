@@ -16,7 +16,7 @@ Phone and other mobile device-based wallets are mobile alternatives to desktop a
 * [Argent](https://www.argent.xyz/) - No transaction fee wallet
 * [Atomic Wallet](https://atomicwallet.io) - a new multiple currency Android and iOS wallet that allows you to manage Bitcoin, Ethereum, XRP and over 300 coins and tokens easily.
 * [Coinomi](https://www.coinomi.com/en/) - Multicurrency wallet
-* [Coinbase Wallet](https://wallet.coinbase.com/)
+* [Coinbase Wallet](https://wallet.coinbase.com/) - A self-custody, mobile crypto wallet and web3 dapp browser that lets you take control of your crypto, NFTs, DeFi activity, and digital assets.
 * [Eidoo](https://eidoo.io/) - Multicurrency and Multiplatform wallet with a DEX and a DeFI gateway
 * [Gnosis Safe Mobile](https://gnosis-safe.io/#mobile) - A companion app for Gnosis Safe Multisig
 * [imToken](https://token.im/) - Feature-rich digital asset mobile wallet enabling multi-chain asset management, DApp browsing and secure, private exchange of value.
