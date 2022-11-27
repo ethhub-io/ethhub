@@ -23,3 +23,4 @@ Smart contract wallets are wallets with unique abilities due to the power of sma
 * [Gnosis Safe](https://gnosis-safe.io) - The Gnosis Safe aims to provide all users with a convenient, yet secure way to manage their funds and interact with decentralized applications on Ethereum.
 * [Argent](https://www.argent.xyz/) - Enjoy the future of the web with the first smart wallet for Ethereum-based cryptocurrencies and apps.
 * [Authereum](https://authereum.com/) - Authereum is a wallet provider and dapp login solution that uses contract based accounts, meta transactions, Ethereum Name Service and more to provide a seamless onboarding experience that users are familiar with.
+* [Ambire](https://www.ambire.com) - Ambire is a web-based retail-focused smart contract wallet focused on ease of use, with extra features such as connecting to dApps with WalletConnect, built-in swap & cross-chain transfers, paying gas in stablecoins and others.
