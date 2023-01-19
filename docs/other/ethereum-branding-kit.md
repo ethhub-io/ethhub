@@ -12,4 +12,4 @@ The following branding kits are built by the Ethereum community for Ethereum bas
 
 [These logos](https://github.com/ethhub-io/ethhub/tree/master/docs/assets/files/builtoneth_branding) should be used on websites of applications or products that are built on Ethereum.
 
-![](/assets/images/built_on_ethereum.png)
+![](/docs/assets/images/built_on_ethereum.png)

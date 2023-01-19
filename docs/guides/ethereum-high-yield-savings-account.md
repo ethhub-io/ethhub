@@ -32,11 +32,11 @@ At this point you're ready to start earning interest on your stablecoin.
 
 The website to interact with the Maker protocol is called Oasis. [Navigate](https://oasis.app/save) to the save section and you will be presented with the current APR%. Follow the guide to deposit your Dai and your savings account will then be open:
 
-![](/assets/images/dsr.png)  
+![](/docs/assets/images/dsr.png)  
 
 Below is an image from Maker on how the mechanism functions:
 
-![](/assets/images/dsr_guide.png) 
+![](/docs/assets/images/dsr_guide.png) 
 
 Now you can watch your interest earned count up in real time and withdraw at any point.
 

@@ -3,7 +3,7 @@ title: Chainlink - EthHub
 description: Chainlink is a decentralized oracle powering smart contracts by allowing them to connect to any api, piece of data, random numbers, or timed functions in a secure, reliable, decentralized manner.  
 
 # Chainlink 
-![Chainlink Logo](../../assets/images/chainlink_logo.png)
+![Chainlink Logo](../../docs/assets/images/chainlink_logo.png)
 
 ## Summary
 
@@ -17,7 +17,7 @@ Each decentralized oracle network consists of a collection of independent node o
 
 You can take advantage of existing oracle networks, such as the Price Reference Data feeds for DeFi, providing highly accurate market prices, or you can build your own oracle network and external adaptor.
 
-![Ethereum Oracle](../../assets/images/ethereum_oracle.png)
+![Ethereum Oracle](../../docs/assets/images/ethereum_oracle.png)
 
 Chainlink currently provides decentralization at both the oracle and data source level. By using multiple independent Chainlink nodes, the user can protect against one oracle being a single point of failure. Similarly, using multiple data sources for sourcing market prices, the user can protect against one data source being a single source of truth. Both of these ensure that the oracle mechanism triggering your important smart contract is as secure and reliable as the underlying blockchain.
 

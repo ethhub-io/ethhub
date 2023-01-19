@@ -32,7 +32,7 @@ Every Ethereum account can be restored via a random string of words. In the Meta
 
 We recommend downloading [Coinbase Wallet](https://wallet.coinbase.com/), clicking restore and typing in your seed phrase. Your wallet is now also mobilized!
 
-![](/assets/images/coinbase_wallet_setup.png)
+![](/docs/assets/images/coinbase_wallet_setup.png)
 
 ## Try Ethereum Applications
 

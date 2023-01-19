@@ -28,7 +28,7 @@ After the state deposit is locked, channel participants use off-chain messaging 
 
 A basic breakdown:
 
-![](/assets/images/state_chans.png)
+![](/docs/assets/images/state_chans.png)
 
 1. Part of the blockchain state is locked via multisignature or some sort of smart contract, so that a specific set of participants must completely agree with each other to update it.
 2. Participants update the state amongst themselves by constructing and signing transactions that could be submitted to the blockchain, but instead are merely held onto for now. Each new update “trumps” previous updates.

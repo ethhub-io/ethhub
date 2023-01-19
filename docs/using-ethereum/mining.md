@@ -36,7 +36,7 @@ See [Serenity phases](https://docs.ethhub.io/ethereum-roadmap/ethereum-2.0/eth-2
 
 ## Block structure
 
-![Diagram of an Ethereum Block](/assets/images/blocks.png)
+![Diagram of an Ethereum Block](/docs/assets/images/blocks.png)
 
 A block consists a header, which includes information identifying the block and linking it to the rest of the chain, and a body of transactions. Miners select these transactions to be included in their block from the pending transaction pool based on their own criteria \(most commonly by the highest fees paid\).
 

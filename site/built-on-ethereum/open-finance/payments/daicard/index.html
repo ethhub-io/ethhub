@@ -33,7 +33,7 @@
       
         <meta name="lang:search.tokenizer" content="[\s\-]+">
       
-      <link rel="shortcut icon" href="../../../../assets/images/favicon.ico">
+      <link rel="shortcut icon" href="../../../../docs/assets/images/favicon.ico">
       <meta name="generator" content="mkdocs-1.0.4, mkdocs-material-3.3.0">
     
     
@@ -4546,22 +4546,22 @@
                 <h1 id="the-dai-card">The Dai Card</h1>
 <h2 id="summary">Summary</h2>
 <p><a href="https://daicard.io">Dai Card</a> is a Dai payment channel solution created by <a href="https://connext.network/">Connext</a>. The Dai Card uses  payment channel hubs - a L2 solution built on top of Ethereum - to allow for instant and micro-fee transactions for users and developers.</p>
-<p><img alt="" src="/docs/assets/images/daicard_splash.png" /></p>
+<p><img alt="" src="/docs/docs/assets/images/daicard_splash.png" /></p>
 <h2 id="how-to-use-the-dai-card">How to Use the Dai Card</h2>
 <h3 id="getting-funds">Getting Funds</h3>
 <p>There are multiple ways to get funds onto your Dai Card. The first is to directly send funds (i.e. "deposit") to the Dai Card's address. You can deposit either ETH or Dai. If you deposit ETH, it will be instantly and automatically swapped into Dai at the current Eth-Dai price.</p>
 <p>Note: the beta version of the Dai Card imposes a $30 limit and will refund any deposits above this amount.</p>
-<p><img alt="" src="/docs/assets/images/daicard_deposit.png" /></p>
+<p><img alt="" src="/docs/docs/assets/images/daicard_deposit.png" /></p>
 <p>You can also request funds from someone else who is already using a Dai Card. This can be done by clicking the request button and entering in how much you’d like to request. A link will be generated and can be sent to the person you want to request from. The first transaction that is sent to your Card will take some extra time to execute. This is because, in the background, an onchain transaction is being done to set up your Card.</p>
-<p><img alt="" src="/docs/assets/images/daicard_request.png" /></p>
+<p><img alt="" src="/docs/docs/assets/images/daicard_request.png" /></p>
 <h3 id="sending-funds">Sending Funds</h3>
 <p>There are two different ways to send funds. If the receiver already has a Dai Card and you know their address, then it’s best to just use the simple send functionality.</p>
 <p>If the receiver has never used a Dai Card before, you can use a Link payment instead. Link payments generate an unspent payment object which can be "claimed" by the recipient that produces the correct secret. Note that the link generated here contains the secret to redeem funds in plaintext, so you should be careful with it.</p>
-<p><img alt="" src="/docs/assets/images/daicard_send.png" /></p>
+<p><img alt="" src="/docs/docs/assets/images/daicard_send.png" /></p>
 <h3 id="settings">Settings</h3>
 <p>It’s possible to backup your Card's seed and restore it in any browser, at any time. </p>
 <p>You can also restore this seed in other wallets such as Metamask, MyCrypto or TrustWallet. However, this will not give you access to the channel funds themselves, only the signing key used to control those funds.</p>
-<p><img alt="" src="/docs/assets/images/daicard_settings.png" /></p>
+<p><img alt="" src="/docs/docs/assets/images/daicard_settings.png" /></p>
 <h2 id="faq">FAQ</h2>
 <p><strong>When I deposit ETH into a Card and I receive Dai, is the ETH being automatically sold to Connext?</strong></p>
 <p>A: Yes. Connext's payment channel hub automatically swaps any ETH for Dai that you deposit at market price. The swapped ETH then goes into the hub's collateral reserves, which is used either when users "cash out" in Eth or when more Dai needs to be bought by the Connext team.</p>

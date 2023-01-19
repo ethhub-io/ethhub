@@ -69,7 +69,7 @@ There are two majors upcoming factors when it comes to Ethereum's issuance rate 
 * [Eth2 Phase 0](https://github.com/ethereum/eth2.0-specs/tree/dev/specs/phase0): Slight bump in issuance due to Beacon Chain launch.
 * [Eth2 Phase 1.5](https://github.com/ethereum/eth2.0-specs/tree/dev/specs/phase1): PoW rewards will be removed due to Eth1 PoW chain being [moved into a shard](https://docs.ethhub.io/ethereum-roadmap/ethereum-2.0/eth-1.0-to-2.0-migration/#new-proposal) on the Eth2 chain. This means that the only rewards on chain will be to PoS validators, using the chart above.
 
-![](/assets/images/issuance_graph.png)
+![](/docs/assets/images/issuance_graph.png)
 
 ## Resources
 * [Ethereum issuance reduction process explained](https://twitter.com/sassal0x/status/1086023932514189312)

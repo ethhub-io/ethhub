@@ -18,7 +18,7 @@ Each reserve is a smart contract that is controlled by reserve admin who deploye
 
 ## Interface
 
-![](/docs/assets/images/kyber.png)
+![](/docs/docs/assets/images/kyber.png)
 
 ## Resources
 
