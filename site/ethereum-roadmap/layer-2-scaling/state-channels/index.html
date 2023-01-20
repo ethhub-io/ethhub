@@ -33,7 +33,7 @@
       
         <meta name="lang:search.tokenizer" content="[\s\-]+">
       
-      <link rel="shortcut icon" href="../../../assets/images/favicon.ico">
+      <link rel="shortcut icon" href="../../../docs/assets/images/favicon.ico">
       <meta name="generator" content="mkdocs-1.0.4, mkdocs-material-3.3.0">
     
     
@@ -3565,7 +3565,7 @@
 <p>State channels work by “locking up” some portion of blockchain state into a multisig contract, controlled by a defined set of participants. The state that is “locked up” is called a state deposit. For instance, this might be an amount of ether or an ERC20 token, but could also be a cryptokitty or an ENS domain name.</p>
 <p>After the state deposit is locked, channel participants use off-chain messaging to exchange and sign valid ethereum transactions without deploying them to chain. These are transactions that could be put on chain anytime, but are not.</p>
 <p>A basic breakdown:</p>
-<p><img alt="" src="/assets/images/state_chans.png" /></p>
+<p><img alt="" src="/docs/assets/images/state_chans.png" /></p>
 <ol>
 <li>Part of the blockchain state is locked via multisignature or some sort of smart contract, so that a specific set of participants must completely agree with each other to update it.</li>
 <li>Participants update the state amongst themselves by constructing and signing transactions that could be submitted to the blockchain, but instead are merely held onto for now. Each new update “trumps” previous updates.</li>

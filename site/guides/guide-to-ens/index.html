@@ -33,7 +33,7 @@
       
         <meta name="lang:search.tokenizer" content="[\s\-]+">
       
-      <link rel="shortcut icon" href="../../assets/images/favicon.ico">
+      <link rel="shortcut icon" href="../../docs/assets/images/favicon.ico">
       <meta name="generator" content="mkdocs-1.0.4, mkdocs-material-3.3.0">
     
     
@@ -4625,10 +4625,10 @@
 </ol>
 <h3 id="creating-and-managing-domains">Creating and Managing Domains</h3>
 <p>Registering a domain is extremely easy using the <a href="https://app.ens.domains/">ENS app</a>. First search for the ENS name that you'd like. If it is not taken (if it is, head over to <a href="https://opensea.io/assets/ens">OpenSea</a> and search for it), you will be presented with this screen.</p>
-<p><img alt="" src="/assets/images/ens_register.png" /></p>
+<p><img alt="" src="/docs/assets/images/ens_register.png" /></p>
 <p>Once here you can click request to register which will trigger a transaction, wait 1 minute and then you can register the name. It's now yours.</p>
 <p>Now that you own a .eth domain, you want to enable all the cool features that it offers. This starts on the domain management screen.</p>
-<p><img alt="" src="/assets/images/ens_manage.png" /></p>
+<p><img alt="" src="/docs/assets/images/ens_manage.png" /></p>
 <p>There is a lot going on so let's put all of the pieces together:</p>
 <ul>
 <li>Registrant: can set the controller address, and transfer the registration to someone else. This is the ultimate owner.</li>
@@ -4638,15 +4638,15 @@
 <li>Records: this is where you can add the cool stuff to your domain. Put an address here so that when you put your domain name in a wallet, it points to this address. You can also put an IPFS content hash which when going to your domain in a web browser will pull up your website.</li>
 </ul>
 <p>Once you set an Ethereum address in the address field, it will resolve in wallets such as MetaMask.</p>
-<p><img alt="" src="/assets/images/ens_metamask.png" /></p>
+<p><img alt="" src="/docs/assets/images/ens_metamask.png" /></p>
 <p>And if you point it to an IPFS hash, you can pull up the domain at ethhub.eth/ or ethhub.eth.link for browsers that don't resolve ENS names.</p>
 <h2 id="subdomains">Subdomains</h2>
 <p>Subdomains offer great flexibility for building on top of .eth domains. If you are a company such as Maker and want to issue all your employees maker.eth subdomains, this is very easy to do. This section will cover both creating subdomains on a domain you own and unique ways of allowing others to buy subdomains on a domain you own.</p>
 <h3 id="creating-and-managing-subdomains">Creating and Managing Subdomains</h3>
 <p>If you own a .eth domain and simply want to create subdomains for your own use, the easiest way to do this is through the ENS app by clicking on the Subdomains button. This is where you can add new subdomains.</p>
-<p><img alt="" src="/assets/images/ens_submanage.png" /></p>
+<p><img alt="" src="/docs/assets/images/ens_submanage.png" /></p>
 <p>Once subdomains are setup, they act very similar to domains in that the owner can control them and setup records. That means something like eric.ethhub.eth can also resolve to an address and an IPFS website.</p>
-<p><img alt="" src="/assets/images/ens_submanage2.png" /></p>
+<p><img alt="" src="/docs/assets/images/ens_submanage2.png" /></p>
 <h3 id="allowing-anyone-to-claim-subdomains-on-your-eth-domain">Allowing Anyone to Claim Subdomains on your .eth Domain</h3>
 <p>All of the above is being done by the registrant of the .eth domain. They are the one setting up the subdomains and have ultimate control over them, including being able to revoke them. This is fine for a company or someone that wants full control over the subdomains but what if you want anyone in the world to be able to claim a subdomain on your domain? You obviously don't want to have to coordinate with them and they won't want you to be able to revoke access. The good news is there is a solution that easily allows you to open up registration of subdomains on your domain. You can even set a price at which you'd like to sell them.</p>
 <p>Doing this starts with turning control of your domain over to the <a href="https://github.com/ensdomains/subdomain-registrar">ENS Subdomain Registrar contract</a>. This means that the contract is able to distribute out subdomains to people but you no longer can revoke access to those subdomains. The steps at the moment are fairly manual but also easy. Nick Johnson lays out the steps well in this <a href="https://medium.com/the-ethereum-name-service/migrating-your-ensnow-domains-to-the-new-registrar-c0085eaaeff2">ENSNow domains post</a> so I'm going to just put them here:</p>
@@ -4677,7 +4677,7 @@
 <li>Click on 'Pull requests', then 'New pull request'.</li>
 <li>Click on 'Create pull request'.</li>
 </ol>
-<p><img alt="" src="/assets/images/ensnow.png" /></p>
+<p><img alt="" src="/docs/assets/images/ensnow.png" /></p>
 <h3 id="hosting-your-own-subdomain-sale-site">Hosting Your Own Subdomain Sale Site</h3>
 <p>ENSNow is great and easy, but the list of domains supported there is rather long and you cannot specifically brand your own domain. So, if you'd like to setup a site that only lists your domain and allows you to customize it, that is possible as well. A good example of this is a site I'm running called <a href="https://ethmojis.com/">Ethmojis</a>.</p>
 <p>The best place to start is on the <a href="https://github.com/ensdomains/subdomain-registrar">Subdomain Registrar GitHub page</a>. They have a "getting started" section which tells you how to run it but I'll try to summarize the steps up as best as I can below</p>
@@ -4697,7 +4697,7 @@ npm run dev</code></li>
 <li>A build folder should be created and files output here. This is your final site that you can upload to a web server or IPFS.</li>
 </ol>
 <p>To host on <a href="https://docs.ipfs.io/introduction/usage/">IPFS</a>, upload the entire build folder and get your content hash. You can then put this content hash in the "records" section of any ENS domain or subdomain! Here's an example of how it will look:</p>
-<p><img alt="" src="/assets/images/ethmojis.png" /></p>
+<p><img alt="" src="/docs/assets/images/ethmojis.png" /></p>
 <p>Congrats, you are now an expert on the Ethereum Name Service!</p>
                 
                   

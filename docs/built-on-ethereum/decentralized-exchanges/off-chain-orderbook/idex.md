@@ -10,7 +10,7 @@ IDEX is a decentralized exchange. It processes orders in a centralized order boo
 
 ## Interface
 
-![](/assets/images/idex.png)
+![](/docs/assets/images/idex.png)
 
 ## Important Links
 

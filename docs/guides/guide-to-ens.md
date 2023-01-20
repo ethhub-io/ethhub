@@ -16,13 +16,13 @@ The core functionality of the ENS is registering .eth domains. There are a few 
 ### Creating and Managing Domains
 Registering a domain is extremely easy using the [ENS app](https://app.ens.domains/). First search for the ENS name that you'd like. If it is not taken (if it is, head over to [OpenSea](https://opensea.io/assets/ens) and search for it), you will be presented with this screen.
 
-![](/assets/images/ens_register.png)
+![](/docs/assets/images/ens_register.png)
 
 Once here you can click request to register which will trigger a transaction, wait 1 minute and then you can register the name. It's now yours.
 
 Now that you own a .eth domain, you want to enable all the cool features that it offers. This starts on the domain management screen.
 
-![](/assets/images/ens_manage.png)
+![](/docs/assets/images/ens_manage.png)
 
 There is a lot going on so let's put all of the pieces together:
 
@@ -34,7 +34,7 @@ There is a lot going on so let's put all of the pieces together:
 
 Once you set an Ethereum address in the address field, it will resolve in wallets such as MetaMask.
 
-![](/assets/images/ens_metamask.png)
+![](/docs/assets/images/ens_metamask.png)
 
 And if you point it to an IPFS hash, you can pull up the domain at ethhub.eth/ or ethhub.eth.link for browsers that don't resolve ENS names.
 
@@ -44,11 +44,11 @@ Subdomains offer great flexibility for building on top of .eth domains. If you 
 ### Creating and Managing Subdomains
 If you own a .eth domain and simply want to create subdomains for your own use, the easiest way to do this is through the ENS app by clicking on the Subdomains button. This is where you can add new subdomains.
 
-![](/assets/images/ens_submanage.png)
+![](/docs/assets/images/ens_submanage.png)
 
 Once subdomains are setup, they act very similar to domains in that the owner can control them and setup records. That means something like eric.ethhub.eth can also resolve to an address and an IPFS website.
 
-![](/assets/images/ens_submanage2.png)
+![](/docs/assets/images/ens_submanage2.png)
 
 ### Allowing Anyone to Claim Subdomains on your .eth Domain
 All of the above is being done by the registrant of the .eth domain. They are the one setting up the subdomains and have ultimate control over them, including being able to revoke them. This is fine for a company or someone that wants full control over the subdomains but what if you want anyone in the world to be able to claim a subdomain on your domain? You obviously don't want to have to coordinate with them and they won't want you to be able to revoke access. The good news is there is a solution that easily allows you to open up registration of subdomains on your domain. You can even set a price at which you'd like to sell them.
@@ -83,7 +83,7 @@ The ENS team has setup a [website](https://now.ens.domains/) which allows for cl
 7. Click on 'Pull requests', then 'New pull request'.
 8. Click on 'Create pull request'.
 
-![](/assets/images/ensnow.png)
+![](/docs/assets/images/ensnow.png)
 
 ### Hosting Your Own Subdomain Sale Site
 ENSNow is great and easy, but the list of domains supported there is rather long and you cannot specifically brand your own domain. So, if you'd like to setup a site that only lists your domain and allows you to customize it, that is possible as well. A good example of this is a site I'm running called [Ethmojis](https://ethmojis.com/).
@@ -106,6 +106,6 @@ npm run dev```
 
 To host on [IPFS](https://docs.ipfs.io/introduction/usage/), upload the entire build folder and get your content hash. You can then put this content hash in the "records" section of any ENS domain or subdomain! Here's an example of how it will look:
 
-![](/assets/images/ethmojis.png)
+![](/docs/assets/images/ethmojis.png)
 
 Congrats, you are now an expert on the Ethereum Name Service!

@@ -40,7 +40,7 @@ Burning is the action of redeeming Bitcoin for WBTC tokens, and only merchant ad
 
 ## Partners
 
-![](/assets/images/wbtcpartners.png)
+![](/docs/assets/images/wbtcpartners.png)
 
 ## Resources
 

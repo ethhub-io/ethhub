@@ -34,7 +34,7 @@ The Raiden Network is an off-chain scaling solution for performing ERC20-complia
 
 The Raiden Network allows secure transfers of tokens between participants without the need for global consensus. This is achieved using digitally signed and hash-locked transfers, called balance proofs, fully collateralized by previously setup on-chain deposits. This concept, illustrated below, is known as payment channel technology.
 
-![](/assets/images/payment_chans.png)
+![](/docs/assets/images/payment_chans.png)
 
 The true strength of Raiden lies in its network protocol. Since opening and closing a payment channel between two peers still requires on-chain transactions, creating channels between all possible peers becomes infeasible. As it turns out, however, you do not need a direct payment channel between a payer and a payee if there exists at least one route through a network of channels that connects the two parties, as shown in figure 2. This network and its associated protocol for routing and interlocking channel transfers is called the Raiden Network.
 

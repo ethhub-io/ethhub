@@ -20,10 +20,10 @@ Since 28.June 2019 dxDAO is owner of the DutchX protocol governed be reputation 
 ## Interface examples
 
 Sellers:
-![](/assets/images/slowtrade.png)
+![](/docs/assets/images/slowtrade.png)
 
 Buyers:
-![](/assets/images/fairdex.png)
+![](/docs/assets/images/fairdex.png)
 
 ## Resources
 

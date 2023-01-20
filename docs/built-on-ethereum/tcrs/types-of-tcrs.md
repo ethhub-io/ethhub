@@ -6,27 +6,27 @@ description: Examples of the different types of Token Curated Registries.
 
 ## Unordered TCR
 
-![](/assets/images/unordered_tcr.png)
+![](/docs/assets/images/unordered_tcr.png)
 
 ## Ordered TCR
 
-![](/assets/images/ordered_tcr.png)
+![](/docs/assets/images/ordered_tcr.png)
 
 ## Graded TCR
 
-![](/assets/images/graded_tcr.png)
+![](/docs/assets/images/graded_tcr.png)
 
 ## Layered TCR
 
-![](/assets/images/layered_tcr.png)
+![](/docs/assets/images/layered_tcr.png)
 
 ## Nested TCR
 
-![](/assets/images/nested_tcr.png)
+![](/docs/assets/images/nested_tcr.png)
 
 ## Combinatorial TCR
 
-![](/assets/images/combinatorial_tcr.png)
+![](/docs/assets/images/combinatorial_tcr.png)
 
 ## Resources
 

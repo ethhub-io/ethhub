@@ -4,7 +4,7 @@ description: Etheremon is a role-playing game with training, battling, and trans
 
 # Etheremon
 
-<img src="https://www.etheremon.com/assets/images/banner_facebook.png" alt="Etheremon" width="600" />
+<img src="https://www.etheremon.com/docs/assets/images/banner_facebook.png" alt="Etheremon" width="600" />
 
 ## Summary
 

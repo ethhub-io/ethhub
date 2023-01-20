@@ -10,7 +10,7 @@ description: Information on sharding and how it will work on Ethereum.
 
 There is a trilemma in blockchain systems that can be visualized in form of a triangle known as DCS triangle, what it conveys is "It is impossible to achieve all three Decentralization, Consistency, and Scalability simultaenously. A tradeoff is necessary \(you can choose any two but not all\)". 
 
-![](/assets/images/dcs-triangle.png)
+![](/docs/assets/images/dcs-triangle.png)
 
 Sharding is an attempt to solve this challenge. It simply means partitioning large chains \(databases\) into smaller, faster ones hence making the entire system more scalable. How?
 To solve scalability, we split the state and history stored on the main chain into shards. Each shard manages itself, has its own  transaction history, and the effect of transactions in some shard are limited to that shard only.
