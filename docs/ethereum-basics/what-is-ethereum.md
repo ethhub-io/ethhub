@@ -24,7 +24,6 @@ The scripting language used by Ethereum is Turing-complete, essentially meaning 
 
 ## Resources
 
-* [Ethereum.org - What is Ethereum?](https://ethereum.org/en/what-is-ethereum/)
 * [Blockgeek - What is Ethereum](https://blockgeeks.com/guides/ethereum/)
 * [Cointelegraph - What is Ethereum. Guide for Beginners](https://cointelegraph.com/ethereum-for-beginners/what-is-ethereum)
 * [Wikipedia - Ethereum](https://en.wikipedia.org/wiki/Ethereum)
