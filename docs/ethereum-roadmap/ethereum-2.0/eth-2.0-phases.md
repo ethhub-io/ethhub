@@ -1,22 +1,21 @@
 ---
-title: Ethereum 2.0 Phases - EthHub
+title: Ethereum upgrades - EthHub
 
-description: A guide to the phases and implementation plans of Ethereum 2.0.
+description: A guide to the roadmap and implementation plans of major Ethereum upgrades.
 ---
 
-# Ethereum 2.0 Phases
+# Ethereum Upgrades
 
-_As Ethereum 2.0 is in heavy research and development, this page may become outdated spontaneously. It is kept up to date on a best-effort basis. Last updated 16th of November, 2019._
+_As current Ethereum upgrades are in heavy research and development, this page may become outdated spontaneously. It is kept up to date on a best-effort basis. Last updated February, 2021._
 
 This page is also available in [German](eth-2.0-phases-german.md) and [Portuguese](eth-2.0-phases-portuguese.md).
 
 ## Introduction
 
-Ethereum's major network upgrade, dubbed Ethereum 2.0, Eth2 or Serenity, will bring with it Sharding, Proof of Stake, a new virtual machine \(eWASM\) and more. It’s important to understand that this upgrade will not take place at a single point in time - instead, it will be rolled out in phases. This document attempts to be a reference point for these phases and what each one includes.
-
+Ethereum's major network upgrades (previously collectively called Ethereum 2.0) will bring a Proof of Stake consensus mechanism, sharding chains, and more improvements along the way. It’s important to understand that these will not take place at a single point in time - instead, it will be rolled out in multiple upgrades. This document attempts to be a reference point for these phases and what each one includes.
 ## Design Goals
 
-Ethereum researcher Danny Ryan has [stipulated](https://github.com/ethereum/eth2.0-specs#design-goals) 5 distinct design goals for Ethereum 2.0:
+Ethereum researcher Danny Ryan has [stipulated](https://github.com/ethereum/consensus-specs#design-goals) 5 distinct design goals for Ethereum 2.0:
 
 * **Decentralization:** to allow for a typical consumer laptop with O(C) resources to process/validate O(1) shards (including any system level validation such as the beacon chain).
 * **Resilience:** to remain live through major network partitions and when very large portions of nodes go offline.
@@ -24,43 +23,54 @@ Ethereum researcher Danny Ryan has [stipulated](https://github.com/ethereum/eth2
 * **Simplicity:** to minimize complexity, even at the cost of some losses in efficiency.
 * **Longevity:** to select all components such that they are either quantum secure or can be easily swapped out for quantum secure counterparts when available.
 
-## Phase 0 - Beacon Chain
+## Beacon Chain
 
 ### **What is included?**
 
-Phase 0 is the name given to the launch of the Beacon Chain. The Beacon Chain will manage the Casper Proof of Stake protocol for itself and all of the shard chains. As Ben Edgington [puts it](https://media.consensys.net/state-of-ethereum-protocol-2-the-beacon-chain-c6b6a9a69129), “There are a number of aspects to this: managing validators and their stakes; nominating the chosen block proposer for each shard at each step; organizing validators into committees to vote on the proposed blocks; applying the consensus rules; applying rewards and penalties to validators; and, being an anchor point on which the shards register their states to facilitate cross-shard transactions.”
+The Beacon Chain is the first step towards the new consensus mechanism. The Beacon Chain manages the Casper Proof of Stake protocol for itself and later for all of the shard chains. As Ben Edgington [puts it](https://media.consensys.net/state-of-ethereum-protocol-2-the-beacon-chain-c6b6a9a69129), “There are a number of aspects to this: managing validators and their stakes; nominating the chosen block proposer for each shard at each step; organizing validators into committees to vote on the proposed blocks; applying the consensus rules; applying rewards and penalties to validators; and, being an anchor point on which the shards register their states to facilitate cross-shard transactions.”
 
 The primary source of load on the Beacon Chain will be "attestations". Attestations are availability votes for a shard block and, simultaneously, proof of stake votes for a beacon block. A sufficient number of attestations for the same shard block will create a "crosslink" which confirms the shard segment up to that shard block into the Beacon Chain.
 
-Phase 0 will use Casper the Friendly Finality Gadget (FFG) for finality. Finality, in very loose terms, means that once a particular operation has been done, it will forever be etched in history and nothing can revert that operation.
+Beacon chain uses Casper the Friendly Finality Gadget (FFG) for finality. Finality, in very loose terms, means that once a particular operation has been done, it will forever be etched in history and nothing can revert that operation.
 
-#### **Getting ether onto the beacon chain**
-All ether on the beacon chain in phase 0 will be from a one-way transaction to the deposit contract. A deposit is made to this contract with transaction data indicating the validator the deposit is for. The deposit contract is watched by every validator on the network, who will submit the deposits to the beacon chain.
+#### **Getting ether onto the Beacon Chain**
+
+Ether staked by validators on the Beacon Chain is from a one-way transaction to the [deposit contract](https://etherscan.io/address/0x00000000219ab540356cbb839cbe05303d7705fa). A deposit is made to this contract with transaction data indicating the validator the deposit is for. The deposit contract is watched by every validator on the network, who will submit the deposits to the beacon chain.
 
 After a validator public key reaches a balance of 32 ETH, it is registered as active validator and entered into queue for activation.
 
-**Please note:** this transfer to the deposit contract is only one-way, for phase 0 there is no way for the deposited eth to return to Eth1.x. This is expected to change as part of phase 1.
+**Please note:** this transfer to the deposit contract is only one-way. Withdrawals will be enabled some time after The Merge.
 
 ### **What will the network look like?**
 
-Once Phase 0 is complete, there will be two active Ethereum chains. For the sake of clarity let’s call them the Eth1 chain \(current, PoW main chain\) and the Eth2 chain \(new Beacon Chain\). During this phase, users will be able to send their ETH from the Eth1 chain to the Eth2 chain and become validators. They will NOT be able to migrate this ETH back to Eth1 (for now).
+Beacon Chain is running as its own network but it is connected to the Ethereum network where deposit contract defines current set of validators. There are no transactions or any contracts, only validators are participating in this network. 
 
-In order to run the Beacon Chain, you’re going to need a Beacon Chain client. These are currently being developed separately from the familiar suite of standard Ethereum clients (Geth, Nethermind, Pantheon, et al.) by a number of [teams](/ethereum-roadmap/ethereum-2.0/eth2.0-teams/teams-building-eth2.0/). Most of the teams are putting out periodic updates on their client development progress, and some of the teams are offering bounties to contributors to include more and more developers in building 2.0. You can contribute on Gitcoin grants [here](https://gitcoin.co/grants/)
+In order to run the Beacon Chain, you’re going to need a Beacon Chain (consensus) client. There are [multiple](https://ethereum.org/en/upgrades/get-involved/) of them being developed and production ready - Lighthouse, Prysm, Teku, Nimbus, Lodestar. Consensus client needs to be connected to execution client. In other words, you need fully synced execution client (Geth, Nethermind, Besu, Erigon..) and point the Beacon node to it.
 
-On its own, the Beacon Chain might not seem particularly useful. But, as the first component of Ethereum 2.0 to be delivered, it is the foundation of the entire system.
+The Beacon Chain running since December 2020 is not that useful for normal users but enables bootstrapping liquidity, testing and building the infrastructure for the new Ethereum consensus. 
 
 **Important Considerations**
 
-* There will be a minimum amount of ETH stake needed in order to first bootstrap the beacon chain. This is defined as `MIN_GENESIS_VALIDATOR_ACTIVE_COUNT` in the [beacon chain specification](https://github.com/ethereum/eth2.0-specs/blob/dev/specs/phase0/beacon-chain.md).
-* During Phase 0, the Eth1 chain will live uninterrupted. Nothing will change for Eth1.
+* There is a minimum amount of ETH stake needed in order to first bootstrap the Beacon Chain. This is defined as `MIN_GENESIS_VALIDATOR_ACTIVE_COUNT` in the [Beacon Chain specification](https://github.com/ethereum/eth2.0-specs/blob/dev/specs/phase0/beacon-chain.md).
+  *  This was achieved before December 1st 2020 and staked amount keeps growing.
+* During this phase, the Ethereum network will live uninterrupted. Nothing will change for Ethereum users.
 
-## Phase 1 - Shard Chains
+
+## The Merge
 
 ### What is included?
 
-Shard chains are the key to future scalability as they allow parallel transaction throughput and there will be 64 of them deployed in Phase 1 (with the possibility of adding more over time as hardware scales).
+The Merge is where Beacon Chain, previously separted chain, merges with current Ethereum network. Proof of Work Ethereum network will start listening only to Beacon Chain validators, dropping PoW miners and switching to Proof of Stake consensus. 
 
-Phase 1 is primarily concerned with the construction, validity, and consensus on the data of these shard chains. Phase 1 does not specify shard chain state execution or account balances. It'll be like a trial run for the sharding structure rather than an attempt to use shards to scale. The Beacon Chain will treat shard chain blocks as simple collections of bits with no structure or meaning.
+Data in the Ethereum network stays the same. All the history, accounts, contracts, and transactions will continue the same as today, just validated by PoS consensus. Future blocks are validated by PoS validators from the Beacon Chain, and non historical data is lost. More on [The Merge](https://ethereum.org/en/upgrades/merge/). 
+
+## Shard Chains
+
+### What is included?
+
+Shard chains are the key to future scalability as they allow parallel transaction throughput and there will be 64 of them deployed (with the possibility of adding more over time as hardware scales).
+
+Sharding is primarily concerned with the construction, validity, and consensus on the data of these shard chains. Phase 1 does not specify shard chain state execution or account balances. It'll be like a trial run for the sharding structure rather than an attempt to use shards to scale. The Beacon Chain will treat shard chain blocks as simple collections of bits with no structure or meaning.
 
 **Crosslinks** <br/>
 Periodically, the current state (the “combined data root”) of each shard gets recorded in a Beacon Chain block as a crosslink. When the Beacon Chain block has been finalised, the corresponding shard block is considered finalised, and other shards know that they can rely on it for cross-shard transactions. <br/>
@@ -69,33 +79,22 @@ Crosslinks are a set of signatures from a committee attesting to a block in a sh
 
 Shard validators, who are randomly selected by the Beacon Chain for each shard at each slot, merely come to agreement on each block’s content. They attest to the shard’s contents and state through crosslinking. It doesn’t matter what information appears in shards blocks, so long as all committees reach consensus and update the Beacon Chain on the shard regularly.
 
-### What will the network look like?
-
-The Eth1 and Eth2 chains will still operate in parallel after Phase 1.
-
 ### Important Considerations
 
-* In Phase 0, 1, and 2 the main PoW chain (Eth1) will remain live while testing and transitioning is happening on the Eth2 chain. This means that rewards will be paid to both Ethereum 2.0 validators as well as the normal PoW block rewards. Therefore, the combined inflation of the two chains may spike initially but then start to trend towards the 0-1% range as the PoW chain is gradually de-emphasized.
+* A dApp will have to choose what shard it wants to be on. That decision matters because cross-shard communication differs as it is not synchronous which means some composability is lost between shards
+* A dApp would have to have rather large data to consume all the resources in a given shard to justify spreading itself over multiple ones.
+* [Sharding specs](https://github.com/ethereum/consensus-specs#sharding) are still being researched and developed at the moment. 
 
-## Phase 2 - State Execution
+## Other upgrades
 
-### What is included?
-
-Phase 2 is where the functionality of the entire system will start to come together. Shard chains transition from simple data containers to a structured chain state and Smart Contracts will be reintroduced. Each shard will manage a virtual machine based on [eWASM](https://github.com/ewasm/design). It'll support accounts, contracts, state, and other abstractions that we’re familiar with from solidity. We can expect familiar tools like truffle, solc, ganache ported to support eWASM before or during Phase 2.
-
-Phase 2 also introduces the concept of 'Execution Environments (EEs)'. EEs within a shard can be constructed in whatever way a developer sees fit - there could be an EE for a UTXO-style chain, a Libra-style system, an EE for a fee market relayer and beyond. Every shard has access to all execution environments and has the ability to make transactions within them as well as run and interact with smart contracts. Do note that the concept of execution environments is still in heavy research and development.
-
-### Important Considerations
-* A dApp will have to choose what shard it wants to be on. That decision matters because cross-shard communication differs on Eth2 as it is not synchronous which means some composability is lost between shards<br/>
-* A dApp would have to have rather large data to consume all the resources in a given shard to justify spreading itself over multiple ones.<br/>
-* This phase will endow shards with eWASM as the EVM 2.0.
-* It is an open question when and how Ethereum 1.0 accounts and contracts will be migrated to Ethereum 2.0, there are some [upgrade plans](https://ethresear.ch/t/the-eth1-eth2-transition/6265)
+[Ethereum upgrades](https://twitter.com/VitalikButerin/status/1466411377107558402/photo/1) are not limited neither finish with these major upgrades. The path of improving Ethereum is very long and there are always new ideas emerging and priorities changing. Currently, strong research focus is on statlessness, verkle trees, history expiry and alternative history access, account abstraction, and zero knowledge cryptography.
 
 ## Resources
 
 * [Ethereum Roadmap](https://ethos.dev/ethereum-2020-roadmap/)
+* [Ethereum Upgrades](https://ethereum.org/en/upgrades/)
 * [Ethereum 2.0 Info](https://hackmd.io/@benjaminion/eth2_info)
-* [Eth 2.0 Specs](https://github.com/ethereum/eth2.0-specs)
+* [Conensus Specs](https://github.com/ethereum/eth2.0-specs)
 * [Phase 0 for Humans](https://notes.ethereum.org/jDcuUp3-T8CeFTv0YpAsHw?view)
 * [Sharding Roadmap](https://eth.wiki/en/sharding/sharding-roadmap)
 * [State of Ethereum Protocol](https://media.consensys.net/state-of-ethereum-protocol-2-the-beacon-chain-c6b6a9a69129)
