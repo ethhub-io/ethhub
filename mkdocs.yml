@@ -89,6 +89,14 @@ nav:
       - 'ZK-STARKs': 'ethereum-roadmap/layer-2-scaling/zk-starks.md'
       - 'Commit-Chains': 'ethereum-roadmap/layer-2-scaling/commit-chains.md'
       - 'Sidechains': 'ethereum-roadmap/layer-2-scaling/sidechains.md'
+  - Post-Quantum Readiness:
+      - 'PQC Overview': 'ethereum-roadmap/pqc/overview.md'
+      - 'Ethereum PQC Readiness Playbook': 'ethereum-roadmap/pqc/ethereum-pqc-readiness-playbook.md'
+      - 'Hybrid Transport Migration': 'ethereum-roadmap/pqc/hybrid-kex-patterns.md'
+      - 'Attestation and Identity Migration': 'ethereum-roadmap/pqc/attestation-and-identity.md'
+      - 'Dual-Signature Migration': 'ethereum-roadmap/pqc/dual-signature-migration.md'
+      - 'Operational Readiness Checklist': 'ethereum-roadmap/pqc/operational-readiness.md'
+      - 'PQC Source Map': 'ethereum-roadmap/pqc/source-map.md'
   - 'Privacy': 'ethereum-roadmap/privacy.md'
 - Using Ethereum:
   - 'How to Buy Ether': 'using-ethereum/how-to-buy-ether.md'
@@ -299,6 +307,7 @@ nav:
   - 'Is Ethereum more expensive to use as price rises?': 'questions-about-ethereum/is-ethereum-more-expensive-to-use-as-price-rises.md'
   - 'Why do you have to pay to use Ethereum?': 'questions-about-ethereum/why-do-you-have-to-pay-to-use-ethereum.md'
   - 'Is Ether a security?': 'questions-about-ethereum/is-ether-a-security.md'
+  - 'Is Ethereum quantum-safe?': 'questions-about-ethereum/is-ethereum-quantum-safe.md'
   - 'Is Ethereum over 1TB in size?': 'questions-about-ethereum/is-ethereum-over-1tb-in-size.md'
   - 'Is Ethereum immutable?': 'questions-about-ethereum/is-ethereum-immutable.md'
   - 'Is Ether needed for transaction fees?': 'questions-about-ethereum/is-ether-needed-for-transaction-fees.md'
